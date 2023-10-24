@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ioAlarmProperties>
+  <Properties>
+    <Enumeration DataID="E_StatusCode">
+      <Type Name="Good" TypeID="0" />
+      <Type Name="Uncertain" TypeID="1" />
+      <Type Name="UncertainSimulatedValue" TypeID="2" />
+      <Type Name="Bad" TypeID="3" />
+      <Type Name="BadOutOfRange" TypeID="4" />
+      <Type Name="BadReferenceTypeIdInvalid" TypeID="5" />
+      <Type Name="BadDeviceFailure" TypeID="6" />
+      <Type Name="BadSensorFailure" TypeID="7" />
+      <Type Name="BadOutOfService" TypeID="8" />
+      <Type Name="BadAlreadyExists" TypeID="9" />
+      <Type Name="BadConditionAlreadyDisabled" TypeID="10" />
+      <Type Name="BadInvalidState" TypeID="11" />
+      <Type Name="BadStateNotActive" TypeID="12" />
+      <Type Name="BadConditionAlreadyEnabled" TypeID="13" />
+      <Type Name="BadConditionBranchAlreadyAcked" TypeID="14" />
+      <Type Name="BadConditionBranchAlreadyConfirmed" TypeID="15" />
+      <Type Name="BadConditionAlreadyShelved" TypeID="16" />
+      <Type Name="BadConditionNotShelved" TypeID="17" />
+      <Type Name="BadShelvingTimeOutOfRange" TypeID="18" />
+      <Type Name="BadRequestNotAllowed" TypeID="19" />
+    </Enumeration>
+    <Enumeration DataID="E_EventType">
+      <Type Name="NoEvent" TypeID="0" />
+      <Type Name="Event" TypeID="1" />
+      <Type Name="Notification" TypeID="2" />
+      <Type Name="Caution" TypeID="3" />
+      <Type Name="Warning" TypeID="4" />
+      <Type Name="Alarm" TypeID="5" />
+      <Type Name="CriticalAlarm" TypeID="6" />
+    </Enumeration>
+    <Enumeration DataID="E_LimitEventType">
+      <Type Name="Level" TypeID="0" />
+      <Type Name="Deviation" TypeID="1" />
+      <Type Name="RateOfChange" TypeID="2" />
+    </Enumeration>
+  </Properties>
+  <Children>
+    <AlarmType Name="SyncData" IsBaseOnly="TRUE">
+      <Description></Description>
+      <Properties />
+      <Children>
+        <AlarmType Name="BaseEvent" IsBaseOnly="TRUE">
+          <Description></Description>
+          <Properties>
+            <Variable DataID="EventType" TypeNum="E_EventType">0</Variable>
+            <Variable DataID="LastSeverity" TypeNum="UINT">0</Variable>
+            <Variable DataID="LocalObjectIndex" TypeNum="UINT">0</Variable>
+            <Variable DataID="Message" TypeNum="STRING" />
+            <Variable DataID="Severity" TypeNum="UINT">0</Variable>
+            <Variable DataID="SeverityEscalationRate" TypeNum="LREAL" Decimals="1">0.0</Variable>
+            <Variable DataID="TagIndex" TypeNum="UINT">0</Variable>
+            <Variable DataID="TagSubIndex" TypeNum="UINT">0</Variable>
+          </Properties>
+          <Children>
+            <AlarmType Name="Condition" IsBaseOnly="TRUE">
+              <Description></Description>
+              <Properties>
+                <Variable DataID="BadQualityEnabled" TypeNum="BOOL">FALSE</Variable>
+                <Variable DataID="BadQualitySeverity" TypeNum="UINT">0</Variable>
+                <Variable DataID="BridgeGroup" TypeNum="USINT">0</Variable>
+                <Variable DataID="Comment" TypeNum="STRING" />
+                <Variable DataID="CustomName" TypeNum="STRING" />
+                <Variable DataID="Description" TypeNum="STRING" />
+                <Variable DataID="Quality" TypeNum="E_StatusCode">0</Variable>
+              </Properties>
+              <Children>
+                <AlarmType Name="AcknowledgeableCondition" IsBaseOnly="TRUE">
+                  <Description></Description>
+                  <Properties>
+                    <Variable DataID="Category" TypeNum="UINT">0</Variable>
+                  </Properties>
+                  <Children>
+                    <AlarmType Name="EventCondition" IsBaseOnly="TRUE">
+                      <Description>BaseEvent - Condition - AcknowledgeableCondition - EventCondition</Description>
+                      <Properties>
+                        <Variable DataID="AudibleEnable" TypeNum="BOOL">FALSE</Variable>
+                        <Variable DataID="GroupSuppress" TypeNum="USINT">0</Variable>
+                        <Variable DataID="GroupSuppressNormal" TypeNum="BOOL">FALSE</Variable>
+                        <Variable DataID="MaxTimeShelved" TypeNum="LREAL" Min="0" Unit="s" Decimals="1">0</Variable>
+                        <Variable DataID="OffDelay" TypeNum="LREAL" Min="0" Unit="s" Decimals="1">0</Variable>
+                        <Variable DataID="OnDelay" TypeNum="LREAL" Min="0" Unit="s" Decimals="1">0</Variable>
+                        <Variable DataID="ReEventRepeatCount" TypeNum="UINT">0</Variable>
+                        <Variable DataID="ReEventTime" TypeNum="LREAL" Min="0" Unit="s" Decimals="1">0</Variable>
+                        <Variable DataID="TemporarySilenceTime" TypeNum="LREAL" Min="0" Unit="s" Decimals="1">0</Variable>
+                        <Variable DataID="TrigSuppressGroup" TypeNum="USINT">0</Variable>
+                        <Variable DataID="TrigSuppressGroupNormal" TypeNum="BOOL">FALSE</Variable>
+                        <Variable DataID="UnshelveTime" TypeNum="LREAL">0</Variable>
+                      </Properties>
+                      <Children>
+                        <AlarmType Name="DiscreteEvent" IsBaseOnly="TRUE">
+                          <Description></Description>
+                          <Properties />
+                          <Children>
+                            <AlarmType Name="OffNormalEvent" IsBaseOnly="FALSE">
+                              <Description></Description>
+                              <Properties>
+                                <Variable DataID="NormalState" TypeNum="BOOL">FALSE</Variable>
+                              </Properties>
+                              <Children />
+                            </AlarmType>
+                          </Children>
+                        </AlarmType>
+                        <AlarmType Name="LimitEvent" IsBaseOnly="TRUE">
+                          <Description></Description>
+                          <Properties>
+                            <Variable DataID="HighHighLimit" TypeNum="LREAL" Decimals="1">0.0</Variable>
+                            <Variable DataID="HighLimit" TypeNum="LREAL" Decimals="1">0</Variable>
+                            <Variable DataID="LowLimit" TypeNum="LREAL" Decimals="1">0</Variable>
+                            <Variable DataID="LowLowLimit" TypeNum="LREAL" Decimals="1">0</Variable>
+                            <Variable DataID="OnDelay2" TypeNum="LREAL" Min="0.0" Unit="s" Decimals="1">0.0</Variable>
+                            <Variable DataID="SeverityHighHighLowLow" TypeNum="UINT">0</Variable>
+                            <Variable DataID="SeverityHighLow" TypeNum="UINT">0</Variable>
+                            <Variable DataID="UseHigh" TypeNum="BOOL">TRUE</Variable>
+                            <Variable DataID="UseHighHigh" TypeNum="BOOL">TRUE</Variable>
+                            <Variable DataID="UseLow" TypeNum="BOOL">TRUE</Variable>
+                            <Variable DataID="UseLowLow" TypeNum="BOOL">TRUE</Variable>
+                          </Properties>
+                          <Children>
+                            <AlarmType Name="GenericLimitEvent" IsBaseOnly="FALSE">
+                              <Description></Description>
+                              <Properties>
+                                <Variable DataID="LimitEventType" TypeNum="E_LimitEventType" />
+                              </Properties>
+                              <Children />
+                            </AlarmType>
+                          </Children>
+                        </AlarmType>
+                      </Children>
+                    </AlarmType>
+                  </Children>
+                </AlarmType>
+              </Children>
+            </AlarmType>
+          </Children>
+        </AlarmType>
+      </Children>
+    </AlarmType>
+  </Children>
+</ioAlarmProperties>

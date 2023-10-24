@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ioEngineeringUnits>
+    <UnitType Name="SI">
+        <Unit Name="NormalizedSigned" Min="-100.0" Max="100.0" Decimals="1">%</Unit>
+        <Unit Name="NormalizedUnsigned" Min="0.0" Max="100.0" Decimals="1">%</Unit>
+        <Unit Name="TimeSeconds" Min="0" Decimals="0">s</Unit>
+        <Unit Name="Temperature" Min="-20.0" Max="85.0" Decimals="1">°C</Unit>
+        <Unit Name="Heading" Min="0" Max="359.9" Decimals="1">°</Unit>
+        <Unit Name="RateOfTurn" Min="-10.00" Max="10.00" Decimals="2">°/s</Unit>
+    </UnitType>
+</ioEngineeringUnits>

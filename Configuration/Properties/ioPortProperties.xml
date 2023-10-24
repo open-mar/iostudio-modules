@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ioPortProperties>
+    <DevicePortTypesCollection>
+        <DevicePortType Name="Serial" IsBaseOnly="TRUE">
+            <Properties>
+                <Variable DataID="ComPort" TypeNum="STRING">COM1</Variable>
+            </Properties>
+            <Children>
+                <DevicePortType Name="Modbus RTU"/>
+                <DevicePortType Name="Serial ASCII"/>
+                <DevicePortType Name="Profibus"/>
+                <DevicePortType Name="CANopen"/>
+                <DevicePortType Name="NMEA0183"/>
+            </Children>
+        </DevicePortType>
+        <DevicePortType Name="Nic">
+            <Properties>
+                <Variable DataID="NodeID" TypeNum="DWORD" Min="1" Max="255">1</Variable>
+            </Properties>
+            <Children>
+                <DevicePortType Name="Modbus TCP/IP"/>
+            </Children>
+        </DevicePortType>
+
+        <DevicePortType Name="SANSport">
+            <Properties>
+                <Variable DataID="NodeID" TypeNum="DWORD" Min="1" Max="255">1</Variable>
+            </Properties>
+        </DevicePortType>
+
+        <DevicePortType Name="DC" IsBaseOnly="TRUE">
+            <Properties>
+                <Variable DataID="MaxCurrent" TypeNum="LREAL" Unit="A" Decimals="1">10</Variable>
+            </Properties>
+            <Children>
+                <DevicePortType Name="24VDC"/>
+                <DevicePortType Name="12VDC"/>
+                <DevicePortType Name="0V"/>
+            </Children>
+        </DevicePortType>
+        <DevicePortType Name="230VAC"/>
+    </DevicePortTypesCollection>
+    
+    <NetworkTypesCollection>
+        <NetworkType Name="SANSnet">
+            <Properties>
+                <Variable DataID="SystemID" TypeNum="DWORD" Min="1" Max="99">1</Variable>
+                <Variable DataID="PhysicalNet" TypeNum="DWORD" Min="1" Max="9">1</Variable>
+                <Variable DataID="VlanID" TypeNum="DWORD" Min="1" Max="255">1</Variable>
+            </Properties>
+            <NetworkPorts>
+                <DevicePort Name="SANSport"/>
+            </NetworkPorts>
+        </NetworkType>
+        <NetworkType Name="Ethernet">
+            <Properties>
+                <Variable DataID="NetAddr" TypeNum="STRING">192.168.0</Variable>
+            </Properties>
+            <NetworkPorts>
+                <DevicePort Name="Nic"/>
+            </NetworkPorts>
+        </NetworkType>
+    </NetworkTypesCollection>
+
+    <ProgramPortTypesCollection>
+        <ProgramPortType Name="Socket" IsBaseOnly="TRUE" DevicePort="Nic">
+            <Properties>
+                <Variable DataID="PortID" TypeNum="DWORD">4370</Variable>
+            </Properties>
+            <Children>
+                <ProgramPortType Name="TCP/IP" DevicePort="Nic"/>
+                <ProgramPortType Name="UDP Broadcast" DevicePort="Nic"/>
+                <ProgramPortType Name="UDP Multicast" DevicePort="Nic"/>
+                <ProgramPortType Name="UDP Unicast" DevicePort="Nic"/>
+            </Children>
+        </ProgramPortType>
+        <ProgramPortType Name="WebSocket" DevicePort="Nic">
+            <Properties>
+                <Variable DataID="URL" TypeNum="STRING">https://www.seam.no/</Variable>
+            </Properties>
+        </ProgramPortType>
+        <ProgramPortType Name="ComPort" DevicePort="Serial"/>
+    </ProgramPortTypesCollection>
+
+    <ProtocolsCollection>
+        <Protocol Name="OPC UA Server">
+            <Properties>
+                <Variable DataID="ServerID" TypeNum="STRING"></Variable>
+            </Properties>
+            <ProtocolPorts>
+                <ProgramPort Name="TCP/IP"/>
+                <ProgramPort Name="WebSocket"/>
+            </ProtocolPorts>
+        </Protocol>
+        <Protocol Name="OPC UA Client">
+            <Properties>
+                <Variable DataID="ServerID" TypeNum="STRING"></Variable>
+            </Properties>
+            <ProtocolPorts>
+                <ProgramPort Name="TCP/IP"/>
+                <ProgramPort Name="WebSocket"/>
+            </ProtocolPorts>
+        </Protocol>
+        <Protocol Name="IEC 61162-450">
+            <ProtocolPorts>
+                <ProgramPort Name="TCP/IP"/>
+                <ProgramPort Name="UDP Broadcast"/>
+                <ProgramPort Name="UDP Multicast"/>
+                <ProgramPort Name="UDP Unicast"/>
+            </ProtocolPorts>
+            <Properties>
+            </Properties>
+        </Protocol>
+        <Protocol Name="Modbus">
+            <ProtocolPorts>
+                <ProgramPort Name="TCP/IP"/>
+                <ProgramPort Name="ComPort"/>
+            </ProtocolPorts>
+            <Properties>
+            </Properties>
+        </Protocol>
+    </ProtocolsCollection>
+</ioPortProperties>

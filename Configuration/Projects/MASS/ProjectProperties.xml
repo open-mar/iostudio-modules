@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectProperties Name="MASS">
+    <Description>Maritime Autonomous Surface Ship</Description>
+    <Properties>
+        <Variable DataID="Version" TypeNum="STRING">1.0.0.1</Variable>
+        <Variable DataID="DateEdit" TypeNum="DATE">24.10.2023</Variable>
+        <Variable DataID="Author" TypeNum="STRING">OMI</Variable>
+    </Properties>
+</ProjectProperties>
