@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModuleClass Name="Batt">
+    <Description>Battery management</Description>
+    <ModuleItem ID="Batt" />
+</ModuleClass>
