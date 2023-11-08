@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModuleClass Name="Pow">
     <Description>Power management</Description>
-    <ModuleItem ID="Pow" />
+    <ModuleObject GlobalID="Pow" />
 </ModuleClass>

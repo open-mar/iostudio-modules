@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataList Name="SteerControlData">
+    <Description>Data for motion steering control</Description>
+    <DataListObject ParentGlobalID="Steer.Cp1" />
+    <DataListObject ParentGlobalID="Steer.Cp2" />
+</DataList>

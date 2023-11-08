@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModuleClass Name="Ews">
     <Description>Engineering Workstation</Description>
-    <ModuleItem ID="Ews" />
+    <ModuleObject GlobalID="Ews" />
 </ModuleClass>

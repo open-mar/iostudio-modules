@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModuleClass Name="Hvac">
     <Description>Heat Ventilation and Air Condition</Description>
-    <ModuleItem ID="Hvac" />
+    <ModuleObject GlobalID="Hvac" />
 </ModuleClass>

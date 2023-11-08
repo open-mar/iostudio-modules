@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModuleClass Name="Steer">
     <Description>Steering and motion control</Description>
-    <ModuleItem ID="Steer" />
+    <ModuleObject GlobalID="Steer" />
 </ModuleClass>

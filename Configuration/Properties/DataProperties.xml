@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataProperties Version="1.0.0.1">
+    <Properties>
+        <Enumeration LocalID="TypeRawDataType">
+            <Type Name="INT" TypeID="0"/>
+            <Type Name="UINT" TypeID="1"/>
+            <Type Name="DINT" TypeID="2"/>
+            <Type Name="UDINT" TypeID="3"/>
+            <Type Name="REAL" TypeID="4"/>
+            <Type Name="LREAL" TypeID="5"/>
+        </Enumeration>
+        <Enumeration LocalID="TypeUnit">
+            <Type Name="m/s" TypeID="0"/>
+            <Type Name="kt" TypeID="1"/>
+            <Type Name="kg" TypeID="2"/>
+            <Type Name="nm" TypeID="3"/>
+            <Type Name="m" TypeID="4"/>
+            <Type Name="°C" TypeID="5"/>
+        </Enumeration>
+    </Properties>
+    
+    <Children>
+        <DataType Name="ModbusBase" IsBaseOnly="TRUE">
+            <Properties>
+                <Variable LocalID="RegisterAddress" TypeNum="DINT" Min="0" Max="16383">0</Variable>
+            </Properties>
+            <Children>
+                <DataType Name="ModbusInteger">
+                    <Values>
+                        <Variable LocalID="RegValue" TypeNum="DINT">0</Variable>
+                    </Values>
+                </DataType>
+                <DataType Name="ModbusReal">
+                    <Values>
+                        <Variable LocalID="RegValue" TypeNum="LREAL">0</Variable>
+                    </Values>
+                </DataType>
+            </Children>
+        </DataType>
+        <DataType Name="IoBase" IsBaseOnly="TRUE">
+            <Properties>
+            </Properties>
+            <Children>
+                <DataType Name="AnalogItem" IsBaseOnly="TRUE">
+                    <Values>
+                        <Variable LocalID="Raw" TypeNum="DINT">0</Variable>
+                        <Variable LocalID="Signal" TypeNum="LREAL">0.0</Variable>
+                    </Values>
+                    <Properties>
+                        <Variable LocalID="RawDataType" TypeNum="TypeRawDataType">0</Variable>
+                        <Variable LocalID="RawLow" TypeNum="LREAL" Unit="" Decimals="3" Min="-1.0" Max="1.0">-1.0</Variable>
+                        <Variable LocalID="RawHigh" TypeNum="LREAL" Unit="" Decimals="3" Min="-1.0" Max="1.0">1.0</Variable>
+                    </Properties>
+                    <Children>
+                        <DataType Name="AnalogInput" Direction="Input"/>
+                        <DataType Name="AnalogOutput" Direction="Output"/>
+                    </Children>
+                </DataType>
+                <DataType Name="DigitalItem" IsBaseOnly="TRUE">
+                    <Values>
+                        <Variable LocalID="Signal" TypeNum="BOOL">FALSE</Variable>
+                    </Values>
+                    <Children>
+                        <DataType Name="DigitalInput" Direction="Input"/>
+                        <DataType Name="DigitalOutput" Direction="Output"/>
+                    </Children>
+                </DataType>
+            </Children>
+        </DataType>
+        <DataType Name="N183Base" IsBaseOnly="TRUE">
+        </DataType>
+    </Children>
+</DataProperties>
