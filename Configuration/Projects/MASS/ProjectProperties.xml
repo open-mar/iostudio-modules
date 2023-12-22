@@ -2,8 +2,8 @@
 <ProjectProperties Name="MASS">
     <Description>Maritime Autonomous Surface Ship</Description>
     <Properties>
-        <Variable DataID="Version" TypeNum="STRING">1.0.0.1</Variable>
-        <Variable DataID="DateEdit" TypeNum="DATE">24.10.2023</Variable>
-        <Variable DataID="Author" TypeNum="STRING">OMI</Variable>
+        <Variable LocalID="Version" TypeNum="String">1.0.0.1</Variable>
+        <Variable LocalID="DateEdit" TypeNum="Date">21.JUN.2023</Variable>
+        <Variable LocalID="Author" TypeNum="String">OMI</Variable>
     </Properties>
 </ProjectProperties>

@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<DataList Name="AuxData">
-    <Description>Auxiliary data list</Description>
-    <DataListObject ParentGlobalID="Aux1" />
-</DataList>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PanelProperties Version="1.0.0.1">
+    <Properties>
+        <Enumeration LocalID="ioIconType">
+            <Type Name="AllApps" TypeID="0"/>
+            <Type Name="ActionCenter" TypeID="1"/>
+            <Type Name="ActionCenterNotification" TypeID="2"/>
+            <Type Name="ArrowUp8" TypeID="3"/>
+            <Type Name="ArrowDown8" TypeID="4"/>
+            <Type Name="ArrowRight8" TypeID="5"/>
+            <Type Name="ArrowLeft8" TypeID="6"/>
+            <Type Name="Back" TypeID="7"/>
+            <Type Name="Brightness" TypeID="8"/>
+            <Type Name="Cancel" TypeID="9"/>
+            <Type Name="CashDrawer" TypeID="10"/>
+            <Type Name="CheckMark" TypeID="11"/>
+            <Type Name="ChevronUp" TypeID="12"/>
+            <Type Name="ChevronDown" TypeID="13"/>
+            <Type Name="ChevronLeftMed" TypeID="14"/>
+            <Type Name="ChevronRightMed" TypeID="15"/>
+            <Type Name="ClearSelection" TypeID="30"/>
+            <Type Name="ClosePane" TypeID="31"/>
+            <Type Name="ClosePaneMirrored" TypeID="32"/>
+            <Type Name="Connect" TypeID="33"/>
+            <Type Name="Connected" TypeID="34"/>
+            <Type Name="Contact" TypeID="35"/>
+            <Type Name="Copy" TypeID="36"/>
+            <Type Name="Cut" TypeID="37"/>
+            <Type Name="DisconnectDisplay" TypeID="38"/>
+            <Type Name="Delete" TypeID="39"/>
+            <Type Name="DeviceMonitorNoPic" TypeID="40"/>
+            <Type Name="Devices" TypeID="41"/>
+            <Type Name="Dictionary" TypeID="42"/>
+            <Type Name="Download" TypeID="43"/>
+            <Type Name="Edit" TypeID="44"/>
+            <Type Name="Error" TypeID="45"/>
+            <Type Name="Ethernet" TypeID="60"/>
+            <Type Name="EthernetError" TypeID="61"/>
+            <Type Name="EthernetWarning" TypeID="62"/>
+            <Type Name="Export" TypeID="63"/>
+            <Type Name="Filter" TypeID="64"/>
+            <Type Name="Folder" TypeID="65"/>
+            <Type Name="FolderOpen" TypeID="66"/>
+            <Type Name="FolderFill" TypeID="67"/>
+            <Type Name="Forward" TypeID="68"/>
+            <Type Name="GlobalNavigationButton" TypeID="69"/>
+            <Type Name="Globe" TypeID="70"/>
+            <Type Name="Help" TypeID="71"/>
+            <Type Name="Home" TypeID="72"/>
+            <Type Name="Important" TypeID="73"/>
+            <Type Name="Import" TypeID="74"/>
+            <Type Name="IncomingCall" TypeID="75"/>
+            <Type Name="Info" TypeID="90"/>
+            <Type Name="IOT" TypeID="91"/>
+            <Type Name="Library" TypeID="92"/>
+            <Type Name="Link" TypeID="93"/>
+            <Type Name="Location" TypeID="94"/>
+            <Type Name="LowerBrightness" TypeID="95"/>
+            <Type Name="More" TypeID="96"/>
+            <Type Name="MoveToFolder" TypeID="97"/>
+            <Type Name="NewFolder" TypeID="98"/>
+            <Type Name="OpenPane" TypeID="99"/>
+            <Type Name="OpenPaneMirrored" TypeID="100"/>
+            <Type Name="OtherUser" TypeID="101"/>
+            <Type Name="Paste" TypeID="102"/>
+            <Type Name="PersonalFolder" TypeID="103"/>
+            <Type Name="Play" TypeID="104"/>
+            <Type Name="Process" TypeID="105"/>
+            <Type Name="Project" TypeID="120"/>
+            <Type Name="Redo" TypeID="121"/>
+            <Type Name="Relationship" TypeID="122"/>
+            <Type Name="Remove" TypeID="123"/>
+            <Type Name="ReportDocument" TypeID="124"/>
+            <Type Name="ResizeTouchLarger" TypeID="125"/>
+            <Type Name="ResizeTouchSmaller" TypeID="126"/>
+            <Type Name="ReturnToCall" TypeID="127"/>
+            <Type Name="Save" TypeID="128"/>
+            <Type Name="SaveLocal" TypeID="129"/>
+            <Type Name="SaveAs" TypeID="130"/>
+            <Type Name="SaveCopy" TypeID="131"/>
+            <Type Name="SelectAll" TypeID="132"/>
+            <Type Name="Setting" TypeID="133"/>
+            <Type Name="Search" TypeID="134"/>
+            <Type Name="Set" TypeID="135"/>
+            <Type Name="Sort" TypeID="150"/>
+            <Type Name="SpeedHigh" TypeID="151"/>
+            <Type Name="StatusCircleRing" TypeID="152"/>
+            <Type Name="StatusCircleErrorX" TypeID="153"/>
+            <Type Name="StatusCircleCheckmark" TypeID="154"/>
+            <Type Name="Stop" TypeID="155"/>
+            <Type Name="swap_horiz" TypeID="156"/>
+            <Type Name="Sync" TypeID="157"/>
+            <Type Name="SyncFolder" TypeID="158"/>
+            <Type Name="TaskView" TypeID="159"/>
+            <Type Name="TiltDown" TypeID="160"/>
+            <Type Name="Tiles" TypeID="161"/>
+            <Type Name="TwoPage" TypeID="162"/>
+            <Type Name="Undo" TypeID="163"/>
+            <Type Name="Upload" TypeID="164"/>
+            <Type Name="View" TypeID="165"/>
+            <Type Name="VirtualMachineGroup" TypeID="180"/>
+            <Type Name="Warning" TypeID="181"/>
+        </Enumeration>
+        <Enumeration LocalID="ioGlyphType">
+            <Type Name="Windows" TypeID="0"/>
+            <Type Name="MaterialDesign" TypeID="1"/>
+        </Enumeration>
+        <Enumeration LocalID="ioColorType">
+            <Type Name="Normal" TypeID="0"/>
+            <Type Name="Raised" TypeID="1"/>
+            <Type Name="Indent" TypeID="2"/>
+            <Type Name="Flat" TypeID="3"/>
+            <Type Name="Selected" TypeID="4"/>
+            <Type Name="Thumb" TypeID="5"/>
+            <Type Name="Amplified" TypeID="6"/>
+            <Type Name="Running" TypeID="7"/>
+            <Type Name="Caution" TypeID="8"/>
+            <Type Name="Warning" TypeID="9"/>
+            <Type Name="Alarm" TypeID="10"/>
+            <Type Name="Critical" TypeID="11"/>
+        </Enumeration>
+        <Enumeration LocalID="ioColorGeneral">
+            <Type Name="AutomationDevicePrimary" TypeID="0"/>
+            <Type Name="AutomationDeviceSceondary" TypeID="1"/>
+            <Type Name="AutomationPipePrimary" TypeID="2"/>
+            <Type Name="AutomationPipeSecondary" TypeID="3"/>
+            <Type Name="AutomationPipeTertiary" TypeID="4"/>
+            <Type Name="AutomationPipeOverlay" TypeID="5"/>
+            <Type Name="AutomationPipeDisabled" TypeID="6"/>
+            <Type Name="AutomationAcidAlkalis" TypeID="7"/>
+            <Type Name="AutomationAirVentilation" TypeID="8"/>
+            <Type Name="AutomationFireFighting" TypeID="9"/>
+            <Type Name="AutomationFlammableGas" TypeID="10"/>
+            <Type Name="AutomationFreshWater" TypeID="11"/>
+            <Type Name="AutomationFuel" TypeID="12"/>
+            <Type Name="AutomationMasses" TypeID="13"/>
+            <Type Name="AutomationNonFlammableGas" TypeID="14"/>
+            <Type Name="AutomationOil" TypeID="15"/>
+            <Type Name="AutomationSeaWater" TypeID="30"/>
+            <Type Name="AutomationSteam" TypeID="31"/>
+            <Type Name="AutomationWasteMedia" TypeID="32"/>
+            <Type Name="InstrumentEnhancedPrimary" TypeID="33"/>
+            <Type Name="InstrumentEnhancedSecondary" TypeID="34"/>
+            <Type Name="InstrumentEnhancedTertiary" TypeID="35"/>
+            <Type Name="InstrumentRegularPrimary" TypeID="36"/>
+            <Type Name="InstrumentRegularSecondary" TypeID="37"/>
+            <Type Name="InstrumentRegularTertiary" TypeID="38"/>
+            <Type Name="InstrumentFramePrimary" TypeID="39"/>
+            <Type Name="InstrumentFrameSecondary" TypeID="40"/>
+            <Type Name="InstrumentFrameTertiary" TypeID="41"/>
+            <Type Name="InstrumentTickPrimary" TypeID="42"/>
+            <Type Name="InstrumentTickSecondary" TypeID="43"/>
+            <Type Name="InstrumentTickTertiary" TypeID="44"/>
+            <Type Name="InstrumentStarboard" TypeID="45"/>
+            <Type Name="InstrumentPort" TypeID="60"/>
+            <Type Name="AlertRunning" TypeID="61"/>
+            <Type Name="AlertCaution" TypeID="62"/>
+            <Type Name="AlertWarning" TypeID="63"/>
+            <Type Name="AlertAlarm" TypeID="64"/>
+            <Type Name="AlertCritical" TypeID="65"/>
+            <Type Name="AlertLimitPrimary" TypeID="66"/>
+            <Type Name="AlertLimitSecondary" TypeID="67"/>
+        </Enumeration>
+    </Properties>
+    <Children>
+        <GraphicsType Name="GraphicsText" IsBaseOnly="TRUE">
+            <Description/>
+            <Properties>
+                <Variable LocalID="Text" TypeNum="String"/>
+            </Properties>
+            <Children>
+                <GraphicsType Name="ioButton"/>
+                <GraphicsType Name="ioTextBox"/>
+                <GraphicsType Name="ioLabel"/>
+            </Children>
+        </GraphicsType>
+        <GraphicsType Name="ioRadioButton"/>
+        <GraphicsType Name="ioComboBox"/>
+        <GraphicsType Name="ioCheckBox">
+            <Properties>
+                <Variable LocalID="IsChecked" TypeNum="Bool">FALSE</Variable>
+            </Properties>
+        </GraphicsType>
+        <GraphicsType Name="ioIcon">
+            <Properties>
+                <Variable LocalID="TypeIcon" TypeEnumeration="ioIconType">0</Variable>
+                <Variable LocalID="TypeGlyph" TypeEnumeration="ioGlyphType">0</Variable>
+                <Variable LocalID="TypeColor" TypeEnumeration="ioColorGeneral">0</Variable>
+            </Properties>
+        </GraphicsType>
+        <GraphicsType Name="ioPanelGrid"/>
+    </Children>
+</PanelProperties>

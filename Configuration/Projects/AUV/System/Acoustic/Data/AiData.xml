@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataList Name="AiData">
+    <Description>Data for acoustic interface</Description>
+    <DataListObject ParentGlobalID="Ai">
+        <Variable LocalID="AddressIPv4Destination" TypeNum="UInt32">0</Variable>
+        <Variable LocalID="PayloadCommand" TypeNum="UInt32">0</Variable>
+        <Method LocalID="AcousticCommand">
+            <VariableID>AddressIPv4Destination</VariableID>
+            <VariableID>PayloadCommand</VariableID>
+        </Method>
+        <Method LocalID="AcousticConfig" />
+    </DataListObject>
+</DataList>

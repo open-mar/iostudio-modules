@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataList Name="CbData">
+    <Description>Controller Board data list</Description>
+    <DataListObject ParentGlobalID="Epv.Cb">
+        <Variable LocalID="CmdRudderPort" TypeNum="Float" Unit="%" Decimals="1" Min="-100.0" Max="100.0">0.0</Variable>
+        <Variable LocalID="CmdRudderStb" TypeNum="Float" Unit="%" Decimals="1" Min="-100.0" Max="100.0">0.0</Variable>
+    </DataListObject>
+</DataList>

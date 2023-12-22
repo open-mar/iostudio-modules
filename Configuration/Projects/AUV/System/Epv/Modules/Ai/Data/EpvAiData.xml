@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataList Name="EpvAiData">
+    <Description>Data for acoustic interface in EPV</Description>
+    <DataListObject ParentGlobalID="Epv.Ai">
+        <Variable LocalID="TimeOfFlight" TypeNum="Float" Unit="s" Decimals="1" Min="0.0" Max="9999.0">0.0</Variable>
+    </DataListObject>
+</DataList>

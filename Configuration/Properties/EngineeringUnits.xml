@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ioEngineeringUnits>
+<EngineeringUnits>
     <UnitType Name="SI">
         <Unit Name="NormalizedSigned" Min="-100.0" Max="100.0" Decimals="1">%</Unit>
         <Unit Name="NormalizedUnsigned" Min="0.0" Max="100.0" Decimals="1">%</Unit>
@@ -8,4 +8,4 @@
         <Unit Name="Heading" Min="0" Max="359.9" Decimals="1">°</Unit>
         <Unit Name="RateOfTurn" Min="-10.00" Max="10.00" Decimals="2">°/s</Unit>
     </UnitType>
-</ioEngineeringUnits>
+</EngineeringUnits>
