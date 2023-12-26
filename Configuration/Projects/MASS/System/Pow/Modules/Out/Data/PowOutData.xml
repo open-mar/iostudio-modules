@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataList Name="PowOutData">
+    <Description></Description>
+    <DataListObject ParentGlobalID="Pow.Out12M">
+        <Variable LocalID="OnCh1" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh2" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh3" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh4" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh5" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh6" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh7" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh8" TypeNum="Bool">FALSE</Variable>
+        <Method LocalID="SwitchOnCh1" />
+        <Method LocalID="SwitchOnCh2" />
+        <Method LocalID="SwitchOnCh3" />
+        <Method LocalID="SwitchOnCh4" />
+        <Method LocalID="SwitchOnCh5" />
+        <Method LocalID="SwitchOnCh6" />
+        <Method LocalID="SwitchOnCh7" />
+        <Method LocalID="SwitchOnCh8" />
+        <Method LocalID="SwitchOffCh1" />
+        <Method LocalID="SwitchOffCh2" />
+        <Method LocalID="SwitchOffCh3" />
+        <Method LocalID="SwitchOffCh4" />
+        <Method LocalID="SwitchOffCh5" />
+        <Method LocalID="SwitchOffCh6" />
+        <Method LocalID="SwitchOffCh7" />
+        <Method LocalID="SwitchOffCh8" />
+        <Event LocalID="OutStatus">
+            <NumberID>OnCh1</NumberID>
+            <NumberID>OnCh2</NumberID>
+            <NumberID>OnCh3</NumberID>
+            <NumberID>OnCh4</NumberID>
+            <NumberID>OnCh5</NumberID>
+            <NumberID>OnCh6</NumberID>
+            <NumberID>OnCh7</NumberID>
+            <NumberID>OnCh8</NumberID>
+        </Event>
+    </DataListObject>
+    <DataListObject ParentGlobalID="Pow.Out12F">
+        <Variable LocalID="OnCh1" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh2" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh3" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh4" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh5" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh6" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh7" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh8" TypeNum="Bool">FALSE</Variable>
+        <Method LocalID="SwitchOnCh1" />
+        <Method LocalID="SwitchOnCh2" />
+        <Method LocalID="SwitchOnCh3" />
+        <Method LocalID="SwitchOnCh4" />
+        <Method LocalID="SwitchOnCh5" />
+        <Method LocalID="SwitchOnCh6" />
+        <Method LocalID="SwitchOnCh7" />
+        <Method LocalID="SwitchOnCh8" />
+        <Method LocalID="SwitchOffCh1" />
+        <Method LocalID="SwitchOffCh2" />
+        <Method LocalID="SwitchOffCh3" />
+        <Method LocalID="SwitchOffCh4" />
+        <Method LocalID="SwitchOffCh5" />
+        <Method LocalID="SwitchOffCh6" />
+        <Method LocalID="SwitchOffCh7" />
+        <Method LocalID="SwitchOffCh8" />
+        <Event LocalID="OutStatus">
+            <NumberID>OnCh1</NumberID>
+            <NumberID>OnCh2</NumberID>
+            <NumberID>OnCh3</NumberID>
+            <NumberID>OnCh4</NumberID>
+            <NumberID>OnCh5</NumberID>
+            <NumberID>OnCh6</NumberID>
+            <NumberID>OnCh7</NumberID>
+            <NumberID>OnCh8</NumberID>
+        </Event>
+    </DataListObject>
+    <DataListObject ParentGlobalID="Pow.Out12A">
+        <Variable LocalID="OnCh1" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh2" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh3" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh4" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh5" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh6" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh7" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh8" TypeNum="Bool">FALSE</Variable>
+        <Method LocalID="SwitchOnCh1" />
+        <Method LocalID="SwitchOnCh2" />
+        <Method LocalID="SwitchOnCh3" />
+        <Method LocalID="SwitchOnCh4" />
+        <Method LocalID="SwitchOnCh5" />
+        <Method LocalID="SwitchOnCh6" />
+        <Method LocalID="SwitchOnCh7" />
+        <Method LocalID="SwitchOnCh8" />
+        <Method LocalID="SwitchOffCh1" />
+        <Method LocalID="SwitchOffCh2" />
+        <Method LocalID="SwitchOffCh3" />
+        <Method LocalID="SwitchOffCh4" />
+        <Method LocalID="SwitchOffCh5" />
+        <Method LocalID="SwitchOffCh6" />
+        <Method LocalID="SwitchOffCh7" />
+        <Method LocalID="SwitchOffCh8" />
+        <Event LocalID="OutStatus">
+            <NumberID>OnCh1</NumberID>
+            <NumberID>OnCh2</NumberID>
+            <NumberID>OnCh3</NumberID>
+            <NumberID>OnCh4</NumberID>
+            <NumberID>OnCh5</NumberID>
+            <NumberID>OnCh6</NumberID>
+            <NumberID>OnCh7</NumberID>
+            <NumberID>OnCh8</NumberID>
+        </Event>
+    </DataListObject>
+    <DataListObject ParentGlobalID="Pow.Out24M">
+        <Variable LocalID="OnCh1" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh2" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh3" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh4" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh5" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh6" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh7" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh8" TypeNum="Bool">FALSE</Variable>
+        <Method LocalID="SwitchOnCh1" />
+        <Method LocalID="SwitchOnCh2" />
+        <Method LocalID="SwitchOnCh3" />
+        <Method LocalID="SwitchOnCh4" />
+        <Method LocalID="SwitchOnCh5" />
+        <Method LocalID="SwitchOnCh6" />
+        <Method LocalID="SwitchOnCh7" />
+        <Method LocalID="SwitchOnCh8" />
+        <Method LocalID="SwitchOffCh1" />
+        <Method LocalID="SwitchOffCh2" />
+        <Method LocalID="SwitchOffCh3" />
+        <Method LocalID="SwitchOffCh4" />
+        <Method LocalID="SwitchOffCh5" />
+        <Method LocalID="SwitchOffCh6" />
+        <Method LocalID="SwitchOffCh7" />
+        <Method LocalID="SwitchOffCh8" />
+        <Event LocalID="OutStatus">
+            <NumberID>OnCh1</NumberID>
+            <NumberID>OnCh2</NumberID>
+            <NumberID>OnCh3</NumberID>
+            <NumberID>OnCh4</NumberID>
+            <NumberID>OnCh5</NumberID>
+            <NumberID>OnCh6</NumberID>
+            <NumberID>OnCh7</NumberID>
+            <NumberID>OnCh8</NumberID>
+        </Event>
+    </DataListObject>
+    <DataListObject ParentGlobalID="Pow.Out24F">
+        <Variable LocalID="OnCh1" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh2" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh3" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh4" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh5" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh6" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh7" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh8" TypeNum="Bool">FALSE</Variable>
+        <Method LocalID="SwitchOnCh1" />
+        <Method LocalID="SwitchOnCh2" />
+        <Method LocalID="SwitchOnCh3" />
+        <Method LocalID="SwitchOnCh4" />
+        <Method LocalID="SwitchOnCh5" />
+        <Method LocalID="SwitchOnCh6" />
+        <Method LocalID="SwitchOnCh7" />
+        <Method LocalID="SwitchOnCh8" />
+        <Method LocalID="SwitchOffCh1" />
+        <Method LocalID="SwitchOffCh2" />
+        <Method LocalID="SwitchOffCh3" />
+        <Method LocalID="SwitchOffCh4" />
+        <Method LocalID="SwitchOffCh5" />
+        <Method LocalID="SwitchOffCh6" />
+        <Method LocalID="SwitchOffCh7" />
+        <Method LocalID="SwitchOffCh8" />
+        <Event LocalID="OutStatus">
+            <NumberID>OnCh1</NumberID>
+            <NumberID>OnCh2</NumberID>
+            <NumberID>OnCh3</NumberID>
+            <NumberID>OnCh4</NumberID>
+            <NumberID>OnCh5</NumberID>
+            <NumberID>OnCh6</NumberID>
+            <NumberID>OnCh7</NumberID>
+            <NumberID>OnCh8</NumberID>
+        </Event>
+    </DataListObject>
+    <DataListObject ParentGlobalID="Pow.Out24A">
+        <Variable LocalID="OnCh1" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh2" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh3" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh4" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh5" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh6" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh7" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh8" TypeNum="Bool">FALSE</Variable>
+        <Method LocalID="SwitchOnCh1" />
+        <Method LocalID="SwitchOnCh2" />
+        <Method LocalID="SwitchOnCh3" />
+        <Method LocalID="SwitchOnCh4" />
+        <Method LocalID="SwitchOnCh5" />
+        <Method LocalID="SwitchOnCh6" />
+        <Method LocalID="SwitchOnCh7" />
+        <Method LocalID="SwitchOnCh8" />
+        <Method LocalID="SwitchOffCh1" />
+        <Method LocalID="SwitchOffCh2" />
+        <Method LocalID="SwitchOffCh3" />
+        <Method LocalID="SwitchOffCh4" />
+        <Method LocalID="SwitchOffCh5" />
+        <Method LocalID="SwitchOffCh6" />
+        <Method LocalID="SwitchOffCh7" />
+        <Method LocalID="SwitchOffCh8" />
+        <Event LocalID="OutStatus">
+            <NumberID>OnCh1</NumberID>
+            <NumberID>OnCh2</NumberID>
+            <NumberID>OnCh3</NumberID>
+            <NumberID>OnCh4</NumberID>
+            <NumberID>OnCh5</NumberID>
+            <NumberID>OnCh6</NumberID>
+            <NumberID>OnCh7</NumberID>
+            <NumberID>OnCh8</NumberID>
+        </Event>
+    </DataListObject>
+    <DataListObject ParentGlobalID="Pow.Out220M">
+        <Variable LocalID="OnCh1" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh2" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh3" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh4" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh5" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh6" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh7" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh8" TypeNum="Bool">FALSE</Variable>
+        <Method LocalID="SwitchOnCh1" />
+        <Method LocalID="SwitchOnCh2" />
+        <Method LocalID="SwitchOnCh3" />
+        <Method LocalID="SwitchOnCh4" />
+        <Method LocalID="SwitchOnCh5" />
+        <Method LocalID="SwitchOnCh6" />
+        <Method LocalID="SwitchOnCh7" />
+        <Method LocalID="SwitchOnCh8" />
+        <Method LocalID="SwitchOffCh1" />
+        <Method LocalID="SwitchOffCh2" />
+        <Method LocalID="SwitchOffCh3" />
+        <Method LocalID="SwitchOffCh4" />
+        <Method LocalID="SwitchOffCh5" />
+        <Method LocalID="SwitchOffCh6" />
+        <Method LocalID="SwitchOffCh7" />
+        <Method LocalID="SwitchOffCh8" />
+        <Event LocalID="OutStatus">
+            <NumberID>OnCh1</NumberID>
+            <NumberID>OnCh2</NumberID>
+            <NumberID>OnCh3</NumberID>
+            <NumberID>OnCh4</NumberID>
+            <NumberID>OnCh5</NumberID>
+            <NumberID>OnCh6</NumberID>
+            <NumberID>OnCh7</NumberID>
+            <NumberID>OnCh8</NumberID>
+        </Event>
+    </DataListObject>
+    <DataListObject ParentGlobalID="Pow.Out220F">
+        <Variable LocalID="OnCh1" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh2" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh3" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh4" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh5" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh6" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh7" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh8" TypeNum="Bool">FALSE</Variable>
+        <Method LocalID="SwitchOnCh1" />
+        <Method LocalID="SwitchOnCh2" />
+        <Method LocalID="SwitchOnCh3" />
+        <Method LocalID="SwitchOnCh4" />
+        <Method LocalID="SwitchOnCh5" />
+        <Method LocalID="SwitchOnCh6" />
+        <Method LocalID="SwitchOnCh7" />
+        <Method LocalID="SwitchOnCh8" />
+        <Method LocalID="SwitchOffCh1" />
+        <Method LocalID="SwitchOffCh2" />
+        <Method LocalID="SwitchOffCh3" />
+        <Method LocalID="SwitchOffCh4" />
+        <Method LocalID="SwitchOffCh5" />
+        <Method LocalID="SwitchOffCh6" />
+        <Method LocalID="SwitchOffCh7" />
+        <Method LocalID="SwitchOffCh8" />
+        <Event LocalID="OutStatus">
+            <NumberID>OnCh1</NumberID>
+            <NumberID>OnCh2</NumberID>
+            <NumberID>OnCh3</NumberID>
+            <NumberID>OnCh4</NumberID>
+            <NumberID>OnCh5</NumberID>
+            <NumberID>OnCh6</NumberID>
+            <NumberID>OnCh7</NumberID>
+            <NumberID>OnCh8</NumberID>
+        </Event>
+    </DataListObject>
+    <DataListObject ParentGlobalID="Pow.Out220A">
+        <Variable LocalID="OnCh1" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh2" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh3" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh4" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh5" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh6" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh7" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="OnCh8" TypeNum="Bool">FALSE</Variable>
+        <Method LocalID="SwitchOnCh1" />
+        <Method LocalID="SwitchOnCh2" />
+        <Method LocalID="SwitchOnCh3" />
+        <Method LocalID="SwitchOnCh4" />
+        <Method LocalID="SwitchOnCh5" />
+        <Method LocalID="SwitchOnCh6" />
+        <Method LocalID="SwitchOnCh7" />
+        <Method LocalID="SwitchOnCh8" />
+        <Method LocalID="SwitchOffCh1" />
+        <Method LocalID="SwitchOffCh2" />
+        <Method LocalID="SwitchOffCh3" />
+        <Method LocalID="SwitchOffCh4" />
+        <Method LocalID="SwitchOffCh5" />
+        <Method LocalID="SwitchOffCh6" />
+        <Method LocalID="SwitchOffCh7" />
+        <Method LocalID="SwitchOffCh8" />
+        <Event LocalID="OutStatus">
+            <NumberID>OnCh1</NumberID>
+            <NumberID>OnCh2</NumberID>
+            <NumberID>OnCh3</NumberID>
+            <NumberID>OnCh4</NumberID>
+            <NumberID>OnCh5</NumberID>
+            <NumberID>OnCh6</NumberID>
+            <NumberID>OnCh7</NumberID>
+            <NumberID>OnCh8</NumberID>
+        </Event>
+    </DataListObject>
+</DataList>

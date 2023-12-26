@@ -7,5 +7,8 @@
         <Unit Name="Temperature" Min="-20.0" Max="85.0" Decimals="1">°C</Unit>
         <Unit Name="Heading" Min="0" Max="359.9" Decimals="1">°</Unit>
         <Unit Name="RateOfTurn" Min="-10.00" Max="10.00" Decimals="2">°/s</Unit>
+        <Unit Name="VoltDC" Min="0.0" Max="36.0" Decimals="2">VDC</Unit>
+        <Unit Name="VoltAC" Min="0.0" Max="300.0" Decimals="1">VAC</Unit>
+        <Unit Name="Ampere" Min="-99.0" Max="99.0" Decimals="2">A</Unit>
     </UnitType>
 </EngineeringUnits>

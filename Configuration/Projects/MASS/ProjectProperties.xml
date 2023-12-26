@@ -3,7 +3,7 @@
     <Description>Maritime Autonomous Surface Ship</Description>
     <Properties>
         <Variable LocalID="Version" TypeNum="String">1.0.0.1</Variable>
-        <Variable LocalID="DateEdit" TypeNum="Date">21.JUN.2023</Variable>
+        <Variable LocalID="DateEdit" TypeNum="Date">22.DEC.2023</Variable>
         <Variable LocalID="Author" TypeNum="String">OMI</Variable>
     </Properties>
 </ProjectProperties>
