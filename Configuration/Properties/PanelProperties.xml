@@ -119,6 +119,15 @@
             <Type Name="Alarm" TypeID="10"/>
             <Type Name="Critical" TypeID="11"/>
         </Enumeration>
+        <Enumeration LocalID="ioColorForeground">
+            <Type Name="ElementActive" TypeID="0"/>
+            <Type Name="ElementNeutral" TypeID="1"/>
+            <Type Name="ElementInactive" TypeID="2"/>
+            <Type Name="ElementDisabled" TypeID="3"/>
+            <Type Name="ElementActiveInverted" TypeID="4"/>
+            <Type Name="ElementInactiveInverted" TypeID="5"/>
+            <Type Name="ElementDisabledInverted" TypeID="6"/>
+        </Enumeration>        
         <Enumeration LocalID="ioColorGeneral">
             <Type Name="AutomationDevicePrimary" TypeID="0"/>
             <Type Name="AutomationDeviceSceondary" TypeID="1"/>
@@ -161,6 +170,48 @@
             <Type Name="AlertLimitPrimary" TypeID="66"/>
             <Type Name="AlertLimitSecondary" TypeID="67"/>
         </Enumeration>
+        <Enumeration LocalID="ioLabelType">
+            <Type Name="Small" TypeID="0"/>
+            <Type Name="SmallActive" TypeID="1"/>
+            <Type Name="Medium" TypeID="2"/>
+            <Type Name="Large" TypeID="3"/>
+            <Type Name="Body" TypeID="4"/>
+            <Type Name="BodyActive" TypeID="5"/>
+            <Type Name="OVERLINE" TypeID="6"/>
+        </Enumeration>
+        <Enumeration LocalID="ioTextWrapping">
+            <Type Name="NoWrap" TypeID="0"/>
+            <Type Name="Wrap" TypeID="1"/>
+            <Type Name="WrapWholeWords" TypeID="2"/>
+        </Enumeration>
+        <Enumeration LocalID="ioFontFamily">
+            <Type Name="OpenSans" TypeID="0"/>
+            <Type Name="NotoSans" TypeID="1"/>
+            <Type Name="MaterialIcons" TypeID="2"/>
+            <Type Name="WindowsIcons" TypeID="3"/>
+        </Enumeration>
+        <Enumeration LocalID="ioFontSize">
+            <Type Name="ExtraSmall" TypeID="1"/>
+            <Type Name="Small" TypeID="0"/>
+            <Type Name="Medium" TypeID="2"/>
+            <Type Name="MediumLarge" TypeID="3"/>
+            <Type Name="Large" TypeID="4"/>
+            <Type Name="ExtraLarge" TypeID="5"/>
+            <Type Name="Huge" TypeID="6"/>
+            <Type Name="ExtraHuge" TypeID="7"/>
+        </Enumeration>
+        <Enumeration LocalID="ioFontWeights">
+            <Type Name="Thin" TypeID="1"/>
+            <Type Name="ExtraLight" TypeID="2"/>
+            <Type Name="SemiLight" TypeID="3"/>
+            <Type Name="Normal" TypeID="0"/>
+            <Type Name="Medium" TypeID="4"/>
+            <Type Name="SemiBold" TypeID="5"/>
+            <Type Name="Bold" TypeID="6"/>
+            <Type Name="ExtraBold" TypeID="7"/>
+            <Type Name="Black" TypeID="8"/>
+            <Type Name="ExtraBlack" TypeID="9"/>
+        </Enumeration>
     </Properties>
     <Children>
         <GraphicsType Name="GraphicsText" IsBaseOnly="TRUE">
@@ -169,9 +220,33 @@
                 <Variable LocalID="Text" TypeNum="String"/>
             </Properties>
             <Children>
-                <GraphicsType Name="ioButton"/>
+                <GraphicsType Name="ioButton">
+                    <Properties>
+                        <Variable LocalID="TypeColor" TypeEnumeration="ioColorType">0</Variable>
+                        <Variable LocalID="IsIconVisble" TypeNum="Bool">FALSE</Variable>
+                        <Variable LocalID="TypeIcon" TypeEnumeration="ioIconType">0</Variable>
+                        <Variable LocalID="TypeGlyph" TypeEnumeration="ioGlyphType">0</Variable>
+                    </Properties>
+                </GraphicsType>
                 <GraphicsType Name="ioTextBox"/>
-                <GraphicsType Name="ioLabel"/>
+                <GraphicsType Name="ioLabel">
+                    <Properties>
+                        <Variable LocalID="TypeLabel" TypeEnumeration="ioLabelType">0</Variable>
+                        <Variable LocalID="TypeColor" TypeEnumeration="ioColorForeground">0</Variable>
+                        <Variable LocalID="TextWrapping" TypeEnumeration="ioTextWrapping">0</Variable>
+                    </Properties>
+                </GraphicsType>
+                <GraphicsType Name="ioTextBlock">
+                    <Properties>
+                        <Variable LocalID="TypeColor" TypeEnumeration="ioColorGeneral">0</Variable>
+                        <Variable LocalID="FontFamily" TypeEnumeration="ioFontFamily">0</Variable>
+                        <Variable LocalID="FontSize" TypeEnumeration="ioFontSize">0</Variable>
+                        <Variable LocalID="FontWeight" TypeEnumeration="ioFontWeights">0</Variable>
+                        <Variable LocalID="TextWrapping" TypeEnumeration="ioTextWrapping">0</Variable>
+                        <Variable LocalID="NumOfDecimals" TypeNum="Int32">1</Variable>
+                        <Variable LocalID="IsTextAlignedRight" TypeNum="Bool">FALSE</Variable>
+                    </Properties>
+                </GraphicsType>
             </Children>
         </GraphicsType>
         <GraphicsType Name="ioRadioButton"/>

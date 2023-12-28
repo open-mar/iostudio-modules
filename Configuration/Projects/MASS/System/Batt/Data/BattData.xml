@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DataList Name="BattData">
-    <Description></Description>
+    <Description>Data for battery monitoring</Description>
     <DataListObject ParentGlobalID="Batt">
         <Variable LocalID="Bt12Volt" TypeNum="Float" Unit="VDC" Decimals="2" Min="0.00" Max="36.00">12</Variable>
         <Variable LocalID="Bt12AmpOut" TypeNum="Float" Unit="A" Decimals="2" Min="-99.00" Max="99.00">0</Variable>
