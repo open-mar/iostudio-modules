@@ -6,12 +6,12 @@
         <ColumnDefinition />
         <Grid Row="1" Column="1" IsStacked="TRUE">
             <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="TRUE" TypeIcon="Play" TypeGlyph="MaterialDesign" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh1" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="TRUE" TypeIcon="Stop" TypeGlyph="MaterialDesign" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh1" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -20,12 +20,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh2" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh2" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh2" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="TRUE" TypeIcon="Play" TypeGlyph="MaterialDesign" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="TRUE" TypeIcon="Stop" TypeGlyph="MaterialDesign" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh2" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Play" TypeGlyph="MaterialDesign" TypeColor="AlertRunning" />
                 </ioIcon>
@@ -34,12 +34,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh3" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh3" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh3" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="TRUE" TypeIcon="Play" TypeGlyph="MaterialDesign" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh3" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh3" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="TRUE" TypeIcon="Stop" TypeGlyph="MaterialDesign" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh3" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -48,12 +48,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh4" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh4" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh4" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="TRUE" TypeIcon="Play" TypeGlyph="MaterialDesign" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh4" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh4" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="TRUE" TypeIcon="Stop" TypeGlyph="MaterialDesign" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh4" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -62,12 +62,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh5" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh5" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh5" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="TRUE" TypeIcon="Play" TypeGlyph="MaterialDesign" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh5" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh5" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="TRUE" TypeIcon="Stop" TypeGlyph="MaterialDesign" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh5" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Play" TypeGlyph="MaterialDesign" TypeColor="AlertRunning" />
                 </ioIcon>
@@ -76,12 +76,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh6" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh6" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh6" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="TRUE" TypeIcon="Play" TypeGlyph="MaterialDesign" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh6" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh6" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="TRUE" TypeIcon="Stop" TypeGlyph="MaterialDesign" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh6" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -90,12 +90,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh7" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh7" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh7" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="TRUE" TypeIcon="Play" TypeGlyph="MaterialDesign" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh7" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh7" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="TRUE" TypeIcon="Stop" TypeGlyph="MaterialDesign" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh7" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -104,12 +104,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh8" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh8" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh8" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="TRUE" TypeIcon="Play" TypeGlyph="MaterialDesign" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh8" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh8" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="TRUE" TypeIcon="Stop" TypeGlyph="MaterialDesign" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh8" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Play" TypeGlyph="MaterialDesign" TypeColor="AlertRunning" />
                 </ioIcon>
@@ -124,12 +124,12 @@
         <ColumnDefinition />
         <Grid Row="1" Column="1" IsStacked="TRUE">
             <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh1" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh1" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -138,12 +138,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh2" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh2" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh2" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh2" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -152,12 +152,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh3" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh3" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh3" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh3" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh3" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh3" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -166,12 +166,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh4" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh4" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh4" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh4" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh4" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh4" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -180,12 +180,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh5" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh5" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh5" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh5" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh5" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh5" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -194,12 +194,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh6" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh6" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh6" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh6" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh6" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh6" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -208,12 +208,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh7" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh7" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh7" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh7" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh7" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh7" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -222,12 +222,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh8" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh8" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh8" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh8" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh8" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh8" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -242,12 +242,12 @@
         <ColumnDefinition />
         <Grid Row="1" Column="1" IsStacked="TRUE">
             <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh1" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh1" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -256,12 +256,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh2" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh2" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh2" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh2" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -270,12 +270,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh3" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh3" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh3" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh3" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh3" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh3" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -284,12 +284,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh4" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh4" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh4" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh4" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh4" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh4" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -298,12 +298,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh5" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh5" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh5" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh5" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh5" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh5" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -312,12 +312,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh6" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh6" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh6" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh6" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh6" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh6" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -326,12 +326,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh7" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh7" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh7" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh7" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh7" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh7" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -340,12 +340,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh8" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh8" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh8" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh8" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh8" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh8" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -360,12 +360,12 @@
         <ColumnDefinition />
         <Grid Row="1" Column="1" IsStacked="TRUE">
             <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh1" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh1" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -374,12 +374,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh2" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh2" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh2" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh2" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -388,12 +388,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh3" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh3" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh3" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh3" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh3" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh3" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -402,12 +402,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh4" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh4" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh4" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh4" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh4" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh4" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -416,12 +416,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh5" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh5" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh5" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh5" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh5" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh5" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -430,12 +430,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh6" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh6" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh6" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh6" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh6" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh6" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -444,12 +444,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh7" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh7" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh7" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh7" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh7" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh7" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -458,12 +458,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh8" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh8" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh8" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh8" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh8" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh8" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -478,12 +478,12 @@
         <ColumnDefinition />
         <Grid Row="1" Column="1" IsStacked="TRUE">
             <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh1" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh1" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -492,12 +492,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh2" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh2" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh2" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh2" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -506,12 +506,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh3" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh3" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh3" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh3" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh3" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh3" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -520,12 +520,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh4" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh4" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh4" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh4" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh4" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh4" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -534,12 +534,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh5" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh5" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh5" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh5" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh5" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh5" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -548,12 +548,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh6" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh6" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh6" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh6" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh6" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh6" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -562,12 +562,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh7" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh7" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh7" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh7" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh7" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh7" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -576,12 +576,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh8" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh8" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh8" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh8" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh8" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh8" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -596,12 +596,12 @@
         <ColumnDefinition />
         <Grid Row="1" Column="1" IsStacked="TRUE">
             <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh1" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh1" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -610,12 +610,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh2" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh2" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh2" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh2" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -624,12 +624,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh3" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh3" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh3" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh3" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh3" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh3" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -638,12 +638,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh4" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh4" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh4" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh4" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh4" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh4" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -652,12 +652,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh5" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh5" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh5" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh5" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh5" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh5" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -666,12 +666,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh6" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh6" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh6" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh6" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh6" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh6" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -680,12 +680,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh7" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh7" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh7" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh7" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh7" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh7" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -694,12 +694,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh8" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh8" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh8" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh8" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh8" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh8" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -714,12 +714,12 @@
         <ColumnDefinition />
         <Grid Row="1" Column="1" IsStacked="TRUE">
             <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh1" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh1" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -728,12 +728,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh2" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh2" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh2" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh2" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -742,12 +742,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh3" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh3" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh3" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh3" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh3" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh3" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -756,12 +756,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh4" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh4" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh4" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh4" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh4" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh4" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -770,12 +770,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh5" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh5" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh5" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh5" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh5" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh5" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -784,12 +784,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh6" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh6" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh6" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh6" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh6" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh6" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -798,12 +798,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh7" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh7" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh7" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh7" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh7" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh7" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -812,12 +812,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh8" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh8" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh8" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh8" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh8" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh8" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -832,12 +832,12 @@
         <ColumnDefinition />
         <Grid Row="1" Column="1" IsStacked="TRUE">
             <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh1" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh1" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -846,12 +846,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh2" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh2" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh2" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh2" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -860,12 +860,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh3" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh3" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh3" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh3" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh3" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh3" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -874,12 +874,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh4" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh4" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh4" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh4" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh4" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh4" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -888,12 +888,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh5" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh5" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh5" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh5" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh5" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh5" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -902,12 +902,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh6" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh6" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh6" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh6" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh6" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh6" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -916,12 +916,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh7" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh7" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh7" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh7" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh7" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh7" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -930,12 +930,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh8" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh8" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh8" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh8" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh8" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh8" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -950,12 +950,12 @@
         <ColumnDefinition />
         <Grid Row="1" Column="1" IsStacked="TRUE">
             <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh1" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh1" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -964,12 +964,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh2" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh2" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh2" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh2" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -978,12 +978,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh3" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh3" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh3" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh3" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh3" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh3" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -992,12 +992,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh4" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh4" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh4" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh4" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh4" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh4" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -1006,12 +1006,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh5" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh5" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh5" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh5" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh5" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh5" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -1020,12 +1020,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh6" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh6" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh6" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh6" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh6" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh6" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -1034,12 +1034,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh7" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh7" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh7" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh7" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh7" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh7" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
@@ -1048,12 +1048,12 @@
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh8" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
-                <ioButton LocalID="ButtOnCh8" HorizontalAlignment="Left" Width="100">
+                <ioButtonIcon LocalID="ButtOnCh8" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
-                <ioButton LocalID="ButtOffCh8" HorizontalAlignment="Left" Width="100">
+                </ioButtonIcon>
+                <ioButtonIcon LocalID="ButtOffCh8" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" IsIconVisble="FALSE" TypeIcon="AllApps" TypeGlyph="Windows" />
-                </ioButton>
+                </ioButtonIcon>
                 <ioIcon LocalID="IconCh8" HorizontalAlignment="Left" Width="32">
                     <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
                 </ioIcon>
