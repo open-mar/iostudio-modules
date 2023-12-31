@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PanelClass Name="PowPanel">
+    <Description>Operation panel for the power module</Description>
+    <PanelObject ParentGlobalID="Pow" Background="ContainerBackground">
+        <RowDefinition Size="40" />
+        <RowDefinition />
+        <ColumnDefinition />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1">
+            <ioIcon LocalID="Icon12V" HorizontalAlignment="Left" Width="40">
+                <Properties TypeIcon="ArrowDown8" TypeGlyph="Windows" TypeColor="AutomationDevicePrimary" />
+            </ioIcon>
+            <ioButtonText LocalID="ButtActive12V" HorizontalAlignment="Left" Width="100" Margin="40,0,0,0">
+                <Properties Text="12V" TypeColor="Normal" />
+            </ioButtonText>
+            <ioButtonText LocalID="ButtActive24V" Margin="140,0,140,0">
+                <Properties Text="24V" TypeColor="Selected" />
+            </ioButtonText>
+            <ioButtonText LocalID="ButtActive220V" HorizontalAlignment="Right" Width="100" Margin="0,0,40,0">
+                <Properties Text="220V" TypeColor="Normal" />
+            </ioButtonText>
+            <ioIcon LocalID="Icon220V" HorizontalAlignment="Right" Width="40">
+                <Properties TypeIcon="ArrowUp8" TypeGlyph="Windows" TypeColor="AutomationDevicePrimary" />
+            </ioIcon>
+        </Grid>
+        <Grid Row="1" Column="2">
+            <ioIcon LocalID="IconLeft" HorizontalAlignment="Left" Width="40">
+                <Properties TypeIcon="ArrowLeft8" TypeGlyph="Windows" TypeColor="AutomationDevicePrimary" />
+            </ioIcon>
+            <ioButtonText LocalID="ButtActiveLeft" HorizontalAlignment="Left" Width="100" Margin="40,0,0,0">
+                <Properties Text="AFT" TypeColor="Selected" />
+            </ioButtonText>
+            <ioButtonText LocalID="ButtActiveMid" Margin="140,0,140,0">
+                <Properties Text="MID" TypeColor="Selected" />
+            </ioButtonText>
+            <ioButtonText LocalID="ButtActiveRight" HorizontalAlignment="Right" Width="100" Margin="0,0,40,0">
+                <Properties Text="FWD" TypeColor="Normal" />
+            </ioButtonText>
+            <ioIcon LocalID="IconRightFwd" HorizontalAlignment="Right" Width="40">
+                <Properties TypeIcon="ArrowRight8" TypeGlyph="Windows" TypeColor="AutomationDevicePrimary" />
+            </ioIcon>
+        </Grid>
+        <Grid Row="2" Column="1">
+            <ioPanelGrid LocalID="PowPanelCol1" />
+        </Grid>
+        <Grid Row="2" Column="2">
+            <ioPanelGrid LocalID="PowPanelCol2" />
+        </Grid>
+    </PanelObject>
+</PanelClass>
