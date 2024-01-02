@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModuleClass Name="Row">
+    <Description>Row of power outputs</Description>
+    <ModuleObject GlobalID="Pow.Row1" />
+    <ModuleObject GlobalID="Pow.Row2" />
+</ModuleClass>
