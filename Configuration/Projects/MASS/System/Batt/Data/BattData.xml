@@ -2,11 +2,10 @@
 <DataList Name="BattData">
     <Description>Data for battery monitoring</Description>
     <DataListObject ParentGlobalID="Batt">
-        <Variable LocalID="Bt12Volt" TypeNum="Float" Unit="VDC" Decimals="2" Min="0.00" Max="36.00">12</Variable>
-        <Variable LocalID="Bt12AmpOut" TypeNum="Float" Unit="A" Decimals="2" Min="-99.00" Max="99.00">0</Variable>
-        <Variable LocalID="Bt24Volt" TypeNum="Float" Unit="VDC" Decimals="2" Min="0.00" Max="36.00">0</Variable>
-        <Variable LocalID="Bt24AmpOut" TypeNum="Float" Unit="A" Decimals="2" Min="-99.00" Max="99.00">0</Variable>
-        <Variable LocalID="Bt12AmpIn" TypeNum="Float" Unit="A" Decimals="2" Min="-99.00" Max="99.00">0</Variable>
-        <Variable LocalID="Bt24AmpIn" TypeNum="Float" Unit="A" Decimals="2" Min="-99.00" Max="99.00">0</Variable>
+        <Variable LocalID="ChargeInputVolt" TypeNum="Float" Unit="VAC" Decimals="1" Min="0.0" Max="999.0">220</Variable>
+        <Variable LocalID="IsChargActive12V" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="IsChargActive24V" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="StatusOfCharge" TypeNum="Float" Unit="%" Decimals="1" Min="0.0" Max="100.0">0</Variable>
+        <Variable LocalID="TimeTo10Percent" TypeNum="TimeInterval">2d 03:59:00</Variable>
     </DataListObject>
 </DataList>

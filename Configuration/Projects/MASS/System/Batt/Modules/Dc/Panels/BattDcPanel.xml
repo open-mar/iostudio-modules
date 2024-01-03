@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PanelClass Name="BattDcPanel">
-    <Description></Description>
+    <Description>Monitoring panel for batteries</Description>
     <PanelObject ParentGlobalID="Batt.Dc12" Background="ContainerBackground">
         <RowDefinition />
         <ColumnDefinition />
-        <Grid Row="1" Column="1" IsStacked="TRUE">
+        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioLabel LocalID="LabelBatt">
                 <Properties Text="BATTERY 12V" TypeLabel="Medium" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
@@ -32,7 +32,7 @@
     <PanelObject ParentGlobalID="Batt.Dc24" Background="ContainerBackground">
         <RowDefinition />
         <ColumnDefinition />
-        <Grid Row="1" Column="1" IsStacked="TRUE">
+        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioLabel LocalID="LabelBatt">
                 <Properties Text="BATTERY 24V" TypeLabel="Medium" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>

@@ -4,7 +4,7 @@
     <PanelObject ParentGlobalID="Pow.Out12M" Background="ContainerBackground">
         <RowDefinition />
         <ColumnDefinition />
-        <Grid Row="1" Column="1" IsStacked="TRUE">
+        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonIcon LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Running" TypeIcon="Play" TypeGlyph="MaterialDesign" />
@@ -122,7 +122,7 @@
     <PanelObject ParentGlobalID="Pow.Out12F" Background="ContainerBackground">
         <RowDefinition />
         <ColumnDefinition />
-        <Grid Row="1" Column="1" IsStacked="TRUE">
+        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Running" TypeShape="Automation" ShapeID="On" />
@@ -240,7 +240,7 @@
     <PanelObject ParentGlobalID="Pow.Out12A" Background="ContainerBackground">
         <RowDefinition />
         <ColumnDefinition />
-        <Grid Row="1" Column="1" IsStacked="TRUE">
+        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonIcon LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" TypeIcon="Play" TypeGlyph="MaterialDesign" />
@@ -358,7 +358,7 @@
     <PanelObject ParentGlobalID="Pow.Out24M" Background="ContainerBackground">
         <RowDefinition />
         <ColumnDefinition />
-        <Grid Row="1" Column="1" IsStacked="TRUE">
+        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonIcon LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" TypeIcon="Play" TypeGlyph="MaterialDesign" />
@@ -476,7 +476,7 @@
     <PanelObject ParentGlobalID="Pow.Out24F" Background="ContainerBackground">
         <RowDefinition />
         <ColumnDefinition />
-        <Grid Row="1" Column="1" IsStacked="TRUE">
+        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonIcon LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" TypeIcon="Play" TypeGlyph="MaterialDesign" />
@@ -594,7 +594,7 @@
     <PanelObject ParentGlobalID="Pow.Out24A" Background="ContainerBackground">
         <RowDefinition />
         <ColumnDefinition />
-        <Grid Row="1" Column="1" IsStacked="TRUE">
+        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonIcon LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" TypeIcon="Play" TypeGlyph="MaterialDesign" />
@@ -712,7 +712,7 @@
     <PanelObject ParentGlobalID="Pow.Out220M" Background="ContainerBackground">
         <RowDefinition />
         <ColumnDefinition />
-        <Grid Row="1" Column="1" IsStacked="TRUE">
+        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonIcon LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" TypeIcon="Play" TypeGlyph="MaterialDesign" />
@@ -830,7 +830,7 @@
     <PanelObject ParentGlobalID="Pow.Out220F" Background="ContainerBackground">
         <RowDefinition />
         <ColumnDefinition />
-        <Grid Row="1" Column="1" IsStacked="TRUE">
+        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonIcon LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" TypeIcon="Play" TypeGlyph="MaterialDesign" />
@@ -948,7 +948,7 @@
     <PanelObject ParentGlobalID="Pow.Out220A" Background="ContainerBackground">
         <RowDefinition />
         <ColumnDefinition />
-        <Grid Row="1" Column="1" IsStacked="TRUE">
+        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonIcon LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="ON" TypeColor="Normal" TypeIcon="Play" TypeGlyph="MaterialDesign" />
