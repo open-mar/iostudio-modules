@@ -52,7 +52,7 @@
                     <Properties Text="Current [A]" TypeLabel="Medium" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
                 </ioLabel>
                 <ioTextBlock LocalID="InstrAmpDiff" VerticalAlignment="Bottom" Height="24" Margin="16,0,0,8">
-                    <Properties Text="0.45" TypeColor="InstrumentEnhancedSecondary" FontFamily="OpenSans" FontSize="Medium" FontWeight="SemiBold" TextWrapping="NoWrap" NumOfDecimals="1" IsTextAlignedRight="FALSE" />
+                    <Properties Text="0.45" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Medium" FontWeight="SemiBold" TextWrapping="NoWrap" NumOfDecimals="1" IsTextAlignedRight="FALSE" />
                 </ioTextBlock>
             </ioPanelGrid>
         </Grid>

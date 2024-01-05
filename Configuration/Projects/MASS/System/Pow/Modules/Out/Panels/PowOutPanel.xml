@@ -243,7 +243,7 @@
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonIcon LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
-                    <Properties Text="ON" TypeColor="Normal" TypeIcon="Play" TypeGlyph="MaterialDesign" />
+                    <Properties Text="ON" TypeColor="Running" TypeIcon="Play" TypeGlyph="MaterialDesign" />
                 </ioButtonIcon>
                 <ioButtonIcon LocalID="ButtOffCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" TypeIcon="Stop" TypeGlyph="MaterialDesign" />
@@ -260,10 +260,10 @@
                     <Properties Text="ON" TypeColor="Normal" TypeIcon="Play" TypeGlyph="MaterialDesign" />
                 </ioButtonIcon>
                 <ioButtonIcon LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
-                    <Properties Text="OFF" TypeColor="Normal" TypeIcon="Stop" TypeGlyph="MaterialDesign" />
+                    <Properties Text="OFF" TypeColor="Alarm" TypeIcon="Stop" TypeGlyph="MaterialDesign" />
                 </ioButtonIcon>
                 <ioIcon LocalID="IconCh2" HorizontalAlignment="Left" Width="32">
-                    <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
+                    <Properties TypeIcon="Play" TypeGlyph="MaterialDesign" TypeColor="AlertRunning" />
                 </ioIcon>
                 <ioLabel LocalID="LabelCh2" VerticalAlignment="Center" Height="15">
                     <Properties Text="12V AFT CH2" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -361,7 +361,7 @@
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonIcon LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
-                    <Properties Text="ON" TypeColor="Normal" TypeIcon="Play" TypeGlyph="MaterialDesign" />
+                    <Properties Text="ON" TypeColor="Running" TypeIcon="Play" TypeGlyph="MaterialDesign" />
                 </ioButtonIcon>
                 <ioButtonIcon LocalID="ButtOffCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" TypeIcon="Stop" TypeGlyph="MaterialDesign" />
@@ -378,10 +378,10 @@
                     <Properties Text="ON" TypeColor="Normal" TypeIcon="Play" TypeGlyph="MaterialDesign" />
                 </ioButtonIcon>
                 <ioButtonIcon LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
-                    <Properties Text="OFF" TypeColor="Normal" TypeIcon="Stop" TypeGlyph="MaterialDesign" />
+                    <Properties Text="OFF" TypeColor="Alarm" TypeIcon="Stop" TypeGlyph="MaterialDesign" />
                 </ioButtonIcon>
                 <ioIcon LocalID="IconCh2" HorizontalAlignment="Left" Width="32">
-                    <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
+                    <Properties TypeIcon="Play" TypeGlyph="MaterialDesign" TypeColor="AlertRunning" />
                 </ioIcon>
                 <ioLabel LocalID="LabelCh2" VerticalAlignment="Center" Height="15">
                     <Properties Text="24V MID CH2" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -479,7 +479,7 @@
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonIcon LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
-                    <Properties Text="ON" TypeColor="Normal" TypeIcon="Play" TypeGlyph="MaterialDesign" />
+                    <Properties Text="ON" TypeColor="Running" TypeIcon="Play" TypeGlyph="MaterialDesign" />
                 </ioButtonIcon>
                 <ioButtonIcon LocalID="ButtOffCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" TypeIcon="Stop" TypeGlyph="MaterialDesign" />
@@ -496,10 +496,10 @@
                     <Properties Text="ON" TypeColor="Normal" TypeIcon="Play" TypeGlyph="MaterialDesign" />
                 </ioButtonIcon>
                 <ioButtonIcon LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
-                    <Properties Text="OFF" TypeColor="Normal" TypeIcon="Stop" TypeGlyph="MaterialDesign" />
+                    <Properties Text="OFF" TypeColor="Alarm" TypeIcon="Stop" TypeGlyph="MaterialDesign" />
                 </ioButtonIcon>
                 <ioIcon LocalID="IconCh2" HorizontalAlignment="Left" Width="32">
-                    <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
+                    <Properties TypeIcon="Play" TypeGlyph="MaterialDesign" TypeColor="AlertRunning" />
                 </ioIcon>
                 <ioLabel LocalID="LabelCh2" VerticalAlignment="Center" Height="15">
                     <Properties Text="24V FWD CH2" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -597,7 +597,7 @@
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonIcon LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
-                    <Properties Text="ON" TypeColor="Normal" TypeIcon="Play" TypeGlyph="MaterialDesign" />
+                    <Properties Text="ON" TypeColor="Running" TypeIcon="Play" TypeGlyph="MaterialDesign" />
                 </ioButtonIcon>
                 <ioButtonIcon LocalID="ButtOffCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" TypeIcon="Stop" TypeGlyph="MaterialDesign" />
@@ -614,10 +614,10 @@
                     <Properties Text="ON" TypeColor="Normal" TypeIcon="Play" TypeGlyph="MaterialDesign" />
                 </ioButtonIcon>
                 <ioButtonIcon LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
-                    <Properties Text="OFF" TypeColor="Normal" TypeIcon="Stop" TypeGlyph="MaterialDesign" />
+                    <Properties Text="OFF" TypeColor="Alarm" TypeIcon="Stop" TypeGlyph="MaterialDesign" />
                 </ioButtonIcon>
                 <ioIcon LocalID="IconCh2" HorizontalAlignment="Left" Width="32">
-                    <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
+                    <Properties TypeIcon="Play" TypeGlyph="MaterialDesign" TypeColor="AlertRunning" />
                 </ioIcon>
                 <ioLabel LocalID="LabelCh2" VerticalAlignment="Center" Height="15">
                     <Properties Text="24V AFT CH2" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -715,7 +715,7 @@
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonIcon LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
-                    <Properties Text="ON" TypeColor="Normal" TypeIcon="Play" TypeGlyph="MaterialDesign" />
+                    <Properties Text="ON" TypeColor="Running" TypeIcon="Play" TypeGlyph="MaterialDesign" />
                 </ioButtonIcon>
                 <ioButtonIcon LocalID="ButtOffCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" TypeIcon="Stop" TypeGlyph="MaterialDesign" />
@@ -732,10 +732,10 @@
                     <Properties Text="ON" TypeColor="Normal" TypeIcon="Play" TypeGlyph="MaterialDesign" />
                 </ioButtonIcon>
                 <ioButtonIcon LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
-                    <Properties Text="OFF" TypeColor="Normal" TypeIcon="Stop" TypeGlyph="MaterialDesign" />
+                    <Properties Text="OFF" TypeColor="Alarm" TypeIcon="Stop" TypeGlyph="MaterialDesign" />
                 </ioButtonIcon>
                 <ioIcon LocalID="IconCh2" HorizontalAlignment="Left" Width="32">
-                    <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
+                    <Properties TypeIcon="Play" TypeGlyph="MaterialDesign" TypeColor="AlertRunning" />
                 </ioIcon>
                 <ioLabel LocalID="LabelCh2" VerticalAlignment="Center" Height="15">
                     <Properties Text="220V MID CH2" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -833,7 +833,7 @@
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonIcon LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
-                    <Properties Text="ON" TypeColor="Normal" TypeIcon="Play" TypeGlyph="MaterialDesign" />
+                    <Properties Text="ON" TypeColor="Running" TypeIcon="Play" TypeGlyph="MaterialDesign" />
                 </ioButtonIcon>
                 <ioButtonIcon LocalID="ButtOffCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" TypeIcon="Stop" TypeGlyph="MaterialDesign" />
@@ -850,10 +850,10 @@
                     <Properties Text="ON" TypeColor="Normal" TypeIcon="Play" TypeGlyph="MaterialDesign" />
                 </ioButtonIcon>
                 <ioButtonIcon LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
-                    <Properties Text="OFF" TypeColor="Normal" TypeIcon="Stop" TypeGlyph="MaterialDesign" />
+                    <Properties Text="OFF" TypeColor="Alarm" TypeIcon="Stop" TypeGlyph="MaterialDesign" />
                 </ioButtonIcon>
                 <ioIcon LocalID="IconCh2" HorizontalAlignment="Left" Width="32">
-                    <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
+                    <Properties TypeIcon="Play" TypeGlyph="MaterialDesign" TypeColor="AlertRunning" />
                 </ioIcon>
                 <ioLabel LocalID="LabelCh2" VerticalAlignment="Center" Height="15">
                     <Properties Text="220V FWD CH2" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -951,7 +951,7 @@
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonIcon LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
-                    <Properties Text="ON" TypeColor="Normal" TypeIcon="Play" TypeGlyph="MaterialDesign" />
+                    <Properties Text="ON" TypeColor="Running" TypeIcon="Play" TypeGlyph="MaterialDesign" />
                 </ioButtonIcon>
                 <ioButtonIcon LocalID="ButtOffCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="OFF" TypeColor="Normal" TypeIcon="Stop" TypeGlyph="MaterialDesign" />
@@ -968,10 +968,10 @@
                     <Properties Text="ON" TypeColor="Normal" TypeIcon="Play" TypeGlyph="MaterialDesign" />
                 </ioButtonIcon>
                 <ioButtonIcon LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
-                    <Properties Text="OFF" TypeColor="Normal" TypeIcon="Stop" TypeGlyph="MaterialDesign" />
+                    <Properties Text="OFF" TypeColor="Alarm" TypeIcon="Stop" TypeGlyph="MaterialDesign" />
                 </ioButtonIcon>
                 <ioIcon LocalID="IconCh2" HorizontalAlignment="Left" Width="32">
-                    <Properties TypeIcon="Stop" TypeGlyph="MaterialDesign" TypeColor="AlertAlarm" />
+                    <Properties TypeIcon="Play" TypeGlyph="MaterialDesign" TypeColor="AlertRunning" />
                 </ioIcon>
                 <ioLabel LocalID="LabelCh2" VerticalAlignment="Center" Height="15">
                     <Properties Text="220V AFT CH2" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
