@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PanelClass Name="SteerControlPanel">
+    <Description>Steering Control Panel</Description>
+    <PanelObject ParentGlobalID="Steer.Cp1" Background="ContainerBackground">
+        <RowDefinition />
+        <RowDefinition />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
+            <ioLabel LocalID="LabelHeader">
+                <Properties Text="STEERING CONTROL PANEL CP1" TypeLabel="OVERLINE" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
+            <ioPanelGrid LocalID="GridButtRowUpper" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
+                <ioButtonShape LocalID="ButtDp" HorizontalAlignment="Left" Width="120">
+                    <Properties Text="DP" TypeColor="Normal" TypeShape="Maneuvering" ShapeID="StationKeeping" />
+                </ioButtonShape>
+                <ioButtonShape LocalID="ButtTrack" HorizontalAlignment="Left" Width="120">
+                    <Properties Text="TRACK" TypeColor="Normal" TypeShape="Maneuvering" ShapeID="TrackKeeping" />
+                </ioButtonShape>
+                <ioButtonShape LocalID="ButtRiver" HorizontalAlignment="Left" Width="120">
+                    <Properties Text="RIVER" TypeColor="Normal" TypeShape="Maneuvering" ShapeID="Rotate" />
+                </ioButtonShape>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridButtRowLower" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
+                <ioButtonShape LocalID="ButtWork" HorizontalAlignment="Left" Width="120">
+                    <Properties Text="WORK" TypeColor="Normal" TypeShape="Maneuvering" ShapeID="Joystick" />
+                </ioButtonShape>
+                <ioButtonShape LocalID="ButtCourse" HorizontalAlignment="Left" Width="120">
+                    <Properties Text="AUTO" TypeColor="Normal" TypeShape="Maneuvering" ShapeID="Autopilot" />
+                </ioButtonShape>
+                <ioButtonShape LocalID="ButtStandby" HorizontalAlignment="Left" Width="120">
+                    <Properties Text="STANDBY" TypeColor="Raised" TypeShape="Action" ShapeID="Off" />
+                </ioButtonShape>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="2" Column="1" IsStacked="TRUE" Orientation="Vertical">
+            <ioPanelGrid LocalID="GridRowUpper" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
+                <ioButtonText LocalID="ButtonLeftSmall" HorizontalAlignment="Left" Width="120">
+                    <Properties Text="-1" TypeColor="Normal" />
+                </ioButtonText>
+                <ioButtonText LocalID="ButtMidZero" HorizontalAlignment="Left" Width="120">
+                    <Properties Text="0" TypeColor="Normal" />
+                </ioButtonText>
+                <ioButtonText LocalID="ButtRightSmall" HorizontalAlignment="Left" Width="120">
+                    <Properties Text="+1" TypeColor="Normal" />
+                </ioButtonText>
+            </ioPanelGrid>
+            <ioTextBox LocalID="Encoder" HorizontalAlignment="Left" Width="360" VerticalAlignment="Top" Height="40">
+                <Properties Text="0" />
+            </ioTextBox>
+            <ioPanelGrid LocalID="GridRowLower" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
+                <ioButtonText LocalID="ButtLeftBig" HorizontalAlignment="Left" Width="120">
+                    <Properties Text="-10" TypeColor="Normal" />
+                </ioButtonText>
+                <ioButtonText LocalID="ButtRightBig" HorizontalAlignment="Left" Width="120" Margin="120,0,0,0">
+                    <Properties Text="+10" TypeColor="Normal" />
+                </ioButtonText>
+            </ioPanelGrid>
+        </Grid>
+    </PanelObject>
+    <PanelObject ParentGlobalID="Steer.Cp2" Background="ContainerBackground">
+        <RowDefinition />
+        <RowDefinition />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
+            <ioLabel LocalID="LabelHeader">
+                <Properties Text="STEERING CONTROL PANEL CP2" TypeLabel="OVERLINE" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
+            <ioPanelGrid LocalID="GridButtRowUpper" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
+                <ioButtonShape LocalID="ButtDp" HorizontalAlignment="Left" Width="120">
+                    <Properties Text="DP" TypeColor="Normal" TypeShape="Maneuvering" ShapeID="StationKeeping" />
+                </ioButtonShape>
+                <ioButtonShape LocalID="ButtTrack" HorizontalAlignment="Left" Width="120">
+                    <Properties Text="TRACK" TypeColor="Normal" TypeShape="Maneuvering" ShapeID="TrackKeeping" />
+                </ioButtonShape>
+                <ioButtonShape LocalID="ButtRiver" HorizontalAlignment="Left" Width="120">
+                    <Properties Text="RIVER" TypeColor="Normal" TypeShape="Maneuvering" ShapeID="Rotate" />
+                </ioButtonShape>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridButtRowLower" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
+                <ioButtonShape LocalID="ButtWork" HorizontalAlignment="Left" Width="120">
+                    <Properties Text="WORK" TypeColor="Normal" TypeShape="Maneuvering" ShapeID="Joystick" />
+                </ioButtonShape>
+                <ioButtonShape LocalID="ButtCourse" HorizontalAlignment="Left" Width="120">
+                    <Properties Text="AUTO" TypeColor="Normal" TypeShape="Maneuvering" ShapeID="Autopilot" />
+                </ioButtonShape>
+                <ioButtonShape LocalID="ButtStandby" HorizontalAlignment="Left" Width="120">
+                    <Properties Text="STANDBY" TypeColor="Raised" TypeShape="Action" ShapeID="Off" />
+                </ioButtonShape>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="2" Column="1" IsStacked="TRUE" Orientation="Vertical">
+            <ioPanelGrid LocalID="GridRowUpper" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
+                <ioButtonText LocalID="ButtonLeftSmall" HorizontalAlignment="Left" Width="120">
+                    <Properties Text="-1" TypeColor="Normal" />
+                </ioButtonText>
+                <ioButtonText LocalID="ButtMidZero" HorizontalAlignment="Left" Width="120">
+                    <Properties Text="0" TypeColor="Normal" />
+                </ioButtonText>
+                <ioButtonText LocalID="ButtRightSmall" HorizontalAlignment="Left" Width="120">
+                    <Properties Text="+1" TypeColor="Normal" />
+                </ioButtonText>
+            </ioPanelGrid>
+            <ioTextBox LocalID="Encoder" HorizontalAlignment="Left" Width="360" VerticalAlignment="Top" Height="40">
+                <Properties Text="0" />
+            </ioTextBox>
+            <ioPanelGrid LocalID="GridRowLower" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
+                <ioButtonText LocalID="ButtLeftBig" HorizontalAlignment="Left" Width="120">
+                    <Properties Text="-10" TypeColor="Normal" />
+                </ioButtonText>
+                <ioButtonText LocalID="ButtRightBig" HorizontalAlignment="Left" Width="120" Margin="120,0,0,0">
+                    <Properties Text="+10" TypeColor="Normal" />
+                </ioButtonText>
+            </ioPanelGrid>
+        </Grid>
+    </PanelObject>
+</PanelClass>

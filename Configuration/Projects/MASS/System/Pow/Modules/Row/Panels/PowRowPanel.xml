@@ -60,10 +60,10 @@
                 <Properties Text="12V" TypeColor="Selected" />
             </ioButtonText>
             <ioButtonText LocalID="ButtActive24V" Margin="140,0,140,0">
-                <Properties Text="24V" TypeColor="Normal" />
+                <Properties Text="24V" TypeColor="Flat" />
             </ioButtonText>
             <ioButtonText LocalID="ButtActive220V" HorizontalAlignment="Right" Width="100" Margin="0,0,40,0">
-                <Properties Text="220V" TypeColor="Normal" />
+                <Properties Text="220V" TypeColor="Flat" />
             </ioButtonText>
             <ioIcon LocalID="Icon220V" HorizontalAlignment="Right" Width="40">
                 <Properties TypeIcon="ArrowUp8" TypeGlyph="Windows" TypeColor="AutomationDeviceSceondary" />
@@ -74,10 +74,10 @@
                 <Properties TypeIcon="ArrowLeft8" TypeGlyph="Windows" TypeColor="AutomationDeviceSceondary" />
             </ioIcon>
             <ioButtonText LocalID="ButtActiveLeft" HorizontalAlignment="Left" Width="100" Margin="40,0,0,0">
-                <Properties Text="AFT" TypeColor="Normal" />
+                <Properties Text="AFT" TypeColor="Selected" />
             </ioButtonText>
             <ioButtonText LocalID="ButtActiveMid" Margin="140,0,140,0">
-                <Properties Text="MID" TypeColor="Selected" />
+                <Properties Text="MID" TypeColor="Flat" />
             </ioButtonText>
             <ioButtonText LocalID="ButtActiveRight" HorizontalAlignment="Right" Width="100" Margin="0,0,40,0">
                 <Properties Text="FWD" TypeColor="Selected" />
@@ -87,7 +87,7 @@
             </ioIcon>
         </Grid>
         <Grid Row="2" Column="1">
-            <ioPanelGrid LocalID="PowPanelCol1" PanelGlobalID="Pow.Out12M.PowOutPanel" />
+            <ioPanelGrid LocalID="PowPanelCol1" PanelGlobalID="Pow.Out12A.PowOutPanel" />
         </Grid>
         <Grid Row="2" Column="2">
             <ioPanelGrid LocalID="PowPanelCol2" PanelGlobalID="Pow.Out12F.PowOutPanel" />

@@ -1,4 +1,4 @@
-# Remote Control Center (RCC) 
+# Remote Control Centre (RCC) 
 
 [Home](../Home.md)
 
