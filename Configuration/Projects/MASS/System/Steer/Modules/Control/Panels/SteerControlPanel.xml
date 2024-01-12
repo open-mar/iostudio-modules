@@ -9,7 +9,7 @@
             <ioLabel LocalID="Heading">
                 <Properties Text="COMMAND CP1 DECKHOUSE" TypeLabel="OVERLINE" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
-            <ioPanelGrid LocalID="GridCommandStatus" VerticalAlignment="Top" Height="56" IsStacked="FALSE">
+            <ioPanelGrid LocalID="GridCommandStatus" VerticalAlignment="Top" Height="60" IsStacked="FALSE">
                 <ioShape LocalID="ShapeCommandStatus" HorizontalAlignment="Left" Width="100">
                     <Properties TypeShape="Maneuvering" ShapeID="Autopilot" TypeColor="InstrumentEnhancedPrimary" />
                 </ioShape>
@@ -87,7 +87,7 @@
             <ioLabel LocalID="Heading">
                 <Properties Text="COMMAND CP2 COCKPIT" TypeLabel="OVERLINE" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
-            <ioPanelGrid LocalID="GridCommandStatus" VerticalAlignment="Top" Height="56" IsStacked="FALSE">
+            <ioPanelGrid LocalID="GridCommandStatus" VerticalAlignment="Top" Height="60" IsStacked="FALSE">
                 <ioShape LocalID="ShapeCommandStatus" HorizontalAlignment="Left" Width="100">
                     <Properties TypeShape="Command" ShapeID="NotInCommand" TypeColor="AutomationDeviceSceondary" />
                 </ioShape>
