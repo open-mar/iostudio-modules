@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PanelClass Name="IdsControlStatusPanel">
+    <Description>Status panel for control computer</Description>
+    <PanelObject ParentGlobalID="Ids.CcF" Background="ContainerBackground">
+        <RowDefinition />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1">
+            <ioShape LocalID="ShapeEthernet">
+                <Properties TypeShape="Automation" ShapeID="Off" TypeColor="InstrumentEnhancedPrimary" />
+            </ioShape>
+        </Grid>
+    </PanelObject>
+    <PanelObject ParentGlobalID="Ids.CcM" Background="ContainerBackground">
+        <RowDefinition />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1" />
+    </PanelObject>
+    <PanelObject ParentGlobalID="Ids.CcA" Background="ContainerBackground">
+        <RowDefinition />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1" />
+    </PanelObject>
+</PanelClass>

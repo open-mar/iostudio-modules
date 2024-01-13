@@ -8,3 +8,5 @@ This GitHub repository contains [Configuration](https://github.com/omi-iost/open
 - Remote Control Centre ([RCC](RCC/HomeRcc.md))
 
 The configuration data can be loaded by the application [ioStudio Basic](https://www.iostudiotech.com/iostudio-basic).
+
+Here are som Shapes that is used in the applications: [OpenBridge Shapes >>](../Configuration/Shapes/Shapes.md)
