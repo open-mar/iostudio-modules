@@ -5,7 +5,7 @@
 These shapes has been developed by the [OpenBridge](https://www.openbridge.no/) project and exported 
 by [ioStudioTech](https://www.iostudiotech.com/) from the OpenBridge Figma-library.
 
-The use of the files is limited by the terms of the OpenBridge project.
+The use of the files is limited by the [terms of the OpenBridge project](https://www.openbridge.no/home/terms-of-use).
 
 ## TypeShape: Palettes
 
