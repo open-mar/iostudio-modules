@@ -7,26 +7,84 @@ by [ioStudioTech](https://www.iostudiotech.com/) from the OpenBridge Figma-libra
 
 The use of the files is limited by the [terms of the OpenBridge project](https://www.openbridge.no/home/terms-of-use).
 
-## TypeShape: Palettes
+## TypeShape: Action
 
-|ShapeID|SVG|
+|ShapeID|ioShape|
 |-----|---|
-|BrightDay|![Image](Palettes/BrightDay.svg)|
-|Day|![Image](Palettes/Day.svg)|
-|Dimming|![Image](Palettes/Dimming.svg)|
-|Dusk|![Image](Palettes/Dusk.svg)|
-|Night|![Image](Palettes/Night.svg)|
+|Apps|![ioShape](Action/Apps.svg)|
+|Close|![ioShape](Action/Close.svg)|
+|More|![ioShape](Action/More.svg)|
+|Off|![ioShape](Action/Off.svg)|
+|On|![ioShape](Action/On.svg)|
 
 ## TypeShape: Automation
 
-|ShapeID|SVG|
+|ShapeID|ioShape|
 |-----|---|
-|Off|![Image](Automation/Off.svg)|
-|On|![Image](Automation/On.svg)|
-|Standby|![Image](Automation/Standby.svg)|
+|BatteryPack100|![ioShape](Automation/BatteryPack100.svg)|
+|EthernetSwitch|![ioShape](Automation/EthernetSwitch.svg)|
+|IO|![ioShape](Automation/IO.svg)|
+|Logger|![ioShape](Automation/Logger.svg)|
+|Off|![ioShape](Automation/Off.svg)|
+|On|![ioShape](Automation/On.svg)|
+|PLS|![ioShape](Automation/PLS.svg)|
+|Standby|![ioShape](Automation/Standby.svg)|
+|Simulation|![ioShape](Automation/Simulation.svg)|
+|System|![ioShape](Automation/System.svg)|
 
-## TypeShape: Action
+## TypeShape: Command
 
-|ShapeID|SVG|
+|ShapeID|ioShape|
 |-----|---|
-|On|![Image](Action/On.svg)|
+|InCommand|![ioShape](Command/InCommand.svg)|
+|LockedCommand|![ioShape](Command/LockedCommand.svg)|
+|NotInCommand|![ioShape](Command/NotInCommand.svg)|
+|RequestCommand|![ioShape](Command/RequestCommand.svg)|
+|SharedCommand|![ioShape](Command/SharedCommand.svg)|
+|TakeCommand|![ioShape](Command/TakeCommand.svg)|
+
+## TypeShape: Integration
+
+|ShapeID|ioShape|
+|-----|---|
+|PC|![ioShape](Integration/PC.svg)|
+|Server|![ioShape](Integration/Server.svg)|
+
+
+## TypeShape: Maneuvering
+
+|ShapeID|ioShape|
+|-----|---|
+|Autopilot|![ioShape](Maneuvering/Autopilot.svg)|
+|AutoTrack|![ioShape](Maneuvering/AutoTrack.svg)|
+|Joystick|![ioShape](Maneuvering/Joystick.svg)|
+|Rotate|![ioShape](Maneuvering/Rotate.svg)|
+|StationKeeping|![ioShape](Maneuvering/StationKeeping.svg)|
+|TrackKeeping|![ioShape](Maneuvering/TrackKeeping.svg)|
+
+## TypeShape: MotionMeasurements
+
+|ShapeID|ioShape|
+|-----|---|
+|ROT|![ioShape](MotionMeasurements/ROT.svg)|
+
+
+## TypeShape: Palettes
+
+|ShapeID|ioShape|
+|-----|---|
+|BrightDay|![ioShape](Palettes/BrightDay.svg)|
+|Day|![ioShape](Palettes/Day.svg)|
+|Dimming|![ioShape](Palettes/Dimming.svg)|
+|Dusk|![ioShape](Palettes/Dusk.svg)|
+|Night|![ioShape](Palettes/Night.svg)|
+
+## TypeShape: SensorsNetwork
+
+|ShapeID|ioShape|
+|-----|---|
+|CellFullSignal|![ioShape](SensorsNetwork/CellFullSignal.svg)|
+|GpsSensorFull|![ioShape](SensorsNetwork/GpsSensorFull.svg)|
+|GyroSensor|![ioShape](SensorsNetwork/GyroSensor.svg)|
+|SatelliteFull|![ioShape](SensorsNetwork/SatelliteFull.svg)|
+|WindSensor|![ioShape](SensorsNetwork/WindSensor.svg)|
