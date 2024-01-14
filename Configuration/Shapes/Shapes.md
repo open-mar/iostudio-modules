@@ -87,4 +87,5 @@ The use of the files is limited by the [terms of the OpenBridge project](https:/
 |GpsSensorFull|![ioShape](SensorsNetwork/GpsSensorFull.svg)|
 |GyroSensor|![ioShape](SensorsNetwork/GyroSensor.svg)|
 |SatelliteFull|![ioShape](SensorsNetwork/SatelliteFull.svg)|
+|WiFi|![ioShape](SensorsNetwork/WiFi.svg)|
 |WindSensor|![ioShape](SensorsNetwork/WindSensor.svg)|

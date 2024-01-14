@@ -10,3 +10,5 @@ This GitHub repository contains [Configuration](https://github.com/omi-iost/open
 The configuration data can be loaded by the application [ioStudio Basic](https://www.iostudiotech.com/iostudio-basic).
 
 Here are som Shapes that is used in the applications: [OpenBridge Shapes >>](../Configuration/Shapes/Shapes.md)
+
+Here are som Icons that is used in the applications: [ioStudio Icons >>](../Configuration/Icons/Icons.md)

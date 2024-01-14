@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PanelClass Name="IdsStatusPanel">
+    <Description>Status panel for IDS</Description>
+    <PanelObject ParentGlobalID="Ids" Background="ContainerBackground">
+        <RowDefinition />
+        <RowDefinition />
+        <ColumnDefinition />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
+            <ioPanelGrid LocalID="GridStatusCcF" PanelGlobalID="Ids.CcF.IdsControlStatusPanel" />
+            <ioPanelGrid LocalID="GridStatusCcM" Margin="0,8,0,0" PanelGlobalID="Ids.CcM.IdsControlStatusPanel" />
+            <ioPanelGrid LocalID="GridStatusCcA" Margin="0,8,0,0" PanelGlobalID="Ids.CcA.IdsControlStatusPanel" />
+        </Grid>
+        <Grid Row="1" Column="2" />
+        <Grid Row="2" Column="1" />
+        <Grid Row="2" Column="2" />
+    </PanelObject>
+</PanelClass>
