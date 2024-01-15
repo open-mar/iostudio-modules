@@ -400,8 +400,8 @@
                     <Children>
                         <GraphicsType Name="ioButtonIcon">
                             <Properties>
-                                <Variable LocalID="TypeIcon" TypeEnumeration="ioIconType">0</Variable>
-                                <Variable LocalID="TypeGlyph" TypeEnumeration="ioGlyphType">0</Variable>
+                                <Variable LocalID="TypeFontIcon" TypeNum="String">Windows</Variable>
+                                <Variable LocalID="IconID" TypeNum="String">AllApps</Variable>
                             </Properties>
                         </GraphicsType>
                         <GraphicsType Name="ioButtonShape">
@@ -442,8 +442,8 @@
         </GraphicsType>
         <GraphicsType Name="ioIcon">
             <Properties>
-                <Variable LocalID="TypeIcon" TypeEnumeration="ioIconType">0</Variable>
-                <Variable LocalID="TypeGlyph" TypeEnumeration="ioGlyphType">0</Variable>
+                <Variable LocalID="TypeFont" TypeNum="String">MaterialDesign</Variable>
+                <Variable LocalID="IconID" TypeNum="String">apps</Variable>
                 <Variable LocalID="TypeColor" TypeEnumeration="ioColorGeneral">0</Variable>
             </Properties>
         </GraphicsType>

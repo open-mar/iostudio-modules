@@ -13,6 +13,7 @@ The use of the files is limited by the [terms of the OpenBridge project](https:/
 |-----|---|
 |Apps|![ioShape](Action/Apps.svg)|
 |Close|![ioShape](Action/Close.svg)|
+|Edit|![ioShape](Action/Edit.svg)|
 |More|![ioShape](Action/More.svg)|
 |Off|![ioShape](Action/Off.svg)|
 |On|![ioShape](Action/On.svg)|

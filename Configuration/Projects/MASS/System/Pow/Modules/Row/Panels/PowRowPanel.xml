@@ -8,7 +8,7 @@
         <ColumnDefinition />
         <Grid Row="1" Column="1">
             <ioIcon LocalID="Icon12V" HorizontalAlignment="Left" Width="40">
-                <Properties TypeIcon="ArrowDown8" TypeGlyph="Windows" TypeColor="AutomationDeviceSceondary" />
+                <Properties IconID="ArrowDown8" TypeFont="Windows" TypeColor="AutomationDeviceSceondary" />
             </ioIcon>
             <ioButtonText LocalID="ButtActive12V" HorizontalAlignment="Left" Width="100" Margin="40,0,0,0">
                 <Properties Text="12V" TypeColor="Normal" />
@@ -20,12 +20,12 @@
                 <Properties Text="220V" TypeColor="Normal" />
             </ioButtonText>
             <ioIcon LocalID="Icon220V" HorizontalAlignment="Right" Width="40">
-                <Properties TypeIcon="ArrowUp8" TypeGlyph="Windows" TypeColor="AutomationDeviceSceondary" />
+                <Properties IconID="ArrowUp8" TypeFont="Windows" TypeColor="AutomationDeviceSceondary" />
             </ioIcon>
         </Grid>
         <Grid Row="1" Column="2">
             <ioIcon LocalID="IconLeft" HorizontalAlignment="Left" Width="40">
-                <Properties TypeIcon="ArrowLeft8" TypeGlyph="Windows" TypeColor="AutomationDeviceSceondary" />
+                <Properties IconID="ArrowLeft8" TypeFont="Windows" TypeColor="AutomationDeviceSceondary" />
             </ioIcon>
             <ioButtonText LocalID="ButtActiveLeft" HorizontalAlignment="Left" Width="100" Margin="40,0,0,0">
                 <Properties Text="AFT" TypeColor="Amplified" />
@@ -37,7 +37,7 @@
                 <Properties Text="FWD" TypeColor="Normal" />
             </ioButtonText>
             <ioIcon LocalID="IconRightFwd" HorizontalAlignment="Right" Width="40">
-                <Properties TypeIcon="ArrowRight8" TypeGlyph="Windows" TypeColor="AutomationDeviceSceondary" />
+                <Properties IconID="ArrowRight8" TypeFont="Windows" TypeColor="AutomationDeviceSceondary" />
             </ioIcon>
         </Grid>
         <Grid Row="2" Column="1">
@@ -54,7 +54,7 @@
         <ColumnDefinition />
         <Grid Row="1" Column="1">
             <ioIcon LocalID="Icon12V" HorizontalAlignment="Left" Width="40">
-                <Properties TypeIcon="ArrowDown8" TypeGlyph="Windows" TypeColor="AutomationDeviceSceondary" />
+                <Properties IconID="ArrowDown8" TypeFont="Windows" TypeColor="AutomationDeviceSceondary" />
             </ioIcon>
             <ioButtonText LocalID="ButtActive12V" HorizontalAlignment="Left" Width="100" Margin="40,0,0,0">
                 <Properties Text="12V" TypeColor="Selected" />
@@ -66,12 +66,12 @@
                 <Properties Text="220V" TypeColor="Flat" />
             </ioButtonText>
             <ioIcon LocalID="Icon220V" HorizontalAlignment="Right" Width="40">
-                <Properties TypeIcon="ArrowUp8" TypeGlyph="Windows" TypeColor="AutomationDeviceSceondary" />
+                <Properties IconID="ArrowUp8" TypeFont="Windows" TypeColor="AutomationDeviceSceondary" />
             </ioIcon>
         </Grid>
         <Grid Row="1" Column="2">
             <ioIcon LocalID="IconLeft" HorizontalAlignment="Left" Width="40">
-                <Properties TypeIcon="ArrowLeft8" TypeGlyph="Windows" TypeColor="AutomationDeviceSceondary" />
+                <Properties IconID="ArrowLeft8" TypeFont="Windows" TypeColor="AutomationDeviceSceondary" />
             </ioIcon>
             <ioButtonText LocalID="ButtActiveLeft" HorizontalAlignment="Left" Width="100" Margin="40,0,0,0">
                 <Properties Text="AFT" TypeColor="Selected" />
@@ -83,7 +83,7 @@
                 <Properties Text="FWD" TypeColor="Selected" />
             </ioButtonText>
             <ioIcon LocalID="IconRightFwd" HorizontalAlignment="Right" Width="40">
-                <Properties TypeIcon="ArrowRight8" TypeGlyph="Windows" TypeColor="AutomationDeviceSceondary" />
+                <Properties IconID="ArrowRight8" TypeFont="Windows" TypeColor="AutomationDeviceSceondary" />
             </ioIcon>
         </Grid>
         <Grid Row="2" Column="1">

@@ -4,7 +4,7 @@
 
 ioStudio is using icons from Microsoft and Google:
 
-- TypeIcon: [MaterialDesign](MaterialDesign.html)
-- TypeIcon: [Windows](Windows.html)
+- TypeFont: [MaterialDesign](Html/MaterialDesign.html)
+- TypeFont: [Windows](Html/Windows.html)
 
 Load the files in a web-browser to see the IconID and ioIcon preview.
