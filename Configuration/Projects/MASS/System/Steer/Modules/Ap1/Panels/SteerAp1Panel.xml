@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PanelClass Name="SteerAp1Panel">
+    <Description>Panel for autopilot steering</Description>
+    <PanelObject ParentGlobalID="Steer.Ap1" Background="ContainerBackground">
+        <RowDefinition />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
+            <ioLabel LocalID="LabelApSteer">
+                <Properties Text="AUTOPILOT REFERENCE [°M]" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
+            <ioTextBlock LocalID="InstrHeadingRef" Margin="8,0,0,0">
+                <Properties Text="000" TypeColor="InstrumentEnhancedPrimary" FontFamily="OpenSans" FontSize="Huge" FontWeight="Normal" TextWrapping="NoWrap" NumOfDecimals="0" IsTextAlignedRight="FALSE" />
+            </ioTextBlock>
+            <ioLabel LocalID="LabelHeading">
+                <Properties Text="HEADING [°M]" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
+            <ioTextBlock LocalID="InstrHeading" Margin="8,0,0,0">
+                <Properties Text="000.0" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="Normal" TextWrapping="NoWrap" NumOfDecimals="1" IsTextAlignedRight="FALSE" />
+            </ioTextBlock>
+        </Grid>
+    </PanelObject>
+</PanelClass>

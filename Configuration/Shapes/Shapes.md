@@ -69,6 +69,12 @@ The use of the files is limited by the [terms of the OpenBridge project](https:/
 |-----|---|
 |ROT|![ioShape](MotionMeasurements/ROT.svg)|
 
+## TypeShape: NavigationInstruments
+
+|ShapeID|ioShape|
+|-----|---|
+|ContourShip|![ioShape](NavigationInstruments/ContourShip.svg)|
+
 
 ## TypeShape: Palettes
 
