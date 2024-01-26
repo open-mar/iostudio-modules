@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataList Name="SteerAp1Data">
+    <Description>Autopilot data</Description>
+    <DataListObject ParentGlobalID="Steer.Ap1">
+        <Variable LocalID="MeasRudderAngle" TypeNum="Float" Unit="°" Decimals="1" Min="-99.0" Max="99.0">0.0</Variable>
+        <Variable LocalID="MeasThrust" TypeNum="Float" Unit="%" Decimals="1" Min="-100.0" Max="100.0">0.0</Variable>
+        <Variable LocalID="MeasRateOfTurn" TypeNum="Float" Unit="°/min" Decimals="1" Min="-999.0" Max="999.0">0.0</Variable>
+        <Variable LocalID="MeasHeading" TypeNum="Float" Unit="°" Decimals="1" Min="0.0" Max="359.9">0.0</Variable>
+    </DataListObject>
+</DataList>

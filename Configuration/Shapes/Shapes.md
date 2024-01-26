@@ -73,6 +73,7 @@ The use of the files is limited by the [terms of the OpenBridge project](https:/
 
 |ShapeID|ioShape|
 |-----|---|
+|FrontArrow|![ioShape](NavigationInstruments/FrontArrow.svg)|
 |ContourShip|![ioShape](NavigationInstruments/ContourShip.svg)|
 
 

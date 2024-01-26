@@ -17,16 +17,7 @@
             <ioPanelGrid LocalID="GridSetRefCp2" VerticalAlignment="Top" Height="160" Margin="4,0,0,0" PanelGlobalID="Steer.Cp2.SetRefPanel" />
         </Grid>
         <Grid Row="1" Column="3">
-            <ioPanelGrid LocalID="GridAp1Panel" HorizontalAlignment="Left" Width="160" VerticalAlignment="Top" Height="200" Margin="56,370,0,0" PanelGlobalID="Steer.Ap1.SteerAp1Panel" />
-            <ioShape LocalID="ShapeContourShip" HorizontalAlignment="Left" Width="280" VerticalAlignment="Top" Height="700">
-                <Properties TypeShape="NavigationInstruments" ShapeID="ContourShip" ScaleX="1.7" ScaleY="1" TypeColor="AutomationPipeDisabled" />
-            </ioShape>
-            <ioUiComponent LocalID="CompThruster" HorizontalAlignment="Left" Width="320" VerticalAlignment="Top" Height="94" Margin="56,230,0,0">
-                <Properties TypeUiComponent="Navigation" UiComponentID="ioTunnelThrusterTicks" Radius="150.0" />
-            </ioUiComponent>
-            <ioUiComponent LocalID="CompRudder" HorizontalAlignment="Left" Width="320" VerticalAlignment="Top" Height="190" Margin="56,500,0,0">
-                <Properties TypeUiComponent="Navigation" UiComponentID="ioRudderTicks" Radius="160" />
-            </ioUiComponent>
+            <ioPanelGrid LocalID="GridAp1Panel" PanelGlobalID="Steer.Ap1.SteerAp1Panel" />
         </Grid>
     </PanelObject>
 </PanelClass>

@@ -4,19 +4,60 @@
     <PanelObject ParentGlobalID="Steer.Ap1" Background="ContainerBackground">
         <RowDefinition />
         <ColumnDefinition />
-        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
-            <ioLabel LocalID="LabelApSteer">
-                <Properties Text="AUTOPILOT REFERENCE [°M]" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
-            </ioLabel>
-            <ioTextBlock LocalID="InstrHeadingRef" Margin="8,0,0,0">
-                <Properties Text="000" TypeColor="InstrumentEnhancedPrimary" FontFamily="OpenSans" FontSize="Huge" FontWeight="Normal" TextWrapping="NoWrap" NumOfDecimals="0" IsTextAlignedRight="FALSE" />
-            </ioTextBlock>
-            <ioLabel LocalID="LabelHeading">
-                <Properties Text="HEADING [°M]" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
-            </ioLabel>
-            <ioTextBlock LocalID="InstrHeading" Margin="8,0,0,0">
-                <Properties Text="000.0" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="Normal" TextWrapping="NoWrap" NumOfDecimals="1" IsTextAlignedRight="FALSE" />
-            </ioTextBlock>
+        <Grid Row="1" Column="1">
+            <ioPanelGrid LocalID="GridAutopilot" HorizontalAlignment="Left" Width="160" VerticalAlignment="Top" Height="200" Margin="56,325,0,0">
+                <ioLabel LocalID="LabelApSteer">
+                    <Properties Text="AUTOPILOT REFERENCE [°M]" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioTextBlock LocalID="InstrHeadingRef" Margin="8,0,0,0">
+                    <Properties Text="000" TypeColor="InstrumentEnhancedPrimary" FontFamily="OpenSans" FontSize="Huge" FontWeight="Normal" TextWrapping="NoWrap" Decimals="1" TextAlignment="Left" />
+                </ioTextBlock>
+                <ioLabel LocalID="LabelHeading">
+                    <Properties Text="HEADING [°M]" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioTextBlock LocalID="InstrHeading" Margin="8,0,0,0">
+                    <Properties Text="000.0" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="Normal" TextWrapping="NoWrap" Decimals="1" TextAlignment="Left" />
+                </ioTextBlock>
+            </ioPanelGrid>
+            <ioShape LocalID="ShapeContourShip" HorizontalAlignment="Left" Width="280" VerticalAlignment="Top" Height="700">
+                <Properties TypeShape="NavigationInstruments" ShapeID="ContourShip" ScaleX="1.7" ScaleY="1" TypeColor="AutomationPipeDisabled" />
+            </ioShape>
+            <ioUiComponent LocalID="CompThruster" HorizontalAlignment="Left" Width="320" VerticalAlignment="Top" Height="94" Margin="56,190,0,0">
+                <Properties TypeUiComponent="Navigation" UiComponentID="ioTunnelThrusterTicksCmd" Radius="150.0" />
+            </ioUiComponent>
+            <ioUiComponent LocalID="CompRudder" HorizontalAlignment="Left" Width="320" VerticalAlignment="Top" Height="200" Margin="60,500,0,0">
+                <Properties TypeUiComponent="Navigation" UiComponentID="ioRudderTicksLabels" Radius="160" />
+            </ioUiComponent>
+            <ioUiComponent LocalID="CompRateOfTurn" VerticalAlignment="Top" Height="120" Margin="68,68,0,0">
+                <Properties TypeUiComponent="Navigation" UiComponentID="ioRateOfTurnTicksLabels" Radius="150.0" />
+            </ioUiComponent>
+            <ioUiComponent LocalID="CompEngine" HorizontalAlignment="Left" Width="96" VerticalAlignment="Top" Height="230" Margin="280,290,64,0">
+                <Properties TypeUiComponent="Navigation" UiComponentID="ioEngineSimpleCmd" Radius="150.0" />
+            </ioUiComponent>
+            <ioPanelGrid LocalID="GridRotMeas" HorizontalAlignment="Left" Width="160" VerticalAlignment="Top" Height="36" Margin="176,140,0,0" Orientation="Horizontal">
+                <ioTextBlock LocalID="TextRotValue" HorizontalAlignment="Left" Width="40" VerticalAlignment="Top" Height="36">
+                    <Properties Text="044" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="MediumLarge" FontWeight="Bold" TextWrapping="NoWrap" Decimals="0" TextAlignment="End" />
+                </ioTextBlock>
+                <ioLabel LocalID="LabelRot" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="18" Margin="4,0,0,0">
+                    <Properties Text="°/min" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridEngineMeas" HorizontalAlignment="Left" Width="160" VerticalAlignment="Top" Height="24" Margin="265,520,0,0" Orientation="Horizontal">
+                <ioTextBlock LocalID="TextEngineValue" HorizontalAlignment="Left" Width="60" VerticalAlignment="Top" Height="24">
+                    <Properties Text="1500" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Medium" FontWeight="Bold" TextWrapping="NoWrap" Decimals="0" TextAlignment="End" />
+                </ioTextBlock>
+                <ioLabel LocalID="LabelEngine" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="18" Margin="4,0,0,0">
+                    <Properties Text="RPM" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridThrustMeas" HorizontalAlignment="Left" Width="160" VerticalAlignment="Top" Height="24" Margin="174,290,0,0" Orientation="Horizontal">
+                <ioTextBlock LocalID="TextThrustValue" HorizontalAlignment="Left" Width="40" VerticalAlignment="Top" Height="24">
+                    <Properties Text="-40" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Medium" FontWeight="Bold" TextWrapping="NoWrap" Decimals="0" TextAlignment="End" />
+                </ioTextBlock>
+                <ioLabel LocalID="LabelThrust" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="18" Margin="4,0,0,0">
+                    <Properties Text="%" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
         </Grid>
     </PanelObject>
 </PanelClass>
