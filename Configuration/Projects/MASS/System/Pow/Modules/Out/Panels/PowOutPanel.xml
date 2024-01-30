@@ -131,7 +131,7 @@
                     <Properties Text="OFF" TypeColor="Normal" TypeShape="Automation" ShapeID="Off" />
                 </ioButtonShape>
                 <ioShape LocalID="ShapeCh1" HorizontalAlignment="Left" Width="32">
-                    <Properties TypeShape="Automation" ShapeID="Off" TypeColor="AlertAlarm" />
+                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
                 </ioShape>
                 <ioLabel LocalID="LabelCh1" VerticalAlignment="Center" Height="15">
                     <Properties Text="12V FWD CH1" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -145,7 +145,7 @@
                     <Properties Text="OFF" TypeColor="Alarm" TypeShape="Automation" ShapeID="Off" />
                 </ioButtonShape>
                 <ioShape LocalID="ShapeCh2" HorizontalAlignment="Left" Width="32">
-                    <Properties TypeShape="Automation" ShapeID="On" TypeColor="AlertRunning" />
+                    <Properties TypeShape="Automation" ShapeID="On" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertRunning" />
                 </ioShape>
                 <ioLabel LocalID="LabelCh2" VerticalAlignment="Center" Height="15">
                     <Properties Text="12V FWD CH2" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -159,7 +159,7 @@
                     <Properties Text="OFF" TypeColor="Normal" TypeShape="Automation" ShapeID="Off" />
                 </ioButtonShape>
                 <ioShape LocalID="ShapeCh3" HorizontalAlignment="Left" Width="32">
-                    <Properties TypeShape="Automation" ShapeID="Off" TypeColor="AlertAlarm" />
+                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
                 </ioShape>
                 <ioLabel LocalID="LabelCh3" VerticalAlignment="Center" Height="15">
                     <Properties Text="12V FWD CH3" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -173,7 +173,7 @@
                     <Properties Text="OFF" TypeColor="Raised" TypeShape="Automation" ShapeID="Off" />
                 </ioButtonShape>
                 <ioShape LocalID="ShapeCh4" HorizontalAlignment="Left" Width="32">
-                    <Properties TypeShape="Automation" ShapeID="On" TypeColor="AlertRunning" />
+                    <Properties TypeShape="Automation" ShapeID="On" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertRunning" />
                 </ioShape>
                 <ioLabel LocalID="LabelCh4" VerticalAlignment="Center" Height="15">
                     <Properties Text="12V FWD CH4" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -187,7 +187,7 @@
                     <Properties Text="OFF" TypeColor="Normal" TypeShape="Automation" ShapeID="Off" />
                 </ioButtonShape>
                 <ioShape LocalID="ShapeCh5" HorizontalAlignment="Left" Width="32">
-                    <Properties TypeShape="Automation" ShapeID="Off" TypeColor="AlertAlarm" />
+                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
                 </ioShape>
                 <ioLabel LocalID="LabelCh5" VerticalAlignment="Center" Height="15">
                     <Properties Text="12V FWD CH5" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -201,7 +201,7 @@
                     <Properties Text="OFF" TypeColor="Normal" TypeShape="Automation" ShapeID="Off" />
                 </ioButtonShape>
                 <ioShape LocalID="ShapeCh6" HorizontalAlignment="Left" Width="32">
-                    <Properties TypeShape="Automation" ShapeID="Off" TypeColor="AlertAlarm" />
+                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
                 </ioShape>
                 <ioLabel LocalID="LabelCh6" VerticalAlignment="Center" Height="15">
                     <Properties Text="12V FWD CH6" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -215,7 +215,7 @@
                     <Properties Text="OFF" TypeColor="Normal" TypeShape="Automation" ShapeID="Off" />
                 </ioButtonShape>
                 <ioShape LocalID="ShapeCh7" HorizontalAlignment="Left" Width="32">
-                    <Properties TypeShape="Automation" ShapeID="Off" TypeColor="AlertAlarm" />
+                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
                 </ioShape>
                 <ioLabel LocalID="LabelCh7" VerticalAlignment="Center" Height="15">
                     <Properties Text="12V FWD CH7" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -229,7 +229,7 @@
                     <Properties Text="OFF" TypeColor="Normal" TypeShape="Automation" ShapeID="Off" />
                 </ioButtonShape>
                 <ioShape LocalID="ShapeCh8" HorizontalAlignment="Left" Width="32">
-                    <Properties TypeShape="Automation" ShapeID="Off" TypeColor="AlertAlarm" />
+                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
                 </ioShape>
                 <ioLabel LocalID="LabelCh8" VerticalAlignment="Center" Height="15">
                     <Properties Text="12V FWD CH8" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -249,7 +249,7 @@
                     <Properties Text="OFF" TypeColor="Normal" TypeShape="Action" ShapeID="Off" />
                 </ioButtonShape>
                 <ioShape LocalID="ShapeCh1" HorizontalAlignment="Left" Width="32">
-                    <Properties TypeShape="Action" ShapeID="Off" TypeColor="AlertAlarm" />
+                    <Properties TypeShape="Action" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
                 </ioShape>
                 <ioLabel LocalID="LabelCh1" VerticalAlignment="Center" Height="15">
                     <Properties Text="12V AFT CH1" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -263,7 +263,7 @@
                     <Properties Text="OFF" TypeColor="Alarm" TypeShape="Action" ShapeID="Off" />
                 </ioButtonShape>
                 <ioShape LocalID="ShapeCh2" HorizontalAlignment="Left" Width="32">
-                    <Properties TypeShape="Action" ShapeID="On" TypeColor="AlertRunning" />
+                    <Properties TypeShape="Action" ShapeID="On" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertRunning" />
                 </ioShape>
                 <ioLabel LocalID="LabelCh2" VerticalAlignment="Center" Height="15">
                     <Properties Text="12V AFT CH2" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -277,7 +277,7 @@
                     <Properties Text="OFF" TypeColor="Normal" TypeShape="Action" ShapeID="Off" />
                 </ioButtonShape>
                 <ioShape LocalID="ShapeCh3" HorizontalAlignment="Left" Width="32">
-                    <Properties TypeShape="Action" ShapeID="Off" TypeColor="AlertAlarm" />
+                    <Properties TypeShape="Action" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
                 </ioShape>
                 <ioLabel LocalID="LabelCh3" VerticalAlignment="Center" Height="15">
                     <Properties Text="12V AFT CH3" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -291,7 +291,7 @@
                     <Properties Text="OFF" TypeColor="Raised" TypeShape="Action" ShapeID="Off" />
                 </ioButtonShape>
                 <ioShape LocalID="ShapeCh4" HorizontalAlignment="Left" Width="32">
-                    <Properties TypeShape="Action" ShapeID="On" TypeColor="AlertRunning" />
+                    <Properties TypeShape="Action" ShapeID="On" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertRunning" />
                 </ioShape>
                 <ioLabel LocalID="LabelCh4" VerticalAlignment="Center" Height="15">
                     <Properties Text="12V AFT CH4" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -305,7 +305,7 @@
                     <Properties Text="OFF" TypeColor="Normal" TypeShape="Action" ShapeID="Off" />
                 </ioButtonShape>
                 <ioShape LocalID="ShapeCh5" HorizontalAlignment="Left" Width="32">
-                    <Properties TypeShape="Action" ShapeID="Off" TypeColor="AlertAlarm" />
+                    <Properties TypeShape="Action" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
                 </ioShape>
                 <ioLabel LocalID="LabelCh5" VerticalAlignment="Center" Height="15">
                     <Properties Text="12V AFT CH5" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -319,7 +319,7 @@
                     <Properties Text="OFF" TypeColor="Normal" TypeShape="Action" ShapeID="Off" />
                 </ioButtonShape>
                 <ioShape LocalID="ShapeCh6" HorizontalAlignment="Left" Width="32">
-                    <Properties TypeShape="Action" ShapeID="Off" TypeColor="AlertAlarm" />
+                    <Properties TypeShape="Action" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
                 </ioShape>
                 <ioLabel LocalID="LabelCh6" VerticalAlignment="Center" Height="15">
                     <Properties Text="12V AFT CH6" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -333,7 +333,7 @@
                     <Properties Text="OFF" TypeColor="Normal" TypeShape="Action" ShapeID="Off" />
                 </ioButtonShape>
                 <ioShape LocalID="ShapeCh7" HorizontalAlignment="Left" Width="32">
-                    <Properties TypeShape="Action" ShapeID="Off" TypeColor="AlertAlarm" />
+                    <Properties TypeShape="Action" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
                 </ioShape>
                 <ioLabel LocalID="LabelCh7" VerticalAlignment="Center" Height="15">
                     <Properties Text="12V AFT CH7" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -347,7 +347,7 @@
                     <Properties Text="OFF" TypeColor="Normal" TypeShape="Action" ShapeID="Off" />
                 </ioButtonShape>
                 <ioShape LocalID="ShapeCh8" HorizontalAlignment="Left" Width="32">
-                    <Properties TypeShape="Action" ShapeID="Off" TypeColor="AlertAlarm" />
+                    <Properties TypeShape="Action" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
                 </ioShape>
                 <ioLabel LocalID="LabelCh8" VerticalAlignment="Center" Height="15">
                     <Properties Text="12V AFT CH8" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />

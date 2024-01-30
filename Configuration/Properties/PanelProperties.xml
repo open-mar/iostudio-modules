@@ -127,7 +127,7 @@
                 <Variable LocalID="Radius" TypeNum="Double">150.0</Variable>
             </Properties>
         </GraphicsType>
-        <GraphicsType Name="GraphicsText" IsBaseOnly="TRUE">
+        <GraphicsType Name="ioGraphicsText" IsBaseOnly="TRUE">
             <Properties>
                 <Variable LocalID="Text" TypeNum="String"/>
             </Properties>
