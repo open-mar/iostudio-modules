@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProgramProperties Version="1.0.0.1">
+    <Properties>
+    </Properties>
+    <Children>
+        <FunctionsClass NameClass="ioMath" TypeClass="Static" Include"ioSystem/Core/ioMath.h">
+            <Description>This is my class</Description>
+            <Properties>
+                <Variable LocalID="MATH_PI" TypeNum="Float">3.14159265</Variable>
+            </Properties>
+            <Function NameFunction="Abs">
+                <Description>This is my function</Description>
+                <Return>
+                    <Variable LocalID="AbsReturn" TypeNum="Float">0.0</Variable>
+                </Return>
+                <Inputs>
+                    <Variable LocalID="value" TypeNum="Float">1.0</Variable>
+                </Inputs>
+            </Function>
+            <Children>
+            </Children>
+        </FunctionsClass>
+        <FunctionsClass NameClass="ioStringDecimal" TypeClass="External">
+            <Description>This is my class</Description>
+            <Properties>
+                <Variable LocalID="MyExternalAttribute" TypeNum="Float" Decimals="3" Min="0.001" Max="999.0">1.0</Variable>
+            </Properties>
+            <Function NameFunction="MyExternalFunction">
+                <Description>Add 64-bit floating point value to decimal string</Description>
+                <Inputs>
+                    <Variable LocalID="MyExternalInput" TypeNum="Float" Decimals="3" Min="0.001" Max="999.0">1.0</Variable>
+                </Inputs>
+                <Outputs>
+                    <Variable LocalID="MyExternalOutput" TypeNum="Int32" Min="0" Max="9999">10</Variable>
+                </Outputs>
+            </Function>
+            <Children>
+            </Children>
+        </FunctionsClass>
+    </Children>
+</ProgramProperties>

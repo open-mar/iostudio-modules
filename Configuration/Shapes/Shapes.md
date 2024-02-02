@@ -24,6 +24,8 @@ The use of the files is limited by the [terms of the OpenBridge project](https:/
 |-----|---|
 |BatteryPack100|![ioShape](Automation/BatteryPack100.svg)|
 |EthernetSwitch|![ioShape](Automation/EthernetSwitch.svg)|
+|Forward|![ioShape](Automation/Forward.svg)|
+|ForwardStopped|![ioShape](Automation/ForwardStopped.svg)|
 |IO|![ioShape](Automation/IO.svg)|
 |Logger|![ioShape](Automation/Logger.svg)|
 |Off|![ioShape](Automation/Off.svg)|
