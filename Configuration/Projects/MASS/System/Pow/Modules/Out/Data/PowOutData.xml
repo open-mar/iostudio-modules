@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DataList Name="PowOutData">
-    <Description></Description>
+    <Description>Data for MASS power outputs</Description>
     <DataListObject ParentGlobalID="Pow.Out12M">
         <Variable LocalID="OnCh1" TypeNum="Bool">FALSE</Variable>
         <Variable LocalID="OnCh2" TypeNum="Bool">FALSE</Variable>

@@ -1,4 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ProgramClass Name="BattProg">
     <Description>Battery management program</Description>
+    <DataItemsCollection>
+        <DataListProgram Name="Batt::Dc::BattDcData" NameObject="DcData">
+            <Item NameClass="BattDcDataDc12" NameObject="DcDataDc12" />
+            <Item NameClass="BattDcDataDc24" NameObject="DcDataDc24" />
+        </DataListProgram>
+        <DataListProgram Name="Batt::BattData" NameObject="MainData">
+            <Item NameClass="BattData" NameObject="MainData" />
+        </DataListProgram>
+    </DataItemsCollection>
+    <Sequences>
+        <Run>
+            <Function Name="SetRealValue" Return="void" Parent="BattProg">
+                <Inputs />
+                <Outputs>
+                    <Argument Name="inFloat" TypeNum="Float" />
+                </Outputs>
+            </Function>
+        </Run>
+    </Sequences>
 </ProgramClass>
