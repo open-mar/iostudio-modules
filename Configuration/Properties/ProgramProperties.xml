@@ -23,7 +23,7 @@
         <FunctionsClass NameClass="ioStringDecimal" TypeClass="External">
             <Description>This is my class</Description>
             <Properties>
-                <Variable LocalID="MyExternalAttribute" TypeNum="Float" Decimals="3" Min="0.001" Max="999.0">1.0</Variable>
+                <Variable LocalID="MyExternalProperty" TypeNum="Float" Decimals="3" Min="0.001" Max="999.0">1.0</Variable>
             </Properties>
             <Function NameFunction="MyExternalFunction">
                 <Description>Add 64-bit floating point value to decimal string</Description>
