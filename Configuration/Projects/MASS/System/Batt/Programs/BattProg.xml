@@ -10,40 +10,78 @@
             <Item NameClass="BattData" NameObject="MainData" />
         </DataListProgram>
     </DataItemsCollection>
+    <PanelsCollection>
+        <PanelInProgram Name="Batt::Dc::BattDcPanel" NameObject="DcPanel">
+            <Item NameClass="BattDcPanelDc12" NameObject="DcPanelDc12" />
+            <Item NameClass="BattDcPanelDc24" NameObject="DcPanelDc24" />
+        </PanelInProgram>
+        <PanelInProgram Name="Batt::BattPanel" NameObject="MainPanel">
+            <Item NameClass="BattPanel" NameObject="MainPanel" />
+        </PanelInProgram>
+    </PanelsCollection>
+    <InternalFunctions>
+        <Function Name="CheckBattery">
+            <Return TypeNum="Bool"/>
+            <Inputs>
+                <Argument Name="currentIn" TypeNum="Float"/>
+                <Argument Name="currentOut" TypeNum="Float"/>
+                <Argument Name="voltage" TypeNum="Float"/>
+            </Inputs>
+            <Outputs>
+                <Argument Name="currentAvg" TypeNum="Float"/>
+            </Outputs>
+        </Function>
+        <Function Name="CalcSoc">
+            <Inputs>
+                <Argument Name="currentAvg12V" TypeNum="Float"/>
+                <Argument Name="currentAvg24V" TypeNum="Float"/>
+            </Inputs>
+            <Outputs>
+                <Argument Name="soc" TypeNum="Float"/>
+                <Argument Name="timeTo10Perc" TypeNum="TimeInterval"/>
+            </Outputs>
+        </Function>
+        <Function Name="GetInputVoltageCharger">
+            <Return TypeNum="Float"/>
+            <Inputs />
+            <Outputs />
+        </Function>
+        <Function Name="SetPanelValue">
+            <Return TypeNum="Float" />
+            <Inputs>
+                <Argument Name="valueData" TypeNum="Float"/>
+            </Inputs>
+            <Outputs />
+        </Function>
+    </InternalFunctions>
     <Sequences>
         <Run>
-            <Function Name="CheckBattery12V">
-                <Return TypeNum="Bool" NameClass="BattData" GlobalID="Batt.IsChargActive12V" />
-                <Inputs>
-                    <Argument Name="currentIn" TypeNum="Float" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpIn" />
-                    <Argument Name="currentOut" TypeNum="Float" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpOut" />
-                    <Argument Name="voltage" TypeNum="Float" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattVolt" />
-                </Inputs>
-                <Outputs>
-                    <Argument Name="currentAvg" TypeNum="Float" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpAvg" />
-                </Outputs>
-            </Function>
-            <Function Name="CheckBattery24V">
+            <Call Name="CheckBattery">
+                <Return NameClass="BattData" GlobalID="Batt.IsChargActive12V" />
+                <Input Name="currentIn" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpIn" />
+                <Input Name="currentOut" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpOut" />
+                <Input Name="voltage" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattVolt" />
+                <Output Name="currentAvg" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpAvg" />
+            </Call>
+            <Call Name="CheckBattery">
                 <Return TypeNum="Bool" NameClass="BattData" GlobalID="Batt.IsChargActive24V" />
-                <Inputs>
-                    <Argument Name="currentIn" TypeNum="Float" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpIn" />
-                    <Argument Name="currentOut" TypeNum="Float" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpOut" />
-                    <Argument Name="voltage" TypeNum="Float" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattVolt" />
-                </Inputs>
-                <Outputs>
-                    <Argument Name="currentAvg" TypeNum="Float" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpAvg" />
-                </Outputs>
-            </Function>
-            <Function Name="CalcSoc">
-                <Inputs>
-                    <Argument Name="currentAvg12V" TypeNum="Float" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpAvg" />
-                    <Argument Name="currentAvg24V" TypeNum="Float" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpAvg" />
-                </Inputs>
-                <Outputs>
-                    <Argument Name="soc" TypeNum="Float" NameClass="BattData" GlobalID="Batt.StatusOfCharge" />
-                    <Argument Name="timeTo10Perc" TypeNum="TimeInterval" NameClass="BattData" GlobalID="Batt.TimeTo10Percent" />
-                </Outputs>
-            </Function>
+                <Input Name="currentIn" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpIn" />
+                <Input Name="currentOut" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpOut" />
+                <Input Name="voltage" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattVolt" />
+                <Output Name="currentAvg" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpAvg" />
+            </Call>
+            <Call Name="CalcSoc">
+                <Input Name="currentAvg12V" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpAvg" />
+                <Input Name="currentAvg24V" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpAvg" />
+                <Output Name="soc" NameClass="BattData" GlobalID="Batt.StatusOfCharge" />
+                <Output Name="timeTo10Perc" NameClass="BattData" GlobalID="Batt.TimeTo10Percent" />
+            </Call>
+            <Call Name="GetInputVoltageCharger">
+                <Return NameClass="BattData" GlobalID="Batt.ChargeInputVolt" />
+            </Call>
+            <Call Name="SetPanelValue">
+                <Input Name="valueData" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattVolt" />
+            </Call>
         </Run>
     </Sequences>
 </ProgramClass>
