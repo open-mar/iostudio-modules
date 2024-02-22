@@ -14,6 +14,7 @@ The use of the files is limited by the [terms of the OpenBridge project](https:/
 |Apps|![ioShape](Action/Apps.svg)|
 |Close|![ioShape](Action/Close.svg)|
 |Edit|![ioShape](Action/Edit.svg)|
+|Menu|![ioShape](Action/Menu.svg)|
 |More|![ioShape](Action/More.svg)|
 |Off|![ioShape](Action/Off.svg)|
 |On|![ioShape](Action/On.svg)|
@@ -99,3 +100,9 @@ The use of the files is limited by the [terms of the OpenBridge project](https:/
 |SatelliteFull|![ioShape](SensorsNetwork/SatelliteFull.svg)|
 |WiFi|![ioShape](SensorsNetwork/WiFi.svg)|
 |WindSensor|![ioShape](SensorsNetwork/WindSensor.svg)|
+
+## TypeShape: VesselsObjects
+
+|ShapeID|ioShape|
+|-----|---|
+|Diver|![ioShape](VesselsObjects/Diver.svg)|

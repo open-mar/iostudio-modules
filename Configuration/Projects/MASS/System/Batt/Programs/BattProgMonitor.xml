@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProgramClass Name="BattProgMonitor">
+    <Description>Program for monitoring of battery data</Description>
+    <DataItemsCollection>
+        <DataListProgram Name="Batt::BattData" NameObject="MainData">
+            <Item NameClass="BattData" NameObject="MainData" />
+        </DataListProgram>
+        <DataListProgram Name="Batt::Dc::BattDcData" NameObject="DcData">
+            <Item NameClass="BattDcDataDc12" NameObject="DcDataDc12" />
+            <Item NameClass="BattDcDataDc24" NameObject="DcDataDc24" />
+        </DataListProgram>
+    </DataItemsCollection>
+    <PanelsCollection>
+        <PanelInProgram Name="Batt::BattPanel" NameObject="MainPanel">
+            <Item NameClass="BattPanel" NameObject="MainPanel" />
+        </PanelInProgram>
+        <PanelInProgram Name="Batt::Dc::BattDcPanel" NameObject="DcPanel">
+            <Item NameClass="BattDcPanelDc12" NameObject="DcPanelDc12" />
+            <Item NameClass="BattDcPanelDc24" NameObject="DcPanelDc24" />
+        </PanelInProgram>
+    </PanelsCollection>
+    <InternalFunctions>
+        <Function Name="SetRealValuePanel">
+            <Inputs>
+                <Argument Name="inputValue" TypeNum="Float" />
+            </Inputs>
+            <Outputs>
+                <Argument Name="outValue" TypeNum="Double" />
+            </Outputs>
+        </Function>
+        <Function Name="">
+            <Inputs />
+            <Outputs />
+        </Function>
+    </InternalFunctions>
+    <Sequences>
+        <Run>
+            <Call Name="SetRealValuePanel">
+                <Input Name="inputValue" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattVolt" TypeData="Data" />
+                <Output Name="outValue" NameClass="BattDcPanelDc12" GlobalID="Batt.Dc12.GridVolt.InstrVolt" TypeData="Panels" Property="ValueReal" />
+            </Call>
+            <Call Name="SetRealValuePanel">
+                <Input Name="inputValue" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpAvg" TypeData="Data" />
+                <Output Name="outValue" NameClass="BattDcPanelDc12" GlobalID="Batt.Dc12.GridBattAmp.InstrAmpAvg" TypeData="Panels" Property="ValueReal" />
+            </Call>
+            <Call Name="SetRealValuePanel">
+                <Input Name="inputValue" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattVolt" TypeData="Data" Property="ValueReal" />
+                <Output Name="outValue" NameClass="BattDcPanelDc24" GlobalID="Batt.Dc24.GridVolt.InstrVolt" TypeData="Panels" Property="ValueReal" />
+            </Call>
+            <Call Name="SetRealValuePanel">
+                <Input Name="inputValue" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpAvg" TypeData="Data" />
+                <Output Name="outValue" NameClass="BattDcPanelDc24" GlobalID="Batt.Dc24.GridBattAmp.InstrAmpAvg" TypeData="Panels" Property="ValueReal" />
+            </Call>
+        </Run>
+    </Sequences>
+</ProgramClass>
