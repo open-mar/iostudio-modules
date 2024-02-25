@@ -1,0 +1,10 @@
+{
+  "background_color": "#ffffff",
+  "description": "OpenBridgeApp",
+  "display": "standalone",
+  "name": "OpenBridgeApp",
+  "short_name": "OpenBridgeApp",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "scope": "/"
+}

@@ -1,0 +1,10 @@
+{
+	"profiles": {
+		"OpenBridgeApp.Windows (Unpackaged)": {
+			"commandName": "Project"
+		},
+		"OpenBridgeApp.Windows (Package)": {
+			"commandName": "MsixPackage"
+		}
+	}
+}
