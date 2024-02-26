@@ -17,13 +17,16 @@ namespace OpenBridgeApp.Components.Application
 {
 	public class ObClock 
     {
-		public int BlinkOnlyBraakpointPx;
+		public int BlinkOnlyBreakpointPx;
 		public string Date;
 		public bool ShowDate;
 
 		public ObClock()
         {
-		}
+            BlinkOnlyBreakpointPx = 0;
+            Date = string.Empty;
+            ShowDate = true;
+        }
 
 		~ObClock()
         {

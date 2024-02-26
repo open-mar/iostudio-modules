@@ -25,6 +25,11 @@ namespace OpenBridgeApp.Components.Button
 
 		public ObNotificationButton()
         {
+            Disabled = false;
+            Icon = false;
+            Indent = false;
+            OpenLeft = false;
+            OpenRight = false;
 		}
 
 		~ObNotificationButton()

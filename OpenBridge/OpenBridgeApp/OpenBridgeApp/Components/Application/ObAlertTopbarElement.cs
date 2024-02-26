@@ -10,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.IO;
+using OpenBridgeApp.Palettes;
 
 namespace OpenBridgeApp.Components.Application 
 {
@@ -23,6 +24,11 @@ namespace OpenBridgeApp.Components.Application
 
 		public ObAlertTopbarElement()
         {
+            AlertMuted = false;
+            AlertType = ObAlertType.None;
+            MaxWidth = 300;
+            NAlerts = 1;
+            ShowAck = true;
 		}
 
 		~ObAlertTopbarElement()

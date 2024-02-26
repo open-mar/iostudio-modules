@@ -20,6 +20,8 @@ namespace OpenBridgeApp.Components.Application
 
 		public ObNotificationMessage()
         {
+            Empty = false;
+            Large = false;
 		}
 
 		~ObNotificationMessage()

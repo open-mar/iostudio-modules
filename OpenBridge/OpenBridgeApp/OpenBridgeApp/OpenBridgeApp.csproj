@@ -32,6 +32,11 @@
   <ItemGroup>
     <Folder Include="Components\Button\" />
     <Folder Include="Components\Application\" />
+    <Folder Include="Components\Control\" />
+    <Folder Include="Components\Core\" />
+    <Folder Include="Components\Input\" />
+    <Folder Include="Components\Menu\" />
+    <Folder Include="Palettes\" />
   </ItemGroup>
 
 </Project>

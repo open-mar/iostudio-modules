@@ -26,6 +26,14 @@ namespace OpenBridgeApp.Components.Button
 
 		public ObIconButton()
         {
+            Activated = false;
+            ActiveColor = false;
+            Checked = false;
+            CornerLeft = false;
+            CornerRight = false;
+            Icon = string.Empty;
+            Label = string.Empty;
+            Size = ObButtonSize.Regular;
 		}
 
 		~ObIconButton()

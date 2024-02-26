@@ -30,6 +30,10 @@ namespace OpenBridgeApp.Components.Application
 
 		public ObBrillianceMenu()
         {
+            Brightness = 100;
+            Palette = ObPaletteType.Day;
+            ShowAutoPalette = false;
+            ShowAutoBrightness = false;
 		}
 
 		~ObBrillianceMenu()

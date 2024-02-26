@@ -28,7 +28,17 @@ namespace OpenBridgeApp.Components.Application
 
 		public ObTopBar()
         {
-		}
+            AppTitleBreakpointPx = 0;
+            AppsButtonBreakpointPx = 0;
+            ClockMinimizeBreakpointPx = 0;
+            DimmingButtonBreakpointPx = 0;
+            MenuButtonActivated = true;
+            ShowAppsButton = true;
+            ShowClock = true;
+            ShowDate = true;
+            ShowDimmingButton = true;
+            WideMenuButton = false;
+        }
 
 		~ObTopBar()
         {

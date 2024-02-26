@@ -10,30 +10,23 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.IO;
+using OpenBridgeApp.Palettes;
 
 namespace OpenBridgeApp.Components.Application 
 {
-    public enum ObAlertType
-    {
-        Alarm = 0,
-        Warning,
-        Caution,
-        Running,
-        Command,
-        Notification,
-        Flat,
-        None
-    }
-
 	public class ObAlertButton 
     {
 		public ObAlertType AlertType;
 		public int Counter;
 		public int NAlerts;
-		private bool Standalone;
+		public bool Standalone;
 
 		public ObAlertButton()
         {
+            AlertType = ObAlertType.None;
+            Counter = 1;
+            NAlerts = 1;
+            Standalone = false;
 		}
 
 		~ObAlertButton()

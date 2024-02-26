@@ -25,7 +25,12 @@ namespace OpenBridgeApp.Components.Application
 
 		public ObCardListButton()
         {
-		}
+            TrailingIcon = string.Empty;
+            LeadingIcon = string.Empty;
+            HasIconTrailing = false;
+            HasIconLeading = false;
+            Label = string.Empty;
+        }
 
 		~ObCardListButton()
         {

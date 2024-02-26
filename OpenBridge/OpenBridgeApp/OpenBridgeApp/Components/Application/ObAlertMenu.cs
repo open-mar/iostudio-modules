@@ -21,6 +21,9 @@ namespace OpenBridgeApp.Components.Application
 
 		public ObAlertMenu()
         {
+            Breakpoint = 0;
+            Empty = false;
+            MaxWidth = 300;
 		}
 
 		~ObAlertMenu()

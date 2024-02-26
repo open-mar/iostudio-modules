@@ -32,6 +32,11 @@ namespace OpenBridgeApp.Components.AlertsNotifiations
 
 		public ObTooltip()
         {
+            Icon = string.Empty;
+            Label = string.Empty;
+            RightArrow = false;
+            Text = string.Empty;
+            Variant = ObTooltipVariant.Neutral;
 		}
 
 		~ObTooltip()

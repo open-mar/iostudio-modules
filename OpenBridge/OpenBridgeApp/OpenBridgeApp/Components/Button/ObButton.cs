@@ -33,11 +33,18 @@ namespace OpenBridgeApp.Components.Button
 		public bool HugText;
 		public string Icon;
 		public ObButtonSize Size;
-		public ObButtonVariant variant;
+		public ObButtonVariant Variant;
 
 		public ObButton()
         {
-		}
+            Checked = false;
+            Disabled = false;
+            FullWidth = false;
+            HugText = false;
+            Icon = string.Empty;
+            Size = ObButtonSize.Regular;
+            Variant = ObButtonVariant.Normal;
+        }
 
 		~ObButton()
         {
