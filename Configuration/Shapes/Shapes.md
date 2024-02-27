@@ -11,8 +11,10 @@ The use of the files is limited by the [terms of the OpenBridge project](https:/
 
 |ShapeID|ioShape|
 |-----|---|
+|Add|![ioShape](Action/Add.svg)|
 |Apps|![ioShape](Action/Apps.svg)|
 |Close|![ioShape](Action/Close.svg)|
+|Delete|![ioShape](Action/Delete.svg)|
 |Edit|![ioShape](Action/Edit.svg)|
 |Menu|![ioShape](Action/Menu.svg)|
 |More|![ioShape](Action/More.svg)|
