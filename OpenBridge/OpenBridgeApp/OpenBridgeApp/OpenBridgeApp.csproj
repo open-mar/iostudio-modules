@@ -37,6 +37,7 @@
     <Folder Include="Components\Input\" />
     <Folder Include="Components\Menu\" />
     <Folder Include="Components\Tables\" />
+    <Folder Include="NavigationInstruments\" />
     <Folder Include="Palettes\" />
   </ItemGroup>
 
