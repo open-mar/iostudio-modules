@@ -10,17 +10,10 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.IO;
+using OpenBridgeApp.Palettes;
 
 namespace OpenBridgeApp.Components.Application 
 {
-    public enum ObPaletteType
-    {
-        Day = 0,
-        Dusk,
-        Bright,
-        Night
-    }
-
 	public class ObBrillianceMenu 
     {
 		public int Brightness;

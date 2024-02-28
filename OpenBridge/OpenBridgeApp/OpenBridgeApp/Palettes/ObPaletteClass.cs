@@ -95,7 +95,7 @@ namespace OpenBridgeApp.Palettes
         FocusedBorder,
         DisabledBackground,
         ActivatedBackground,
-        ActivatedBaorder,
+        ActivatedBoarder,
     }
 
     public enum ObControlsColorOnType

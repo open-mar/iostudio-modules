@@ -36,6 +36,7 @@
     <Folder Include="Components\Core\" />
     <Folder Include="Components\Input\" />
     <Folder Include="Components\Menu\" />
+    <Folder Include="Components\Tables\" />
     <Folder Include="Palettes\" />
   </ItemGroup>
 
