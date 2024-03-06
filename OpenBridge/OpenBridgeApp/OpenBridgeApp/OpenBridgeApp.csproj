@@ -18,6 +18,26 @@
     -->
     <!-- <WindowsSdkPackageVersion>10.0.22621.28</WindowsSdkPackageVersion> -->
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Components\**" />
+    <Compile Remove="NavigationInstruments\**" />
+    <Compile Remove="Palettes\**" />
+    <Content Remove="Components\**" />
+    <Content Remove="NavigationInstruments\**" />
+    <Content Remove="Palettes\**" />
+    <EmbeddedResource Remove="Components\**" />
+    <EmbeddedResource Remove="NavigationInstruments\**" />
+    <EmbeddedResource Remove="Palettes\**" />
+    <None Remove="Components\**" />
+    <None Remove="NavigationInstruments\**" />
+    <None Remove="Palettes\**" />
+    <Page Remove="Components\**" />
+    <Page Remove="NavigationInstruments\**" />
+    <Page Remove="Palettes\**" />
+    <PRIResource Remove="Components\**" />
+    <PRIResource Remove="NavigationInstruments\**" />
+    <PRIResource Remove="Palettes\**" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Uno.WinUI" />
@@ -30,15 +50,19 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Components\Button\" />
-    <Folder Include="Components\Application\" />
-    <Folder Include="Components\Control\" />
-    <Folder Include="Components\Core\" />
-    <Folder Include="Components\Input\" />
-    <Folder Include="Components\Menu\" />
-    <Folder Include="Components\Tables\" />
-    <Folder Include="NavigationInstruments\" />
-    <Folder Include="Palettes\" />
+    <UpToDateCheckInput Remove="Components\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="NavigationInstruments\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Palettes\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\OpenBridgeAppLib\OpenBridgeAppLib.csproj" />
   </ItemGroup>
 
 </Project>

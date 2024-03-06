@@ -3,11 +3,10 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:local="using:OpenBridgeApp"
       Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-  <StackPanel
-        HorizontalAlignment="Center"
-        VerticalAlignment="Center">
-    <TextBlock AutomationProperties.AutomationId="HelloTextBlock"
-          Text="Hello Uno Platform"
-          HorizontalAlignment="Center" />
-  </StackPanel>
+  
+  <Grid Background="#FF1F1F1F">
+
+    <TextBlock Text="OpenBridge Uno Platform Components" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FFF2F2F2"/>
+
+  </Grid>
 </Page>
