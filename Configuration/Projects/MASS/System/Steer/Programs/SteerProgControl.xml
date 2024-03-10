@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProgramClass Name="SteerProgControl">
+    <Description>Program for steering the MASS motion</Description>
+    <DataItemsCollection>
+        <DataListProgram Name="Steer::Ap1::SteerAp1Data" NameObject="DataAp">
+            <Item NameClass="SteerAp1Data" NameObject="DataAp" />
+        </DataListProgram>
+    </DataItemsCollection>
+    <InternalFunctions>
+        <Function Name="ControlCourse">
+            <Inputs>
+                <Argument Name="measuredHeading" TypeNum="Float" />
+                <Argument Name="measuredRateYaw" TypeNum="Float" />
+            </Inputs>
+            <Outputs>
+                <Argument Name="rotationalThrust" TypeNum="Float" />
+            </Outputs>
+        </Function>
+    </InternalFunctions>
+    <Sequences>
+        <Run>
+            <Call Name="ControlCourse">
+                <Input Name="measuredHeading" NameClass="SteerAp1Data" GlobalID="Steer.Ap1.MeasHeading" TypeData="Data" />
+                <Input Name="measuredRateYaw" NameClass="SteerAp1Data" GlobalID="Steer.Ap1.MeasRateOfTurn" TypeData="Data" />
+                <Output Name="rotationalThrust" NameClass="SteerAp1Data" GlobalID="Steer.Ap1.CommandedThrustYaw" TypeData="Data" />
+            </Call>
+        </Run>
+    </Sequences>
+</ProgramClass>
