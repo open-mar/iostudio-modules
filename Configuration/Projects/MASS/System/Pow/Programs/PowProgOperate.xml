@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ProgramClass Name="PowProg">
-    <Description>Program for power management of MASS</Description>
+<ProgramClass Name="PowProgOperate">
+    <Description>Program for operation power management of MASS</Description>
     <DataItemsCollection>
         <DataListProgram Name="Pow::Out::PowOutData" NameObject="Port">
             <Item NameClass="PowOutDataOut12M" NameObject="PortOut12M" />

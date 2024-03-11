@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProgramClass Name="PowProgControl">
+    <Description>Program for control of power distribution in MASS</Description>
+    <DataItemsCollection>
+        <DataListProgram Name="Pow::Out::PowOutData" NameObject="Port">
+            <Item NameClass="PowOutDataOut12M" NameObject="PortOut12M" />
+            <Item NameClass="PowOutDataOut12F" NameObject="PortOut12F" />
+            <Item NameClass="PowOutDataOut12A" NameObject="PortOut12A" />
+            <Item NameClass="PowOutDataOut24M" NameObject="PortOut24M" />
+            <Item NameClass="PowOutDataOut24F" NameObject="PortOut24F" />
+            <Item NameClass="PowOutDataOut24A" NameObject="PortOut24A" />
+            <Item NameClass="PowOutDataOut220M" NameObject="PortOut220M" />
+            <Item NameClass="PowOutDataOut220F" NameObject="PortOut220F" />
+            <Item NameClass="PowOutDataOut220A" NameObject="PortOut220A" />
+        </DataListProgram>
+    </DataItemsCollection>
+</ProgramClass>

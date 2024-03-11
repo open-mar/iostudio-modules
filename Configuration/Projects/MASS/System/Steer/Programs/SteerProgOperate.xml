@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProgramClass Name="SteerProgOperate">
+    <Description>Program to operate the steering of MASS motion</Description>
+    <PanelsCollection>
+        <PanelInProgram Name="Steer::Ap1::SteerAp1Panel" NameObject="Autopilot">
+            <Item NameClass="SteerAp1Panel" NameObject="Autopilot" />
+        </PanelInProgram>
+        <PanelInProgram Name="Steer::Control::CommandPanel" NameObject="Command">
+            <Item NameClass="CommandPanelCp1" NameObject="CommandCp1" />
+            <Item NameClass="CommandPanelCp2" NameObject="CommandCp2" />
+        </PanelInProgram>
+        <PanelInProgram Name="Steer::Control::ModePanel" NameObject="Mode">
+            <Item NameClass="ModePanelCp1" NameObject="ModeCp1" />
+            <Item NameClass="ModePanelCp2" NameObject="ModeCp2" />
+        </PanelInProgram>
+        <PanelInProgram Name="Steer::Control::SetRefPanel" NameObject="Reference">
+            <Item NameClass="SetRefPanelCp1" NameObject="ReferenceCp1" />
+            <Item NameClass="SetRefPanelCp2" NameObject="ReferenceCp2" />
+        </PanelInProgram>
+    </PanelsCollection>
+</ProgramClass>

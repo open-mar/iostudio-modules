@@ -15,7 +15,7 @@
         <Grid Row="1" Column="2" />
         <Grid Row="2" Column="1">
             <ioShape LocalID="ShapeCommandStatus" HorizontalAlignment="Center" Width="100" VerticalAlignment="Center" Height="32">
-                <Properties TypeShape="Maneuvering" ShapeID="Autopilot" TypeColor="InstrumentEnhancedPrimary" />
+                <Properties TypeShape="Maneuvering" ShapeID="Autopilot" ScaleX="1.0" ScaleY="1.0" TypeColor="InstrumentEnhancedPrimary" />
             </ioShape>
         </Grid>
         <Grid Row="2" Column="2" IsStacked="TRUE" Orientation="Vertical">
@@ -23,7 +23,7 @@
                 <Properties Text="AUTO" TypeLabel="Large" TypeColor="ElementActive" TextWrapping="NoWrap" />
             </ioLabel>
             <ioTextBlock LocalID="TextCommandStatus">
-                <Properties Text="CMD at CP1 Deckhouse" TypeColor="AutomationDevicePrimary" FontFamily="NotoSans" FontSize="Small" FontWeight="Normal" TextWrapping="NoWrap" NumOfDecimals="1" IsTextAlignedRight="FALSE" />
+                <Properties Text="CMD at CP1 Deckhouse" TypeColor="AutomationDevicePrimary" FontFamily="NotoSans" FontSize="Small" FontWeight="Normal" TextWrapping="NoWrap" Decimals="1" TextAlignment="Left" />
             </ioTextBlock>
         </Grid>
         <Grid Row="3" Column="1">
@@ -51,7 +51,7 @@
         <Grid Row="1" Column="2" />
         <Grid Row="2" Column="1">
             <ioShape LocalID="ShapeCommandStatus" HorizontalAlignment="Center" Width="100" VerticalAlignment="Center" Height="32">
-                <Properties TypeShape="Command" ShapeID="NotInCommand" TypeColor="AutomationDeviceSceondary" />
+                <Properties TypeShape="Command" ShapeID="NotInCommand" ScaleX="1.0" ScaleY="1.0" TypeColor="AutomationDeviceSceondary" />
             </ioShape>
         </Grid>
         <Grid Row="2" Column="2" IsStacked="TRUE" Orientation="Vertical">
@@ -59,7 +59,7 @@
                 <Properties Text="NO CMD" TypeLabel="Large" TypeColor="ElementActive" TextWrapping="NoWrap" />
             </ioLabel>
             <ioTextBlock LocalID="TextCommandStatus">
-                <Properties Text="CMD at CP1 Deckhouse" TypeColor="AutomationDevicePrimary" FontFamily="NotoSans" FontSize="Small" FontWeight="Normal" TextWrapping="NoWrap" NumOfDecimals="1" IsTextAlignedRight="FALSE" />
+                <Properties Text="CMD at CP1 Deckhouse" TypeColor="AutomationDevicePrimary" FontFamily="NotoSans" FontSize="Small" FontWeight="Normal" TextWrapping="NoWrap" Decimals="1" TextAlignment="Left" />
             </ioTextBlock>
         </Grid>
         <Grid Row="3" Column="1">
