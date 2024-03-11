@@ -75,9 +75,6 @@
     <ClInclude Include="..\..\Programs\Batt\BattProgSensor.h">
       <Filter>Programs\Batt</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Programs\Pow\PowProg.h">
-      <Filter>Programs\Pow</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\Programs\Pow\Out\PowOutData.h">
       <Filter>Programs\Pow\Out</Filter>
     </ClInclude>
@@ -180,6 +177,12 @@
     <ClInclude Include="..\..\Programs\ioSystemData.h">
       <Filter>Programs</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Programs\Pow\PowProgOperate.h">
+      <Filter>Programs\Pow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Pow\PowProgControl.h">
+      <Filter>Programs\Pow</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MassProgramsSimulation.cpp">
@@ -217,9 +220,6 @@
     </ClCompile>
     <ClCompile Include="..\..\Programs\Batt\BattProgSensor.cpp">
       <Filter>Programs\Batt</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Programs\Pow\PowProg.cpp">
-      <Filter>Programs\Pow</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Programs\Pow\Out\PowOutData.cpp">
       <Filter>Programs\Pow\Out</Filter>
@@ -322,6 +322,12 @@
     </ClCompile>
     <ClCompile Include="..\..\Programs\ioSystemData.cpp">
       <Filter>Programs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Pow\PowProgOperate.cpp">
+      <Filter>Programs\Pow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Pow\PowProgControl.cpp">
+      <Filter>Programs\Pow</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
