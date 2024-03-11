@@ -6,3 +6,5 @@ OpenBridge/OpenBridgeAppLib/bin/
 OpenBridge/OpenBridgeAppLib/obj/
 
 Configuration/Projects/MASS/Build/MassProgramsSimulation/x64/
+
+Configuration/Projects/MASS/Build/MassProgramsSimulation/MassProgramsSimulation.vcxproj.user
