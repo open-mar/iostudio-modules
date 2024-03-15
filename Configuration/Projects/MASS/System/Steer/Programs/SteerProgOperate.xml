@@ -1,6 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ProgramClass Name="SteerProgOperate">
     <Description>Program to operate the steering of MASS motion</Description>
+    <DataItemsCollection>
+        <DataListProgram Name="Steer::Control::SteerControlData" NameObject="DataControl">
+            <Item NameClass="SteerControlDataCp1" NameObject="DataControlCp1" />
+            <Item NameClass="SteerControlDataCp2" NameObject="DataControlCp2" />
+        </DataListProgram>
+        <DataListProgram Name="Steer::Ap1::SteerAp1Data" NameObject="DataAp1">
+            <Item NameClass="SteerAp1Data" NameObject="DataAp1" />
+        </DataListProgram>
+    </DataItemsCollection>
     <PanelsCollection>
         <PanelInProgram Name="Steer::Ap1::SteerAp1Panel" NameObject="Autopilot">
             <Item NameClass="SteerAp1Panel" NameObject="Autopilot" />

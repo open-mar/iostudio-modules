@@ -3,6 +3,8 @@
 #define __STEERPROGCONTROL_H
 #include "ioSystem/Threading/ioTask.h"
 #include "Programs/Steer/Ap1/SteerAp1Data.h"
+#include "Programs/Steer/Control/SteerControlDataCp1.h"
+#include "Programs/Steer/Control/SteerControlDataCp2.h"
 class SteerProgControl : public ioTask
 {
 public:
@@ -13,5 +15,7 @@ public:
     virtual void WriteOutput(Int32 activeSlot);
     virtual void ControlCourse(Float measuredHeading, Float measuredRateYaw, Float* rotationalThrust);
     SteerAp1Data DataAp;
+    SteerControlDataCp1 DataControlCp1;
+    SteerControlDataCp2 DataControlCp2;
 };
 #endif // __STEERPROGCONTROL_H

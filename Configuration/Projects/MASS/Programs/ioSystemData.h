@@ -254,6 +254,22 @@ typedef enum
     Duid_Steer_Ap1_MeasRateOfTurn = 247,
     Duid_Steer_Ap1_MeasHeading = 248,
     Duid_Steer_Ap1_CommandedThrustYaw = 249,
+    Duid_Steer_Cp1_TakeCommand = 250,
+    Duid_Steer_Cp1_ModeDp = 251,
+    Duid_Steer_Cp1_ModeRiver = 252,
+    Duid_Steer_Cp1_ModeTrack = 253,
+    Duid_Steer_Cp1_ModeWork = 254,
+    Duid_Steer_Cp1_ModeAuto = 255,
+    Duid_Steer_Cp1_ModeStandby = 256,
+    Duid_Steer_Cp1_SteerMode = 257,
+    Duid_Steer_Cp2_TakeCommand = 258,
+    Duid_Steer_Cp2_ModeDp = 259,
+    Duid_Steer_Cp2_ModeRiver = 260,
+    Duid_Steer_Cp2_ModeTrack = 261,
+    Duid_Steer_Cp2_ModeWork = 262,
+    Duid_Steer_Cp2_ModeAuto = 263,
+    Duid_Steer_Cp2_ModeStandby = 264,
+    Duid_Steer_Cp2_SteerMode = 265,
 } ioSystemDataType;
 class ioSystemData
 {

@@ -2,6 +2,8 @@
 #if !defined(__STEERPROGOPERATE_H)
 #define __STEERPROGOPERATE_H
 #include "ioSystem/Threading/ioTask.h"
+#include "Programs/Steer/Control/SteerControlDataCp1.h"
+#include "Programs/Steer/Control/SteerControlDataCp2.h"
 #include "Programs/Steer/Ap1/SteerAp1Panel.h"
 #include "Programs/Steer/Control/CommandPanelCp1.h"
 #include "Programs/Steer/Control/CommandPanelCp2.h"
@@ -9,6 +11,7 @@
 #include "Programs/Steer/Control/ModePanelCp2.h"
 #include "Programs/Steer/Control/SetRefPanelCp1.h"
 #include "Programs/Steer/Control/SetRefPanelCp2.h"
+#include "Programs/Steer/Ap1/SteerAp1Data.h"
 class SteerProgOperate : public ioTask
 {
 public:
@@ -17,6 +20,8 @@ public:
     virtual void ReadInput(Int32 activeSlot);
     virtual void Run(Int32 activeSlot);
     virtual void WriteOutput(Int32 activeSlot);
+    SteerControlDataCp1 DataControlCp1;
+    SteerControlDataCp2 DataControlCp2;
     SteerAp1Panel Autopilot;
     CommandPanelCp1 CommandCp1;
     CommandPanelCp2 CommandCp2;
@@ -24,5 +29,6 @@ public:
     ModePanelCp2 ModeCp2;
     SetRefPanelCp1 ReferenceCp1;
     SetRefPanelCp2 ReferenceCp2;
+    SteerAp1Data DataAp1;
 };
 #endif // __STEERPROGOPERATE_H

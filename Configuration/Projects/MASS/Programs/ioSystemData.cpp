@@ -14,7 +14,7 @@ Int32 ioSystemData::GetDataID(ioSystemDataType duid)
 }
 ioSystemDataType ioSystemData::GetDataType(Int32 dataID)
 {
-    if ((dataID > 0) && (dataID < 250))
+    if ((dataID > 0) && (dataID < 266))
         return (ioSystemDataType)dataID;
     else
         return Duid_NotDefined;

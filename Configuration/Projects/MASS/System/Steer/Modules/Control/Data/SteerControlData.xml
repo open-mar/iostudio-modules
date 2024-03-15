@@ -1,6 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DataList Name="SteerControlData">
     <Description>Data for motion steering control</Description>
-    <DataListObject ParentGlobalID="Steer.Cp1" />
-    <DataListObject ParentGlobalID="Steer.Cp2" />
+    <DataListObject ParentGlobalID="Steer.Cp1">
+        <Event LocalID="TakeCommand" />
+        <Event LocalID="ModeDp" />
+        <Event LocalID="ModeRiver" />
+        <Event LocalID="ModeTrack" />
+        <Event LocalID="ModeWork" />
+        <Event LocalID="ModeAuto" />
+        <Event LocalID="ModeStandby" />
+        <Variable LocalID="SteerMode" TypeNum="Int32">0</Variable>
+    </DataListObject>
+    <DataListObject ParentGlobalID="Steer.Cp2">
+        <Event LocalID="TakeCommand" />
+        <Event LocalID="ModeDp" />
+        <Event LocalID="ModeRiver" />
+        <Event LocalID="ModeTrack" />
+        <Event LocalID="ModeWork" />
+        <Event LocalID="ModeAuto" />
+        <Event LocalID="ModeStandby" />
+        <Variable LocalID="SteerMode" TypeNum="Int32">0</Variable>
+    </DataListObject>
 </DataList>

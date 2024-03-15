@@ -184,6 +184,9 @@
     <ClInclude Include="..\..\Programs\Steer\Control\SetRefPanel.h" />
     <ClInclude Include="..\..\Programs\Steer\Control\SetRefPanelCp1.h" />
     <ClInclude Include="..\..\Programs\Steer\Control\SetRefPanelCp2.h" />
+    <ClInclude Include="..\..\Programs\Steer\Control\SteerControlData.h" />
+    <ClInclude Include="..\..\Programs\Steer\Control\SteerControlDataCp1.h" />
+    <ClInclude Include="..\..\Programs\Steer\Control\SteerControlDataCp2.h" />
     <ClInclude Include="..\..\Programs\Steer\SteerProgControl.h" />
     <ClInclude Include="..\..\Programs\Steer\SteerProgOperate.h" />
     <ClInclude Include="framework.h" />
@@ -234,6 +237,9 @@
     <ClCompile Include="..\..\Programs\Steer\Control\SetRefPanel.cpp" />
     <ClCompile Include="..\..\Programs\Steer\Control\SetRefPanelCp1.cpp" />
     <ClCompile Include="..\..\Programs\Steer\Control\SetRefPanelCp2.cpp" />
+    <ClCompile Include="..\..\Programs\Steer\Control\SteerControlData.cpp" />
+    <ClCompile Include="..\..\Programs\Steer\Control\SteerControlDataCp1.cpp" />
+    <ClCompile Include="..\..\Programs\Steer\Control\SteerControlDataCp2.cpp" />
     <ClCompile Include="..\..\Programs\Steer\SteerProgControl.cpp" />
     <ClCompile Include="..\..\Programs\Steer\SteerProgOperate.cpp" />
     <ClCompile Include="MassProgramsSimulation.cpp" />

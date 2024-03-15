@@ -5,6 +5,10 @@
         <DataListProgram Name="Steer::Ap1::SteerAp1Data" NameObject="DataAp">
             <Item NameClass="SteerAp1Data" NameObject="DataAp" />
         </DataListProgram>
+        <DataListProgram Name="Steer::Control::SteerControlData" NameObject="DataControl">
+            <Item NameClass="SteerControlDataCp1" NameObject="DataControlCp1" />
+            <Item NameClass="SteerControlDataCp2" NameObject="DataControlCp2" />
+        </DataListProgram>
     </DataItemsCollection>
     <InternalFunctions>
         <Function Name="ControlCourse">

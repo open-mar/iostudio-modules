@@ -175,6 +175,15 @@
     <ClInclude Include="pch.h">
       <Filter>MassProgramsSimulation</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Programs\Steer\Control\SteerControlData.h">
+      <Filter>Programs\Steer\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Steer\Control\SteerControlDataCp1.h">
+      <Filter>Programs\Steer\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Steer\Control\SteerControlDataCp2.h">
+      <Filter>Programs\Steer\Control</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MassProgramsSimulation.cpp">
@@ -320,6 +329,15 @@
     </ClCompile>
     <ClCompile Include="..\..\Programs\Pow\PowProgControl.cpp">
       <Filter>Programs\Pow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Steer\Control\SteerControlData.cpp">
+      <Filter>Programs\Steer\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Steer\Control\SteerControlDataCp1.cpp">
+      <Filter>Programs\Steer\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Steer\Control\SteerControlDataCp2.cpp">
+      <Filter>Programs\Steer\Control</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
