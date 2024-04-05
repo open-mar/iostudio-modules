@@ -14,14 +14,14 @@ void SteerProgControl::ReadInput(Int32 activeSlot)
 }
 void SteerProgControl::Run(Int32 activeSlot)
 {
-    Float in1_Float;
-    Float in2_Float;
-    Float out1_Float;
+ //   Float in1_Float;
+ //   Float in2_Float;
+ //   Float out1_Float;
     if (activeSlot == 0) {};
-    in1_Float = DataAp.MeasHeading.GetValue();
-    in2_Float = DataAp.MeasRateOfTurn.GetValue();
-    ControlCourse(in1_Float, in2_Float, &out1_Float);
-    DataAp.CommandedThrustYaw.SetValue(out1_Float);
+//    in1_Float = DataAp.MeasHeading.GetValue();
+//    in2_Float = DataAp.MeasRateOfTurn.GetValue();
+//    ControlCourse(in1_Float, in2_Float, &out1_Float);
+//    DataAp.FrontThrustYaw.SetValue(out1_Float);
 }
 void SteerProgControl::WriteOutput(Int32 activeSlot)
 {
@@ -32,4 +32,15 @@ void SteerProgControl::ControlCourse(Float measuredHeading, Float measuredRateYa
     if (measuredHeading == (Float)0.0) {};
     if (measuredRateYaw == (Float)0.0) {};
     if (rotationalThrust == NULL) {};
+}
+
+void SteerProgControl::OnRecvEvent(ioDataCollection* dataList, ioEvent* eventReceived)
+{
+    if (dataList == &DataControlCp1)
+    {
+        //if (eventReceived == &DataControlCp1.ModeDp)
+        //{
+        //    SendEvent(dataList, &DataControlCp1.SteerMode);
+        //}
+    }
 }

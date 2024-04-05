@@ -27,4 +27,23 @@
             <Item NameClass="SetRefPanelCp2" NameObject="ReferenceCp2" />
         </PanelInProgram>
     </PanelsCollection>
+    <Sequences>
+        <Run />
+        <GraphicsEvent NameClass="CommandPanelCp1" GlobalID="Steer.Cp1.ButtTakeRequest.Clicked" />
+        <GraphicsEvent NameClass="CommandPanelCp1" GlobalID="Steer.Cp1.ButtRelease.Clicked" />
+        <GraphicsEvent NameClass="CommandPanelCp2" GlobalID="Steer.Cp2.ButtTakeRequest.Clicked" />
+        <GraphicsEvent NameClass="CommandPanelCp2" GlobalID="Steer.Cp2.ButtRelease.Clicked" />
+        <RxTxData NameClass="SteerControlDataCp1" GlobalID="Steer.Cp1.OnChangeCommand" />
+        <RxTxData NameClass="SteerControlDataCp2" GlobalID="Steer.Cp2.OnChangeCommand" />
+        <RxTxData NameClass="SteerControlDataCp1" GlobalID="Steer.Cp1.OnChangeSteerMode" />
+        <RxTxData NameClass="SteerControlDataCp2" GlobalID="Steer.Cp2.OnChangeSteerMode" />
+        <RxTxData NameClass="SteerAp1Data" GlobalID="Steer.Ap1.OnChangeRef" />
+        <RxTxData NameClass="SteerAp1Data" GlobalID="Steer.Ap1.OnChangeCompass" />
+        <RxTxData NameClass="SteerAp1Data" GlobalID="Steer.Ap1.OnChangeRudder" />
+        <RxTxData NameClass="SteerAp1Data" GlobalID="Steer.Ap1.OnChangeThrust" />
+        <RxTxData NameClass="SteerAp1Data" GlobalID="Steer.Ap1.OnChangeEngine" />
+        <GraphicsEvent NameClass="ModePanelCp1" GlobalID="Steer.Cp1.ButtStandby.Clicked" />
+        <GraphicsEvent NameClass="ModePanelCp1" GlobalID="Steer.Cp1.ButtCourse.Clicked" />
+        <GraphicsEvent NameClass="ModePanelCp1" GlobalID="Steer.Cp1.ButtWork.Clicked" />
+    </Sequences>
 </ProgramClass>

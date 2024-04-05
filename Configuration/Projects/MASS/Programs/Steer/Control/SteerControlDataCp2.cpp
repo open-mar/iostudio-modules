@@ -21,4 +21,13 @@ void SteerControlDataCp2::InitializeData(void)
     AddData((ioData*)&ModeStandby, Duid_Steer_Cp2_ModeStandby);
     SteerMode.SetValueSigned(0);
     AddData((ioData*)&SteerMode, Duid_Steer_Cp2_SteerMode);
+    AddData((ioData*)&Release, Duid_Steer_Cp2_Release);
+    AddData((ioData*)&OnChangeCommand, Duid_Steer_Cp2_OnChangeCommand);
+    AddData((ioData*)&OnChangeSteerMode, Duid_Steer_Cp2_OnChangeSteerMode);
+    AddData((ioData*)&LeftSmall, Duid_Steer_Cp2_LeftSmall);
+    AddData((ioData*)&MidZero, Duid_Steer_Cp2_MidZero);
+    AddData((ioData*)&RightSmall, Duid_Steer_Cp2_RightSmall);
+    AddData((ioData*)&LeftBig, Duid_Steer_Cp2_LeftBig);
+    AddData((ioData*)&RightBig, Duid_Steer_Cp2_RightBig);
+    AddData((ioData*)&EncoderNumber, Duid_Steer_Cp2_EncoderNumber);
 }

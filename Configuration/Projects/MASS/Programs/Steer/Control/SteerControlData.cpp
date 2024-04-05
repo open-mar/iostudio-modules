@@ -10,6 +10,6 @@ SteerControlData::~SteerControlData()
 }
 void SteerControlData::InitializeData(void)
 {
-    SetListData(m_ListData, 8);
+    SetListData(m_ListData, 17);
     ResetItem();
 }

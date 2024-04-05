@@ -2,7 +2,7 @@
 // Generation date and time: 21.FEB.2024 06:11:54
 #if !defined(__BATTDATA_H)
 #define __BATTDATA_H
-#include "ioSystem/Data/ioDataCollectionDynamic.h"
+#include "ioSystem/Data/ioDataCollection.h"
 #include "ioSystem/Data/ioVar.h"
 #include "Programs/ioSystemData.h"
 #include "ioSystem/Data/ioEvent.h"

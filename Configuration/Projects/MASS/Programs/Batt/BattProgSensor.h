@@ -2,11 +2,11 @@
 // Generation date and time: 22.FEB.2024 07:21:31
 #if !defined(__BATTPROGSENSOR_H)
 #define __BATTPROGSENSOR_H
-#include "ioSystem/Threading/ioTask.h"
+#include "ioSystem/Program/Core/ioProgram.h"
 #include "Programs/Batt/Dc/BattDcDataDc12.h"
 #include "Programs/Batt/Dc/BattDcDataDc24.h"
 #include "Programs/Batt/BattData.h"
-class BattProgSensor : public ioTask
+class BattProgSensor : public ioProgram
 {
 public:
     BattProgSensor();

@@ -2,7 +2,7 @@
 // Generation date and time: 30.JAN.2024 14:33:26
 #if !defined(__POWOUTDATA_H)
 #define __POWOUTDATA_H
-#include "ioSystem/Data/ioDataCollectionDynamic.h"
+#include "ioSystem/Data/ioDataCollection.h"
 #include "ioSystem/Data/ioVar.h"
 #include "Programs/ioSystemData.h"
 #include "ioSystem/Data/ioEvent.h"

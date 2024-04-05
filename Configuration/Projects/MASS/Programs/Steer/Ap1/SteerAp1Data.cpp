@@ -11,16 +11,32 @@ SteerAp1Data::~SteerAp1Data()
 }
 void SteerAp1Data::InitializeData(void)
 {
-    SetListData(m_ListData, 5);
+    SetListData(m_ListData, 16);
     ResetItem();
-    MeasRudderAngle.SetValue((Float)0.0);
-    AddData((ioData*)&MeasRudderAngle, Duid_Steer_Ap1_MeasRudderAngle);
-    MeasThrust.SetValue((Float)0.0);
-    AddData((ioData*)&MeasThrust, Duid_Steer_Ap1_MeasThrust);
-    MeasRateOfTurn.SetValue((Float)0.0);
-    AddData((ioData*)&MeasRateOfTurn, Duid_Steer_Ap1_MeasRateOfTurn);
-    MeasHeading.SetValue((Float)0.00);
-    AddData((ioData*)&MeasHeading, Duid_Steer_Ap1_MeasHeading);
-    CommandedThrustYaw.SetValue((Float)0.000);
-    AddData((ioData*)&CommandedThrustYaw, Duid_Steer_Ap1_CommandedThrustYaw);
+    RudderAngleMeas.SetValue((Float)0.0);
+    AddData((ioData*)&RudderAngleMeas, Duid_Steer_Ap1_RudderAngleMeas);
+    FrontThrustMeas.SetValue((Float)0.0);
+    AddData((ioData*)&FrontThrustMeas, Duid_Steer_Ap1_FrontThrustMeas);
+    RateOfTurnMeas.SetValue((Float)0.0);
+    AddData((ioData*)&RateOfTurnMeas, Duid_Steer_Ap1_RateOfTurnMeas);
+    HeadingMeas.SetValue((Float)0.00);
+    AddData((ioData*)&HeadingMeas, Duid_Steer_Ap1_HeadingMeas);
+    FrontThrustRef.SetValue((Float)0.000);
+    AddData((ioData*)&FrontThrustRef, Duid_Steer_Ap1_FrontThrustRef);
+    AddData((ioData*)&OnChangeRef, Duid_Steer_Ap1_OnChangeRef);
+    HeadingRef.SetValue((Float)0.0);
+    AddData((ioData*)&HeadingRef, Duid_Steer_Ap1_HeadingRef);
+    RateOfTurnRef.SetValue((Float)0.0);
+    AddData((ioData*)&RateOfTurnRef, Duid_Steer_Ap1_RateOfTurnRef);
+    RudderAngleRef.SetValue((Float)0.0);
+    AddData((ioData*)&RudderAngleRef, Duid_Steer_Ap1_RudderAngleRef);
+    AddData((ioData*)&OnRequestSteerData, Duid_Steer_Ap1_OnRequestSteerData);
+    AddData((ioData*)&OnChangeCompass, Duid_Steer_Ap1_OnChangeCompass);
+    AddData((ioData*)&OnChangeRudder, Duid_Steer_Ap1_OnChangeRudder);
+    AddData((ioData*)&OnChangeThrust, Duid_Steer_Ap1_OnChangeThrust);
+    EngineRpmMeas.SetValue((Float)0);
+    AddData((ioData*)&EngineRpmMeas, Duid_Steer_Ap1_EngineRpmMeas);
+    EngineRpmRef.SetValue((Float)0);
+    AddData((ioData*)&EngineRpmRef, Duid_Steer_Ap1_EngineRpmRef);
+    AddData((ioData*)&OnChangeEngine, Duid_Steer_Ap1_OnChangeEngine);
 }
