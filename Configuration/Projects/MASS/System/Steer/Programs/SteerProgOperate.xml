@@ -29,7 +29,9 @@
     </PanelsCollection>
     <Sequences>
         <Run />
-        <GraphicsEvent NameClass="CommandPanelCp1" GlobalID="Steer.Cp1.ButtTakeRequest.Clicked" />
+        <GraphicsEvent NameClass="CommandPanelCp1" GlobalID="Steer.Cp1.ButtTakeRequest.Clicked">
+            <RxTxData NameClass="SteerControlDataCp1" GlobalID="Steer.Cp1.TakeCommand" />
+        </GraphicsEvent>
         <GraphicsEvent NameClass="CommandPanelCp1" GlobalID="Steer.Cp1.ButtRelease.Clicked" />
         <GraphicsEvent NameClass="CommandPanelCp2" GlobalID="Steer.Cp2.ButtTakeRequest.Clicked" />
         <GraphicsEvent NameClass="CommandPanelCp2" GlobalID="Steer.Cp2.ButtRelease.Clicked" />
