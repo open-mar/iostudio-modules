@@ -27,14 +27,37 @@
             <Item NameClass="SetRefPanelCp2" NameObject="ReferenceCp2" />
         </PanelInProgram>
     </PanelsCollection>
+    <InternalFunctions>
+        <Function Name="MyFunction">
+            <Inputs>
+                <Argument Name="inpInt32" TypeNum="Int32" />
+            </Inputs>
+            <Outputs>
+                <Argument Name="outInt32" TypeNum="Int32" />
+            </Outputs>
+        </Function>
+    </InternalFunctions>
     <Sequences>
-        <Run />
+        <Run>
+            <Function TypeFunction="Internal">
+                <Call Name="MyFunction">
+                    <Input Name="inpInt32" />
+                    <Output Name="outInt32" />
+                </Call>
+            </Function>
+        </Run>
         <GraphicsEvent NameClass="CommandPanelCp1" GlobalID="Steer.Cp1.ButtTakeRequest.Clicked">
             <RxTxData NameClass="SteerControlDataCp1" GlobalID="Steer.Cp1.TakeCommand" />
         </GraphicsEvent>
-        <GraphicsEvent NameClass="CommandPanelCp1" GlobalID="Steer.Cp1.ButtRelease.Clicked" />
-        <GraphicsEvent NameClass="CommandPanelCp2" GlobalID="Steer.Cp2.ButtTakeRequest.Clicked" />
-        <GraphicsEvent NameClass="CommandPanelCp2" GlobalID="Steer.Cp2.ButtRelease.Clicked" />
+        <GraphicsEvent NameClass="CommandPanelCp1" GlobalID="Steer.Cp1.ButtRelease.Clicked">
+            <RxTxData NameClass="SteerControlDataCp1" GlobalID="Steer.Cp1.Release" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="CommandPanelCp2" GlobalID="Steer.Cp2.ButtTakeRequest.Clicked">
+            <RxTxData NameClass="SteerControlDataCp2" GlobalID="Steer.Cp2.TakeCommand" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="CommandPanelCp2" GlobalID="Steer.Cp2.ButtRelease.Clicked">
+            <RxTxData NameClass="SteerControlDataCp2" GlobalID="Steer.Cp2.Release" />
+        </GraphicsEvent>
         <RxTxData NameClass="SteerControlDataCp1" GlobalID="Steer.Cp1.OnChangeCommand" />
         <RxTxData NameClass="SteerControlDataCp2" GlobalID="Steer.Cp2.OnChangeCommand" />
         <RxTxData NameClass="SteerControlDataCp1" GlobalID="Steer.Cp1.OnChangeSteerMode" />
