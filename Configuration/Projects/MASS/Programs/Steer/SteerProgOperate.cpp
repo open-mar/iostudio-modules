@@ -8,15 +8,43 @@ SteerProgOperate::SteerProgOperate()
 SteerProgOperate::~SteerProgOperate()
 {
 }
-void SteerProgOperate::ReadInput(Int32 activeSlot)
-{
-    if (activeSlot == 0) {};
-}
 void SteerProgOperate::Run(Int32 activeSlot)
 {
-    if (activeSlot == 0) {};
+    if (activeSlot == 0) {}
+    SendData(&DataAp1.OnRequestSteerData);
 }
-void SteerProgOperate::WriteOutput(Int32 activeSlot)
+void SteerProgOperate::ReceiveGraphicsEvent(ioGraphics* graphics, ioEvent* graphicsEvent)
 {
-    if (activeSlot == 0) {};
+    if (graphics == NULL) {}
+    if (graphicsEvent == NULL) {}
+    else if (graphicsEvent == &CommandCp1.ButtTakeRequest.Clicked)
+    {
+        SendData(&DataControlCp1.TakeCommand);
+    }
+    else if (graphicsEvent == &CommandCp1.ButtRelease.Clicked)
+    {
+        SendData(&DataControlCp1.Release);
+    }
+    else if (graphicsEvent == &CommandCp2.ButtTakeRequest.Clicked)
+    {
+        SendData(&DataControlCp2.TakeCommand);
+    }
+    else if (graphicsEvent == &CommandCp2.ButtRelease.Clicked)
+    {
+        SendData(&DataControlCp2.Release);
+    }
+    else if (graphicsEvent == &ModeCp1.ButtStandby.Clicked)
+    {
+    }
+    else if (graphicsEvent == &ModeCp1.ButtCourse.Clicked)
+    {
+    }
+    else if (graphicsEvent == &ModeCp1.ButtWork.Clicked)
+    {
+    }
+}
+void SteerProgOperate::ReceiveData(ioDataCollection* listData, ioData* data)
+{
+    if (listData == NULL) {}
+    if (data == NULL) {}
 }

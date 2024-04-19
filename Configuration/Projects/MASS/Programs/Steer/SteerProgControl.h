@@ -10,11 +10,9 @@ class SteerProgControl : public ioProgram
 public:
     SteerProgControl();
     virtual ~SteerProgControl();
-    virtual void ReadInput(Int32 activeSlot);
     virtual void Run(Int32 activeSlot);
-    virtual void WriteOutput(Int32 activeSlot);
-    virtual void ControlCourse(Float measuredHeading, Float measuredRateYaw, Float* rotationalThrust);
-    virtual void OnRecvEvent(ioDataCollection* dataList, ioEvent* eventReceived);
+    virtual void ReceiveData(ioDataCollection* listData, ioData* data);
+    virtual void OnRequestData(void);
     SteerAp1Data DataAp;
     SteerControlDataCp1 DataControlCp1;
     SteerControlDataCp2 DataControlCp2;

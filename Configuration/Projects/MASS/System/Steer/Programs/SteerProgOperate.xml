@@ -36,15 +36,18 @@
                 <Argument Name="outInt32" TypeNum="Int32" />
             </Outputs>
         </Function>
+        <Function Name="TakeRequestFunction">
+            <Inputs>
+                <Argument Name="inInt32" TypeNum="Int32" />
+            </Inputs>
+            <Outputs>
+                <Argument Name="outInt32" TypeNum="Int32" />
+            </Outputs>
+        </Function>
     </InternalFunctions>
     <Sequences>
         <Run>
-            <Function TypeFunction="Internal">
-                <Call Name="MyFunction">
-                    <Input Name="inpInt32" />
-                    <Output Name="outInt32" />
-                </Call>
-            </Function>
+            <RxTxData NameClass="SteerAp1Data" GlobalID="Steer.Ap1.OnRequestSteerData" />
         </Run>
         <GraphicsEvent NameClass="CommandPanelCp1" GlobalID="Steer.Cp1.ButtTakeRequest.Clicked">
             <RxTxData NameClass="SteerControlDataCp1" GlobalID="Steer.Cp1.TakeCommand" />

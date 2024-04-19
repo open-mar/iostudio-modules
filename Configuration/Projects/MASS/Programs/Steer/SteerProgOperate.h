@@ -17,9 +17,9 @@ class SteerProgOperate : public ioProgram
 public:
     SteerProgOperate();
     virtual ~SteerProgOperate();
-    virtual void ReadInput(Int32 activeSlot);
     virtual void Run(Int32 activeSlot);
-    virtual void WriteOutput(Int32 activeSlot);
+    virtual void ReceiveGraphicsEvent(ioGraphics* graphics, ioEvent* graphicsEvent);
+    virtual void ReceiveData(ioDataCollection* listData, ioData* data);
     SteerControlDataCp1 DataControlCp1;
     SteerControlDataCp2 DataControlCp2;
     SteerAp1Data DataAp1;
