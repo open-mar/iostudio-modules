@@ -219,7 +219,7 @@
     </PreBuildEvent>
     <Lib>
       <AdditionalDependencies>ioSystemLib.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:\TwinCAT\3.1\sdk\_products\TwinCAT RT %28x64%29\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(TcProductsRootDir)\$(Platform)\$(Configuration)\</AdditionalLibraryDirectories>
     </Lib>
     <ClCompile>
       <AdditionalIncludeDirectories>C:\SW_IO\GitHub\openremote-iost\Configuration\Projects\MASS;C:\SW_IO\ioStudio\ioFramework;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>

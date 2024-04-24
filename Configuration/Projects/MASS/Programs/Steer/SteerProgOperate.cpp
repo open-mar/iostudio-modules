@@ -47,4 +47,32 @@ void SteerProgOperate::ReceiveData(ioDataCollection* listData, ioData* data)
 {
     if (listData == NULL) {}
     if (data == NULL) {}
+    else if (data == &DataControlCp1.OnChangeCommand)
+    {
+        Autopilot.InstrHeadingRef.SetValueVar(&DataAp1.HeadingRef);
+    }
+    else if (data == &DataControlCp2.OnChangeCommand)
+    {
+    }
+    else if (data == &DataControlCp1.OnChangeSteerMode)
+    {
+    }
+    else if (data == &DataControlCp2.OnChangeSteerMode)
+    {
+    }
+    else if (data == &DataAp1.OnChangeRef)
+    {
+    }
+    else if (data == &DataAp1.OnChangeCompass)
+    {
+    }
+    else if (data == &DataAp1.OnChangeRudder)
+    {
+    }
+    else if (data == &DataAp1.OnChangeThrust)
+    {
+    }
+    else if (data == &DataAp1.OnChangeEngine)
+    {
+    }
 }

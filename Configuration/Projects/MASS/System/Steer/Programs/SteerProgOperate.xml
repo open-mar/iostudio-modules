@@ -28,14 +28,6 @@
         </PanelInProgram>
     </PanelsCollection>
     <InternalFunctions>
-        <Function Name="MyFunction">
-            <Inputs>
-                <Argument Name="inpInt32" TypeNum="Int32" />
-            </Inputs>
-            <Outputs>
-                <Argument Name="outInt32" TypeNum="Int32" />
-            </Outputs>
-        </Function>
         <Function Name="TakeRequestFunction">
             <Inputs>
                 <Argument Name="inInt32" TypeNum="Int32" />
@@ -61,7 +53,11 @@
         <GraphicsEvent NameClass="CommandPanelCp2" GlobalID="Steer.Cp2.ButtRelease.Clicked">
             <RxTxData NameClass="SteerControlDataCp2" GlobalID="Steer.Cp2.Release" />
         </GraphicsEvent>
-        <RxTxData NameClass="SteerControlDataCp1" GlobalID="Steer.Cp1.OnChangeCommand" />
+        <RxTxData NameClass="SteerControlDataCp1" GlobalID="Steer.Cp1.OnChangeCommand">
+            <GraphicsData NameClass="SteerAp1Panel" GlobalID="Steer.Ap1.GridAutopilot.InstrHeadingRef.ValueReal">
+                <DataAssigned NameClass="SteerAp1Data" GlobalID="Steer.Ap1.HeadingRef" />
+            </GraphicsData>
+        </RxTxData>
         <RxTxData NameClass="SteerControlDataCp2" GlobalID="Steer.Cp2.OnChangeCommand" />
         <RxTxData NameClass="SteerControlDataCp1" GlobalID="Steer.Cp1.OnChangeSteerMode" />
         <RxTxData NameClass="SteerControlDataCp2" GlobalID="Steer.Cp2.OnChangeSteerMode" />
