@@ -12,7 +12,7 @@ public:
     virtual ~SteerProgControl();
     virtual void Run(Int32 activeSlot);
     virtual void ReceiveData(ioDataCollection* listData, ioData* data);
-    virtual void OnRequestData(void);
+    virtual void OnRequestData(ioVarFloat* inputInt32, ioVarInt32* outInt32);
     SteerAp1Data DataAp;
     SteerControlDataCp1 DataControlCp1;
     SteerControlDataCp2 DataControlCp2;

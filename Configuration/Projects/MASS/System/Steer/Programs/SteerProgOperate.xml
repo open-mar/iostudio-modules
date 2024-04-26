@@ -27,9 +27,25 @@
             <Item NameClass="SetRefPanelCp2" NameObject="ReferenceCp2" />
         </PanelInProgram>
     </PanelsCollection>
+    <InternalFunctions>
+        <Function Name="OnRequestData">
+            <Inputs>
+                <Argument Name="inputInt32" TypeNum="Float" />
+            </Inputs>
+            <Outputs>
+                <Argument Name="outInt32" TypeNum="Int32" />
+            </Outputs>
+        </Function>
+    </InternalFunctions>
     <Sequences>
         <Run>
             <RxTxData NameClass="SteerAp1Data" GlobalID="Steer.Ap1.OnRequestSteerData" />
+            <Function TypeFunction="Internal">
+                <Call Name="OnRequestData">
+                    <Input Name="inputInt32" NameClass="SteerAp1Data" GlobalID="Steer.Ap1.FrontThrustMeas" TypeData="Data" />
+                    <Output Name="outInt32" NameClass="SteerControlDataCp1" GlobalID="Steer.Cp1.SteerMode" TypeData="Data" />
+                </Call>
+            </Function>
         </Run>
         <GraphicsEvent NameClass="CommandPanelCp1" GlobalID="Steer.Cp1.ButtTakeRequest.Clicked">
             <RxTxData NameClass="SteerControlDataCp1" GlobalID="Steer.Cp1.TakeCommand" />

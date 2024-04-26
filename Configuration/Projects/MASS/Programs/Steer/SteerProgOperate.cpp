@@ -10,8 +10,13 @@ SteerProgOperate::~SteerProgOperate()
 }
 void SteerProgOperate::Run(Int32 activeSlot)
 {
+    ioVarFloat in1_Float;
+    ioVarInt32 out1_Int32;
     if (activeSlot == 0) {}
     SendData(&DataAp1.OnRequestSteerData);
+    in1_Float.SetValueVar(&DataAp1.FrontThrustMeas);
+    OnRequestData(&in1_Float, &out1_Int32);
+    DataControlCp1.SteerMode.SetValueVar(&out1_Int32);
 }
 void SteerProgOperate::ReceiveGraphicsEvent(ioGraphics* graphics, ioEvent* graphicsEvent)
 {
@@ -79,4 +84,9 @@ void SteerProgOperate::ReceiveData(ioDataCollection* listData, ioData* data)
     else if (data == &DataAp1.OnChangeEngine)
     {
     }
+}
+void SteerProgOperate::OnRequestData(ioVarFloat* inputInt32, ioVarInt32* outInt32)
+{
+    if (inputInt32 == NULL) {};
+    if (outInt32 == NULL) {};
 }

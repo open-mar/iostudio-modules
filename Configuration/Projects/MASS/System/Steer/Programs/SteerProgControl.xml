@@ -12,15 +12,22 @@
     </DataItemsCollection>
     <InternalFunctions>
         <Function Name="OnRequestData">
-            <Inputs />
-            <Outputs />
+            <Inputs>
+                <Argument Name="inputInt32" TypeNum="Float" />
+            </Inputs>
+            <Outputs>
+                <Argument Name="outInt32" TypeNum="Int32" />
+            </Outputs>
         </Function>
     </InternalFunctions>
     <Sequences>
         <Run />
         <RxTxData NameClass="SteerAp1Data" GlobalID="Steer.Ap1.OnRequestSteerData">
             <Function TypeFunction="Internal">
-                <Call Name="OnRequestData" />
+                <Call Name="OnRequestData">
+                    <Input Name="inputInt32" NameClass="SteerAp1Data" GlobalID="Steer.Ap1.FrontThrustMeas" TypeData="Data" />
+                    <Output Name="outInt32" NameClass="SteerAp1Data" GlobalID="Steer.Ap1.RateOfTurnMeas" TypeData="Data" />
+                </Call>
             </Function>
         </RxTxData>
     </Sequences>

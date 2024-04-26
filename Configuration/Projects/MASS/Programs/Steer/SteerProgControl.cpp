@@ -14,13 +14,19 @@ void SteerProgControl::Run(Int32 activeSlot)
 }
 void SteerProgControl::ReceiveData(ioDataCollection* listData, ioData* data)
 {
+    ioVarFloat in1_Float;
+    ioVarInt32 out1_Int32;
     if (listData == NULL) {}
     if (data == NULL) {}
     else if (data == &DataAp.OnRequestSteerData)
     {
-        OnRequestData();
+        in1_Float.SetValueVar(&DataAp.FrontThrustMeas);
+        OnRequestData(&in1_Float, &out1_Int32);
+        DataAp.RateOfTurnMeas.SetValueVar(&out1_Int32);
     }
 }
-void SteerProgControl::OnRequestData(void)
+void SteerProgControl::OnRequestData(ioVarFloat* inputInt32, ioVarInt32* outInt32)
 {
+    if (inputInt32 == NULL) {};
+    if (outInt32 == NULL) {};
 }
