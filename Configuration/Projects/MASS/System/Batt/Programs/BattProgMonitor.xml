@@ -35,22 +35,30 @@
     </InternalFunctions>
     <Sequences>
         <Run>
-            <Call Name="SetRealValuePanel">
-                <Input Name="inputValue" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattVolt" TypeData="Data" />
-                <Output Name="outValue" NameClass="BattDcPanelDc12" GlobalID="Batt.Dc12.GridVolt.InstrVolt" TypeData="Panels" />
-            </Call>
-            <Call Name="SetRealValuePanel">
-                <Input Name="inputValue" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpAvg" TypeData="Data" />
-                <Output Name="outValue" NameClass="BattDcPanelDc12" GlobalID="Batt.Dc12.GridBattAmp.InstrAmpAvg" TypeData="Panels"/>
-            </Call>
-            <Call Name="SetRealValuePanel">
-                <Input Name="inputValue" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattVolt" TypeData="Data" />
-                <Output Name="outValue" NameClass="BattDcPanelDc24" GlobalID="Batt.Dc24.GridVolt.InstrVolt" TypeData="Panels" />
-            </Call>
-            <Call Name="SetRealValuePanel">
-                <Input Name="inputValue" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpAvg" TypeData="Data" />
-                <Output Name="outValue" NameClass="BattDcPanelDc24" GlobalID="Batt.Dc24.GridBattAmp.InstrAmpAvg" TypeData="Panels" />
-            </Call>
+            <Function TypeFunction="Internal">
+                <Call Name="SetRealValuePanel">
+                    <Input Name="inputValue" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattVolt" TypeData="Data" />
+                    <Output Name="outValue" NameClass="BattDcPanelDc12" GlobalID="Batt.Dc12.GridVolt.InstrVolt" TypeData="Panels" />
+                </Call>
+            </Function>
+            <Function TypeFunction="Internal">
+                <Call Name="SetRealValuePanel">
+                    <Input Name="inputValue" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpAvg" TypeData="Data" />
+                    <Output Name="outValue" NameClass="BattDcPanelDc12" GlobalID="Batt.Dc12.GridBattAmp.InstrAmpAvg" TypeData="Panels"/>
+                </Call>
+            </Function>
+            <Function TypeFunction="Internal">
+                <Call Name="SetRealValuePanel">
+                    <Input Name="inputValue" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattVolt" TypeData="Data" />
+                    <Output Name="outValue" NameClass="BattDcPanelDc24" GlobalID="Batt.Dc24.GridVolt.InstrVolt" TypeData="Panels" />
+                </Call>
+            </Function>
+            <Function TypeFunction="Internal">
+                <Call Name="SetRealValuePanel">
+                    <Input Name="inputValue" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpAvg" TypeData="Data" />
+                    <Output Name="outValue" NameClass="BattDcPanelDc24" GlobalID="Batt.Dc24.GridBattAmp.InstrAmpAvg" TypeData="Panels" />
+                </Call>
+            </Function>
         </Run>
     </Sequences>
 </ProgramClass>

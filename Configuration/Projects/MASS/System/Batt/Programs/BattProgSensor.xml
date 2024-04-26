@@ -41,29 +41,37 @@
     </InternalFunctions>
     <Sequences>
         <Run>
-            <Call Name="CheckBattery">
-                <Return NameClass="BattData" GlobalID="Batt.IsChargActive12V" />
-                <Input Name="currentIn" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpIn" TypeData="Data" />
-                <Input Name="currentOut" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpOut" TypeData="Data" />
-                <Input Name="voltage" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattVolt" TypeData="Data" />
-                <Output Name="currentAvg" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpAvg" TypeData="Data" />
-            </Call>
-            <Call Name="CheckBattery">
-                <Return NameClass="BattData" GlobalID="Batt.IsChargActive24V" />
-                <Input Name="currentIn" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpIn" TypeData="Data" />
-                <Input Name="currentOut" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpOut" TypeData="Data" />
-                <Input Name="voltage" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattVolt" TypeData="Data" />
-                <Output Name="currentAvg" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpAvg" TypeData="Data" />
-            </Call>
-            <Call Name="CalcSoc">
-                <Input Name="currentAvg12V" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpAvg" TypeData="Data" />
-                <Input Name="currentAvg24V" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpAvg" TypeData="Data" />
-                <Output Name="soc" NameClass="BattData" GlobalID="Batt.StatusOfCharge" TypeData="Data" />
-                <Output Name="timeTo10Perc" NameClass="BattData" GlobalID="Batt.TimeTo10Percent" TypeData="Data" />
-            </Call>
-            <Call Name="GetInputVoltageCharger">
-                <Return NameClass="BattData" GlobalID="Batt.StatusOfCharge" />
-            </Call>
+            <Function TypeFunction="Internal">
+                <Call Name="CheckBattery">
+                    <Return NameClass="BattData" GlobalID="Batt.IsChargActive12V" />
+                    <Input Name="currentIn" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpIn" TypeData="Data" />
+                    <Input Name="currentOut" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpOut" TypeData="Data" />
+                    <Input Name="voltage" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattVolt" TypeData="Data" />
+                    <Output Name="currentAvg" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpAvg" TypeData="Data" />
+                </Call>
+            </Function>
+            <Function TypeFunction="Internal">
+                <Call Name="CheckBattery">
+                    <Return NameClass="BattData" GlobalID="Batt.IsChargActive24V" />
+                    <Input Name="currentIn" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpIn" TypeData="Data" />
+                    <Input Name="currentOut" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpOut" TypeData="Data" />
+                    <Input Name="voltage" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattVolt" TypeData="Data" />
+                    <Output Name="currentAvg" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpAvg" TypeData="Data" />
+                </Call>
+            </Function>
+            <Function TypeFunction="Internal">
+                <Call Name="CalcSoc">
+                    <Input Name="currentAvg12V" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpAvg" TypeData="Data" />
+                    <Input Name="currentAvg24V" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpAvg" TypeData="Data" />
+                    <Output Name="soc" NameClass="BattData" GlobalID="Batt.StatusOfCharge" TypeData="Data" />
+                    <Output Name="timeTo10Perc" NameClass="BattData" GlobalID="Batt.TimeTo10Percent" TypeData="Data" />
+                </Call>
+            </Function>
+            <Function TypeFunction="Internal">
+                <Call Name="GetInputVoltageCharger">
+                    <Return NameClass="BattData" GlobalID="Batt.StatusOfCharge" />
+                </Call>
+            </Function>
         </Run>
     </Sequences>
 </ProgramClass>
