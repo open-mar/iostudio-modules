@@ -27,16 +27,6 @@
             <Item NameClass="SetRefPanelCp2" NameObject="ReferenceCp2" />
         </PanelInProgram>
     </PanelsCollection>
-    <InternalFunctions>
-        <Function Name="TakeRequestFunction">
-            <Inputs>
-                <Argument Name="inInt32" TypeNum="Int32" />
-            </Inputs>
-            <Outputs>
-                <Argument Name="outInt32" TypeNum="Int32" />
-            </Outputs>
-        </Function>
-    </InternalFunctions>
     <Sequences>
         <Run>
             <RxTxData NameClass="SteerAp1Data" GlobalID="Steer.Ap1.OnRequestSteerData" />
@@ -54,14 +44,30 @@
             <RxTxData NameClass="SteerControlDataCp2" GlobalID="Steer.Cp2.Release" />
         </GraphicsEvent>
         <RxTxData NameClass="SteerControlDataCp1" GlobalID="Steer.Cp1.OnChangeCommand">
-            <GraphicsData NameClass="SteerAp1Panel" GlobalID="Steer.Ap1.GridAutopilot.InstrHeadingRef.ValueReal">
+            <GraphicsData NameClass="SteerAp1Panel" GlobalID="Steer.Ap1.GridAutopilot.InstrHeadingRef">
                 <DataAssigned NameClass="SteerAp1Data" GlobalID="Steer.Ap1.HeadingRef" />
             </GraphicsData>
         </RxTxData>
-        <RxTxData NameClass="SteerControlDataCp2" GlobalID="Steer.Cp2.OnChangeCommand" />
-        <RxTxData NameClass="SteerControlDataCp1" GlobalID="Steer.Cp1.OnChangeSteerMode" />
-        <RxTxData NameClass="SteerControlDataCp2" GlobalID="Steer.Cp2.OnChangeSteerMode" />
-        <RxTxData NameClass="SteerAp1Data" GlobalID="Steer.Ap1.OnChangeRef" />
+        <RxTxData NameClass="SteerControlDataCp2" GlobalID="Steer.Cp2.OnChangeCommand">
+            <GraphicsData NameClass="CommandPanelCp2" GlobalID="Steer.Cp2.TextCommandStatus">
+                <DataAssigned NameClass="SteerControlDataCp2" GlobalID="Steer.Cp2.SteerMode" />
+            </GraphicsData>
+        </RxTxData>
+        <RxTxData NameClass="SteerControlDataCp1" GlobalID="Steer.Cp1.OnChangeSteerMode">
+            <GraphicsData NameClass="CommandPanelCp1" GlobalID="Steer.Cp1.LabelCommandStatus">
+                <DataAssigned NameClass="SteerControlDataCp1" GlobalID="Steer.Cp1.SteerMode" />
+            </GraphicsData>
+        </RxTxData>
+        <RxTxData NameClass="SteerControlDataCp2" GlobalID="Steer.Cp2.OnChangeSteerMode">
+            <GraphicsData NameClass="CommandPanelCp2" GlobalID="Steer.Cp2.LabelCommandStatus">
+                <DataAssigned NameClass="SteerControlDataCp2" GlobalID="Steer.Cp2.SteerMode" />
+            </GraphicsData>
+        </RxTxData>
+        <RxTxData NameClass="SteerAp1Data" GlobalID="Steer.Ap1.OnChangeRef">
+            <GraphicsData NameClass="SteerAp1Panel" GlobalID="Steer.Ap1.GridAutopilot.InstrHeadingRef">
+                <DataAssigned NameClass="SteerAp1Data" GlobalID="Steer.Ap1.HeadingRef" />
+            </GraphicsData>
+        </RxTxData>
         <RxTxData NameClass="SteerAp1Data" GlobalID="Steer.Ap1.OnChangeCompass" />
         <RxTxData NameClass="SteerAp1Data" GlobalID="Steer.Ap1.OnChangeRudder" />
         <RxTxData NameClass="SteerAp1Data" GlobalID="Steer.Ap1.OnChangeThrust" />

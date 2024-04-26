@@ -29,11 +29,11 @@
     </PanelsCollection>
     <InternalFunctions>
         <Function Name="SetPanelPowIcon">
-            <Return TypeNum="Int64" />
             <Inputs>
                 <Argument Name="isPowChOn" TypeNum="Bool" />
             </Inputs>
             <Outputs>
+                <Argument Name="retInt32" TypeNum="Int32" />
                 <Argument Name="iconId" TypeNum="String" />
             </Outputs>
         </Function>
@@ -41,9 +41,9 @@
     <Sequences>
         <Run>
             <Call Name="SetPanelPowIcon">
-                <Return NameClass="PowOutPanelOut12M" GlobalID="Pow.Out12M.GridCh1.IconCh1" TypeData="Panels" Property="IconID" />
+                <Input NameClass="PowOutPanelOut12M" GlobalID="Pow.Out12M.GridCh1.IconCh1" TypeData="Panels" >
                 <Input Name="isPowChOn" NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnCh1" TypeData="Data" />
-                <Output Name="iconId" NameClass="PowOutPanelOut12M" GlobalID="Pow.Out12M.GridCh1.ButtOnCh1" TypeData="Panels" Property="Text" />
+                <Output Name="iconId" NameClass="PowOutPanelOut12M" GlobalID="Pow.Out12M.GridCh1.ButtOnCh1" TypeData="Panels" />
             </Call>
         </Run>
     </Sequences>

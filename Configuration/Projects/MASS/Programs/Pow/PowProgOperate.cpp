@@ -14,22 +14,22 @@ void PowProgOperate::ReadInput(Int32 activeSlot)
 }
 void PowProgOperate::Run(Int32 activeSlot)
 {
-    Int64 retInt64;
-    Bool in1_Bool;
+    ioVarInt32 retInt32;
+    ioVarBool in1_Bool;
     ioStringL out1_String;
     if (activeSlot == 0) {};
-    in1_Bool = PortOut12M.OnCh1.GetValue();
-    retInt64 = SetPanelPowIcon(in1_Bool, &out1_String);
-    PanelOut12M.IconCh1.SetIconID(retInt64);
+    in1_Bool.SetValueVar(&PortOut12M.OnCh1);
+    SetPanelPowIcon(&retInt32, &in1_Bool, &out1_String);
+    PanelOut12M.IconCh1.SetIconID(retInt32.GetValueSigned());
     PanelOut12M.ButtOnCh1.SetText(&out1_String);
 }
 void PowProgOperate::WriteOutput(Int32 activeSlot)
 {
     if (activeSlot == 0) {};
 }
-Int64 PowProgOperate::SetPanelPowIcon(Bool isPowChOn, ioString* iconId)
+void PowProgOperate::SetPanelPowIcon(ioVarInt32* retInt32, ioVarBool* isPowChOn, ioString* iconId)
 {
-    if (isPowChOn == 0) {};
+    if (isPowChOn == NULL) {};
+    if (retInt32 == NULL) {};
     if (iconId == NULL) {};
-    return 0;
 }

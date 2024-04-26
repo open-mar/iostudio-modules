@@ -12,13 +12,13 @@
     </DataItemsCollection>
     <InternalFunctions>
         <Function Name="CheckBattery">
-            <Return TypeNum="Bool" />
             <Inputs>
                 <Argument Name="currentIn" TypeNum="Float" />
                 <Argument Name="currentOut" TypeNum="Float" />
                 <Argument Name="voltage" TypeNum="Float" />
             </Inputs>
             <Outputs>
+                <Argument Name="retBool" TypeNum="Bool"/>
                 <Argument Name="currentAvg" TypeNum="Float" />
             </Outputs>
         </Function>
@@ -33,9 +33,10 @@
             </Outputs>
         </Function>
         <Function Name="GetInputVoltageCharger">
-            <Return TypeNum="Float" />
             <Inputs />
-            <Outputs />
+            <Outputs>
+                <Argument Name="retFloat" TypeNum="Float" />
+            </Outputs>
         </Function>
     </InternalFunctions>
     <Sequences>

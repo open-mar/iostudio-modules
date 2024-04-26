@@ -28,7 +28,7 @@ public:
     virtual void ReadInput(Int32 activeSlot);
     virtual void Run(Int32 activeSlot);
     virtual void WriteOutput(Int32 activeSlot);
-    virtual Int64 SetPanelPowIcon(Bool isPowChOn, ioString* iconId);
+    virtual void SetPanelPowIcon(ioVarInt32* retInt32, ioVarBool* isPowChOn, ioString* iconId);
     PowOutDataOut12M PortOut12M;
     PowOutDataOut12F PortOut12F;
     PowOutDataOut12A PortOut12A;

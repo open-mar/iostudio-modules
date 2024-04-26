@@ -14,9 +14,9 @@ public:
     virtual void ReadInput(Int32 activeSlot);
     virtual void Run(Int32 activeSlot);
     virtual void WriteOutput(Int32 activeSlot);
-    virtual Bool CheckBattery(Float currentIn, Float currentOut, Float voltage, Float* currentAvg);
-    virtual void CalcSoc(Float currentAvg12V, Float currentAvg24V, Float* soc, ioTimeIntervalData* timeTo10Perc);
-    virtual Float GetInputVoltageCharger(void);
+    virtual void CheckBattery(ioVarBool*  isOK, ioVarFloat* currentIn, ioVarFloat* currentOut, ioVarFloat* voltage, ioVarFloat* currentAvg);
+    virtual void CalcSoc(ioVarFloat* currentAvg12V, ioVarFloat* currentAvg24V, ioVarFloat* soc, ioVarTimeInterval* timeTo10Perc);
+    virtual void GetInputVoltageCharger(ioVarFloat* inputVoltage);
     BattDcDataDc12 DcDataDc12;
     BattDcDataDc24 DcDataDc24;
     BattData MainData;

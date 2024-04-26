@@ -53,15 +53,19 @@ void SteerProgOperate::ReceiveData(ioDataCollection* listData, ioData* data)
     }
     else if (data == &DataControlCp2.OnChangeCommand)
     {
+        CommandCp2.TextCommandStatus.SetValueVar(&DataControlCp2.SteerMode);
     }
     else if (data == &DataControlCp1.OnChangeSteerMode)
     {
+        CommandCp1.LabelCommandStatus.SetValueVar(&DataControlCp1.SteerMode);
     }
     else if (data == &DataControlCp2.OnChangeSteerMode)
     {
+        CommandCp2.LabelCommandStatus.SetValueVar(&DataControlCp2.SteerMode);
     }
     else if (data == &DataAp1.OnChangeRef)
     {
+        Autopilot.InstrHeadingRef.SetValueVar(&DataAp1.HeadingRef);
     }
     else if (data == &DataAp1.OnChangeCompass)
     {

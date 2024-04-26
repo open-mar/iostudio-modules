@@ -14,31 +14,31 @@ void BattProgMonitor::ReadInput(Int32 activeSlot)
 }
 void BattProgMonitor::Run(Int32 activeSlot)
 {
-    Float in1_Float;
-    Double out1_Double;
+    ioVarFloat in1_Float;
+    ioVarDouble out1_Double;
     if (activeSlot == 0) {};
-    in1_Float = DcDataDc12.BattVolt.GetValue();
-    SetRealValuePanel(in1_Float, &out1_Double);
-    DcPanelDc12.InstrVolt.SetValueReal(out1_Double);
+    in1_Float.SetValueVar(&DcDataDc12.BattVolt);
+    SetRealValuePanel(&in1_Float, &out1_Double);
+    DcPanelDc12.InstrVolt.SetValueVar(&out1_Double);
     
-    in1_Float = DcDataDc12.BattAmpAvg.GetValue();
-    SetRealValuePanel(in1_Float, &out1_Double);
-    DcPanelDc12.InstrAmpAvg.SetValueReal(out1_Double);
+    in1_Float.SetValueVar(&DcDataDc12.BattAmpAvg);
+    SetRealValuePanel(&in1_Float, &out1_Double);
+    DcPanelDc12.InstrAmpAvg.SetValueVar(&out1_Double);
     
-    in1_Float = DcDataDc24.BattVolt.GetValue();
-    SetRealValuePanel(in1_Float, &out1_Double);
-    DcPanelDc24.InstrVolt.SetValueReal(out1_Double);
+    in1_Float.SetValueVar(&DcDataDc24.BattVolt);
+    SetRealValuePanel(&in1_Float, &out1_Double);
+    DcPanelDc24.InstrVolt.SetValueVar(&out1_Double);
     
-    in1_Float = DcDataDc24.BattAmpAvg.GetValue();
-    SetRealValuePanel(in1_Float, &out1_Double);
-    DcPanelDc24.InstrAmpAvg.SetValueReal(out1_Double);
+    in1_Float.SetValueVar(&DcDataDc24.BattAmpAvg);
+    SetRealValuePanel(&in1_Float, &out1_Double);
+    DcPanelDc24.InstrAmpAvg.SetValueVar(&out1_Double);
 }
 void BattProgMonitor::WriteOutput(Int32 activeSlot)
 {
     if (activeSlot == 0) {};
 }
-void BattProgMonitor::SetRealValuePanel(Float inputValue, Double* outValue)
+void BattProgMonitor::SetRealValuePanel(ioVarFloat *inputValue, ioVarDouble* outValue)
 {
-    if (inputValue == (Float)0.0) {};
+    if (inputValue == NULL) {};
     if (outValue == NULL) {};
 }

@@ -15,57 +15,57 @@ void BattProgSensor::ReadInput(Int32 activeSlot)
 }
 void BattProgSensor::Run(Int32 activeSlot)
 {
-    Bool retBool;
-    Float in1_Float;
-    Float in2_Float;
-    Float in3_Float;
-    Float out1_Float;
-    ioTimeIntervalData out2_TimeInterval;
-    Float retFloat;
+    ioVarBool retBool;
+    ioVarFloat in1_Float;
+    ioVarFloat in2_Float;
+    ioVarFloat in3_Float;
+    ioVarFloat out1_Float;
+    ioVarTimeInterval out2_TimeInterval;
+    ioVarFloat retFloat;
     if (activeSlot == 0) {};
-    in1_Float = DcDataDc12.BattAmpIn.GetValue();
-    in2_Float = DcDataDc12.BattAmpOut.GetValue();
-    in3_Float = DcDataDc12.BattVolt.GetValue();
-    retBool = CheckBattery(in1_Float, in2_Float, in3_Float, &out1_Float);
-    MainData.IsChargActive12V.SetValue(retBool);
-    DcDataDc12.BattAmpAvg.SetValue(out1_Float);
+    in1_Float.SetValueVar(&DcDataDc12.BattAmpIn);
+    in2_Float.SetValueVar(&DcDataDc12.BattAmpOut);
+    in3_Float.SetValueVar(&DcDataDc12.BattVolt);
+    CheckBattery(&retBool, &in1_Float, &in2_Float, &in3_Float, &out1_Float);
+    MainData.IsChargActive12V.SetValueVar(&retBool);
+    DcDataDc12.BattAmpAvg.SetValueVar(&out1_Float);
     
-    in1_Float = DcDataDc24.BattAmpIn.GetValue();
-    in2_Float = DcDataDc24.BattAmpOut.GetValue();
-    in3_Float = DcDataDc24.BattVolt.GetValue();
-    retBool = CheckBattery(in1_Float, in2_Float, in3_Float, &out1_Float);
-    MainData.IsChargActive24V.SetValue(retBool);
-    DcDataDc24.BattAmpAvg.SetValue(out1_Float);
+    in1_Float.SetValueVar(&DcDataDc24.BattAmpIn);
+    in2_Float.SetValueVar(&DcDataDc24.BattAmpOut);
+    in3_Float.SetValueVar(&DcDataDc24.BattVolt);
+    CheckBattery(&retBool, &in1_Float, &in2_Float, &in3_Float, &out1_Float);
+    MainData.IsChargActive24V.SetValueVar(&retBool);
+    DcDataDc24.BattAmpAvg.SetValueVar(&out1_Float);
     
-    in1_Float = DcDataDc12.BattAmpAvg.GetValue();
-    in2_Float = DcDataDc24.BattAmpAvg.GetValue();
-    CalcSoc(in1_Float, in2_Float, &out1_Float, &out2_TimeInterval);
-    MainData.StatusOfCharge.SetValue(out1_Float);
-    MainData.TimeTo10Percent.SetValue(&out2_TimeInterval);
+    in1_Float.SetValueVar(&DcDataDc12.BattAmpAvg);
+    in2_Float.SetValueVar(&DcDataDc24.BattAmpAvg);
+    CalcSoc(&in1_Float, &in2_Float, &out1_Float, &out2_TimeInterval);
+    MainData.StatusOfCharge.SetValueVar(&out1_Float);
+    MainData.TimeTo10Percent.SetValueVar(&out2_TimeInterval);
     
-    retFloat = GetInputVoltageCharger();
-    MainData.StatusOfCharge.SetValue(retFloat);
+    GetInputVoltageCharger(&retFloat);
+    MainData.StatusOfCharge.SetValueVar(&retFloat);
 }
 void BattProgSensor::WriteOutput(Int32 activeSlot)
 {
     if (activeSlot == 0) {};
 }
-Bool BattProgSensor::CheckBattery(Float currentIn, Float currentOut, Float voltage, Float* currentAvg)
+void BattProgSensor::CheckBattery(ioVarBool* isOK, ioVarFloat* currentIn, ioVarFloat* currentOut, ioVarFloat* voltage, ioVarFloat* currentAvg)
 {
-    if (currentIn == (Float)0.0) {};
-    if (currentOut == (Float)0.0) {};
-    if (voltage == (Float)0.0) {};
+    if (isOK == NULL) {};
+    if (currentIn == NULL) {};
+    if (currentOut == NULL) {};
+    if (voltage == NULL) {};
     if (currentAvg == NULL) {};
-    return 0;
 }
-void BattProgSensor::CalcSoc(Float currentAvg12V, Float currentAvg24V, Float* soc, ioTimeIntervalData* timeTo10Perc)
+void BattProgSensor::CalcSoc(ioVarFloat* currentAvg12V, ioVarFloat* currentAvg24V, ioVarFloat* soc, ioVarTimeInterval* timeTo10Perc)
 {
-    if (currentAvg12V == (Float)0.0) {};
-    if (currentAvg24V == (Float)0.0) {};
+    if (currentAvg12V == NULL) {};
+    if (currentAvg24V == NULL) {};
     if (soc == NULL) {};
     if (timeTo10Perc == NULL) {};
 }
-Float BattProgSensor::GetInputVoltageCharger(void)
+void BattProgSensor::GetInputVoltageCharger(ioVarFloat* inputVoltage)
 {
-    return (Float)0.0;
+    if (inputVoltage == NULL) {}
 }

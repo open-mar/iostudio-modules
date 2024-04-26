@@ -16,7 +16,7 @@ public:
     virtual void ReadInput(Int32 activeSlot);
     virtual void Run(Int32 activeSlot);
     virtual void WriteOutput(Int32 activeSlot);
-    virtual void SetRealValuePanel(Float inputValue, Double* outValue);
+    virtual void SetRealValuePanel(ioVarFloat* inputValue, ioVarDouble* outValue);
     BattData MainData;
     BattDcDataDc12 DcDataDc12;
     BattDcDataDc24 DcDataDc24;
