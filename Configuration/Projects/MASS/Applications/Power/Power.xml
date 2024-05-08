@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Appliation Text="Power">
+    <ApplicationText>
+        <TextCollection Name="Batt::BattText"/>
+    </ApplicationText>
+    <AppliationPrograms>
+        <ProgramClass Name="Batt::BattProgMonitor"/>
+        <ProgramClass Name="Pow::PowProgOperate"/>
+    </AppliationPrograms>
+    <Menu>
+        <MenuItem Text="Batteries">
+            <MenuIcon>
+                <ioShape>
+                    <Properties TypeShape="Automation" ShapeID="BatteryPack"/>
+                </ioShape>
+            </MenuIcon>
+            <Views>
+                <LeftView>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <Grid Row="1">
+                        <ioPanelGrid PanelGlobalID="Pow.Out12F.PowOutPanel" />
+                    </Grid>
+                    <Grid Row="2">
+                        <ioPanelGrid PanelGlobalID="Pow.Out12F.PowOutPanel" />
+                    </Grid>
+                </LeftView>
+                <MiddleView>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <Grid Row="1" Column="1">
+                        <ioPanelGrid PanelGlobalID="Batt.Dc12.BattDcPanel" />
+                    </Grid>
+                    <Grid Row="1" Column="2">
+                        <ioPanelGrid PanelGlobalID="Batt.Dc12.BattDcPanel" />
+                    </Grid>
+                    <Grid Row="2" Column="1">
+                        <ioPanelGrid PanelGlobalID="Pow.Out12A.BattDcPanel" />
+                    </Grid>
+                    <Grid Row="2" Column="2">
+                        <ioPanelGrid PanelGlobalID="Pow.Out12A.BattDcPanel" />
+                    </Grid>
+                </MiddleView>
+                <RightView>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <Grid Row="1">
+                        <ioPanelGrid PanelGlobalID="Pow.Out12A.PowOutPanel" />
+                    </Grid>
+                    <Grid Row="2">
+                        <ioPanelGrid PanelGlobalID="Pow.Out12A.PowOutPanel" />
+                    </Grid>
+                </RightView>
+            </Views>
+        </MenuItem>
+        <MenuItem Text="Switch panel">
+            <MenuIcon>
+                <ioShape>
+                    <Properties TypeShape="Automation" ShapeID="On"/>
+                </ioShape>
+            </MenuIcon>
+        </MenuItem>
+    </Menu>
+
+</Appliation>

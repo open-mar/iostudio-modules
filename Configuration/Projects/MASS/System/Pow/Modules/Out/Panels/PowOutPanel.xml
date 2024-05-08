@@ -131,7 +131,7 @@
                     <Properties Text="OFF" TypeColor="Normal" TypeShape="Automation" ShapeID="Off" />
                 </ioButtonShape>
                 <ioShape LocalID="ShapeCh1" HorizontalAlignment="Left" Width="32">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties TypeShape="Automation" ShapeID="BatteryPack" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
                 </ioShape>
                 <ioLabel LocalID="LabelCh1" VerticalAlignment="Center" Height="15">
                     <Properties Text="12V FWD CH1" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />

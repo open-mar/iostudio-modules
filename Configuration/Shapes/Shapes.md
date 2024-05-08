@@ -21,11 +21,17 @@ The use of the files is limited by the [terms of the OpenBridge project](https:/
 |Off|![ioShape](Action/Off.svg)|
 |On|![ioShape](Action/On.svg)|
 
+## TypeShape: ApplicationIcons
+
+|ShapeID|ioShape|
+|-----|---|
+|EcdisSimple|![ioShape](ApplicationIcons/EcdisSimple.svg)|
+
 ## TypeShape: Automation
 
 |ShapeID|ioShape|
 |-----|---|
-|BatteryPack100|![ioShape](Automation/BatteryPack100.svg)|
+|BatteryPack|![ioShape](Automation/BatteryPack.svg)|
 |EthernetSwitch|![ioShape](Automation/EthernetSwitch.svg)|
 |Forward|![ioShape](Automation/Forward.svg)|
 |ForwardStopped|![ioShape](Automation/ForwardStopped.svg)|
@@ -102,6 +108,13 @@ The use of the files is limited by the [terms of the OpenBridge project](https:/
 |SatelliteFull|![ioShape](SensorsNetwork/SatelliteFull.svg)|
 |WiFi|![ioShape](SensorsNetwork/WiFi.svg)|
 |WindSensor|![ioShape](SensorsNetwork/WindSensor.svg)|
+
+## TypeShape: VesselNavigation
+
+|ShapeID|ioShape|
+|-----|---|
+|OnTrack|![ioShape](VesselNavigation/OnTrack.svg)|
+
 
 ## TypeShape: VesselsObjects
 

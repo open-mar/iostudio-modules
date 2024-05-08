@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Appliation Text="Steering">
+    <ApplicationText>
+        <TextCollection Name="Steer::SteerText"/>
+    </ApplicationText>
+    <AppliationPrograms>
+        <ProgramClass Name="Steer::SteerProgOperate"/>
+    </AppliationPrograms>
+    <Menu>
+        <MenuItem Text="Maneuvering">
+            <MenuIcon>
+                <ioShape>
+                    <Properties TypeShape="Maneuvering" ShapeID="Rotate"/>
+                </ioShape>
+            </MenuIcon>
+            <Views>
+            </Views>
+        </MenuItem>
+        <MenuItem Text="Transit">
+            <MenuIcon>
+                <ioShape>
+                    <Properties TypeShape="Maneuvering" ShapeID="Autopilot"/>
+                </ioShape>
+            </MenuIcon>
+        </MenuItem>
+        <MenuItem Text="Track keeping">
+            <MenuIcon>
+                <ioShape>
+                    <Properties TypeShape="VesselNavigation" ShapeID="OnTrack"/>
+                </ioShape>
+            </MenuIcon>
+        </MenuItem>
+        <MenuItem Text="Station keeping">
+            <MenuIcon>
+                <ioIcon>
+                    <Properties TypeFontIcon="MaterialDesign" IconID="place"/>
+                </ioIcon>
+            </MenuIcon>
+        </MenuItem>
+    </Menu>
+</Appliation>
