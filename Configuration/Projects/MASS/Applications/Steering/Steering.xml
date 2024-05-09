@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Appliation Text="Steering">
+<Application Name="Steering">
+    <ApplicationIcon>
+        <ioShape LocalID="ApplicationIcon">
+            <Properties TypeShape="Maneuvering" ShapeID="Rotate"/>
+        </ioShape>
+    </ApplicationIcon>
     <ApplicationText>
         <TextCollection Name="Steer::SteerText"/>
     </ApplicationText>
@@ -9,7 +14,7 @@
     <Menu>
         <MenuItem Text="Maneuvering">
             <MenuIcon>
-                <ioShape>
+                <ioShape LocalID="ManeuveringIcon">
                     <Properties TypeShape="Maneuvering" ShapeID="Rotate"/>
                 </ioShape>
             </MenuIcon>
@@ -18,24 +23,24 @@
         </MenuItem>
         <MenuItem Text="Transit">
             <MenuIcon>
-                <ioShape>
+                <ioShape LocalID="TransitIcon">
                     <Properties TypeShape="Maneuvering" ShapeID="Autopilot"/>
                 </ioShape>
             </MenuIcon>
         </MenuItem>
         <MenuItem Text="Track keeping">
             <MenuIcon>
-                <ioShape>
+                <ioShape LocalID="TrackKeepingIcon">
                     <Properties TypeShape="VesselNavigation" ShapeID="OnTrack"/>
                 </ioShape>
             </MenuIcon>
         </MenuItem>
         <MenuItem Text="Station keeping">
             <MenuIcon>
-                <ioIcon>
+                <ioIcon LocalID="StationKeepingIcon">
                     <Properties TypeFontIcon="MaterialDesign" IconID="place"/>
                 </ioIcon>
             </MenuIcon>
         </MenuItem>
     </Menu>
-</Appliation>
+</Application>

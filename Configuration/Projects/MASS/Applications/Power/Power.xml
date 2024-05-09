@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Appliation Text="Power">
+<Application Name="Power">
+    <ApplicationIcon>
+        <ioShape LocalID="ApplicationIcon">
+            <Properties TypeShape="Automation" ShapeID="BatteryPack"/>
+        </ioShape>
+    </ApplicationIcon>
     <ApplicationText>
         <TextCollection Name="Batt::BattText"/>
     </ApplicationText>
@@ -10,7 +15,7 @@
     <Menu>
         <MenuItem Text="Batteries">
             <MenuIcon>
-                <ioShape>
+                <ioShape LocalID="BatteriesIcon">
                     <Properties TypeShape="Automation" ShapeID="BatteryPack"/>
                 </ioShape>
             </MenuIcon>
@@ -57,11 +62,11 @@
         </MenuItem>
         <MenuItem Text="Switch panel">
             <MenuIcon>
-                <ioShape>
+                <ioShape LocalID="SwitchPanelIcon">
                     <Properties TypeShape="Automation" ShapeID="On"/>
                 </ioShape>
             </MenuIcon>
         </MenuItem>
     </Menu>
 
-</Appliation>
+</Application>
