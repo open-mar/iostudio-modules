@@ -38,7 +38,7 @@
         <MenuItem Text="Station keeping">
             <MenuIcon>
                 <ioIcon LocalID="StationKeepingIcon">
-                    <Properties TypeFontIcon="MaterialDesign" IconID="place"/>
+                    <Properties TypeFont="MaterialDesign" IconID="place"/>
                 </ioIcon>
             </MenuIcon>
         </MenuItem>
