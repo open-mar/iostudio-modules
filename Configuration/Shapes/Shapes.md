@@ -21,6 +21,20 @@ The use of the files is limited by the [terms of the OpenBridge project](https:/
 |Off|![ioShape](Action/Off.svg)|
 |On|![ioShape](Action/On.svg)|
 
+## TypeShape: AlertsNotifications
+
+|ShapeID|ioShape|
+|-----|---|
+|Alarm|![ioShape](AlertsNotifications/Alarm.svg)|
+|AlertList|![ioShape](AlertsNotifications/AlertList.svg)|
+|AlertNotification|![ioShape](AlertsNotifications/AlertNotification.svg)|
+|Caution|![ioShape](AlertsNotifications/Caution.svg)|
+|Mute|![ioShape](AlertsNotifications/Mute.svg)|
+|Notification|![ioShape](AlertsNotifications/Notification.svg)|
+|Running|![ioShape](AlertsNotifications/Running.svg)|
+|Warning|![ioShape](AlertsNotifications/Warning.svg)|
+
+
 ## TypeShape: ApplicationIcons
 
 |ShapeID|ioShape|
