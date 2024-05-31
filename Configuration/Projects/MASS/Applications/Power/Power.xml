@@ -27,7 +27,7 @@
                         <ioPanelGrid PanelGlobalID="Pow.Out12F.PowOutPanel" />
                     </Grid>
                     <Grid Row="2">
-                        <ioPanelGrid PanelGlobalID="Pow.Out12F.PowOutPanel" />
+                        <ioPanelGrid PanelGlobalID="Pow.Out24F.PowOutPanel" />
                     </Grid>
                 </LeftView>
                 <MiddleView>
@@ -39,13 +39,13 @@
                         <ioPanelGrid PanelGlobalID="Batt.Dc12.BattDcPanel" />
                     </Grid>
                     <Grid Row="1" Column="2">
-                        <ioPanelGrid PanelGlobalID="Batt.Dc12.BattDcPanel" />
+                        <ioPanelGrid PanelGlobalID="Batt.Dc24.BattDcPanel" />
                     </Grid>
                     <Grid Row="2" Column="1">
-                        <ioPanelGrid PanelGlobalID="Pow.Out12A.BattDcPanel" />
+                        <ioPanelGrid PanelGlobalID="Pow.Out12M.PowOutPanel" />
                     </Grid>
                     <Grid Row="2" Column="2">
-                        <ioPanelGrid PanelGlobalID="Pow.Out12A.BattDcPanel" />
+                        <ioPanelGrid PanelGlobalID="Pow.Out24M.PowOutPanel" />
                     </Grid>
                 </MiddleView>
                 <RightView>
