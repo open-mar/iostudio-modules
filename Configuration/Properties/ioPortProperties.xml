@@ -22,7 +22,7 @@
             </Children>
         </DevicePortType>
 
-        <DevicePortType Name="SANSport">
+        <DevicePortType Name="SystemPort">
             <Properties>
                 <Variable DataID="NodeID" TypeNum="DWORD" Min="1" Max="255">1</Variable>
             </Properties>
@@ -42,14 +42,14 @@
     </DevicePortTypesCollection>
     
     <NetworkTypesCollection>
-        <NetworkType Name="SANSnet">
+        <NetworkType Name="SystemNet">
             <Properties>
                 <Variable DataID="SystemID" TypeNum="DWORD" Min="1" Max="99">1</Variable>
                 <Variable DataID="PhysicalNet" TypeNum="DWORD" Min="1" Max="9">1</Variable>
                 <Variable DataID="VlanID" TypeNum="DWORD" Min="1" Max="255">1</Variable>
             </Properties>
             <NetworkPorts>
-                <DevicePort Name="SANSport"/>
+                <DevicePort Name="SystemPort"/>
             </NetworkPorts>
         </NetworkType>
         <NetworkType Name="Ethernet">
