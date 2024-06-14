@@ -8,3 +8,7 @@ OpenBridge/OpenBridgeAppLib/obj/
 Configuration/Projects/MASS/Build/MassProgramsSimulation/x64/
 
 Configuration/Projects/MASS/Build/MassProgramsSimulation/MassProgramsSimulation.vcxproj.user
+
+Configuration/Projects/MASS/Build/MassProgramsOperation/x64/
+
+Configuration/Projects/MASS/Build/MassProgramsSimulation/Debug/

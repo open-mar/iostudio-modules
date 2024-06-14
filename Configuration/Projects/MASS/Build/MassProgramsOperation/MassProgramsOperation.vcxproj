@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{1679adef-6cbf-4eae-a627-379a9b470ecb}</ProjectGuid>
+    <RootNamespace>MassProgramsOperation</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;__WIN_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\..\;..\..\..\..\..\..\..\ioStudio\ioFramework;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Programs\Batt\BattData.h" />
+    <ClInclude Include="..\..\Programs\Batt\BattPanel.h" />
+    <ClInclude Include="..\..\Programs\Batt\BattProgMonitor.h" />
+    <ClInclude Include="..\..\Programs\Batt\Dc\BattDcData.h" />
+    <ClInclude Include="..\..\Programs\Batt\Dc\BattDcDataDc12.h" />
+    <ClInclude Include="..\..\Programs\Batt\Dc\BattDcDataDc24.h" />
+    <ClInclude Include="..\..\Programs\Batt\Dc\BattDcPanel.h" />
+    <ClInclude Include="..\..\Programs\Batt\Dc\BattDcPanelDc12.h" />
+    <ClInclude Include="..\..\Programs\Batt\Dc\BattDcPanelDc24.h" />
+    <ClInclude Include="..\..\Programs\ioSystemData.h" />
+    <ClInclude Include="..\..\Programs\Pow\Out\PowOutData.h" />
+    <ClInclude Include="..\..\Programs\Pow\Out\PowOutDataOut12A.h" />
+    <ClInclude Include="..\..\Programs\Pow\Out\PowOutDataOut12F.h" />
+    <ClInclude Include="..\..\Programs\Pow\Out\PowOutDataOut12M.h" />
+    <ClInclude Include="..\..\Programs\Pow\Out\PowOutDataOut220A.h" />
+    <ClInclude Include="..\..\Programs\Pow\Out\PowOutDataOut220F.h" />
+    <ClInclude Include="..\..\Programs\Pow\Out\PowOutDataOut220M.h" />
+    <ClInclude Include="..\..\Programs\Pow\Out\PowOutDataOut24A.h" />
+    <ClInclude Include="..\..\Programs\Pow\Out\PowOutDataOut24F.h" />
+    <ClInclude Include="..\..\Programs\Pow\Out\PowOutDataOut24M.h" />
+    <ClInclude Include="..\..\Programs\Pow\Out\PowOutPanel.h" />
+    <ClInclude Include="..\..\Programs\Pow\Out\PowOutPanelOut12A.h" />
+    <ClInclude Include="..\..\Programs\Pow\Out\PowOutPanelOut12F.h" />
+    <ClInclude Include="..\..\Programs\Pow\Out\PowOutPanelOut12M.h" />
+    <ClInclude Include="..\..\Programs\Pow\Out\PowOutPanelOut220A.h" />
+    <ClInclude Include="..\..\Programs\Pow\Out\PowOutPanelOut220F.h" />
+    <ClInclude Include="..\..\Programs\Pow\Out\PowOutPanelOut220M.h" />
+    <ClInclude Include="..\..\Programs\Pow\Out\PowOutPanelOut24A.h" />
+    <ClInclude Include="..\..\Programs\Pow\Out\PowOutPanelOut24F.h" />
+    <ClInclude Include="..\..\Programs\Pow\Out\PowOutPanelOut24M.h" />
+    <ClInclude Include="..\..\Programs\Pow\PowProgOperate.h" />
+    <ClInclude Include="..\..\Programs\Steer\Ap1\SteerAp1Data.h" />
+    <ClInclude Include="..\..\Programs\Steer\Ap1\SteerAp1Panel.h" />
+    <ClInclude Include="..\..\Programs\Steer\Control\CommandPanel.h" />
+    <ClInclude Include="..\..\Programs\Steer\Control\CommandPanelCp1.h" />
+    <ClInclude Include="..\..\Programs\Steer\Control\CommandPanelCp2.h" />
+    <ClInclude Include="..\..\Programs\Steer\Control\ModePanel.h" />
+    <ClInclude Include="..\..\Programs\Steer\Control\ModePanelCp1.h" />
+    <ClInclude Include="..\..\Programs\Steer\Control\ModePanelCp2.h" />
+    <ClInclude Include="..\..\Programs\Steer\Control\SetRefPanel.h" />
+    <ClInclude Include="..\..\Programs\Steer\Control\SetRefPanelCp1.h" />
+    <ClInclude Include="..\..\Programs\Steer\Control\SetRefPanelCp2.h" />
+    <ClInclude Include="..\..\Programs\Steer\Control\SteerControlData.h" />
+    <ClInclude Include="..\..\Programs\Steer\Control\SteerControlDataCp1.h" />
+    <ClInclude Include="..\..\Programs\Steer\Control\SteerControlDataCp2.h" />
+    <ClInclude Include="..\..\Programs\Steer\SteerProgOperate.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Programs\Batt\BattData.cpp" />
+    <ClCompile Include="..\..\Programs\Batt\BattPanel.cpp" />
+    <ClCompile Include="..\..\Programs\Batt\BattProgMonitor.cpp" />
+    <ClCompile Include="..\..\Programs\Batt\Dc\BattDcData.cpp" />
+    <ClCompile Include="..\..\Programs\Batt\Dc\BattDcDataDc12.cpp" />
+    <ClCompile Include="..\..\Programs\Batt\Dc\BattDcDataDc24.cpp" />
+    <ClCompile Include="..\..\Programs\Batt\Dc\BattDcPanel.cpp" />
+    <ClCompile Include="..\..\Programs\Batt\Dc\BattDcPanelDc12.cpp" />
+    <ClCompile Include="..\..\Programs\Batt\Dc\BattDcPanelDc24.cpp" />
+    <ClCompile Include="..\..\Programs\ioSystemData.cpp" />
+    <ClCompile Include="..\..\Programs\Pow\Out\PowOutData.cpp" />
+    <ClCompile Include="..\..\Programs\Pow\Out\PowOutDataOut12A.cpp" />
+    <ClCompile Include="..\..\Programs\Pow\Out\PowOutDataOut12F.cpp" />
+    <ClCompile Include="..\..\Programs\Pow\Out\PowOutDataOut12M.cpp" />
+    <ClCompile Include="..\..\Programs\Pow\Out\PowOutDataOut220A.cpp" />
+    <ClCompile Include="..\..\Programs\Pow\Out\PowOutDataOut220F.cpp" />
+    <ClCompile Include="..\..\Programs\Pow\Out\PowOutDataOut220M.cpp" />
+    <ClCompile Include="..\..\Programs\Pow\Out\PowOutDataOut24A.cpp" />
+    <ClCompile Include="..\..\Programs\Pow\Out\PowOutDataOut24F.cpp" />
+    <ClCompile Include="..\..\Programs\Pow\Out\PowOutDataOut24M.cpp" />
+    <ClCompile Include="..\..\Programs\Pow\Out\PowOutPanel.cpp" />
+    <ClCompile Include="..\..\Programs\Pow\Out\PowOutPanelOut12A.cpp" />
+    <ClCompile Include="..\..\Programs\Pow\Out\PowOutPanelOut12F.cpp" />
+    <ClCompile Include="..\..\Programs\Pow\Out\PowOutPanelOut12M.cpp" />
+    <ClCompile Include="..\..\Programs\Pow\Out\PowOutPanelOut220A.cpp" />
+    <ClCompile Include="..\..\Programs\Pow\Out\PowOutPanelOut220F.cpp" />
+    <ClCompile Include="..\..\Programs\Pow\Out\PowOutPanelOut220M.cpp" />
+    <ClCompile Include="..\..\Programs\Pow\Out\PowOutPanelOut24A.cpp" />
+    <ClCompile Include="..\..\Programs\Pow\Out\PowOutPanelOut24F.cpp" />
+    <ClCompile Include="..\..\Programs\Pow\Out\PowOutPanelOut24M.cpp" />
+    <ClCompile Include="..\..\Programs\Pow\PowProgOperate.cpp" />
+    <ClCompile Include="..\..\Programs\Steer\Ap1\SteerAp1Data.cpp" />
+    <ClCompile Include="..\..\Programs\Steer\Ap1\SteerAp1Panel.cpp" />
+    <ClCompile Include="..\..\Programs\Steer\Control\CommandPanel.cpp" />
+    <ClCompile Include="..\..\Programs\Steer\Control\CommandPanelCp1.cpp" />
+    <ClCompile Include="..\..\Programs\Steer\Control\CommandPanelCp2.cpp" />
+    <ClCompile Include="..\..\Programs\Steer\Control\ModePanel.cpp" />
+    <ClCompile Include="..\..\Programs\Steer\Control\ModePanelCp1.cpp" />
+    <ClCompile Include="..\..\Programs\Steer\Control\ModePanelCp2.cpp" />
+    <ClCompile Include="..\..\Programs\Steer\Control\SetRefPanel.cpp" />
+    <ClCompile Include="..\..\Programs\Steer\Control\SetRefPanelCp1.cpp" />
+    <ClCompile Include="..\..\Programs\Steer\Control\SetRefPanelCp2.cpp" />
+    <ClCompile Include="..\..\Programs\Steer\Control\SteerControlData.cpp" />
+    <ClCompile Include="..\..\Programs\Steer\Control\SteerControlDataCp1.cpp" />
+    <ClCompile Include="..\..\Programs\Steer\Control\SteerControlDataCp2.cpp" />
+    <ClCompile Include="..\..\Programs\Steer\SteerProgOperate.cpp" />
+    <ClCompile Include="MassProgramsOperation.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
