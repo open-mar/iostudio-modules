@@ -12,3 +12,7 @@ Configuration/Projects/MASS/Build/MassProgramsSimulation/MassProgramsSimulation.
 Configuration/Projects/MASS/Build/MassProgramsOperation/x64/
 
 Configuration/Projects/MASS/Build/MassProgramsSimulation/Debug/
+
+Configuration/Projects/MASS/Build/Cs/bin/
+
+Configuration/Projects/MASS/Build/Cs/obj/
