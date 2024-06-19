@@ -299,7 +299,7 @@ namespace ioSystemNetworkNet
         Duid_Steer_Cp2_RightBig = 292,
         Duid_Steer_Cp2_EncoderNumber = 293,
     } // enum
-    class ioSystemData
+    public class ioSystemData
     {
         public static string GetGlobalID(ioSystemDataType duid)
         {
