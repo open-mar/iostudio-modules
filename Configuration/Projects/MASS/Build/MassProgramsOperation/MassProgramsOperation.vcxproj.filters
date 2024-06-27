@@ -176,6 +176,9 @@
     <ClInclude Include="..\..\Programs\Batt\BattPanel.h">
       <Filter>Programs\Batt</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Programs\ioSystemGraphics.h">
+      <Filter>Programs</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MassProgramsOperation.cpp">
@@ -321,6 +324,9 @@
     </ClCompile>
     <ClCompile Include="..\..\Programs\Batt\BattPanel.cpp">
       <Filter>Programs\Batt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\ioSystemGraphics.cpp">
+      <Filter>Programs</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

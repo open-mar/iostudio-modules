@@ -9,7 +9,7 @@
         <ColumnDefinition />
         <ColumnDefinition />
         <Grid Row="1" Column="1" SpanColumns="3">
-            <ioLabel LocalID="Heading">
+            <ioLabel LocalID="HeaderModeControl">
                 <Properties Text="MODE CONTROL PANEL CP1" TypeLabel="OVERLINE" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
         </Grid>
@@ -54,7 +54,7 @@
         <ColumnDefinition />
         <ColumnDefinition />
         <Grid Row="1" Column="1" SpanColumns="3">
-            <ioLabel LocalID="Heading">
+            <ioLabel LocalID="HeaderModeControl">
                 <Properties Text="MODE CONTROL PANEL CP2" TypeLabel="OVERLINE" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
         </Grid>

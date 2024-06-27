@@ -70,6 +70,9 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)bin\$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -150,6 +153,7 @@
     <ClInclude Include="..\..\Programs\Batt\Dc\BattDcPanelDc12.h" />
     <ClInclude Include="..\..\Programs\Batt\Dc\BattDcPanelDc24.h" />
     <ClInclude Include="..\..\Programs\ioSystemData.h" />
+    <ClInclude Include="..\..\Programs\ioSystemGraphics.h" />
     <ClInclude Include="..\..\Programs\Pow\Out\PowOutData.h" />
     <ClInclude Include="..\..\Programs\Pow\Out\PowOutDataOut12A.h" />
     <ClInclude Include="..\..\Programs\Pow\Out\PowOutDataOut12F.h" />
@@ -200,6 +204,7 @@
     <ClCompile Include="..\..\Programs\Batt\Dc\BattDcPanelDc12.cpp" />
     <ClCompile Include="..\..\Programs\Batt\Dc\BattDcPanelDc24.cpp" />
     <ClCompile Include="..\..\Programs\ioSystemData.cpp" />
+    <ClCompile Include="..\..\Programs\ioSystemGraphics.cpp" />
     <ClCompile Include="..\..\Programs\Pow\Out\PowOutData.cpp" />
     <ClCompile Include="..\..\Programs\Pow\Out\PowOutDataOut12A.cpp" />
     <ClCompile Include="..\..\Programs\Pow\Out\PowOutDataOut12F.cpp" />

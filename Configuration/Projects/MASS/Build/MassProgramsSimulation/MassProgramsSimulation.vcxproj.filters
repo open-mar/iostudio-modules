@@ -184,6 +184,9 @@
     <ClInclude Include="..\..\Programs\Steer\Control\SteerControlDataCp2.h">
       <Filter>Programs\Steer\Control</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Programs\ioSystemGraphics.h">
+      <Filter>Programs</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MassProgramsSimulation.cpp">
@@ -338,6 +341,9 @@
     </ClCompile>
     <ClCompile Include="..\..\Programs\Steer\Control\SteerControlDataCp2.cpp">
       <Filter>Programs\Steer\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\ioSystemGraphics.cpp">
+      <Filter>Programs</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

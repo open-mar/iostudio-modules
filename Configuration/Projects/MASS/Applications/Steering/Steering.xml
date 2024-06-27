@@ -19,6 +19,15 @@
                 </ioShape>
             </MenuIcon>
             <Views>
+                <LeftView>
+                </LeftView>
+                <MiddleView>
+                </MiddleView>
+                <RightView>
+                    <Grid>
+                        <ioPanelGrid PanelGlobalID="Steer.Cp1.CommandPanel" />
+                    </Grid>
+                </RightView>
             </Views>
         </MenuItem>
         <MenuItem Text="Transit">
