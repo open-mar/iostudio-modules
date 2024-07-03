@@ -2,5 +2,33 @@
 <System SysID="Mass">
     <Properties>
     </Properties>
-    <NetworkCollection />
+    <NetworkCollection>
+        <Network NetID="NetEthernet" TypeNetwork="Ethernet">
+            <Description>Operational wired network for MASS</Description>
+            <NetworkData SubID="Control">
+                <Properties>
+                    <Variable LocalID="NetAddr" TypeNum="STRING">192.168.10</Variable>
+                </Properties>
+                <PortNetCollection>
+                    <PortNet ParentGlobalID="Batt" DevID="CerboGx" PortID="10"/>
+                    <PortNet ParentGlobalID="Ids.CcM" DevID="C6015" PortID="11"/>
+                    <PortNet ParentGlobalID="Steer" DevID="Op1" PortID="12"/>
+                </PortNetCollection>
+            </NetworkData>
+        </Network>
+        <Network NetID="NetWiFi" TypeNetwork="Ethernet">
+            <Description>Operational wireless network for MASS</Description>
+            <NetworkData SubID="Control">
+                <Properties>
+                    <Variable LocalID="NetAddr" TypeNum="STRING">192.168.11</Variable>
+                </Properties>
+                <PortNetCollection>
+                    <PortNet ParentGlobalID="Batt" DevID="CerboGx" PortID="10"/>
+                    <PortNet ParentGlobalID="Ids.CcM" DevID="C6015" PortID="11"/>
+                    <PortNet ParentGlobalID="Steer" DevID="Op1" PortID="12"/>
+                </PortNetCollection>
+            </NetworkData>
+        </Network>
+
+    </NetworkCollection>
 </System>
