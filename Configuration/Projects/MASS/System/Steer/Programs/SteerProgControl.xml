@@ -10,6 +10,9 @@
             <Item NameClass="SteerControlDataCp2" NameObject="DataControlCp2" />
         </DataListProgram>
     </DataItemsCollection>
+    <PortsCollection>
+        <PortProgram NameObject="NetMass" Protocol="System"/>
+    </PortsCollection>
     <InternalFunctions>
         <Function Name="OnRequestData">
             <Inputs>

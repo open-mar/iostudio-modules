@@ -27,6 +27,10 @@
             <Item NameClass="SetRefPanelCp2" NameObject="ReferenceCp2" />
         </PanelInProgram>
     </PanelsCollection>
+    <PortsCollection>
+        <PortProgram NameObject="NetVictron" Protocol="Modbus"/>
+        <PortProgram NameObject="NetMass" Protocol="System"/>
+    </PortsCollection>
     <InternalFunctions>
         <Function Name="OnRequestData">
             <Inputs>

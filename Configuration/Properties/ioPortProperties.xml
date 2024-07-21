@@ -76,7 +76,7 @@
         </ProgramPortType>
         <ProgramPortType Name="WebSocket" DevicePort="Nic">
             <Properties>
-                <Variable DataID="URL" TypeNum="STRING">https://www.seam.no/</Variable>
+                <Variable DataID="URL" TypeNum="STRING">https://www.iostudiotech.com/</Variable>
             </Properties>
         </ProgramPortType>
         <ProgramPortType Name="ComPort" DevicePort="Serial"/>
