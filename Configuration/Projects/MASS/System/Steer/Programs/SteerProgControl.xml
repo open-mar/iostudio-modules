@@ -11,7 +11,9 @@
         </DataListProgram>
     </DataItemsCollection>
     <PortsCollection>
-        <PortProgram NameObject="NetMass" Protocol="System"/>
+        <PortProgram Name="ioSystem::Ports::System::ioPortProgramSystem" NameObject="PortSystem">
+            <Item NameClass="ioPortProgramSystem" NameObject="PortSystem" />
+        </PortProgram>
     </PortsCollection>
     <InternalFunctions>
         <Function Name="OnRequestData">
@@ -22,6 +24,14 @@
                 <Argument Name="outInt32" TypeNum="Int32" />
             </Outputs>
         </Function>
+        <Function Name="OnCommandTakeCp1">
+            <Inputs />
+            <Outputs />
+        </Function>
+        <Function Name="OnCommandReleaseCp1">
+            <Inputs />
+            <Outputs />
+        </Function>
     </InternalFunctions>
     <Sequences>
         <Run />
@@ -31,6 +41,16 @@
                     <Input Name="inputInt32" NameClass="SteerAp1Data" GlobalID="Steer.Ap1.FrontThrustMeas" TypeData="Data" />
                     <Output Name="outInt32" NameClass="SteerAp1Data" GlobalID="Steer.Ap1.RateOfTurnMeas" TypeData="Data" />
                 </Call>
+            </Function>
+        </RxTxData>
+        <RxTxData NameClass="SteerControlDataCp1" GlobalID="Steer.Cp1.TakeCommand">
+            <Function TypeFunction="Internal">
+                <Call Name="OnCommandTakeCp1" />
+            </Function>
+        </RxTxData>
+        <RxTxData NameClass="SteerControlDataCp1" GlobalID="Steer.Cp1.Release">
+            <Function TypeFunction="Internal">
+                <Call Name="OnCommandReleaseCp1" />
             </Function>
         </RxTxData>
     </Sequences>

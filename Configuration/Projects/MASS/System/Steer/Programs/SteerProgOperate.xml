@@ -28,8 +28,12 @@
         </PanelInProgram>
     </PanelsCollection>
     <PortsCollection>
-        <PortProgram NameObject="NetVictron" Protocol="Modbus"/>
-        <PortProgram NameObject="NetMass" Protocol="System"/>
+        <PortProgram Name="ioModbus::ioPortProgramModbus" NameObject="PortModbus">
+            <Item NameClass="ioPortProgramModbus" NameObject="PortModbus" />
+        </PortProgram>
+        <PortProgram Name="ioSystem::Ports::System::ioPortProgramSystem" NameObject="PortSystem">
+            <Item NameClass="ioPortProgramSystem" NameObject="PortSystem" />
+        </PortProgram>
     </PortsCollection>
     <InternalFunctions>
         <Function Name="OnRequestData">

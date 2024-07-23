@@ -10,9 +10,15 @@
                     <Variable LocalID="NetAddr" TypeNum="STRING">192.168.10</Variable>
                 </Properties>
                 <PortNetCollection>
-                    <PortNet ParentGlobalID="Batt" DevID="CerboGx" PortID="10" Protocol="Modbus"/>
-                    <PortNet ParentGlobalID="Ids.CcM" DevID="C6015" PortID="11" Protocol="System"/>
-                    <PortNet ParentGlobalID="Steer" DevID="Op1" PortID="12" Protocol="System"/>
+                    <PortNetDevice ParentGlobalID="Batt" DevID="CerboGx" PortID="10">
+                        <PortNetProgram Protocol="Modbus" PortID="502"/> 
+                    </PortNetDevice>
+                    <PortNetDevice ParentGlobalID="Ids.CcM" DevID="C6015" PortID="11">
+                        <PortNetProgram Protocol="System" PortID="54374"/>
+                    </PortNetDevice>
+                    <PortNetDevice ParentGlobalID="Steer" DevID="Op1" PortID="12">
+                        <PortNetProgram Protocol="System" PortID="54374"/>
+                    </PortNetDevice>
                 </PortNetCollection>
             </NetworkData>
         </Network>
@@ -23,12 +29,17 @@
                     <Variable LocalID="NetAddr" TypeNum="STRING">192.168.11</Variable>
                 </Properties>
                 <PortNetCollection>
-                    <PortNet ParentGlobalID="Batt" DevID="CerboGx" PortID="10" Protocol="Modbus"/>
-                    <PortNet ParentGlobalID="Ids.CcM" DevID="C6015" PortID="11" Protocol="System"/>
-                    <PortNet ParentGlobalID="Steer" DevID="Op1" PortID="12" Protocol="System"/>
+                    <PortNetDevice ParentGlobalID="Batt" DevID="CerboGx" PortID="10">
+                        <PortNetProgram Protocol="Modbus" PortID="502"/> 
+                    </PortNetDevice>
+                    <PortNetDevice ParentGlobalID="Ids.CcM" DevID="C6015" PortID="11">
+                        <PortNetProgram Protocol="System" PortID="54374"/>
+                    </PortNetDevice>
+                    <PortNetDevice ParentGlobalID="Steer" DevID="Op1" PortID="12">
+                        <PortNetProgram Protocol="System" PortID="54374"/>
+                    </PortNetDevice>
                 </PortNetCollection>
             </NetworkData>
         </Network>
-
     </NetworkCollection>
 </System>

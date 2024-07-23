@@ -14,7 +14,7 @@ void SteerProgOperate::Run(Int32 activeSlot)
     ioVarFloat in1_Float;
     ioVarInt32 out1_Int32;
     if (activeSlot == 0) {}
-    SendData(&DataAp1.OnRequestSteerData, ioPortProgramProtocol_System);
+    SendData(&DataAp1.OnRequestSteerData);
     in1_Float.SetValueVar(&DataAp1.FrontThrustMeas);
     OnRequestData(&in1_Float, &out1_Int32);
     DataControlCp1.SteerMode.SetValueVar(&out1_Int32);
@@ -28,19 +28,19 @@ void SteerProgOperate::ReceiveGraphicsEvent(Int32 puidValue, ioProgramGraphicsEv
     {
     case Puid_Steer_Cp1_ButtTakeRequest:
         if (typeEvent == ioProgramGraphicsEvent_Clicked)
-            SendData(&DataControlCp1.TakeCommand, ioPortProgramProtocol_System);
+            SendData(&DataControlCp1.TakeCommand);
         break;
     case Puid_Steer_Cp1_ButtRelease:
         if (typeEvent == ioProgramGraphicsEvent_Clicked)
-            SendData(&DataControlCp1.Release, ioPortProgramProtocol_System);
+            SendData(&DataControlCp1.Release);
         break;
     case Puid_Steer_Cp2_ButtTakeRequest:
         if (typeEvent == ioProgramGraphicsEvent_Clicked)
-            SendData(&DataControlCp2.TakeCommand, ioPortProgramProtocol_System);
+            SendData(&DataControlCp2.TakeCommand);
         break;
     case Puid_Steer_Cp2_ButtRelease:
         if (typeEvent == ioProgramGraphicsEvent_Clicked)
-            SendData(&DataControlCp2.Release, ioPortProgramProtocol_System);
+            SendData(&DataControlCp2.Release);
         break;
     case Puid_Steer_Cp1_ButtStandby:
         break;
@@ -76,7 +76,7 @@ void SteerProgOperate::ReceiveData(ioDataCollection* listData, ioData* data)
     }
     else if (data == &DataAp1.OnChangeCompass)
     {
-        SendData(&DataControlCp1.ModeWork, ioPortProgramProtocol_System);
+        SendData(&DataControlCp1.ModeWork);
     }
     else if (data == &DataAp1.OnChangeRudder)
     {

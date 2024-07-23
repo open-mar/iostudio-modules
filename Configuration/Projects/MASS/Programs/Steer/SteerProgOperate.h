@@ -12,6 +12,8 @@
 #include "Programs/Steer/Control/ModePanelCp2.h"
 #include "Programs/Steer/Control/SetRefPanelCp1.h"
 #include "Programs/Steer/Control/SetRefPanelCp2.h"
+#include "ioModbus/ioPortProgramModbus.h"
+#include "ioSystem/Ports/System/ioPortProgramSystem.h"
 class SteerProgOperate : public ioProgram
 {
 public:
@@ -31,5 +33,7 @@ public:
     ModePanelCp2 ModeCp2;
     SetRefPanelCp1 ReferenceCp1;
     SetRefPanelCp2 ReferenceCp2;
+    ioPortProgramModbus PortModbus;
+    ioPortProgramSystem PortSystem;
 };
 #endif // __STEERPROGOPERATE_H
