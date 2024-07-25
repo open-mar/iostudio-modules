@@ -8,9 +8,11 @@ typedef enum
     Nuid_NetEthernet_Control_Batt_CerboGx = 1,
     Nuid_NetEthernet_Control_Ids_CcM = 2,
     Nuid_NetEthernet_Control_Steer_Op1 = 3,
-    Nuid_NetWiFi_Control_Batt_CerboGx = 4,
-    Nuid_NetWiFi_Control_Ids_CcM = 5,
-    Nuid_NetWiFi_Control_Steer_Op1 = 6,
+    Nuid_NetEthernet_Control_Steer_Op2 = 4,
+    Nuid_NetWiFi_Control_Batt_CerboGx = 5,
+    Nuid_NetWiFi_Control_Ids_CcM = 6,
+    Nuid_NetWiFi_Control_Steer_Op1 = 7,
+    Nuid_NetWiFi_Control_Steer_Op2 = 8,
 }	ioSystemPortsType;
 class ioSystemPorts
 {

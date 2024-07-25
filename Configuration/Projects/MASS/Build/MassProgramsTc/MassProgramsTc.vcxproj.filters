@@ -22,10 +22,10 @@
     <Filter Include="Programs\Steer">
       <UniqueIdentifier>{18f4a3a8-ba69-4e43-9f72-114f4b08f64f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Programs\Steer\Ap1">
+    <Filter Include="Programs\Steer\Ap">
       <UniqueIdentifier>{3ceeaac0-0d9d-4c43-bf8e-e898a32aeaeb}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Programs\Steer\Control">
+    <Filter Include="Programs\Steer\Cp">
       <UniqueIdentifier>{b1498695-3b92-40df-b397-f76e6e3f4b25}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -52,15 +52,6 @@
       <Filter>Programs\Batt\Dc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Programs\Batt\Dc\BattDcDataDc24.h">
-      <Filter>Programs\Batt\Dc</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Programs\Batt\Dc\BattDcPanel.h">
-      <Filter>Programs\Batt\Dc</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Programs\Batt\Dc\BattDcPanelDc12.h">
-      <Filter>Programs\Batt\Dc</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Programs\Batt\Dc\BattDcPanelDc24.h">
       <Filter>Programs\Batt\Dc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Programs\Batt\BattData.h">
@@ -102,17 +93,23 @@
     <ClInclude Include="..\..\Programs\Steer\SteerProgControl.h">
       <Filter>Programs\Steer</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Programs\Steer\Ap1\SteerAp1Data.h">
-      <Filter>Programs\Steer\Ap1</Filter>
+    <ClInclude Include="..\..\Programs\Steer\Ap\SteerApData.h">
+      <Filter>Programs\Steer\Ap</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Programs\Steer\Control\SteerControlData.h">
-      <Filter>Programs\Steer\Control</Filter>
+    <ClInclude Include="..\..\Programs\Steer\Ap\SteerApDataAp1.h">
+      <Filter>Programs\Steer\Ap</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Programs\Steer\Control\SteerControlDataCp1.h">
-      <Filter>Programs\Steer\Control</Filter>
+    <ClInclude Include="..\..\Programs\Steer\Ap\SteerApDataAp2.h">
+      <Filter>Programs\Steer\Ap</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Programs\Steer\Control\SteerControlDataCp2.h">
-      <Filter>Programs\Steer\Control</Filter>
+    <ClInclude Include="..\..\Programs\Steer\Cp\SteerCpData.h">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Steer\Cp\SteerCpDataCp1.h">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Steer\Cp\SteerCpDataCp2.h">
+      <Filter>Programs\Steer\Cp</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -132,15 +129,6 @@
       <Filter>Programs\Batt\Dc</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Programs\Batt\Dc\BattDcDataDc24.cpp">
-      <Filter>Programs\Batt\Dc</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Programs\Batt\Dc\BattDcPanel.cpp">
-      <Filter>Programs\Batt\Dc</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Programs\Batt\Dc\BattDcPanelDc12.cpp">
-      <Filter>Programs\Batt\Dc</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Programs\Batt\Dc\BattDcPanelDc24.cpp">
       <Filter>Programs\Batt\Dc</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Programs\Batt\BattData.cpp">
@@ -182,17 +170,23 @@
     <ClCompile Include="..\..\Programs\Steer\SteerProgControl.cpp">
       <Filter>Programs\Steer</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Programs\Steer\Ap1\SteerAp1Data.cpp">
-      <Filter>Programs\Steer\Ap1</Filter>
+    <ClCompile Include="..\..\Programs\Steer\Ap\SteerApData.cpp">
+      <Filter>Programs\Steer\Ap</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Programs\Steer\Control\SteerControlData.cpp">
-      <Filter>Programs\Steer\Control</Filter>
+    <ClCompile Include="..\..\Programs\Steer\Ap\SteerApDataAp1.cpp">
+      <Filter>Programs\Steer\Ap</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Programs\Steer\Control\SteerControlDataCp1.cpp">
-      <Filter>Programs\Steer\Control</Filter>
+    <ClCompile Include="..\..\Programs\Steer\Ap\SteerApDataAp2.cpp">
+      <Filter>Programs\Steer\Ap</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Programs\Steer\Control\SteerControlDataCp2.cpp">
-      <Filter>Programs\Steer\Control</Filter>
+    <ClCompile Include="..\..\Programs\Steer\Cp\SteerCpData.cpp">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Steer\Cp\SteerCpDataCp1.cpp">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Steer\Cp\SteerCpDataCp2.cpp">
+      <Filter>Programs\Steer\Cp</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

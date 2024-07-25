@@ -470,46 +470,65 @@ namespace ioSystemNetworkNet
         Puid_Steer_Ap1_GridThrustMeas = 463,
         Puid_Steer_Ap1_TextThrustValue = 464,
         Puid_Steer_Ap1_LabelThrust = 465,
-        Puid_Steer_Cp1_HeaderCommandPanel = 466,
-        Puid_Steer_Cp1_ShapeCommandStatus = 467,
-        Puid_Steer_Cp1_LabelCommandStatus = 468,
-        Puid_Steer_Cp1_TextCommandStatus = 469,
-        Puid_Steer_Cp1_ButtTakeRequest = 470,
-        Puid_Steer_Cp1_ButtRelease = 471,
-        Puid_Steer_Cp2_HeaderCommandPanel = 472,
-        Puid_Steer_Cp2_ShapeCommandStatus = 473,
-        Puid_Steer_Cp2_LabelCommandStatus = 474,
-        Puid_Steer_Cp2_TextCommandStatus = 475,
-        Puid_Steer_Cp2_ButtTakeRequest = 476,
-        Puid_Steer_Cp2_ButtRelease = 477,
-        Puid_Steer_Cp1_HeaderModeControl = 478,
-        Puid_Steer_Cp1_ButtDp = 479,
-        Puid_Steer_Cp1_ButtTrack = 480,
-        Puid_Steer_Cp1_ButtRiver = 481,
-        Puid_Steer_Cp1_ButtWork = 482,
-        Puid_Steer_Cp1_ButtCourse = 483,
-        Puid_Steer_Cp1_ButtStandby = 484,
-        Puid_Steer_Cp2_HeaderModeControl = 485,
-        Puid_Steer_Cp2_ButtDp = 486,
-        Puid_Steer_Cp2_ButtTrack = 487,
-        Puid_Steer_Cp2_ButtRiver = 488,
-        Puid_Steer_Cp2_ButtWork = 489,
-        Puid_Steer_Cp2_ButtCourse = 490,
-        Puid_Steer_Cp2_ButtStandby = 491,
-        Puid_Steer_Cp1_LabelHeader = 492,
-        Puid_Steer_Cp1_ButtonLeftSmall = 493,
-        Puid_Steer_Cp1_ButtMidZero = 494,
-        Puid_Steer_Cp1_ButtRightSmall = 495,
-        Puid_Steer_Cp1_EncoderNumber = 496,
-        Puid_Steer_Cp1_ButtLeftBig = 497,
-        Puid_Steer_Cp1_ButtRightBig = 498,
-        Puid_Steer_Cp2_LabelHeader = 499,
-        Puid_Steer_Cp2_ButtonLeftSmall = 500,
-        Puid_Steer_Cp2_ButtMidZero = 501,
-        Puid_Steer_Cp2_ButtRightSmall = 502,
-        Puid_Steer_Cp2_EncoderNumber = 503,
-        Puid_Steer_Cp2_ButtLeftBig = 504,
-        Puid_Steer_Cp2_ButtRightBig = 505,
+        Puid_Steer_Ap2_GridAutopilot = 466,
+        Puid_Steer_Ap2_LabelApSteer = 467,
+        Puid_Steer_Ap2_InstrHeadingRef = 468,
+        Puid_Steer_Ap2_LabelHeading = 469,
+        Puid_Steer_Ap2_InstrHeading = 470,
+        Puid_Steer_Ap2_ShapeContourShip = 471,
+        Puid_Steer_Ap2_CompThruster = 472,
+        Puid_Steer_Ap2_CompRudder = 473,
+        Puid_Steer_Ap2_CompRateOfTurn = 474,
+        Puid_Steer_Ap2_CompEngine = 475,
+        Puid_Steer_Ap2_GridRotMeas = 476,
+        Puid_Steer_Ap2_TextRotValue = 477,
+        Puid_Steer_Ap2_LabelRot = 478,
+        Puid_Steer_Ap2_GridEngineMeas = 479,
+        Puid_Steer_Ap2_TextEngineValue = 480,
+        Puid_Steer_Ap2_LabelEngine = 481,
+        Puid_Steer_Ap2_GridThrustMeas = 482,
+        Puid_Steer_Ap2_TextThrustValue = 483,
+        Puid_Steer_Ap2_LabelThrust = 484,
+        Puid_Steer_Cp1_HeaderCommandPanelNew = 485,
+        Puid_Steer_Cp1_ShapeCommandStatus = 486,
+        Puid_Steer_Cp1_LabelCommandStatus = 487,
+        Puid_Steer_Cp1_TextCommandStatus = 488,
+        Puid_Steer_Cp1_ButtTakeRequest = 489,
+        Puid_Steer_Cp1_ButtRelease = 490,
+        Puid_Steer_Cp2_HeaderCommandPanel = 491,
+        Puid_Steer_Cp2_ShapeCommandStatus = 492,
+        Puid_Steer_Cp2_LabelCommandStatus = 493,
+        Puid_Steer_Cp2_TextCommandStatus = 494,
+        Puid_Steer_Cp2_ButtTakeRequest = 495,
+        Puid_Steer_Cp2_ButtRelease = 496,
+        Puid_Steer_Cp1_HeaderModeControlNew = 497,
+        Puid_Steer_Cp1_ButtDp = 498,
+        Puid_Steer_Cp1_ButtTrack = 499,
+        Puid_Steer_Cp1_ButtRiver = 500,
+        Puid_Steer_Cp1_ButtWork = 501,
+        Puid_Steer_Cp1_ButtCourse = 502,
+        Puid_Steer_Cp1_ButtStandby = 503,
+        Puid_Steer_Cp2_HeaderModeControl = 504,
+        Puid_Steer_Cp2_ButtDp = 505,
+        Puid_Steer_Cp2_ButtTrack = 506,
+        Puid_Steer_Cp2_ButtRiver = 507,
+        Puid_Steer_Cp2_ButtWork = 508,
+        Puid_Steer_Cp2_ButtCourse = 509,
+        Puid_Steer_Cp2_ButtStandby = 510,
+        Puid_Steer_Cp1_LabelHeaderNew = 511,
+        Puid_Steer_Cp1_ButtonLeftSmall = 512,
+        Puid_Steer_Cp1_ButtMidZero = 513,
+        Puid_Steer_Cp1_ButtRightSmall = 514,
+        Puid_Steer_Cp1_EncoderNumber = 515,
+        Puid_Steer_Cp1_ButtLeftBig = 516,
+        Puid_Steer_Cp1_ButtRightBig = 517,
+        Puid_Steer_Cp2_LabelHeader = 518,
+        Puid_Steer_Cp2_ButtonLeftSmall = 519,
+        Puid_Steer_Cp2_ButtMidZero = 520,
+        Puid_Steer_Cp2_ButtRightSmall = 521,
+        Puid_Steer_Cp2_EncoderNumber = 522,
+        Puid_Steer_Cp2_ButtLeftBig = 523,
+        Puid_Steer_Cp2_ButtRightBig = 524,
     } // enum
     public class ioSystemGraphics
     {
@@ -982,7 +1001,26 @@ namespace ioSystemNetworkNet
                 case ioSystemGraphicsType.Puid_Steer_Ap1_GridThrustMeas: return "Steer.Ap1.GridThrustMeas";
                 case ioSystemGraphicsType.Puid_Steer_Ap1_TextThrustValue: return "Steer.Ap1.TextThrustValue";
                 case ioSystemGraphicsType.Puid_Steer_Ap1_LabelThrust: return "Steer.Ap1.LabelThrust";
-                case ioSystemGraphicsType.Puid_Steer_Cp1_HeaderCommandPanel: return "Steer.Cp1.HeaderCommandPanel";
+                case ioSystemGraphicsType.Puid_Steer_Ap2_GridAutopilot: return "Steer.Ap2.GridAutopilot";
+                case ioSystemGraphicsType.Puid_Steer_Ap2_LabelApSteer: return "Steer.Ap2.LabelApSteer";
+                case ioSystemGraphicsType.Puid_Steer_Ap2_InstrHeadingRef: return "Steer.Ap2.InstrHeadingRef";
+                case ioSystemGraphicsType.Puid_Steer_Ap2_LabelHeading: return "Steer.Ap2.LabelHeading";
+                case ioSystemGraphicsType.Puid_Steer_Ap2_InstrHeading: return "Steer.Ap2.InstrHeading";
+                case ioSystemGraphicsType.Puid_Steer_Ap2_ShapeContourShip: return "Steer.Ap2.ShapeContourShip";
+                case ioSystemGraphicsType.Puid_Steer_Ap2_CompThruster: return "Steer.Ap2.CompThruster";
+                case ioSystemGraphicsType.Puid_Steer_Ap2_CompRudder: return "Steer.Ap2.CompRudder";
+                case ioSystemGraphicsType.Puid_Steer_Ap2_CompRateOfTurn: return "Steer.Ap2.CompRateOfTurn";
+                case ioSystemGraphicsType.Puid_Steer_Ap2_CompEngine: return "Steer.Ap2.CompEngine";
+                case ioSystemGraphicsType.Puid_Steer_Ap2_GridRotMeas: return "Steer.Ap2.GridRotMeas";
+                case ioSystemGraphicsType.Puid_Steer_Ap2_TextRotValue: return "Steer.Ap2.TextRotValue";
+                case ioSystemGraphicsType.Puid_Steer_Ap2_LabelRot: return "Steer.Ap2.LabelRot";
+                case ioSystemGraphicsType.Puid_Steer_Ap2_GridEngineMeas: return "Steer.Ap2.GridEngineMeas";
+                case ioSystemGraphicsType.Puid_Steer_Ap2_TextEngineValue: return "Steer.Ap2.TextEngineValue";
+                case ioSystemGraphicsType.Puid_Steer_Ap2_LabelEngine: return "Steer.Ap2.LabelEngine";
+                case ioSystemGraphicsType.Puid_Steer_Ap2_GridThrustMeas: return "Steer.Ap2.GridThrustMeas";
+                case ioSystemGraphicsType.Puid_Steer_Ap2_TextThrustValue: return "Steer.Ap2.TextThrustValue";
+                case ioSystemGraphicsType.Puid_Steer_Ap2_LabelThrust: return "Steer.Ap2.LabelThrust";
+                case ioSystemGraphicsType.Puid_Steer_Cp1_HeaderCommandPanelNew: return "Steer.Cp1.HeaderCommandPanelNew";
                 case ioSystemGraphicsType.Puid_Steer_Cp1_ShapeCommandStatus: return "Steer.Cp1.ShapeCommandStatus";
                 case ioSystemGraphicsType.Puid_Steer_Cp1_LabelCommandStatus: return "Steer.Cp1.LabelCommandStatus";
                 case ioSystemGraphicsType.Puid_Steer_Cp1_TextCommandStatus: return "Steer.Cp1.TextCommandStatus";
@@ -994,7 +1032,7 @@ namespace ioSystemNetworkNet
                 case ioSystemGraphicsType.Puid_Steer_Cp2_TextCommandStatus: return "Steer.Cp2.TextCommandStatus";
                 case ioSystemGraphicsType.Puid_Steer_Cp2_ButtTakeRequest: return "Steer.Cp2.ButtTakeRequest";
                 case ioSystemGraphicsType.Puid_Steer_Cp2_ButtRelease: return "Steer.Cp2.ButtRelease";
-                case ioSystemGraphicsType.Puid_Steer_Cp1_HeaderModeControl: return "Steer.Cp1.HeaderModeControl";
+                case ioSystemGraphicsType.Puid_Steer_Cp1_HeaderModeControlNew: return "Steer.Cp1.HeaderModeControlNew";
                 case ioSystemGraphicsType.Puid_Steer_Cp1_ButtDp: return "Steer.Cp1.ButtDp";
                 case ioSystemGraphicsType.Puid_Steer_Cp1_ButtTrack: return "Steer.Cp1.ButtTrack";
                 case ioSystemGraphicsType.Puid_Steer_Cp1_ButtRiver: return "Steer.Cp1.ButtRiver";
@@ -1008,7 +1046,7 @@ namespace ioSystemNetworkNet
                 case ioSystemGraphicsType.Puid_Steer_Cp2_ButtWork: return "Steer.Cp2.ButtWork";
                 case ioSystemGraphicsType.Puid_Steer_Cp2_ButtCourse: return "Steer.Cp2.ButtCourse";
                 case ioSystemGraphicsType.Puid_Steer_Cp2_ButtStandby: return "Steer.Cp2.ButtStandby";
-                case ioSystemGraphicsType.Puid_Steer_Cp1_LabelHeader: return "Steer.Cp1.LabelHeader";
+                case ioSystemGraphicsType.Puid_Steer_Cp1_LabelHeaderNew: return "Steer.Cp1.LabelHeaderNew";
                 case ioSystemGraphicsType.Puid_Steer_Cp1_ButtonLeftSmall: return "Steer.Cp1.ButtonLeftSmall";
                 case ioSystemGraphicsType.Puid_Steer_Cp1_ButtMidZero: return "Steer.Cp1.ButtMidZero";
                 case ioSystemGraphicsType.Puid_Steer_Cp1_ButtRightSmall: return "Steer.Cp1.ButtRightSmall";
@@ -1494,7 +1532,26 @@ namespace ioSystemNetworkNet
                 case "Steer.Ap1.GridThrustMeas": return ioSystemGraphicsType.Puid_Steer_Ap1_GridThrustMeas;
                 case "Steer.Ap1.TextThrustValue": return ioSystemGraphicsType.Puid_Steer_Ap1_TextThrustValue;
                 case "Steer.Ap1.LabelThrust": return ioSystemGraphicsType.Puid_Steer_Ap1_LabelThrust;
-                case "Steer.Cp1.HeaderCommandPanel": return ioSystemGraphicsType.Puid_Steer_Cp1_HeaderCommandPanel;
+                case "Steer.Ap2.GridAutopilot": return ioSystemGraphicsType.Puid_Steer_Ap2_GridAutopilot;
+                case "Steer.Ap2.LabelApSteer": return ioSystemGraphicsType.Puid_Steer_Ap2_LabelApSteer;
+                case "Steer.Ap2.InstrHeadingRef": return ioSystemGraphicsType.Puid_Steer_Ap2_InstrHeadingRef;
+                case "Steer.Ap2.LabelHeading": return ioSystemGraphicsType.Puid_Steer_Ap2_LabelHeading;
+                case "Steer.Ap2.InstrHeading": return ioSystemGraphicsType.Puid_Steer_Ap2_InstrHeading;
+                case "Steer.Ap2.ShapeContourShip": return ioSystemGraphicsType.Puid_Steer_Ap2_ShapeContourShip;
+                case "Steer.Ap2.CompThruster": return ioSystemGraphicsType.Puid_Steer_Ap2_CompThruster;
+                case "Steer.Ap2.CompRudder": return ioSystemGraphicsType.Puid_Steer_Ap2_CompRudder;
+                case "Steer.Ap2.CompRateOfTurn": return ioSystemGraphicsType.Puid_Steer_Ap2_CompRateOfTurn;
+                case "Steer.Ap2.CompEngine": return ioSystemGraphicsType.Puid_Steer_Ap2_CompEngine;
+                case "Steer.Ap2.GridRotMeas": return ioSystemGraphicsType.Puid_Steer_Ap2_GridRotMeas;
+                case "Steer.Ap2.TextRotValue": return ioSystemGraphicsType.Puid_Steer_Ap2_TextRotValue;
+                case "Steer.Ap2.LabelRot": return ioSystemGraphicsType.Puid_Steer_Ap2_LabelRot;
+                case "Steer.Ap2.GridEngineMeas": return ioSystemGraphicsType.Puid_Steer_Ap2_GridEngineMeas;
+                case "Steer.Ap2.TextEngineValue": return ioSystemGraphicsType.Puid_Steer_Ap2_TextEngineValue;
+                case "Steer.Ap2.LabelEngine": return ioSystemGraphicsType.Puid_Steer_Ap2_LabelEngine;
+                case "Steer.Ap2.GridThrustMeas": return ioSystemGraphicsType.Puid_Steer_Ap2_GridThrustMeas;
+                case "Steer.Ap2.TextThrustValue": return ioSystemGraphicsType.Puid_Steer_Ap2_TextThrustValue;
+                case "Steer.Ap2.LabelThrust": return ioSystemGraphicsType.Puid_Steer_Ap2_LabelThrust;
+                case "Steer.Cp1.HeaderCommandPanelNew": return ioSystemGraphicsType.Puid_Steer_Cp1_HeaderCommandPanelNew;
                 case "Steer.Cp1.ShapeCommandStatus": return ioSystemGraphicsType.Puid_Steer_Cp1_ShapeCommandStatus;
                 case "Steer.Cp1.LabelCommandStatus": return ioSystemGraphicsType.Puid_Steer_Cp1_LabelCommandStatus;
                 case "Steer.Cp1.TextCommandStatus": return ioSystemGraphicsType.Puid_Steer_Cp1_TextCommandStatus;
@@ -1506,7 +1563,7 @@ namespace ioSystemNetworkNet
                 case "Steer.Cp2.TextCommandStatus": return ioSystemGraphicsType.Puid_Steer_Cp2_TextCommandStatus;
                 case "Steer.Cp2.ButtTakeRequest": return ioSystemGraphicsType.Puid_Steer_Cp2_ButtTakeRequest;
                 case "Steer.Cp2.ButtRelease": return ioSystemGraphicsType.Puid_Steer_Cp2_ButtRelease;
-                case "Steer.Cp1.HeaderModeControl": return ioSystemGraphicsType.Puid_Steer_Cp1_HeaderModeControl;
+                case "Steer.Cp1.HeaderModeControlNew": return ioSystemGraphicsType.Puid_Steer_Cp1_HeaderModeControlNew;
                 case "Steer.Cp1.ButtDp": return ioSystemGraphicsType.Puid_Steer_Cp1_ButtDp;
                 case "Steer.Cp1.ButtTrack": return ioSystemGraphicsType.Puid_Steer_Cp1_ButtTrack;
                 case "Steer.Cp1.ButtRiver": return ioSystemGraphicsType.Puid_Steer_Cp1_ButtRiver;
@@ -1520,7 +1577,7 @@ namespace ioSystemNetworkNet
                 case "Steer.Cp2.ButtWork": return ioSystemGraphicsType.Puid_Steer_Cp2_ButtWork;
                 case "Steer.Cp2.ButtCourse": return ioSystemGraphicsType.Puid_Steer_Cp2_ButtCourse;
                 case "Steer.Cp2.ButtStandby": return ioSystemGraphicsType.Puid_Steer_Cp2_ButtStandby;
-                case "Steer.Cp1.LabelHeader": return ioSystemGraphicsType.Puid_Steer_Cp1_LabelHeader;
+                case "Steer.Cp1.LabelHeaderNew": return ioSystemGraphicsType.Puid_Steer_Cp1_LabelHeaderNew;
                 case "Steer.Cp1.ButtonLeftSmall": return ioSystemGraphicsType.Puid_Steer_Cp1_ButtonLeftSmall;
                 case "Steer.Cp1.ButtMidZero": return ioSystemGraphicsType.Puid_Steer_Cp1_ButtMidZero;
                 case "Steer.Cp1.ButtRightSmall": return ioSystemGraphicsType.Puid_Steer_Cp1_ButtRightSmall;

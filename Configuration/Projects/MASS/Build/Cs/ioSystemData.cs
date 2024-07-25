@@ -264,40 +264,56 @@ namespace ioSystemNetworkNet
         Duid_Steer_Ap1_EngineRpmMeas = 257,
         Duid_Steer_Ap1_EngineRpmRef = 258,
         Duid_Steer_Ap1_OnChangeEngine = 259,
-        Duid_Steer_Cp1_TakeCommand = 260,
-        Duid_Steer_Cp1_ModeDp = 261,
-        Duid_Steer_Cp1_ModeRiver = 262,
-        Duid_Steer_Cp1_ModeTrack = 263,
-        Duid_Steer_Cp1_ModeWork = 264,
-        Duid_Steer_Cp1_ModeAuto = 265,
-        Duid_Steer_Cp1_ModeStandby = 266,
-        Duid_Steer_Cp1_SteerMode = 267,
-        Duid_Steer_Cp1_Release = 268,
-        Duid_Steer_Cp1_OnChangeCommand = 269,
-        Duid_Steer_Cp1_OnChangeSteerMode = 270,
-        Duid_Steer_Cp1_LeftSmall = 271,
-        Duid_Steer_Cp1_MidZero = 272,
-        Duid_Steer_Cp1_RightSmall = 273,
-        Duid_Steer_Cp1_LeftBig = 274,
-        Duid_Steer_Cp1_RightBig = 275,
-        Duid_Steer_Cp1_EncoderNumber = 276,
-        Duid_Steer_Cp2_TakeCommand = 277,
-        Duid_Steer_Cp2_ModeDp = 278,
-        Duid_Steer_Cp2_ModeRiver = 279,
-        Duid_Steer_Cp2_ModeTrack = 280,
-        Duid_Steer_Cp2_ModeWork = 281,
-        Duid_Steer_Cp2_ModeAuto = 282,
-        Duid_Steer_Cp2_ModeStandby = 283,
-        Duid_Steer_Cp2_SteerMode = 284,
-        Duid_Steer_Cp2_Release = 285,
-        Duid_Steer_Cp2_OnChangeCommand = 286,
-        Duid_Steer_Cp2_OnChangeSteerMode = 287,
-        Duid_Steer_Cp2_LeftSmall = 288,
-        Duid_Steer_Cp2_MidZero = 289,
-        Duid_Steer_Cp2_RightSmall = 290,
-        Duid_Steer_Cp2_LeftBig = 291,
-        Duid_Steer_Cp2_RightBig = 292,
-        Duid_Steer_Cp2_EncoderNumber = 293,
+        Duid_Steer_Ap2_RudderAngleMeas = 260,
+        Duid_Steer_Ap2_FrontThrustMeas = 261,
+        Duid_Steer_Ap2_RateOfTurnMeas = 262,
+        Duid_Steer_Ap2_HeadingMeas = 263,
+        Duid_Steer_Ap2_FrontThrustRef = 264,
+        Duid_Steer_Ap2_OnChangeRef = 265,
+        Duid_Steer_Ap2_HeadingRef = 266,
+        Duid_Steer_Ap2_RateOfTurnRef = 267,
+        Duid_Steer_Ap2_RudderAngleRef = 268,
+        Duid_Steer_Ap2_OnRequestSteerData = 269,
+        Duid_Steer_Ap2_OnChangeCompass = 270,
+        Duid_Steer_Ap2_OnChangeRudder = 271,
+        Duid_Steer_Ap2_OnChangeThrust = 272,
+        Duid_Steer_Ap2_EngineRpmMeas = 273,
+        Duid_Steer_Ap2_EngineRpmRef = 274,
+        Duid_Steer_Ap2_OnChangeEngine = 275,
+        Duid_Steer_Cp1_TakeCommand = 276,
+        Duid_Steer_Cp1_ModeDp = 277,
+        Duid_Steer_Cp1_ModeRiver = 278,
+        Duid_Steer_Cp1_ModeTrack = 279,
+        Duid_Steer_Cp1_ModeWork = 280,
+        Duid_Steer_Cp1_ModeAuto = 281,
+        Duid_Steer_Cp1_ModeStandby = 282,
+        Duid_Steer_Cp1_SteerMode = 283,
+        Duid_Steer_Cp1_Release = 284,
+        Duid_Steer_Cp1_OnChangeCommand = 285,
+        Duid_Steer_Cp1_OnChangeSteerMode = 286,
+        Duid_Steer_Cp1_LeftSmall = 287,
+        Duid_Steer_Cp1_MidZero = 288,
+        Duid_Steer_Cp1_RightSmall = 289,
+        Duid_Steer_Cp1_LeftBig = 290,
+        Duid_Steer_Cp1_RightBig = 291,
+        Duid_Steer_Cp1_EncoderNumber = 292,
+        Duid_Steer_Cp2_TakeCommand = 293,
+        Duid_Steer_Cp2_ModeDp = 294,
+        Duid_Steer_Cp2_ModeRiver = 295,
+        Duid_Steer_Cp2_ModeTrack = 296,
+        Duid_Steer_Cp2_ModeWork = 297,
+        Duid_Steer_Cp2_ModeAuto = 298,
+        Duid_Steer_Cp2_ModeStandby = 299,
+        Duid_Steer_Cp2_SteerMode = 300,
+        Duid_Steer_Cp2_Release = 301,
+        Duid_Steer_Cp2_OnChangeCommand = 302,
+        Duid_Steer_Cp2_OnChangeSteerMode = 303,
+        Duid_Steer_Cp2_LeftSmall = 304,
+        Duid_Steer_Cp2_MidZero = 305,
+        Duid_Steer_Cp2_RightSmall = 306,
+        Duid_Steer_Cp2_LeftBig = 307,
+        Duid_Steer_Cp2_RightBig = 308,
+        Duid_Steer_Cp2_EncoderNumber = 309,
     } // enum
     public class ioSystemData
     {
@@ -565,6 +581,22 @@ namespace ioSystemNetworkNet
                 case ioSystemDataType.Duid_Steer_Ap1_EngineRpmMeas: return "Steer.Ap1.EngineRpmMeas";
                 case ioSystemDataType.Duid_Steer_Ap1_EngineRpmRef: return "Steer.Ap1.EngineRpmRef";
                 case ioSystemDataType.Duid_Steer_Ap1_OnChangeEngine: return "Steer.Ap1.OnChangeEngine";
+                case ioSystemDataType.Duid_Steer_Ap2_RudderAngleMeas: return "Steer.Ap2.RudderAngleMeas";
+                case ioSystemDataType.Duid_Steer_Ap2_FrontThrustMeas: return "Steer.Ap2.FrontThrustMeas";
+                case ioSystemDataType.Duid_Steer_Ap2_RateOfTurnMeas: return "Steer.Ap2.RateOfTurnMeas";
+                case ioSystemDataType.Duid_Steer_Ap2_HeadingMeas: return "Steer.Ap2.HeadingMeas";
+                case ioSystemDataType.Duid_Steer_Ap2_FrontThrustRef: return "Steer.Ap2.FrontThrustRef";
+                case ioSystemDataType.Duid_Steer_Ap2_OnChangeRef: return "Steer.Ap2.OnChangeRef";
+                case ioSystemDataType.Duid_Steer_Ap2_HeadingRef: return "Steer.Ap2.HeadingRef";
+                case ioSystemDataType.Duid_Steer_Ap2_RateOfTurnRef: return "Steer.Ap2.RateOfTurnRef";
+                case ioSystemDataType.Duid_Steer_Ap2_RudderAngleRef: return "Steer.Ap2.RudderAngleRef";
+                case ioSystemDataType.Duid_Steer_Ap2_OnRequestSteerData: return "Steer.Ap2.OnRequestSteerData";
+                case ioSystemDataType.Duid_Steer_Ap2_OnChangeCompass: return "Steer.Ap2.OnChangeCompass";
+                case ioSystemDataType.Duid_Steer_Ap2_OnChangeRudder: return "Steer.Ap2.OnChangeRudder";
+                case ioSystemDataType.Duid_Steer_Ap2_OnChangeThrust: return "Steer.Ap2.OnChangeThrust";
+                case ioSystemDataType.Duid_Steer_Ap2_EngineRpmMeas: return "Steer.Ap2.EngineRpmMeas";
+                case ioSystemDataType.Duid_Steer_Ap2_EngineRpmRef: return "Steer.Ap2.EngineRpmRef";
+                case ioSystemDataType.Duid_Steer_Ap2_OnChangeEngine: return "Steer.Ap2.OnChangeEngine";
                 case ioSystemDataType.Duid_Steer_Cp1_TakeCommand: return "Steer.Cp1.TakeCommand";
                 case ioSystemDataType.Duid_Steer_Cp1_ModeDp: return "Steer.Cp1.ModeDp";
                 case ioSystemDataType.Duid_Steer_Cp1_ModeRiver: return "Steer.Cp1.ModeRiver";
@@ -866,6 +898,22 @@ namespace ioSystemNetworkNet
                 case "Steer.Ap1.EngineRpmMeas": return ioSystemDataType.Duid_Steer_Ap1_EngineRpmMeas;
                 case "Steer.Ap1.EngineRpmRef": return ioSystemDataType.Duid_Steer_Ap1_EngineRpmRef;
                 case "Steer.Ap1.OnChangeEngine": return ioSystemDataType.Duid_Steer_Ap1_OnChangeEngine;
+                case "Steer.Ap2.RudderAngleMeas": return ioSystemDataType.Duid_Steer_Ap2_RudderAngleMeas;
+                case "Steer.Ap2.FrontThrustMeas": return ioSystemDataType.Duid_Steer_Ap2_FrontThrustMeas;
+                case "Steer.Ap2.RateOfTurnMeas": return ioSystemDataType.Duid_Steer_Ap2_RateOfTurnMeas;
+                case "Steer.Ap2.HeadingMeas": return ioSystemDataType.Duid_Steer_Ap2_HeadingMeas;
+                case "Steer.Ap2.FrontThrustRef": return ioSystemDataType.Duid_Steer_Ap2_FrontThrustRef;
+                case "Steer.Ap2.OnChangeRef": return ioSystemDataType.Duid_Steer_Ap2_OnChangeRef;
+                case "Steer.Ap2.HeadingRef": return ioSystemDataType.Duid_Steer_Ap2_HeadingRef;
+                case "Steer.Ap2.RateOfTurnRef": return ioSystemDataType.Duid_Steer_Ap2_RateOfTurnRef;
+                case "Steer.Ap2.RudderAngleRef": return ioSystemDataType.Duid_Steer_Ap2_RudderAngleRef;
+                case "Steer.Ap2.OnRequestSteerData": return ioSystemDataType.Duid_Steer_Ap2_OnRequestSteerData;
+                case "Steer.Ap2.OnChangeCompass": return ioSystemDataType.Duid_Steer_Ap2_OnChangeCompass;
+                case "Steer.Ap2.OnChangeRudder": return ioSystemDataType.Duid_Steer_Ap2_OnChangeRudder;
+                case "Steer.Ap2.OnChangeThrust": return ioSystemDataType.Duid_Steer_Ap2_OnChangeThrust;
+                case "Steer.Ap2.EngineRpmMeas": return ioSystemDataType.Duid_Steer_Ap2_EngineRpmMeas;
+                case "Steer.Ap2.EngineRpmRef": return ioSystemDataType.Duid_Steer_Ap2_EngineRpmRef;
+                case "Steer.Ap2.OnChangeEngine": return ioSystemDataType.Duid_Steer_Ap2_OnChangeEngine;
                 case "Steer.Cp1.TakeCommand": return ioSystemDataType.Duid_Steer_Cp1_TakeCommand;
                 case "Steer.Cp1.ModeDp": return ioSystemDataType.Duid_Steer_Cp1_ModeDp;
                 case "Steer.Cp1.ModeRiver": return ioSystemDataType.Duid_Steer_Cp1_ModeRiver;

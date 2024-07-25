@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProgramClass Name="SteerProgOperate2">
+    <Description>Program to operate the steering of MASS motion from CP2</Description>
+    <DataItemsCollection>
+        <DataListProgram Name="Steer::Cp::SteerCpData" NameObject="Data">
+            <Item NameClass="SteerCpDataCp2" NameObject="DataCp2" />
+        </DataListProgram>
+        <DataListProgram Name="Steer::Ap::SteerApData" NameObject="Data">
+            <Item NameClass="SteerApDataAp2" NameObject="DataAp2" />
+        </DataListProgram>
+    </DataItemsCollection>
+    <PanelsCollection>
+        <PanelInProgram Name="Steer::Ap::SteerApPanel" NameObject="Autopilot">
+            <Item NameClass="SteerApPanelAp2" NameObject="AutopilotAp2" />
+        </PanelInProgram>
+        <PanelInProgram Name="Steer::Cp::CommandPanel" NameObject="Command">
+            <Item NameClass="CommandPanelCp2" NameObject="CommandCp2" />
+        </PanelInProgram>
+        <PanelInProgram Name="Steer::Cp::ModePanel" NameObject="Mode">
+            <Item NameClass="ModePanelCp2" NameObject="ModeCp2" />
+        </PanelInProgram>
+        <PanelInProgram Name="Steer::Cp::SetRefPanel" NameObject="Reference">
+            <Item NameClass="SetRefPanelCp2" NameObject="ReferenceCp2" />
+        </PanelInProgram>
+    </PanelsCollection>
+    <PortsCollection>
+        <PortProgram Name="ioModbus::ioPortProgramModbus" NameObject="PortModbus">
+            <Item NameClass="ioPortProgramModbus" NameObject="PortModbus" />
+        </PortProgram>
+        <PortProgram Name="ioSystem::Ports::System::ioPortProgramSystem" NameObject="PortSystem">
+            <Item NameClass="ioPortProgramSystem" NameObject="PortSystem" />
+        </PortProgram>
+    </PortsCollection>
+    <InternalFunctions>
+        <Function Name="OnRequestData">
+            <Inputs>
+                <Argument Name="inputInt32" TypeNum="Float" />
+            </Inputs>
+            <Outputs>
+                <Argument Name="outInt32" TypeNum="Int32" />
+            </Outputs>
+        </Function>
+    </InternalFunctions>
+    <Sequences>
+        <Run>
+            <RxTxData NameClass="SteerApDataAp2" GlobalID="Steer.Ap2.OnRequestSteerData" />
+            <Function TypeFunction="Internal">
+                <Call Name="OnRequestData">
+                    <Input Name="inputInt32" NameClass="SteerApDataAp2" GlobalID="Steer.Ap2.FrontThrustMeas" TypeData="Data" />
+                    <Output Name="outInt32" NameClass="SteerCpDataCp2" GlobalID="Steer.Cp2.SteerMode" TypeData="Data" />
+                </Call>
+            </Function>
+        </Run>
+        <GraphicsEvent NameClass="CommandPanelCp2" GlobalID="Steer.Cp2.ButtTakeRequest.Clicked">
+            <RxTxData NameClass="SteerCpDataCp2" GlobalID="Steer.Cp2.TakeCommand" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="CommandPanelCp2" GlobalID="Steer.Cp2.ButtRelease.Clicked">
+            <RxTxData NameClass="SteerCpDataCp2" GlobalID="Steer.Cp2.Release" />
+        </GraphicsEvent>
+        <RxTxData NameClass="SteerCpDataCp2" GlobalID="Steer.Cp2.OnChangeCommand">
+            <GraphicsData NameClass="CommandPanelCp2" GlobalID="Steer.Cp2.TextCommandStatus">
+                <DataAssigned NameClass="SteerCpDataCp2" GlobalID="Steer.Cp2.SteerMode" />
+            </GraphicsData>
+        </RxTxData>
+        <RxTxData NameClass="SteerCpDataCp2" GlobalID="Steer.Cp2.OnChangeSteerMode">
+            <GraphicsData NameClass="CommandPanelCp2" GlobalID="Steer.Cp2.LabelCommandStatus">
+                <DataAssigned NameClass="SteerCpDataCp2" GlobalID="Steer.Cp2.SteerMode" />
+            </GraphicsData>
+        </RxTxData>
+        <RxTxData NameClass="SteerApDataAp2" GlobalID="Steer.Ap2.OnChangeRef">
+            <GraphicsData NameClass="SteerApPanelAp2" GlobalID="Steer.Ap2.GridAutopilot.InstrHeadingRef">
+                <DataAssigned NameClass="SteerApDataAp2" GlobalID="Steer.Ap2.HeadingRef" />
+            </GraphicsData>
+        </RxTxData>
+        <RxTxData NameClass="SteerApDataAp2" GlobalID="Steer.Ap2.OnChangeCompass">
+            <RxTxData NameClass="SteerCpDataCp2" GlobalID="Steer.Cp2.ModeWork" />
+        </RxTxData>
+        <RxTxData NameClass="SteerApDataAp2" GlobalID="Steer.Ap2.OnChangeRudder" />
+        <RxTxData NameClass="SteerApDataAp2" GlobalID="Steer.Ap2.OnChangeThrust" />
+        <RxTxData NameClass="SteerApDataAp2" GlobalID="Steer.Ap2.OnChangeEngine" />
+        <GraphicsEvent NameClass="ModePanelCp2" GlobalID="Steer.Cp2.ButtStandby.Clicked" />
+        <GraphicsEvent NameClass="ModePanelCp2" GlobalID="Steer.Cp2.ButtCourse.Clicked" />
+        <GraphicsEvent NameClass="ModePanelCp2" GlobalID="Steer.Cp2.ButtWork.Clicked" />
+    </Sequences>
+</ProgramClass>

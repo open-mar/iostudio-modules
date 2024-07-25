@@ -12,10 +12,10 @@ Int32 ioSystemData::GetDataID(ioSystemDataType duid)
 {
     return (Int32)duid;
 }
-ioSystemDataType ioSystemData::GetDataType(Int32 dataID)
+ioSystemDataType ioSystemData::GetDataType(Int32 duidValue)
 {
-    if ((dataID > 0) && (dataID < 295))
-        return (ioSystemDataType)dataID;
+    if ((duidValue >= 0) && (duidValue < 311))
+        return (ioSystemDataType)duidValue;
     else
         return Duid_NotDefined;
 }

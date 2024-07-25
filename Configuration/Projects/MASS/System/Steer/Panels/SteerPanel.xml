@@ -17,7 +17,7 @@
             <ioPanelGrid LocalID="GridSetRefCp2" VerticalAlignment="Top" Height="160" Margin="4,0,0,0" PanelGlobalID="Steer.Cp2.SetRefPanel" />
         </Grid>
         <Grid Row="1" Column="3">
-            <ioPanelGrid LocalID="GridAp1Panel" PanelGlobalID="Steer.Ap1.SteerAp1Panel" />
+            <ioPanelGrid LocalID="GridAp1Panel" PanelGlobalID="Steer.Ap1.SteerApPanel" />
         </Grid>
     </PanelObject>
 </PanelClass>

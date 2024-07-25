@@ -15,32 +15,34 @@ void SteerProgControl::Run(Int32 activeSlot)
 }
 void SteerProgControl::ReceiveData(ioDataCollection* listData, ioData* data)
 {
-    ioVarFloat in1_Float;
-    ioVarInt32 out1_Int32;
+    ioVarInt32 in1_Int32;
+    ioVarInt32 in2_Int32;
     if (listData == NULL) {}
     if (data == NULL) {}
-    else if (data == &DataAp.OnRequestSteerData)
+    else if (data == &DataAp1.OnRequestSteerData)
     {
-        in1_Float.SetValueVar(&DataAp.FrontThrustMeas);
-        OnRequestData(&in1_Float, &out1_Int32);
-        DataAp.RateOfTurnMeas.SetValueVar(&out1_Int32);
+        OnRequestData();
     }
     else if (data == &DataControlCp1.TakeCommand)
     {
-        OnCommandTakeCp1();
+        in1_Int32.SetValueVar(NULL);
+        in2_Int32.SetValueVar(NULL);
+        OnRecvCommand(&in1_Int32, &in2_Int32);
+        SendData(&DataControlCp1.OnChangeCommand);
+        SendData(&DataControlCp2.OnChangeCommand);
     }
     else if (data == &DataControlCp1.Release)
     {
         OnCommandReleaseCp1();
     }
 }
-void SteerProgControl::OnRequestData(ioVarFloat* inputInt32, ioVarInt32* outInt32)
+void SteerProgControl::OnRequestData(void)
 {
-    if (inputInt32 == NULL) {};
-    if (outInt32 == NULL) {};
 }
-void SteerProgControl::OnCommandTakeCp1(void)
+void SteerProgControl::OnRecvCommand(ioVarInt32* typeCommand, ioVarInt32* stationID)
 {
+    if (typeCommand == NULL) {};
+    if (stationID == NULL) {};
 }
 void SteerProgControl::OnCommandReleaseCp1(void)
 {

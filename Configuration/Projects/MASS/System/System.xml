@@ -19,6 +19,9 @@
                     <PortNetDevice ParentGlobalID="Steer" DevID="Op1" PortID="12">
                         <PortNetProgram Protocol="System" PortID="54374"/>
                     </PortNetDevice>
+                    <PortNetDevice ParentGlobalID="Steer" DevID="Op2" PortID="13">
+                        <PortNetProgram Protocol="System" PortID="54374"/>
+                    </PortNetDevice>
                 </PortNetCollection>
             </NetworkData>
         </Network>
@@ -36,6 +39,9 @@
                         <PortNetProgram Protocol="System" PortID="54374"/>
                     </PortNetDevice>
                     <PortNetDevice ParentGlobalID="Steer" DevID="Op1" PortID="12">
+                        <PortNetProgram Protocol="System" PortID="54374"/>
+                    </PortNetDevice>
+                    <PortNetDevice ParentGlobalID="Steer" DevID="Op2" PortID="13">
                         <PortNetProgram Protocol="System" PortID="54374"/>
                     </PortNetDevice>
                 </PortNetCollection>

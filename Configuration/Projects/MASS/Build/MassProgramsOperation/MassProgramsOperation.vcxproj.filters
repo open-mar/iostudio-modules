@@ -24,11 +24,11 @@
     <Filter Include="Programs\Steer">
       <UniqueIdentifier>{769990a7-c882-46ec-b643-1722ff9ad8b6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Programs\Steer\Control">
-      <UniqueIdentifier>{9c3e3f3f-8914-47a0-9dc0-f39abc0affa6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Programs\Steer\Ap1">
+    <Filter Include="Programs\Steer\Ap">
       <UniqueIdentifier>{7ce4c445-e2f8-4b98-841d-d9f3f2a97c82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Steer\Cp">
+      <UniqueIdentifier>{9c3e3f3f-8914-47a0-9dc0-f39abc0affa6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -128,56 +128,71 @@
     <ClInclude Include="..\..\Programs\Pow\Out\PowOutPanelOut220M.h">
       <Filter>Programs\Pow\Out</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Programs\Steer\SteerProgOperate.h">
-      <Filter>Programs\Steer</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Programs\Steer\Control\CommandPanel.h">
-      <Filter>Programs\Steer\Control</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Programs\Steer\Control\CommandPanelCp1.h">
-      <Filter>Programs\Steer\Control</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Programs\Steer\Control\CommandPanelCp2.h">
-      <Filter>Programs\Steer\Control</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Programs\Steer\Control\ModePanel.h">
-      <Filter>Programs\Steer\Control</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Programs\Steer\Control\ModePanelCp1.h">
-      <Filter>Programs\Steer\Control</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Programs\Steer\Control\ModePanelCp2.h">
-      <Filter>Programs\Steer\Control</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Programs\Steer\Control\SetRefPanel.h">
-      <Filter>Programs\Steer\Control</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Programs\Steer\Control\SetRefPanelCp1.h">
-      <Filter>Programs\Steer\Control</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Programs\Steer\Control\SetRefPanelCp2.h">
-      <Filter>Programs\Steer\Control</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Programs\Steer\Control\SteerControlData.h">
-      <Filter>Programs\Steer\Control</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Programs\Steer\Control\SteerControlDataCp1.h">
-      <Filter>Programs\Steer\Control</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Programs\Steer\Control\SteerControlDataCp2.h">
-      <Filter>Programs\Steer\Control</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Programs\Steer\Ap1\SteerAp1Data.h">
-      <Filter>Programs\Steer\Ap1</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Programs\Steer\Ap1\SteerAp1Panel.h">
-      <Filter>Programs\Steer\Ap1</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\Programs\Batt\BattPanel.h">
       <Filter>Programs\Batt</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Programs\ioSystemGraphics.h">
       <Filter>Programs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Steer\Ap\SteerApData.h">
+      <Filter>Programs\Steer\Ap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Steer\Ap\SteerApDataAp1.h">
+      <Filter>Programs\Steer\Ap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Steer\Ap\SteerApDataAp2.h">
+      <Filter>Programs\Steer\Ap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Steer\Ap\SteerApPanel.h">
+      <Filter>Programs\Steer\Ap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Steer\Ap\SteerApPanelAp1.h">
+      <Filter>Programs\Steer\Ap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Steer\Ap\SteerApPanelAp2.h">
+      <Filter>Programs\Steer\Ap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Steer\Cp\CommandPanel.h">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Steer\Cp\CommandPanelCp1.h">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Steer\Cp\CommandPanelCp2.h">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Steer\Cp\ModePanel.h">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Steer\Cp\ModePanelCp1.h">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Steer\Cp\ModePanelCp2.h">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Steer\Cp\SetRefPanel.h">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Steer\Cp\SetRefPanelCp1.h">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Steer\Cp\SetRefPanelCp2.h">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Steer\Cp\SteerCpData.h">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Steer\Cp\SteerCpDataCp1.h">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Steer\Cp\SteerCpDataCp2.h">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Steer\SteerProgOperate1.h">
+      <Filter>Programs\Steer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Steer\SteerProgOperate2.h">
+      <Filter>Programs\Steer</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -277,56 +292,71 @@
     <ClCompile Include="..\..\Programs\Pow\Out\PowOutPanelOut220M.cpp">
       <Filter>Programs\Pow\Out</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Programs\Steer\SteerProgOperate.cpp">
-      <Filter>Programs\Steer</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Programs\Steer\Control\CommandPanel.cpp">
-      <Filter>Programs\Steer\Control</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Programs\Steer\Control\CommandPanelCp1.cpp">
-      <Filter>Programs\Steer\Control</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Programs\Steer\Control\CommandPanelCp2.cpp">
-      <Filter>Programs\Steer\Control</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Programs\Steer\Control\ModePanel.cpp">
-      <Filter>Programs\Steer\Control</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Programs\Steer\Control\ModePanelCp1.cpp">
-      <Filter>Programs\Steer\Control</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Programs\Steer\Control\ModePanelCp2.cpp">
-      <Filter>Programs\Steer\Control</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Programs\Steer\Control\SetRefPanel.cpp">
-      <Filter>Programs\Steer\Control</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Programs\Steer\Control\SetRefPanelCp1.cpp">
-      <Filter>Programs\Steer\Control</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Programs\Steer\Control\SetRefPanelCp2.cpp">
-      <Filter>Programs\Steer\Control</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Programs\Steer\Control\SteerControlData.cpp">
-      <Filter>Programs\Steer\Control</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Programs\Steer\Control\SteerControlDataCp1.cpp">
-      <Filter>Programs\Steer\Control</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Programs\Steer\Control\SteerControlDataCp2.cpp">
-      <Filter>Programs\Steer\Control</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Programs\Steer\Ap1\SteerAp1Data.cpp">
-      <Filter>Programs\Steer\Ap1</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Programs\Steer\Ap1\SteerAp1Panel.cpp">
-      <Filter>Programs\Steer\Ap1</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Programs\Batt\BattPanel.cpp">
       <Filter>Programs\Batt</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Programs\ioSystemGraphics.cpp">
       <Filter>Programs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Steer\Ap\SteerApData.cpp">
+      <Filter>Programs\Steer\Ap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Steer\Ap\SteerApDataAp1.cpp">
+      <Filter>Programs\Steer\Ap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Steer\Ap\SteerApDataAp2.cpp">
+      <Filter>Programs\Steer\Ap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Steer\Ap\SteerApPanel.cpp">
+      <Filter>Programs\Steer\Ap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Steer\Ap\SteerApPanelAp1.cpp">
+      <Filter>Programs\Steer\Ap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Steer\Ap\SteerApPanelAp2.cpp">
+      <Filter>Programs\Steer\Ap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Steer\Cp\CommandPanel.cpp">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Steer\Cp\CommandPanelCp1.cpp">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Steer\Cp\CommandPanelCp2.cpp">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Steer\Cp\ModePanel.cpp">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Steer\Cp\ModePanelCp1.cpp">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Steer\Cp\ModePanelCp2.cpp">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Steer\Cp\SetRefPanel.cpp">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Steer\Cp\SetRefPanelCp1.cpp">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Steer\Cp\SetRefPanelCp2.cpp">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Steer\Cp\SteerCpData.cpp">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Steer\Cp\SteerCpDataCp1.cpp">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Steer\Cp\SteerCpDataCp2.cpp">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Steer\SteerProgOperate1.cpp">
+      <Filter>Programs\Steer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Steer\SteerProgOperate2.cpp">
+      <Filter>Programs\Steer</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

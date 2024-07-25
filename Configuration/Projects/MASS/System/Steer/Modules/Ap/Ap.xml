@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModuleClass Name="Ap">
+    <Description>Autopilot</Description>
+    <ModuleObject GlobalID="Steer.Ap1" />
+    <ModuleObject GlobalID="Steer.Ap2" />
+</ModuleClass>

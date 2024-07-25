@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ModuleClass Name="Ap1">
-    <Description>Autopilot</Description>
-    <ModuleObject GlobalID="Steer.Ap1" />
-</ModuleClass>

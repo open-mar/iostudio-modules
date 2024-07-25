@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ModuleClass Name="Mot1">
-    <Description>Engine stepper motors control</Description>
-    <ModuleObject GlobalID="Steer.Mot1" />
-</ModuleClass>

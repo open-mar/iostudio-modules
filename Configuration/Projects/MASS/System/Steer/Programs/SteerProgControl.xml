@@ -2,12 +2,13 @@
 <ProgramClass Name="SteerProgControl">
     <Description>Program for steering the MASS motion</Description>
     <DataItemsCollection>
-        <DataListProgram Name="Steer::Ap1::SteerAp1Data" NameObject="DataAp">
-            <Item NameClass="SteerAp1Data" NameObject="DataAp" />
+        <DataListProgram Name="Steer::Ap::SteerApData" NameObject="Data">
+            <Item NameClass="SteerApDataAp1" NameObject="DataAp1" />
+            <Item NameClass="SteerApDataAp2" NameObject="DataAp2" />
         </DataListProgram>
-        <DataListProgram Name="Steer::Control::SteerControlData" NameObject="DataControl">
-            <Item NameClass="SteerControlDataCp1" NameObject="DataControlCp1" />
-            <Item NameClass="SteerControlDataCp2" NameObject="DataControlCp2" />
+        <DataListProgram Name="Steer::Cp::SteerCpData" NameObject="DataControl">
+            <Item NameClass="SteerCpDataCp1" NameObject="DataControlCp1" />
+            <Item NameClass="SteerCpDataCp2" NameObject="DataControlCp2" />
         </DataListProgram>
     </DataItemsCollection>
     <PortsCollection>
@@ -16,39 +17,40 @@
         </PortProgram>
     </PortsCollection>
     <InternalFunctions>
-        <Function Name="OnRequestData">
+        <Function Name="OnRecvCommand">
             <Inputs>
-                <Argument Name="inputInt32" TypeNum="Float" />
+                <Argument Name="typeCommand" TypeNum="Int32" />
+                <Argument Name="stationID" TypeNum="Int32" />
             </Inputs>
-            <Outputs>
-                <Argument Name="outInt32" TypeNum="Int32" />
-            </Outputs>
-        </Function>
-        <Function Name="OnCommandTakeCp1">
-            <Inputs />
             <Outputs />
         </Function>
         <Function Name="OnCommandReleaseCp1">
             <Inputs />
             <Outputs />
         </Function>
+        <Function Name="OnRequestData">
+            <Inputs />
+            <Outputs />
+        </Function>
     </InternalFunctions>
     <Sequences>
         <Run />
-        <RxTxData NameClass="SteerAp1Data" GlobalID="Steer.Ap1.OnRequestSteerData">
+        <RxTxData NameClass="SteerApDataAp1" GlobalID="Steer.Ap1.OnRequestSteerData">
             <Function TypeFunction="Internal">
-                <Call Name="OnRequestData">
-                    <Input Name="inputInt32" NameClass="SteerAp1Data" GlobalID="Steer.Ap1.FrontThrustMeas" TypeData="Data" />
-                    <Output Name="outInt32" NameClass="SteerAp1Data" GlobalID="Steer.Ap1.RateOfTurnMeas" TypeData="Data" />
+                <Call Name="OnRequestData" />
+            </Function>
+        </RxTxData>
+        <RxTxData NameClass="SteerCpDataCp1" GlobalID="Steer.Cp1.TakeCommand">
+            <Function TypeFunction="Internal">
+                <Call Name="OnRecvCommand">
+                    <Input Name="typeCommand" />
+                    <Input Name="stationID" />
                 </Call>
             </Function>
+            <RxTxData NameClass="SteerCpDataCp1" GlobalID="Steer.Cp1.OnChangeCommand" />
+            <RxTxData NameClass="SteerCpDataCp2" GlobalID="Steer.Cp2.OnChangeCommand" />
         </RxTxData>
-        <RxTxData NameClass="SteerControlDataCp1" GlobalID="Steer.Cp1.TakeCommand">
-            <Function TypeFunction="Internal">
-                <Call Name="OnCommandTakeCp1" />
-            </Function>
-        </RxTxData>
-        <RxTxData NameClass="SteerControlDataCp1" GlobalID="Steer.Cp1.Release">
+        <RxTxData NameClass="SteerCpDataCp1" GlobalID="Steer.Cp1.Release">
             <Function TypeFunction="Internal">
                 <Call Name="OnCommandReleaseCp1" />
             </Function>

@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ModuleClass Name="Control">
-    <Description>Control panels for steering</Description>
-    <ModuleObject GlobalID="Steer.Cp1" />
-    <ModuleObject GlobalID="Steer.Cp2" />
-</ModuleClass>
