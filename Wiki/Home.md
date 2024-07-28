@@ -5,7 +5,7 @@ This GitHub repository contains [Configuration](https://github.com/omi-iost/open
 - Maritime Autonomous Suface Ship ([MASS](MASS/HomeMass.md))
 - Unmanned Surface Vehicle ([USV](USV/HomeUsv.md))
 - Autonomous Underwater Vehicle ([AUV](AUV/HomeAuv.md))
-- Remote Control Centre ([RCC](RCC/HomeRcc.md))
+- Remote Operations Centre ([ROC](ROC/HomeRoc.md))
 
 The configuration data can be loaded by the application [ioStudio Basic](https://www.iostudiotech.com/iostudio-basic).
 
