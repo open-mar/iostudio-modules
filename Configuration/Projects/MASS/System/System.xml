@@ -1,50 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <System SysID="Mass">
-    <Properties>
-    </Properties>
     <NetworkCollection>
         <Network NetID="NetEthernet" TypeNetwork="Ethernet">
             <Description>Operational wired network for MASS</Description>
-            <NetworkData SubID="Control">
+            <NetworkData SubID="192.168.10">
                 <Properties>
-                    <Variable LocalID="NetAddr" TypeNum="STRING">192.168.10</Variable>
+                    <Variable LocalID="NetAddr" TypeNum="String">192.168.10</Variable>
                 </Properties>
                 <PortNetCollection>
                     <PortNetDevice ParentGlobalID="Batt" DevID="CerboGx" PortID="10">
-                        <PortNetProgram Protocol="Modbus" PortID="502"/> 
+                        <PortNetProgram PortID="502" Protocol="Modbus" />
                     </PortNetDevice>
                     <PortNetDevice ParentGlobalID="Ids.CcM" DevID="C6015" PortID="11">
-                        <PortNetProgram Protocol="System" PortID="54374"/>
+                        <PortNetProgram PortID="54374" Protocol="System" />
                     </PortNetDevice>
                     <PortNetDevice ParentGlobalID="Steer" DevID="Op1" PortID="12">
-                        <PortNetProgram Protocol="System" PortID="54374"/>
+                        <PortNetProgram PortID="54374" Protocol="System" />
                     </PortNetDevice>
                     <PortNetDevice ParentGlobalID="Steer" DevID="Op2" PortID="13">
-                        <PortNetProgram Protocol="System" PortID="54374"/>
+                        <PortNetProgram PortID="54374" Protocol="System" />
                     </PortNetDevice>
                 </PortNetCollection>
             </NetworkData>
         </Network>
         <Network NetID="NetWiFi" TypeNetwork="Ethernet">
             <Description>Operational wireless network for MASS</Description>
-            <NetworkData SubID="Control">
+            <NetworkData SubID="192.168.11">
                 <Properties>
-                    <Variable LocalID="NetAddr" TypeNum="STRING">192.168.11</Variable>
+                    <Variable LocalID="NetAddr" TypeNum="String">192.168.11</Variable>
                 </Properties>
                 <PortNetCollection>
                     <PortNetDevice ParentGlobalID="Batt" DevID="CerboGx" PortID="10">
-                        <PortNetProgram Protocol="Modbus" PortID="502"/> 
+                        <PortNetProgram PortID="502" Protocol="Modbus" />
                     </PortNetDevice>
                     <PortNetDevice ParentGlobalID="Ids.CcM" DevID="C6015" PortID="11">
-                        <PortNetProgram Protocol="System" PortID="54374"/>
+                        <PortNetProgram PortID="54374" Protocol="System" />
                     </PortNetDevice>
                     <PortNetDevice ParentGlobalID="Steer" DevID="Op1" PortID="12">
-                        <PortNetProgram Protocol="System" PortID="54374"/>
+                        <PortNetProgram PortID="54374" Protocol="System" />
                     </PortNetDevice>
                     <PortNetDevice ParentGlobalID="Steer" DevID="Op2" PortID="13">
-                        <PortNetProgram Protocol="System" PortID="54374"/>
+                        <PortNetProgram PortID="54374" Protocol="System" />
                     </PortNetDevice>
                 </PortNetCollection>
+            </NetworkData>
+        </Network>
+        <Network NetID="NewNet" TypeNetwork="Ethernet">
+            <Description>New network</Description>
+            <NetworkData SubID="192.168.12">
+                <Properties>
+                    <Variable LocalID="NetAddr" TypeNum="String">192.168.12</Variable>
+                </Properties>
+                <PortNetCollection />
             </NetworkData>
         </Network>
     </NetworkCollection>

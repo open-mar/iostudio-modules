@@ -3,7 +3,7 @@
     <DevicePortTypesCollection>
         <DevicePortType Name="Serial" IsBaseOnly="TRUE">
             <Properties>
-                <Variable DataID="ComPort" TypeNum="STRING">COM1</Variable>
+                <Variable LocalID="ComPort" TypeNum="STRING">COM1</Variable>
             </Properties>
             <Children>
                 <DevicePortType Name="Modbus RTU"/>
@@ -15,7 +15,7 @@
         </DevicePortType>
         <DevicePortType Name="Nic">
             <Properties>
-                <Variable DataID="NodeID" TypeNum="DWORD" Min="1" Max="255">1</Variable>
+                <Variable LocalID="NodeID" TypeNum="DWORD" Min="1" Max="255">1</Variable>
             </Properties>
             <Children>
                 <DevicePortType Name="Modbus TCP/IP"/>
@@ -24,13 +24,13 @@
 
         <DevicePortType Name="SystemPort">
             <Properties>
-                <Variable DataID="NodeID" TypeNum="DWORD" Min="1" Max="255">1</Variable>
+                <Variable LocalID="NodeID" TypeNum="DWORD" Min="1" Max="255">1</Variable>
             </Properties>
         </DevicePortType>
 
         <DevicePortType Name="DC" IsBaseOnly="TRUE">
             <Properties>
-                <Variable DataID="MaxCurrent" TypeNum="LREAL" Unit="A" Decimals="1">10</Variable>
+                <Variable LocalID="MaxCurrent" TypeNum="LREAL" Unit="A" Decimals="1">10</Variable>
             </Properties>
             <Children>
                 <DevicePortType Name="24VDC"/>
@@ -44,9 +44,9 @@
     <NetworkTypesCollection>
         <NetworkType Name="SystemNet">
             <Properties>
-                <Variable DataID="SystemID" TypeNum="DWORD" Min="1" Max="99">1</Variable>
-                <Variable DataID="PhysicalNet" TypeNum="DWORD" Min="1" Max="9">1</Variable>
-                <Variable DataID="VlanID" TypeNum="DWORD" Min="1" Max="255">1</Variable>
+                <Variable LocalID="SystemID" TypeNum="DWORD" Min="1" Max="99">1</Variable>
+                <Variable LocalID="PhysicalNet" TypeNum="DWORD" Min="1" Max="9">1</Variable>
+                <Variable LocalID="VlanID" TypeNum="DWORD" Min="1" Max="255">1</Variable>
             </Properties>
             <NetworkPorts>
                 <DevicePort Name="SystemPort"/>
@@ -54,7 +54,7 @@
         </NetworkType>
         <NetworkType Name="Ethernet">
             <Properties>
-                <Variable DataID="NetAddr" TypeNum="STRING">192.168.0</Variable>
+                <Variable LocalID="NetAddr" TypeNum="STRING">192.168.0</Variable>
             </Properties>
             <NetworkPorts>
                 <DevicePort Name="Nic"/>
@@ -65,7 +65,7 @@
     <ProgramPortTypesCollection>
         <ProgramPortType Name="Socket" IsBaseOnly="TRUE" DevicePort="Nic">
             <Properties>
-                <Variable DataID="PortID" TypeNum="DWORD">4370</Variable>
+                <Variable LocalID="PortID" TypeNum="DWORD">4370</Variable>
             </Properties>
             <Children>
                 <ProgramPortType Name="TCP/IP" DevicePort="Nic"/>
@@ -76,7 +76,7 @@
         </ProgramPortType>
         <ProgramPortType Name="WebSocket" DevicePort="Nic">
             <Properties>
-                <Variable DataID="URL" TypeNum="STRING">https://www.iostudiotech.com/</Variable>
+                <Variable LocalID="URL" TypeNum="STRING">https://www.iostudiotech.com/</Variable>
             </Properties>
         </ProgramPortType>
         <ProgramPortType Name="ComPort" DevicePort="Serial"/>
@@ -85,7 +85,7 @@
     <ProtocolsCollection>
         <Protocol Name="OPC UA Server">
             <Properties>
-                <Variable DataID="ServerID" TypeNum="STRING"></Variable>
+                <Variable LocalID="ServerID" TypeNum="STRING"></Variable>
             </Properties>
             <ProtocolPorts>
                 <ProgramPort Name="TCP/IP"/>
@@ -94,7 +94,7 @@
         </Protocol>
         <Protocol Name="OPC UA Client">
             <Properties>
-                <Variable DataID="ServerID" TypeNum="STRING"></Variable>
+                <Variable LocalID="ServerID" TypeNum="STRING"></Variable>
             </Properties>
             <ProtocolPorts>
                 <ProgramPort Name="TCP/IP"/>
