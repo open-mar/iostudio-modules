@@ -14,7 +14,7 @@ Int32 ioSystemPorts::GetNetworkID(ioSystemPortsType nuid)
 }
 ioSystemPortsType ioSystemPorts::GetPortType(Int32 nuidValue)
 {
-    if ((nuidValue >= 0) && (nuidValue < 7))
+    if ((nuidValue >= 0) && (nuidValue < 12))
         return (ioSystemPortsType)nuidValue;
     else
         return Nuid_NotDefined;

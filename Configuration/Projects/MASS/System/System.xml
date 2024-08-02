@@ -45,13 +45,20 @@
                 </PortNetCollection>
             </NetworkData>
         </Network>
-        <Network NetID="NewNet" TypeNetwork="Ethernet">
+        <Network NetID="NetC" TypeNetwork="NMEA2000">
             <Description>New network</Description>
-            <NetworkData SubID="192.168.12">
-                <Properties>
-                    <Variable LocalID="NetAddr" TypeNum="String">192.168.12</Variable>
-                </Properties>
-                <PortNetCollection />
+            <NetworkData SubID="CanHs250">
+                <PortNetCollection>
+                    <PortNetDevice ParentGlobalID="Steer.Ap" DevID="Ngx1" PortID="7">
+                        <PortNetProgram PortID="ComN2k" Protocol="NMEA2000" />
+                    </PortNetDevice>
+                    <PortNetDevice ParentGlobalID="Steer.Ap" DevID="GnssR" PortID="8">
+                        <PortNetProgram PortID="ComN2k" Protocol="NMEA2000" />
+                    </PortNetDevice>
+                    <PortNetDevice ParentGlobalID="Steer.Ap" DevID="Rudd.Rf" PortID="9">
+                        <PortNetProgram PortID="ComN2k" Protocol="NMEA2000" />
+                    </PortNetDevice>
+                </PortNetCollection>
             </NetworkData>
         </Network>
     </NetworkCollection>
