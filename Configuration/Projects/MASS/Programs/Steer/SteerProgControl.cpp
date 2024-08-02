@@ -3,6 +3,7 @@
 #pragma hdrstop
 #include "SteerProgControl.h"
 #include "Programs/ioSystemGraphics.h"
+#include "Programs/ioSystemPorts.h"
 SteerProgControl::SteerProgControl()
 {
 }
@@ -28,8 +29,8 @@ void SteerProgControl::ReceiveData(ioDataCollection* listData, ioData* data)
         in1_Int32.SetValueVar(NULL);
         in2_Int32.SetValueVar(NULL);
         OnRecvCommand(&in1_Int32, &in2_Int32);
-        SendData(&DataControlCp1.OnChangeCommand);
-        SendData(&DataControlCp2.OnChangeCommand);
+        SendData(&DataControlCp1.OnChangeCommand, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Steer_Op1_12);
+        SendData(&DataControlCp2.OnChangeCommand, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Steer_Op2_13);
     }
     else if (data == &DataControlCp1.Release)
     {

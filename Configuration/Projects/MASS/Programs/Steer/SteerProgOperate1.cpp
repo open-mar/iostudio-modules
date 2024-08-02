@@ -3,6 +3,7 @@
 #pragma hdrstop
 #include "SteerProgOperate1.h"
 #include "Programs/ioSystemGraphics.h"
+#include "Programs/ioSystemPorts.h"
 SteerProgOperate1::SteerProgOperate1()
 {
 }
@@ -14,7 +15,7 @@ void SteerProgOperate1::Run(Int32 activeSlot)
     ioVarFloat in1_Float;
     ioVarInt32 out1_Int32;
     if (activeSlot == 0) {}
-    SendData(&DataAp1.OnRequestSteerData);
+    SendData(&DataAp1.OnRequestSteerData, ioPortProgramProtocol_System, (Int32)Nuid_NotDefined);
     in1_Float.SetValueVar(&DataAp1.FrontThrustMeas);
     OnRequestData(&in1_Float, &out1_Int32);
     DataCp1.SteerMode.SetValueVar(&out1_Int32);
@@ -28,11 +29,11 @@ void SteerProgOperate1::ReceiveGraphicsEvent(Int32 puidValue, ioProgramGraphicsE
     {
     case Puid_Steer_Cp1_ButtTakeRequest:
         if (typeEvent == ioProgramGraphicsEvent_Clicked)
-            SendData(&DataCp1.TakeCommand);
+            SendData(&DataCp1.TakeCommand, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
         break;
     case Puid_Steer_Cp1_ButtRelease:
         if (typeEvent == ioProgramGraphicsEvent_Clicked)
-            SendData(&DataCp1.Release);
+            SendData(&DataCp1.Release, ioPortProgramProtocol_System, (Int32)Nuid_NotDefined);
         break;
     case Puid_Steer_Cp1_ButtStandby:
         break;
@@ -60,7 +61,7 @@ void SteerProgOperate1::ReceiveData(ioDataCollection* listData, ioData* data)
     }
     else if (data == &DataAp1.OnChangeCompass)
     {
-        SendData(&DataCp1.ModeWork);
+        SendData(&DataCp1.ModeWork, ioPortProgramProtocol_System, (Int32)Nuid_NotDefined);
     }
     else if (data == &DataAp1.OnChangeRudder)
     {
