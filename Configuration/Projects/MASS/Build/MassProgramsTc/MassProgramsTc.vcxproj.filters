@@ -28,6 +28,9 @@
     <Filter Include="Programs\Steer\Cp">
       <UniqueIdentifier>{b1498695-3b92-40df-b397-f76e6e3f4b25}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Programs\Ids">
+      <UniqueIdentifier>{adf01b8b-fe41-4867-a82e-8c1b3b626d60}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TcPch.h">
@@ -93,22 +96,25 @@
     <ClInclude Include="..\..\Programs\Steer\SteerProgControl.h">
       <Filter>Programs\Steer</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Programs\Ids\IdsProgControl.h">
+      <Filter>Programs\Ids</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Programs\Steer\Ap\SteerApData.h">
       <Filter>Programs\Steer\Ap</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Programs\Steer\Ap\SteerApDataAp1.h">
+    <ClInclude Include="..\..\Programs\Steer\Ap\SteerApDataApA.h">
       <Filter>Programs\Steer\Ap</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Programs\Steer\Ap\SteerApDataAp2.h">
+    <ClInclude Include="..\..\Programs\Steer\Ap\SteerApDataApM.h">
       <Filter>Programs\Steer\Ap</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Programs\Steer\Cp\SteerCpData.h">
       <Filter>Programs\Steer\Cp</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Programs\Steer\Cp\SteerCpDataCp1.h">
+    <ClInclude Include="..\..\Programs\Steer\Cp\SteerCpDataCpA.h">
       <Filter>Programs\Steer\Cp</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Programs\Steer\Cp\SteerCpDataCp2.h">
+    <ClInclude Include="..\..\Programs\Steer\Cp\SteerCpDataCpM.h">
       <Filter>Programs\Steer\Cp</Filter>
     </ClInclude>
   </ItemGroup>
@@ -170,22 +176,25 @@
     <ClCompile Include="..\..\Programs\Steer\SteerProgControl.cpp">
       <Filter>Programs\Steer</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Programs\Ids\IdsProgControl.cpp">
+      <Filter>Programs\Ids</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Programs\Steer\Ap\SteerApData.cpp">
       <Filter>Programs\Steer\Ap</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Programs\Steer\Ap\SteerApDataAp1.cpp">
+    <ClCompile Include="..\..\Programs\Steer\Ap\SteerApDataApA.cpp">
       <Filter>Programs\Steer\Ap</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Programs\Steer\Ap\SteerApDataAp2.cpp">
+    <ClCompile Include="..\..\Programs\Steer\Ap\SteerApDataApM.cpp">
       <Filter>Programs\Steer\Ap</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Programs\Steer\Cp\SteerCpData.cpp">
       <Filter>Programs\Steer\Cp</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Programs\Steer\Cp\SteerCpDataCp1.cpp">
+    <ClCompile Include="..\..\Programs\Steer\Cp\SteerCpDataCpA.cpp">
       <Filter>Programs\Steer\Cp</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Programs\Steer\Cp\SteerCpDataCp2.cpp">
+    <ClCompile Include="..\..\Programs\Steer\Cp\SteerCpDataCpM.cpp">
       <Filter>Programs\Steer\Cp</Filter>
     </ClCompile>
   </ItemGroup>

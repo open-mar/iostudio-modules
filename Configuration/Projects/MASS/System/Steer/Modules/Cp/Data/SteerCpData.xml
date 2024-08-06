@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DataList Name="SteerCpData">
     <Description>Data for motion steering control</Description>
-    <DataListObject ParentGlobalID="Steer.Cp1">
+    <DataListObject ParentGlobalID="Steer.CpM">
         <Method LocalID="TakeCommand" />
         <Method LocalID="ModeDp" />
         <Method LocalID="ModeRiver" />
@@ -22,7 +22,7 @@
         <Method LocalID="RightBig" />
         <Method LocalID="EncoderNumber" />
     </DataListObject>
-    <DataListObject ParentGlobalID="Steer.Cp2">
+    <DataListObject ParentGlobalID="Steer.CpA">
         <Method LocalID="TakeCommand" />
         <Method LocalID="ModeDp" />
         <Method LocalID="ModeRiver" />

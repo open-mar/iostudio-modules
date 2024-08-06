@@ -1,59 +1,50 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ProgramClass Name="SteerProgControl">
-    <Description>Program for steering the MASS motion</Description>
+    <Description>Control of steering system for MASS</Description>
     <DataItemsCollection>
         <DataListProgram Name="Steer::Ap::SteerApData" NameObject="Data">
-            <Item NameClass="SteerApDataAp1" NameObject="DataAp1" />
-            <Item NameClass="SteerApDataAp2" NameObject="DataAp2" />
+            <Item NameClass="SteerApDataApM" NameObject="DataApM" />
+            <Item NameClass="SteerApDataApA" NameObject="DataApA" />
         </DataListProgram>
         <DataListProgram Name="Steer::Cp::SteerCpData" NameObject="DataControl">
-            <Item NameClass="SteerCpDataCp1" NameObject="DataControlCp1" />
-            <Item NameClass="SteerCpDataCp2" NameObject="DataControlCp2" />
+            <Item NameClass="SteerCpDataCpM" NameObject="DataControlCpM" />
+            <Item NameClass="SteerCpDataCpA" NameObject="DataControlCpA" />
         </DataListProgram>
     </DataItemsCollection>
-    <PortsCollection>
-        <PortProgram Name="ioSystem::Ports::System::ioPortProgramSystem" NameObject="PortSystem">
-            <Item NameClass="ioPortProgramSystem" NameObject="PortSystem" />
-        </PortProgram>
-    </PortsCollection>
     <InternalFunctions>
-        <Function Name="OnRecvCommand">
-            <Inputs>
-                <Argument Name="typeCommand" TypeNum="Int32" />
-                <Argument Name="stationID" TypeNum="Int32" />
-            </Inputs>
-            <Outputs />
-        </Function>
-        <Function Name="OnCommandReleaseCp1">
+        <Function Name="OnRecvTakeCommandCpM">
             <Inputs />
             <Outputs />
         </Function>
-        <Function Name="OnRequestData">
+        <Function Name="OnRecvReleaseCpM">
+            <Inputs />
+            <Outputs />
+        </Function>
+        <Function Name="OnRecvRequestSteerDataApM">
             <Inputs />
             <Outputs />
         </Function>
     </InternalFunctions>
     <Sequences>
         <Run />
-        <RxTxData NameClass="SteerApDataAp1" GlobalID="Steer.Ap1.OnRequestSteerData">
+        <RxTxData NameClass="SteerApDataApM" GlobalID="Steer.ApM.OnRequestSteerData">
             <Function TypeFunction="Internal">
-                <Call Name="OnRequestData" />
+                <Call Name="OnRecvRequestSteerDataApM" />
             </Function>
         </RxTxData>
-        <RxTxData NameClass="SteerCpDataCp1" GlobalID="Steer.Cp1.TakeCommand">
+        <RxTxData NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.TakeCommand">
             <Function TypeFunction="Internal">
-                <Call Name="OnRecvCommand">
-                    <Input Name="typeCommand" />
-                    <Input Name="stationID" />
-                </Call>
+                <Call Name="OnRecvTakeCommandCpM" />
             </Function>
-            <RxTxData NameClass="SteerCpDataCp1" GlobalID="Steer.Cp1.OnChangeCommand" />
-            <RxTxData NameClass="SteerCpDataCp2" GlobalID="Steer.Cp2.OnChangeCommand" />
+            <RxTxData NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.OnChangeCommand" PortGlobalID="NetEthernet.192.168.10.Ids.OpM.12" />
+            <RxTxData NameClass="SteerCpDataCpA" GlobalID="Steer.CpA.OnChangeCommand" PortGlobalID="NetEthernet.192.168.10.Ids.OpA.13" />
         </RxTxData>
-        <RxTxData NameClass="SteerCpDataCp1" GlobalID="Steer.Cp1.Release">
+        <RxTxData NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.Release">
             <Function TypeFunction="Internal">
-                <Call Name="OnCommandReleaseCp1" />
+                <Call Name="OnRecvReleaseCpM" />
             </Function>
+            <RxTxData NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.OnChangeCommand" PortGlobalID="NetEthernet.192.168.10.Ids.OpM.12" />
+            <RxTxData NameClass="SteerCpDataCpA" GlobalID="Steer.CpA.OnChangeCommand" PortGlobalID="NetEthernet.192.168.10.Ids.OpA.13" />
         </RxTxData>
     </Sequences>
 </ProgramClass>

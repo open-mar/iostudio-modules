@@ -14,10 +14,10 @@
                     <PortNetDevice ParentGlobalID="Ids.CcM" DevID="C6015" PortID="11">
                         <PortNetProgram PortID="54374" Protocol="System" />
                     </PortNetDevice>
-                    <PortNetDevice ParentGlobalID="Steer" DevID="Op1" PortID="12">
+                    <PortNetDevice ParentGlobalID="Ids" DevID="OpM" PortID="12">
                         <PortNetProgram PortID="54374" Protocol="System" />
                     </PortNetDevice>
-                    <PortNetDevice ParentGlobalID="Steer" DevID="Op2" PortID="13">
+                    <PortNetDevice ParentGlobalID="Ids" DevID="OpA" PortID="13">
                         <PortNetProgram PortID="54374" Protocol="System" />
                     </PortNetDevice>
                 </PortNetCollection>
@@ -36,10 +36,10 @@
                     <PortNetDevice ParentGlobalID="Ids.CcM" DevID="C6015" PortID="11">
                         <PortNetProgram PortID="54374" Protocol="System" />
                     </PortNetDevice>
-                    <PortNetDevice ParentGlobalID="Steer" DevID="Op1" PortID="12">
+                    <PortNetDevice ParentGlobalID="Ids" DevID="OpM" PortID="12">
                         <PortNetProgram PortID="54374" Protocol="System" />
                     </PortNetDevice>
-                    <PortNetDevice ParentGlobalID="Steer" DevID="Op2" PortID="13">
+                    <PortNetDevice ParentGlobalID="Ids" DevID="OpA" PortID="13">
                         <PortNetProgram PortID="54374" Protocol="System" />
                     </PortNetDevice>
                 </PortNetCollection>

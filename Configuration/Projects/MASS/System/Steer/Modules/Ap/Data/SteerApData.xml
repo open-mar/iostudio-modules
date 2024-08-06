@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DataList Name="SteerApData">
     <Description>Autopilot data</Description>
-    <DataListObject ParentGlobalID="Steer.Ap1">
+    <DataListObject ParentGlobalID="Steer.ApM">
         <Variable LocalID="RudderAngleMeas" TypeNum="Float" Unit="°" Decimals="1" Min="-99.0" Max="99.0">0.0</Variable>
         <Variable LocalID="FrontThrustMeas" TypeNum="Float" Unit="%" Decimals="3" Min="-1.000" Max="1.000">0.0</Variable>
         <Variable LocalID="RateOfTurnMeas" TypeNum="Float" Unit="°/min" Decimals="1" Min="-999.0" Max="999.0">0.0</Variable>
@@ -33,7 +33,7 @@
             <NumberID>EngineRpmMeas</NumberID>
         </Event>
     </DataListObject>
-    <DataListObject ParentGlobalID="Steer.Ap2">
+    <DataListObject ParentGlobalID="Steer.ApA">
         <Variable LocalID="RudderAngleMeas" TypeNum="Float" Unit="°" Decimals="1" Min="-99.0" Max="99.0">0.0</Variable>
         <Variable LocalID="FrontThrustMeas" TypeNum="Float" Unit="%" Decimals="3" Min="-1.000" Max="1.000">0.0</Variable>
         <Variable LocalID="RateOfTurnMeas" TypeNum="Float" Unit="°/min" Decimals="1" Min="-999.0" Max="999.0">0.0</Variable>

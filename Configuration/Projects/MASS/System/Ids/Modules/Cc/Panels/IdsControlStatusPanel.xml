@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PanelClass Name="IdsControlStatusPanel">
+    <Description>Status panel for control computer</Description>
+    <PanelObject ParentGlobalID="Ids.CcF" Background="ContainerBackground">
+        <RowDefinition />
+        <ColumnDefinition />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1">
+            <ioLabel LocalID="LabelIdsCc" VerticalAlignment="Center" Height="20">
+                <Properties Text="CC FWD" TypeLabel="Medium" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
+        </Grid>
+        <Grid Row="1" Column="2" IsStacked="TRUE" Orientation="Horizontal">
+            <ioShape LocalID="ShapeWiFi">
+                <Properties TypeShape="SensorsNetwork" ShapeID="WiFi" TypeColor="AlertRunning" />
+            </ioShape>
+            <ioShape LocalID="ShapeEthernet" Margin="8,0,0,0">
+                <Properties TypeShape="Automation" ShapeID="System" TypeColor="AlertRunning" />
+            </ioShape>
+            <ioShape LocalID="ShapeIO" Margin="8,0,0,0">
+                <Properties TypeShape="Automation" ShapeID="IO" TypeColor="AlertRunning" />
+            </ioShape>
+            <ioShape LocalID="ShapeInCommand" Margin="8,0,0,0">
+                <Properties TypeShape="Command" ShapeID="InCommand" TypeColor="InstrumentEnhancedPrimary" />
+            </ioShape>
+        </Grid>
+    </PanelObject>
+    <PanelObject ParentGlobalID="Ids.CcM" Background="ContainerBackground">
+        <RowDefinition />
+        <ColumnDefinition />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1">
+            <ioLabel LocalID="LabelIdsCc" VerticalAlignment="Center" Height="20">
+                <Properties Text="CC MID" TypeLabel="Medium" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
+        </Grid>
+        <Grid Row="1" Column="2" IsStacked="TRUE" Orientation="Horizontal">
+            <ioShape LocalID="ShapeWiFi">
+                <Properties TypeShape="SensorsNetwork" ShapeID="WiFi" TypeColor="AlertRunning" />
+            </ioShape>
+            <ioShape LocalID="ShapeEthernet" Margin="8,0,0,0">
+                <Properties TypeShape="Automation" ShapeID="System" TypeColor="AlertAlarm" />
+            </ioShape>
+            <ioShape LocalID="ShapeIO" Margin="8,0,0,0">
+                <Properties TypeShape="Automation" ShapeID="IO" TypeColor="AlertRunning" />
+            </ioShape>
+            <ioShape LocalID="ShapeInCommand" Margin="8,0,0,0">
+                <Properties TypeShape="Command" ShapeID="NotInCommand" TypeColor="InstrumentEnhancedTertiary" />
+            </ioShape>
+        </Grid>
+    </PanelObject>
+    <PanelObject ParentGlobalID="Ids.CcA" Background="ContainerBackground">
+        <RowDefinition />
+        <ColumnDefinition />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1">
+            <ioLabel LocalID="LabelIdsCc" VerticalAlignment="Center" Height="20">
+                <Properties Text="CC AFT" TypeLabel="Medium" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
+        </Grid>
+        <Grid Row="1" Column="2" IsStacked="TRUE" Orientation="Horizontal">
+            <ioShape LocalID="ShapeWiFi">
+                <Properties TypeShape="SensorsNetwork" ShapeID="WiFi" TypeColor="AlertAlarm" />
+            </ioShape>
+            <ioShape LocalID="ShapeEthernet" Margin="8,0,0,0">
+                <Properties TypeShape="Automation" ShapeID="System" TypeColor="AlertAlarm" />
+            </ioShape>
+            <ioShape LocalID="ShapeIO" Margin="8,0,0,0">
+                <Properties TypeShape="Automation" ShapeID="IO" TypeColor="AlertAlarm" />
+            </ioShape>
+            <ioShape LocalID="ShapeInCommand" Margin="8,0,0,0">
+                <Properties TypeShape="Command" ShapeID="NotInCommand" TypeColor="InstrumentEnhancedTertiary" />
+            </ioShape>
+        </Grid>
+    </PanelObject>
+</PanelClass>

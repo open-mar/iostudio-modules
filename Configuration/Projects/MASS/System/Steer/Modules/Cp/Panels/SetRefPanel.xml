@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PanelClass Name="SetRefPanel">
     <Description>Panel for setting reference CP1+2</Description>
-    <PanelObject ParentGlobalID="Steer.Cp1" Background="ContainerBackground">
+    <PanelObject ParentGlobalID="Steer.CpM" Background="ContainerBackground">
         <RowDefinition Size="20" />
         <RowDefinition Size="40" />
         <RowDefinition Size="40" />
@@ -10,7 +10,7 @@
         <ColumnDefinition />
         <ColumnDefinition />
         <Grid Row="1" Column="1" SpanColumns="3">
-            <ioLabel LocalID="LabelHeaderNew">
+            <ioLabel LocalID="LabelHeader">
                 <Properties Text="SET REFERENCE PANEL CP1" TypeLabel="OVERLINE" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
         </Grid>
@@ -50,7 +50,7 @@
             </ioButtonText>
         </Grid>
     </PanelObject>
-    <PanelObject ParentGlobalID="Steer.Cp2" Background="ContainerBackground">
+    <PanelObject ParentGlobalID="Steer.CpA" Background="ContainerBackground">
         <RowDefinition Size="20" />
         <RowDefinition Size="40" />
         <RowDefinition Size="40" />

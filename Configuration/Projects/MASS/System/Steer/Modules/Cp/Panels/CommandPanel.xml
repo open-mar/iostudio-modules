@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PanelClass Name="CommandPanel">
     <Description>Control and command panels for CP1+2</Description>
-    <PanelObject ParentGlobalID="Steer.Cp1" Background="ContainerBackground">
+    <PanelObject ParentGlobalID="Steer.CpM" Background="ContainerBackground">
         <RowDefinition Size="20" />
         <RowDefinition Size="80" />
         <RowDefinition Size="40" />
         <ColumnDefinition />
         <ColumnDefinition />
         <Grid Row="1" Column="1" SpanColumns="2">
-            <ioLabel LocalID="HeaderCommandPanelNew">
+            <ioLabel LocalID="HeaderCommandPanel">
                 <Properties Text="COMMAND CP1 DECKHOUSE" TypeLabel="OVERLINE" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
         </Grid>
@@ -37,7 +37,7 @@
             </ioButtonShape>
         </Grid>
     </PanelObject>
-    <PanelObject ParentGlobalID="Steer.Cp2" Background="ContainerBackground">
+    <PanelObject ParentGlobalID="Steer.CpA" Background="ContainerBackground">
         <RowDefinition Size="20" />
         <RowDefinition Size="80" />
         <RowDefinition Size="40" />

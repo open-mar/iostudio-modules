@@ -7,12 +7,12 @@ namespace ioSystemNetworkNet
         Puid_NotDefined = 0,
         Nuid_NetEthernet_192_168_10_Batt_CerboGx_10 = 1,
         Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11 = 2,
-        Nuid_NetEthernet_192_168_10_Steer_Op1_12 = 3,
-        Nuid_NetEthernet_192_168_10_Steer_Op2_13 = 4,
+        Nuid_NetEthernet_192_168_10_Ids_OpM_12 = 3,
+        Nuid_NetEthernet_192_168_10_Ids_OpA_13 = 4,
         Nuid_NetWiFi_192_168_11_Batt_CerboGx_10 = 5,
         Nuid_NetWiFi_192_168_11_Ids_CcM_C6015_11 = 6,
-        Nuid_NetWiFi_192_168_11_Steer_Op1_12 = 7,
-        Nuid_NetWiFi_192_168_11_Steer_Op2_13 = 8,
+        Nuid_NetWiFi_192_168_11_Ids_OpM_12 = 7,
+        Nuid_NetWiFi_192_168_11_Ids_OpA_13 = 8,
         Nuid_NetC_CanHs250_Steer_Ap_Ngx1_7 = 9,
         Nuid_NetC_CanHs250_Steer_Ap_GnssR_8 = 10,
         Nuid_NetC_CanHs250_Steer_Ap_Rudd_Rf_9 = 11,
@@ -25,12 +25,12 @@ namespace ioSystemNetworkNet
             {
                 case ioSystemPortsType.Nuid_NetEthernet_192_168_10_Batt_CerboGx_10: return "NetEthernet.192.168.10.Batt.CerboGx.10";
                 case ioSystemPortsType.Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11: return "NetEthernet.192.168.10.Ids.CcM.C6015.11";
-                case ioSystemPortsType.Nuid_NetEthernet_192_168_10_Steer_Op1_12: return "NetEthernet.192.168.10.Steer.Op1.12";
-                case ioSystemPortsType.Nuid_NetEthernet_192_168_10_Steer_Op2_13: return "NetEthernet.192.168.10.Steer.Op2.13";
+                case ioSystemPortsType.Nuid_NetEthernet_192_168_10_Ids_OpM_12: return "NetEthernet.192.168.10.Ids.OpM.12";
+                case ioSystemPortsType.Nuid_NetEthernet_192_168_10_Ids_OpA_13: return "NetEthernet.192.168.10.Ids.OpA.13";
                 case ioSystemPortsType.Nuid_NetWiFi_192_168_11_Batt_CerboGx_10: return "NetWiFi.192.168.11.Batt.CerboGx.10";
                 case ioSystemPortsType.Nuid_NetWiFi_192_168_11_Ids_CcM_C6015_11: return "NetWiFi.192.168.11.Ids.CcM.C6015.11";
-                case ioSystemPortsType.Nuid_NetWiFi_192_168_11_Steer_Op1_12: return "NetWiFi.192.168.11.Steer.Op1.12";
-                case ioSystemPortsType.Nuid_NetWiFi_192_168_11_Steer_Op2_13: return "NetWiFi.192.168.11.Steer.Op2.13";
+                case ioSystemPortsType.Nuid_NetWiFi_192_168_11_Ids_OpM_12: return "NetWiFi.192.168.11.Ids.OpM.12";
+                case ioSystemPortsType.Nuid_NetWiFi_192_168_11_Ids_OpA_13: return "NetWiFi.192.168.11.Ids.OpA.13";
                 case ioSystemPortsType.Nuid_NetC_CanHs250_Steer_Ap_Ngx1_7: return "NetC.CanHs250.Steer.Ap.Ngx1.7";
                 case ioSystemPortsType.Nuid_NetC_CanHs250_Steer_Ap_GnssR_8: return "NetC.CanHs250.Steer.Ap.GnssR.8";
                 case ioSystemPortsType.Nuid_NetC_CanHs250_Steer_Ap_Rudd_Rf_9: return "NetC.CanHs250.Steer.Ap.Rudd.Rf.9";
@@ -43,12 +43,12 @@ namespace ioSystemNetworkNet
             {
                 case "NetEthernet.192.168.10.Batt.CerboGx.10": return ioSystemPortsType.Nuid_NetEthernet_192_168_10_Batt_CerboGx_10;
                 case "NetEthernet.192.168.10.Ids.CcM.C6015.11": return ioSystemPortsType.Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11;
-                case "NetEthernet.192.168.10.Steer.Op1.12": return ioSystemPortsType.Nuid_NetEthernet_192_168_10_Steer_Op1_12;
-                case "NetEthernet.192.168.10.Steer.Op2.13": return ioSystemPortsType.Nuid_NetEthernet_192_168_10_Steer_Op2_13;
+                case "NetEthernet.192.168.10.Ids.OpM.12": return ioSystemPortsType.Nuid_NetEthernet_192_168_10_Ids_OpM_12;
+                case "NetEthernet.192.168.10.Ids.OpA.13": return ioSystemPortsType.Nuid_NetEthernet_192_168_10_Ids_OpA_13;
                 case "NetWiFi.192.168.11.Batt.CerboGx.10": return ioSystemPortsType.Nuid_NetWiFi_192_168_11_Batt_CerboGx_10;
                 case "NetWiFi.192.168.11.Ids.CcM.C6015.11": return ioSystemPortsType.Nuid_NetWiFi_192_168_11_Ids_CcM_C6015_11;
-                case "NetWiFi.192.168.11.Steer.Op1.12": return ioSystemPortsType.Nuid_NetWiFi_192_168_11_Steer_Op1_12;
-                case "NetWiFi.192.168.11.Steer.Op2.13": return ioSystemPortsType.Nuid_NetWiFi_192_168_11_Steer_Op2_13;
+                case "NetWiFi.192.168.11.Ids.OpM.12": return ioSystemPortsType.Nuid_NetWiFi_192_168_11_Ids_OpM_12;
+                case "NetWiFi.192.168.11.Ids.OpA.13": return ioSystemPortsType.Nuid_NetWiFi_192_168_11_Ids_OpA_13;
                 case "NetC.CanHs250.Steer.Ap.Ngx1.7": return ioSystemPortsType.Nuid_NetC_CanHs250_Steer_Ap_Ngx1_7;
                 case "NetC.CanHs250.Steer.Ap.GnssR.8": return ioSystemPortsType.Nuid_NetC_CanHs250_Steer_Ap_GnssR_8;
                 case "NetC.CanHs250.Steer.Ap.Rudd.Rf.9": return ioSystemPortsType.Nuid_NetC_CanHs250_Steer_Ap_Rudd_Rf_9;

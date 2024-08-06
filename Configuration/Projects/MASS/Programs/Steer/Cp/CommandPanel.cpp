@@ -10,4 +10,5 @@ CommandPanel::~CommandPanel()
 }
 void CommandPanel::InitializeData(void)
 {
+
 }

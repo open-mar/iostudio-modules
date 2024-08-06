@@ -25,7 +25,7 @@
                 </MiddleView>
                 <RightView>
                     <Grid>
-                        <ioPanelGrid PanelGlobalID="Steer.Cp1.CommandPanel" />
+                        <ioPanelGrid PanelGlobalID="Steer.CpM.CommandPanel" />
                     </Grid>
                 </RightView>
             </Views>

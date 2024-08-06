@@ -11,7 +11,7 @@ public:
     SetRefPanel();
     virtual ~SetRefPanel();
     virtual void InitializeData(void);
-    ioLabel LabelHeaderNew;
+    ioLabel LabelHeader;
     ioButtonText ButtonLeftSmall;
     ioButtonText ButtMidZero;
     ioButtonText ButtRightSmall;

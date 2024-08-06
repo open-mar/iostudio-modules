@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PanelClass Name="SteerApPanel">
     <Description>Panel for autopilot steering</Description>
-    <PanelObject ParentGlobalID="Steer.Ap1" Background="ContainerBackground">
+    <PanelObject ParentGlobalID="Steer.ApM" Background="ContainerBackground">
         <RowDefinition />
         <ColumnDefinition />
         <Grid Row="1" Column="1">
@@ -60,7 +60,7 @@
             </ioPanelGrid>
         </Grid>
     </PanelObject>
-    <PanelObject ParentGlobalID="Steer.Ap2" Background="ContainerBackground">
+    <PanelObject ParentGlobalID="Steer.ApA" Background="ContainerBackground">
         <RowDefinition />
         <ColumnDefinition />
         <Grid Row="1" Column="1">

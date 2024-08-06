@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProgramClass Name="IdsProgControl">
+    <Description>Control program for the MASS system</Description>
+    <PortsCollection>
+        <PortProgram Name="ioSystem::Ports::System::ioPortProgramSystem" NameObject="PortSystem">
+            <Item NameClass="ioPortProgramSystem" NameObject="PortSystem" />
+        </PortProgram>
+        <PortProgram Name="ioModbus::ioPortProgramModbus" NameObject="PortModbus">
+            <Item NameClass="ioPortProgramModbus" NameObject="PortModbus" />
+        </PortProgram>
+    </PortsCollection>
+    <InternalFunctions>
+        <Function Name="RunControl">
+            <Inputs />
+            <Outputs />
+        </Function>
+    </InternalFunctions>
+    <Sequences>
+        <Run>
+            <Function TypeFunction="Internal">
+                <Call Name="RunControl" />
+            </Function>
+        </Run>
+    </Sequences>
+</ProgramClass>

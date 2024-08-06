@@ -10,7 +10,7 @@ public:
     ModePanel();
     virtual ~ModePanel();
     virtual void InitializeData(void);
-    ioLabel HeaderModeControlNew;
+    ioLabel HeaderModeControl;
     ioButtonShape ButtDp;
     ioButtonShape ButtTrack;
     ioButtonShape ButtRiver;

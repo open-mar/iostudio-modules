@@ -7,17 +7,17 @@
         <ColumnDefinition />
         <ColumnDefinition Size="500" />
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
-            <ioPanelGrid LocalID="GridCommandCp1" VerticalAlignment="Top" Height="160" Margin="0,0,4,0" PanelGlobalID="Steer.Cp1.CommandPanel" />
-            <ioPanelGrid LocalID="GridModeCp1" VerticalAlignment="Top" Height="120" Margin="0,0,4,0" PanelGlobalID="Steer.Cp1.ModePanel" />
-            <ioPanelGrid LocalID="GridSetRefCp1" VerticalAlignment="Top" Height="160" Margin="0,0,4,0" PanelGlobalID="Steer.Cp1.SetRefPanel" />
+            <ioPanelGrid LocalID="GridCommandCpM" VerticalAlignment="Top" Height="160" Margin="0,0,4,0" PanelGlobalID="Steer.CpM.CommandPanel" />
+            <ioPanelGrid LocalID="GridModeCpM" VerticalAlignment="Top" Height="120" Margin="0,0,4,0" PanelGlobalID="Steer.CpM.ModePanel" />
+            <ioPanelGrid LocalID="GridSetRefCpM" VerticalAlignment="Top" Height="160" Margin="0,0,4,0" PanelGlobalID="Steer.CpM.SetRefPanel" />
         </Grid>
         <Grid Row="1" Column="2" IsStacked="TRUE" Orientation="Vertical">
-            <ioPanelGrid LocalID="GridCommandCp2" VerticalAlignment="Top" Height="160" Margin="4,0,0,0" PanelGlobalID="Steer.Cp2.CommandPanel" />
-            <ioPanelGrid LocalID="GridModeCp2" VerticalAlignment="Top" Height="120" Margin="4,0,0,0" PanelGlobalID="Steer.Cp2.ModePanel" />
-            <ioPanelGrid LocalID="GridSetRefCp2" VerticalAlignment="Top" Height="160" Margin="4,0,0,0" PanelGlobalID="Steer.Cp2.SetRefPanel" />
+            <ioPanelGrid LocalID="GridCommandCpA" VerticalAlignment="Top" Height="160" Margin="4,0,0,0" PanelGlobalID="Steer.CpA.CommandPanel" />
+            <ioPanelGrid LocalID="GridModeCpA" VerticalAlignment="Top" Height="120" Margin="4,0,0,0" PanelGlobalID="Steer.CpA.ModePanel" />
+            <ioPanelGrid LocalID="GridSetRefCpA" VerticalAlignment="Top" Height="160" Margin="4,0,0,0" PanelGlobalID="Steer.CpA.SetRefPanel" />
         </Grid>
         <Grid Row="1" Column="3">
-            <ioPanelGrid LocalID="GridAp1Panel" PanelGlobalID="Steer.Ap1.SteerApPanel" />
+            <ioPanelGrid LocalID="GridApMPanel" PanelGlobalID="Steer.ApM.SteerApPanel" />
         </Grid>
     </PanelObject>
 </PanelClass>

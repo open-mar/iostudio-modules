@@ -11,7 +11,7 @@ public:
     CommandPanel();
     virtual ~CommandPanel();
     virtual void InitializeData(void);
-    ioLabel HeaderCommandPanelNew;
+    ioLabel HeaderCommandPanel;
     ioShape ShapeCommandStatus;
     ioLabel LabelCommandStatus;
     ioTextBlock TextCommandStatus;

@@ -2,11 +2,10 @@
 #if !defined(__STEERPROGCONTROL_H)
 #define __STEERPROGCONTROL_H
 #include "ioSystem/Program/Core/ioProgram.h"
-#include "Programs/Steer/Ap/SteerApDataAp1.h"
-#include "Programs/Steer/Ap/SteerApDataAp2.h"
-#include "Programs/Steer/Cp/SteerCpDataCp1.h"
-#include "Programs/Steer/Cp/SteerCpDataCp2.h"
-#include "ioSystem/Ports/System/ioPortProgramSystem.h"
+#include "Programs/Steer/Ap/SteerApDataApM.h"
+#include "Programs/Steer/Ap/SteerApDataApA.h"
+#include "Programs/Steer/Cp/SteerCpDataCpM.h"
+#include "Programs/Steer/Cp/SteerCpDataCpA.h"
 class SteerProgControl : public ioProgram
 {
 public:
@@ -14,13 +13,12 @@ public:
     virtual ~SteerProgControl();
     virtual void Run(Int32 activeSlot);
     virtual void ReceiveData(ioDataCollection* listData, ioData* data);
-    virtual void OnRequestData(void);
-    virtual void OnRecvCommand(ioVarInt32* typeCommand, ioVarInt32* stationID);
-    virtual void OnCommandReleaseCp1(void);
-    SteerApDataAp1 DataAp1;
-    SteerApDataAp2 DataAp2;
-    SteerCpDataCp1 DataControlCp1;
-    SteerCpDataCp2 DataControlCp2;
-    ioPortProgramSystem PortSystem;
+    virtual void OnRecvRequestSteerDataApM(void);
+    virtual void OnRecvTakeCommandCpM(void);
+    virtual void OnRecvReleaseCpM(void);
+    SteerApDataApM DataApM;
+    SteerApDataApA DataApA;
+    SteerCpDataCpM DataControlCpM;
+    SteerCpDataCpA DataControlCpA;
 };
 #endif // __STEERPROGCONTROL_H

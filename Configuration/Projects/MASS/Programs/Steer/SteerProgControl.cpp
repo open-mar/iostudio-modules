@@ -16,35 +16,31 @@ void SteerProgControl::Run(Int32 activeSlot)
 }
 void SteerProgControl::ReceiveData(ioDataCollection* listData, ioData* data)
 {
-    ioVarInt32 in1_Int32;
-    ioVarInt32 in2_Int32;
     if (listData == NULL) {}
     if (data == NULL) {}
-    else if (data == &DataAp1.OnRequestSteerData)
+    else if (data == &DataApM.OnRequestSteerData)
     {
-        OnRequestData();
+        OnRecvRequestSteerDataApM();
     }
-    else if (data == &DataControlCp1.TakeCommand)
+    else if (data == &DataControlCpM.TakeCommand)
     {
-        in1_Int32.SetValueVar(NULL);
-        in2_Int32.SetValueVar(NULL);
-        OnRecvCommand(&in1_Int32, &in2_Int32);
-        SendData(&DataControlCp1.OnChangeCommand, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Steer_Op1_12);
-        SendData(&DataControlCp2.OnChangeCommand, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Steer_Op2_13);
+        OnRecvTakeCommandCpM();
+        SendData(&DataControlCpM.OnChangeCommand, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
+        SendData(&DataControlCpA.OnChangeCommand, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
     }
-    else if (data == &DataControlCp1.Release)
+    else if (data == &DataControlCpM.Release)
     {
-        OnCommandReleaseCp1();
+        OnRecvReleaseCpM();
+        SendData(&DataControlCpM.OnChangeCommand, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
+        SendData(&DataControlCpA.OnChangeCommand, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
     }
 }
-void SteerProgControl::OnRequestData(void)
+void SteerProgControl::OnRecvRequestSteerDataApM(void)
 {
 }
-void SteerProgControl::OnRecvCommand(ioVarInt32* typeCommand, ioVarInt32* stationID)
+void SteerProgControl::OnRecvTakeCommandCpM(void)
 {
-    if (typeCommand == NULL) {};
-    if (stationID == NULL) {};
 }
-void SteerProgControl::OnCommandReleaseCp1(void)
+void SteerProgControl::OnRecvReleaseCpM(void)
 {
 }
