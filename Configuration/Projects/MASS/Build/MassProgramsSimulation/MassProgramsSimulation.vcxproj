@@ -187,6 +187,9 @@
     <ClInclude Include="..\..\Programs\Steer\Ap\SteerApPanel.h" />
     <ClInclude Include="..\..\Programs\Steer\Ap\SteerApPanelApA.h" />
     <ClInclude Include="..\..\Programs\Steer\Ap\SteerApPanelApM.h" />
+    <ClInclude Include="..\..\Programs\Steer\Cp\CmdModeRefPanel.h" />
+    <ClInclude Include="..\..\Programs\Steer\Cp\CmdModeRefPanelCpA.h" />
+    <ClInclude Include="..\..\Programs\Steer\Cp\CmdModeRefPanelCpM.h" />
     <ClInclude Include="..\..\Programs\Steer\Cp\CommandPanel.h" />
     <ClInclude Include="..\..\Programs\Steer\Cp\CommandPanelCpA.h" />
     <ClInclude Include="..\..\Programs\Steer\Cp\CommandPanelCpM.h" />
@@ -251,6 +254,9 @@
     <ClCompile Include="..\..\Programs\Steer\Ap\SteerApPanel.cpp" />
     <ClCompile Include="..\..\Programs\Steer\Ap\SteerApPanelApA.cpp" />
     <ClCompile Include="..\..\Programs\Steer\Ap\SteerApPanelApM.cpp" />
+    <ClCompile Include="..\..\Programs\Steer\Cp\CmdModeRefPanel.cpp" />
+    <ClCompile Include="..\..\Programs\Steer\Cp\CmdModeRefPanelCpA.cpp" />
+    <ClCompile Include="..\..\Programs\Steer\Cp\CmdModeRefPanelCpM.cpp" />
     <ClCompile Include="..\..\Programs\Steer\Cp\CommandPanel.cpp" />
     <ClCompile Include="..\..\Programs\Steer\Cp\CommandPanelCpA.cpp" />
     <ClCompile Include="..\..\Programs\Steer\Cp\CommandPanelCpM.cpp" />

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApplicationObject Name="SteeringA">
+    <ApplicationIcon>
+        <ioShape LocalID="ApplicationIcon">
+            <Properties TypeShape="Maneuvering" ShapeID="Rotate"/>
+        </ioShape>
+    </ApplicationIcon>
+    <ApplicationText>
+        <TextCollection Name="Steer::SteerText"/>
+    </ApplicationText>
+    <AppliationPrograms>
+        <ProgramClass Name="Steer::SteerProgOperate"/>
+    </AppliationPrograms>
+    <Menu>
+        <MenuItem Text="Maneuvering">
+            <MenuIcon>
+                <ioShape LocalID="ManeuveringIcon">
+                    <Properties TypeShape="Maneuvering" ShapeID="Rotate"/>
+                </ioShape>
+            </MenuIcon>
+            <Views>
+                <LeftView>
+                </LeftView>
+                <MiddleView>
+                </MiddleView>
+                <RightView>
+                    <Grid>
+                        <ioPanelGrid PanelGlobalID="Steer.CpA.CmdModeRefPanel" />
+                    </Grid>
+                </RightView>
+            </Views>
+        </MenuItem>
+        <MenuItem Text="Transit">
+            <MenuIcon>
+                <ioShape LocalID="TransitIcon">
+                    <Properties TypeShape="Maneuvering" ShapeID="Autopilot"/>
+                </ioShape>
+            </MenuIcon>
+            <Views>
+                <LeftView>
+                </LeftView>
+                <MiddleView>
+                </MiddleView>
+                <RightView>
+                    <Grid>
+                        <ioPanelGrid PanelGlobalID="Steer.CpA.CmdModeRefPanel" />
+                    </Grid>
+                </RightView>
+            </Views>
+        </MenuItem>
+        <MenuItem Text="Track keeping">
+            <MenuIcon>
+                <ioShape LocalID="TrackKeepingIcon">
+                    <Properties TypeShape="VesselNavigation" ShapeID="OnTrack"/>
+                </ioShape>
+            </MenuIcon>
+            <Views>
+                <LeftView>
+                </LeftView>
+                <MiddleView>
+                </MiddleView>
+                <RightView>
+                    <Grid>
+                        <ioPanelGrid PanelGlobalID="Steer.CpA.CmdModeRefPanel" />
+                    </Grid>
+                </RightView>
+            </Views>
+        </MenuItem>
+        <MenuItem Text="Station keeping">
+            <MenuIcon>
+                <ioIcon LocalID="StationKeepingIcon">
+                    <Properties TypeFont="MaterialDesign" IconID="place"/>
+                </ioIcon>
+            </MenuIcon>
+            <Views>
+                <LeftView>
+                </LeftView>
+                <MiddleView>
+                </MiddleView>
+                <RightView>
+                    <Grid>
+                        <ioPanelGrid PanelGlobalID="Steer.CpA.CmdModeRefPanel" />
+                    </Grid>
+                </RightView>
+            </Views>
+        </MenuItem>
+    </Menu>
+</ApplicationObject>

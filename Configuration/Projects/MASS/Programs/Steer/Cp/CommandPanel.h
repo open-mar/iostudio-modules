@@ -17,5 +17,7 @@ public:
     ioTextBlock TextCommandStatus;
     ioButtonShape ButtTakeRequest;
     ioButtonShape ButtRelease;
+protected:
+    ioGraphics* m_CommandPanelGraphics[6];
 };
 #endif // __COMMANDPANEL_H

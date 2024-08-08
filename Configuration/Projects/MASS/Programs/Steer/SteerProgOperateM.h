@@ -13,6 +13,7 @@ class SteerProgOperateM : public ioProgram
 public:
     SteerProgOperateM();
     virtual ~SteerProgOperateM();
+    virtual void InitializeTask(void);
     virtual void Run(Int32 activeSlot);
     virtual void ReceiveGraphicsEvent(Int32 puidValue, ioProgramGraphicsEvent typeEvent);
     virtual void ReceiveData(ioDataCollection* listData, ioData* data);

@@ -12,5 +12,10 @@ CommandPanelCpA::~CommandPanelCpA()
 void CommandPanelCpA::InitializeData(void)
 {
     CommandPanel::InitializeData();
+    HeaderCommandPanel.SetTextForced((ioChars)"COMMAND CP2 COCKPIT");
+    LabelCommandStatus.SetTextForced((ioChars)"NO CMD");
+    TextCommandStatus.SetTextForced((ioChars)"CMD at CP1 Deckhouse");
     TextCommandStatus.SetDecimals(1);
+    ButtTakeRequest.SetTextForced((ioChars)"Take");
+    ButtRelease.SetTextForced((ioChars)"Release");
 }

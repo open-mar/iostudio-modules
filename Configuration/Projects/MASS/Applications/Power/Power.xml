@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Application Name="Power">
+<ApplicationObject Name="Power">
     <ApplicationIcon>
         <ioShape LocalID="ApplicationIcon">
             <Properties TypeShape="Automation" ShapeID="BatteryPack"/>
@@ -69,4 +69,4 @@
         </MenuItem>
     </Menu>
 
-</Application>
+</ApplicationObject>

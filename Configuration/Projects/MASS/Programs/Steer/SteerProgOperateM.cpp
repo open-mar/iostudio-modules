@@ -10,6 +10,14 @@ SteerProgOperateM::SteerProgOperateM()
 SteerProgOperateM::~SteerProgOperateM()
 {
 }
+void SteerProgOperateM::InitializeTask(void)
+{
+    ioProgram::InitializeTask();
+    AddPanel((ioPanel*)&AutopilotApM);
+    AddPanel((ioPanel*)&CommandCpM);
+    AddPanel((ioPanel*)&ModeCpM);
+    AddPanel((ioPanel*)&ReferenceCpM);
+}
 void SteerProgOperateM::Run(Int32 activeSlot)
 {
     if (activeSlot == 0) {}

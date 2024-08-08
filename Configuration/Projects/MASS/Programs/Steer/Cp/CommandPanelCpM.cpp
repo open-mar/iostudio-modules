@@ -12,5 +12,10 @@ CommandPanelCpM::~CommandPanelCpM()
 void CommandPanelCpM::InitializeData(void)
 {
     CommandPanel::InitializeData();
+    HeaderCommandPanel.SetTextForced((ioChars)"COMMAND CP1 DECKHOUSE");
+    LabelCommandStatus.SetTextForced((ioChars)"AUTO");
+    TextCommandStatus.SetTextForced((ioChars)"CMD at CP1 Deckhouse");
     TextCommandStatus.SetDecimals(1);
+    ButtTakeRequest.SetTextForced((ioChars)"Take");
+    ButtRelease.SetTextForced((ioChars)"Release");
 }

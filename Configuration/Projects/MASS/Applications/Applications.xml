@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Applications>
+    <AppItem Name="OperateM" DisplayName="Operate Mid">
+        <ApplicationObject Name="Power" DisplayName="Power"/>
+        <ApplicationObject Name="SteeringM" DisplayName="Steering"/>
+    </AppItem>
+    <AppItem Name="OperateA" DisplayName="Operate Aft">
+        <ApplicationObject Name="Power" DisplayName="Power"/>
+        <ApplicationObject Name="SteeringA" DisplayName="Steering"/>
+    </AppItem>
+</Applications>

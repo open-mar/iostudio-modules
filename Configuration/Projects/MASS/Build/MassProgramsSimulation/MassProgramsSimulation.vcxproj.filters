@@ -220,6 +220,15 @@
     <ClInclude Include="..\..\Programs\Steer\SteerProgOperateM.h">
       <Filter>Programs\Steer</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Programs\Steer\Cp\CmdModeRefPanel.h">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Steer\Cp\CmdModeRefPanelCpA.h">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Steer\Cp\CmdModeRefPanelCpM.h">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MassProgramsSimulation.cpp">
@@ -407,6 +416,15 @@
     </ClCompile>
     <ClCompile Include="..\..\Programs\Steer\SteerProgOperateM.cpp">
       <Filter>Programs\Steer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Steer\Cp\CmdModeRefPanel.cpp">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Steer\Cp\CmdModeRefPanelCpA.cpp">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Steer\Cp\CmdModeRefPanelCpM.cpp">
+      <Filter>Programs\Steer\Cp</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
