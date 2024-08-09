@@ -29,7 +29,11 @@ public:
     ioMethod LeftBig;
     ioMethod RightBig;
     ioMethod EncoderNumber;
+    ioVarInt32 ActiveStation;
+    ioVarInt32 StationMode;
 protected:
-    ioData* m_ListData[17];
+    ioData* m_ListData[19];
+    ioVar* m_OnChangeCommandVars[2];
+    ioVar* m_OnChangeSteerModeVars[1];
 };
 #endif // __STEERCPDATA_H

@@ -30,4 +30,8 @@ void SteerCpDataCpA::InitializeData(void)
     AddData((ioData*)&LeftBig, Duid_Steer_CpA_LeftBig);
     AddData((ioData*)&RightBig, Duid_Steer_CpA_RightBig);
     AddData((ioData*)&EncoderNumber, Duid_Steer_CpA_EncoderNumber);
+    ActiveStation.SetValueSigned(0);
+    AddData((ioData*)&ActiveStation, Duid_Steer_CpA_ActiveStation);
+    StationMode.SetValueSigned(0);
+    AddData((ioData*)&StationMode, Duid_Steer_CpA_StationMode);
 }

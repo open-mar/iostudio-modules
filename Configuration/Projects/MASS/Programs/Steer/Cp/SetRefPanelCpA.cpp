@@ -12,4 +12,11 @@ SetRefPanelCpA::~SetRefPanelCpA()
 void SetRefPanelCpA::InitializeData(void)
 {
     SetRefPanel::InitializeData();
+    LabelHeader.SetTextForced((ioChars)"SET REFERENCE PANEL CP2");
+    ButtonLeftSmall.SetTextForced((ioChars)"-1");
+    ButtMidZero.SetTextForced((ioChars)"0");
+    ButtRightSmall.SetTextForced((ioChars)"+1");
+    EncoderNumber.SetTextForced((ioChars)"0");
+    ButtLeftBig.SetTextForced((ioChars)"-10");
+    ButtRightBig.SetTextForced((ioChars)"+10");
 }

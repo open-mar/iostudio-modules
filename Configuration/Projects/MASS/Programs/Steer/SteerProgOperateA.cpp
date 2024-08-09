@@ -10,6 +10,14 @@ SteerProgOperateA::SteerProgOperateA()
 SteerProgOperateA::~SteerProgOperateA()
 {
 }
+void SteerProgOperateA::InitializeTask(void)
+{
+    ioProgram::InitializeTask();
+    AddPanel((ioPanel*)&AutopilotApA);
+    AddPanel((ioPanel*)&CommandCpA);
+    AddPanel((ioPanel*)&ModeCpA);
+    AddPanel((ioPanel*)&ReferenceCpA);
+}
 void SteerProgOperateA::Run(Int32 activeSlot)
 {
     if (activeSlot == 0) {}
@@ -43,7 +51,7 @@ void SteerProgOperateA::ReceiveData(ioDataCollection* listData, ioData* data)
     if (data == NULL) {}
     else if (data == &DataCpA.OnChangeCommand)
     {
-        CommandCpA.TextCommandStatus.SetValueVar(&DataCpA.SteerMode);
+        CommandCpA.TextCommandStatus.SetValueVar(&DataCpA.ActiveStation);
     }
     else if (data == &DataCpA.OnChangeSteerMode)
     {

@@ -2,6 +2,7 @@
 #include "pch.h"
 #pragma hdrstop
 #include "CommandPanelCpA.h"
+#include "Programs/ioSystemGraphics.h"
 CommandPanelCpA::CommandPanelCpA()
 {
     InitializeData();
@@ -12,10 +13,16 @@ CommandPanelCpA::~CommandPanelCpA()
 void CommandPanelCpA::InitializeData(void)
 {
     CommandPanel::InitializeData();
-    HeaderCommandPanel.SetTextForced((ioChars)"COMMAND CP2 COCKPIT");
+    AddGraphics(&HeaderCommandPanel, Puid_Steer_CpA_HeaderCommandPanel);
+    HeaderCommandPanel.SetTextForced((ioChars)"COMMAND AFT COCKPIT");
+    AddGraphics(&ShapeCommandStatus, Puid_Steer_CpA_ShapeCommandStatus);
+    AddGraphics(&LabelCommandStatus, Puid_Steer_CpA_LabelCommandStatus);
     LabelCommandStatus.SetTextForced((ioChars)"NO CMD");
+    AddGraphics(&TextCommandStatus, Puid_Steer_CpA_TextCommandStatus);
     TextCommandStatus.SetTextForced((ioChars)"CMD at CP1 Deckhouse");
     TextCommandStatus.SetDecimals(1);
+    AddGraphics(&ButtTakeRequest, Puid_Steer_CpA_ButtTakeRequest);
     ButtTakeRequest.SetTextForced((ioChars)"Take");
+    AddGraphics(&ButtRelease, Puid_Steer_CpA_ButtRelease);
     ButtRelease.SetTextForced((ioChars)"Release");
 }

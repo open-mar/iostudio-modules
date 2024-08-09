@@ -10,6 +10,11 @@ SteerCpData::~SteerCpData()
 }
 void SteerCpData::InitializeData(void)
 {
-    SetListData(m_ListData, 17);
+    SetListData(m_ListData, 19);
     ResetItem();
+    OnChangeCommand.SetVariablesBuffer(m_OnChangeCommandVars, 2);
+    OnChangeCommand.AddVariable(&ActiveStation);
+    OnChangeCommand.AddVariable(&StationMode);
+    OnChangeSteerMode.SetVariablesBuffer(m_OnChangeSteerModeVars, 1);
+    OnChangeSteerMode.AddVariable(&SteerMode);
 }

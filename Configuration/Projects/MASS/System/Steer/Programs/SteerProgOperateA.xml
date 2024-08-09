@@ -33,7 +33,7 @@
         </GraphicsEvent>
         <RxTxData NameClass="SteerCpDataCpA" GlobalID="Steer.CpA.OnChangeCommand">
             <GraphicsData NameClass="CommandPanelCpA" GlobalID="Steer.CpA.TextCommandStatus">
-                <DataAssigned NameClass="SteerCpDataCpA" GlobalID="Steer.CpA.SteerMode" />
+                <DataAssigned NameClass="SteerCpDataCpA" GlobalID="Steer.CpA.ActiveStation" />
             </GraphicsData>
         </RxTxData>
         <RxTxData NameClass="SteerCpDataCpA" GlobalID="Steer.CpA.OnChangeSteerMode">

@@ -18,5 +18,7 @@ public:
     ioTextBoxNumber EncoderNumber;
     ioButtonText ButtLeftBig;
     ioButtonText ButtRightBig;
+protected:
+    ioGraphics* m_SetRefPanelGraphics[7];
 };
 #endif // __SETREFPANEL_H

@@ -51,7 +51,7 @@ void SteerProgOperateM::ReceiveData(ioDataCollection* listData, ioData* data)
     if (data == NULL) {}
     else if (data == &DataCpM.OnChangeCommand)
     {
-        CommandCpM.LabelCommandStatus.SetValueVar(&DataCpM.SteerMode);
+        CommandCpM.TextCommandStatus.SetValueVar(&DataCpM.ActiveStation);
     }
     else if (data == &DataCpM.OnChangeSteerMode)
     {

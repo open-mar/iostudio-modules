@@ -2,7 +2,6 @@
 #include "pch.h"
 #pragma hdrstop
 #include "CommandPanel.h"
-#include "Programs/ioSystemGraphics.h"
 CommandPanel::CommandPanel()
 {
 }
@@ -12,10 +11,4 @@ CommandPanel::~CommandPanel()
 void CommandPanel::InitializeData(void)
 {
     m_PanelGraphics.SetListData((ioItem**)m_CommandPanelGraphics, 6);
-    AddGraphics(&HeaderCommandPanel, Puid_Steer_CpM_HeaderCommandPanel);
-    AddGraphics(&ShapeCommandStatus, Puid_Steer_CpM_ShapeCommandStatus);
-    AddGraphics(&LabelCommandStatus, Puid_Steer_CpM_LabelCommandStatus);
-    AddGraphics(&TextCommandStatus, Puid_Steer_CpM_TextCommandStatus);
-    AddGraphics(&ButtTakeRequest, Puid_Steer_CpM_ButtTakeRequest);
-    AddGraphics(&ButtRelease, Puid_Steer_CpM_ButtRelease);
 }

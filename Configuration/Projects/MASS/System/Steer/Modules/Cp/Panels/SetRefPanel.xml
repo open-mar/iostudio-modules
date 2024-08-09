@@ -33,7 +33,7 @@
         </Grid>
         <Grid Row="3" Column="1" SpanColumns="3">
             <ioTextBoxNumber LocalID="EncoderNumber" Margin="0,4,0,4">
-                <Properties Text="0" TextAlignment="Center" Decimals="0" Min="0" Max="9999" />
+                <Properties Text="0" TextAlignment="Center" Decimals="0" Min="-9999" Max="9999" />
             </ioTextBoxNumber>
         </Grid>
         <Grid Row="3" Column="2" />
@@ -82,7 +82,7 @@
         </Grid>
         <Grid Row="3" Column="1" SpanColumns="3">
             <ioTextBoxNumber LocalID="EncoderNumber" Margin="0,4,0,4">
-                <Properties Text="0" TextAlignment="Center" Decimals="0" Min="0" Max="9999" />
+                <Properties Text="0" TextAlignment="Center" Decimals="0" Min="-9999" Max="9999" />
             </ioTextBoxNumber>
         </Grid>
         <Grid Row="3" Column="2" />

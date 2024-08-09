@@ -32,8 +32,8 @@
             <RxTxData NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.Release" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
         </GraphicsEvent>
         <RxTxData NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.OnChangeCommand">
-            <GraphicsData NameClass="CommandPanelCpM" GlobalID="Steer.CpM.LabelCommandStatus">
-                <DataAssigned NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.SteerMode" />
+            <GraphicsData NameClass="CommandPanelCpM" GlobalID="Steer.CpM.TextCommandStatus">
+                <DataAssigned NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.ActiveStation" />
             </GraphicsData>
         </RxTxData>
         <RxTxData NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.OnChangeSteerMode">

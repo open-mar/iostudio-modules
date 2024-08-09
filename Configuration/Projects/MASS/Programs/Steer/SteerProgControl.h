@@ -11,11 +11,14 @@ class SteerProgControl : public ioProgram
 public:
     SteerProgControl();
     virtual ~SteerProgControl();
+    virtual void InitializeTask(void);
     virtual void Run(Int32 activeSlot);
     virtual void ReceiveData(ioDataCollection* listData, ioData* data);
     virtual void OnRecvRequestSteerDataApM(void);
     virtual void OnRecvTakeCommandCpM(void);
     virtual void OnRecvReleaseCpM(void);
+    virtual void OnRecvTakeCommandCpA(void);
+    virtual void OnRecvReleaseCpA(void);
     SteerApDataApM DataApM;
     SteerApDataApA DataApA;
     SteerCpDataCpM DataControlCpM;

@@ -30,4 +30,8 @@ void SteerCpDataCpM::InitializeData(void)
     AddData((ioData*)&LeftBig, Duid_Steer_CpM_LeftBig);
     AddData((ioData*)&RightBig, Duid_Steer_CpM_RightBig);
     AddData((ioData*)&EncoderNumber, Duid_Steer_CpM_EncoderNumber);
+    ActiveStation.SetValueSigned(0);
+    AddData((ioData*)&ActiveStation, Duid_Steer_CpM_ActiveStation);
+    StationMode.SetValueSigned(0);
+    AddData((ioData*)&StationMode, Duid_Steer_CpM_StationMode);
 }

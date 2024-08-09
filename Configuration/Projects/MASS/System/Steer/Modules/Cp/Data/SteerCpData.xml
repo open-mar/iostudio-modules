@@ -11,7 +11,10 @@
         <Method LocalID="ModeStandby" />
         <Variable LocalID="SteerMode" TypeNum="Int32">0</Variable>
         <Method LocalID="Release" />
-        <Event LocalID="OnChangeCommand" />
+        <Event LocalID="OnChangeCommand">
+            <NumberID>ActiveStation</NumberID>
+            <NumberID>StationMode</NumberID>
+        </Event>
         <Event LocalID="OnChangeSteerMode">
             <NumberID>SteerMode</NumberID>
         </Event>
@@ -21,6 +24,8 @@
         <Method LocalID="LeftBig" />
         <Method LocalID="RightBig" />
         <Method LocalID="EncoderNumber" />
+        <Variable LocalID="ActiveStation" TypeNum="Int32">0</Variable>
+        <Variable LocalID="StationMode" TypeNum="Int32">0</Variable>
     </DataListObject>
     <DataListObject ParentGlobalID="Steer.CpA">
         <Method LocalID="TakeCommand" />
@@ -32,7 +37,10 @@
         <Method LocalID="ModeStandby" />
         <Variable LocalID="SteerMode" TypeNum="Int32">0</Variable>
         <Method LocalID="Release" />
-        <Event LocalID="OnChangeCommand" />
+        <Event LocalID="OnChangeCommand">
+            <NumberID>ActiveStation</NumberID>
+            <NumberID>StationMode</NumberID>
+        </Event>
         <Event LocalID="OnChangeSteerMode">
             <NumberID>SteerMode</NumberID>
         </Event>
@@ -42,5 +50,7 @@
         <Method LocalID="LeftBig" />
         <Method LocalID="RightBig" />
         <Method LocalID="EncoderNumber" />
+        <Variable LocalID="ActiveStation" TypeNum="Int32">0</Variable>
+        <Variable LocalID="StationMode" TypeNum="Int32">0</Variable>
     </DataListObject>
 </DataList>

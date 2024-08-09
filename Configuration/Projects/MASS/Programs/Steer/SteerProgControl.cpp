@@ -10,6 +10,10 @@ SteerProgControl::SteerProgControl()
 SteerProgControl::~SteerProgControl()
 {
 }
+void SteerProgControl::InitializeTask(void)
+{
+    ioProgram::InitializeTask();
+}
 void SteerProgControl::Run(Int32 activeSlot)
 {
     if (activeSlot == 0) {}
@@ -34,6 +38,18 @@ void SteerProgControl::ReceiveData(ioDataCollection* listData, ioData* data)
         SendData(&DataControlCpM.OnChangeCommand, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
         SendData(&DataControlCpA.OnChangeCommand, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
     }
+    else if (data == &DataControlCpA.TakeCommand)
+    {
+        OnRecvTakeCommandCpA();
+        SendData(&DataControlCpM.OnChangeCommand, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
+        SendData(&DataControlCpA.OnChangeCommand, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
+    }
+    else if (data == &DataControlCpA.Release)
+    {
+        OnRecvReleaseCpA();
+        SendData(&DataControlCpM.OnChangeCommand, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
+        SendData(&DataControlCpA.OnChangeCommand, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
+    }
 }
 void SteerProgControl::OnRecvRequestSteerDataApM(void)
 {
@@ -42,5 +58,11 @@ void SteerProgControl::OnRecvTakeCommandCpM(void)
 {
 }
 void SteerProgControl::OnRecvReleaseCpM(void)
+{
+}
+void SteerProgControl::OnRecvTakeCommandCpA(void)
+{
+}
+void SteerProgControl::OnRecvReleaseCpA(void)
 {
 }

@@ -297,23 +297,27 @@ namespace ioSystemNetworkNet
         Duid_Steer_CpM_LeftBig = 290,
         Duid_Steer_CpM_RightBig = 291,
         Duid_Steer_CpM_EncoderNumber = 292,
-        Duid_Steer_CpA_TakeCommand = 293,
-        Duid_Steer_CpA_ModeDp = 294,
-        Duid_Steer_CpA_ModeRiver = 295,
-        Duid_Steer_CpA_ModeTrack = 296,
-        Duid_Steer_CpA_ModeWork = 297,
-        Duid_Steer_CpA_ModeAuto = 298,
-        Duid_Steer_CpA_ModeStandby = 299,
-        Duid_Steer_CpA_SteerMode = 300,
-        Duid_Steer_CpA_Release = 301,
-        Duid_Steer_CpA_OnChangeCommand = 302,
-        Duid_Steer_CpA_OnChangeSteerMode = 303,
-        Duid_Steer_CpA_LeftSmall = 304,
-        Duid_Steer_CpA_MidZero = 305,
-        Duid_Steer_CpA_RightSmall = 306,
-        Duid_Steer_CpA_LeftBig = 307,
-        Duid_Steer_CpA_RightBig = 308,
-        Duid_Steer_CpA_EncoderNumber = 309,
+        Duid_Steer_CpM_ActiveStation = 293,
+        Duid_Steer_CpM_StationMode = 294,
+        Duid_Steer_CpA_TakeCommand = 295,
+        Duid_Steer_CpA_ModeDp = 296,
+        Duid_Steer_CpA_ModeRiver = 297,
+        Duid_Steer_CpA_ModeTrack = 298,
+        Duid_Steer_CpA_ModeWork = 299,
+        Duid_Steer_CpA_ModeAuto = 300,
+        Duid_Steer_CpA_ModeStandby = 301,
+        Duid_Steer_CpA_SteerMode = 302,
+        Duid_Steer_CpA_Release = 303,
+        Duid_Steer_CpA_OnChangeCommand = 304,
+        Duid_Steer_CpA_OnChangeSteerMode = 305,
+        Duid_Steer_CpA_LeftSmall = 306,
+        Duid_Steer_CpA_MidZero = 307,
+        Duid_Steer_CpA_RightSmall = 308,
+        Duid_Steer_CpA_LeftBig = 309,
+        Duid_Steer_CpA_RightBig = 310,
+        Duid_Steer_CpA_EncoderNumber = 311,
+        Duid_Steer_CpA_ActiveStation = 312,
+        Duid_Steer_CpA_StationMode = 313,
     } // enum
     public class ioSystemData
     {
@@ -614,6 +618,8 @@ namespace ioSystemNetworkNet
                 case ioSystemDataType.Duid_Steer_CpM_LeftBig: return "Steer.CpM.LeftBig";
                 case ioSystemDataType.Duid_Steer_CpM_RightBig: return "Steer.CpM.RightBig";
                 case ioSystemDataType.Duid_Steer_CpM_EncoderNumber: return "Steer.CpM.EncoderNumber";
+                case ioSystemDataType.Duid_Steer_CpM_ActiveStation: return "Steer.CpM.ActiveStation";
+                case ioSystemDataType.Duid_Steer_CpM_StationMode: return "Steer.CpM.StationMode";
                 case ioSystemDataType.Duid_Steer_CpA_TakeCommand: return "Steer.CpA.TakeCommand";
                 case ioSystemDataType.Duid_Steer_CpA_ModeDp: return "Steer.CpA.ModeDp";
                 case ioSystemDataType.Duid_Steer_CpA_ModeRiver: return "Steer.CpA.ModeRiver";
@@ -631,6 +637,8 @@ namespace ioSystemNetworkNet
                 case ioSystemDataType.Duid_Steer_CpA_LeftBig: return "Steer.CpA.LeftBig";
                 case ioSystemDataType.Duid_Steer_CpA_RightBig: return "Steer.CpA.RightBig";
                 case ioSystemDataType.Duid_Steer_CpA_EncoderNumber: return "Steer.CpA.EncoderNumber";
+                case ioSystemDataType.Duid_Steer_CpA_ActiveStation: return "Steer.CpA.ActiveStation";
+                case ioSystemDataType.Duid_Steer_CpA_StationMode: return "Steer.CpA.StationMode";
             } // switch
             return string.Empty;
         }
@@ -931,6 +939,8 @@ namespace ioSystemNetworkNet
                 case "Steer.CpM.LeftBig": return ioSystemDataType.Duid_Steer_CpM_LeftBig;
                 case "Steer.CpM.RightBig": return ioSystemDataType.Duid_Steer_CpM_RightBig;
                 case "Steer.CpM.EncoderNumber": return ioSystemDataType.Duid_Steer_CpM_EncoderNumber;
+                case "Steer.CpM.ActiveStation": return ioSystemDataType.Duid_Steer_CpM_ActiveStation;
+                case "Steer.CpM.StationMode": return ioSystemDataType.Duid_Steer_CpM_StationMode;
                 case "Steer.CpA.TakeCommand": return ioSystemDataType.Duid_Steer_CpA_TakeCommand;
                 case "Steer.CpA.ModeDp": return ioSystemDataType.Duid_Steer_CpA_ModeDp;
                 case "Steer.CpA.ModeRiver": return ioSystemDataType.Duid_Steer_CpA_ModeRiver;
@@ -948,6 +958,8 @@ namespace ioSystemNetworkNet
                 case "Steer.CpA.LeftBig": return ioSystemDataType.Duid_Steer_CpA_LeftBig;
                 case "Steer.CpA.RightBig": return ioSystemDataType.Duid_Steer_CpA_RightBig;
                 case "Steer.CpA.EncoderNumber": return ioSystemDataType.Duid_Steer_CpA_EncoderNumber;
+                case "Steer.CpA.ActiveStation": return ioSystemDataType.Duid_Steer_CpA_ActiveStation;
+                case "Steer.CpA.StationMode": return ioSystemDataType.Duid_Steer_CpA_StationMode;
             } // switch
             return ioSystemDataType.Duid_Batt_ChargeInputVolt;
         }

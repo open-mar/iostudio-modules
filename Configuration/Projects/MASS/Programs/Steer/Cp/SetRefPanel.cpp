@@ -2,6 +2,7 @@
 #include "pch.h"
 #pragma hdrstop
 #include "SetRefPanel.h"
+#include "Programs/ioSystemGraphics.h"
 SetRefPanel::SetRefPanel()
 {
 }
@@ -10,4 +11,12 @@ SetRefPanel::~SetRefPanel()
 }
 void SetRefPanel::InitializeData(void)
 {
+    m_PanelGraphics.SetListData((ioItem**)m_SetRefPanelGraphics, 7);
+    AddGraphics(&LabelHeader, Puid_Steer_CpM_LabelHeader);
+    AddGraphics(&ButtonLeftSmall, Puid_Steer_CpM_ButtonLeftSmall);
+    AddGraphics(&ButtMidZero, Puid_Steer_CpM_ButtMidZero);
+    AddGraphics(&ButtRightSmall, Puid_Steer_CpM_ButtRightSmall);
+    AddGraphics(&EncoderNumber, Puid_Steer_CpM_EncoderNumber);
+    AddGraphics(&ButtLeftBig, Puid_Steer_CpM_ButtLeftBig);
+    AddGraphics(&ButtRightBig, Puid_Steer_CpM_ButtRightBig);
 }

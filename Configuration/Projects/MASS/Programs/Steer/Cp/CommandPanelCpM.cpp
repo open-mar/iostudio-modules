@@ -2,6 +2,7 @@
 #include "pch.h"
 #pragma hdrstop
 #include "CommandPanelCpM.h"
+#include "Programs/ioSystemGraphics.h"
 CommandPanelCpM::CommandPanelCpM()
 {
     InitializeData();
@@ -12,10 +13,16 @@ CommandPanelCpM::~CommandPanelCpM()
 void CommandPanelCpM::InitializeData(void)
 {
     CommandPanel::InitializeData();
-    HeaderCommandPanel.SetTextForced((ioChars)"COMMAND CP1 DECKHOUSE");
+    AddGraphics(&HeaderCommandPanel, Puid_Steer_CpM_HeaderCommandPanel);
+    HeaderCommandPanel.SetTextForced((ioChars)"COMMAND MID DECKHOUSE");
+    AddGraphics(&ShapeCommandStatus, Puid_Steer_CpM_ShapeCommandStatus);
+    AddGraphics(&LabelCommandStatus, Puid_Steer_CpM_LabelCommandStatus);
     LabelCommandStatus.SetTextForced((ioChars)"AUTO");
+    AddGraphics(&TextCommandStatus, Puid_Steer_CpM_TextCommandStatus);
     TextCommandStatus.SetTextForced((ioChars)"CMD at CP1 Deckhouse");
     TextCommandStatus.SetDecimals(1);
+    AddGraphics(&ButtTakeRequest, Puid_Steer_CpM_ButtTakeRequest);
     ButtTakeRequest.SetTextForced((ioChars)"Take");
+    AddGraphics(&ButtRelease, Puid_Steer_CpM_ButtRelease);
     ButtRelease.SetTextForced((ioChars)"Release");
 }

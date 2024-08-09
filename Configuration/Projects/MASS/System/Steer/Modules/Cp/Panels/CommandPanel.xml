@@ -9,7 +9,7 @@
         <ColumnDefinition />
         <Grid Row="1" Column="1" SpanColumns="2">
             <ioLabel LocalID="HeaderCommandPanel">
-                <Properties Text="COMMAND CP1 DECKHOUSE" TypeLabel="OVERLINE" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                <Properties Text="COMMAND MID DECKHOUSE" TypeLabel="OVERLINE" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
         </Grid>
         <Grid Row="1" Column="2" />
@@ -45,7 +45,7 @@
         <ColumnDefinition />
         <Grid Row="1" Column="1" SpanColumns="2">
             <ioLabel LocalID="HeaderCommandPanel">
-                <Properties Text="COMMAND CP2 COCKPIT" TypeLabel="OVERLINE" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                <Properties Text="COMMAND AFT COCKPIT" TypeLabel="OVERLINE" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
         </Grid>
         <Grid Row="1" Column="2" />
