@@ -489,52 +489,56 @@ namespace ioSystemNetworkNet
         Puid_Steer_ApA_GridThrustMeas = 482,
         Puid_Steer_ApA_TextThrustValue = 483,
         Puid_Steer_ApA_LabelThrust = 484,
-        Puid_Steer_CpM_CommandNew = 485,
-        Puid_Steer_CpM_Mode = 486,
-        Puid_Steer_CpM_Reference = 487,
-        Puid_Steer_CpA_Command = 488,
-        Puid_Steer_CpA_Mode = 489,
-        Puid_Steer_CpA_Reference = 490,
-        Puid_Steer_CpM_HeaderCommandPanel = 491,
-        Puid_Steer_CpM_ShapeCommandStatus = 492,
-        Puid_Steer_CpM_LabelCommandStatus = 493,
-        Puid_Steer_CpM_TextCommandStatus = 494,
-        Puid_Steer_CpM_ButtTakeRequest = 495,
-        Puid_Steer_CpM_ButtRelease = 496,
-        Puid_Steer_CpA_HeaderCommandPanel = 497,
-        Puid_Steer_CpA_ShapeCommandStatus = 498,
-        Puid_Steer_CpA_LabelCommandStatus = 499,
-        Puid_Steer_CpA_TextCommandStatus = 500,
-        Puid_Steer_CpA_ButtTakeRequest = 501,
-        Puid_Steer_CpA_ButtRelease = 502,
-        Puid_Steer_CpM_HeaderModeControl = 503,
-        Puid_Steer_CpM_ButtDp = 504,
-        Puid_Steer_CpM_ButtTrack = 505,
-        Puid_Steer_CpM_ButtRiver = 506,
-        Puid_Steer_CpM_ButtWork = 507,
-        Puid_Steer_CpM_ButtCourse = 508,
-        Puid_Steer_CpM_ButtStandby = 509,
-        Puid_Steer_CpA_HeaderModeControl = 510,
-        Puid_Steer_CpA_ButtDp = 511,
-        Puid_Steer_CpA_ButtTrack = 512,
-        Puid_Steer_CpA_ButtRiver = 513,
-        Puid_Steer_CpA_ButtWork = 514,
-        Puid_Steer_CpA_ButtCourse = 515,
-        Puid_Steer_CpA_ButtStandby = 516,
-        Puid_Steer_CpM_LabelHeader = 517,
-        Puid_Steer_CpM_ButtonLeftSmall = 518,
-        Puid_Steer_CpM_ButtMidZero = 519,
-        Puid_Steer_CpM_ButtRightSmall = 520,
-        Puid_Steer_CpM_EncoderNumber = 521,
-        Puid_Steer_CpM_ButtLeftBig = 522,
-        Puid_Steer_CpM_ButtRightBig = 523,
-        Puid_Steer_CpA_LabelHeader = 524,
-        Puid_Steer_CpA_ButtonLeftSmall = 525,
-        Puid_Steer_CpA_ButtMidZero = 526,
-        Puid_Steer_CpA_ButtRightSmall = 527,
-        Puid_Steer_CpA_EncoderNumber = 528,
-        Puid_Steer_CpA_ButtLeftBig = 529,
-        Puid_Steer_CpA_ButtRightBig = 530,
+        Puid_Steer_CpM_CommandNoRef = 485,
+        Puid_Steer_CpM_ModeNoRef = 486,
+        Puid_Steer_CpA_CommandNoRef = 487,
+        Puid_Steer_CpA_ModeNoRef = 488,
+        Puid_Steer_CpM_Command = 489,
+        Puid_Steer_CpM_Mode = 490,
+        Puid_Steer_CpM_Reference = 491,
+        Puid_Steer_CpA_Command = 492,
+        Puid_Steer_CpA_Mode = 493,
+        Puid_Steer_CpA_Reference = 494,
+        Puid_Steer_CpM_HeaderCommandPanel = 495,
+        Puid_Steer_CpM_ShapeCommandStatus = 496,
+        Puid_Steer_CpM_LabelCommandStatus = 497,
+        Puid_Steer_CpM_TextCommandStatus = 498,
+        Puid_Steer_CpM_ButtTakeRequest = 499,
+        Puid_Steer_CpM_ButtRelease = 500,
+        Puid_Steer_CpA_HeaderCommandPanel = 501,
+        Puid_Steer_CpA_ShapeCommandStatus = 502,
+        Puid_Steer_CpA_LabelCommandStatus = 503,
+        Puid_Steer_CpA_TextCommandStatus = 504,
+        Puid_Steer_CpA_ButtTakeRequest = 505,
+        Puid_Steer_CpA_ButtRelease = 506,
+        Puid_Steer_CpM_HeaderModeControl = 507,
+        Puid_Steer_CpM_ButtDp = 508,
+        Puid_Steer_CpM_ButtTrack = 509,
+        Puid_Steer_CpM_ButtRiver = 510,
+        Puid_Steer_CpM_ButtWork = 511,
+        Puid_Steer_CpM_ButtCourse = 512,
+        Puid_Steer_CpM_ButtStandby = 513,
+        Puid_Steer_CpA_HeaderModeControl = 514,
+        Puid_Steer_CpA_ButtDp = 515,
+        Puid_Steer_CpA_ButtTrack = 516,
+        Puid_Steer_CpA_ButtRiver = 517,
+        Puid_Steer_CpA_ButtWork = 518,
+        Puid_Steer_CpA_ButtCourse = 519,
+        Puid_Steer_CpA_ButtStandby = 520,
+        Puid_Steer_CpM_LabelHeader = 521,
+        Puid_Steer_CpM_ButtonLeftSmall = 522,
+        Puid_Steer_CpM_ButtMidZero = 523,
+        Puid_Steer_CpM_ButtRightSmall = 524,
+        Puid_Steer_CpM_EncoderNumber = 525,
+        Puid_Steer_CpM_ButtLeftBig = 526,
+        Puid_Steer_CpM_ButtRightBig = 527,
+        Puid_Steer_CpA_LabelHeader = 528,
+        Puid_Steer_CpA_ButtonLeftSmall = 529,
+        Puid_Steer_CpA_ButtMidZero = 530,
+        Puid_Steer_CpA_ButtRightSmall = 531,
+        Puid_Steer_CpA_EncoderNumber = 532,
+        Puid_Steer_CpA_ButtLeftBig = 533,
+        Puid_Steer_CpA_ButtRightBig = 534,
     } // enum
     public class ioSystemGraphics
     {
@@ -1026,7 +1030,11 @@ namespace ioSystemNetworkNet
                 case ioSystemGraphicsType.Puid_Steer_ApA_GridThrustMeas: return "Steer.ApA.GridThrustMeas";
                 case ioSystemGraphicsType.Puid_Steer_ApA_TextThrustValue: return "Steer.ApA.TextThrustValue";
                 case ioSystemGraphicsType.Puid_Steer_ApA_LabelThrust: return "Steer.ApA.LabelThrust";
-                case ioSystemGraphicsType.Puid_Steer_CpM_CommandNew: return "Steer.CpM.CommandNew";
+                case ioSystemGraphicsType.Puid_Steer_CpM_CommandNoRef: return "Steer.CpM.CommandNoRef";
+                case ioSystemGraphicsType.Puid_Steer_CpM_ModeNoRef: return "Steer.CpM.ModeNoRef";
+                case ioSystemGraphicsType.Puid_Steer_CpA_CommandNoRef: return "Steer.CpA.CommandNoRef";
+                case ioSystemGraphicsType.Puid_Steer_CpA_ModeNoRef: return "Steer.CpA.ModeNoRef";
+                case ioSystemGraphicsType.Puid_Steer_CpM_Command: return "Steer.CpM.Command";
                 case ioSystemGraphicsType.Puid_Steer_CpM_Mode: return "Steer.CpM.Mode";
                 case ioSystemGraphicsType.Puid_Steer_CpM_Reference: return "Steer.CpM.Reference";
                 case ioSystemGraphicsType.Puid_Steer_CpA_Command: return "Steer.CpA.Command";
@@ -1563,7 +1571,11 @@ namespace ioSystemNetworkNet
                 case "Steer.ApA.GridThrustMeas": return ioSystemGraphicsType.Puid_Steer_ApA_GridThrustMeas;
                 case "Steer.ApA.TextThrustValue": return ioSystemGraphicsType.Puid_Steer_ApA_TextThrustValue;
                 case "Steer.ApA.LabelThrust": return ioSystemGraphicsType.Puid_Steer_ApA_LabelThrust;
-                case "Steer.CpM.CommandNew": return ioSystemGraphicsType.Puid_Steer_CpM_CommandNew;
+                case "Steer.CpM.CommandNoRef": return ioSystemGraphicsType.Puid_Steer_CpM_CommandNoRef;
+                case "Steer.CpM.ModeNoRef": return ioSystemGraphicsType.Puid_Steer_CpM_ModeNoRef;
+                case "Steer.CpA.CommandNoRef": return ioSystemGraphicsType.Puid_Steer_CpA_CommandNoRef;
+                case "Steer.CpA.ModeNoRef": return ioSystemGraphicsType.Puid_Steer_CpA_ModeNoRef;
+                case "Steer.CpM.Command": return ioSystemGraphicsType.Puid_Steer_CpM_Command;
                 case "Steer.CpM.Mode": return ioSystemGraphicsType.Puid_Steer_CpM_Mode;
                 case "Steer.CpM.Reference": return ioSystemGraphicsType.Puid_Steer_CpM_Reference;
                 case "Steer.CpA.Command": return ioSystemGraphicsType.Puid_Steer_CpA_Command;
@@ -1614,7 +1626,7 @@ namespace ioSystemNetworkNet
         }
         public static ioSystemGraphicsType GetPuid(Int32 puidValue)
         {
-            if ((puidValue >= 0) && (puidValue < 531))
+            if ((puidValue >= 0) && (puidValue < 535))
                 return (ioSystemGraphicsType)puidValue;
             else
                 return ioSystemGraphicsType.Puid_NotDefined;

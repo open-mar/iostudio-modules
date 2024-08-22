@@ -20,6 +20,7 @@ void SteerProgControl::Run(Int32 activeSlot)
 }
 void SteerProgControl::ReceiveData(ioDataCollection* listData, ioData* data)
 {
+    ioVarInt32 in1_Int32;
     if (listData == NULL) {}
     if (data == NULL) {}
     else if (data == &DataApM.OnRequestSteerData)
@@ -50,6 +51,11 @@ void SteerProgControl::ReceiveData(ioDataCollection* listData, ioData* data)
         SendData(&DataControlCpM.OnChangeCommand, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
         SendData(&DataControlCpA.OnChangeCommand, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
     }
+    else if (data == &DataControlCpM.ModeStandby)
+    {
+        in1_Int32.SetValueVar(&DataControlCpM.SteerMode);
+        OnRecvMode(&in1_Int32);
+    }
 }
 void SteerProgControl::OnRecvRequestSteerDataApM(void)
 {
@@ -65,4 +71,8 @@ void SteerProgControl::OnRecvTakeCommandCpA(void)
 }
 void SteerProgControl::OnRecvReleaseCpA(void)
 {
+}
+void SteerProgControl::OnRecvMode(ioVarInt32* modeCmd)
+{
+    if (modeCmd == NULL) {};
 }

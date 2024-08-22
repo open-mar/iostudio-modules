@@ -2,6 +2,7 @@
 #include "pch.h"
 #pragma hdrstop
 #include "CmdModeRefPanelCpA.h"
+#include "Programs/ioSystemGraphics.h"
 CmdModeRefPanelCpA::CmdModeRefPanelCpA()
 {
     InitializeData();

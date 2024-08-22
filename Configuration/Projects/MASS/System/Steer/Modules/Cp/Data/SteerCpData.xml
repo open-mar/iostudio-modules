@@ -1,6 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DataList Name="SteerCpData">
     <Description>Data for motion steering control</Description>
+    <Properties>
+        <Enumeration LocalID="SteerModeType">
+            <Type Name="STANDBY" TypeID="0"/>
+            <Type Name="RIVER" TypeID="1"/>
+            <Type Name="AUTO" TypeID="2"/>
+            <Type Name="TRACK" TypeID="3"/>
+            <Type Name="WORK" TypeID="4"/>
+            <Type Name="DP" TypeID="5"/>
+        </Enumeration>
+        <Enumeration LocalID="ActiveStationType">
+            <Type Name="CMD at Aft Cockpit" TypeID="0"/>
+            <Type Name="CMD at Mid Deckhouse" TypeID="1"/>
+        </Enumeration>
+    </Properties>
     <DataListObject ParentGlobalID="Steer.CpM">
         <Method LocalID="TakeCommand" />
         <Method LocalID="ModeDp" />

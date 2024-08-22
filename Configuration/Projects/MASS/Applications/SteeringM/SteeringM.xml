@@ -22,6 +22,9 @@
                 <LeftView>
                 </LeftView>
                 <MiddleView>
+                    <Grid>
+                        <ioPanelGrid PanelGlobalID="Steer.ApM.SteerApPanel" />
+                    </Grid>
                 </MiddleView>
                 <RightView>
                     <Grid>
@@ -40,6 +43,9 @@
                 <LeftView>
                 </LeftView>
                 <MiddleView>
+                    <Grid>
+                        <ioPanelGrid PanelGlobalID="Steer.ApM.SteerApPanel" />
+                    </Grid>
                 </MiddleView>
                 <RightView>
                     <Grid>
@@ -58,6 +64,9 @@
                 <LeftView>
                 </LeftView>
                 <MiddleView>
+                    <Grid>
+                        <ioPanelGrid PanelGlobalID="Steer.ApM.SteerApPanel" />
+                    </Grid>
                 </MiddleView>
                 <RightView>
                     <Grid>
@@ -76,6 +85,9 @@
                 <LeftView>
                 </LeftView>
                 <MiddleView>
+                    <Grid>
+                        <ioPanelGrid PanelGlobalID="Steer.ApM.SteerApPanel" />
+                    </Grid>
                 </MiddleView>
                 <RightView>
                     <Grid>

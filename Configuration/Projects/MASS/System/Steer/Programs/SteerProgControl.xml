@@ -32,6 +32,12 @@
             <Inputs />
             <Outputs />
         </Function>
+        <Function Name="OnRecvMode">
+            <Inputs>
+                <Argument Name="modeCmd" TypeNum="Int32" />
+            </Inputs>
+            <Outputs />
+        </Function>
     </InternalFunctions>
     <Sequences>
         <Run />
@@ -67,6 +73,13 @@
             </Function>
             <RxTxData NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.OnChangeCommand" PortGlobalID="NetEthernet.192.168.10.Ids.OpM.12" />
             <RxTxData NameClass="SteerCpDataCpA" GlobalID="Steer.CpA.OnChangeCommand" PortGlobalID="NetEthernet.192.168.10.Ids.OpA.13" />
+        </RxTxData>
+        <RxTxData NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.ModeStandby">
+            <Function TypeFunction="Internal">
+                <Call Name="OnRecvMode">
+                    <Input Name="modeCmd" NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.SteerMode" TypeData="Data" />
+                </Call>
+            </Function>
         </RxTxData>
     </Sequences>
 </ProgramClass>

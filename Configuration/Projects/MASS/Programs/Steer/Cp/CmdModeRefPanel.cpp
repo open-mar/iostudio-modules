@@ -2,7 +2,6 @@
 #include "pch.h"
 #pragma hdrstop
 #include "CmdModeRefPanel.h"
-#include "Programs/ioSystemGraphics.h"
 CmdModeRefPanel::CmdModeRefPanel()
 {
 }

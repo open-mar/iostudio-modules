@@ -52,7 +52,9 @@
         <RxTxData NameClass="SteerApDataApM" GlobalID="Steer.ApM.OnChangeRudder" />
         <RxTxData NameClass="SteerApDataApM" GlobalID="Steer.ApM.OnChangeThrust" />
         <RxTxData NameClass="SteerApDataApM" GlobalID="Steer.ApM.OnChangeEngine" />
-        <GraphicsEvent NameClass="ModePanelCpM" GlobalID="Steer.CpM.ButtStandby.Clicked" />
+        <GraphicsEvent NameClass="ModePanelCpM" GlobalID="Steer.CpM.ButtStandby.Clicked">
+            <RxTxData NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.ModeStandby" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
         <GraphicsEvent NameClass="ModePanelCpM" GlobalID="Steer.CpM.ButtCourse.Clicked" />
         <GraphicsEvent NameClass="ModePanelCpM" GlobalID="Steer.CpM.ButtWork.Clicked" />
     </Sequences>

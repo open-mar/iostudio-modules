@@ -19,6 +19,7 @@ public:
     virtual void OnRecvReleaseCpM(void);
     virtual void OnRecvTakeCommandCpA(void);
     virtual void OnRecvReleaseCpA(void);
+    virtual void OnRecvMode(ioVarInt32* modeCmd);
     SteerApDataApM DataApM;
     SteerApDataApA DataApA;
     SteerCpDataCpM DataControlCpM;

@@ -38,6 +38,8 @@ void SteerProgOperateA::ReceiveGraphicsEvent(Int32 puidValue, ioProgramGraphicsE
             SendData(&DataCpA.Release, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
         break;
     case Puid_Steer_CpA_ButtStandby:
+        if (typeEvent == ioProgramGraphicsEvent_Clicked)
+            SendData(&DataCpA.ModeStandby, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
         break;
     case Puid_Steer_CpA_ButtCourse:
         break;
