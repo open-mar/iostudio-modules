@@ -2,6 +2,64 @@
 #include "pch.h"
 #pragma hdrstop
 #include "SteerCpData.h"
+SteerModeType::SteerModeType()
+{
+}
+SteerModeType::~SteerModeType()
+{
+}
+Bool SteerModeType::GetActiveText(ioString* enumText)
+{
+    if (enumText == NULL) return FALSE;
+    Int32 activeID = GetValueSigned();
+    switch (activeID)
+    {
+    case 0: enumText->Set((ioChars)"STANDBY"); return TRUE;
+    case 1: enumText->Set((ioChars)"RIVER"); return TRUE;
+    case 2: enumText->Set((ioChars)"AUTO"); return TRUE;
+    case 3: enumText->Set((ioChars)"TRACK"); return TRUE;
+    case 4: enumText->Set((ioChars)"WORK"); return TRUE;
+    case 5: enumText->Set((ioChars)"DP"); return TRUE;
+    default: enumText->Set((ioChars)"NotDefined");  return FALSE;
+    } // switch
+}
+ActiveStationType::ActiveStationType()
+{
+}
+ActiveStationType::~ActiveStationType()
+{
+}
+Bool ActiveStationType::GetActiveText(ioString* enumText)
+{
+    if (enumText == NULL) return FALSE;
+    Int32 activeID = GetValueSigned();
+    switch (activeID)
+    {
+    case 0: enumText->Set((ioChars)"CMD at Aft Cockpit"); return TRUE;
+    case 1: enumText->Set((ioChars)"CMD at Mid Deckhouse"); return TRUE;
+    default: enumText->Set((ioChars)"NotDefined");  return FALSE;
+    } // switch
+}
+StationModeType::StationModeType()
+{
+}
+StationModeType::~StationModeType()
+{
+}
+Bool StationModeType::GetActiveText(ioString* enumText)
+{
+    if (enumText == NULL) return FALSE;
+    Int32 activeID = GetValueSigned();
+    switch (activeID)
+    {
+    case 0: enumText->Set((ioChars)"No command"); return TRUE;
+    case 1: enumText->Set((ioChars)"Taken"); return TRUE;
+    case 2: enumText->Set((ioChars)"Remote control"); return TRUE;
+    case 3: enumText->Set((ioChars)"Taken and locked"); return TRUE;
+    case 4: enumText->Set((ioChars)"Take over request"); return TRUE;
+    default: enumText->Set((ioChars)"NotDefined");  return FALSE;
+    } // switch
+}
 SteerCpData::SteerCpData()
 {
 }

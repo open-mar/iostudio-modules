@@ -3,16 +3,23 @@
     <Description>Data for motion steering control</Description>
     <Properties>
         <Enumeration LocalID="SteerModeType">
-            <Type Name="STANDBY" TypeID="0"/>
-            <Type Name="RIVER" TypeID="1"/>
-            <Type Name="AUTO" TypeID="2"/>
-            <Type Name="TRACK" TypeID="3"/>
-            <Type Name="WORK" TypeID="4"/>
-            <Type Name="DP" TypeID="5"/>
+            <Type Name="STANDBY" TypeID="0" />
+            <Type Name="RIVER" TypeID="1" />
+            <Type Name="AUTO" TypeID="2" />
+            <Type Name="TRACK" TypeID="3" />
+            <Type Name="WORK" TypeID="4" />
+            <Type Name="DP" TypeID="5" />
         </Enumeration>
         <Enumeration LocalID="ActiveStationType">
-            <Type Name="CMD at Aft Cockpit" TypeID="0"/>
-            <Type Name="CMD at Mid Deckhouse" TypeID="1"/>
+            <Type Name="CMD at Aft Cockpit" TypeID="0" />
+            <Type Name="CMD at Mid Deckhouse" TypeID="1" />
+        </Enumeration>
+        <Enumeration LocalID="StationModeType">
+            <Type Name="No command" TypeID="0" />
+            <Type Name="Taken" TypeID="1" />
+            <Type Name="Remote control" TypeID="2" />
+            <Type Name="Taken and locked" TypeID="3" />
+            <Type Name="Take over request" TypeID="4" />
         </Enumeration>
     </Properties>
     <DataListObject ParentGlobalID="Steer.CpM">
@@ -23,7 +30,7 @@
         <Method LocalID="ModeWork" />
         <Method LocalID="ModeAuto" />
         <Method LocalID="ModeStandby" />
-        <Variable LocalID="SteerMode" TypeNum="Int32">0</Variable>
+        <Variable LocalID="SteerMode" TypeEnumeration="SteerModeType">0</Variable>
         <Method LocalID="Release" />
         <Event LocalID="OnChangeCommand">
             <NumberID>ActiveStation</NumberID>
@@ -38,8 +45,8 @@
         <Method LocalID="LeftBig" />
         <Method LocalID="RightBig" />
         <Method LocalID="EncoderNumber" />
-        <Variable LocalID="ActiveStation" TypeNum="Int32">0</Variable>
-        <Variable LocalID="StationMode" TypeNum="Int32">0</Variable>
+        <Variable LocalID="ActiveStation" TypeEnumeration="ActiveStationType">1</Variable>
+        <Variable LocalID="StationMode" TypeEnumeration="StationModeType">0</Variable>
     </DataListObject>
     <DataListObject ParentGlobalID="Steer.CpA">
         <Method LocalID="TakeCommand" />
@@ -49,7 +56,7 @@
         <Method LocalID="ModeWork" />
         <Method LocalID="ModeAuto" />
         <Method LocalID="ModeStandby" />
-        <Variable LocalID="SteerMode" TypeNum="Int32">0</Variable>
+        <Variable LocalID="SteerMode" TypeEnumeration="SteerModeType">0</Variable>
         <Method LocalID="Release" />
         <Event LocalID="OnChangeCommand">
             <NumberID>ActiveStation</NumberID>
@@ -64,7 +71,7 @@
         <Method LocalID="LeftBig" />
         <Method LocalID="RightBig" />
         <Method LocalID="EncoderNumber" />
-        <Variable LocalID="ActiveStation" TypeNum="Int32">0</Variable>
-        <Variable LocalID="StationMode" TypeNum="Int32">0</Variable>
+        <Variable LocalID="ActiveStation" TypeEnumeration="ActiveStationType">0</Variable>
+        <Variable LocalID="StationMode" TypeEnumeration="StationModeType">0</Variable>
     </DataListObject>
 </DataList>

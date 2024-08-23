@@ -4,8 +4,43 @@
 #include "ioSystem/Data/ioDataCollection.h"
 #include "ioSystem/Data/ioVar.h"
 #include "Programs/ioSystemData.h"
+#include "ioSystem/Data/ioEnumeration.h"
 #include "ioSystem/Data/ioEvent.h"
 #include "ioSystem/Data/ioMethod.h"
+class SteerModeType : public ioEnumeration
+{
+public:
+    SteerModeType();
+    virtual ~SteerModeType();
+    virtual Bool GetActiveText(ioString* enumText);
+    static const Int32 STANDBY = 0;
+    static const Int32 RIVER = 1;
+    static const Int32 AUTO = 2;
+    static const Int32 TRACK = 3;
+    static const Int32 WORK = 4;
+    static const Int32 DP = 5;
+};
+class ActiveStationType : public ioEnumeration
+{
+public:
+    ActiveStationType();
+    virtual ~ActiveStationType();
+    virtual Bool GetActiveText(ioString* enumText);
+    static const Int32 CMD_AT_AFT_COCKPIT = 0;
+    static const Int32 CMD_AT_MID_DECKHOUSE = 1;
+};
+class StationModeType : public ioEnumeration
+{
+public:
+    StationModeType();
+    virtual ~StationModeType();
+    virtual Bool GetActiveText(ioString* enumText);
+    static const Int32 NO_COMMAND = 0;
+    static const Int32 TAKEN = 1;
+    static const Int32 REMOTE_CONTROL = 2;
+    static const Int32 TAKEN_AND_LOCKED = 3;
+    static const Int32 TAKE_OVER_REQUEST = 4;
+};
 class SteerCpData : public ioDataCollectionDynamic
 {
 public:
@@ -19,7 +54,7 @@ public:
     ioMethod ModeWork;
     ioMethod ModeAuto;
     ioMethod ModeStandby;
-    ioVarInt32 SteerMode;
+    SteerModeType SteerMode;
     ioMethod Release;
     ioEvent OnChangeCommand;
     ioEvent OnChangeSteerMode;
@@ -29,8 +64,8 @@ public:
     ioMethod LeftBig;
     ioMethod RightBig;
     ioMethod EncoderNumber;
-    ioVarInt32 ActiveStation;
-    ioVarInt32 StationMode;
+    ActiveStationType ActiveStation;
+    StationModeType StationMode;
 protected:
     ioData* m_ListData[19];
     ioVar* m_OnChangeCommandVars[2];
