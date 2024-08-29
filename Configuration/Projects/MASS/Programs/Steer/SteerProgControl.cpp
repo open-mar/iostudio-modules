@@ -53,6 +53,7 @@ void SteerProgControl::ReceiveData(ioDataCollection* listData, ioData* data)
     }
     else if (data == &DataControlCpM.ModeStandby)
     {
+        DataControlCpM.SteerMode.SetValue(0);
         in1_Int32.SetValueVar(&DataControlCpM.SteerMode);
         OnRecvMode(&in1_Int32);
     }

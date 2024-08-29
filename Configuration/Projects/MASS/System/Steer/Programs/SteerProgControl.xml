@@ -75,6 +75,7 @@
             <RxTxData NameClass="SteerCpDataCpA" GlobalID="Steer.CpA.OnChangeCommand" PortGlobalID="NetEthernet.192.168.10.Ids.OpA.13" />
         </RxTxData>
         <RxTxData NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.ModeStandby">
+            <SetConstant NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.SteerMode">0</SetConstant>
             <Function TypeFunction="Internal">
                 <Call Name="OnRecvMode">
                     <Input Name="modeCmd" NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.SteerMode" TypeData="Data" />
