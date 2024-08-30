@@ -17,9 +17,9 @@ void CommandPanelCpM::InitializeData(void)
     HeaderCommandPanel.SetTextForced((ioChars)"COMMAND MID DECKHOUSE");
     AddGraphics(&ShapeCommandStatus, Puid_Steer_CpM_ShapeCommandStatus);
     AddGraphics(&LabelCommandStatus, Puid_Steer_CpM_LabelCommandStatus);
-    LabelCommandStatus.SetTextForced((ioChars)"AUTO");
+    LabelCommandStatus.SetTextForced((ioChars)"OFF");
     AddGraphics(&TextCommandStatus, Puid_Steer_CpM_TextCommandStatus);
-    TextCommandStatus.SetTextForced((ioChars)"CMD at CP1 Deckhouse");
+    TextCommandStatus.SetTextForced((ioChars)"No station in command");
     TextCommandStatus.SetDecimals(1);
     AddGraphics(&ButtTakeRequest, Puid_Steer_CpM_ButtTakeRequest);
     ButtTakeRequest.SetTextForced((ioChars)"Take");

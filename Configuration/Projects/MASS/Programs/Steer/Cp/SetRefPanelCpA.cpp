@@ -2,6 +2,7 @@
 #include "pch.h"
 #pragma hdrstop
 #include "SetRefPanelCpA.h"
+#include "Programs/ioSystemGraphics.h"
 SetRefPanelCpA::SetRefPanelCpA()
 {
     InitializeData();
@@ -12,11 +13,18 @@ SetRefPanelCpA::~SetRefPanelCpA()
 void SetRefPanelCpA::InitializeData(void)
 {
     SetRefPanel::InitializeData();
-    LabelHeader.SetTextForced((ioChars)"SET REFERENCE PANEL CP2");
+    AddGraphics(&LabelHeader, Puid_Steer_CpA_LabelHeader);
+    LabelHeader.SetTextForced((ioChars)"SET REFERENCE AFT COCKPIT");
+    AddGraphics(&ButtonLeftSmall, Puid_Steer_CpA_ButtonLeftSmall);
     ButtonLeftSmall.SetTextForced((ioChars)"-1");
+    AddGraphics(&ButtMidZero, Puid_Steer_CpA_ButtMidZero);
     ButtMidZero.SetTextForced((ioChars)"0");
+    AddGraphics(&ButtRightSmall, Puid_Steer_CpA_ButtRightSmall);
     ButtRightSmall.SetTextForced((ioChars)"+1");
+    AddGraphics(&EncoderNumber, Puid_Steer_CpA_EncoderNumber);
     EncoderNumber.SetTextForced((ioChars)"0");
+    AddGraphics(&ButtLeftBig, Puid_Steer_CpA_ButtLeftBig);
     ButtLeftBig.SetTextForced((ioChars)"-10");
+    AddGraphics(&ButtRightBig, Puid_Steer_CpA_ButtRightBig);
     ButtRightBig.SetTextForced((ioChars)"+10");
 }

@@ -14,12 +14,10 @@ public:
     virtual void InitializeTask(void);
     virtual void Run(Int32 activeSlot);
     virtual void ReceiveData(ioDataCollection* listData, ioData* data);
-    virtual void OnRecvRequestSteerDataApM(void);
-    virtual void OnRecvTakeCommandCpM(void);
-    virtual void OnRecvReleaseCpM(void);
-    virtual void OnRecvTakeCommandCpA(void);
-    virtual void OnRecvReleaseCpA(void);
-    virtual void OnRecvMode(ioVarInt32* modeCmd);
+    virtual void OnRecvRequestSteerData(ioVarInt32* sender);
+    virtual void OnRecvTakeCommand(ioVarInt32* sender);
+    virtual void OnRecvRelease(ioVarInt32* sender);
+    virtual void OnRecvSteerMode(ioVarInt32* sender, ioVarInt32* steerMode);
     SteerApDataApM DataApM;
     SteerApDataApA DataApA;
     SteerCpDataCpM DataControlCpM;

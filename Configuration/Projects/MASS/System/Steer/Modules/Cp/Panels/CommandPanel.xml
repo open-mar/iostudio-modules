@@ -20,20 +20,20 @@
         </Grid>
         <Grid Row="2" Column="2" IsStacked="TRUE" Orientation="Vertical">
             <ioLabel LocalID="LabelCommandStatus">
-                <Properties Text="AUTO" TypeLabel="Large" TypeColor="ElementActive" TextWrapping="NoWrap" />
+                <Properties Text="OFF" TypeLabel="Large" TypeColor="ElementActive" TextWrapping="NoWrap" />
             </ioLabel>
             <ioTextBlock LocalID="TextCommandStatus">
-                <Properties Text="CMD at CP1 Deckhouse" TypeColor="AutomationDevicePrimary" FontFamily="NotoSans" FontSize="Small" FontWeight="Normal" TextWrapping="NoWrap" Decimals="1" TextAlignment="Left" />
+                <Properties Text="No station in command" TypeColor="AutomationDevicePrimary" FontFamily="NotoSans" FontSize="Small" FontWeight="Normal" TextWrapping="NoWrap" Decimals="1" TextAlignment="Left" />
             </ioTextBlock>
         </Grid>
         <Grid Row="3" Column="1">
             <ioButtonShape LocalID="ButtTakeRequest">
-                <Properties Text="Take" TypeColor="Flat" TypeShape="Command" ShapeID="TakeCommand" />
+                <Properties Text="Take" TypeColor="Normal" TypeShape="Command" ShapeID="TakeCommand" />
             </ioButtonShape>
         </Grid>
         <Grid Row="3" Column="2">
             <ioButtonShape LocalID="ButtRelease">
-                <Properties Text="Release" TypeColor="Raised" TypeShape="Command" ShapeID="NotInCommand" />
+                <Properties Text="Release" TypeColor="Flat" TypeShape="Command" ShapeID="NotInCommand" />
             </ioButtonShape>
         </Grid>
     </PanelObject>
@@ -56,15 +56,15 @@
         </Grid>
         <Grid Row="2" Column="2" IsStacked="TRUE" Orientation="Vertical">
             <ioLabel LocalID="LabelCommandStatus">
-                <Properties Text="NO CMD" TypeLabel="Large" TypeColor="ElementActive" TextWrapping="NoWrap" />
+                <Properties Text="OFF" TypeLabel="Large" TypeColor="ElementActive" TextWrapping="NoWrap" />
             </ioLabel>
             <ioTextBlock LocalID="TextCommandStatus">
-                <Properties Text="CMD at CP1 Deckhouse" TypeColor="AutomationDevicePrimary" FontFamily="NotoSans" FontSize="Small" FontWeight="Normal" TextWrapping="NoWrap" Decimals="1" TextAlignment="Left" />
+                <Properties Text="No station in command" TypeColor="AutomationDevicePrimary" FontFamily="NotoSans" FontSize="Small" FontWeight="Normal" TextWrapping="NoWrap" Decimals="1" TextAlignment="Left" />
             </ioTextBlock>
         </Grid>
         <Grid Row="3" Column="1">
             <ioButtonShape LocalID="ButtTakeRequest">
-                <Properties Text="Take" TypeColor="Flat" TypeShape="Command" ShapeID="TakeCommand" />
+                <Properties Text="Take" TypeColor="Normal" TypeShape="Command" ShapeID="TakeCommand" />
             </ioButtonShape>
         </Grid>
         <Grid Row="3" Column="2">

@@ -2,6 +2,7 @@
 #include "pch.h"
 #pragma hdrstop
 #include "ModePanelCpM.h"
+#include "Programs/ioSystemGraphics.h"
 ModePanelCpM::ModePanelCpM()
 {
     InitializeData();
@@ -12,4 +13,18 @@ ModePanelCpM::~ModePanelCpM()
 void ModePanelCpM::InitializeData(void)
 {
     ModePanel::InitializeData();
+    AddGraphics(&HeaderModeControl, Puid_Steer_CpM_HeaderModeControl);
+    HeaderModeControl.SetTextForced((ioChars)"MODE CONTROL MID DECKHOUSE");
+    AddGraphics(&ButtDp, Puid_Steer_CpM_ButtDp);
+    ButtDp.SetTextForced((ioChars)"DP");
+    AddGraphics(&ButtTrack, Puid_Steer_CpM_ButtTrack);
+    ButtTrack.SetTextForced((ioChars)"TRACK");
+    AddGraphics(&ButtRiver, Puid_Steer_CpM_ButtRiver);
+    ButtRiver.SetTextForced((ioChars)"RIVER");
+    AddGraphics(&ButtWork, Puid_Steer_CpM_ButtWork);
+    ButtWork.SetTextForced((ioChars)"WORK");
+    AddGraphics(&ButtCourse, Puid_Steer_CpM_ButtCourse);
+    ButtCourse.SetTextForced((ioChars)"AUTO");
+    AddGraphics(&ButtStandby, Puid_Steer_CpM_ButtStandby);
+    ButtStandby.SetTextForced((ioChars)"STANDBY");
 }

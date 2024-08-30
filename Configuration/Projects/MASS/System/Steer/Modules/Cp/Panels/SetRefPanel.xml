@@ -11,7 +11,7 @@
         <ColumnDefinition />
         <Grid Row="1" Column="1" SpanColumns="3">
             <ioLabel LocalID="LabelHeader">
-                <Properties Text="SET REFERENCE PANEL CP1" TypeLabel="OVERLINE" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                <Properties Text="SET REFERENCE MID DECKHOUSE" TypeLabel="OVERLINE" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
         </Grid>
         <Grid Row="1" Column="2" />
@@ -60,7 +60,7 @@
         <ColumnDefinition />
         <Grid Row="1" Column="1" SpanColumns="3">
             <ioLabel LocalID="LabelHeader">
-                <Properties Text="SET REFERENCE PANEL CP2" TypeLabel="OVERLINE" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                <Properties Text="SET REFERENCE AFT COCKPIT" TypeLabel="OVERLINE" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
         </Grid>
         <Grid Row="1" Column="2" />

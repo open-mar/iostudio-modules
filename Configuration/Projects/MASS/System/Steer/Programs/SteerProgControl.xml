@@ -12,29 +12,34 @@
         </DataListProgram>
     </DataItemsCollection>
     <InternalFunctions>
-        <Function Name="OnRecvTakeCommandCpM">
-            <Inputs />
-            <Outputs />
-        </Function>
-        <Function Name="OnRecvReleaseCpM">
-            <Inputs />
-            <Outputs />
-        </Function>
-        <Function Name="OnRecvRequestSteerDataApM">
-            <Inputs />
-            <Outputs />
-        </Function>
-        <Function Name="OnRecvTakeCommandCpA">
-            <Inputs />
-            <Outputs />
-        </Function>
-        <Function Name="OnRecvReleaseCpA">
-            <Inputs />
-            <Outputs />
-        </Function>
-        <Function Name="OnRecvMode">
+        <Function Name="OnRecvTakeCommand">
             <Inputs>
-                <Argument Name="modeCmd" TypeNum="Int32" />
+                <Argument Name="sender" TypeNum="Int32" TypeEnumeration="ActiveStationType" />
+            </Inputs>
+            <Outputs />
+        </Function>
+        <Function Name="OnRecvRelease">
+            <Inputs>
+                <Argument Name="sender" TypeNum="Int32" TypeEnumeration="ActiveStationType" />
+            </Inputs>
+            <Outputs />
+        </Function>
+        <Function Name="OnRecvRequestSteerData">
+            <Inputs>
+                <Argument Name="sender" TypeNum="Int32" TypeEnumeration="ActiveStationType" />
+            </Inputs>
+            <Outputs />
+        </Function>
+        <Function Name="OnRecvRequestSteerData">
+            <Inputs>
+                <Argument Name="sender" TypeNum="Int32" TypeEnumeration="ActiveStationType" />
+            </Inputs>
+            <Outputs />
+        </Function>
+        <Function Name="OnRecvSteerMode">
+            <Inputs>
+                <Argument Name="sender" TypeNum="Int32" TypeEnumeration="ActiveStationType" />
+                <Argument Name="steerMode" TypeNum="Int32" TypeEnumeration="SteerModeType" />
             </Inputs>
             <Outputs />
         </Function>
@@ -43,44 +48,86 @@
         <Run />
         <RxTxData NameClass="SteerApDataApM" GlobalID="Steer.ApM.OnRequestSteerData">
             <Function TypeFunction="Internal">
-                <Call Name="OnRecvRequestSteerDataApM" />
+                <Call Name="OnRecvRequestSteerData">
+                    <Input Name="sender">1</Input>
+                </Call>
             </Function>
         </RxTxData>
         <RxTxData NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.TakeCommand">
             <Function TypeFunction="Internal">
-                <Call Name="OnRecvTakeCommandCpM" />
+                <Call Name="OnRecvTakeCommand">
+                    <Input Name="sender">1</Input>
+                </Call>
             </Function>
             <RxTxData NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.OnChangeCommand" PortGlobalID="NetEthernet.192.168.10.Ids.OpM.12" />
             <RxTxData NameClass="SteerCpDataCpA" GlobalID="Steer.CpA.OnChangeCommand" PortGlobalID="NetEthernet.192.168.10.Ids.OpA.13" />
         </RxTxData>
         <RxTxData NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.Release">
             <Function TypeFunction="Internal">
-                <Call Name="OnRecvReleaseCpM" />
+                <Call Name="OnRecvRelease">
+                    <Input Name="sender">1</Input>
+                </Call>
             </Function>
             <RxTxData NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.OnChangeCommand" PortGlobalID="NetEthernet.192.168.10.Ids.OpM.12" />
             <RxTxData NameClass="SteerCpDataCpA" GlobalID="Steer.CpA.OnChangeCommand" PortGlobalID="NetEthernet.192.168.10.Ids.OpA.13" />
         </RxTxData>
         <RxTxData NameClass="SteerCpDataCpA" GlobalID="Steer.CpA.TakeCommand">
             <Function TypeFunction="Internal">
-                <Call Name="OnRecvTakeCommandCpA" />
+                <Call Name="OnRecvTakeCommand">
+                    <Input Name="sender">0</Input>
+                </Call>
             </Function>
             <RxTxData NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.OnChangeCommand" PortGlobalID="NetEthernet.192.168.10.Ids.OpM.12" />
             <RxTxData NameClass="SteerCpDataCpA" GlobalID="Steer.CpA.OnChangeCommand" PortGlobalID="NetEthernet.192.168.10.Ids.OpA.13" />
         </RxTxData>
         <RxTxData NameClass="SteerCpDataCpA" GlobalID="Steer.CpA.Release">
             <Function TypeFunction="Internal">
-                <Call Name="OnRecvReleaseCpA" />
+                <Call Name="OnRecvRelease">
+                    <Input Name="sender">0</Input>
+                </Call>
             </Function>
             <RxTxData NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.OnChangeCommand" PortGlobalID="NetEthernet.192.168.10.Ids.OpM.12" />
             <RxTxData NameClass="SteerCpDataCpA" GlobalID="Steer.CpA.OnChangeCommand" PortGlobalID="NetEthernet.192.168.10.Ids.OpA.13" />
         </RxTxData>
         <RxTxData NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.ModeStandby">
-            <SetConstant NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.SteerMode">0</SetConstant>
             <Function TypeFunction="Internal">
-                <Call Name="OnRecvMode">
-                    <Input Name="modeCmd" NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.SteerMode" TypeData="Data" />
+                <Call Name="OnRecvSteerMode">
+                    <Input Name="sender">1</Input>
+                    <Input Name="steerMode">0</Input>
                 </Call>
             </Function>
+            <RxTxData NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.OnChangeSteerMode" PortGlobalID="NetEthernet.192.168.10.Ids.OpM.12" />
+            <RxTxData NameClass="SteerCpDataCpA" GlobalID="Steer.CpA.OnChangeSteerMode" PortGlobalID="NetEthernet.192.168.10.Ids.OpA.13" />
+        </RxTxData>
+        <RxTxData NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.ModeAuto">
+            <Function TypeFunction="Internal">
+                <Call Name="OnRecvSteerMode">
+                    <Input Name="sender">1</Input>
+                    <Input Name="steerMode">2</Input>
+                </Call>
+            </Function>
+            <RxTxData NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.OnChangeSteerMode" PortGlobalID="NetEthernet.192.168.10.Ids.OpM.12" />
+            <RxTxData NameClass="SteerCpDataCpA" GlobalID="Steer.CpA.OnChangeSteerMode" PortGlobalID="NetEthernet.192.168.10.Ids.OpA.13" />
+        </RxTxData>
+        <RxTxData NameClass="SteerCpDataCpA" GlobalID="Steer.CpA.ModeStandby">
+            <Function TypeFunction="Internal">
+                <Call Name="OnRecvSteerMode">
+                    <Input Name="sender">0</Input>
+                    <Input Name="steerMode">0</Input>
+                </Call>
+            </Function>
+            <RxTxData NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.OnChangeSteerMode" PortGlobalID="NetEthernet.192.168.10.Ids.OpM.12" />
+            <RxTxData NameClass="SteerCpDataCpA" GlobalID="Steer.CpA.OnChangeSteerMode" PortGlobalID="NetEthernet.192.168.10.Ids.OpA.13" />
+        </RxTxData>
+        <RxTxData NameClass="SteerCpDataCpA" GlobalID="Steer.CpA.ModeAuto">
+            <Function TypeFunction="Internal">
+                <Call Name="OnRecvSteerMode">
+                    <Input Name="sender">0</Input>
+                    <Input Name="steerMode">2</Input>
+                </Call>
+            </Function>
+            <RxTxData NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.OnChangeSteerMode" PortGlobalID="NetEthernet.192.168.10.Ids.OpM.12" />
+            <RxTxData NameClass="SteerCpDataCpA" GlobalID="Steer.CpA.OnChangeSteerMode" PortGlobalID="NetEthernet.192.168.10.Ids.OpA.13" />
         </RxTxData>
     </Sequences>
 </ProgramClass>

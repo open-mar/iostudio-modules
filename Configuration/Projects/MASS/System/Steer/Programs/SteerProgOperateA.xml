@@ -55,7 +55,8 @@
         <GraphicsEvent NameClass="ModePanelCpA" GlobalID="Steer.CpA.ButtStandby.Clicked">
             <RxTxData NameClass="SteerCpDataCpA" GlobalID="Steer.CpA.ModeStandby" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
         </GraphicsEvent>
-        <GraphicsEvent NameClass="ModePanelCpA" GlobalID="Steer.CpA.ButtCourse.Clicked" />
-        <GraphicsEvent NameClass="ModePanelCpA" GlobalID="Steer.CpA.ButtWork.Clicked" />
+        <GraphicsEvent NameClass="ModePanelCpA" GlobalID="Steer.CpA.ButtCourse.Clicked">
+            <RxTxData NameClass="SteerCpDataCpA" GlobalID="Steer.CpA.ModeAuto" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
     </Sequences>
 </ProgramClass>

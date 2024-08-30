@@ -10,4 +10,5 @@ ModePanel::~ModePanel()
 }
 void ModePanel::InitializeData(void)
 {
+    m_PanelGraphics.SetListData((ioItem**)m_ModePanelGraphics, 7);
 }

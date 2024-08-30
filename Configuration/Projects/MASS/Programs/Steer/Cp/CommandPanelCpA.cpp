@@ -17,9 +17,9 @@ void CommandPanelCpA::InitializeData(void)
     HeaderCommandPanel.SetTextForced((ioChars)"COMMAND AFT COCKPIT");
     AddGraphics(&ShapeCommandStatus, Puid_Steer_CpA_ShapeCommandStatus);
     AddGraphics(&LabelCommandStatus, Puid_Steer_CpA_LabelCommandStatus);
-    LabelCommandStatus.SetTextForced((ioChars)"NO CMD");
+    LabelCommandStatus.SetTextForced((ioChars)"OFF");
     AddGraphics(&TextCommandStatus, Puid_Steer_CpA_TextCommandStatus);
-    TextCommandStatus.SetTextForced((ioChars)"CMD at CP1 Deckhouse");
+    TextCommandStatus.SetTextForced((ioChars)"No station in command");
     TextCommandStatus.SetDecimals(1);
     AddGraphics(&ButtTakeRequest, Puid_Steer_CpA_ButtTakeRequest);
     ButtTakeRequest.SetTextForced((ioChars)"Take");

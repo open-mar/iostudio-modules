@@ -17,5 +17,7 @@ public:
     ioButtonShape ButtWork;
     ioButtonShape ButtCourse;
     ioButtonShape ButtStandby;
+protected:
+    ioGraphics* m_ModePanelGraphics[7];
 };
 #endif // __MODEPANEL_H
