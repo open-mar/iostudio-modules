@@ -14,7 +14,7 @@ void CommandPanelCpA::InitializeData(void)
 {
     CommandPanel::InitializeData();
     AddGraphics(&HeaderCommandPanel, Puid_Steer_CpA_HeaderCommandPanel);
-    HeaderCommandPanel.SetTextForced((ioChars)"COMMAND AFT COCKPIT");
+    HeaderCommandPanel.SetTextForced((ioChars)"COMMAND STEERING AFT COCKPIT");
     AddGraphics(&ShapeCommandStatus, Puid_Steer_CpA_ShapeCommandStatus);
     AddGraphics(&LabelCommandStatus, Puid_Steer_CpA_LabelCommandStatus);
     LabelCommandStatus.SetTextForced((ioChars)"OFF");

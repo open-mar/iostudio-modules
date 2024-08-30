@@ -45,7 +45,9 @@ The use of the files is limited by the [terms of the OpenBridge project](https:/
 
 |ShapeID|ioShape|
 |-----|---|
+|AcDc|![ioShape](Automation/AcDc.svg)|
 |BatteryPack|![ioShape](Automation/BatteryPack.svg)|
+|DcDc|![ioShape](Automation/DcDc.svg)|
 |EthernetSwitch|![ioShape](Automation/EthernetSwitch.svg)|
 |Forward|![ioShape](Automation/Forward.svg)|
 |ForwardStopped|![ioShape](Automation/ForwardStopped.svg)|

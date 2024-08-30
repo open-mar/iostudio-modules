@@ -60,485 +60,499 @@ namespace ioSystemNetworkNet
         Puid_Ids_CcA_ShapeInCommand = 53,
         Puid_Pow_PowPanelRow1 = 54,
         Puid_Pow_PowPanelCol1 = 55,
-        Puid_Pow_Out12M_GridCh1 = 56,
-        Puid_Pow_Out12M_ButtOnCh1 = 57,
-        Puid_Pow_Out12M_ButtOffCh1 = 58,
-        Puid_Pow_Out12M_IconCh1 = 59,
-        Puid_Pow_Out12M_LabelCh1 = 60,
-        Puid_Pow_Out12M_GridCh2 = 61,
-        Puid_Pow_Out12M_ButtOnCh2 = 62,
-        Puid_Pow_Out12M_ButtOffCh2 = 63,
-        Puid_Pow_Out12M_IconCh2 = 64,
-        Puid_Pow_Out12M_LabelCh2 = 65,
-        Puid_Pow_Out12M_GridCh3 = 66,
-        Puid_Pow_Out12M_ButtOnCh3 = 67,
-        Puid_Pow_Out12M_ButtOffCh3 = 68,
-        Puid_Pow_Out12M_IconCh3 = 69,
-        Puid_Pow_Out12M_LabelCh3 = 70,
-        Puid_Pow_Out12M_GridCh4 = 71,
-        Puid_Pow_Out12M_ButtOnCh4 = 72,
-        Puid_Pow_Out12M_ButtOffCh4 = 73,
-        Puid_Pow_Out12M_IconCh4 = 74,
-        Puid_Pow_Out12M_LabelCh4 = 75,
-        Puid_Pow_Out12M_GridCh5 = 76,
-        Puid_Pow_Out12M_ButtOnCh5 = 77,
-        Puid_Pow_Out12M_ButtOffCh5 = 78,
-        Puid_Pow_Out12M_IconCh5 = 79,
-        Puid_Pow_Out12M_LabelCh5 = 80,
-        Puid_Pow_Out12M_GridCh6 = 81,
-        Puid_Pow_Out12M_ButtOnCh6 = 82,
-        Puid_Pow_Out12M_ButtOffCh6 = 83,
-        Puid_Pow_Out12M_IconCh6 = 84,
-        Puid_Pow_Out12M_LabelCh6 = 85,
-        Puid_Pow_Out12M_GridCh7 = 86,
-        Puid_Pow_Out12M_ButtOnCh7 = 87,
-        Puid_Pow_Out12M_ButtOffCh7 = 88,
-        Puid_Pow_Out12M_IconCh7 = 89,
-        Puid_Pow_Out12M_LabelCh7 = 90,
-        Puid_Pow_Out12M_GridCh8 = 91,
-        Puid_Pow_Out12M_ButtOnCh8 = 92,
-        Puid_Pow_Out12M_ButtOffCh8 = 93,
-        Puid_Pow_Out12M_IconCh8 = 94,
-        Puid_Pow_Out12M_LabelCh8 = 95,
-        Puid_Pow_Out12F_GridCh1 = 96,
-        Puid_Pow_Out12F_ButtOnCh1 = 97,
-        Puid_Pow_Out12F_ButtonOffCh1 = 98,
-        Puid_Pow_Out12F_ShapeCh1 = 99,
-        Puid_Pow_Out12F_LabelCh1 = 100,
-        Puid_Pow_Out12F_GridCh2 = 101,
-        Puid_Pow_Out12F_ButtOnCh2 = 102,
-        Puid_Pow_Out12F_ButtonOffCh2 = 103,
-        Puid_Pow_Out12F_ShapeCh2 = 104,
-        Puid_Pow_Out12F_LabelCh2 = 105,
-        Puid_Pow_Out12F_GridCh3 = 106,
-        Puid_Pow_Out12F_ButtOnCh3 = 107,
-        Puid_Pow_Out12F_ButtonOffCh3 = 108,
-        Puid_Pow_Out12F_ShapeCh3 = 109,
-        Puid_Pow_Out12F_LabelCh3 = 110,
-        Puid_Pow_Out12F_GridCh4 = 111,
-        Puid_Pow_Out12F_ButtOnCh4 = 112,
-        Puid_Pow_Out12F_ButtonOffCh4 = 113,
-        Puid_Pow_Out12F_ShapeCh4 = 114,
-        Puid_Pow_Out12F_LabelCh4 = 115,
-        Puid_Pow_Out12F_GridCh5 = 116,
-        Puid_Pow_Out12F_ButtOnCh5 = 117,
-        Puid_Pow_Out12F_ButtonOffCh5 = 118,
-        Puid_Pow_Out12F_ShapeCh5 = 119,
-        Puid_Pow_Out12F_LabelCh5 = 120,
-        Puid_Pow_Out12F_GridCh6 = 121,
-        Puid_Pow_Out12F_ButtOnCh6 = 122,
-        Puid_Pow_Out12F_ButtonOffCh6 = 123,
-        Puid_Pow_Out12F_ShapeCh6 = 124,
-        Puid_Pow_Out12F_LabelCh6 = 125,
-        Puid_Pow_Out12F_GridCh7 = 126,
-        Puid_Pow_Out12F_ButtOnCh7 = 127,
-        Puid_Pow_Out12F_ButtonOffCh7 = 128,
-        Puid_Pow_Out12F_ShapeCh7 = 129,
-        Puid_Pow_Out12F_LabelCh7 = 130,
-        Puid_Pow_Out12F_GridCh8 = 131,
-        Puid_Pow_Out12F_ButtOnCh8 = 132,
-        Puid_Pow_Out12F_ButtonOffCh8 = 133,
-        Puid_Pow_Out12F_ShapeCh8 = 134,
-        Puid_Pow_Out12F_LabelCh8 = 135,
-        Puid_Pow_Out12A_GridCh1 = 136,
-        Puid_Pow_Out12A_ButtOnCh1 = 137,
-        Puid_Pow_Out12A_ButtonOffCh1 = 138,
-        Puid_Pow_Out12A_ShapeCh1 = 139,
-        Puid_Pow_Out12A_LabelCh1 = 140,
-        Puid_Pow_Out12A_GridCh2 = 141,
-        Puid_Pow_Out12A_ButtOnCh2 = 142,
-        Puid_Pow_Out12A_ButtonOffCh2 = 143,
-        Puid_Pow_Out12A_ShapeCh2 = 144,
-        Puid_Pow_Out12A_LabelCh2 = 145,
-        Puid_Pow_Out12A_GridCh3 = 146,
-        Puid_Pow_Out12A_ButtOnCh3 = 147,
-        Puid_Pow_Out12A_ButtonOffCh3 = 148,
-        Puid_Pow_Out12A_ShapeCh3 = 149,
-        Puid_Pow_Out12A_LabelCh3 = 150,
-        Puid_Pow_Out12A_GridCh4 = 151,
-        Puid_Pow_Out12A_ButtOnCh4 = 152,
-        Puid_Pow_Out12A_ButtonOffCh4 = 153,
-        Puid_Pow_Out12A_ShapeCh4 = 154,
-        Puid_Pow_Out12A_LabelCh4 = 155,
-        Puid_Pow_Out12A_GridCh5 = 156,
-        Puid_Pow_Out12A_ButtOnCh5 = 157,
-        Puid_Pow_Out12A_ButtonOffCh5 = 158,
-        Puid_Pow_Out12A_ShapeCh5 = 159,
-        Puid_Pow_Out12A_LabelCh5 = 160,
-        Puid_Pow_Out12A_GridCh6 = 161,
-        Puid_Pow_Out12A_ButtOnCh6 = 162,
-        Puid_Pow_Out12A_ButtonOffCh6 = 163,
-        Puid_Pow_Out12A_ShapeCh6 = 164,
-        Puid_Pow_Out12A_LabelCh6 = 165,
-        Puid_Pow_Out12A_GridCh7 = 166,
-        Puid_Pow_Out12A_ButtOnCh7 = 167,
-        Puid_Pow_Out12A_ButtonOffCh7 = 168,
-        Puid_Pow_Out12A_ShapeCh7 = 169,
-        Puid_Pow_Out12A_LabelCh7 = 170,
-        Puid_Pow_Out12A_GridCh8 = 171,
-        Puid_Pow_Out12A_ButtOnCh8 = 172,
-        Puid_Pow_Out12A_ButtonOffCh8 = 173,
-        Puid_Pow_Out12A_ShapeCh8 = 174,
-        Puid_Pow_Out12A_LabelCh8 = 175,
-        Puid_Pow_Out24M_GridCh1 = 176,
-        Puid_Pow_Out24M_ButtOnCh1 = 177,
-        Puid_Pow_Out24M_ButtOffCh1 = 178,
-        Puid_Pow_Out24M_IconCh1 = 179,
-        Puid_Pow_Out24M_LabelCh1 = 180,
-        Puid_Pow_Out24M_GridCh2 = 181,
-        Puid_Pow_Out24M_ButtOnCh2 = 182,
-        Puid_Pow_Out24M_ButtOffCh2 = 183,
-        Puid_Pow_Out24M_IconCh2 = 184,
-        Puid_Pow_Out24M_LabelCh2 = 185,
-        Puid_Pow_Out24M_GridCh3 = 186,
-        Puid_Pow_Out24M_ButtOnCh3 = 187,
-        Puid_Pow_Out24M_ButtOffCh3 = 188,
-        Puid_Pow_Out24M_IconCh3 = 189,
-        Puid_Pow_Out24M_LabelCh3 = 190,
-        Puid_Pow_Out24M_GridCh4 = 191,
-        Puid_Pow_Out24M_ButtOnCh4 = 192,
-        Puid_Pow_Out24M_ButtOffCh4 = 193,
-        Puid_Pow_Out24M_IconCh4 = 194,
-        Puid_Pow_Out24M_LabelCh4 = 195,
-        Puid_Pow_Out24M_GridCh5 = 196,
-        Puid_Pow_Out24M_ButtOnCh5 = 197,
-        Puid_Pow_Out24M_ButtOffCh5 = 198,
-        Puid_Pow_Out24M_IconCh5 = 199,
-        Puid_Pow_Out24M_LabelCh5 = 200,
-        Puid_Pow_Out24M_GridCh6 = 201,
-        Puid_Pow_Out24M_ButtOnCh6 = 202,
-        Puid_Pow_Out24M_ButtOffCh6 = 203,
-        Puid_Pow_Out24M_IconCh6 = 204,
-        Puid_Pow_Out24M_LabelCh6 = 205,
-        Puid_Pow_Out24M_GridCh7 = 206,
-        Puid_Pow_Out24M_ButtOnCh7 = 207,
-        Puid_Pow_Out24M_ButtOffCh7 = 208,
-        Puid_Pow_Out24M_IconCh7 = 209,
-        Puid_Pow_Out24M_LabelCh7 = 210,
-        Puid_Pow_Out24M_GridCh8 = 211,
-        Puid_Pow_Out24M_ButtOnCh8 = 212,
-        Puid_Pow_Out24M_ButtOffCh8 = 213,
-        Puid_Pow_Out24M_IconCh8 = 214,
-        Puid_Pow_Out24M_LabelCh8 = 215,
-        Puid_Pow_Out24F_GridCh1 = 216,
-        Puid_Pow_Out24F_ButtOnCh1 = 217,
-        Puid_Pow_Out24F_ButtOffCh1 = 218,
-        Puid_Pow_Out24F_IconCh1 = 219,
-        Puid_Pow_Out24F_LabelCh1 = 220,
-        Puid_Pow_Out24F_GridCh2 = 221,
-        Puid_Pow_Out24F_ButtOnCh2 = 222,
-        Puid_Pow_Out24F_ButtOffCh2 = 223,
-        Puid_Pow_Out24F_IconCh2 = 224,
-        Puid_Pow_Out24F_LabelCh2 = 225,
-        Puid_Pow_Out24F_GridCh3 = 226,
-        Puid_Pow_Out24F_ButtOnCh3 = 227,
-        Puid_Pow_Out24F_ButtOffCh3 = 228,
-        Puid_Pow_Out24F_IconCh3 = 229,
-        Puid_Pow_Out24F_LabelCh3 = 230,
-        Puid_Pow_Out24F_GridCh4 = 231,
-        Puid_Pow_Out24F_ButtOnCh4 = 232,
-        Puid_Pow_Out24F_ButtOffCh4 = 233,
-        Puid_Pow_Out24F_IconCh4 = 234,
-        Puid_Pow_Out24F_LabelCh4 = 235,
-        Puid_Pow_Out24F_GridCh5 = 236,
-        Puid_Pow_Out24F_ButtOnCh5 = 237,
-        Puid_Pow_Out24F_ButtOffCh5 = 238,
-        Puid_Pow_Out24F_IconCh5 = 239,
-        Puid_Pow_Out24F_LabelCh5 = 240,
-        Puid_Pow_Out24F_GridCh6 = 241,
-        Puid_Pow_Out24F_ButtOnCh6 = 242,
-        Puid_Pow_Out24F_ButtOffCh6 = 243,
-        Puid_Pow_Out24F_IconCh6 = 244,
-        Puid_Pow_Out24F_LabelCh6 = 245,
-        Puid_Pow_Out24F_GridCh7 = 246,
-        Puid_Pow_Out24F_ButtOnCh7 = 247,
-        Puid_Pow_Out24F_ButtOffCh7 = 248,
-        Puid_Pow_Out24F_IconCh7 = 249,
-        Puid_Pow_Out24F_LabelCh7 = 250,
-        Puid_Pow_Out24F_GridCh8 = 251,
-        Puid_Pow_Out24F_ButtOnCh8 = 252,
-        Puid_Pow_Out24F_ButtOffCh8 = 253,
-        Puid_Pow_Out24F_IconCh8 = 254,
-        Puid_Pow_Out24F_LabelCh8 = 255,
-        Puid_Pow_Out24A_GridCh1 = 256,
-        Puid_Pow_Out24A_ButtOnCh1 = 257,
-        Puid_Pow_Out24A_ButtOffCh1 = 258,
-        Puid_Pow_Out24A_IconCh1 = 259,
-        Puid_Pow_Out24A_LabelCh1 = 260,
-        Puid_Pow_Out24A_GridCh2 = 261,
-        Puid_Pow_Out24A_ButtOnCh2 = 262,
-        Puid_Pow_Out24A_ButtOffCh2 = 263,
-        Puid_Pow_Out24A_IconCh2 = 264,
-        Puid_Pow_Out24A_LabelCh2 = 265,
-        Puid_Pow_Out24A_GridCh3 = 266,
-        Puid_Pow_Out24A_ButtOnCh3 = 267,
-        Puid_Pow_Out24A_ButtOffCh3 = 268,
-        Puid_Pow_Out24A_IconCh3 = 269,
-        Puid_Pow_Out24A_LabelCh3 = 270,
-        Puid_Pow_Out24A_GridCh4 = 271,
-        Puid_Pow_Out24A_ButtOnCh4 = 272,
-        Puid_Pow_Out24A_ButtOffCh4 = 273,
-        Puid_Pow_Out24A_IconCh4 = 274,
-        Puid_Pow_Out24A_LabelCh4 = 275,
-        Puid_Pow_Out24A_GridCh5 = 276,
-        Puid_Pow_Out24A_ButtOnCh5 = 277,
-        Puid_Pow_Out24A_ButtOffCh5 = 278,
-        Puid_Pow_Out24A_IconCh5 = 279,
-        Puid_Pow_Out24A_LabelCh5 = 280,
-        Puid_Pow_Out24A_GridCh6 = 281,
-        Puid_Pow_Out24A_ButtOnCh6 = 282,
-        Puid_Pow_Out24A_ButtOffCh6 = 283,
-        Puid_Pow_Out24A_IconCh6 = 284,
-        Puid_Pow_Out24A_LabelCh6 = 285,
-        Puid_Pow_Out24A_GridCh7 = 286,
-        Puid_Pow_Out24A_ButtOnCh7 = 287,
-        Puid_Pow_Out24A_ButtOffCh7 = 288,
-        Puid_Pow_Out24A_IconCh7 = 289,
-        Puid_Pow_Out24A_LabelCh7 = 290,
-        Puid_Pow_Out24A_GridCh8 = 291,
-        Puid_Pow_Out24A_ButtOnCh8 = 292,
-        Puid_Pow_Out24A_ButtOffCh8 = 293,
-        Puid_Pow_Out24A_IconCh8 = 294,
-        Puid_Pow_Out24A_LabelCh8 = 295,
-        Puid_Pow_Out220M_GridCh1 = 296,
-        Puid_Pow_Out220M_ButtOnCh1 = 297,
-        Puid_Pow_Out220M_ButtOffCh1 = 298,
-        Puid_Pow_Out220M_IconCh1 = 299,
-        Puid_Pow_Out220M_LabelCh1 = 300,
-        Puid_Pow_Out220M_GridCh2 = 301,
-        Puid_Pow_Out220M_ButtOnCh2 = 302,
-        Puid_Pow_Out220M_ButtOffCh2 = 303,
-        Puid_Pow_Out220M_IconCh2 = 304,
-        Puid_Pow_Out220M_LabelCh2 = 305,
-        Puid_Pow_Out220M_GridCh3 = 306,
-        Puid_Pow_Out220M_ButtOnCh3 = 307,
-        Puid_Pow_Out220M_ButtOffCh3 = 308,
-        Puid_Pow_Out220M_IconCh3 = 309,
-        Puid_Pow_Out220M_LabelCh3 = 310,
-        Puid_Pow_Out220M_GridCh4 = 311,
-        Puid_Pow_Out220M_ButtOnCh4 = 312,
-        Puid_Pow_Out220M_ButtOffCh4 = 313,
-        Puid_Pow_Out220M_IconCh4 = 314,
-        Puid_Pow_Out220M_LabelCh4 = 315,
-        Puid_Pow_Out220M_GridCh5 = 316,
-        Puid_Pow_Out220M_ButtOnCh5 = 317,
-        Puid_Pow_Out220M_ButtOffCh5 = 318,
-        Puid_Pow_Out220M_IconCh5 = 319,
-        Puid_Pow_Out220M_LabelCh5 = 320,
-        Puid_Pow_Out220M_GridCh6 = 321,
-        Puid_Pow_Out220M_ButtOnCh6 = 322,
-        Puid_Pow_Out220M_ButtOffCh6 = 323,
-        Puid_Pow_Out220M_IconCh6 = 324,
-        Puid_Pow_Out220M_LabelCh6 = 325,
-        Puid_Pow_Out220M_GridCh7 = 326,
-        Puid_Pow_Out220M_ButtOnCh7 = 327,
-        Puid_Pow_Out220M_ButtOffCh7 = 328,
-        Puid_Pow_Out220M_IconCh7 = 329,
-        Puid_Pow_Out220M_LabelCh7 = 330,
-        Puid_Pow_Out220M_GridCh8 = 331,
-        Puid_Pow_Out220M_ButtOnCh8 = 332,
-        Puid_Pow_Out220M_ButtOffCh8 = 333,
-        Puid_Pow_Out220M_IconCh8 = 334,
-        Puid_Pow_Out220M_LabelCh8 = 335,
-        Puid_Pow_Out220F_GridCh1 = 336,
-        Puid_Pow_Out220F_ButtOnCh1 = 337,
-        Puid_Pow_Out220F_ButtOffCh1 = 338,
-        Puid_Pow_Out220F_IconCh1 = 339,
-        Puid_Pow_Out220F_LabelCh1 = 340,
-        Puid_Pow_Out220F_GridCh2 = 341,
-        Puid_Pow_Out220F_ButtOnCh2 = 342,
-        Puid_Pow_Out220F_ButtOffCh2 = 343,
-        Puid_Pow_Out220F_IconCh2 = 344,
-        Puid_Pow_Out220F_LabelCh2 = 345,
-        Puid_Pow_Out220F_GridCh3 = 346,
-        Puid_Pow_Out220F_ButtOnCh3 = 347,
-        Puid_Pow_Out220F_ButtOffCh3 = 348,
-        Puid_Pow_Out220F_IconCh3 = 349,
-        Puid_Pow_Out220F_LabelCh3 = 350,
-        Puid_Pow_Out220F_GridCh4 = 351,
-        Puid_Pow_Out220F_ButtOnCh4 = 352,
-        Puid_Pow_Out220F_ButtOffCh4 = 353,
-        Puid_Pow_Out220F_IconCh4 = 354,
-        Puid_Pow_Out220F_LabelCh4 = 355,
-        Puid_Pow_Out220F_GridCh5 = 356,
-        Puid_Pow_Out220F_ButtOnCh5 = 357,
-        Puid_Pow_Out220F_ButtOffCh5 = 358,
-        Puid_Pow_Out220F_IconCh5 = 359,
-        Puid_Pow_Out220F_LabelCh5 = 360,
-        Puid_Pow_Out220F_GridCh6 = 361,
-        Puid_Pow_Out220F_ButtOnCh6 = 362,
-        Puid_Pow_Out220F_ButtOffCh6 = 363,
-        Puid_Pow_Out220F_IconCh6 = 364,
-        Puid_Pow_Out220F_LabelCh6 = 365,
-        Puid_Pow_Out220F_GridCh7 = 366,
-        Puid_Pow_Out220F_ButtOnCh7 = 367,
-        Puid_Pow_Out220F_ButtOffCh7 = 368,
-        Puid_Pow_Out220F_IconCh7 = 369,
-        Puid_Pow_Out220F_LabelCh7 = 370,
-        Puid_Pow_Out220F_GridCh8 = 371,
-        Puid_Pow_Out220F_ButtOnCh8 = 372,
-        Puid_Pow_Out220F_ButtOffCh8 = 373,
-        Puid_Pow_Out220F_IconCh8 = 374,
-        Puid_Pow_Out220F_LabelCh8 = 375,
-        Puid_Pow_Out220A_GridCh1 = 376,
-        Puid_Pow_Out220A_ButtOnCh1 = 377,
-        Puid_Pow_Out220A_ButtOffCh1 = 378,
-        Puid_Pow_Out220A_IconCh1 = 379,
-        Puid_Pow_Out220A_LabelCh1 = 380,
-        Puid_Pow_Out220A_GridCh2 = 381,
-        Puid_Pow_Out220A_ButtOnCh2 = 382,
-        Puid_Pow_Out220A_ButtOffCh2 = 383,
-        Puid_Pow_Out220A_IconCh2 = 384,
-        Puid_Pow_Out220A_LabelCh2 = 385,
-        Puid_Pow_Out220A_GridCh3 = 386,
-        Puid_Pow_Out220A_ButtOnCh3 = 387,
-        Puid_Pow_Out220A_ButtOffCh3 = 388,
-        Puid_Pow_Out220A_IconCh3 = 389,
-        Puid_Pow_Out220A_LabelCh3 = 390,
-        Puid_Pow_Out220A_GridCh4 = 391,
-        Puid_Pow_Out220A_ButtOnCh4 = 392,
-        Puid_Pow_Out220A_ButtOffCh4 = 393,
-        Puid_Pow_Out220A_IconCh4 = 394,
-        Puid_Pow_Out220A_LabelCh4 = 395,
-        Puid_Pow_Out220A_GridCh5 = 396,
-        Puid_Pow_Out220A_ButtOnCh5 = 397,
-        Puid_Pow_Out220A_ButtOffCh5 = 398,
-        Puid_Pow_Out220A_IconCh5 = 399,
-        Puid_Pow_Out220A_LabelCh5 = 400,
-        Puid_Pow_Out220A_GridCh6 = 401,
-        Puid_Pow_Out220A_ButtOnCh6 = 402,
-        Puid_Pow_Out220A_ButtOffCh6 = 403,
-        Puid_Pow_Out220A_IconCh6 = 404,
-        Puid_Pow_Out220A_LabelCh6 = 405,
-        Puid_Pow_Out220A_GridCh7 = 406,
-        Puid_Pow_Out220A_ButtOnCh7 = 407,
-        Puid_Pow_Out220A_ButtOffCh7 = 408,
-        Puid_Pow_Out220A_IconCh7 = 409,
-        Puid_Pow_Out220A_LabelCh7 = 410,
-        Puid_Pow_Out220A_GridCh8 = 411,
-        Puid_Pow_Out220A_ButtOnCh8 = 412,
-        Puid_Pow_Out220A_ButtOffCh8 = 413,
-        Puid_Pow_Out220A_IconCh8 = 414,
-        Puid_Pow_Out220A_LabelCh8 = 415,
-        Puid_Pow_Row1_Icon12V = 416,
-        Puid_Pow_Row1_ButtActive12V = 417,
-        Puid_Pow_Row1_ButtActive24V = 418,
-        Puid_Pow_Row1_ButtActive220V = 419,
-        Puid_Pow_Row1_Icon220V = 420,
-        Puid_Pow_Row1_IconLeft = 421,
-        Puid_Pow_Row1_ButtActiveLeft = 422,
-        Puid_Pow_Row1_ButtActiveMid = 423,
-        Puid_Pow_Row1_ButtActiveRight = 424,
-        Puid_Pow_Row1_IconRightFwd = 425,
-        Puid_Pow_Row1_PowPanelCol1 = 426,
-        Puid_Pow_Row1_PowPanelCol2 = 427,
-        Puid_Pow_Row2_Icon12V = 428,
-        Puid_Pow_Row2_ButtActive12V = 429,
-        Puid_Pow_Row2_ButtActive24V = 430,
-        Puid_Pow_Row2_ButtActive220V = 431,
-        Puid_Pow_Row2_Icon220V = 432,
-        Puid_Pow_Row2_IconLeft = 433,
-        Puid_Pow_Row2_ButtActiveLeft = 434,
-        Puid_Pow_Row2_ButtActiveMid = 435,
-        Puid_Pow_Row2_ButtActiveRight = 436,
-        Puid_Pow_Row2_IconRightFwd = 437,
-        Puid_Pow_Row2_PowPanelCol1 = 438,
-        Puid_Pow_Row2_PowPanelCol2 = 439,
-        Puid_Steer_GridCommandCpM = 440,
-        Puid_Steer_GridModeCpM = 441,
-        Puid_Steer_GridSetRefCpM = 442,
-        Puid_Steer_GridCommandCpA = 443,
-        Puid_Steer_GridModeCpA = 444,
-        Puid_Steer_GridSetRefCpA = 445,
-        Puid_Steer_GridApMPanel = 446,
-        Puid_Steer_ApM_GridAutopilot = 447,
-        Puid_Steer_ApM_LabelApSteer = 448,
-        Puid_Steer_ApM_InstrHeadingRef = 449,
-        Puid_Steer_ApM_LabelHeading = 450,
-        Puid_Steer_ApM_InstrHeading = 451,
-        Puid_Steer_ApM_ShapeContourShip = 452,
-        Puid_Steer_ApM_CompThruster = 453,
-        Puid_Steer_ApM_CompRudder = 454,
-        Puid_Steer_ApM_CompRateOfTurn = 455,
-        Puid_Steer_ApM_CompEngine = 456,
-        Puid_Steer_ApM_GridRotMeas = 457,
-        Puid_Steer_ApM_TextRotValue = 458,
-        Puid_Steer_ApM_LabelRot = 459,
-        Puid_Steer_ApM_GridEngineMeas = 460,
-        Puid_Steer_ApM_TextEngineValue = 461,
-        Puid_Steer_ApM_LabelEngine = 462,
-        Puid_Steer_ApM_GridThrustMeas = 463,
-        Puid_Steer_ApM_TextThrustValue = 464,
-        Puid_Steer_ApM_LabelThrust = 465,
-        Puid_Steer_ApA_GridAutopilot = 466,
-        Puid_Steer_ApA_LabelApSteer = 467,
-        Puid_Steer_ApA_InstrHeadingRef = 468,
-        Puid_Steer_ApA_LabelHeading = 469,
-        Puid_Steer_ApA_InstrHeading = 470,
-        Puid_Steer_ApA_ShapeContourShip = 471,
-        Puid_Steer_ApA_CompThruster = 472,
-        Puid_Steer_ApA_CompRudder = 473,
-        Puid_Steer_ApA_CompRateOfTurn = 474,
-        Puid_Steer_ApA_CompEngine = 475,
-        Puid_Steer_ApA_GridRotMeas = 476,
-        Puid_Steer_ApA_TextRotValue = 477,
-        Puid_Steer_ApA_LabelRot = 478,
-        Puid_Steer_ApA_GridEngineMeas = 479,
-        Puid_Steer_ApA_TextEngineValue = 480,
-        Puid_Steer_ApA_LabelEngine = 481,
-        Puid_Steer_ApA_GridThrustMeas = 482,
-        Puid_Steer_ApA_TextThrustValue = 483,
-        Puid_Steer_ApA_LabelThrust = 484,
-        Puid_Steer_CpM_CommandNoRef = 485,
-        Puid_Steer_CpM_ModeNoRef = 486,
-        Puid_Steer_CpA_CommandNoRef = 487,
-        Puid_Steer_CpA_ModeNoRef = 488,
-        Puid_Steer_CpM_Command = 489,
-        Puid_Steer_CpM_Mode = 490,
-        Puid_Steer_CpM_Reference = 491,
-        Puid_Steer_CpA_Command = 492,
-        Puid_Steer_CpA_Mode = 493,
-        Puid_Steer_CpA_Reference = 494,
-        Puid_Steer_CpM_HeaderCommandPanel = 495,
-        Puid_Steer_CpM_ShapeCommandStatus = 496,
-        Puid_Steer_CpM_LabelCommandStatus = 497,
-        Puid_Steer_CpM_TextCommandStatus = 498,
-        Puid_Steer_CpM_ButtTakeRequest = 499,
-        Puid_Steer_CpM_ButtRelease = 500,
-        Puid_Steer_CpA_HeaderCommandPanel = 501,
-        Puid_Steer_CpA_ShapeCommandStatus = 502,
-        Puid_Steer_CpA_LabelCommandStatus = 503,
-        Puid_Steer_CpA_TextCommandStatus = 504,
-        Puid_Steer_CpA_ButtTakeRequest = 505,
-        Puid_Steer_CpA_ButtRelease = 506,
-        Puid_Steer_CpM_HeaderModeControl = 507,
-        Puid_Steer_CpM_ButtDp = 508,
-        Puid_Steer_CpM_ButtTrack = 509,
-        Puid_Steer_CpM_ButtRiver = 510,
-        Puid_Steer_CpM_ButtWork = 511,
-        Puid_Steer_CpM_ButtCourse = 512,
-        Puid_Steer_CpM_ButtStandby = 513,
-        Puid_Steer_CpA_HeaderModeControl = 514,
-        Puid_Steer_CpA_ButtDp = 515,
-        Puid_Steer_CpA_ButtTrack = 516,
-        Puid_Steer_CpA_ButtRiver = 517,
-        Puid_Steer_CpA_ButtWork = 518,
-        Puid_Steer_CpA_ButtCourse = 519,
-        Puid_Steer_CpA_ButtStandby = 520,
-        Puid_Steer_CpM_LabelHeader = 521,
-        Puid_Steer_CpM_ButtonLeftSmall = 522,
-        Puid_Steer_CpM_ButtMidZero = 523,
-        Puid_Steer_CpM_ButtRightSmall = 524,
-        Puid_Steer_CpM_EncoderNumber = 525,
-        Puid_Steer_CpM_ButtLeftBig = 526,
-        Puid_Steer_CpM_ButtRightBig = 527,
-        Puid_Steer_CpA_LabelHeader = 528,
-        Puid_Steer_CpA_ButtonLeftSmall = 529,
-        Puid_Steer_CpA_ButtMidZero = 530,
-        Puid_Steer_CpA_ButtRightSmall = 531,
-        Puid_Steer_CpA_EncoderNumber = 532,
-        Puid_Steer_CpA_ButtLeftBig = 533,
-        Puid_Steer_CpA_ButtRightBig = 534,
+        Puid_Pow_HeaderCommandPanel = 56,
+        Puid_Pow_ShapeCommandStatus = 57,
+        Puid_Pow_LabelCommandStatus = 58,
+        Puid_Pow_TextCommandStatus = 59,
+        Puid_Pow_ButtTakeRequest = 60,
+        Puid_Pow_ButtRelease = 61,
+        Puid_Pow_ButtDockIdle = 62,
+        Puid_Pow_ButtDockConnectedShore = 63,
+        Puid_Pow_ButtDockNotConnected = 64,
+        Puid_Pow_ButtInTransit = 65,
+        Puid_Pow_ButtInTransitEngine = 66,
+        Puid_Pow_ButtInTransitSailing = 67,
+        Puid_Pow_GridPowCommand = 68,
+        Puid_Pow_GridPowModes = 69,
+        Puid_Pow_Out12M_GridCh1 = 70,
+        Puid_Pow_Out12M_ButtOffCh1 = 71,
+        Puid_Pow_Out12M_ButtOnCh1 = 72,
+        Puid_Pow_Out12M_ShpOnOff1 = 73,
+        Puid_Pow_Out12M_LabelName1 = 74,
+        Puid_Pow_Out12M_GridCh2 = 75,
+        Puid_Pow_Out12M_ButtOffCh2 = 76,
+        Puid_Pow_Out12M_ButtOnCh2 = 77,
+        Puid_Pow_Out12M_ShpOnOff2 = 78,
+        Puid_Pow_Out12M_LabelName2 = 79,
+        Puid_Pow_Out12M_GridCh3 = 80,
+        Puid_Pow_Out12M_ButtOffCh3 = 81,
+        Puid_Pow_Out12M_ButtOnCh3 = 82,
+        Puid_Pow_Out12M_ShpOnOff3 = 83,
+        Puid_Pow_Out12M_LabelName3 = 84,
+        Puid_Pow_Out12M_GridCh4 = 85,
+        Puid_Pow_Out12M_ButtOffCh4 = 86,
+        Puid_Pow_Out12M_ButtOnCh4 = 87,
+        Puid_Pow_Out12M_ShpOnOff4 = 88,
+        Puid_Pow_Out12M_LabelName4 = 89,
+        Puid_Pow_Out12M_GridCh5 = 90,
+        Puid_Pow_Out12M_ButtOffCh5 = 91,
+        Puid_Pow_Out12M_ButtOnCh5 = 92,
+        Puid_Pow_Out12M_ShpOnOff5 = 93,
+        Puid_Pow_Out12M_LabelName5 = 94,
+        Puid_Pow_Out12M_GridCh6 = 95,
+        Puid_Pow_Out12M_ButtOffCh6 = 96,
+        Puid_Pow_Out12M_ButtOnCh6 = 97,
+        Puid_Pow_Out12M_ShpOnOff6 = 98,
+        Puid_Pow_Out12M_LabelName6 = 99,
+        Puid_Pow_Out12M_GridCh7 = 100,
+        Puid_Pow_Out12M_ButtOffCh7 = 101,
+        Puid_Pow_Out12M_ButtOnCh7 = 102,
+        Puid_Pow_Out12M_ShpOnOff7 = 103,
+        Puid_Pow_Out12M_LabelName7 = 104,
+        Puid_Pow_Out12M_GridCh8 = 105,
+        Puid_Pow_Out12M_ButtOffCh8 = 106,
+        Puid_Pow_Out12M_ButtOnCh8 = 107,
+        Puid_Pow_Out12M_ShpOnOff8 = 108,
+        Puid_Pow_Out12M_LabelName8 = 109,
+        Puid_Pow_Out12F_GridCh1 = 110,
+        Puid_Pow_Out12F_ButtOffCh1 = 111,
+        Puid_Pow_Out12F_ButtOnCh1 = 112,
+        Puid_Pow_Out12F_ShpOnOff1 = 113,
+        Puid_Pow_Out12F_LabelName1 = 114,
+        Puid_Pow_Out12F_GridCh2 = 115,
+        Puid_Pow_Out12F_ButtOffCh2 = 116,
+        Puid_Pow_Out12F_ButtOnCh2 = 117,
+        Puid_Pow_Out12F_ShpOnOff2 = 118,
+        Puid_Pow_Out12F_LabelName2 = 119,
+        Puid_Pow_Out12F_GridCh3 = 120,
+        Puid_Pow_Out12F_ButtOffCh3 = 121,
+        Puid_Pow_Out12F_ButtOnCh3 = 122,
+        Puid_Pow_Out12F_ShpOnOff3 = 123,
+        Puid_Pow_Out12F_LabelName3 = 124,
+        Puid_Pow_Out12F_GridCh4 = 125,
+        Puid_Pow_Out12F_ButtOffCh4 = 126,
+        Puid_Pow_Out12F_ButtOnCh4 = 127,
+        Puid_Pow_Out12F_ShpOnOff4 = 128,
+        Puid_Pow_Out12F_LabelName4 = 129,
+        Puid_Pow_Out12F_GridCh5 = 130,
+        Puid_Pow_Out12F_ButtOffCh5 = 131,
+        Puid_Pow_Out12F_ButtOnCh5 = 132,
+        Puid_Pow_Out12F_ShpOnOff5 = 133,
+        Puid_Pow_Out12F_LabelName5 = 134,
+        Puid_Pow_Out12F_GridCh6 = 135,
+        Puid_Pow_Out12F_ButtOffCh6 = 136,
+        Puid_Pow_Out12F_ButtOnCh6 = 137,
+        Puid_Pow_Out12F_ShpOnOff6 = 138,
+        Puid_Pow_Out12F_LabelName6 = 139,
+        Puid_Pow_Out12F_GridCh7 = 140,
+        Puid_Pow_Out12F_ButtOffCh7 = 141,
+        Puid_Pow_Out12F_ButtOnCh7 = 142,
+        Puid_Pow_Out12F_ShpOnOff7 = 143,
+        Puid_Pow_Out12F_LabelName7 = 144,
+        Puid_Pow_Out12F_GridCh8 = 145,
+        Puid_Pow_Out12F_ButtOffCh8 = 146,
+        Puid_Pow_Out12F_ButtOnCh8 = 147,
+        Puid_Pow_Out12F_ShpOnOff8 = 148,
+        Puid_Pow_Out12F_LabelName8 = 149,
+        Puid_Pow_Out12A_GridCh1 = 150,
+        Puid_Pow_Out12A_ButtOffCh1 = 151,
+        Puid_Pow_Out12A_ButtOnCh1 = 152,
+        Puid_Pow_Out12A_ShpOnOff1 = 153,
+        Puid_Pow_Out12A_LabelName1 = 154,
+        Puid_Pow_Out12A_GridCh2 = 155,
+        Puid_Pow_Out12A_ButtOffCh2 = 156,
+        Puid_Pow_Out12A_ButtOnCh2 = 157,
+        Puid_Pow_Out12A_ShpOnOff2 = 158,
+        Puid_Pow_Out12A_LabelName2 = 159,
+        Puid_Pow_Out12A_GridCh3 = 160,
+        Puid_Pow_Out12A_ButtOffCh3 = 161,
+        Puid_Pow_Out12A_ButtOnCh3 = 162,
+        Puid_Pow_Out12A_ShpOnOff3 = 163,
+        Puid_Pow_Out12A_LabelName3 = 164,
+        Puid_Pow_Out12A_GridCh4 = 165,
+        Puid_Pow_Out12A_ButtOffCh4 = 166,
+        Puid_Pow_Out12A_ButtOnCh4 = 167,
+        Puid_Pow_Out12A_ShpOnOff4 = 168,
+        Puid_Pow_Out12A_LabelName4 = 169,
+        Puid_Pow_Out12A_GridCh5 = 170,
+        Puid_Pow_Out12A_ButtOffCh5 = 171,
+        Puid_Pow_Out12A_ButtOnCh5 = 172,
+        Puid_Pow_Out12A_ShpOnOff5 = 173,
+        Puid_Pow_Out12A_LabelName5 = 174,
+        Puid_Pow_Out12A_GridCh6 = 175,
+        Puid_Pow_Out12A_ButtOffCh6 = 176,
+        Puid_Pow_Out12A_ButtOnCh6 = 177,
+        Puid_Pow_Out12A_ShpOnOff6 = 178,
+        Puid_Pow_Out12A_LabelName6 = 179,
+        Puid_Pow_Out12A_GridCh7 = 180,
+        Puid_Pow_Out12A_ButtOffCh7 = 181,
+        Puid_Pow_Out12A_ButtOnCh7 = 182,
+        Puid_Pow_Out12A_ShpOnOff7 = 183,
+        Puid_Pow_Out12A_LabelName7 = 184,
+        Puid_Pow_Out12A_GridCh8 = 185,
+        Puid_Pow_Out12A_ButtOffCh8 = 186,
+        Puid_Pow_Out12A_ButtOnCh8 = 187,
+        Puid_Pow_Out12A_ShpOnOff8 = 188,
+        Puid_Pow_Out12A_LabelName8 = 189,
+        Puid_Pow_Out24M_GridCh1 = 190,
+        Puid_Pow_Out24M_ButtOffCh1 = 191,
+        Puid_Pow_Out24M_ButtOnCh1 = 192,
+        Puid_Pow_Out24M_ShpOnOff1 = 193,
+        Puid_Pow_Out24M_LabelName1 = 194,
+        Puid_Pow_Out24M_GridCh2 = 195,
+        Puid_Pow_Out24M_ButtOffCh2 = 196,
+        Puid_Pow_Out24M_ButtOnCh2 = 197,
+        Puid_Pow_Out24M_ShpOnOff2 = 198,
+        Puid_Pow_Out24M_LabelName2 = 199,
+        Puid_Pow_Out24M_GridCh3 = 200,
+        Puid_Pow_Out24M_ButtOffCh3 = 201,
+        Puid_Pow_Out24M_ButtOnCh3 = 202,
+        Puid_Pow_Out24M_ShpOnOff3 = 203,
+        Puid_Pow_Out24M_LabelName3 = 204,
+        Puid_Pow_Out24M_GridCh4 = 205,
+        Puid_Pow_Out24M_ButtOffCh4 = 206,
+        Puid_Pow_Out24M_ButtOnCh4 = 207,
+        Puid_Pow_Out24M_ShpOnOff4 = 208,
+        Puid_Pow_Out24M_LabelName4 = 209,
+        Puid_Pow_Out24M_GridCh5 = 210,
+        Puid_Pow_Out24M_ButtOffCh5 = 211,
+        Puid_Pow_Out24M_ButtOnCh5 = 212,
+        Puid_Pow_Out24M_ShpOnOff5 = 213,
+        Puid_Pow_Out24M_LabelName5 = 214,
+        Puid_Pow_Out24M_GridCh6 = 215,
+        Puid_Pow_Out24M_ButtOffCh6 = 216,
+        Puid_Pow_Out24M_ButtOnCh6 = 217,
+        Puid_Pow_Out24M_ShpOnOff6 = 218,
+        Puid_Pow_Out24M_LabelName6 = 219,
+        Puid_Pow_Out24M_GridCh7 = 220,
+        Puid_Pow_Out24M_ButtOffCh7 = 221,
+        Puid_Pow_Out24M_ButtOnCh7 = 222,
+        Puid_Pow_Out24M_ShpOnOff7 = 223,
+        Puid_Pow_Out24M_LabelName7 = 224,
+        Puid_Pow_Out24M_GridCh8 = 225,
+        Puid_Pow_Out24M_ButtOffCh8 = 226,
+        Puid_Pow_Out24M_ButtOnCh8 = 227,
+        Puid_Pow_Out24M_ShpOnOff8 = 228,
+        Puid_Pow_Out24M_LabelName8 = 229,
+        Puid_Pow_Out24F_GridCh1 = 230,
+        Puid_Pow_Out24F_ButtOffCh1 = 231,
+        Puid_Pow_Out24F_ButtOnCh1 = 232,
+        Puid_Pow_Out24F_ShpOnOff1 = 233,
+        Puid_Pow_Out24F_LabelName1 = 234,
+        Puid_Pow_Out24F_GridCh2 = 235,
+        Puid_Pow_Out24F_ButtOffCh2 = 236,
+        Puid_Pow_Out24F_ButtOnCh2 = 237,
+        Puid_Pow_Out24F_ShpOnOff2 = 238,
+        Puid_Pow_Out24F_LabelName2 = 239,
+        Puid_Pow_Out24F_GridCh3 = 240,
+        Puid_Pow_Out24F_ButtOffCh3 = 241,
+        Puid_Pow_Out24F_ButtOnCh3 = 242,
+        Puid_Pow_Out24F_ShpOnOff3 = 243,
+        Puid_Pow_Out24F_LabelName3 = 244,
+        Puid_Pow_Out24F_GridCh4 = 245,
+        Puid_Pow_Out24F_ButtOffCh4 = 246,
+        Puid_Pow_Out24F_ButtOnCh4 = 247,
+        Puid_Pow_Out24F_ShpOnOff4 = 248,
+        Puid_Pow_Out24F_LabelName4 = 249,
+        Puid_Pow_Out24F_GridCh5 = 250,
+        Puid_Pow_Out24F_ButtOffCh5 = 251,
+        Puid_Pow_Out24F_ButtOnCh5 = 252,
+        Puid_Pow_Out24F_ShpOnOff5 = 253,
+        Puid_Pow_Out24F_LabelName5 = 254,
+        Puid_Pow_Out24F_GridCh6 = 255,
+        Puid_Pow_Out24F_ButtOffCh6 = 256,
+        Puid_Pow_Out24F_ButtOnCh6 = 257,
+        Puid_Pow_Out24F_ShpOnOff6 = 258,
+        Puid_Pow_Out24F_LabelName6 = 259,
+        Puid_Pow_Out24F_GridCh7 = 260,
+        Puid_Pow_Out24F_ButtOffCh7 = 261,
+        Puid_Pow_Out24F_ButtOnCh7 = 262,
+        Puid_Pow_Out24F_ShpOnOff7 = 263,
+        Puid_Pow_Out24F_LabelName7 = 264,
+        Puid_Pow_Out24F_GridCh8 = 265,
+        Puid_Pow_Out24F_ButtOffCh8 = 266,
+        Puid_Pow_Out24F_ButtOnCh8 = 267,
+        Puid_Pow_Out24F_ShpOnOff8 = 268,
+        Puid_Pow_Out24F_LabelName8 = 269,
+        Puid_Pow_Out24A_GridCh1 = 270,
+        Puid_Pow_Out24A_ButtOffCh1 = 271,
+        Puid_Pow_Out24A_ButtOnCh1 = 272,
+        Puid_Pow_Out24A_ShpOnOff1 = 273,
+        Puid_Pow_Out24A_LabelName1 = 274,
+        Puid_Pow_Out24A_GridCh2 = 275,
+        Puid_Pow_Out24A_ButtOffCh2 = 276,
+        Puid_Pow_Out24A_ButtOnCh2 = 277,
+        Puid_Pow_Out24A_ShpOnOff2 = 278,
+        Puid_Pow_Out24A_LabelName2 = 279,
+        Puid_Pow_Out24A_GridCh3 = 280,
+        Puid_Pow_Out24A_ButtOffCh3 = 281,
+        Puid_Pow_Out24A_ButtOnCh3 = 282,
+        Puid_Pow_Out24A_ShpOnOff3 = 283,
+        Puid_Pow_Out24A_LabelName3 = 284,
+        Puid_Pow_Out24A_GridCh4 = 285,
+        Puid_Pow_Out24A_ButtOffCh4 = 286,
+        Puid_Pow_Out24A_ButtOnCh4 = 287,
+        Puid_Pow_Out24A_ShpOnOff4 = 288,
+        Puid_Pow_Out24A_LabelName4 = 289,
+        Puid_Pow_Out24A_GridCh5 = 290,
+        Puid_Pow_Out24A_ButtOffCh5 = 291,
+        Puid_Pow_Out24A_ButtOnCh5 = 292,
+        Puid_Pow_Out24A_ShpOnOff5 = 293,
+        Puid_Pow_Out24A_LabelName5 = 294,
+        Puid_Pow_Out24A_GridCh6 = 295,
+        Puid_Pow_Out24A_ButtOffCh6 = 296,
+        Puid_Pow_Out24A_ButtOnCh6 = 297,
+        Puid_Pow_Out24A_ShpOnOff6 = 298,
+        Puid_Pow_Out24A_LabelName6 = 299,
+        Puid_Pow_Out24A_GridCh7 = 300,
+        Puid_Pow_Out24A_ButtOffCh7 = 301,
+        Puid_Pow_Out24A_ButtOnCh7 = 302,
+        Puid_Pow_Out24A_ShpOnOff7 = 303,
+        Puid_Pow_Out24A_LabelName7 = 304,
+        Puid_Pow_Out24A_GridCh8 = 305,
+        Puid_Pow_Out24A_ButtOffCh8 = 306,
+        Puid_Pow_Out24A_ButtOnCh8 = 307,
+        Puid_Pow_Out24A_ShpOnOff8 = 308,
+        Puid_Pow_Out24A_LabelName8 = 309,
+        Puid_Pow_Out220M_GridCh1 = 310,
+        Puid_Pow_Out220M_ButtOffCh1 = 311,
+        Puid_Pow_Out220M_ButtOnCh1 = 312,
+        Puid_Pow_Out220M_ShpOnOff1 = 313,
+        Puid_Pow_Out220M_LabelName1 = 314,
+        Puid_Pow_Out220M_GridCh2 = 315,
+        Puid_Pow_Out220M_ButtOffCh2 = 316,
+        Puid_Pow_Out220M_ButtOnCh2 = 317,
+        Puid_Pow_Out220M_ShpOnOff2 = 318,
+        Puid_Pow_Out220M_LabelName2 = 319,
+        Puid_Pow_Out220M_GridCh3 = 320,
+        Puid_Pow_Out220M_ButtOffCh3 = 321,
+        Puid_Pow_Out220M_ButtOnCh3 = 322,
+        Puid_Pow_Out220M_ShpOnOff3 = 323,
+        Puid_Pow_Out220M_LabelName3 = 324,
+        Puid_Pow_Out220M_GridCh4 = 325,
+        Puid_Pow_Out220M_ButtOffCh4 = 326,
+        Puid_Pow_Out220M_ButtOnCh4 = 327,
+        Puid_Pow_Out220M_ShpOnOff4 = 328,
+        Puid_Pow_Out220M_LabelName4 = 329,
+        Puid_Pow_Out220M_GridCh5 = 330,
+        Puid_Pow_Out220M_ButtOffCh5 = 331,
+        Puid_Pow_Out220M_ButtOnCh5 = 332,
+        Puid_Pow_Out220M_ShpOnOff5 = 333,
+        Puid_Pow_Out220M_LabelName5 = 334,
+        Puid_Pow_Out220M_GridCh6 = 335,
+        Puid_Pow_Out220M_ButtOffCh6 = 336,
+        Puid_Pow_Out220M_ButtOnCh6 = 337,
+        Puid_Pow_Out220M_ShpOnOff6 = 338,
+        Puid_Pow_Out220M_LabelName6 = 339,
+        Puid_Pow_Out220M_GridCh7 = 340,
+        Puid_Pow_Out220M_ButtOffCh7 = 341,
+        Puid_Pow_Out220M_ButtOnCh7 = 342,
+        Puid_Pow_Out220M_ShpOnOff7 = 343,
+        Puid_Pow_Out220M_LabelName7 = 344,
+        Puid_Pow_Out220M_GridCh8 = 345,
+        Puid_Pow_Out220M_ButtOffCh8 = 346,
+        Puid_Pow_Out220M_ButtOnCh8 = 347,
+        Puid_Pow_Out220M_ShpOnOff8 = 348,
+        Puid_Pow_Out220M_LabelName8 = 349,
+        Puid_Pow_Out220F_GridCh1 = 350,
+        Puid_Pow_Out220F_ButtOffCh1 = 351,
+        Puid_Pow_Out220F_ButtOnCh1 = 352,
+        Puid_Pow_Out220F_ShpOnOff1 = 353,
+        Puid_Pow_Out220F_LabelName1 = 354,
+        Puid_Pow_Out220F_GridCh2 = 355,
+        Puid_Pow_Out220F_ButtOffCh2 = 356,
+        Puid_Pow_Out220F_ButtOnCh2 = 357,
+        Puid_Pow_Out220F_ShpOnOff2 = 358,
+        Puid_Pow_Out220F_LabelName2 = 359,
+        Puid_Pow_Out220F_GridCh3 = 360,
+        Puid_Pow_Out220F_ButtOffCh3 = 361,
+        Puid_Pow_Out220F_ButtOnCh3 = 362,
+        Puid_Pow_Out220F_ShpOnOff3 = 363,
+        Puid_Pow_Out220F_LabelName3 = 364,
+        Puid_Pow_Out220F_GridCh4 = 365,
+        Puid_Pow_Out220F_ButtOffCh4 = 366,
+        Puid_Pow_Out220F_ButtOnCh4 = 367,
+        Puid_Pow_Out220F_ShpOnOff4 = 368,
+        Puid_Pow_Out220F_LabelName4 = 369,
+        Puid_Pow_Out220F_GridCh5 = 370,
+        Puid_Pow_Out220F_ButtOffCh5 = 371,
+        Puid_Pow_Out220F_ButtOnCh5 = 372,
+        Puid_Pow_Out220F_ShpOnOff5 = 373,
+        Puid_Pow_Out220F_LabelName5 = 374,
+        Puid_Pow_Out220F_GridCh6 = 375,
+        Puid_Pow_Out220F_ButtOffCh6 = 376,
+        Puid_Pow_Out220F_ButtOnCh6 = 377,
+        Puid_Pow_Out220F_ShpOnOff6 = 378,
+        Puid_Pow_Out220F_LabelName6 = 379,
+        Puid_Pow_Out220F_GridCh7 = 380,
+        Puid_Pow_Out220F_ButtOffCh7 = 381,
+        Puid_Pow_Out220F_ButtOnCh7 = 382,
+        Puid_Pow_Out220F_ShpOnOff7 = 383,
+        Puid_Pow_Out220F_LabelName7 = 384,
+        Puid_Pow_Out220F_GridCh8 = 385,
+        Puid_Pow_Out220F_ButtOffCh8 = 386,
+        Puid_Pow_Out220F_ButtOnCh8 = 387,
+        Puid_Pow_Out220F_ShpOnOff8 = 388,
+        Puid_Pow_Out220F_LabelName8 = 389,
+        Puid_Pow_Out220A_GridCh1 = 390,
+        Puid_Pow_Out220A_ButtOffCh1 = 391,
+        Puid_Pow_Out220A_ButtOnCh1 = 392,
+        Puid_Pow_Out220A_ShpOnOff1 = 393,
+        Puid_Pow_Out220A_LabelName1 = 394,
+        Puid_Pow_Out220A_GridCh2 = 395,
+        Puid_Pow_Out220A_ButtOffCh2 = 396,
+        Puid_Pow_Out220A_ButtOnCh2 = 397,
+        Puid_Pow_Out220A_ShpOnOff2 = 398,
+        Puid_Pow_Out220A_LabelName2 = 399,
+        Puid_Pow_Out220A_GridCh3 = 400,
+        Puid_Pow_Out220A_ButtOffCh3 = 401,
+        Puid_Pow_Out220A_ButtOnCh3 = 402,
+        Puid_Pow_Out220A_ShpOnOff3 = 403,
+        Puid_Pow_Out220A_LabelName3 = 404,
+        Puid_Pow_Out220A_GridCh4 = 405,
+        Puid_Pow_Out220A_ButtOffCh4 = 406,
+        Puid_Pow_Out220A_ButtOnCh4 = 407,
+        Puid_Pow_Out220A_ShpOnOff4 = 408,
+        Puid_Pow_Out220A_LabelName4 = 409,
+        Puid_Pow_Out220A_GridCh5 = 410,
+        Puid_Pow_Out220A_ButtOffCh5 = 411,
+        Puid_Pow_Out220A_ButtOnCh5 = 412,
+        Puid_Pow_Out220A_ShpOnOff5 = 413,
+        Puid_Pow_Out220A_LabelName5 = 414,
+        Puid_Pow_Out220A_GridCh6 = 415,
+        Puid_Pow_Out220A_ButtOffCh6 = 416,
+        Puid_Pow_Out220A_ButtOnCh6 = 417,
+        Puid_Pow_Out220A_ShpOnOff6 = 418,
+        Puid_Pow_Out220A_LabelName6 = 419,
+        Puid_Pow_Out220A_GridCh7 = 420,
+        Puid_Pow_Out220A_ButtOffCh7 = 421,
+        Puid_Pow_Out220A_ButtOnCh7 = 422,
+        Puid_Pow_Out220A_ShpOnOff7 = 423,
+        Puid_Pow_Out220A_LabelName7 = 424,
+        Puid_Pow_Out220A_GridCh8 = 425,
+        Puid_Pow_Out220A_ButtOffCh8 = 426,
+        Puid_Pow_Out220A_ButtOnCh8 = 427,
+        Puid_Pow_Out220A_ShpOnOff8 = 428,
+        Puid_Pow_Out220A_LabelName8 = 429,
+        Puid_Pow_Row1_Icon12V = 430,
+        Puid_Pow_Row1_ButtActive12V = 431,
+        Puid_Pow_Row1_ButtActive24V = 432,
+        Puid_Pow_Row1_ButtActive220V = 433,
+        Puid_Pow_Row1_Icon220V = 434,
+        Puid_Pow_Row1_IconLeft = 435,
+        Puid_Pow_Row1_ButtActiveLeft = 436,
+        Puid_Pow_Row1_ButtActiveMid = 437,
+        Puid_Pow_Row1_ButtActiveRight = 438,
+        Puid_Pow_Row1_IconRightFwd = 439,
+        Puid_Pow_Row1_PowPanelCol1 = 440,
+        Puid_Pow_Row1_PowPanelCol2 = 441,
+        Puid_Pow_Row2_Icon12V = 442,
+        Puid_Pow_Row2_ButtActive12V = 443,
+        Puid_Pow_Row2_ButtActive24V = 444,
+        Puid_Pow_Row2_ButtActive220V = 445,
+        Puid_Pow_Row2_Icon220V = 446,
+        Puid_Pow_Row2_IconLeft = 447,
+        Puid_Pow_Row2_ButtActiveLeft = 448,
+        Puid_Pow_Row2_ButtActiveMid = 449,
+        Puid_Pow_Row2_ButtActiveRight = 450,
+        Puid_Pow_Row2_IconRightFwd = 451,
+        Puid_Pow_Row2_PowPanelCol1 = 452,
+        Puid_Pow_Row2_PowPanelCol2 = 453,
+        Puid_Steer_GridCommandCpM = 454,
+        Puid_Steer_GridModeCpM = 455,
+        Puid_Steer_GridSetRefCpM = 456,
+        Puid_Steer_GridCommandCpA = 457,
+        Puid_Steer_GridModeCpA = 458,
+        Puid_Steer_GridSetRefCpA = 459,
+        Puid_Steer_GridApMPanel = 460,
+        Puid_Steer_ApM_GridAutopilot = 461,
+        Puid_Steer_ApM_LabelApSteer = 462,
+        Puid_Steer_ApM_InstrHeadingRef = 463,
+        Puid_Steer_ApM_LabelHeading = 464,
+        Puid_Steer_ApM_InstrHeading = 465,
+        Puid_Steer_ApM_ShapeContourShip = 466,
+        Puid_Steer_ApM_CompThruster = 467,
+        Puid_Steer_ApM_CompRudder = 468,
+        Puid_Steer_ApM_CompRateOfTurn = 469,
+        Puid_Steer_ApM_CompEngine = 470,
+        Puid_Steer_ApM_GridRotMeas = 471,
+        Puid_Steer_ApM_TextRotValue = 472,
+        Puid_Steer_ApM_LabelRot = 473,
+        Puid_Steer_ApM_GridEngineMeas = 474,
+        Puid_Steer_ApM_TextEngineValue = 475,
+        Puid_Steer_ApM_LabelEngine = 476,
+        Puid_Steer_ApM_GridThrustMeas = 477,
+        Puid_Steer_ApM_TextThrustValue = 478,
+        Puid_Steer_ApM_LabelThrust = 479,
+        Puid_Steer_ApA_GridAutopilot = 480,
+        Puid_Steer_ApA_LabelApSteer = 481,
+        Puid_Steer_ApA_InstrHeadingRef = 482,
+        Puid_Steer_ApA_LabelHeading = 483,
+        Puid_Steer_ApA_InstrHeading = 484,
+        Puid_Steer_ApA_ShapeContourShip = 485,
+        Puid_Steer_ApA_CompThruster = 486,
+        Puid_Steer_ApA_CompRudder = 487,
+        Puid_Steer_ApA_CompRateOfTurn = 488,
+        Puid_Steer_ApA_CompEngine = 489,
+        Puid_Steer_ApA_GridRotMeas = 490,
+        Puid_Steer_ApA_TextRotValue = 491,
+        Puid_Steer_ApA_LabelRot = 492,
+        Puid_Steer_ApA_GridEngineMeas = 493,
+        Puid_Steer_ApA_TextEngineValue = 494,
+        Puid_Steer_ApA_LabelEngine = 495,
+        Puid_Steer_ApA_GridThrustMeas = 496,
+        Puid_Steer_ApA_TextThrustValue = 497,
+        Puid_Steer_ApA_LabelThrust = 498,
+        Puid_Steer_CpM_CommandNoRef = 499,
+        Puid_Steer_CpM_ModeNoRef = 500,
+        Puid_Steer_CpA_CommandNoRef = 501,
+        Puid_Steer_CpA_ModeNoRef = 502,
+        Puid_Steer_CpM_Command = 503,
+        Puid_Steer_CpM_Mode = 504,
+        Puid_Steer_CpM_Reference = 505,
+        Puid_Steer_CpA_Command = 506,
+        Puid_Steer_CpA_Mode = 507,
+        Puid_Steer_CpA_Reference = 508,
+        Puid_Steer_CpM_HeaderCommandPanel = 509,
+        Puid_Steer_CpM_ShapeCommandStatus = 510,
+        Puid_Steer_CpM_LabelCommandStatus = 511,
+        Puid_Steer_CpM_TextCommandStatus = 512,
+        Puid_Steer_CpM_ButtTakeRequest = 513,
+        Puid_Steer_CpM_ButtRelease = 514,
+        Puid_Steer_CpA_HeaderCommandPanel = 515,
+        Puid_Steer_CpA_ShapeCommandStatus = 516,
+        Puid_Steer_CpA_LabelCommandStatus = 517,
+        Puid_Steer_CpA_TextCommandStatus = 518,
+        Puid_Steer_CpA_ButtTakeRequest = 519,
+        Puid_Steer_CpA_ButtRelease = 520,
+        Puid_Steer_CpM_HeaderModeControl = 521,
+        Puid_Steer_CpM_ButtDp = 522,
+        Puid_Steer_CpM_ButtTrack = 523,
+        Puid_Steer_CpM_ButtRiver = 524,
+        Puid_Steer_CpM_ButtWork = 525,
+        Puid_Steer_CpM_ButtCourse = 526,
+        Puid_Steer_CpM_ButtStandby = 527,
+        Puid_Steer_CpA_HeaderModeControl = 528,
+        Puid_Steer_CpA_ButtDp = 529,
+        Puid_Steer_CpA_ButtTrack = 530,
+        Puid_Steer_CpA_ButtRiver = 531,
+        Puid_Steer_CpA_ButtWork = 532,
+        Puid_Steer_CpA_ButtCourse = 533,
+        Puid_Steer_CpA_ButtStandby = 534,
+        Puid_Steer_CpM_LabelHeader = 535,
+        Puid_Steer_CpM_ButtonLeftSmall = 536,
+        Puid_Steer_CpM_ButtMidZero = 537,
+        Puid_Steer_CpM_ButtRightSmall = 538,
+        Puid_Steer_CpM_EncoderNumber = 539,
+        Puid_Steer_CpM_ButtLeftBig = 540,
+        Puid_Steer_CpM_ButtRightBig = 541,
+        Puid_Steer_CpA_LabelHeader = 542,
+        Puid_Steer_CpA_ButtonLeftSmall = 543,
+        Puid_Steer_CpA_ButtMidZero = 544,
+        Puid_Steer_CpA_ButtRightSmall = 545,
+        Puid_Steer_CpA_EncoderNumber = 546,
+        Puid_Steer_CpA_ButtLeftBig = 547,
+        Puid_Steer_CpA_ButtRightBig = 548,
     } // enum
     public class ioSystemGraphics
     {
@@ -601,366 +615,380 @@ namespace ioSystemNetworkNet
                 case ioSystemGraphicsType.Puid_Ids_CcA_ShapeInCommand: return "Ids.CcA.ShapeInCommand";
                 case ioSystemGraphicsType.Puid_Pow_PowPanelRow1: return "Pow.PowPanelRow1";
                 case ioSystemGraphicsType.Puid_Pow_PowPanelCol1: return "Pow.PowPanelCol1";
+                case ioSystemGraphicsType.Puid_Pow_HeaderCommandPanel: return "Pow.HeaderCommandPanel";
+                case ioSystemGraphicsType.Puid_Pow_ShapeCommandStatus: return "Pow.ShapeCommandStatus";
+                case ioSystemGraphicsType.Puid_Pow_LabelCommandStatus: return "Pow.LabelCommandStatus";
+                case ioSystemGraphicsType.Puid_Pow_TextCommandStatus: return "Pow.TextCommandStatus";
+                case ioSystemGraphicsType.Puid_Pow_ButtTakeRequest: return "Pow.ButtTakeRequest";
+                case ioSystemGraphicsType.Puid_Pow_ButtRelease: return "Pow.ButtRelease";
+                case ioSystemGraphicsType.Puid_Pow_ButtDockIdle: return "Pow.ButtDockIdle";
+                case ioSystemGraphicsType.Puid_Pow_ButtDockConnectedShore: return "Pow.ButtDockConnectedShore";
+                case ioSystemGraphicsType.Puid_Pow_ButtDockNotConnected: return "Pow.ButtDockNotConnected";
+                case ioSystemGraphicsType.Puid_Pow_ButtInTransit: return "Pow.ButtInTransit";
+                case ioSystemGraphicsType.Puid_Pow_ButtInTransitEngine: return "Pow.ButtInTransitEngine";
+                case ioSystemGraphicsType.Puid_Pow_ButtInTransitSailing: return "Pow.ButtInTransitSailing";
+                case ioSystemGraphicsType.Puid_Pow_GridPowCommand: return "Pow.GridPowCommand";
+                case ioSystemGraphicsType.Puid_Pow_GridPowModes: return "Pow.GridPowModes";
                 case ioSystemGraphicsType.Puid_Pow_Out12M_GridCh1: return "Pow.Out12M.GridCh1";
-                case ioSystemGraphicsType.Puid_Pow_Out12M_ButtOnCh1: return "Pow.Out12M.ButtOnCh1";
                 case ioSystemGraphicsType.Puid_Pow_Out12M_ButtOffCh1: return "Pow.Out12M.ButtOffCh1";
-                case ioSystemGraphicsType.Puid_Pow_Out12M_IconCh1: return "Pow.Out12M.IconCh1";
-                case ioSystemGraphicsType.Puid_Pow_Out12M_LabelCh1: return "Pow.Out12M.LabelCh1";
+                case ioSystemGraphicsType.Puid_Pow_Out12M_ButtOnCh1: return "Pow.Out12M.ButtOnCh1";
+                case ioSystemGraphicsType.Puid_Pow_Out12M_ShpOnOff1: return "Pow.Out12M.ShpOnOff1";
+                case ioSystemGraphicsType.Puid_Pow_Out12M_LabelName1: return "Pow.Out12M.LabelName1";
                 case ioSystemGraphicsType.Puid_Pow_Out12M_GridCh2: return "Pow.Out12M.GridCh2";
-                case ioSystemGraphicsType.Puid_Pow_Out12M_ButtOnCh2: return "Pow.Out12M.ButtOnCh2";
                 case ioSystemGraphicsType.Puid_Pow_Out12M_ButtOffCh2: return "Pow.Out12M.ButtOffCh2";
-                case ioSystemGraphicsType.Puid_Pow_Out12M_IconCh2: return "Pow.Out12M.IconCh2";
-                case ioSystemGraphicsType.Puid_Pow_Out12M_LabelCh2: return "Pow.Out12M.LabelCh2";
+                case ioSystemGraphicsType.Puid_Pow_Out12M_ButtOnCh2: return "Pow.Out12M.ButtOnCh2";
+                case ioSystemGraphicsType.Puid_Pow_Out12M_ShpOnOff2: return "Pow.Out12M.ShpOnOff2";
+                case ioSystemGraphicsType.Puid_Pow_Out12M_LabelName2: return "Pow.Out12M.LabelName2";
                 case ioSystemGraphicsType.Puid_Pow_Out12M_GridCh3: return "Pow.Out12M.GridCh3";
-                case ioSystemGraphicsType.Puid_Pow_Out12M_ButtOnCh3: return "Pow.Out12M.ButtOnCh3";
                 case ioSystemGraphicsType.Puid_Pow_Out12M_ButtOffCh3: return "Pow.Out12M.ButtOffCh3";
-                case ioSystemGraphicsType.Puid_Pow_Out12M_IconCh3: return "Pow.Out12M.IconCh3";
-                case ioSystemGraphicsType.Puid_Pow_Out12M_LabelCh3: return "Pow.Out12M.LabelCh3";
+                case ioSystemGraphicsType.Puid_Pow_Out12M_ButtOnCh3: return "Pow.Out12M.ButtOnCh3";
+                case ioSystemGraphicsType.Puid_Pow_Out12M_ShpOnOff3: return "Pow.Out12M.ShpOnOff3";
+                case ioSystemGraphicsType.Puid_Pow_Out12M_LabelName3: return "Pow.Out12M.LabelName3";
                 case ioSystemGraphicsType.Puid_Pow_Out12M_GridCh4: return "Pow.Out12M.GridCh4";
-                case ioSystemGraphicsType.Puid_Pow_Out12M_ButtOnCh4: return "Pow.Out12M.ButtOnCh4";
                 case ioSystemGraphicsType.Puid_Pow_Out12M_ButtOffCh4: return "Pow.Out12M.ButtOffCh4";
-                case ioSystemGraphicsType.Puid_Pow_Out12M_IconCh4: return "Pow.Out12M.IconCh4";
-                case ioSystemGraphicsType.Puid_Pow_Out12M_LabelCh4: return "Pow.Out12M.LabelCh4";
+                case ioSystemGraphicsType.Puid_Pow_Out12M_ButtOnCh4: return "Pow.Out12M.ButtOnCh4";
+                case ioSystemGraphicsType.Puid_Pow_Out12M_ShpOnOff4: return "Pow.Out12M.ShpOnOff4";
+                case ioSystemGraphicsType.Puid_Pow_Out12M_LabelName4: return "Pow.Out12M.LabelName4";
                 case ioSystemGraphicsType.Puid_Pow_Out12M_GridCh5: return "Pow.Out12M.GridCh5";
-                case ioSystemGraphicsType.Puid_Pow_Out12M_ButtOnCh5: return "Pow.Out12M.ButtOnCh5";
                 case ioSystemGraphicsType.Puid_Pow_Out12M_ButtOffCh5: return "Pow.Out12M.ButtOffCh5";
-                case ioSystemGraphicsType.Puid_Pow_Out12M_IconCh5: return "Pow.Out12M.IconCh5";
-                case ioSystemGraphicsType.Puid_Pow_Out12M_LabelCh5: return "Pow.Out12M.LabelCh5";
+                case ioSystemGraphicsType.Puid_Pow_Out12M_ButtOnCh5: return "Pow.Out12M.ButtOnCh5";
+                case ioSystemGraphicsType.Puid_Pow_Out12M_ShpOnOff5: return "Pow.Out12M.ShpOnOff5";
+                case ioSystemGraphicsType.Puid_Pow_Out12M_LabelName5: return "Pow.Out12M.LabelName5";
                 case ioSystemGraphicsType.Puid_Pow_Out12M_GridCh6: return "Pow.Out12M.GridCh6";
-                case ioSystemGraphicsType.Puid_Pow_Out12M_ButtOnCh6: return "Pow.Out12M.ButtOnCh6";
                 case ioSystemGraphicsType.Puid_Pow_Out12M_ButtOffCh6: return "Pow.Out12M.ButtOffCh6";
-                case ioSystemGraphicsType.Puid_Pow_Out12M_IconCh6: return "Pow.Out12M.IconCh6";
-                case ioSystemGraphicsType.Puid_Pow_Out12M_LabelCh6: return "Pow.Out12M.LabelCh6";
+                case ioSystemGraphicsType.Puid_Pow_Out12M_ButtOnCh6: return "Pow.Out12M.ButtOnCh6";
+                case ioSystemGraphicsType.Puid_Pow_Out12M_ShpOnOff6: return "Pow.Out12M.ShpOnOff6";
+                case ioSystemGraphicsType.Puid_Pow_Out12M_LabelName6: return "Pow.Out12M.LabelName6";
                 case ioSystemGraphicsType.Puid_Pow_Out12M_GridCh7: return "Pow.Out12M.GridCh7";
-                case ioSystemGraphicsType.Puid_Pow_Out12M_ButtOnCh7: return "Pow.Out12M.ButtOnCh7";
                 case ioSystemGraphicsType.Puid_Pow_Out12M_ButtOffCh7: return "Pow.Out12M.ButtOffCh7";
-                case ioSystemGraphicsType.Puid_Pow_Out12M_IconCh7: return "Pow.Out12M.IconCh7";
-                case ioSystemGraphicsType.Puid_Pow_Out12M_LabelCh7: return "Pow.Out12M.LabelCh7";
+                case ioSystemGraphicsType.Puid_Pow_Out12M_ButtOnCh7: return "Pow.Out12M.ButtOnCh7";
+                case ioSystemGraphicsType.Puid_Pow_Out12M_ShpOnOff7: return "Pow.Out12M.ShpOnOff7";
+                case ioSystemGraphicsType.Puid_Pow_Out12M_LabelName7: return "Pow.Out12M.LabelName7";
                 case ioSystemGraphicsType.Puid_Pow_Out12M_GridCh8: return "Pow.Out12M.GridCh8";
-                case ioSystemGraphicsType.Puid_Pow_Out12M_ButtOnCh8: return "Pow.Out12M.ButtOnCh8";
                 case ioSystemGraphicsType.Puid_Pow_Out12M_ButtOffCh8: return "Pow.Out12M.ButtOffCh8";
-                case ioSystemGraphicsType.Puid_Pow_Out12M_IconCh8: return "Pow.Out12M.IconCh8";
-                case ioSystemGraphicsType.Puid_Pow_Out12M_LabelCh8: return "Pow.Out12M.LabelCh8";
+                case ioSystemGraphicsType.Puid_Pow_Out12M_ButtOnCh8: return "Pow.Out12M.ButtOnCh8";
+                case ioSystemGraphicsType.Puid_Pow_Out12M_ShpOnOff8: return "Pow.Out12M.ShpOnOff8";
+                case ioSystemGraphicsType.Puid_Pow_Out12M_LabelName8: return "Pow.Out12M.LabelName8";
                 case ioSystemGraphicsType.Puid_Pow_Out12F_GridCh1: return "Pow.Out12F.GridCh1";
+                case ioSystemGraphicsType.Puid_Pow_Out12F_ButtOffCh1: return "Pow.Out12F.ButtOffCh1";
                 case ioSystemGraphicsType.Puid_Pow_Out12F_ButtOnCh1: return "Pow.Out12F.ButtOnCh1";
-                case ioSystemGraphicsType.Puid_Pow_Out12F_ButtonOffCh1: return "Pow.Out12F.ButtonOffCh1";
-                case ioSystemGraphicsType.Puid_Pow_Out12F_ShapeCh1: return "Pow.Out12F.ShapeCh1";
-                case ioSystemGraphicsType.Puid_Pow_Out12F_LabelCh1: return "Pow.Out12F.LabelCh1";
+                case ioSystemGraphicsType.Puid_Pow_Out12F_ShpOnOff1: return "Pow.Out12F.ShpOnOff1";
+                case ioSystemGraphicsType.Puid_Pow_Out12F_LabelName1: return "Pow.Out12F.LabelName1";
                 case ioSystemGraphicsType.Puid_Pow_Out12F_GridCh2: return "Pow.Out12F.GridCh2";
+                case ioSystemGraphicsType.Puid_Pow_Out12F_ButtOffCh2: return "Pow.Out12F.ButtOffCh2";
                 case ioSystemGraphicsType.Puid_Pow_Out12F_ButtOnCh2: return "Pow.Out12F.ButtOnCh2";
-                case ioSystemGraphicsType.Puid_Pow_Out12F_ButtonOffCh2: return "Pow.Out12F.ButtonOffCh2";
-                case ioSystemGraphicsType.Puid_Pow_Out12F_ShapeCh2: return "Pow.Out12F.ShapeCh2";
-                case ioSystemGraphicsType.Puid_Pow_Out12F_LabelCh2: return "Pow.Out12F.LabelCh2";
+                case ioSystemGraphicsType.Puid_Pow_Out12F_ShpOnOff2: return "Pow.Out12F.ShpOnOff2";
+                case ioSystemGraphicsType.Puid_Pow_Out12F_LabelName2: return "Pow.Out12F.LabelName2";
                 case ioSystemGraphicsType.Puid_Pow_Out12F_GridCh3: return "Pow.Out12F.GridCh3";
+                case ioSystemGraphicsType.Puid_Pow_Out12F_ButtOffCh3: return "Pow.Out12F.ButtOffCh3";
                 case ioSystemGraphicsType.Puid_Pow_Out12F_ButtOnCh3: return "Pow.Out12F.ButtOnCh3";
-                case ioSystemGraphicsType.Puid_Pow_Out12F_ButtonOffCh3: return "Pow.Out12F.ButtonOffCh3";
-                case ioSystemGraphicsType.Puid_Pow_Out12F_ShapeCh3: return "Pow.Out12F.ShapeCh3";
-                case ioSystemGraphicsType.Puid_Pow_Out12F_LabelCh3: return "Pow.Out12F.LabelCh3";
+                case ioSystemGraphicsType.Puid_Pow_Out12F_ShpOnOff3: return "Pow.Out12F.ShpOnOff3";
+                case ioSystemGraphicsType.Puid_Pow_Out12F_LabelName3: return "Pow.Out12F.LabelName3";
                 case ioSystemGraphicsType.Puid_Pow_Out12F_GridCh4: return "Pow.Out12F.GridCh4";
+                case ioSystemGraphicsType.Puid_Pow_Out12F_ButtOffCh4: return "Pow.Out12F.ButtOffCh4";
                 case ioSystemGraphicsType.Puid_Pow_Out12F_ButtOnCh4: return "Pow.Out12F.ButtOnCh4";
-                case ioSystemGraphicsType.Puid_Pow_Out12F_ButtonOffCh4: return "Pow.Out12F.ButtonOffCh4";
-                case ioSystemGraphicsType.Puid_Pow_Out12F_ShapeCh4: return "Pow.Out12F.ShapeCh4";
-                case ioSystemGraphicsType.Puid_Pow_Out12F_LabelCh4: return "Pow.Out12F.LabelCh4";
+                case ioSystemGraphicsType.Puid_Pow_Out12F_ShpOnOff4: return "Pow.Out12F.ShpOnOff4";
+                case ioSystemGraphicsType.Puid_Pow_Out12F_LabelName4: return "Pow.Out12F.LabelName4";
                 case ioSystemGraphicsType.Puid_Pow_Out12F_GridCh5: return "Pow.Out12F.GridCh5";
+                case ioSystemGraphicsType.Puid_Pow_Out12F_ButtOffCh5: return "Pow.Out12F.ButtOffCh5";
                 case ioSystemGraphicsType.Puid_Pow_Out12F_ButtOnCh5: return "Pow.Out12F.ButtOnCh5";
-                case ioSystemGraphicsType.Puid_Pow_Out12F_ButtonOffCh5: return "Pow.Out12F.ButtonOffCh5";
-                case ioSystemGraphicsType.Puid_Pow_Out12F_ShapeCh5: return "Pow.Out12F.ShapeCh5";
-                case ioSystemGraphicsType.Puid_Pow_Out12F_LabelCh5: return "Pow.Out12F.LabelCh5";
+                case ioSystemGraphicsType.Puid_Pow_Out12F_ShpOnOff5: return "Pow.Out12F.ShpOnOff5";
+                case ioSystemGraphicsType.Puid_Pow_Out12F_LabelName5: return "Pow.Out12F.LabelName5";
                 case ioSystemGraphicsType.Puid_Pow_Out12F_GridCh6: return "Pow.Out12F.GridCh6";
+                case ioSystemGraphicsType.Puid_Pow_Out12F_ButtOffCh6: return "Pow.Out12F.ButtOffCh6";
                 case ioSystemGraphicsType.Puid_Pow_Out12F_ButtOnCh6: return "Pow.Out12F.ButtOnCh6";
-                case ioSystemGraphicsType.Puid_Pow_Out12F_ButtonOffCh6: return "Pow.Out12F.ButtonOffCh6";
-                case ioSystemGraphicsType.Puid_Pow_Out12F_ShapeCh6: return "Pow.Out12F.ShapeCh6";
-                case ioSystemGraphicsType.Puid_Pow_Out12F_LabelCh6: return "Pow.Out12F.LabelCh6";
+                case ioSystemGraphicsType.Puid_Pow_Out12F_ShpOnOff6: return "Pow.Out12F.ShpOnOff6";
+                case ioSystemGraphicsType.Puid_Pow_Out12F_LabelName6: return "Pow.Out12F.LabelName6";
                 case ioSystemGraphicsType.Puid_Pow_Out12F_GridCh7: return "Pow.Out12F.GridCh7";
+                case ioSystemGraphicsType.Puid_Pow_Out12F_ButtOffCh7: return "Pow.Out12F.ButtOffCh7";
                 case ioSystemGraphicsType.Puid_Pow_Out12F_ButtOnCh7: return "Pow.Out12F.ButtOnCh7";
-                case ioSystemGraphicsType.Puid_Pow_Out12F_ButtonOffCh7: return "Pow.Out12F.ButtonOffCh7";
-                case ioSystemGraphicsType.Puid_Pow_Out12F_ShapeCh7: return "Pow.Out12F.ShapeCh7";
-                case ioSystemGraphicsType.Puid_Pow_Out12F_LabelCh7: return "Pow.Out12F.LabelCh7";
+                case ioSystemGraphicsType.Puid_Pow_Out12F_ShpOnOff7: return "Pow.Out12F.ShpOnOff7";
+                case ioSystemGraphicsType.Puid_Pow_Out12F_LabelName7: return "Pow.Out12F.LabelName7";
                 case ioSystemGraphicsType.Puid_Pow_Out12F_GridCh8: return "Pow.Out12F.GridCh8";
+                case ioSystemGraphicsType.Puid_Pow_Out12F_ButtOffCh8: return "Pow.Out12F.ButtOffCh8";
                 case ioSystemGraphicsType.Puid_Pow_Out12F_ButtOnCh8: return "Pow.Out12F.ButtOnCh8";
-                case ioSystemGraphicsType.Puid_Pow_Out12F_ButtonOffCh8: return "Pow.Out12F.ButtonOffCh8";
-                case ioSystemGraphicsType.Puid_Pow_Out12F_ShapeCh8: return "Pow.Out12F.ShapeCh8";
-                case ioSystemGraphicsType.Puid_Pow_Out12F_LabelCh8: return "Pow.Out12F.LabelCh8";
+                case ioSystemGraphicsType.Puid_Pow_Out12F_ShpOnOff8: return "Pow.Out12F.ShpOnOff8";
+                case ioSystemGraphicsType.Puid_Pow_Out12F_LabelName8: return "Pow.Out12F.LabelName8";
                 case ioSystemGraphicsType.Puid_Pow_Out12A_GridCh1: return "Pow.Out12A.GridCh1";
+                case ioSystemGraphicsType.Puid_Pow_Out12A_ButtOffCh1: return "Pow.Out12A.ButtOffCh1";
                 case ioSystemGraphicsType.Puid_Pow_Out12A_ButtOnCh1: return "Pow.Out12A.ButtOnCh1";
-                case ioSystemGraphicsType.Puid_Pow_Out12A_ButtonOffCh1: return "Pow.Out12A.ButtonOffCh1";
-                case ioSystemGraphicsType.Puid_Pow_Out12A_ShapeCh1: return "Pow.Out12A.ShapeCh1";
-                case ioSystemGraphicsType.Puid_Pow_Out12A_LabelCh1: return "Pow.Out12A.LabelCh1";
+                case ioSystemGraphicsType.Puid_Pow_Out12A_ShpOnOff1: return "Pow.Out12A.ShpOnOff1";
+                case ioSystemGraphicsType.Puid_Pow_Out12A_LabelName1: return "Pow.Out12A.LabelName1";
                 case ioSystemGraphicsType.Puid_Pow_Out12A_GridCh2: return "Pow.Out12A.GridCh2";
+                case ioSystemGraphicsType.Puid_Pow_Out12A_ButtOffCh2: return "Pow.Out12A.ButtOffCh2";
                 case ioSystemGraphicsType.Puid_Pow_Out12A_ButtOnCh2: return "Pow.Out12A.ButtOnCh2";
-                case ioSystemGraphicsType.Puid_Pow_Out12A_ButtonOffCh2: return "Pow.Out12A.ButtonOffCh2";
-                case ioSystemGraphicsType.Puid_Pow_Out12A_ShapeCh2: return "Pow.Out12A.ShapeCh2";
-                case ioSystemGraphicsType.Puid_Pow_Out12A_LabelCh2: return "Pow.Out12A.LabelCh2";
+                case ioSystemGraphicsType.Puid_Pow_Out12A_ShpOnOff2: return "Pow.Out12A.ShpOnOff2";
+                case ioSystemGraphicsType.Puid_Pow_Out12A_LabelName2: return "Pow.Out12A.LabelName2";
                 case ioSystemGraphicsType.Puid_Pow_Out12A_GridCh3: return "Pow.Out12A.GridCh3";
+                case ioSystemGraphicsType.Puid_Pow_Out12A_ButtOffCh3: return "Pow.Out12A.ButtOffCh3";
                 case ioSystemGraphicsType.Puid_Pow_Out12A_ButtOnCh3: return "Pow.Out12A.ButtOnCh3";
-                case ioSystemGraphicsType.Puid_Pow_Out12A_ButtonOffCh3: return "Pow.Out12A.ButtonOffCh3";
-                case ioSystemGraphicsType.Puid_Pow_Out12A_ShapeCh3: return "Pow.Out12A.ShapeCh3";
-                case ioSystemGraphicsType.Puid_Pow_Out12A_LabelCh3: return "Pow.Out12A.LabelCh3";
+                case ioSystemGraphicsType.Puid_Pow_Out12A_ShpOnOff3: return "Pow.Out12A.ShpOnOff3";
+                case ioSystemGraphicsType.Puid_Pow_Out12A_LabelName3: return "Pow.Out12A.LabelName3";
                 case ioSystemGraphicsType.Puid_Pow_Out12A_GridCh4: return "Pow.Out12A.GridCh4";
+                case ioSystemGraphicsType.Puid_Pow_Out12A_ButtOffCh4: return "Pow.Out12A.ButtOffCh4";
                 case ioSystemGraphicsType.Puid_Pow_Out12A_ButtOnCh4: return "Pow.Out12A.ButtOnCh4";
-                case ioSystemGraphicsType.Puid_Pow_Out12A_ButtonOffCh4: return "Pow.Out12A.ButtonOffCh4";
-                case ioSystemGraphicsType.Puid_Pow_Out12A_ShapeCh4: return "Pow.Out12A.ShapeCh4";
-                case ioSystemGraphicsType.Puid_Pow_Out12A_LabelCh4: return "Pow.Out12A.LabelCh4";
+                case ioSystemGraphicsType.Puid_Pow_Out12A_ShpOnOff4: return "Pow.Out12A.ShpOnOff4";
+                case ioSystemGraphicsType.Puid_Pow_Out12A_LabelName4: return "Pow.Out12A.LabelName4";
                 case ioSystemGraphicsType.Puid_Pow_Out12A_GridCh5: return "Pow.Out12A.GridCh5";
+                case ioSystemGraphicsType.Puid_Pow_Out12A_ButtOffCh5: return "Pow.Out12A.ButtOffCh5";
                 case ioSystemGraphicsType.Puid_Pow_Out12A_ButtOnCh5: return "Pow.Out12A.ButtOnCh5";
-                case ioSystemGraphicsType.Puid_Pow_Out12A_ButtonOffCh5: return "Pow.Out12A.ButtonOffCh5";
-                case ioSystemGraphicsType.Puid_Pow_Out12A_ShapeCh5: return "Pow.Out12A.ShapeCh5";
-                case ioSystemGraphicsType.Puid_Pow_Out12A_LabelCh5: return "Pow.Out12A.LabelCh5";
+                case ioSystemGraphicsType.Puid_Pow_Out12A_ShpOnOff5: return "Pow.Out12A.ShpOnOff5";
+                case ioSystemGraphicsType.Puid_Pow_Out12A_LabelName5: return "Pow.Out12A.LabelName5";
                 case ioSystemGraphicsType.Puid_Pow_Out12A_GridCh6: return "Pow.Out12A.GridCh6";
+                case ioSystemGraphicsType.Puid_Pow_Out12A_ButtOffCh6: return "Pow.Out12A.ButtOffCh6";
                 case ioSystemGraphicsType.Puid_Pow_Out12A_ButtOnCh6: return "Pow.Out12A.ButtOnCh6";
-                case ioSystemGraphicsType.Puid_Pow_Out12A_ButtonOffCh6: return "Pow.Out12A.ButtonOffCh6";
-                case ioSystemGraphicsType.Puid_Pow_Out12A_ShapeCh6: return "Pow.Out12A.ShapeCh6";
-                case ioSystemGraphicsType.Puid_Pow_Out12A_LabelCh6: return "Pow.Out12A.LabelCh6";
+                case ioSystemGraphicsType.Puid_Pow_Out12A_ShpOnOff6: return "Pow.Out12A.ShpOnOff6";
+                case ioSystemGraphicsType.Puid_Pow_Out12A_LabelName6: return "Pow.Out12A.LabelName6";
                 case ioSystemGraphicsType.Puid_Pow_Out12A_GridCh7: return "Pow.Out12A.GridCh7";
+                case ioSystemGraphicsType.Puid_Pow_Out12A_ButtOffCh7: return "Pow.Out12A.ButtOffCh7";
                 case ioSystemGraphicsType.Puid_Pow_Out12A_ButtOnCh7: return "Pow.Out12A.ButtOnCh7";
-                case ioSystemGraphicsType.Puid_Pow_Out12A_ButtonOffCh7: return "Pow.Out12A.ButtonOffCh7";
-                case ioSystemGraphicsType.Puid_Pow_Out12A_ShapeCh7: return "Pow.Out12A.ShapeCh7";
-                case ioSystemGraphicsType.Puid_Pow_Out12A_LabelCh7: return "Pow.Out12A.LabelCh7";
+                case ioSystemGraphicsType.Puid_Pow_Out12A_ShpOnOff7: return "Pow.Out12A.ShpOnOff7";
+                case ioSystemGraphicsType.Puid_Pow_Out12A_LabelName7: return "Pow.Out12A.LabelName7";
                 case ioSystemGraphicsType.Puid_Pow_Out12A_GridCh8: return "Pow.Out12A.GridCh8";
+                case ioSystemGraphicsType.Puid_Pow_Out12A_ButtOffCh8: return "Pow.Out12A.ButtOffCh8";
                 case ioSystemGraphicsType.Puid_Pow_Out12A_ButtOnCh8: return "Pow.Out12A.ButtOnCh8";
-                case ioSystemGraphicsType.Puid_Pow_Out12A_ButtonOffCh8: return "Pow.Out12A.ButtonOffCh8";
-                case ioSystemGraphicsType.Puid_Pow_Out12A_ShapeCh8: return "Pow.Out12A.ShapeCh8";
-                case ioSystemGraphicsType.Puid_Pow_Out12A_LabelCh8: return "Pow.Out12A.LabelCh8";
+                case ioSystemGraphicsType.Puid_Pow_Out12A_ShpOnOff8: return "Pow.Out12A.ShpOnOff8";
+                case ioSystemGraphicsType.Puid_Pow_Out12A_LabelName8: return "Pow.Out12A.LabelName8";
                 case ioSystemGraphicsType.Puid_Pow_Out24M_GridCh1: return "Pow.Out24M.GridCh1";
-                case ioSystemGraphicsType.Puid_Pow_Out24M_ButtOnCh1: return "Pow.Out24M.ButtOnCh1";
                 case ioSystemGraphicsType.Puid_Pow_Out24M_ButtOffCh1: return "Pow.Out24M.ButtOffCh1";
-                case ioSystemGraphicsType.Puid_Pow_Out24M_IconCh1: return "Pow.Out24M.IconCh1";
-                case ioSystemGraphicsType.Puid_Pow_Out24M_LabelCh1: return "Pow.Out24M.LabelCh1";
+                case ioSystemGraphicsType.Puid_Pow_Out24M_ButtOnCh1: return "Pow.Out24M.ButtOnCh1";
+                case ioSystemGraphicsType.Puid_Pow_Out24M_ShpOnOff1: return "Pow.Out24M.ShpOnOff1";
+                case ioSystemGraphicsType.Puid_Pow_Out24M_LabelName1: return "Pow.Out24M.LabelName1";
                 case ioSystemGraphicsType.Puid_Pow_Out24M_GridCh2: return "Pow.Out24M.GridCh2";
-                case ioSystemGraphicsType.Puid_Pow_Out24M_ButtOnCh2: return "Pow.Out24M.ButtOnCh2";
                 case ioSystemGraphicsType.Puid_Pow_Out24M_ButtOffCh2: return "Pow.Out24M.ButtOffCh2";
-                case ioSystemGraphicsType.Puid_Pow_Out24M_IconCh2: return "Pow.Out24M.IconCh2";
-                case ioSystemGraphicsType.Puid_Pow_Out24M_LabelCh2: return "Pow.Out24M.LabelCh2";
+                case ioSystemGraphicsType.Puid_Pow_Out24M_ButtOnCh2: return "Pow.Out24M.ButtOnCh2";
+                case ioSystemGraphicsType.Puid_Pow_Out24M_ShpOnOff2: return "Pow.Out24M.ShpOnOff2";
+                case ioSystemGraphicsType.Puid_Pow_Out24M_LabelName2: return "Pow.Out24M.LabelName2";
                 case ioSystemGraphicsType.Puid_Pow_Out24M_GridCh3: return "Pow.Out24M.GridCh3";
-                case ioSystemGraphicsType.Puid_Pow_Out24M_ButtOnCh3: return "Pow.Out24M.ButtOnCh3";
                 case ioSystemGraphicsType.Puid_Pow_Out24M_ButtOffCh3: return "Pow.Out24M.ButtOffCh3";
-                case ioSystemGraphicsType.Puid_Pow_Out24M_IconCh3: return "Pow.Out24M.IconCh3";
-                case ioSystemGraphicsType.Puid_Pow_Out24M_LabelCh3: return "Pow.Out24M.LabelCh3";
+                case ioSystemGraphicsType.Puid_Pow_Out24M_ButtOnCh3: return "Pow.Out24M.ButtOnCh3";
+                case ioSystemGraphicsType.Puid_Pow_Out24M_ShpOnOff3: return "Pow.Out24M.ShpOnOff3";
+                case ioSystemGraphicsType.Puid_Pow_Out24M_LabelName3: return "Pow.Out24M.LabelName3";
                 case ioSystemGraphicsType.Puid_Pow_Out24M_GridCh4: return "Pow.Out24M.GridCh4";
-                case ioSystemGraphicsType.Puid_Pow_Out24M_ButtOnCh4: return "Pow.Out24M.ButtOnCh4";
                 case ioSystemGraphicsType.Puid_Pow_Out24M_ButtOffCh4: return "Pow.Out24M.ButtOffCh4";
-                case ioSystemGraphicsType.Puid_Pow_Out24M_IconCh4: return "Pow.Out24M.IconCh4";
-                case ioSystemGraphicsType.Puid_Pow_Out24M_LabelCh4: return "Pow.Out24M.LabelCh4";
+                case ioSystemGraphicsType.Puid_Pow_Out24M_ButtOnCh4: return "Pow.Out24M.ButtOnCh4";
+                case ioSystemGraphicsType.Puid_Pow_Out24M_ShpOnOff4: return "Pow.Out24M.ShpOnOff4";
+                case ioSystemGraphicsType.Puid_Pow_Out24M_LabelName4: return "Pow.Out24M.LabelName4";
                 case ioSystemGraphicsType.Puid_Pow_Out24M_GridCh5: return "Pow.Out24M.GridCh5";
-                case ioSystemGraphicsType.Puid_Pow_Out24M_ButtOnCh5: return "Pow.Out24M.ButtOnCh5";
                 case ioSystemGraphicsType.Puid_Pow_Out24M_ButtOffCh5: return "Pow.Out24M.ButtOffCh5";
-                case ioSystemGraphicsType.Puid_Pow_Out24M_IconCh5: return "Pow.Out24M.IconCh5";
-                case ioSystemGraphicsType.Puid_Pow_Out24M_LabelCh5: return "Pow.Out24M.LabelCh5";
+                case ioSystemGraphicsType.Puid_Pow_Out24M_ButtOnCh5: return "Pow.Out24M.ButtOnCh5";
+                case ioSystemGraphicsType.Puid_Pow_Out24M_ShpOnOff5: return "Pow.Out24M.ShpOnOff5";
+                case ioSystemGraphicsType.Puid_Pow_Out24M_LabelName5: return "Pow.Out24M.LabelName5";
                 case ioSystemGraphicsType.Puid_Pow_Out24M_GridCh6: return "Pow.Out24M.GridCh6";
-                case ioSystemGraphicsType.Puid_Pow_Out24M_ButtOnCh6: return "Pow.Out24M.ButtOnCh6";
                 case ioSystemGraphicsType.Puid_Pow_Out24M_ButtOffCh6: return "Pow.Out24M.ButtOffCh6";
-                case ioSystemGraphicsType.Puid_Pow_Out24M_IconCh6: return "Pow.Out24M.IconCh6";
-                case ioSystemGraphicsType.Puid_Pow_Out24M_LabelCh6: return "Pow.Out24M.LabelCh6";
+                case ioSystemGraphicsType.Puid_Pow_Out24M_ButtOnCh6: return "Pow.Out24M.ButtOnCh6";
+                case ioSystemGraphicsType.Puid_Pow_Out24M_ShpOnOff6: return "Pow.Out24M.ShpOnOff6";
+                case ioSystemGraphicsType.Puid_Pow_Out24M_LabelName6: return "Pow.Out24M.LabelName6";
                 case ioSystemGraphicsType.Puid_Pow_Out24M_GridCh7: return "Pow.Out24M.GridCh7";
-                case ioSystemGraphicsType.Puid_Pow_Out24M_ButtOnCh7: return "Pow.Out24M.ButtOnCh7";
                 case ioSystemGraphicsType.Puid_Pow_Out24M_ButtOffCh7: return "Pow.Out24M.ButtOffCh7";
-                case ioSystemGraphicsType.Puid_Pow_Out24M_IconCh7: return "Pow.Out24M.IconCh7";
-                case ioSystemGraphicsType.Puid_Pow_Out24M_LabelCh7: return "Pow.Out24M.LabelCh7";
+                case ioSystemGraphicsType.Puid_Pow_Out24M_ButtOnCh7: return "Pow.Out24M.ButtOnCh7";
+                case ioSystemGraphicsType.Puid_Pow_Out24M_ShpOnOff7: return "Pow.Out24M.ShpOnOff7";
+                case ioSystemGraphicsType.Puid_Pow_Out24M_LabelName7: return "Pow.Out24M.LabelName7";
                 case ioSystemGraphicsType.Puid_Pow_Out24M_GridCh8: return "Pow.Out24M.GridCh8";
-                case ioSystemGraphicsType.Puid_Pow_Out24M_ButtOnCh8: return "Pow.Out24M.ButtOnCh8";
                 case ioSystemGraphicsType.Puid_Pow_Out24M_ButtOffCh8: return "Pow.Out24M.ButtOffCh8";
-                case ioSystemGraphicsType.Puid_Pow_Out24M_IconCh8: return "Pow.Out24M.IconCh8";
-                case ioSystemGraphicsType.Puid_Pow_Out24M_LabelCh8: return "Pow.Out24M.LabelCh8";
+                case ioSystemGraphicsType.Puid_Pow_Out24M_ButtOnCh8: return "Pow.Out24M.ButtOnCh8";
+                case ioSystemGraphicsType.Puid_Pow_Out24M_ShpOnOff8: return "Pow.Out24M.ShpOnOff8";
+                case ioSystemGraphicsType.Puid_Pow_Out24M_LabelName8: return "Pow.Out24M.LabelName8";
                 case ioSystemGraphicsType.Puid_Pow_Out24F_GridCh1: return "Pow.Out24F.GridCh1";
-                case ioSystemGraphicsType.Puid_Pow_Out24F_ButtOnCh1: return "Pow.Out24F.ButtOnCh1";
                 case ioSystemGraphicsType.Puid_Pow_Out24F_ButtOffCh1: return "Pow.Out24F.ButtOffCh1";
-                case ioSystemGraphicsType.Puid_Pow_Out24F_IconCh1: return "Pow.Out24F.IconCh1";
-                case ioSystemGraphicsType.Puid_Pow_Out24F_LabelCh1: return "Pow.Out24F.LabelCh1";
+                case ioSystemGraphicsType.Puid_Pow_Out24F_ButtOnCh1: return "Pow.Out24F.ButtOnCh1";
+                case ioSystemGraphicsType.Puid_Pow_Out24F_ShpOnOff1: return "Pow.Out24F.ShpOnOff1";
+                case ioSystemGraphicsType.Puid_Pow_Out24F_LabelName1: return "Pow.Out24F.LabelName1";
                 case ioSystemGraphicsType.Puid_Pow_Out24F_GridCh2: return "Pow.Out24F.GridCh2";
-                case ioSystemGraphicsType.Puid_Pow_Out24F_ButtOnCh2: return "Pow.Out24F.ButtOnCh2";
                 case ioSystemGraphicsType.Puid_Pow_Out24F_ButtOffCh2: return "Pow.Out24F.ButtOffCh2";
-                case ioSystemGraphicsType.Puid_Pow_Out24F_IconCh2: return "Pow.Out24F.IconCh2";
-                case ioSystemGraphicsType.Puid_Pow_Out24F_LabelCh2: return "Pow.Out24F.LabelCh2";
+                case ioSystemGraphicsType.Puid_Pow_Out24F_ButtOnCh2: return "Pow.Out24F.ButtOnCh2";
+                case ioSystemGraphicsType.Puid_Pow_Out24F_ShpOnOff2: return "Pow.Out24F.ShpOnOff2";
+                case ioSystemGraphicsType.Puid_Pow_Out24F_LabelName2: return "Pow.Out24F.LabelName2";
                 case ioSystemGraphicsType.Puid_Pow_Out24F_GridCh3: return "Pow.Out24F.GridCh3";
-                case ioSystemGraphicsType.Puid_Pow_Out24F_ButtOnCh3: return "Pow.Out24F.ButtOnCh3";
                 case ioSystemGraphicsType.Puid_Pow_Out24F_ButtOffCh3: return "Pow.Out24F.ButtOffCh3";
-                case ioSystemGraphicsType.Puid_Pow_Out24F_IconCh3: return "Pow.Out24F.IconCh3";
-                case ioSystemGraphicsType.Puid_Pow_Out24F_LabelCh3: return "Pow.Out24F.LabelCh3";
+                case ioSystemGraphicsType.Puid_Pow_Out24F_ButtOnCh3: return "Pow.Out24F.ButtOnCh3";
+                case ioSystemGraphicsType.Puid_Pow_Out24F_ShpOnOff3: return "Pow.Out24F.ShpOnOff3";
+                case ioSystemGraphicsType.Puid_Pow_Out24F_LabelName3: return "Pow.Out24F.LabelName3";
                 case ioSystemGraphicsType.Puid_Pow_Out24F_GridCh4: return "Pow.Out24F.GridCh4";
-                case ioSystemGraphicsType.Puid_Pow_Out24F_ButtOnCh4: return "Pow.Out24F.ButtOnCh4";
                 case ioSystemGraphicsType.Puid_Pow_Out24F_ButtOffCh4: return "Pow.Out24F.ButtOffCh4";
-                case ioSystemGraphicsType.Puid_Pow_Out24F_IconCh4: return "Pow.Out24F.IconCh4";
-                case ioSystemGraphicsType.Puid_Pow_Out24F_LabelCh4: return "Pow.Out24F.LabelCh4";
+                case ioSystemGraphicsType.Puid_Pow_Out24F_ButtOnCh4: return "Pow.Out24F.ButtOnCh4";
+                case ioSystemGraphicsType.Puid_Pow_Out24F_ShpOnOff4: return "Pow.Out24F.ShpOnOff4";
+                case ioSystemGraphicsType.Puid_Pow_Out24F_LabelName4: return "Pow.Out24F.LabelName4";
                 case ioSystemGraphicsType.Puid_Pow_Out24F_GridCh5: return "Pow.Out24F.GridCh5";
-                case ioSystemGraphicsType.Puid_Pow_Out24F_ButtOnCh5: return "Pow.Out24F.ButtOnCh5";
                 case ioSystemGraphicsType.Puid_Pow_Out24F_ButtOffCh5: return "Pow.Out24F.ButtOffCh5";
-                case ioSystemGraphicsType.Puid_Pow_Out24F_IconCh5: return "Pow.Out24F.IconCh5";
-                case ioSystemGraphicsType.Puid_Pow_Out24F_LabelCh5: return "Pow.Out24F.LabelCh5";
+                case ioSystemGraphicsType.Puid_Pow_Out24F_ButtOnCh5: return "Pow.Out24F.ButtOnCh5";
+                case ioSystemGraphicsType.Puid_Pow_Out24F_ShpOnOff5: return "Pow.Out24F.ShpOnOff5";
+                case ioSystemGraphicsType.Puid_Pow_Out24F_LabelName5: return "Pow.Out24F.LabelName5";
                 case ioSystemGraphicsType.Puid_Pow_Out24F_GridCh6: return "Pow.Out24F.GridCh6";
-                case ioSystemGraphicsType.Puid_Pow_Out24F_ButtOnCh6: return "Pow.Out24F.ButtOnCh6";
                 case ioSystemGraphicsType.Puid_Pow_Out24F_ButtOffCh6: return "Pow.Out24F.ButtOffCh6";
-                case ioSystemGraphicsType.Puid_Pow_Out24F_IconCh6: return "Pow.Out24F.IconCh6";
-                case ioSystemGraphicsType.Puid_Pow_Out24F_LabelCh6: return "Pow.Out24F.LabelCh6";
+                case ioSystemGraphicsType.Puid_Pow_Out24F_ButtOnCh6: return "Pow.Out24F.ButtOnCh6";
+                case ioSystemGraphicsType.Puid_Pow_Out24F_ShpOnOff6: return "Pow.Out24F.ShpOnOff6";
+                case ioSystemGraphicsType.Puid_Pow_Out24F_LabelName6: return "Pow.Out24F.LabelName6";
                 case ioSystemGraphicsType.Puid_Pow_Out24F_GridCh7: return "Pow.Out24F.GridCh7";
-                case ioSystemGraphicsType.Puid_Pow_Out24F_ButtOnCh7: return "Pow.Out24F.ButtOnCh7";
                 case ioSystemGraphicsType.Puid_Pow_Out24F_ButtOffCh7: return "Pow.Out24F.ButtOffCh7";
-                case ioSystemGraphicsType.Puid_Pow_Out24F_IconCh7: return "Pow.Out24F.IconCh7";
-                case ioSystemGraphicsType.Puid_Pow_Out24F_LabelCh7: return "Pow.Out24F.LabelCh7";
+                case ioSystemGraphicsType.Puid_Pow_Out24F_ButtOnCh7: return "Pow.Out24F.ButtOnCh7";
+                case ioSystemGraphicsType.Puid_Pow_Out24F_ShpOnOff7: return "Pow.Out24F.ShpOnOff7";
+                case ioSystemGraphicsType.Puid_Pow_Out24F_LabelName7: return "Pow.Out24F.LabelName7";
                 case ioSystemGraphicsType.Puid_Pow_Out24F_GridCh8: return "Pow.Out24F.GridCh8";
-                case ioSystemGraphicsType.Puid_Pow_Out24F_ButtOnCh8: return "Pow.Out24F.ButtOnCh8";
                 case ioSystemGraphicsType.Puid_Pow_Out24F_ButtOffCh8: return "Pow.Out24F.ButtOffCh8";
-                case ioSystemGraphicsType.Puid_Pow_Out24F_IconCh8: return "Pow.Out24F.IconCh8";
-                case ioSystemGraphicsType.Puid_Pow_Out24F_LabelCh8: return "Pow.Out24F.LabelCh8";
+                case ioSystemGraphicsType.Puid_Pow_Out24F_ButtOnCh8: return "Pow.Out24F.ButtOnCh8";
+                case ioSystemGraphicsType.Puid_Pow_Out24F_ShpOnOff8: return "Pow.Out24F.ShpOnOff8";
+                case ioSystemGraphicsType.Puid_Pow_Out24F_LabelName8: return "Pow.Out24F.LabelName8";
                 case ioSystemGraphicsType.Puid_Pow_Out24A_GridCh1: return "Pow.Out24A.GridCh1";
-                case ioSystemGraphicsType.Puid_Pow_Out24A_ButtOnCh1: return "Pow.Out24A.ButtOnCh1";
                 case ioSystemGraphicsType.Puid_Pow_Out24A_ButtOffCh1: return "Pow.Out24A.ButtOffCh1";
-                case ioSystemGraphicsType.Puid_Pow_Out24A_IconCh1: return "Pow.Out24A.IconCh1";
-                case ioSystemGraphicsType.Puid_Pow_Out24A_LabelCh1: return "Pow.Out24A.LabelCh1";
+                case ioSystemGraphicsType.Puid_Pow_Out24A_ButtOnCh1: return "Pow.Out24A.ButtOnCh1";
+                case ioSystemGraphicsType.Puid_Pow_Out24A_ShpOnOff1: return "Pow.Out24A.ShpOnOff1";
+                case ioSystemGraphicsType.Puid_Pow_Out24A_LabelName1: return "Pow.Out24A.LabelName1";
                 case ioSystemGraphicsType.Puid_Pow_Out24A_GridCh2: return "Pow.Out24A.GridCh2";
-                case ioSystemGraphicsType.Puid_Pow_Out24A_ButtOnCh2: return "Pow.Out24A.ButtOnCh2";
                 case ioSystemGraphicsType.Puid_Pow_Out24A_ButtOffCh2: return "Pow.Out24A.ButtOffCh2";
-                case ioSystemGraphicsType.Puid_Pow_Out24A_IconCh2: return "Pow.Out24A.IconCh2";
-                case ioSystemGraphicsType.Puid_Pow_Out24A_LabelCh2: return "Pow.Out24A.LabelCh2";
+                case ioSystemGraphicsType.Puid_Pow_Out24A_ButtOnCh2: return "Pow.Out24A.ButtOnCh2";
+                case ioSystemGraphicsType.Puid_Pow_Out24A_ShpOnOff2: return "Pow.Out24A.ShpOnOff2";
+                case ioSystemGraphicsType.Puid_Pow_Out24A_LabelName2: return "Pow.Out24A.LabelName2";
                 case ioSystemGraphicsType.Puid_Pow_Out24A_GridCh3: return "Pow.Out24A.GridCh3";
-                case ioSystemGraphicsType.Puid_Pow_Out24A_ButtOnCh3: return "Pow.Out24A.ButtOnCh3";
                 case ioSystemGraphicsType.Puid_Pow_Out24A_ButtOffCh3: return "Pow.Out24A.ButtOffCh3";
-                case ioSystemGraphicsType.Puid_Pow_Out24A_IconCh3: return "Pow.Out24A.IconCh3";
-                case ioSystemGraphicsType.Puid_Pow_Out24A_LabelCh3: return "Pow.Out24A.LabelCh3";
+                case ioSystemGraphicsType.Puid_Pow_Out24A_ButtOnCh3: return "Pow.Out24A.ButtOnCh3";
+                case ioSystemGraphicsType.Puid_Pow_Out24A_ShpOnOff3: return "Pow.Out24A.ShpOnOff3";
+                case ioSystemGraphicsType.Puid_Pow_Out24A_LabelName3: return "Pow.Out24A.LabelName3";
                 case ioSystemGraphicsType.Puid_Pow_Out24A_GridCh4: return "Pow.Out24A.GridCh4";
-                case ioSystemGraphicsType.Puid_Pow_Out24A_ButtOnCh4: return "Pow.Out24A.ButtOnCh4";
                 case ioSystemGraphicsType.Puid_Pow_Out24A_ButtOffCh4: return "Pow.Out24A.ButtOffCh4";
-                case ioSystemGraphicsType.Puid_Pow_Out24A_IconCh4: return "Pow.Out24A.IconCh4";
-                case ioSystemGraphicsType.Puid_Pow_Out24A_LabelCh4: return "Pow.Out24A.LabelCh4";
+                case ioSystemGraphicsType.Puid_Pow_Out24A_ButtOnCh4: return "Pow.Out24A.ButtOnCh4";
+                case ioSystemGraphicsType.Puid_Pow_Out24A_ShpOnOff4: return "Pow.Out24A.ShpOnOff4";
+                case ioSystemGraphicsType.Puid_Pow_Out24A_LabelName4: return "Pow.Out24A.LabelName4";
                 case ioSystemGraphicsType.Puid_Pow_Out24A_GridCh5: return "Pow.Out24A.GridCh5";
-                case ioSystemGraphicsType.Puid_Pow_Out24A_ButtOnCh5: return "Pow.Out24A.ButtOnCh5";
                 case ioSystemGraphicsType.Puid_Pow_Out24A_ButtOffCh5: return "Pow.Out24A.ButtOffCh5";
-                case ioSystemGraphicsType.Puid_Pow_Out24A_IconCh5: return "Pow.Out24A.IconCh5";
-                case ioSystemGraphicsType.Puid_Pow_Out24A_LabelCh5: return "Pow.Out24A.LabelCh5";
+                case ioSystemGraphicsType.Puid_Pow_Out24A_ButtOnCh5: return "Pow.Out24A.ButtOnCh5";
+                case ioSystemGraphicsType.Puid_Pow_Out24A_ShpOnOff5: return "Pow.Out24A.ShpOnOff5";
+                case ioSystemGraphicsType.Puid_Pow_Out24A_LabelName5: return "Pow.Out24A.LabelName5";
                 case ioSystemGraphicsType.Puid_Pow_Out24A_GridCh6: return "Pow.Out24A.GridCh6";
-                case ioSystemGraphicsType.Puid_Pow_Out24A_ButtOnCh6: return "Pow.Out24A.ButtOnCh6";
                 case ioSystemGraphicsType.Puid_Pow_Out24A_ButtOffCh6: return "Pow.Out24A.ButtOffCh6";
-                case ioSystemGraphicsType.Puid_Pow_Out24A_IconCh6: return "Pow.Out24A.IconCh6";
-                case ioSystemGraphicsType.Puid_Pow_Out24A_LabelCh6: return "Pow.Out24A.LabelCh6";
+                case ioSystemGraphicsType.Puid_Pow_Out24A_ButtOnCh6: return "Pow.Out24A.ButtOnCh6";
+                case ioSystemGraphicsType.Puid_Pow_Out24A_ShpOnOff6: return "Pow.Out24A.ShpOnOff6";
+                case ioSystemGraphicsType.Puid_Pow_Out24A_LabelName6: return "Pow.Out24A.LabelName6";
                 case ioSystemGraphicsType.Puid_Pow_Out24A_GridCh7: return "Pow.Out24A.GridCh7";
-                case ioSystemGraphicsType.Puid_Pow_Out24A_ButtOnCh7: return "Pow.Out24A.ButtOnCh7";
                 case ioSystemGraphicsType.Puid_Pow_Out24A_ButtOffCh7: return "Pow.Out24A.ButtOffCh7";
-                case ioSystemGraphicsType.Puid_Pow_Out24A_IconCh7: return "Pow.Out24A.IconCh7";
-                case ioSystemGraphicsType.Puid_Pow_Out24A_LabelCh7: return "Pow.Out24A.LabelCh7";
+                case ioSystemGraphicsType.Puid_Pow_Out24A_ButtOnCh7: return "Pow.Out24A.ButtOnCh7";
+                case ioSystemGraphicsType.Puid_Pow_Out24A_ShpOnOff7: return "Pow.Out24A.ShpOnOff7";
+                case ioSystemGraphicsType.Puid_Pow_Out24A_LabelName7: return "Pow.Out24A.LabelName7";
                 case ioSystemGraphicsType.Puid_Pow_Out24A_GridCh8: return "Pow.Out24A.GridCh8";
-                case ioSystemGraphicsType.Puid_Pow_Out24A_ButtOnCh8: return "Pow.Out24A.ButtOnCh8";
                 case ioSystemGraphicsType.Puid_Pow_Out24A_ButtOffCh8: return "Pow.Out24A.ButtOffCh8";
-                case ioSystemGraphicsType.Puid_Pow_Out24A_IconCh8: return "Pow.Out24A.IconCh8";
-                case ioSystemGraphicsType.Puid_Pow_Out24A_LabelCh8: return "Pow.Out24A.LabelCh8";
+                case ioSystemGraphicsType.Puid_Pow_Out24A_ButtOnCh8: return "Pow.Out24A.ButtOnCh8";
+                case ioSystemGraphicsType.Puid_Pow_Out24A_ShpOnOff8: return "Pow.Out24A.ShpOnOff8";
+                case ioSystemGraphicsType.Puid_Pow_Out24A_LabelName8: return "Pow.Out24A.LabelName8";
                 case ioSystemGraphicsType.Puid_Pow_Out220M_GridCh1: return "Pow.Out220M.GridCh1";
-                case ioSystemGraphicsType.Puid_Pow_Out220M_ButtOnCh1: return "Pow.Out220M.ButtOnCh1";
                 case ioSystemGraphicsType.Puid_Pow_Out220M_ButtOffCh1: return "Pow.Out220M.ButtOffCh1";
-                case ioSystemGraphicsType.Puid_Pow_Out220M_IconCh1: return "Pow.Out220M.IconCh1";
-                case ioSystemGraphicsType.Puid_Pow_Out220M_LabelCh1: return "Pow.Out220M.LabelCh1";
+                case ioSystemGraphicsType.Puid_Pow_Out220M_ButtOnCh1: return "Pow.Out220M.ButtOnCh1";
+                case ioSystemGraphicsType.Puid_Pow_Out220M_ShpOnOff1: return "Pow.Out220M.ShpOnOff1";
+                case ioSystemGraphicsType.Puid_Pow_Out220M_LabelName1: return "Pow.Out220M.LabelName1";
                 case ioSystemGraphicsType.Puid_Pow_Out220M_GridCh2: return "Pow.Out220M.GridCh2";
-                case ioSystemGraphicsType.Puid_Pow_Out220M_ButtOnCh2: return "Pow.Out220M.ButtOnCh2";
                 case ioSystemGraphicsType.Puid_Pow_Out220M_ButtOffCh2: return "Pow.Out220M.ButtOffCh2";
-                case ioSystemGraphicsType.Puid_Pow_Out220M_IconCh2: return "Pow.Out220M.IconCh2";
-                case ioSystemGraphicsType.Puid_Pow_Out220M_LabelCh2: return "Pow.Out220M.LabelCh2";
+                case ioSystemGraphicsType.Puid_Pow_Out220M_ButtOnCh2: return "Pow.Out220M.ButtOnCh2";
+                case ioSystemGraphicsType.Puid_Pow_Out220M_ShpOnOff2: return "Pow.Out220M.ShpOnOff2";
+                case ioSystemGraphicsType.Puid_Pow_Out220M_LabelName2: return "Pow.Out220M.LabelName2";
                 case ioSystemGraphicsType.Puid_Pow_Out220M_GridCh3: return "Pow.Out220M.GridCh3";
-                case ioSystemGraphicsType.Puid_Pow_Out220M_ButtOnCh3: return "Pow.Out220M.ButtOnCh3";
                 case ioSystemGraphicsType.Puid_Pow_Out220M_ButtOffCh3: return "Pow.Out220M.ButtOffCh3";
-                case ioSystemGraphicsType.Puid_Pow_Out220M_IconCh3: return "Pow.Out220M.IconCh3";
-                case ioSystemGraphicsType.Puid_Pow_Out220M_LabelCh3: return "Pow.Out220M.LabelCh3";
+                case ioSystemGraphicsType.Puid_Pow_Out220M_ButtOnCh3: return "Pow.Out220M.ButtOnCh3";
+                case ioSystemGraphicsType.Puid_Pow_Out220M_ShpOnOff3: return "Pow.Out220M.ShpOnOff3";
+                case ioSystemGraphicsType.Puid_Pow_Out220M_LabelName3: return "Pow.Out220M.LabelName3";
                 case ioSystemGraphicsType.Puid_Pow_Out220M_GridCh4: return "Pow.Out220M.GridCh4";
-                case ioSystemGraphicsType.Puid_Pow_Out220M_ButtOnCh4: return "Pow.Out220M.ButtOnCh4";
                 case ioSystemGraphicsType.Puid_Pow_Out220M_ButtOffCh4: return "Pow.Out220M.ButtOffCh4";
-                case ioSystemGraphicsType.Puid_Pow_Out220M_IconCh4: return "Pow.Out220M.IconCh4";
-                case ioSystemGraphicsType.Puid_Pow_Out220M_LabelCh4: return "Pow.Out220M.LabelCh4";
+                case ioSystemGraphicsType.Puid_Pow_Out220M_ButtOnCh4: return "Pow.Out220M.ButtOnCh4";
+                case ioSystemGraphicsType.Puid_Pow_Out220M_ShpOnOff4: return "Pow.Out220M.ShpOnOff4";
+                case ioSystemGraphicsType.Puid_Pow_Out220M_LabelName4: return "Pow.Out220M.LabelName4";
                 case ioSystemGraphicsType.Puid_Pow_Out220M_GridCh5: return "Pow.Out220M.GridCh5";
-                case ioSystemGraphicsType.Puid_Pow_Out220M_ButtOnCh5: return "Pow.Out220M.ButtOnCh5";
                 case ioSystemGraphicsType.Puid_Pow_Out220M_ButtOffCh5: return "Pow.Out220M.ButtOffCh5";
-                case ioSystemGraphicsType.Puid_Pow_Out220M_IconCh5: return "Pow.Out220M.IconCh5";
-                case ioSystemGraphicsType.Puid_Pow_Out220M_LabelCh5: return "Pow.Out220M.LabelCh5";
+                case ioSystemGraphicsType.Puid_Pow_Out220M_ButtOnCh5: return "Pow.Out220M.ButtOnCh5";
+                case ioSystemGraphicsType.Puid_Pow_Out220M_ShpOnOff5: return "Pow.Out220M.ShpOnOff5";
+                case ioSystemGraphicsType.Puid_Pow_Out220M_LabelName5: return "Pow.Out220M.LabelName5";
                 case ioSystemGraphicsType.Puid_Pow_Out220M_GridCh6: return "Pow.Out220M.GridCh6";
-                case ioSystemGraphicsType.Puid_Pow_Out220M_ButtOnCh6: return "Pow.Out220M.ButtOnCh6";
                 case ioSystemGraphicsType.Puid_Pow_Out220M_ButtOffCh6: return "Pow.Out220M.ButtOffCh6";
-                case ioSystemGraphicsType.Puid_Pow_Out220M_IconCh6: return "Pow.Out220M.IconCh6";
-                case ioSystemGraphicsType.Puid_Pow_Out220M_LabelCh6: return "Pow.Out220M.LabelCh6";
+                case ioSystemGraphicsType.Puid_Pow_Out220M_ButtOnCh6: return "Pow.Out220M.ButtOnCh6";
+                case ioSystemGraphicsType.Puid_Pow_Out220M_ShpOnOff6: return "Pow.Out220M.ShpOnOff6";
+                case ioSystemGraphicsType.Puid_Pow_Out220M_LabelName6: return "Pow.Out220M.LabelName6";
                 case ioSystemGraphicsType.Puid_Pow_Out220M_GridCh7: return "Pow.Out220M.GridCh7";
-                case ioSystemGraphicsType.Puid_Pow_Out220M_ButtOnCh7: return "Pow.Out220M.ButtOnCh7";
                 case ioSystemGraphicsType.Puid_Pow_Out220M_ButtOffCh7: return "Pow.Out220M.ButtOffCh7";
-                case ioSystemGraphicsType.Puid_Pow_Out220M_IconCh7: return "Pow.Out220M.IconCh7";
-                case ioSystemGraphicsType.Puid_Pow_Out220M_LabelCh7: return "Pow.Out220M.LabelCh7";
+                case ioSystemGraphicsType.Puid_Pow_Out220M_ButtOnCh7: return "Pow.Out220M.ButtOnCh7";
+                case ioSystemGraphicsType.Puid_Pow_Out220M_ShpOnOff7: return "Pow.Out220M.ShpOnOff7";
+                case ioSystemGraphicsType.Puid_Pow_Out220M_LabelName7: return "Pow.Out220M.LabelName7";
                 case ioSystemGraphicsType.Puid_Pow_Out220M_GridCh8: return "Pow.Out220M.GridCh8";
-                case ioSystemGraphicsType.Puid_Pow_Out220M_ButtOnCh8: return "Pow.Out220M.ButtOnCh8";
                 case ioSystemGraphicsType.Puid_Pow_Out220M_ButtOffCh8: return "Pow.Out220M.ButtOffCh8";
-                case ioSystemGraphicsType.Puid_Pow_Out220M_IconCh8: return "Pow.Out220M.IconCh8";
-                case ioSystemGraphicsType.Puid_Pow_Out220M_LabelCh8: return "Pow.Out220M.LabelCh8";
+                case ioSystemGraphicsType.Puid_Pow_Out220M_ButtOnCh8: return "Pow.Out220M.ButtOnCh8";
+                case ioSystemGraphicsType.Puid_Pow_Out220M_ShpOnOff8: return "Pow.Out220M.ShpOnOff8";
+                case ioSystemGraphicsType.Puid_Pow_Out220M_LabelName8: return "Pow.Out220M.LabelName8";
                 case ioSystemGraphicsType.Puid_Pow_Out220F_GridCh1: return "Pow.Out220F.GridCh1";
-                case ioSystemGraphicsType.Puid_Pow_Out220F_ButtOnCh1: return "Pow.Out220F.ButtOnCh1";
                 case ioSystemGraphicsType.Puid_Pow_Out220F_ButtOffCh1: return "Pow.Out220F.ButtOffCh1";
-                case ioSystemGraphicsType.Puid_Pow_Out220F_IconCh1: return "Pow.Out220F.IconCh1";
-                case ioSystemGraphicsType.Puid_Pow_Out220F_LabelCh1: return "Pow.Out220F.LabelCh1";
+                case ioSystemGraphicsType.Puid_Pow_Out220F_ButtOnCh1: return "Pow.Out220F.ButtOnCh1";
+                case ioSystemGraphicsType.Puid_Pow_Out220F_ShpOnOff1: return "Pow.Out220F.ShpOnOff1";
+                case ioSystemGraphicsType.Puid_Pow_Out220F_LabelName1: return "Pow.Out220F.LabelName1";
                 case ioSystemGraphicsType.Puid_Pow_Out220F_GridCh2: return "Pow.Out220F.GridCh2";
-                case ioSystemGraphicsType.Puid_Pow_Out220F_ButtOnCh2: return "Pow.Out220F.ButtOnCh2";
                 case ioSystemGraphicsType.Puid_Pow_Out220F_ButtOffCh2: return "Pow.Out220F.ButtOffCh2";
-                case ioSystemGraphicsType.Puid_Pow_Out220F_IconCh2: return "Pow.Out220F.IconCh2";
-                case ioSystemGraphicsType.Puid_Pow_Out220F_LabelCh2: return "Pow.Out220F.LabelCh2";
+                case ioSystemGraphicsType.Puid_Pow_Out220F_ButtOnCh2: return "Pow.Out220F.ButtOnCh2";
+                case ioSystemGraphicsType.Puid_Pow_Out220F_ShpOnOff2: return "Pow.Out220F.ShpOnOff2";
+                case ioSystemGraphicsType.Puid_Pow_Out220F_LabelName2: return "Pow.Out220F.LabelName2";
                 case ioSystemGraphicsType.Puid_Pow_Out220F_GridCh3: return "Pow.Out220F.GridCh3";
-                case ioSystemGraphicsType.Puid_Pow_Out220F_ButtOnCh3: return "Pow.Out220F.ButtOnCh3";
                 case ioSystemGraphicsType.Puid_Pow_Out220F_ButtOffCh3: return "Pow.Out220F.ButtOffCh3";
-                case ioSystemGraphicsType.Puid_Pow_Out220F_IconCh3: return "Pow.Out220F.IconCh3";
-                case ioSystemGraphicsType.Puid_Pow_Out220F_LabelCh3: return "Pow.Out220F.LabelCh3";
+                case ioSystemGraphicsType.Puid_Pow_Out220F_ButtOnCh3: return "Pow.Out220F.ButtOnCh3";
+                case ioSystemGraphicsType.Puid_Pow_Out220F_ShpOnOff3: return "Pow.Out220F.ShpOnOff3";
+                case ioSystemGraphicsType.Puid_Pow_Out220F_LabelName3: return "Pow.Out220F.LabelName3";
                 case ioSystemGraphicsType.Puid_Pow_Out220F_GridCh4: return "Pow.Out220F.GridCh4";
-                case ioSystemGraphicsType.Puid_Pow_Out220F_ButtOnCh4: return "Pow.Out220F.ButtOnCh4";
                 case ioSystemGraphicsType.Puid_Pow_Out220F_ButtOffCh4: return "Pow.Out220F.ButtOffCh4";
-                case ioSystemGraphicsType.Puid_Pow_Out220F_IconCh4: return "Pow.Out220F.IconCh4";
-                case ioSystemGraphicsType.Puid_Pow_Out220F_LabelCh4: return "Pow.Out220F.LabelCh4";
+                case ioSystemGraphicsType.Puid_Pow_Out220F_ButtOnCh4: return "Pow.Out220F.ButtOnCh4";
+                case ioSystemGraphicsType.Puid_Pow_Out220F_ShpOnOff4: return "Pow.Out220F.ShpOnOff4";
+                case ioSystemGraphicsType.Puid_Pow_Out220F_LabelName4: return "Pow.Out220F.LabelName4";
                 case ioSystemGraphicsType.Puid_Pow_Out220F_GridCh5: return "Pow.Out220F.GridCh5";
-                case ioSystemGraphicsType.Puid_Pow_Out220F_ButtOnCh5: return "Pow.Out220F.ButtOnCh5";
                 case ioSystemGraphicsType.Puid_Pow_Out220F_ButtOffCh5: return "Pow.Out220F.ButtOffCh5";
-                case ioSystemGraphicsType.Puid_Pow_Out220F_IconCh5: return "Pow.Out220F.IconCh5";
-                case ioSystemGraphicsType.Puid_Pow_Out220F_LabelCh5: return "Pow.Out220F.LabelCh5";
+                case ioSystemGraphicsType.Puid_Pow_Out220F_ButtOnCh5: return "Pow.Out220F.ButtOnCh5";
+                case ioSystemGraphicsType.Puid_Pow_Out220F_ShpOnOff5: return "Pow.Out220F.ShpOnOff5";
+                case ioSystemGraphicsType.Puid_Pow_Out220F_LabelName5: return "Pow.Out220F.LabelName5";
                 case ioSystemGraphicsType.Puid_Pow_Out220F_GridCh6: return "Pow.Out220F.GridCh6";
-                case ioSystemGraphicsType.Puid_Pow_Out220F_ButtOnCh6: return "Pow.Out220F.ButtOnCh6";
                 case ioSystemGraphicsType.Puid_Pow_Out220F_ButtOffCh6: return "Pow.Out220F.ButtOffCh6";
-                case ioSystemGraphicsType.Puid_Pow_Out220F_IconCh6: return "Pow.Out220F.IconCh6";
-                case ioSystemGraphicsType.Puid_Pow_Out220F_LabelCh6: return "Pow.Out220F.LabelCh6";
+                case ioSystemGraphicsType.Puid_Pow_Out220F_ButtOnCh6: return "Pow.Out220F.ButtOnCh6";
+                case ioSystemGraphicsType.Puid_Pow_Out220F_ShpOnOff6: return "Pow.Out220F.ShpOnOff6";
+                case ioSystemGraphicsType.Puid_Pow_Out220F_LabelName6: return "Pow.Out220F.LabelName6";
                 case ioSystemGraphicsType.Puid_Pow_Out220F_GridCh7: return "Pow.Out220F.GridCh7";
-                case ioSystemGraphicsType.Puid_Pow_Out220F_ButtOnCh7: return "Pow.Out220F.ButtOnCh7";
                 case ioSystemGraphicsType.Puid_Pow_Out220F_ButtOffCh7: return "Pow.Out220F.ButtOffCh7";
-                case ioSystemGraphicsType.Puid_Pow_Out220F_IconCh7: return "Pow.Out220F.IconCh7";
-                case ioSystemGraphicsType.Puid_Pow_Out220F_LabelCh7: return "Pow.Out220F.LabelCh7";
+                case ioSystemGraphicsType.Puid_Pow_Out220F_ButtOnCh7: return "Pow.Out220F.ButtOnCh7";
+                case ioSystemGraphicsType.Puid_Pow_Out220F_ShpOnOff7: return "Pow.Out220F.ShpOnOff7";
+                case ioSystemGraphicsType.Puid_Pow_Out220F_LabelName7: return "Pow.Out220F.LabelName7";
                 case ioSystemGraphicsType.Puid_Pow_Out220F_GridCh8: return "Pow.Out220F.GridCh8";
-                case ioSystemGraphicsType.Puid_Pow_Out220F_ButtOnCh8: return "Pow.Out220F.ButtOnCh8";
                 case ioSystemGraphicsType.Puid_Pow_Out220F_ButtOffCh8: return "Pow.Out220F.ButtOffCh8";
-                case ioSystemGraphicsType.Puid_Pow_Out220F_IconCh8: return "Pow.Out220F.IconCh8";
-                case ioSystemGraphicsType.Puid_Pow_Out220F_LabelCh8: return "Pow.Out220F.LabelCh8";
+                case ioSystemGraphicsType.Puid_Pow_Out220F_ButtOnCh8: return "Pow.Out220F.ButtOnCh8";
+                case ioSystemGraphicsType.Puid_Pow_Out220F_ShpOnOff8: return "Pow.Out220F.ShpOnOff8";
+                case ioSystemGraphicsType.Puid_Pow_Out220F_LabelName8: return "Pow.Out220F.LabelName8";
                 case ioSystemGraphicsType.Puid_Pow_Out220A_GridCh1: return "Pow.Out220A.GridCh1";
-                case ioSystemGraphicsType.Puid_Pow_Out220A_ButtOnCh1: return "Pow.Out220A.ButtOnCh1";
                 case ioSystemGraphicsType.Puid_Pow_Out220A_ButtOffCh1: return "Pow.Out220A.ButtOffCh1";
-                case ioSystemGraphicsType.Puid_Pow_Out220A_IconCh1: return "Pow.Out220A.IconCh1";
-                case ioSystemGraphicsType.Puid_Pow_Out220A_LabelCh1: return "Pow.Out220A.LabelCh1";
+                case ioSystemGraphicsType.Puid_Pow_Out220A_ButtOnCh1: return "Pow.Out220A.ButtOnCh1";
+                case ioSystemGraphicsType.Puid_Pow_Out220A_ShpOnOff1: return "Pow.Out220A.ShpOnOff1";
+                case ioSystemGraphicsType.Puid_Pow_Out220A_LabelName1: return "Pow.Out220A.LabelName1";
                 case ioSystemGraphicsType.Puid_Pow_Out220A_GridCh2: return "Pow.Out220A.GridCh2";
-                case ioSystemGraphicsType.Puid_Pow_Out220A_ButtOnCh2: return "Pow.Out220A.ButtOnCh2";
                 case ioSystemGraphicsType.Puid_Pow_Out220A_ButtOffCh2: return "Pow.Out220A.ButtOffCh2";
-                case ioSystemGraphicsType.Puid_Pow_Out220A_IconCh2: return "Pow.Out220A.IconCh2";
-                case ioSystemGraphicsType.Puid_Pow_Out220A_LabelCh2: return "Pow.Out220A.LabelCh2";
+                case ioSystemGraphicsType.Puid_Pow_Out220A_ButtOnCh2: return "Pow.Out220A.ButtOnCh2";
+                case ioSystemGraphicsType.Puid_Pow_Out220A_ShpOnOff2: return "Pow.Out220A.ShpOnOff2";
+                case ioSystemGraphicsType.Puid_Pow_Out220A_LabelName2: return "Pow.Out220A.LabelName2";
                 case ioSystemGraphicsType.Puid_Pow_Out220A_GridCh3: return "Pow.Out220A.GridCh3";
-                case ioSystemGraphicsType.Puid_Pow_Out220A_ButtOnCh3: return "Pow.Out220A.ButtOnCh3";
                 case ioSystemGraphicsType.Puid_Pow_Out220A_ButtOffCh3: return "Pow.Out220A.ButtOffCh3";
-                case ioSystemGraphicsType.Puid_Pow_Out220A_IconCh3: return "Pow.Out220A.IconCh3";
-                case ioSystemGraphicsType.Puid_Pow_Out220A_LabelCh3: return "Pow.Out220A.LabelCh3";
+                case ioSystemGraphicsType.Puid_Pow_Out220A_ButtOnCh3: return "Pow.Out220A.ButtOnCh3";
+                case ioSystemGraphicsType.Puid_Pow_Out220A_ShpOnOff3: return "Pow.Out220A.ShpOnOff3";
+                case ioSystemGraphicsType.Puid_Pow_Out220A_LabelName3: return "Pow.Out220A.LabelName3";
                 case ioSystemGraphicsType.Puid_Pow_Out220A_GridCh4: return "Pow.Out220A.GridCh4";
-                case ioSystemGraphicsType.Puid_Pow_Out220A_ButtOnCh4: return "Pow.Out220A.ButtOnCh4";
                 case ioSystemGraphicsType.Puid_Pow_Out220A_ButtOffCh4: return "Pow.Out220A.ButtOffCh4";
-                case ioSystemGraphicsType.Puid_Pow_Out220A_IconCh4: return "Pow.Out220A.IconCh4";
-                case ioSystemGraphicsType.Puid_Pow_Out220A_LabelCh4: return "Pow.Out220A.LabelCh4";
+                case ioSystemGraphicsType.Puid_Pow_Out220A_ButtOnCh4: return "Pow.Out220A.ButtOnCh4";
+                case ioSystemGraphicsType.Puid_Pow_Out220A_ShpOnOff4: return "Pow.Out220A.ShpOnOff4";
+                case ioSystemGraphicsType.Puid_Pow_Out220A_LabelName4: return "Pow.Out220A.LabelName4";
                 case ioSystemGraphicsType.Puid_Pow_Out220A_GridCh5: return "Pow.Out220A.GridCh5";
-                case ioSystemGraphicsType.Puid_Pow_Out220A_ButtOnCh5: return "Pow.Out220A.ButtOnCh5";
                 case ioSystemGraphicsType.Puid_Pow_Out220A_ButtOffCh5: return "Pow.Out220A.ButtOffCh5";
-                case ioSystemGraphicsType.Puid_Pow_Out220A_IconCh5: return "Pow.Out220A.IconCh5";
-                case ioSystemGraphicsType.Puid_Pow_Out220A_LabelCh5: return "Pow.Out220A.LabelCh5";
+                case ioSystemGraphicsType.Puid_Pow_Out220A_ButtOnCh5: return "Pow.Out220A.ButtOnCh5";
+                case ioSystemGraphicsType.Puid_Pow_Out220A_ShpOnOff5: return "Pow.Out220A.ShpOnOff5";
+                case ioSystemGraphicsType.Puid_Pow_Out220A_LabelName5: return "Pow.Out220A.LabelName5";
                 case ioSystemGraphicsType.Puid_Pow_Out220A_GridCh6: return "Pow.Out220A.GridCh6";
-                case ioSystemGraphicsType.Puid_Pow_Out220A_ButtOnCh6: return "Pow.Out220A.ButtOnCh6";
                 case ioSystemGraphicsType.Puid_Pow_Out220A_ButtOffCh6: return "Pow.Out220A.ButtOffCh6";
-                case ioSystemGraphicsType.Puid_Pow_Out220A_IconCh6: return "Pow.Out220A.IconCh6";
-                case ioSystemGraphicsType.Puid_Pow_Out220A_LabelCh6: return "Pow.Out220A.LabelCh6";
+                case ioSystemGraphicsType.Puid_Pow_Out220A_ButtOnCh6: return "Pow.Out220A.ButtOnCh6";
+                case ioSystemGraphicsType.Puid_Pow_Out220A_ShpOnOff6: return "Pow.Out220A.ShpOnOff6";
+                case ioSystemGraphicsType.Puid_Pow_Out220A_LabelName6: return "Pow.Out220A.LabelName6";
                 case ioSystemGraphicsType.Puid_Pow_Out220A_GridCh7: return "Pow.Out220A.GridCh7";
-                case ioSystemGraphicsType.Puid_Pow_Out220A_ButtOnCh7: return "Pow.Out220A.ButtOnCh7";
                 case ioSystemGraphicsType.Puid_Pow_Out220A_ButtOffCh7: return "Pow.Out220A.ButtOffCh7";
-                case ioSystemGraphicsType.Puid_Pow_Out220A_IconCh7: return "Pow.Out220A.IconCh7";
-                case ioSystemGraphicsType.Puid_Pow_Out220A_LabelCh7: return "Pow.Out220A.LabelCh7";
+                case ioSystemGraphicsType.Puid_Pow_Out220A_ButtOnCh7: return "Pow.Out220A.ButtOnCh7";
+                case ioSystemGraphicsType.Puid_Pow_Out220A_ShpOnOff7: return "Pow.Out220A.ShpOnOff7";
+                case ioSystemGraphicsType.Puid_Pow_Out220A_LabelName7: return "Pow.Out220A.LabelName7";
                 case ioSystemGraphicsType.Puid_Pow_Out220A_GridCh8: return "Pow.Out220A.GridCh8";
-                case ioSystemGraphicsType.Puid_Pow_Out220A_ButtOnCh8: return "Pow.Out220A.ButtOnCh8";
                 case ioSystemGraphicsType.Puid_Pow_Out220A_ButtOffCh8: return "Pow.Out220A.ButtOffCh8";
-                case ioSystemGraphicsType.Puid_Pow_Out220A_IconCh8: return "Pow.Out220A.IconCh8";
-                case ioSystemGraphicsType.Puid_Pow_Out220A_LabelCh8: return "Pow.Out220A.LabelCh8";
+                case ioSystemGraphicsType.Puid_Pow_Out220A_ButtOnCh8: return "Pow.Out220A.ButtOnCh8";
+                case ioSystemGraphicsType.Puid_Pow_Out220A_ShpOnOff8: return "Pow.Out220A.ShpOnOff8";
+                case ioSystemGraphicsType.Puid_Pow_Out220A_LabelName8: return "Pow.Out220A.LabelName8";
                 case ioSystemGraphicsType.Puid_Pow_Row1_Icon12V: return "Pow.Row1.Icon12V";
                 case ioSystemGraphicsType.Puid_Pow_Row1_ButtActive12V: return "Pow.Row1.ButtActive12V";
                 case ioSystemGraphicsType.Puid_Pow_Row1_ButtActive24V: return "Pow.Row1.ButtActive24V";
@@ -1142,366 +1170,380 @@ namespace ioSystemNetworkNet
                 case "Ids.CcA.ShapeInCommand": return ioSystemGraphicsType.Puid_Ids_CcA_ShapeInCommand;
                 case "Pow.PowPanelRow1": return ioSystemGraphicsType.Puid_Pow_PowPanelRow1;
                 case "Pow.PowPanelCol1": return ioSystemGraphicsType.Puid_Pow_PowPanelCol1;
+                case "Pow.HeaderCommandPanel": return ioSystemGraphicsType.Puid_Pow_HeaderCommandPanel;
+                case "Pow.ShapeCommandStatus": return ioSystemGraphicsType.Puid_Pow_ShapeCommandStatus;
+                case "Pow.LabelCommandStatus": return ioSystemGraphicsType.Puid_Pow_LabelCommandStatus;
+                case "Pow.TextCommandStatus": return ioSystemGraphicsType.Puid_Pow_TextCommandStatus;
+                case "Pow.ButtTakeRequest": return ioSystemGraphicsType.Puid_Pow_ButtTakeRequest;
+                case "Pow.ButtRelease": return ioSystemGraphicsType.Puid_Pow_ButtRelease;
+                case "Pow.ButtDockIdle": return ioSystemGraphicsType.Puid_Pow_ButtDockIdle;
+                case "Pow.ButtDockConnectedShore": return ioSystemGraphicsType.Puid_Pow_ButtDockConnectedShore;
+                case "Pow.ButtDockNotConnected": return ioSystemGraphicsType.Puid_Pow_ButtDockNotConnected;
+                case "Pow.ButtInTransit": return ioSystemGraphicsType.Puid_Pow_ButtInTransit;
+                case "Pow.ButtInTransitEngine": return ioSystemGraphicsType.Puid_Pow_ButtInTransitEngine;
+                case "Pow.ButtInTransitSailing": return ioSystemGraphicsType.Puid_Pow_ButtInTransitSailing;
+                case "Pow.GridPowCommand": return ioSystemGraphicsType.Puid_Pow_GridPowCommand;
+                case "Pow.GridPowModes": return ioSystemGraphicsType.Puid_Pow_GridPowModes;
                 case "Pow.Out12M.GridCh1": return ioSystemGraphicsType.Puid_Pow_Out12M_GridCh1;
-                case "Pow.Out12M.ButtOnCh1": return ioSystemGraphicsType.Puid_Pow_Out12M_ButtOnCh1;
                 case "Pow.Out12M.ButtOffCh1": return ioSystemGraphicsType.Puid_Pow_Out12M_ButtOffCh1;
-                case "Pow.Out12M.IconCh1": return ioSystemGraphicsType.Puid_Pow_Out12M_IconCh1;
-                case "Pow.Out12M.LabelCh1": return ioSystemGraphicsType.Puid_Pow_Out12M_LabelCh1;
+                case "Pow.Out12M.ButtOnCh1": return ioSystemGraphicsType.Puid_Pow_Out12M_ButtOnCh1;
+                case "Pow.Out12M.ShpOnOff1": return ioSystemGraphicsType.Puid_Pow_Out12M_ShpOnOff1;
+                case "Pow.Out12M.LabelName1": return ioSystemGraphicsType.Puid_Pow_Out12M_LabelName1;
                 case "Pow.Out12M.GridCh2": return ioSystemGraphicsType.Puid_Pow_Out12M_GridCh2;
-                case "Pow.Out12M.ButtOnCh2": return ioSystemGraphicsType.Puid_Pow_Out12M_ButtOnCh2;
                 case "Pow.Out12M.ButtOffCh2": return ioSystemGraphicsType.Puid_Pow_Out12M_ButtOffCh2;
-                case "Pow.Out12M.IconCh2": return ioSystemGraphicsType.Puid_Pow_Out12M_IconCh2;
-                case "Pow.Out12M.LabelCh2": return ioSystemGraphicsType.Puid_Pow_Out12M_LabelCh2;
+                case "Pow.Out12M.ButtOnCh2": return ioSystemGraphicsType.Puid_Pow_Out12M_ButtOnCh2;
+                case "Pow.Out12M.ShpOnOff2": return ioSystemGraphicsType.Puid_Pow_Out12M_ShpOnOff2;
+                case "Pow.Out12M.LabelName2": return ioSystemGraphicsType.Puid_Pow_Out12M_LabelName2;
                 case "Pow.Out12M.GridCh3": return ioSystemGraphicsType.Puid_Pow_Out12M_GridCh3;
-                case "Pow.Out12M.ButtOnCh3": return ioSystemGraphicsType.Puid_Pow_Out12M_ButtOnCh3;
                 case "Pow.Out12M.ButtOffCh3": return ioSystemGraphicsType.Puid_Pow_Out12M_ButtOffCh3;
-                case "Pow.Out12M.IconCh3": return ioSystemGraphicsType.Puid_Pow_Out12M_IconCh3;
-                case "Pow.Out12M.LabelCh3": return ioSystemGraphicsType.Puid_Pow_Out12M_LabelCh3;
+                case "Pow.Out12M.ButtOnCh3": return ioSystemGraphicsType.Puid_Pow_Out12M_ButtOnCh3;
+                case "Pow.Out12M.ShpOnOff3": return ioSystemGraphicsType.Puid_Pow_Out12M_ShpOnOff3;
+                case "Pow.Out12M.LabelName3": return ioSystemGraphicsType.Puid_Pow_Out12M_LabelName3;
                 case "Pow.Out12M.GridCh4": return ioSystemGraphicsType.Puid_Pow_Out12M_GridCh4;
-                case "Pow.Out12M.ButtOnCh4": return ioSystemGraphicsType.Puid_Pow_Out12M_ButtOnCh4;
                 case "Pow.Out12M.ButtOffCh4": return ioSystemGraphicsType.Puid_Pow_Out12M_ButtOffCh4;
-                case "Pow.Out12M.IconCh4": return ioSystemGraphicsType.Puid_Pow_Out12M_IconCh4;
-                case "Pow.Out12M.LabelCh4": return ioSystemGraphicsType.Puid_Pow_Out12M_LabelCh4;
+                case "Pow.Out12M.ButtOnCh4": return ioSystemGraphicsType.Puid_Pow_Out12M_ButtOnCh4;
+                case "Pow.Out12M.ShpOnOff4": return ioSystemGraphicsType.Puid_Pow_Out12M_ShpOnOff4;
+                case "Pow.Out12M.LabelName4": return ioSystemGraphicsType.Puid_Pow_Out12M_LabelName4;
                 case "Pow.Out12M.GridCh5": return ioSystemGraphicsType.Puid_Pow_Out12M_GridCh5;
-                case "Pow.Out12M.ButtOnCh5": return ioSystemGraphicsType.Puid_Pow_Out12M_ButtOnCh5;
                 case "Pow.Out12M.ButtOffCh5": return ioSystemGraphicsType.Puid_Pow_Out12M_ButtOffCh5;
-                case "Pow.Out12M.IconCh5": return ioSystemGraphicsType.Puid_Pow_Out12M_IconCh5;
-                case "Pow.Out12M.LabelCh5": return ioSystemGraphicsType.Puid_Pow_Out12M_LabelCh5;
+                case "Pow.Out12M.ButtOnCh5": return ioSystemGraphicsType.Puid_Pow_Out12M_ButtOnCh5;
+                case "Pow.Out12M.ShpOnOff5": return ioSystemGraphicsType.Puid_Pow_Out12M_ShpOnOff5;
+                case "Pow.Out12M.LabelName5": return ioSystemGraphicsType.Puid_Pow_Out12M_LabelName5;
                 case "Pow.Out12M.GridCh6": return ioSystemGraphicsType.Puid_Pow_Out12M_GridCh6;
-                case "Pow.Out12M.ButtOnCh6": return ioSystemGraphicsType.Puid_Pow_Out12M_ButtOnCh6;
                 case "Pow.Out12M.ButtOffCh6": return ioSystemGraphicsType.Puid_Pow_Out12M_ButtOffCh6;
-                case "Pow.Out12M.IconCh6": return ioSystemGraphicsType.Puid_Pow_Out12M_IconCh6;
-                case "Pow.Out12M.LabelCh6": return ioSystemGraphicsType.Puid_Pow_Out12M_LabelCh6;
+                case "Pow.Out12M.ButtOnCh6": return ioSystemGraphicsType.Puid_Pow_Out12M_ButtOnCh6;
+                case "Pow.Out12M.ShpOnOff6": return ioSystemGraphicsType.Puid_Pow_Out12M_ShpOnOff6;
+                case "Pow.Out12M.LabelName6": return ioSystemGraphicsType.Puid_Pow_Out12M_LabelName6;
                 case "Pow.Out12M.GridCh7": return ioSystemGraphicsType.Puid_Pow_Out12M_GridCh7;
-                case "Pow.Out12M.ButtOnCh7": return ioSystemGraphicsType.Puid_Pow_Out12M_ButtOnCh7;
                 case "Pow.Out12M.ButtOffCh7": return ioSystemGraphicsType.Puid_Pow_Out12M_ButtOffCh7;
-                case "Pow.Out12M.IconCh7": return ioSystemGraphicsType.Puid_Pow_Out12M_IconCh7;
-                case "Pow.Out12M.LabelCh7": return ioSystemGraphicsType.Puid_Pow_Out12M_LabelCh7;
+                case "Pow.Out12M.ButtOnCh7": return ioSystemGraphicsType.Puid_Pow_Out12M_ButtOnCh7;
+                case "Pow.Out12M.ShpOnOff7": return ioSystemGraphicsType.Puid_Pow_Out12M_ShpOnOff7;
+                case "Pow.Out12M.LabelName7": return ioSystemGraphicsType.Puid_Pow_Out12M_LabelName7;
                 case "Pow.Out12M.GridCh8": return ioSystemGraphicsType.Puid_Pow_Out12M_GridCh8;
-                case "Pow.Out12M.ButtOnCh8": return ioSystemGraphicsType.Puid_Pow_Out12M_ButtOnCh8;
                 case "Pow.Out12M.ButtOffCh8": return ioSystemGraphicsType.Puid_Pow_Out12M_ButtOffCh8;
-                case "Pow.Out12M.IconCh8": return ioSystemGraphicsType.Puid_Pow_Out12M_IconCh8;
-                case "Pow.Out12M.LabelCh8": return ioSystemGraphicsType.Puid_Pow_Out12M_LabelCh8;
+                case "Pow.Out12M.ButtOnCh8": return ioSystemGraphicsType.Puid_Pow_Out12M_ButtOnCh8;
+                case "Pow.Out12M.ShpOnOff8": return ioSystemGraphicsType.Puid_Pow_Out12M_ShpOnOff8;
+                case "Pow.Out12M.LabelName8": return ioSystemGraphicsType.Puid_Pow_Out12M_LabelName8;
                 case "Pow.Out12F.GridCh1": return ioSystemGraphicsType.Puid_Pow_Out12F_GridCh1;
+                case "Pow.Out12F.ButtOffCh1": return ioSystemGraphicsType.Puid_Pow_Out12F_ButtOffCh1;
                 case "Pow.Out12F.ButtOnCh1": return ioSystemGraphicsType.Puid_Pow_Out12F_ButtOnCh1;
-                case "Pow.Out12F.ButtonOffCh1": return ioSystemGraphicsType.Puid_Pow_Out12F_ButtonOffCh1;
-                case "Pow.Out12F.ShapeCh1": return ioSystemGraphicsType.Puid_Pow_Out12F_ShapeCh1;
-                case "Pow.Out12F.LabelCh1": return ioSystemGraphicsType.Puid_Pow_Out12F_LabelCh1;
+                case "Pow.Out12F.ShpOnOff1": return ioSystemGraphicsType.Puid_Pow_Out12F_ShpOnOff1;
+                case "Pow.Out12F.LabelName1": return ioSystemGraphicsType.Puid_Pow_Out12F_LabelName1;
                 case "Pow.Out12F.GridCh2": return ioSystemGraphicsType.Puid_Pow_Out12F_GridCh2;
+                case "Pow.Out12F.ButtOffCh2": return ioSystemGraphicsType.Puid_Pow_Out12F_ButtOffCh2;
                 case "Pow.Out12F.ButtOnCh2": return ioSystemGraphicsType.Puid_Pow_Out12F_ButtOnCh2;
-                case "Pow.Out12F.ButtonOffCh2": return ioSystemGraphicsType.Puid_Pow_Out12F_ButtonOffCh2;
-                case "Pow.Out12F.ShapeCh2": return ioSystemGraphicsType.Puid_Pow_Out12F_ShapeCh2;
-                case "Pow.Out12F.LabelCh2": return ioSystemGraphicsType.Puid_Pow_Out12F_LabelCh2;
+                case "Pow.Out12F.ShpOnOff2": return ioSystemGraphicsType.Puid_Pow_Out12F_ShpOnOff2;
+                case "Pow.Out12F.LabelName2": return ioSystemGraphicsType.Puid_Pow_Out12F_LabelName2;
                 case "Pow.Out12F.GridCh3": return ioSystemGraphicsType.Puid_Pow_Out12F_GridCh3;
+                case "Pow.Out12F.ButtOffCh3": return ioSystemGraphicsType.Puid_Pow_Out12F_ButtOffCh3;
                 case "Pow.Out12F.ButtOnCh3": return ioSystemGraphicsType.Puid_Pow_Out12F_ButtOnCh3;
-                case "Pow.Out12F.ButtonOffCh3": return ioSystemGraphicsType.Puid_Pow_Out12F_ButtonOffCh3;
-                case "Pow.Out12F.ShapeCh3": return ioSystemGraphicsType.Puid_Pow_Out12F_ShapeCh3;
-                case "Pow.Out12F.LabelCh3": return ioSystemGraphicsType.Puid_Pow_Out12F_LabelCh3;
+                case "Pow.Out12F.ShpOnOff3": return ioSystemGraphicsType.Puid_Pow_Out12F_ShpOnOff3;
+                case "Pow.Out12F.LabelName3": return ioSystemGraphicsType.Puid_Pow_Out12F_LabelName3;
                 case "Pow.Out12F.GridCh4": return ioSystemGraphicsType.Puid_Pow_Out12F_GridCh4;
+                case "Pow.Out12F.ButtOffCh4": return ioSystemGraphicsType.Puid_Pow_Out12F_ButtOffCh4;
                 case "Pow.Out12F.ButtOnCh4": return ioSystemGraphicsType.Puid_Pow_Out12F_ButtOnCh4;
-                case "Pow.Out12F.ButtonOffCh4": return ioSystemGraphicsType.Puid_Pow_Out12F_ButtonOffCh4;
-                case "Pow.Out12F.ShapeCh4": return ioSystemGraphicsType.Puid_Pow_Out12F_ShapeCh4;
-                case "Pow.Out12F.LabelCh4": return ioSystemGraphicsType.Puid_Pow_Out12F_LabelCh4;
+                case "Pow.Out12F.ShpOnOff4": return ioSystemGraphicsType.Puid_Pow_Out12F_ShpOnOff4;
+                case "Pow.Out12F.LabelName4": return ioSystemGraphicsType.Puid_Pow_Out12F_LabelName4;
                 case "Pow.Out12F.GridCh5": return ioSystemGraphicsType.Puid_Pow_Out12F_GridCh5;
+                case "Pow.Out12F.ButtOffCh5": return ioSystemGraphicsType.Puid_Pow_Out12F_ButtOffCh5;
                 case "Pow.Out12F.ButtOnCh5": return ioSystemGraphicsType.Puid_Pow_Out12F_ButtOnCh5;
-                case "Pow.Out12F.ButtonOffCh5": return ioSystemGraphicsType.Puid_Pow_Out12F_ButtonOffCh5;
-                case "Pow.Out12F.ShapeCh5": return ioSystemGraphicsType.Puid_Pow_Out12F_ShapeCh5;
-                case "Pow.Out12F.LabelCh5": return ioSystemGraphicsType.Puid_Pow_Out12F_LabelCh5;
+                case "Pow.Out12F.ShpOnOff5": return ioSystemGraphicsType.Puid_Pow_Out12F_ShpOnOff5;
+                case "Pow.Out12F.LabelName5": return ioSystemGraphicsType.Puid_Pow_Out12F_LabelName5;
                 case "Pow.Out12F.GridCh6": return ioSystemGraphicsType.Puid_Pow_Out12F_GridCh6;
+                case "Pow.Out12F.ButtOffCh6": return ioSystemGraphicsType.Puid_Pow_Out12F_ButtOffCh6;
                 case "Pow.Out12F.ButtOnCh6": return ioSystemGraphicsType.Puid_Pow_Out12F_ButtOnCh6;
-                case "Pow.Out12F.ButtonOffCh6": return ioSystemGraphicsType.Puid_Pow_Out12F_ButtonOffCh6;
-                case "Pow.Out12F.ShapeCh6": return ioSystemGraphicsType.Puid_Pow_Out12F_ShapeCh6;
-                case "Pow.Out12F.LabelCh6": return ioSystemGraphicsType.Puid_Pow_Out12F_LabelCh6;
+                case "Pow.Out12F.ShpOnOff6": return ioSystemGraphicsType.Puid_Pow_Out12F_ShpOnOff6;
+                case "Pow.Out12F.LabelName6": return ioSystemGraphicsType.Puid_Pow_Out12F_LabelName6;
                 case "Pow.Out12F.GridCh7": return ioSystemGraphicsType.Puid_Pow_Out12F_GridCh7;
+                case "Pow.Out12F.ButtOffCh7": return ioSystemGraphicsType.Puid_Pow_Out12F_ButtOffCh7;
                 case "Pow.Out12F.ButtOnCh7": return ioSystemGraphicsType.Puid_Pow_Out12F_ButtOnCh7;
-                case "Pow.Out12F.ButtonOffCh7": return ioSystemGraphicsType.Puid_Pow_Out12F_ButtonOffCh7;
-                case "Pow.Out12F.ShapeCh7": return ioSystemGraphicsType.Puid_Pow_Out12F_ShapeCh7;
-                case "Pow.Out12F.LabelCh7": return ioSystemGraphicsType.Puid_Pow_Out12F_LabelCh7;
+                case "Pow.Out12F.ShpOnOff7": return ioSystemGraphicsType.Puid_Pow_Out12F_ShpOnOff7;
+                case "Pow.Out12F.LabelName7": return ioSystemGraphicsType.Puid_Pow_Out12F_LabelName7;
                 case "Pow.Out12F.GridCh8": return ioSystemGraphicsType.Puid_Pow_Out12F_GridCh8;
+                case "Pow.Out12F.ButtOffCh8": return ioSystemGraphicsType.Puid_Pow_Out12F_ButtOffCh8;
                 case "Pow.Out12F.ButtOnCh8": return ioSystemGraphicsType.Puid_Pow_Out12F_ButtOnCh8;
-                case "Pow.Out12F.ButtonOffCh8": return ioSystemGraphicsType.Puid_Pow_Out12F_ButtonOffCh8;
-                case "Pow.Out12F.ShapeCh8": return ioSystemGraphicsType.Puid_Pow_Out12F_ShapeCh8;
-                case "Pow.Out12F.LabelCh8": return ioSystemGraphicsType.Puid_Pow_Out12F_LabelCh8;
+                case "Pow.Out12F.ShpOnOff8": return ioSystemGraphicsType.Puid_Pow_Out12F_ShpOnOff8;
+                case "Pow.Out12F.LabelName8": return ioSystemGraphicsType.Puid_Pow_Out12F_LabelName8;
                 case "Pow.Out12A.GridCh1": return ioSystemGraphicsType.Puid_Pow_Out12A_GridCh1;
+                case "Pow.Out12A.ButtOffCh1": return ioSystemGraphicsType.Puid_Pow_Out12A_ButtOffCh1;
                 case "Pow.Out12A.ButtOnCh1": return ioSystemGraphicsType.Puid_Pow_Out12A_ButtOnCh1;
-                case "Pow.Out12A.ButtonOffCh1": return ioSystemGraphicsType.Puid_Pow_Out12A_ButtonOffCh1;
-                case "Pow.Out12A.ShapeCh1": return ioSystemGraphicsType.Puid_Pow_Out12A_ShapeCh1;
-                case "Pow.Out12A.LabelCh1": return ioSystemGraphicsType.Puid_Pow_Out12A_LabelCh1;
+                case "Pow.Out12A.ShpOnOff1": return ioSystemGraphicsType.Puid_Pow_Out12A_ShpOnOff1;
+                case "Pow.Out12A.LabelName1": return ioSystemGraphicsType.Puid_Pow_Out12A_LabelName1;
                 case "Pow.Out12A.GridCh2": return ioSystemGraphicsType.Puid_Pow_Out12A_GridCh2;
+                case "Pow.Out12A.ButtOffCh2": return ioSystemGraphicsType.Puid_Pow_Out12A_ButtOffCh2;
                 case "Pow.Out12A.ButtOnCh2": return ioSystemGraphicsType.Puid_Pow_Out12A_ButtOnCh2;
-                case "Pow.Out12A.ButtonOffCh2": return ioSystemGraphicsType.Puid_Pow_Out12A_ButtonOffCh2;
-                case "Pow.Out12A.ShapeCh2": return ioSystemGraphicsType.Puid_Pow_Out12A_ShapeCh2;
-                case "Pow.Out12A.LabelCh2": return ioSystemGraphicsType.Puid_Pow_Out12A_LabelCh2;
+                case "Pow.Out12A.ShpOnOff2": return ioSystemGraphicsType.Puid_Pow_Out12A_ShpOnOff2;
+                case "Pow.Out12A.LabelName2": return ioSystemGraphicsType.Puid_Pow_Out12A_LabelName2;
                 case "Pow.Out12A.GridCh3": return ioSystemGraphicsType.Puid_Pow_Out12A_GridCh3;
+                case "Pow.Out12A.ButtOffCh3": return ioSystemGraphicsType.Puid_Pow_Out12A_ButtOffCh3;
                 case "Pow.Out12A.ButtOnCh3": return ioSystemGraphicsType.Puid_Pow_Out12A_ButtOnCh3;
-                case "Pow.Out12A.ButtonOffCh3": return ioSystemGraphicsType.Puid_Pow_Out12A_ButtonOffCh3;
-                case "Pow.Out12A.ShapeCh3": return ioSystemGraphicsType.Puid_Pow_Out12A_ShapeCh3;
-                case "Pow.Out12A.LabelCh3": return ioSystemGraphicsType.Puid_Pow_Out12A_LabelCh3;
+                case "Pow.Out12A.ShpOnOff3": return ioSystemGraphicsType.Puid_Pow_Out12A_ShpOnOff3;
+                case "Pow.Out12A.LabelName3": return ioSystemGraphicsType.Puid_Pow_Out12A_LabelName3;
                 case "Pow.Out12A.GridCh4": return ioSystemGraphicsType.Puid_Pow_Out12A_GridCh4;
+                case "Pow.Out12A.ButtOffCh4": return ioSystemGraphicsType.Puid_Pow_Out12A_ButtOffCh4;
                 case "Pow.Out12A.ButtOnCh4": return ioSystemGraphicsType.Puid_Pow_Out12A_ButtOnCh4;
-                case "Pow.Out12A.ButtonOffCh4": return ioSystemGraphicsType.Puid_Pow_Out12A_ButtonOffCh4;
-                case "Pow.Out12A.ShapeCh4": return ioSystemGraphicsType.Puid_Pow_Out12A_ShapeCh4;
-                case "Pow.Out12A.LabelCh4": return ioSystemGraphicsType.Puid_Pow_Out12A_LabelCh4;
+                case "Pow.Out12A.ShpOnOff4": return ioSystemGraphicsType.Puid_Pow_Out12A_ShpOnOff4;
+                case "Pow.Out12A.LabelName4": return ioSystemGraphicsType.Puid_Pow_Out12A_LabelName4;
                 case "Pow.Out12A.GridCh5": return ioSystemGraphicsType.Puid_Pow_Out12A_GridCh5;
+                case "Pow.Out12A.ButtOffCh5": return ioSystemGraphicsType.Puid_Pow_Out12A_ButtOffCh5;
                 case "Pow.Out12A.ButtOnCh5": return ioSystemGraphicsType.Puid_Pow_Out12A_ButtOnCh5;
-                case "Pow.Out12A.ButtonOffCh5": return ioSystemGraphicsType.Puid_Pow_Out12A_ButtonOffCh5;
-                case "Pow.Out12A.ShapeCh5": return ioSystemGraphicsType.Puid_Pow_Out12A_ShapeCh5;
-                case "Pow.Out12A.LabelCh5": return ioSystemGraphicsType.Puid_Pow_Out12A_LabelCh5;
+                case "Pow.Out12A.ShpOnOff5": return ioSystemGraphicsType.Puid_Pow_Out12A_ShpOnOff5;
+                case "Pow.Out12A.LabelName5": return ioSystemGraphicsType.Puid_Pow_Out12A_LabelName5;
                 case "Pow.Out12A.GridCh6": return ioSystemGraphicsType.Puid_Pow_Out12A_GridCh6;
+                case "Pow.Out12A.ButtOffCh6": return ioSystemGraphicsType.Puid_Pow_Out12A_ButtOffCh6;
                 case "Pow.Out12A.ButtOnCh6": return ioSystemGraphicsType.Puid_Pow_Out12A_ButtOnCh6;
-                case "Pow.Out12A.ButtonOffCh6": return ioSystemGraphicsType.Puid_Pow_Out12A_ButtonOffCh6;
-                case "Pow.Out12A.ShapeCh6": return ioSystemGraphicsType.Puid_Pow_Out12A_ShapeCh6;
-                case "Pow.Out12A.LabelCh6": return ioSystemGraphicsType.Puid_Pow_Out12A_LabelCh6;
+                case "Pow.Out12A.ShpOnOff6": return ioSystemGraphicsType.Puid_Pow_Out12A_ShpOnOff6;
+                case "Pow.Out12A.LabelName6": return ioSystemGraphicsType.Puid_Pow_Out12A_LabelName6;
                 case "Pow.Out12A.GridCh7": return ioSystemGraphicsType.Puid_Pow_Out12A_GridCh7;
+                case "Pow.Out12A.ButtOffCh7": return ioSystemGraphicsType.Puid_Pow_Out12A_ButtOffCh7;
                 case "Pow.Out12A.ButtOnCh7": return ioSystemGraphicsType.Puid_Pow_Out12A_ButtOnCh7;
-                case "Pow.Out12A.ButtonOffCh7": return ioSystemGraphicsType.Puid_Pow_Out12A_ButtonOffCh7;
-                case "Pow.Out12A.ShapeCh7": return ioSystemGraphicsType.Puid_Pow_Out12A_ShapeCh7;
-                case "Pow.Out12A.LabelCh7": return ioSystemGraphicsType.Puid_Pow_Out12A_LabelCh7;
+                case "Pow.Out12A.ShpOnOff7": return ioSystemGraphicsType.Puid_Pow_Out12A_ShpOnOff7;
+                case "Pow.Out12A.LabelName7": return ioSystemGraphicsType.Puid_Pow_Out12A_LabelName7;
                 case "Pow.Out12A.GridCh8": return ioSystemGraphicsType.Puid_Pow_Out12A_GridCh8;
+                case "Pow.Out12A.ButtOffCh8": return ioSystemGraphicsType.Puid_Pow_Out12A_ButtOffCh8;
                 case "Pow.Out12A.ButtOnCh8": return ioSystemGraphicsType.Puid_Pow_Out12A_ButtOnCh8;
-                case "Pow.Out12A.ButtonOffCh8": return ioSystemGraphicsType.Puid_Pow_Out12A_ButtonOffCh8;
-                case "Pow.Out12A.ShapeCh8": return ioSystemGraphicsType.Puid_Pow_Out12A_ShapeCh8;
-                case "Pow.Out12A.LabelCh8": return ioSystemGraphicsType.Puid_Pow_Out12A_LabelCh8;
+                case "Pow.Out12A.ShpOnOff8": return ioSystemGraphicsType.Puid_Pow_Out12A_ShpOnOff8;
+                case "Pow.Out12A.LabelName8": return ioSystemGraphicsType.Puid_Pow_Out12A_LabelName8;
                 case "Pow.Out24M.GridCh1": return ioSystemGraphicsType.Puid_Pow_Out24M_GridCh1;
-                case "Pow.Out24M.ButtOnCh1": return ioSystemGraphicsType.Puid_Pow_Out24M_ButtOnCh1;
                 case "Pow.Out24M.ButtOffCh1": return ioSystemGraphicsType.Puid_Pow_Out24M_ButtOffCh1;
-                case "Pow.Out24M.IconCh1": return ioSystemGraphicsType.Puid_Pow_Out24M_IconCh1;
-                case "Pow.Out24M.LabelCh1": return ioSystemGraphicsType.Puid_Pow_Out24M_LabelCh1;
+                case "Pow.Out24M.ButtOnCh1": return ioSystemGraphicsType.Puid_Pow_Out24M_ButtOnCh1;
+                case "Pow.Out24M.ShpOnOff1": return ioSystemGraphicsType.Puid_Pow_Out24M_ShpOnOff1;
+                case "Pow.Out24M.LabelName1": return ioSystemGraphicsType.Puid_Pow_Out24M_LabelName1;
                 case "Pow.Out24M.GridCh2": return ioSystemGraphicsType.Puid_Pow_Out24M_GridCh2;
-                case "Pow.Out24M.ButtOnCh2": return ioSystemGraphicsType.Puid_Pow_Out24M_ButtOnCh2;
                 case "Pow.Out24M.ButtOffCh2": return ioSystemGraphicsType.Puid_Pow_Out24M_ButtOffCh2;
-                case "Pow.Out24M.IconCh2": return ioSystemGraphicsType.Puid_Pow_Out24M_IconCh2;
-                case "Pow.Out24M.LabelCh2": return ioSystemGraphicsType.Puid_Pow_Out24M_LabelCh2;
+                case "Pow.Out24M.ButtOnCh2": return ioSystemGraphicsType.Puid_Pow_Out24M_ButtOnCh2;
+                case "Pow.Out24M.ShpOnOff2": return ioSystemGraphicsType.Puid_Pow_Out24M_ShpOnOff2;
+                case "Pow.Out24M.LabelName2": return ioSystemGraphicsType.Puid_Pow_Out24M_LabelName2;
                 case "Pow.Out24M.GridCh3": return ioSystemGraphicsType.Puid_Pow_Out24M_GridCh3;
-                case "Pow.Out24M.ButtOnCh3": return ioSystemGraphicsType.Puid_Pow_Out24M_ButtOnCh3;
                 case "Pow.Out24M.ButtOffCh3": return ioSystemGraphicsType.Puid_Pow_Out24M_ButtOffCh3;
-                case "Pow.Out24M.IconCh3": return ioSystemGraphicsType.Puid_Pow_Out24M_IconCh3;
-                case "Pow.Out24M.LabelCh3": return ioSystemGraphicsType.Puid_Pow_Out24M_LabelCh3;
+                case "Pow.Out24M.ButtOnCh3": return ioSystemGraphicsType.Puid_Pow_Out24M_ButtOnCh3;
+                case "Pow.Out24M.ShpOnOff3": return ioSystemGraphicsType.Puid_Pow_Out24M_ShpOnOff3;
+                case "Pow.Out24M.LabelName3": return ioSystemGraphicsType.Puid_Pow_Out24M_LabelName3;
                 case "Pow.Out24M.GridCh4": return ioSystemGraphicsType.Puid_Pow_Out24M_GridCh4;
-                case "Pow.Out24M.ButtOnCh4": return ioSystemGraphicsType.Puid_Pow_Out24M_ButtOnCh4;
                 case "Pow.Out24M.ButtOffCh4": return ioSystemGraphicsType.Puid_Pow_Out24M_ButtOffCh4;
-                case "Pow.Out24M.IconCh4": return ioSystemGraphicsType.Puid_Pow_Out24M_IconCh4;
-                case "Pow.Out24M.LabelCh4": return ioSystemGraphicsType.Puid_Pow_Out24M_LabelCh4;
+                case "Pow.Out24M.ButtOnCh4": return ioSystemGraphicsType.Puid_Pow_Out24M_ButtOnCh4;
+                case "Pow.Out24M.ShpOnOff4": return ioSystemGraphicsType.Puid_Pow_Out24M_ShpOnOff4;
+                case "Pow.Out24M.LabelName4": return ioSystemGraphicsType.Puid_Pow_Out24M_LabelName4;
                 case "Pow.Out24M.GridCh5": return ioSystemGraphicsType.Puid_Pow_Out24M_GridCh5;
-                case "Pow.Out24M.ButtOnCh5": return ioSystemGraphicsType.Puid_Pow_Out24M_ButtOnCh5;
                 case "Pow.Out24M.ButtOffCh5": return ioSystemGraphicsType.Puid_Pow_Out24M_ButtOffCh5;
-                case "Pow.Out24M.IconCh5": return ioSystemGraphicsType.Puid_Pow_Out24M_IconCh5;
-                case "Pow.Out24M.LabelCh5": return ioSystemGraphicsType.Puid_Pow_Out24M_LabelCh5;
+                case "Pow.Out24M.ButtOnCh5": return ioSystemGraphicsType.Puid_Pow_Out24M_ButtOnCh5;
+                case "Pow.Out24M.ShpOnOff5": return ioSystemGraphicsType.Puid_Pow_Out24M_ShpOnOff5;
+                case "Pow.Out24M.LabelName5": return ioSystemGraphicsType.Puid_Pow_Out24M_LabelName5;
                 case "Pow.Out24M.GridCh6": return ioSystemGraphicsType.Puid_Pow_Out24M_GridCh6;
-                case "Pow.Out24M.ButtOnCh6": return ioSystemGraphicsType.Puid_Pow_Out24M_ButtOnCh6;
                 case "Pow.Out24M.ButtOffCh6": return ioSystemGraphicsType.Puid_Pow_Out24M_ButtOffCh6;
-                case "Pow.Out24M.IconCh6": return ioSystemGraphicsType.Puid_Pow_Out24M_IconCh6;
-                case "Pow.Out24M.LabelCh6": return ioSystemGraphicsType.Puid_Pow_Out24M_LabelCh6;
+                case "Pow.Out24M.ButtOnCh6": return ioSystemGraphicsType.Puid_Pow_Out24M_ButtOnCh6;
+                case "Pow.Out24M.ShpOnOff6": return ioSystemGraphicsType.Puid_Pow_Out24M_ShpOnOff6;
+                case "Pow.Out24M.LabelName6": return ioSystemGraphicsType.Puid_Pow_Out24M_LabelName6;
                 case "Pow.Out24M.GridCh7": return ioSystemGraphicsType.Puid_Pow_Out24M_GridCh7;
-                case "Pow.Out24M.ButtOnCh7": return ioSystemGraphicsType.Puid_Pow_Out24M_ButtOnCh7;
                 case "Pow.Out24M.ButtOffCh7": return ioSystemGraphicsType.Puid_Pow_Out24M_ButtOffCh7;
-                case "Pow.Out24M.IconCh7": return ioSystemGraphicsType.Puid_Pow_Out24M_IconCh7;
-                case "Pow.Out24M.LabelCh7": return ioSystemGraphicsType.Puid_Pow_Out24M_LabelCh7;
+                case "Pow.Out24M.ButtOnCh7": return ioSystemGraphicsType.Puid_Pow_Out24M_ButtOnCh7;
+                case "Pow.Out24M.ShpOnOff7": return ioSystemGraphicsType.Puid_Pow_Out24M_ShpOnOff7;
+                case "Pow.Out24M.LabelName7": return ioSystemGraphicsType.Puid_Pow_Out24M_LabelName7;
                 case "Pow.Out24M.GridCh8": return ioSystemGraphicsType.Puid_Pow_Out24M_GridCh8;
-                case "Pow.Out24M.ButtOnCh8": return ioSystemGraphicsType.Puid_Pow_Out24M_ButtOnCh8;
                 case "Pow.Out24M.ButtOffCh8": return ioSystemGraphicsType.Puid_Pow_Out24M_ButtOffCh8;
-                case "Pow.Out24M.IconCh8": return ioSystemGraphicsType.Puid_Pow_Out24M_IconCh8;
-                case "Pow.Out24M.LabelCh8": return ioSystemGraphicsType.Puid_Pow_Out24M_LabelCh8;
+                case "Pow.Out24M.ButtOnCh8": return ioSystemGraphicsType.Puid_Pow_Out24M_ButtOnCh8;
+                case "Pow.Out24M.ShpOnOff8": return ioSystemGraphicsType.Puid_Pow_Out24M_ShpOnOff8;
+                case "Pow.Out24M.LabelName8": return ioSystemGraphicsType.Puid_Pow_Out24M_LabelName8;
                 case "Pow.Out24F.GridCh1": return ioSystemGraphicsType.Puid_Pow_Out24F_GridCh1;
-                case "Pow.Out24F.ButtOnCh1": return ioSystemGraphicsType.Puid_Pow_Out24F_ButtOnCh1;
                 case "Pow.Out24F.ButtOffCh1": return ioSystemGraphicsType.Puid_Pow_Out24F_ButtOffCh1;
-                case "Pow.Out24F.IconCh1": return ioSystemGraphicsType.Puid_Pow_Out24F_IconCh1;
-                case "Pow.Out24F.LabelCh1": return ioSystemGraphicsType.Puid_Pow_Out24F_LabelCh1;
+                case "Pow.Out24F.ButtOnCh1": return ioSystemGraphicsType.Puid_Pow_Out24F_ButtOnCh1;
+                case "Pow.Out24F.ShpOnOff1": return ioSystemGraphicsType.Puid_Pow_Out24F_ShpOnOff1;
+                case "Pow.Out24F.LabelName1": return ioSystemGraphicsType.Puid_Pow_Out24F_LabelName1;
                 case "Pow.Out24F.GridCh2": return ioSystemGraphicsType.Puid_Pow_Out24F_GridCh2;
-                case "Pow.Out24F.ButtOnCh2": return ioSystemGraphicsType.Puid_Pow_Out24F_ButtOnCh2;
                 case "Pow.Out24F.ButtOffCh2": return ioSystemGraphicsType.Puid_Pow_Out24F_ButtOffCh2;
-                case "Pow.Out24F.IconCh2": return ioSystemGraphicsType.Puid_Pow_Out24F_IconCh2;
-                case "Pow.Out24F.LabelCh2": return ioSystemGraphicsType.Puid_Pow_Out24F_LabelCh2;
+                case "Pow.Out24F.ButtOnCh2": return ioSystemGraphicsType.Puid_Pow_Out24F_ButtOnCh2;
+                case "Pow.Out24F.ShpOnOff2": return ioSystemGraphicsType.Puid_Pow_Out24F_ShpOnOff2;
+                case "Pow.Out24F.LabelName2": return ioSystemGraphicsType.Puid_Pow_Out24F_LabelName2;
                 case "Pow.Out24F.GridCh3": return ioSystemGraphicsType.Puid_Pow_Out24F_GridCh3;
-                case "Pow.Out24F.ButtOnCh3": return ioSystemGraphicsType.Puid_Pow_Out24F_ButtOnCh3;
                 case "Pow.Out24F.ButtOffCh3": return ioSystemGraphicsType.Puid_Pow_Out24F_ButtOffCh3;
-                case "Pow.Out24F.IconCh3": return ioSystemGraphicsType.Puid_Pow_Out24F_IconCh3;
-                case "Pow.Out24F.LabelCh3": return ioSystemGraphicsType.Puid_Pow_Out24F_LabelCh3;
+                case "Pow.Out24F.ButtOnCh3": return ioSystemGraphicsType.Puid_Pow_Out24F_ButtOnCh3;
+                case "Pow.Out24F.ShpOnOff3": return ioSystemGraphicsType.Puid_Pow_Out24F_ShpOnOff3;
+                case "Pow.Out24F.LabelName3": return ioSystemGraphicsType.Puid_Pow_Out24F_LabelName3;
                 case "Pow.Out24F.GridCh4": return ioSystemGraphicsType.Puid_Pow_Out24F_GridCh4;
-                case "Pow.Out24F.ButtOnCh4": return ioSystemGraphicsType.Puid_Pow_Out24F_ButtOnCh4;
                 case "Pow.Out24F.ButtOffCh4": return ioSystemGraphicsType.Puid_Pow_Out24F_ButtOffCh4;
-                case "Pow.Out24F.IconCh4": return ioSystemGraphicsType.Puid_Pow_Out24F_IconCh4;
-                case "Pow.Out24F.LabelCh4": return ioSystemGraphicsType.Puid_Pow_Out24F_LabelCh4;
+                case "Pow.Out24F.ButtOnCh4": return ioSystemGraphicsType.Puid_Pow_Out24F_ButtOnCh4;
+                case "Pow.Out24F.ShpOnOff4": return ioSystemGraphicsType.Puid_Pow_Out24F_ShpOnOff4;
+                case "Pow.Out24F.LabelName4": return ioSystemGraphicsType.Puid_Pow_Out24F_LabelName4;
                 case "Pow.Out24F.GridCh5": return ioSystemGraphicsType.Puid_Pow_Out24F_GridCh5;
-                case "Pow.Out24F.ButtOnCh5": return ioSystemGraphicsType.Puid_Pow_Out24F_ButtOnCh5;
                 case "Pow.Out24F.ButtOffCh5": return ioSystemGraphicsType.Puid_Pow_Out24F_ButtOffCh5;
-                case "Pow.Out24F.IconCh5": return ioSystemGraphicsType.Puid_Pow_Out24F_IconCh5;
-                case "Pow.Out24F.LabelCh5": return ioSystemGraphicsType.Puid_Pow_Out24F_LabelCh5;
+                case "Pow.Out24F.ButtOnCh5": return ioSystemGraphicsType.Puid_Pow_Out24F_ButtOnCh5;
+                case "Pow.Out24F.ShpOnOff5": return ioSystemGraphicsType.Puid_Pow_Out24F_ShpOnOff5;
+                case "Pow.Out24F.LabelName5": return ioSystemGraphicsType.Puid_Pow_Out24F_LabelName5;
                 case "Pow.Out24F.GridCh6": return ioSystemGraphicsType.Puid_Pow_Out24F_GridCh6;
-                case "Pow.Out24F.ButtOnCh6": return ioSystemGraphicsType.Puid_Pow_Out24F_ButtOnCh6;
                 case "Pow.Out24F.ButtOffCh6": return ioSystemGraphicsType.Puid_Pow_Out24F_ButtOffCh6;
-                case "Pow.Out24F.IconCh6": return ioSystemGraphicsType.Puid_Pow_Out24F_IconCh6;
-                case "Pow.Out24F.LabelCh6": return ioSystemGraphicsType.Puid_Pow_Out24F_LabelCh6;
+                case "Pow.Out24F.ButtOnCh6": return ioSystemGraphicsType.Puid_Pow_Out24F_ButtOnCh6;
+                case "Pow.Out24F.ShpOnOff6": return ioSystemGraphicsType.Puid_Pow_Out24F_ShpOnOff6;
+                case "Pow.Out24F.LabelName6": return ioSystemGraphicsType.Puid_Pow_Out24F_LabelName6;
                 case "Pow.Out24F.GridCh7": return ioSystemGraphicsType.Puid_Pow_Out24F_GridCh7;
-                case "Pow.Out24F.ButtOnCh7": return ioSystemGraphicsType.Puid_Pow_Out24F_ButtOnCh7;
                 case "Pow.Out24F.ButtOffCh7": return ioSystemGraphicsType.Puid_Pow_Out24F_ButtOffCh7;
-                case "Pow.Out24F.IconCh7": return ioSystemGraphicsType.Puid_Pow_Out24F_IconCh7;
-                case "Pow.Out24F.LabelCh7": return ioSystemGraphicsType.Puid_Pow_Out24F_LabelCh7;
+                case "Pow.Out24F.ButtOnCh7": return ioSystemGraphicsType.Puid_Pow_Out24F_ButtOnCh7;
+                case "Pow.Out24F.ShpOnOff7": return ioSystemGraphicsType.Puid_Pow_Out24F_ShpOnOff7;
+                case "Pow.Out24F.LabelName7": return ioSystemGraphicsType.Puid_Pow_Out24F_LabelName7;
                 case "Pow.Out24F.GridCh8": return ioSystemGraphicsType.Puid_Pow_Out24F_GridCh8;
-                case "Pow.Out24F.ButtOnCh8": return ioSystemGraphicsType.Puid_Pow_Out24F_ButtOnCh8;
                 case "Pow.Out24F.ButtOffCh8": return ioSystemGraphicsType.Puid_Pow_Out24F_ButtOffCh8;
-                case "Pow.Out24F.IconCh8": return ioSystemGraphicsType.Puid_Pow_Out24F_IconCh8;
-                case "Pow.Out24F.LabelCh8": return ioSystemGraphicsType.Puid_Pow_Out24F_LabelCh8;
+                case "Pow.Out24F.ButtOnCh8": return ioSystemGraphicsType.Puid_Pow_Out24F_ButtOnCh8;
+                case "Pow.Out24F.ShpOnOff8": return ioSystemGraphicsType.Puid_Pow_Out24F_ShpOnOff8;
+                case "Pow.Out24F.LabelName8": return ioSystemGraphicsType.Puid_Pow_Out24F_LabelName8;
                 case "Pow.Out24A.GridCh1": return ioSystemGraphicsType.Puid_Pow_Out24A_GridCh1;
-                case "Pow.Out24A.ButtOnCh1": return ioSystemGraphicsType.Puid_Pow_Out24A_ButtOnCh1;
                 case "Pow.Out24A.ButtOffCh1": return ioSystemGraphicsType.Puid_Pow_Out24A_ButtOffCh1;
-                case "Pow.Out24A.IconCh1": return ioSystemGraphicsType.Puid_Pow_Out24A_IconCh1;
-                case "Pow.Out24A.LabelCh1": return ioSystemGraphicsType.Puid_Pow_Out24A_LabelCh1;
+                case "Pow.Out24A.ButtOnCh1": return ioSystemGraphicsType.Puid_Pow_Out24A_ButtOnCh1;
+                case "Pow.Out24A.ShpOnOff1": return ioSystemGraphicsType.Puid_Pow_Out24A_ShpOnOff1;
+                case "Pow.Out24A.LabelName1": return ioSystemGraphicsType.Puid_Pow_Out24A_LabelName1;
                 case "Pow.Out24A.GridCh2": return ioSystemGraphicsType.Puid_Pow_Out24A_GridCh2;
-                case "Pow.Out24A.ButtOnCh2": return ioSystemGraphicsType.Puid_Pow_Out24A_ButtOnCh2;
                 case "Pow.Out24A.ButtOffCh2": return ioSystemGraphicsType.Puid_Pow_Out24A_ButtOffCh2;
-                case "Pow.Out24A.IconCh2": return ioSystemGraphicsType.Puid_Pow_Out24A_IconCh2;
-                case "Pow.Out24A.LabelCh2": return ioSystemGraphicsType.Puid_Pow_Out24A_LabelCh2;
+                case "Pow.Out24A.ButtOnCh2": return ioSystemGraphicsType.Puid_Pow_Out24A_ButtOnCh2;
+                case "Pow.Out24A.ShpOnOff2": return ioSystemGraphicsType.Puid_Pow_Out24A_ShpOnOff2;
+                case "Pow.Out24A.LabelName2": return ioSystemGraphicsType.Puid_Pow_Out24A_LabelName2;
                 case "Pow.Out24A.GridCh3": return ioSystemGraphicsType.Puid_Pow_Out24A_GridCh3;
-                case "Pow.Out24A.ButtOnCh3": return ioSystemGraphicsType.Puid_Pow_Out24A_ButtOnCh3;
                 case "Pow.Out24A.ButtOffCh3": return ioSystemGraphicsType.Puid_Pow_Out24A_ButtOffCh3;
-                case "Pow.Out24A.IconCh3": return ioSystemGraphicsType.Puid_Pow_Out24A_IconCh3;
-                case "Pow.Out24A.LabelCh3": return ioSystemGraphicsType.Puid_Pow_Out24A_LabelCh3;
+                case "Pow.Out24A.ButtOnCh3": return ioSystemGraphicsType.Puid_Pow_Out24A_ButtOnCh3;
+                case "Pow.Out24A.ShpOnOff3": return ioSystemGraphicsType.Puid_Pow_Out24A_ShpOnOff3;
+                case "Pow.Out24A.LabelName3": return ioSystemGraphicsType.Puid_Pow_Out24A_LabelName3;
                 case "Pow.Out24A.GridCh4": return ioSystemGraphicsType.Puid_Pow_Out24A_GridCh4;
-                case "Pow.Out24A.ButtOnCh4": return ioSystemGraphicsType.Puid_Pow_Out24A_ButtOnCh4;
                 case "Pow.Out24A.ButtOffCh4": return ioSystemGraphicsType.Puid_Pow_Out24A_ButtOffCh4;
-                case "Pow.Out24A.IconCh4": return ioSystemGraphicsType.Puid_Pow_Out24A_IconCh4;
-                case "Pow.Out24A.LabelCh4": return ioSystemGraphicsType.Puid_Pow_Out24A_LabelCh4;
+                case "Pow.Out24A.ButtOnCh4": return ioSystemGraphicsType.Puid_Pow_Out24A_ButtOnCh4;
+                case "Pow.Out24A.ShpOnOff4": return ioSystemGraphicsType.Puid_Pow_Out24A_ShpOnOff4;
+                case "Pow.Out24A.LabelName4": return ioSystemGraphicsType.Puid_Pow_Out24A_LabelName4;
                 case "Pow.Out24A.GridCh5": return ioSystemGraphicsType.Puid_Pow_Out24A_GridCh5;
-                case "Pow.Out24A.ButtOnCh5": return ioSystemGraphicsType.Puid_Pow_Out24A_ButtOnCh5;
                 case "Pow.Out24A.ButtOffCh5": return ioSystemGraphicsType.Puid_Pow_Out24A_ButtOffCh5;
-                case "Pow.Out24A.IconCh5": return ioSystemGraphicsType.Puid_Pow_Out24A_IconCh5;
-                case "Pow.Out24A.LabelCh5": return ioSystemGraphicsType.Puid_Pow_Out24A_LabelCh5;
+                case "Pow.Out24A.ButtOnCh5": return ioSystemGraphicsType.Puid_Pow_Out24A_ButtOnCh5;
+                case "Pow.Out24A.ShpOnOff5": return ioSystemGraphicsType.Puid_Pow_Out24A_ShpOnOff5;
+                case "Pow.Out24A.LabelName5": return ioSystemGraphicsType.Puid_Pow_Out24A_LabelName5;
                 case "Pow.Out24A.GridCh6": return ioSystemGraphicsType.Puid_Pow_Out24A_GridCh6;
-                case "Pow.Out24A.ButtOnCh6": return ioSystemGraphicsType.Puid_Pow_Out24A_ButtOnCh6;
                 case "Pow.Out24A.ButtOffCh6": return ioSystemGraphicsType.Puid_Pow_Out24A_ButtOffCh6;
-                case "Pow.Out24A.IconCh6": return ioSystemGraphicsType.Puid_Pow_Out24A_IconCh6;
-                case "Pow.Out24A.LabelCh6": return ioSystemGraphicsType.Puid_Pow_Out24A_LabelCh6;
+                case "Pow.Out24A.ButtOnCh6": return ioSystemGraphicsType.Puid_Pow_Out24A_ButtOnCh6;
+                case "Pow.Out24A.ShpOnOff6": return ioSystemGraphicsType.Puid_Pow_Out24A_ShpOnOff6;
+                case "Pow.Out24A.LabelName6": return ioSystemGraphicsType.Puid_Pow_Out24A_LabelName6;
                 case "Pow.Out24A.GridCh7": return ioSystemGraphicsType.Puid_Pow_Out24A_GridCh7;
-                case "Pow.Out24A.ButtOnCh7": return ioSystemGraphicsType.Puid_Pow_Out24A_ButtOnCh7;
                 case "Pow.Out24A.ButtOffCh7": return ioSystemGraphicsType.Puid_Pow_Out24A_ButtOffCh7;
-                case "Pow.Out24A.IconCh7": return ioSystemGraphicsType.Puid_Pow_Out24A_IconCh7;
-                case "Pow.Out24A.LabelCh7": return ioSystemGraphicsType.Puid_Pow_Out24A_LabelCh7;
+                case "Pow.Out24A.ButtOnCh7": return ioSystemGraphicsType.Puid_Pow_Out24A_ButtOnCh7;
+                case "Pow.Out24A.ShpOnOff7": return ioSystemGraphicsType.Puid_Pow_Out24A_ShpOnOff7;
+                case "Pow.Out24A.LabelName7": return ioSystemGraphicsType.Puid_Pow_Out24A_LabelName7;
                 case "Pow.Out24A.GridCh8": return ioSystemGraphicsType.Puid_Pow_Out24A_GridCh8;
-                case "Pow.Out24A.ButtOnCh8": return ioSystemGraphicsType.Puid_Pow_Out24A_ButtOnCh8;
                 case "Pow.Out24A.ButtOffCh8": return ioSystemGraphicsType.Puid_Pow_Out24A_ButtOffCh8;
-                case "Pow.Out24A.IconCh8": return ioSystemGraphicsType.Puid_Pow_Out24A_IconCh8;
-                case "Pow.Out24A.LabelCh8": return ioSystemGraphicsType.Puid_Pow_Out24A_LabelCh8;
+                case "Pow.Out24A.ButtOnCh8": return ioSystemGraphicsType.Puid_Pow_Out24A_ButtOnCh8;
+                case "Pow.Out24A.ShpOnOff8": return ioSystemGraphicsType.Puid_Pow_Out24A_ShpOnOff8;
+                case "Pow.Out24A.LabelName8": return ioSystemGraphicsType.Puid_Pow_Out24A_LabelName8;
                 case "Pow.Out220M.GridCh1": return ioSystemGraphicsType.Puid_Pow_Out220M_GridCh1;
-                case "Pow.Out220M.ButtOnCh1": return ioSystemGraphicsType.Puid_Pow_Out220M_ButtOnCh1;
                 case "Pow.Out220M.ButtOffCh1": return ioSystemGraphicsType.Puid_Pow_Out220M_ButtOffCh1;
-                case "Pow.Out220M.IconCh1": return ioSystemGraphicsType.Puid_Pow_Out220M_IconCh1;
-                case "Pow.Out220M.LabelCh1": return ioSystemGraphicsType.Puid_Pow_Out220M_LabelCh1;
+                case "Pow.Out220M.ButtOnCh1": return ioSystemGraphicsType.Puid_Pow_Out220M_ButtOnCh1;
+                case "Pow.Out220M.ShpOnOff1": return ioSystemGraphicsType.Puid_Pow_Out220M_ShpOnOff1;
+                case "Pow.Out220M.LabelName1": return ioSystemGraphicsType.Puid_Pow_Out220M_LabelName1;
                 case "Pow.Out220M.GridCh2": return ioSystemGraphicsType.Puid_Pow_Out220M_GridCh2;
-                case "Pow.Out220M.ButtOnCh2": return ioSystemGraphicsType.Puid_Pow_Out220M_ButtOnCh2;
                 case "Pow.Out220M.ButtOffCh2": return ioSystemGraphicsType.Puid_Pow_Out220M_ButtOffCh2;
-                case "Pow.Out220M.IconCh2": return ioSystemGraphicsType.Puid_Pow_Out220M_IconCh2;
-                case "Pow.Out220M.LabelCh2": return ioSystemGraphicsType.Puid_Pow_Out220M_LabelCh2;
+                case "Pow.Out220M.ButtOnCh2": return ioSystemGraphicsType.Puid_Pow_Out220M_ButtOnCh2;
+                case "Pow.Out220M.ShpOnOff2": return ioSystemGraphicsType.Puid_Pow_Out220M_ShpOnOff2;
+                case "Pow.Out220M.LabelName2": return ioSystemGraphicsType.Puid_Pow_Out220M_LabelName2;
                 case "Pow.Out220M.GridCh3": return ioSystemGraphicsType.Puid_Pow_Out220M_GridCh3;
-                case "Pow.Out220M.ButtOnCh3": return ioSystemGraphicsType.Puid_Pow_Out220M_ButtOnCh3;
                 case "Pow.Out220M.ButtOffCh3": return ioSystemGraphicsType.Puid_Pow_Out220M_ButtOffCh3;
-                case "Pow.Out220M.IconCh3": return ioSystemGraphicsType.Puid_Pow_Out220M_IconCh3;
-                case "Pow.Out220M.LabelCh3": return ioSystemGraphicsType.Puid_Pow_Out220M_LabelCh3;
+                case "Pow.Out220M.ButtOnCh3": return ioSystemGraphicsType.Puid_Pow_Out220M_ButtOnCh3;
+                case "Pow.Out220M.ShpOnOff3": return ioSystemGraphicsType.Puid_Pow_Out220M_ShpOnOff3;
+                case "Pow.Out220M.LabelName3": return ioSystemGraphicsType.Puid_Pow_Out220M_LabelName3;
                 case "Pow.Out220M.GridCh4": return ioSystemGraphicsType.Puid_Pow_Out220M_GridCh4;
-                case "Pow.Out220M.ButtOnCh4": return ioSystemGraphicsType.Puid_Pow_Out220M_ButtOnCh4;
                 case "Pow.Out220M.ButtOffCh4": return ioSystemGraphicsType.Puid_Pow_Out220M_ButtOffCh4;
-                case "Pow.Out220M.IconCh4": return ioSystemGraphicsType.Puid_Pow_Out220M_IconCh4;
-                case "Pow.Out220M.LabelCh4": return ioSystemGraphicsType.Puid_Pow_Out220M_LabelCh4;
+                case "Pow.Out220M.ButtOnCh4": return ioSystemGraphicsType.Puid_Pow_Out220M_ButtOnCh4;
+                case "Pow.Out220M.ShpOnOff4": return ioSystemGraphicsType.Puid_Pow_Out220M_ShpOnOff4;
+                case "Pow.Out220M.LabelName4": return ioSystemGraphicsType.Puid_Pow_Out220M_LabelName4;
                 case "Pow.Out220M.GridCh5": return ioSystemGraphicsType.Puid_Pow_Out220M_GridCh5;
-                case "Pow.Out220M.ButtOnCh5": return ioSystemGraphicsType.Puid_Pow_Out220M_ButtOnCh5;
                 case "Pow.Out220M.ButtOffCh5": return ioSystemGraphicsType.Puid_Pow_Out220M_ButtOffCh5;
-                case "Pow.Out220M.IconCh5": return ioSystemGraphicsType.Puid_Pow_Out220M_IconCh5;
-                case "Pow.Out220M.LabelCh5": return ioSystemGraphicsType.Puid_Pow_Out220M_LabelCh5;
+                case "Pow.Out220M.ButtOnCh5": return ioSystemGraphicsType.Puid_Pow_Out220M_ButtOnCh5;
+                case "Pow.Out220M.ShpOnOff5": return ioSystemGraphicsType.Puid_Pow_Out220M_ShpOnOff5;
+                case "Pow.Out220M.LabelName5": return ioSystemGraphicsType.Puid_Pow_Out220M_LabelName5;
                 case "Pow.Out220M.GridCh6": return ioSystemGraphicsType.Puid_Pow_Out220M_GridCh6;
-                case "Pow.Out220M.ButtOnCh6": return ioSystemGraphicsType.Puid_Pow_Out220M_ButtOnCh6;
                 case "Pow.Out220M.ButtOffCh6": return ioSystemGraphicsType.Puid_Pow_Out220M_ButtOffCh6;
-                case "Pow.Out220M.IconCh6": return ioSystemGraphicsType.Puid_Pow_Out220M_IconCh6;
-                case "Pow.Out220M.LabelCh6": return ioSystemGraphicsType.Puid_Pow_Out220M_LabelCh6;
+                case "Pow.Out220M.ButtOnCh6": return ioSystemGraphicsType.Puid_Pow_Out220M_ButtOnCh6;
+                case "Pow.Out220M.ShpOnOff6": return ioSystemGraphicsType.Puid_Pow_Out220M_ShpOnOff6;
+                case "Pow.Out220M.LabelName6": return ioSystemGraphicsType.Puid_Pow_Out220M_LabelName6;
                 case "Pow.Out220M.GridCh7": return ioSystemGraphicsType.Puid_Pow_Out220M_GridCh7;
-                case "Pow.Out220M.ButtOnCh7": return ioSystemGraphicsType.Puid_Pow_Out220M_ButtOnCh7;
                 case "Pow.Out220M.ButtOffCh7": return ioSystemGraphicsType.Puid_Pow_Out220M_ButtOffCh7;
-                case "Pow.Out220M.IconCh7": return ioSystemGraphicsType.Puid_Pow_Out220M_IconCh7;
-                case "Pow.Out220M.LabelCh7": return ioSystemGraphicsType.Puid_Pow_Out220M_LabelCh7;
+                case "Pow.Out220M.ButtOnCh7": return ioSystemGraphicsType.Puid_Pow_Out220M_ButtOnCh7;
+                case "Pow.Out220M.ShpOnOff7": return ioSystemGraphicsType.Puid_Pow_Out220M_ShpOnOff7;
+                case "Pow.Out220M.LabelName7": return ioSystemGraphicsType.Puid_Pow_Out220M_LabelName7;
                 case "Pow.Out220M.GridCh8": return ioSystemGraphicsType.Puid_Pow_Out220M_GridCh8;
-                case "Pow.Out220M.ButtOnCh8": return ioSystemGraphicsType.Puid_Pow_Out220M_ButtOnCh8;
                 case "Pow.Out220M.ButtOffCh8": return ioSystemGraphicsType.Puid_Pow_Out220M_ButtOffCh8;
-                case "Pow.Out220M.IconCh8": return ioSystemGraphicsType.Puid_Pow_Out220M_IconCh8;
-                case "Pow.Out220M.LabelCh8": return ioSystemGraphicsType.Puid_Pow_Out220M_LabelCh8;
+                case "Pow.Out220M.ButtOnCh8": return ioSystemGraphicsType.Puid_Pow_Out220M_ButtOnCh8;
+                case "Pow.Out220M.ShpOnOff8": return ioSystemGraphicsType.Puid_Pow_Out220M_ShpOnOff8;
+                case "Pow.Out220M.LabelName8": return ioSystemGraphicsType.Puid_Pow_Out220M_LabelName8;
                 case "Pow.Out220F.GridCh1": return ioSystemGraphicsType.Puid_Pow_Out220F_GridCh1;
-                case "Pow.Out220F.ButtOnCh1": return ioSystemGraphicsType.Puid_Pow_Out220F_ButtOnCh1;
                 case "Pow.Out220F.ButtOffCh1": return ioSystemGraphicsType.Puid_Pow_Out220F_ButtOffCh1;
-                case "Pow.Out220F.IconCh1": return ioSystemGraphicsType.Puid_Pow_Out220F_IconCh1;
-                case "Pow.Out220F.LabelCh1": return ioSystemGraphicsType.Puid_Pow_Out220F_LabelCh1;
+                case "Pow.Out220F.ButtOnCh1": return ioSystemGraphicsType.Puid_Pow_Out220F_ButtOnCh1;
+                case "Pow.Out220F.ShpOnOff1": return ioSystemGraphicsType.Puid_Pow_Out220F_ShpOnOff1;
+                case "Pow.Out220F.LabelName1": return ioSystemGraphicsType.Puid_Pow_Out220F_LabelName1;
                 case "Pow.Out220F.GridCh2": return ioSystemGraphicsType.Puid_Pow_Out220F_GridCh2;
-                case "Pow.Out220F.ButtOnCh2": return ioSystemGraphicsType.Puid_Pow_Out220F_ButtOnCh2;
                 case "Pow.Out220F.ButtOffCh2": return ioSystemGraphicsType.Puid_Pow_Out220F_ButtOffCh2;
-                case "Pow.Out220F.IconCh2": return ioSystemGraphicsType.Puid_Pow_Out220F_IconCh2;
-                case "Pow.Out220F.LabelCh2": return ioSystemGraphicsType.Puid_Pow_Out220F_LabelCh2;
+                case "Pow.Out220F.ButtOnCh2": return ioSystemGraphicsType.Puid_Pow_Out220F_ButtOnCh2;
+                case "Pow.Out220F.ShpOnOff2": return ioSystemGraphicsType.Puid_Pow_Out220F_ShpOnOff2;
+                case "Pow.Out220F.LabelName2": return ioSystemGraphicsType.Puid_Pow_Out220F_LabelName2;
                 case "Pow.Out220F.GridCh3": return ioSystemGraphicsType.Puid_Pow_Out220F_GridCh3;
-                case "Pow.Out220F.ButtOnCh3": return ioSystemGraphicsType.Puid_Pow_Out220F_ButtOnCh3;
                 case "Pow.Out220F.ButtOffCh3": return ioSystemGraphicsType.Puid_Pow_Out220F_ButtOffCh3;
-                case "Pow.Out220F.IconCh3": return ioSystemGraphicsType.Puid_Pow_Out220F_IconCh3;
-                case "Pow.Out220F.LabelCh3": return ioSystemGraphicsType.Puid_Pow_Out220F_LabelCh3;
+                case "Pow.Out220F.ButtOnCh3": return ioSystemGraphicsType.Puid_Pow_Out220F_ButtOnCh3;
+                case "Pow.Out220F.ShpOnOff3": return ioSystemGraphicsType.Puid_Pow_Out220F_ShpOnOff3;
+                case "Pow.Out220F.LabelName3": return ioSystemGraphicsType.Puid_Pow_Out220F_LabelName3;
                 case "Pow.Out220F.GridCh4": return ioSystemGraphicsType.Puid_Pow_Out220F_GridCh4;
-                case "Pow.Out220F.ButtOnCh4": return ioSystemGraphicsType.Puid_Pow_Out220F_ButtOnCh4;
                 case "Pow.Out220F.ButtOffCh4": return ioSystemGraphicsType.Puid_Pow_Out220F_ButtOffCh4;
-                case "Pow.Out220F.IconCh4": return ioSystemGraphicsType.Puid_Pow_Out220F_IconCh4;
-                case "Pow.Out220F.LabelCh4": return ioSystemGraphicsType.Puid_Pow_Out220F_LabelCh4;
+                case "Pow.Out220F.ButtOnCh4": return ioSystemGraphicsType.Puid_Pow_Out220F_ButtOnCh4;
+                case "Pow.Out220F.ShpOnOff4": return ioSystemGraphicsType.Puid_Pow_Out220F_ShpOnOff4;
+                case "Pow.Out220F.LabelName4": return ioSystemGraphicsType.Puid_Pow_Out220F_LabelName4;
                 case "Pow.Out220F.GridCh5": return ioSystemGraphicsType.Puid_Pow_Out220F_GridCh5;
-                case "Pow.Out220F.ButtOnCh5": return ioSystemGraphicsType.Puid_Pow_Out220F_ButtOnCh5;
                 case "Pow.Out220F.ButtOffCh5": return ioSystemGraphicsType.Puid_Pow_Out220F_ButtOffCh5;
-                case "Pow.Out220F.IconCh5": return ioSystemGraphicsType.Puid_Pow_Out220F_IconCh5;
-                case "Pow.Out220F.LabelCh5": return ioSystemGraphicsType.Puid_Pow_Out220F_LabelCh5;
+                case "Pow.Out220F.ButtOnCh5": return ioSystemGraphicsType.Puid_Pow_Out220F_ButtOnCh5;
+                case "Pow.Out220F.ShpOnOff5": return ioSystemGraphicsType.Puid_Pow_Out220F_ShpOnOff5;
+                case "Pow.Out220F.LabelName5": return ioSystemGraphicsType.Puid_Pow_Out220F_LabelName5;
                 case "Pow.Out220F.GridCh6": return ioSystemGraphicsType.Puid_Pow_Out220F_GridCh6;
-                case "Pow.Out220F.ButtOnCh6": return ioSystemGraphicsType.Puid_Pow_Out220F_ButtOnCh6;
                 case "Pow.Out220F.ButtOffCh6": return ioSystemGraphicsType.Puid_Pow_Out220F_ButtOffCh6;
-                case "Pow.Out220F.IconCh6": return ioSystemGraphicsType.Puid_Pow_Out220F_IconCh6;
-                case "Pow.Out220F.LabelCh6": return ioSystemGraphicsType.Puid_Pow_Out220F_LabelCh6;
+                case "Pow.Out220F.ButtOnCh6": return ioSystemGraphicsType.Puid_Pow_Out220F_ButtOnCh6;
+                case "Pow.Out220F.ShpOnOff6": return ioSystemGraphicsType.Puid_Pow_Out220F_ShpOnOff6;
+                case "Pow.Out220F.LabelName6": return ioSystemGraphicsType.Puid_Pow_Out220F_LabelName6;
                 case "Pow.Out220F.GridCh7": return ioSystemGraphicsType.Puid_Pow_Out220F_GridCh7;
-                case "Pow.Out220F.ButtOnCh7": return ioSystemGraphicsType.Puid_Pow_Out220F_ButtOnCh7;
                 case "Pow.Out220F.ButtOffCh7": return ioSystemGraphicsType.Puid_Pow_Out220F_ButtOffCh7;
-                case "Pow.Out220F.IconCh7": return ioSystemGraphicsType.Puid_Pow_Out220F_IconCh7;
-                case "Pow.Out220F.LabelCh7": return ioSystemGraphicsType.Puid_Pow_Out220F_LabelCh7;
+                case "Pow.Out220F.ButtOnCh7": return ioSystemGraphicsType.Puid_Pow_Out220F_ButtOnCh7;
+                case "Pow.Out220F.ShpOnOff7": return ioSystemGraphicsType.Puid_Pow_Out220F_ShpOnOff7;
+                case "Pow.Out220F.LabelName7": return ioSystemGraphicsType.Puid_Pow_Out220F_LabelName7;
                 case "Pow.Out220F.GridCh8": return ioSystemGraphicsType.Puid_Pow_Out220F_GridCh8;
-                case "Pow.Out220F.ButtOnCh8": return ioSystemGraphicsType.Puid_Pow_Out220F_ButtOnCh8;
                 case "Pow.Out220F.ButtOffCh8": return ioSystemGraphicsType.Puid_Pow_Out220F_ButtOffCh8;
-                case "Pow.Out220F.IconCh8": return ioSystemGraphicsType.Puid_Pow_Out220F_IconCh8;
-                case "Pow.Out220F.LabelCh8": return ioSystemGraphicsType.Puid_Pow_Out220F_LabelCh8;
+                case "Pow.Out220F.ButtOnCh8": return ioSystemGraphicsType.Puid_Pow_Out220F_ButtOnCh8;
+                case "Pow.Out220F.ShpOnOff8": return ioSystemGraphicsType.Puid_Pow_Out220F_ShpOnOff8;
+                case "Pow.Out220F.LabelName8": return ioSystemGraphicsType.Puid_Pow_Out220F_LabelName8;
                 case "Pow.Out220A.GridCh1": return ioSystemGraphicsType.Puid_Pow_Out220A_GridCh1;
-                case "Pow.Out220A.ButtOnCh1": return ioSystemGraphicsType.Puid_Pow_Out220A_ButtOnCh1;
                 case "Pow.Out220A.ButtOffCh1": return ioSystemGraphicsType.Puid_Pow_Out220A_ButtOffCh1;
-                case "Pow.Out220A.IconCh1": return ioSystemGraphicsType.Puid_Pow_Out220A_IconCh1;
-                case "Pow.Out220A.LabelCh1": return ioSystemGraphicsType.Puid_Pow_Out220A_LabelCh1;
+                case "Pow.Out220A.ButtOnCh1": return ioSystemGraphicsType.Puid_Pow_Out220A_ButtOnCh1;
+                case "Pow.Out220A.ShpOnOff1": return ioSystemGraphicsType.Puid_Pow_Out220A_ShpOnOff1;
+                case "Pow.Out220A.LabelName1": return ioSystemGraphicsType.Puid_Pow_Out220A_LabelName1;
                 case "Pow.Out220A.GridCh2": return ioSystemGraphicsType.Puid_Pow_Out220A_GridCh2;
-                case "Pow.Out220A.ButtOnCh2": return ioSystemGraphicsType.Puid_Pow_Out220A_ButtOnCh2;
                 case "Pow.Out220A.ButtOffCh2": return ioSystemGraphicsType.Puid_Pow_Out220A_ButtOffCh2;
-                case "Pow.Out220A.IconCh2": return ioSystemGraphicsType.Puid_Pow_Out220A_IconCh2;
-                case "Pow.Out220A.LabelCh2": return ioSystemGraphicsType.Puid_Pow_Out220A_LabelCh2;
+                case "Pow.Out220A.ButtOnCh2": return ioSystemGraphicsType.Puid_Pow_Out220A_ButtOnCh2;
+                case "Pow.Out220A.ShpOnOff2": return ioSystemGraphicsType.Puid_Pow_Out220A_ShpOnOff2;
+                case "Pow.Out220A.LabelName2": return ioSystemGraphicsType.Puid_Pow_Out220A_LabelName2;
                 case "Pow.Out220A.GridCh3": return ioSystemGraphicsType.Puid_Pow_Out220A_GridCh3;
-                case "Pow.Out220A.ButtOnCh3": return ioSystemGraphicsType.Puid_Pow_Out220A_ButtOnCh3;
                 case "Pow.Out220A.ButtOffCh3": return ioSystemGraphicsType.Puid_Pow_Out220A_ButtOffCh3;
-                case "Pow.Out220A.IconCh3": return ioSystemGraphicsType.Puid_Pow_Out220A_IconCh3;
-                case "Pow.Out220A.LabelCh3": return ioSystemGraphicsType.Puid_Pow_Out220A_LabelCh3;
+                case "Pow.Out220A.ButtOnCh3": return ioSystemGraphicsType.Puid_Pow_Out220A_ButtOnCh3;
+                case "Pow.Out220A.ShpOnOff3": return ioSystemGraphicsType.Puid_Pow_Out220A_ShpOnOff3;
+                case "Pow.Out220A.LabelName3": return ioSystemGraphicsType.Puid_Pow_Out220A_LabelName3;
                 case "Pow.Out220A.GridCh4": return ioSystemGraphicsType.Puid_Pow_Out220A_GridCh4;
-                case "Pow.Out220A.ButtOnCh4": return ioSystemGraphicsType.Puid_Pow_Out220A_ButtOnCh4;
                 case "Pow.Out220A.ButtOffCh4": return ioSystemGraphicsType.Puid_Pow_Out220A_ButtOffCh4;
-                case "Pow.Out220A.IconCh4": return ioSystemGraphicsType.Puid_Pow_Out220A_IconCh4;
-                case "Pow.Out220A.LabelCh4": return ioSystemGraphicsType.Puid_Pow_Out220A_LabelCh4;
+                case "Pow.Out220A.ButtOnCh4": return ioSystemGraphicsType.Puid_Pow_Out220A_ButtOnCh4;
+                case "Pow.Out220A.ShpOnOff4": return ioSystemGraphicsType.Puid_Pow_Out220A_ShpOnOff4;
+                case "Pow.Out220A.LabelName4": return ioSystemGraphicsType.Puid_Pow_Out220A_LabelName4;
                 case "Pow.Out220A.GridCh5": return ioSystemGraphicsType.Puid_Pow_Out220A_GridCh5;
-                case "Pow.Out220A.ButtOnCh5": return ioSystemGraphicsType.Puid_Pow_Out220A_ButtOnCh5;
                 case "Pow.Out220A.ButtOffCh5": return ioSystemGraphicsType.Puid_Pow_Out220A_ButtOffCh5;
-                case "Pow.Out220A.IconCh5": return ioSystemGraphicsType.Puid_Pow_Out220A_IconCh5;
-                case "Pow.Out220A.LabelCh5": return ioSystemGraphicsType.Puid_Pow_Out220A_LabelCh5;
+                case "Pow.Out220A.ButtOnCh5": return ioSystemGraphicsType.Puid_Pow_Out220A_ButtOnCh5;
+                case "Pow.Out220A.ShpOnOff5": return ioSystemGraphicsType.Puid_Pow_Out220A_ShpOnOff5;
+                case "Pow.Out220A.LabelName5": return ioSystemGraphicsType.Puid_Pow_Out220A_LabelName5;
                 case "Pow.Out220A.GridCh6": return ioSystemGraphicsType.Puid_Pow_Out220A_GridCh6;
-                case "Pow.Out220A.ButtOnCh6": return ioSystemGraphicsType.Puid_Pow_Out220A_ButtOnCh6;
                 case "Pow.Out220A.ButtOffCh6": return ioSystemGraphicsType.Puid_Pow_Out220A_ButtOffCh6;
-                case "Pow.Out220A.IconCh6": return ioSystemGraphicsType.Puid_Pow_Out220A_IconCh6;
-                case "Pow.Out220A.LabelCh6": return ioSystemGraphicsType.Puid_Pow_Out220A_LabelCh6;
+                case "Pow.Out220A.ButtOnCh6": return ioSystemGraphicsType.Puid_Pow_Out220A_ButtOnCh6;
+                case "Pow.Out220A.ShpOnOff6": return ioSystemGraphicsType.Puid_Pow_Out220A_ShpOnOff6;
+                case "Pow.Out220A.LabelName6": return ioSystemGraphicsType.Puid_Pow_Out220A_LabelName6;
                 case "Pow.Out220A.GridCh7": return ioSystemGraphicsType.Puid_Pow_Out220A_GridCh7;
-                case "Pow.Out220A.ButtOnCh7": return ioSystemGraphicsType.Puid_Pow_Out220A_ButtOnCh7;
                 case "Pow.Out220A.ButtOffCh7": return ioSystemGraphicsType.Puid_Pow_Out220A_ButtOffCh7;
-                case "Pow.Out220A.IconCh7": return ioSystemGraphicsType.Puid_Pow_Out220A_IconCh7;
-                case "Pow.Out220A.LabelCh7": return ioSystemGraphicsType.Puid_Pow_Out220A_LabelCh7;
+                case "Pow.Out220A.ButtOnCh7": return ioSystemGraphicsType.Puid_Pow_Out220A_ButtOnCh7;
+                case "Pow.Out220A.ShpOnOff7": return ioSystemGraphicsType.Puid_Pow_Out220A_ShpOnOff7;
+                case "Pow.Out220A.LabelName7": return ioSystemGraphicsType.Puid_Pow_Out220A_LabelName7;
                 case "Pow.Out220A.GridCh8": return ioSystemGraphicsType.Puid_Pow_Out220A_GridCh8;
-                case "Pow.Out220A.ButtOnCh8": return ioSystemGraphicsType.Puid_Pow_Out220A_ButtOnCh8;
                 case "Pow.Out220A.ButtOffCh8": return ioSystemGraphicsType.Puid_Pow_Out220A_ButtOffCh8;
-                case "Pow.Out220A.IconCh8": return ioSystemGraphicsType.Puid_Pow_Out220A_IconCh8;
-                case "Pow.Out220A.LabelCh8": return ioSystemGraphicsType.Puid_Pow_Out220A_LabelCh8;
+                case "Pow.Out220A.ButtOnCh8": return ioSystemGraphicsType.Puid_Pow_Out220A_ButtOnCh8;
+                case "Pow.Out220A.ShpOnOff8": return ioSystemGraphicsType.Puid_Pow_Out220A_ShpOnOff8;
+                case "Pow.Out220A.LabelName8": return ioSystemGraphicsType.Puid_Pow_Out220A_LabelName8;
                 case "Pow.Row1.Icon12V": return ioSystemGraphicsType.Puid_Pow_Row1_Icon12V;
                 case "Pow.Row1.ButtActive12V": return ioSystemGraphicsType.Puid_Pow_Row1_ButtActive12V;
                 case "Pow.Row1.ButtActive24V": return ioSystemGraphicsType.Puid_Pow_Row1_ButtActive24V;
@@ -1626,7 +1668,7 @@ namespace ioSystemNetworkNet
         }
         public static ioSystemGraphicsType GetPuid(Int32 puidValue)
         {
-            if ((puidValue >= 0) && (puidValue < 535))
+            if ((puidValue >= 0) && (puidValue < 549))
                 return (ioSystemGraphicsType)puidValue;
             else
                 return ioSystemGraphicsType.Puid_NotDefined;

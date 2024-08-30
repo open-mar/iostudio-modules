@@ -36,6 +36,7 @@
             <NumberID>OnCh7</NumberID>
             <NumberID>OnCh8</NumberID>
         </Event>
+        <Method LocalID="OnRequestPowData" />
     </DataListObject>
     <DataListObject ParentGlobalID="Pow.Out12F">
         <Variable LocalID="OnCh1" TypeNum="Bool">FALSE</Variable>
@@ -72,6 +73,7 @@
             <NumberID>OnCh7</NumberID>
             <NumberID>OnCh8</NumberID>
         </Event>
+        <Method LocalID="OnRequestPowData" />
     </DataListObject>
     <DataListObject ParentGlobalID="Pow.Out12A">
         <Variable LocalID="OnCh1" TypeNum="Bool">FALSE</Variable>
@@ -108,6 +110,7 @@
             <NumberID>OnCh7</NumberID>
             <NumberID>OnCh8</NumberID>
         </Event>
+        <Method LocalID="OnRequestPowData" />
     </DataListObject>
     <DataListObject ParentGlobalID="Pow.Out24M">
         <Variable LocalID="OnCh1" TypeNum="Bool">FALSE</Variable>
@@ -144,6 +147,7 @@
             <NumberID>OnCh7</NumberID>
             <NumberID>OnCh8</NumberID>
         </Event>
+        <Method LocalID="OnRequestPowData" />
     </DataListObject>
     <DataListObject ParentGlobalID="Pow.Out24F">
         <Variable LocalID="OnCh1" TypeNum="Bool">FALSE</Variable>
@@ -180,6 +184,7 @@
             <NumberID>OnCh7</NumberID>
             <NumberID>OnCh8</NumberID>
         </Event>
+        <Method LocalID="OnRequestPowData" />
     </DataListObject>
     <DataListObject ParentGlobalID="Pow.Out24A">
         <Variable LocalID="OnCh1" TypeNum="Bool">FALSE</Variable>
@@ -216,6 +221,7 @@
             <NumberID>OnCh7</NumberID>
             <NumberID>OnCh8</NumberID>
         </Event>
+        <Method LocalID="OnRequestPowData" />
     </DataListObject>
     <DataListObject ParentGlobalID="Pow.Out220M">
         <Variable LocalID="OnCh1" TypeNum="Bool">FALSE</Variable>
@@ -252,6 +258,7 @@
             <NumberID>OnCh7</NumberID>
             <NumberID>OnCh8</NumberID>
         </Event>
+        <Method LocalID="OnRequestPowData" />
     </DataListObject>
     <DataListObject ParentGlobalID="Pow.Out220F">
         <Variable LocalID="OnCh1" TypeNum="Bool">FALSE</Variable>
@@ -288,6 +295,7 @@
             <NumberID>OnCh7</NumberID>
             <NumberID>OnCh8</NumberID>
         </Event>
+        <Method LocalID="OnRequestPowData" />
     </DataListObject>
     <DataListObject ParentGlobalID="Pow.Out220A">
         <Variable LocalID="OnCh1" TypeNum="Bool">FALSE</Variable>
@@ -324,5 +332,6 @@
             <NumberID>OnCh7</NumberID>
             <NumberID>OnCh8</NumberID>
         </Event>
+        <Method LocalID="OnRequestPowData" />
     </DataListObject>
 </DataList>

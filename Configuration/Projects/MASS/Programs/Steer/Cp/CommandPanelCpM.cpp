@@ -14,7 +14,7 @@ void CommandPanelCpM::InitializeData(void)
 {
     CommandPanel::InitializeData();
     AddGraphics(&HeaderCommandPanel, Puid_Steer_CpM_HeaderCommandPanel);
-    HeaderCommandPanel.SetTextForced((ioChars)"COMMAND MID DECKHOUSE");
+    HeaderCommandPanel.SetTextForced((ioChars)"COMMAND STEERING MID DECKHOUSE");
     AddGraphics(&ShapeCommandStatus, Puid_Steer_CpM_ShapeCommandStatus);
     AddGraphics(&LabelCommandStatus, Puid_Steer_CpM_LabelCommandStatus);
     LabelCommandStatus.SetTextForced((ioChars)"OFF");

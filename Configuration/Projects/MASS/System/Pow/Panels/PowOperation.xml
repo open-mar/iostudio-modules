@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PanelClass Name="PowOperation">
+    <Description>Operation of power modes</Description>
+    <PanelObject ParentGlobalID="Pow" Background="ContainerBackground">
+        <RowDefinition Size="20" />
+        <RowDefinition Size="80" />
+        <RowDefinition Size="40" />
+        <ColumnDefinition />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1" SpanColumns="2">
+            <ioLabel LocalID="HeaderCommandPanel">
+                <Properties Text="COMMAND POWER MID DECKHOUSE" TypeLabel="OVERLINE" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
+        </Grid>
+        <Grid Row="1" Column="2" />
+        <Grid Row="2" Column="1">
+            <ioShape LocalID="ShapeCommandStatus" HorizontalAlignment="Center" Width="100" VerticalAlignment="Center" Height="32">
+                <Properties TypeShape="Command" ShapeID="NotInCommand" ScaleX="1.0" ScaleY="1.0" TypeColor="InstrumentEnhancedPrimary" />
+            </ioShape>
+        </Grid>
+        <Grid Row="2" Column="2" IsStacked="TRUE" Orientation="Vertical">
+            <ioLabel LocalID="LabelCommandStatus">
+                <Properties Text="NO POWER" TypeLabel="Large" TypeColor="ElementActive" TextWrapping="NoWrap" />
+            </ioLabel>
+            <ioTextBlock LocalID="TextCommandStatus">
+                <Properties Text="No station in command" TypeColor="AutomationDevicePrimary" FontFamily="NotoSans" FontSize="Small" FontWeight="Normal" TextWrapping="NoWrap" Decimals="1" TextAlignment="Left" />
+            </ioTextBlock>
+        </Grid>
+        <Grid Row="3" Column="1">
+            <ioButtonShape LocalID="ButtTakeRequest">
+                <Properties Text="Take" TypeColor="Normal" TypeShape="Command" ShapeID="TakeCommand" />
+            </ioButtonShape>
+        </Grid>
+        <Grid Row="3" Column="2">
+            <ioButtonShape LocalID="ButtRelease">
+                <Properties Text="Release" TypeColor="Flat" TypeShape="Command" ShapeID="NotInCommand" />
+            </ioButtonShape>
+        </Grid>
+    </PanelObject>
+</PanelClass>
