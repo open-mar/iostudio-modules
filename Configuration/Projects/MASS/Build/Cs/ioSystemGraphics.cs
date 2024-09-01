@@ -58,22 +58,22 @@ namespace ioSystemNetworkNet
         Puid_Ids_CcA_ShapeEthernet = 51,
         Puid_Ids_CcA_ShapeIO = 52,
         Puid_Ids_CcA_ShapeInCommand = 53,
-        Puid_Pow_PowPanelRow1 = 54,
-        Puid_Pow_PowPanelCol1 = 55,
-        Puid_Pow_HeaderCommandPanel = 56,
-        Puid_Pow_ShapeCommandStatus = 57,
-        Puid_Pow_LabelCommandStatus = 58,
-        Puid_Pow_TextCommandStatus = 59,
-        Puid_Pow_ButtTakeRequest = 60,
-        Puid_Pow_ButtRelease = 61,
-        Puid_Pow_ButtDockIdle = 62,
-        Puid_Pow_ButtDockConnectedShore = 63,
-        Puid_Pow_ButtDockNotConnected = 64,
-        Puid_Pow_ButtInTransit = 65,
-        Puid_Pow_ButtInTransitEngine = 66,
-        Puid_Pow_ButtInTransitSailing = 67,
-        Puid_Pow_GridPowCommand = 68,
-        Puid_Pow_GridPowModes = 69,
+        Puid_Pow_ButtDockIdle = 54,
+        Puid_Pow_ButtDockConnectedShore = 55,
+        Puid_Pow_ButtDockNotConnected = 56,
+        Puid_Pow_ButtInTransit = 57,
+        Puid_Pow_ButtInTransitEngine = 58,
+        Puid_Pow_ButtInTransitSailing = 59,
+        Puid_Pow_HeaderCommandPanel = 60,
+        Puid_Pow_ShapeCommandStatus = 61,
+        Puid_Pow_LabelCommandStatus = 62,
+        Puid_Pow_TextCommandStatus = 63,
+        Puid_Pow_ButtTakeRequest = 64,
+        Puid_Pow_ButtRelease = 65,
+        Puid_Pow_GridPowCommand = 66,
+        Puid_Pow_GridPowModes = 67,
+        Puid_Pow_PowPanelRow1 = 68,
+        Puid_Pow_PowPanelCol1 = 69,
         Puid_Pow_Out12M_GridCh1 = 70,
         Puid_Pow_Out12M_ButtOffCh1 = 71,
         Puid_Pow_Out12M_ButtOnCh1 = 72,
@@ -458,101 +458,126 @@ namespace ioSystemNetworkNet
         Puid_Pow_Row2_IconRightFwd = 451,
         Puid_Pow_Row2_PowPanelCol1 = 452,
         Puid_Pow_Row2_PowPanelCol2 = 453,
-        Puid_Steer_GridCommandCpM = 454,
-        Puid_Steer_GridModeCpM = 455,
-        Puid_Steer_GridSetRefCpM = 456,
-        Puid_Steer_GridCommandCpA = 457,
-        Puid_Steer_GridModeCpA = 458,
-        Puid_Steer_GridSetRefCpA = 459,
-        Puid_Steer_GridApMPanel = 460,
-        Puid_Steer_ApM_GridAutopilot = 461,
-        Puid_Steer_ApM_LabelApSteer = 462,
-        Puid_Steer_ApM_InstrHeadingRef = 463,
-        Puid_Steer_ApM_LabelHeading = 464,
-        Puid_Steer_ApM_InstrHeading = 465,
-        Puid_Steer_ApM_ShapeContourShip = 466,
-        Puid_Steer_ApM_CompThruster = 467,
-        Puid_Steer_ApM_CompRudder = 468,
-        Puid_Steer_ApM_CompRateOfTurn = 469,
-        Puid_Steer_ApM_CompEngine = 470,
-        Puid_Steer_ApM_GridRotMeas = 471,
-        Puid_Steer_ApM_TextRotValue = 472,
-        Puid_Steer_ApM_LabelRot = 473,
-        Puid_Steer_ApM_GridEngineMeas = 474,
-        Puid_Steer_ApM_TextEngineValue = 475,
-        Puid_Steer_ApM_LabelEngine = 476,
-        Puid_Steer_ApM_GridThrustMeas = 477,
-        Puid_Steer_ApM_TextThrustValue = 478,
-        Puid_Steer_ApM_LabelThrust = 479,
-        Puid_Steer_ApA_GridAutopilot = 480,
-        Puid_Steer_ApA_LabelApSteer = 481,
-        Puid_Steer_ApA_InstrHeadingRef = 482,
-        Puid_Steer_ApA_LabelHeading = 483,
-        Puid_Steer_ApA_InstrHeading = 484,
-        Puid_Steer_ApA_ShapeContourShip = 485,
-        Puid_Steer_ApA_CompThruster = 486,
-        Puid_Steer_ApA_CompRudder = 487,
-        Puid_Steer_ApA_CompRateOfTurn = 488,
-        Puid_Steer_ApA_CompEngine = 489,
-        Puid_Steer_ApA_GridRotMeas = 490,
-        Puid_Steer_ApA_TextRotValue = 491,
-        Puid_Steer_ApA_LabelRot = 492,
-        Puid_Steer_ApA_GridEngineMeas = 493,
-        Puid_Steer_ApA_TextEngineValue = 494,
-        Puid_Steer_ApA_LabelEngine = 495,
-        Puid_Steer_ApA_GridThrustMeas = 496,
-        Puid_Steer_ApA_TextThrustValue = 497,
-        Puid_Steer_ApA_LabelThrust = 498,
-        Puid_Steer_CpM_CommandNoRef = 499,
-        Puid_Steer_CpM_ModeNoRef = 500,
-        Puid_Steer_CpA_CommandNoRef = 501,
-        Puid_Steer_CpA_ModeNoRef = 502,
-        Puid_Steer_CpM_Command = 503,
-        Puid_Steer_CpM_Mode = 504,
-        Puid_Steer_CpM_Reference = 505,
-        Puid_Steer_CpA_Command = 506,
-        Puid_Steer_CpA_Mode = 507,
-        Puid_Steer_CpA_Reference = 508,
-        Puid_Steer_CpM_HeaderCommandPanel = 509,
-        Puid_Steer_CpM_ShapeCommandStatus = 510,
-        Puid_Steer_CpM_LabelCommandStatus = 511,
-        Puid_Steer_CpM_TextCommandStatus = 512,
-        Puid_Steer_CpM_ButtTakeRequest = 513,
-        Puid_Steer_CpM_ButtRelease = 514,
-        Puid_Steer_CpA_HeaderCommandPanel = 515,
-        Puid_Steer_CpA_ShapeCommandStatus = 516,
-        Puid_Steer_CpA_LabelCommandStatus = 517,
-        Puid_Steer_CpA_TextCommandStatus = 518,
-        Puid_Steer_CpA_ButtTakeRequest = 519,
-        Puid_Steer_CpA_ButtRelease = 520,
-        Puid_Steer_CpM_HeaderModeControl = 521,
-        Puid_Steer_CpM_ButtDp = 522,
-        Puid_Steer_CpM_ButtTrack = 523,
-        Puid_Steer_CpM_ButtRiver = 524,
-        Puid_Steer_CpM_ButtWork = 525,
-        Puid_Steer_CpM_ButtCourse = 526,
-        Puid_Steer_CpM_ButtStandby = 527,
-        Puid_Steer_CpA_HeaderModeControl = 528,
-        Puid_Steer_CpA_ButtDp = 529,
-        Puid_Steer_CpA_ButtTrack = 530,
-        Puid_Steer_CpA_ButtRiver = 531,
-        Puid_Steer_CpA_ButtWork = 532,
-        Puid_Steer_CpA_ButtCourse = 533,
-        Puid_Steer_CpA_ButtStandby = 534,
-        Puid_Steer_CpM_LabelHeader = 535,
-        Puid_Steer_CpM_ButtonLeftSmall = 536,
-        Puid_Steer_CpM_ButtMidZero = 537,
-        Puid_Steer_CpM_ButtRightSmall = 538,
-        Puid_Steer_CpM_EncoderNumber = 539,
-        Puid_Steer_CpM_ButtLeftBig = 540,
-        Puid_Steer_CpM_ButtRightBig = 541,
-        Puid_Steer_CpA_LabelHeader = 542,
-        Puid_Steer_CpA_ButtonLeftSmall = 543,
-        Puid_Steer_CpA_ButtMidZero = 544,
-        Puid_Steer_CpA_ButtRightSmall = 545,
-        Puid_Steer_CpA_EncoderNumber = 546,
-        Puid_Steer_CpA_ButtLeftBig = 547,
-        Puid_Steer_CpA_ButtRightBig = 548,
+        Puid_Pow_CpM_HeaderCommandPanel = 454,
+        Puid_Pow_CpM_ShapeCommandStatus = 455,
+        Puid_Pow_CpM_LabelCommandStatus = 456,
+        Puid_Pow_CpM_TextCommandStatus = 457,
+        Puid_Pow_CpM_ButtTakeRequest = 458,
+        Puid_Pow_CpM_ButtRelease = 459,
+        Puid_Pow_CpA_HeaderCommandPanel = 460,
+        Puid_Pow_CpA_ShapeCommandStatus = 461,
+        Puid_Pow_CpA_LabelCommandStatus = 462,
+        Puid_Pow_CpA_TextCommandStatus = 463,
+        Puid_Pow_CpA_ButtTakeRequest = 464,
+        Puid_Pow_CpA_ButtRelease = 465,
+        Puid_Pow_CpM_ButtDockIdle = 466,
+        Puid_Pow_CpM_ButtDockConnectedShore = 467,
+        Puid_Pow_CpM_ButtDockNotConnected = 468,
+        Puid_Pow_CpM_ButtInTransit = 469,
+        Puid_Pow_CpM_ButtInTransitEngine = 470,
+        Puid_Pow_CpM_ButtInTransitSailing = 471,
+        Puid_Pow_CpA_ButtInTransit = 472,
+        Puid_Pow_CpA_ButtInTransitEngine = 473,
+        Puid_Pow_CpA_ButtInTransitSailing = 474,
+        Puid_Pow_CpM_CommandNoRef = 475,
+        Puid_Pow_CpM_ModeNoRef = 476,
+        Puid_Pow_CpA_CommandNoRef = 477,
+        Puid_Pow_CpA_ModeNoRef = 478,
+        Puid_Steer_GridCommandCpM = 479,
+        Puid_Steer_GridModeCpM = 480,
+        Puid_Steer_GridSetRefCpM = 481,
+        Puid_Steer_GridCommandCpA = 482,
+        Puid_Steer_GridModeCpA = 483,
+        Puid_Steer_GridSetRefCpA = 484,
+        Puid_Steer_GridApMPanel = 485,
+        Puid_Steer_ApM_GridAutopilot = 486,
+        Puid_Steer_ApM_LabelApSteer = 487,
+        Puid_Steer_ApM_InstrHeadingRef = 488,
+        Puid_Steer_ApM_LabelHeading = 489,
+        Puid_Steer_ApM_InstrHeading = 490,
+        Puid_Steer_ApM_ShapeContourShip = 491,
+        Puid_Steer_ApM_CompThruster = 492,
+        Puid_Steer_ApM_CompRudder = 493,
+        Puid_Steer_ApM_CompRateOfTurn = 494,
+        Puid_Steer_ApM_CompEngine = 495,
+        Puid_Steer_ApM_GridRotMeas = 496,
+        Puid_Steer_ApM_TextRotValue = 497,
+        Puid_Steer_ApM_LabelRot = 498,
+        Puid_Steer_ApM_GridEngineMeas = 499,
+        Puid_Steer_ApM_TextEngineValue = 500,
+        Puid_Steer_ApM_LabelEngine = 501,
+        Puid_Steer_ApM_GridThrustMeas = 502,
+        Puid_Steer_ApM_TextThrustValue = 503,
+        Puid_Steer_ApM_LabelThrust = 504,
+        Puid_Steer_ApA_GridAutopilot = 505,
+        Puid_Steer_ApA_LabelApSteer = 506,
+        Puid_Steer_ApA_InstrHeadingRef = 507,
+        Puid_Steer_ApA_LabelHeading = 508,
+        Puid_Steer_ApA_InstrHeading = 509,
+        Puid_Steer_ApA_ShapeContourShip = 510,
+        Puid_Steer_ApA_CompThruster = 511,
+        Puid_Steer_ApA_CompRudder = 512,
+        Puid_Steer_ApA_CompRateOfTurn = 513,
+        Puid_Steer_ApA_CompEngine = 514,
+        Puid_Steer_ApA_GridRotMeas = 515,
+        Puid_Steer_ApA_TextRotValue = 516,
+        Puid_Steer_ApA_LabelRot = 517,
+        Puid_Steer_ApA_GridEngineMeas = 518,
+        Puid_Steer_ApA_TextEngineValue = 519,
+        Puid_Steer_ApA_LabelEngine = 520,
+        Puid_Steer_ApA_GridThrustMeas = 521,
+        Puid_Steer_ApA_TextThrustValue = 522,
+        Puid_Steer_ApA_LabelThrust = 523,
+        Puid_Steer_CpM_CommandNoRef = 524,
+        Puid_Steer_CpM_ModeNoRef = 525,
+        Puid_Steer_CpA_CommandNoRef = 526,
+        Puid_Steer_CpA_ModeNoRef = 527,
+        Puid_Steer_CpM_Command = 528,
+        Puid_Steer_CpM_Mode = 529,
+        Puid_Steer_CpM_Reference = 530,
+        Puid_Steer_CpA_Command = 531,
+        Puid_Steer_CpA_Mode = 532,
+        Puid_Steer_CpA_Reference = 533,
+        Puid_Steer_CpM_HeaderCommandPanel = 534,
+        Puid_Steer_CpM_ShapeCommandStatus = 535,
+        Puid_Steer_CpM_LabelCommandStatus = 536,
+        Puid_Steer_CpM_TextCommandStatus = 537,
+        Puid_Steer_CpM_ButtTakeRequest = 538,
+        Puid_Steer_CpM_ButtRelease = 539,
+        Puid_Steer_CpA_HeaderCommandPanel = 540,
+        Puid_Steer_CpA_ShapeCommandStatus = 541,
+        Puid_Steer_CpA_LabelCommandStatus = 542,
+        Puid_Steer_CpA_TextCommandStatus = 543,
+        Puid_Steer_CpA_ButtTakeRequest = 544,
+        Puid_Steer_CpA_ButtRelease = 545,
+        Puid_Steer_CpM_HeaderModeControl = 546,
+        Puid_Steer_CpM_ButtDp = 547,
+        Puid_Steer_CpM_ButtTrack = 548,
+        Puid_Steer_CpM_ButtRiver = 549,
+        Puid_Steer_CpM_ButtWork = 550,
+        Puid_Steer_CpM_ButtCourse = 551,
+        Puid_Steer_CpM_ButtStandby = 552,
+        Puid_Steer_CpA_HeaderModeControl = 553,
+        Puid_Steer_CpA_ButtDp = 554,
+        Puid_Steer_CpA_ButtTrack = 555,
+        Puid_Steer_CpA_ButtRiver = 556,
+        Puid_Steer_CpA_ButtWork = 557,
+        Puid_Steer_CpA_ButtCourse = 558,
+        Puid_Steer_CpA_ButtStandby = 559,
+        Puid_Steer_CpM_LabelHeader = 560,
+        Puid_Steer_CpM_ButtonLeftSmall = 561,
+        Puid_Steer_CpM_ButtMidZero = 562,
+        Puid_Steer_CpM_ButtRightSmall = 563,
+        Puid_Steer_CpM_EncoderNumber = 564,
+        Puid_Steer_CpM_ButtLeftBig = 565,
+        Puid_Steer_CpM_ButtRightBig = 566,
+        Puid_Steer_CpA_LabelHeader = 567,
+        Puid_Steer_CpA_ButtonLeftSmall = 568,
+        Puid_Steer_CpA_ButtMidZero = 569,
+        Puid_Steer_CpA_ButtRightSmall = 570,
+        Puid_Steer_CpA_EncoderNumber = 571,
+        Puid_Steer_CpA_ButtLeftBig = 572,
+        Puid_Steer_CpA_ButtRightBig = 573,
     } // enum
     public class ioSystemGraphics
     {
@@ -613,22 +638,22 @@ namespace ioSystemNetworkNet
                 case ioSystemGraphicsType.Puid_Ids_CcA_ShapeEthernet: return "Ids.CcA.ShapeEthernet";
                 case ioSystemGraphicsType.Puid_Ids_CcA_ShapeIO: return "Ids.CcA.ShapeIO";
                 case ioSystemGraphicsType.Puid_Ids_CcA_ShapeInCommand: return "Ids.CcA.ShapeInCommand";
-                case ioSystemGraphicsType.Puid_Pow_PowPanelRow1: return "Pow.PowPanelRow1";
-                case ioSystemGraphicsType.Puid_Pow_PowPanelCol1: return "Pow.PowPanelCol1";
-                case ioSystemGraphicsType.Puid_Pow_HeaderCommandPanel: return "Pow.HeaderCommandPanel";
-                case ioSystemGraphicsType.Puid_Pow_ShapeCommandStatus: return "Pow.ShapeCommandStatus";
-                case ioSystemGraphicsType.Puid_Pow_LabelCommandStatus: return "Pow.LabelCommandStatus";
-                case ioSystemGraphicsType.Puid_Pow_TextCommandStatus: return "Pow.TextCommandStatus";
-                case ioSystemGraphicsType.Puid_Pow_ButtTakeRequest: return "Pow.ButtTakeRequest";
-                case ioSystemGraphicsType.Puid_Pow_ButtRelease: return "Pow.ButtRelease";
                 case ioSystemGraphicsType.Puid_Pow_ButtDockIdle: return "Pow.ButtDockIdle";
                 case ioSystemGraphicsType.Puid_Pow_ButtDockConnectedShore: return "Pow.ButtDockConnectedShore";
                 case ioSystemGraphicsType.Puid_Pow_ButtDockNotConnected: return "Pow.ButtDockNotConnected";
                 case ioSystemGraphicsType.Puid_Pow_ButtInTransit: return "Pow.ButtInTransit";
                 case ioSystemGraphicsType.Puid_Pow_ButtInTransitEngine: return "Pow.ButtInTransitEngine";
                 case ioSystemGraphicsType.Puid_Pow_ButtInTransitSailing: return "Pow.ButtInTransitSailing";
+                case ioSystemGraphicsType.Puid_Pow_HeaderCommandPanel: return "Pow.HeaderCommandPanel";
+                case ioSystemGraphicsType.Puid_Pow_ShapeCommandStatus: return "Pow.ShapeCommandStatus";
+                case ioSystemGraphicsType.Puid_Pow_LabelCommandStatus: return "Pow.LabelCommandStatus";
+                case ioSystemGraphicsType.Puid_Pow_TextCommandStatus: return "Pow.TextCommandStatus";
+                case ioSystemGraphicsType.Puid_Pow_ButtTakeRequest: return "Pow.ButtTakeRequest";
+                case ioSystemGraphicsType.Puid_Pow_ButtRelease: return "Pow.ButtRelease";
                 case ioSystemGraphicsType.Puid_Pow_GridPowCommand: return "Pow.GridPowCommand";
                 case ioSystemGraphicsType.Puid_Pow_GridPowModes: return "Pow.GridPowModes";
+                case ioSystemGraphicsType.Puid_Pow_PowPanelRow1: return "Pow.PowPanelRow1";
+                case ioSystemGraphicsType.Puid_Pow_PowPanelCol1: return "Pow.PowPanelCol1";
                 case ioSystemGraphicsType.Puid_Pow_Out12M_GridCh1: return "Pow.Out12M.GridCh1";
                 case ioSystemGraphicsType.Puid_Pow_Out12M_ButtOffCh1: return "Pow.Out12M.ButtOffCh1";
                 case ioSystemGraphicsType.Puid_Pow_Out12M_ButtOnCh1: return "Pow.Out12M.ButtOnCh1";
@@ -1013,6 +1038,31 @@ namespace ioSystemNetworkNet
                 case ioSystemGraphicsType.Puid_Pow_Row2_IconRightFwd: return "Pow.Row2.IconRightFwd";
                 case ioSystemGraphicsType.Puid_Pow_Row2_PowPanelCol1: return "Pow.Row2.PowPanelCol1";
                 case ioSystemGraphicsType.Puid_Pow_Row2_PowPanelCol2: return "Pow.Row2.PowPanelCol2";
+                case ioSystemGraphicsType.Puid_Pow_CpM_HeaderCommandPanel: return "Pow.CpM.HeaderCommandPanel";
+                case ioSystemGraphicsType.Puid_Pow_CpM_ShapeCommandStatus: return "Pow.CpM.ShapeCommandStatus";
+                case ioSystemGraphicsType.Puid_Pow_CpM_LabelCommandStatus: return "Pow.CpM.LabelCommandStatus";
+                case ioSystemGraphicsType.Puid_Pow_CpM_TextCommandStatus: return "Pow.CpM.TextCommandStatus";
+                case ioSystemGraphicsType.Puid_Pow_CpM_ButtTakeRequest: return "Pow.CpM.ButtTakeRequest";
+                case ioSystemGraphicsType.Puid_Pow_CpM_ButtRelease: return "Pow.CpM.ButtRelease";
+                case ioSystemGraphicsType.Puid_Pow_CpA_HeaderCommandPanel: return "Pow.CpA.HeaderCommandPanel";
+                case ioSystemGraphicsType.Puid_Pow_CpA_ShapeCommandStatus: return "Pow.CpA.ShapeCommandStatus";
+                case ioSystemGraphicsType.Puid_Pow_CpA_LabelCommandStatus: return "Pow.CpA.LabelCommandStatus";
+                case ioSystemGraphicsType.Puid_Pow_CpA_TextCommandStatus: return "Pow.CpA.TextCommandStatus";
+                case ioSystemGraphicsType.Puid_Pow_CpA_ButtTakeRequest: return "Pow.CpA.ButtTakeRequest";
+                case ioSystemGraphicsType.Puid_Pow_CpA_ButtRelease: return "Pow.CpA.ButtRelease";
+                case ioSystemGraphicsType.Puid_Pow_CpM_ButtDockIdle: return "Pow.CpM.ButtDockIdle";
+                case ioSystemGraphicsType.Puid_Pow_CpM_ButtDockConnectedShore: return "Pow.CpM.ButtDockConnectedShore";
+                case ioSystemGraphicsType.Puid_Pow_CpM_ButtDockNotConnected: return "Pow.CpM.ButtDockNotConnected";
+                case ioSystemGraphicsType.Puid_Pow_CpM_ButtInTransit: return "Pow.CpM.ButtInTransit";
+                case ioSystemGraphicsType.Puid_Pow_CpM_ButtInTransitEngine: return "Pow.CpM.ButtInTransitEngine";
+                case ioSystemGraphicsType.Puid_Pow_CpM_ButtInTransitSailing: return "Pow.CpM.ButtInTransitSailing";
+                case ioSystemGraphicsType.Puid_Pow_CpA_ButtInTransit: return "Pow.CpA.ButtInTransit";
+                case ioSystemGraphicsType.Puid_Pow_CpA_ButtInTransitEngine: return "Pow.CpA.ButtInTransitEngine";
+                case ioSystemGraphicsType.Puid_Pow_CpA_ButtInTransitSailing: return "Pow.CpA.ButtInTransitSailing";
+                case ioSystemGraphicsType.Puid_Pow_CpM_CommandNoRef: return "Pow.CpM.CommandNoRef";
+                case ioSystemGraphicsType.Puid_Pow_CpM_ModeNoRef: return "Pow.CpM.ModeNoRef";
+                case ioSystemGraphicsType.Puid_Pow_CpA_CommandNoRef: return "Pow.CpA.CommandNoRef";
+                case ioSystemGraphicsType.Puid_Pow_CpA_ModeNoRef: return "Pow.CpA.ModeNoRef";
                 case ioSystemGraphicsType.Puid_Steer_GridCommandCpM: return "Steer.GridCommandCpM";
                 case ioSystemGraphicsType.Puid_Steer_GridModeCpM: return "Steer.GridModeCpM";
                 case ioSystemGraphicsType.Puid_Steer_GridSetRefCpM: return "Steer.GridSetRefCpM";
@@ -1168,22 +1218,22 @@ namespace ioSystemNetworkNet
                 case "Ids.CcA.ShapeEthernet": return ioSystemGraphicsType.Puid_Ids_CcA_ShapeEthernet;
                 case "Ids.CcA.ShapeIO": return ioSystemGraphicsType.Puid_Ids_CcA_ShapeIO;
                 case "Ids.CcA.ShapeInCommand": return ioSystemGraphicsType.Puid_Ids_CcA_ShapeInCommand;
-                case "Pow.PowPanelRow1": return ioSystemGraphicsType.Puid_Pow_PowPanelRow1;
-                case "Pow.PowPanelCol1": return ioSystemGraphicsType.Puid_Pow_PowPanelCol1;
-                case "Pow.HeaderCommandPanel": return ioSystemGraphicsType.Puid_Pow_HeaderCommandPanel;
-                case "Pow.ShapeCommandStatus": return ioSystemGraphicsType.Puid_Pow_ShapeCommandStatus;
-                case "Pow.LabelCommandStatus": return ioSystemGraphicsType.Puid_Pow_LabelCommandStatus;
-                case "Pow.TextCommandStatus": return ioSystemGraphicsType.Puid_Pow_TextCommandStatus;
-                case "Pow.ButtTakeRequest": return ioSystemGraphicsType.Puid_Pow_ButtTakeRequest;
-                case "Pow.ButtRelease": return ioSystemGraphicsType.Puid_Pow_ButtRelease;
                 case "Pow.ButtDockIdle": return ioSystemGraphicsType.Puid_Pow_ButtDockIdle;
                 case "Pow.ButtDockConnectedShore": return ioSystemGraphicsType.Puid_Pow_ButtDockConnectedShore;
                 case "Pow.ButtDockNotConnected": return ioSystemGraphicsType.Puid_Pow_ButtDockNotConnected;
                 case "Pow.ButtInTransit": return ioSystemGraphicsType.Puid_Pow_ButtInTransit;
                 case "Pow.ButtInTransitEngine": return ioSystemGraphicsType.Puid_Pow_ButtInTransitEngine;
                 case "Pow.ButtInTransitSailing": return ioSystemGraphicsType.Puid_Pow_ButtInTransitSailing;
+                case "Pow.HeaderCommandPanel": return ioSystemGraphicsType.Puid_Pow_HeaderCommandPanel;
+                case "Pow.ShapeCommandStatus": return ioSystemGraphicsType.Puid_Pow_ShapeCommandStatus;
+                case "Pow.LabelCommandStatus": return ioSystemGraphicsType.Puid_Pow_LabelCommandStatus;
+                case "Pow.TextCommandStatus": return ioSystemGraphicsType.Puid_Pow_TextCommandStatus;
+                case "Pow.ButtTakeRequest": return ioSystemGraphicsType.Puid_Pow_ButtTakeRequest;
+                case "Pow.ButtRelease": return ioSystemGraphicsType.Puid_Pow_ButtRelease;
                 case "Pow.GridPowCommand": return ioSystemGraphicsType.Puid_Pow_GridPowCommand;
                 case "Pow.GridPowModes": return ioSystemGraphicsType.Puid_Pow_GridPowModes;
+                case "Pow.PowPanelRow1": return ioSystemGraphicsType.Puid_Pow_PowPanelRow1;
+                case "Pow.PowPanelCol1": return ioSystemGraphicsType.Puid_Pow_PowPanelCol1;
                 case "Pow.Out12M.GridCh1": return ioSystemGraphicsType.Puid_Pow_Out12M_GridCh1;
                 case "Pow.Out12M.ButtOffCh1": return ioSystemGraphicsType.Puid_Pow_Out12M_ButtOffCh1;
                 case "Pow.Out12M.ButtOnCh1": return ioSystemGraphicsType.Puid_Pow_Out12M_ButtOnCh1;
@@ -1568,6 +1618,31 @@ namespace ioSystemNetworkNet
                 case "Pow.Row2.IconRightFwd": return ioSystemGraphicsType.Puid_Pow_Row2_IconRightFwd;
                 case "Pow.Row2.PowPanelCol1": return ioSystemGraphicsType.Puid_Pow_Row2_PowPanelCol1;
                 case "Pow.Row2.PowPanelCol2": return ioSystemGraphicsType.Puid_Pow_Row2_PowPanelCol2;
+                case "Pow.CpM.HeaderCommandPanel": return ioSystemGraphicsType.Puid_Pow_CpM_HeaderCommandPanel;
+                case "Pow.CpM.ShapeCommandStatus": return ioSystemGraphicsType.Puid_Pow_CpM_ShapeCommandStatus;
+                case "Pow.CpM.LabelCommandStatus": return ioSystemGraphicsType.Puid_Pow_CpM_LabelCommandStatus;
+                case "Pow.CpM.TextCommandStatus": return ioSystemGraphicsType.Puid_Pow_CpM_TextCommandStatus;
+                case "Pow.CpM.ButtTakeRequest": return ioSystemGraphicsType.Puid_Pow_CpM_ButtTakeRequest;
+                case "Pow.CpM.ButtRelease": return ioSystemGraphicsType.Puid_Pow_CpM_ButtRelease;
+                case "Pow.CpA.HeaderCommandPanel": return ioSystemGraphicsType.Puid_Pow_CpA_HeaderCommandPanel;
+                case "Pow.CpA.ShapeCommandStatus": return ioSystemGraphicsType.Puid_Pow_CpA_ShapeCommandStatus;
+                case "Pow.CpA.LabelCommandStatus": return ioSystemGraphicsType.Puid_Pow_CpA_LabelCommandStatus;
+                case "Pow.CpA.TextCommandStatus": return ioSystemGraphicsType.Puid_Pow_CpA_TextCommandStatus;
+                case "Pow.CpA.ButtTakeRequest": return ioSystemGraphicsType.Puid_Pow_CpA_ButtTakeRequest;
+                case "Pow.CpA.ButtRelease": return ioSystemGraphicsType.Puid_Pow_CpA_ButtRelease;
+                case "Pow.CpM.ButtDockIdle": return ioSystemGraphicsType.Puid_Pow_CpM_ButtDockIdle;
+                case "Pow.CpM.ButtDockConnectedShore": return ioSystemGraphicsType.Puid_Pow_CpM_ButtDockConnectedShore;
+                case "Pow.CpM.ButtDockNotConnected": return ioSystemGraphicsType.Puid_Pow_CpM_ButtDockNotConnected;
+                case "Pow.CpM.ButtInTransit": return ioSystemGraphicsType.Puid_Pow_CpM_ButtInTransit;
+                case "Pow.CpM.ButtInTransitEngine": return ioSystemGraphicsType.Puid_Pow_CpM_ButtInTransitEngine;
+                case "Pow.CpM.ButtInTransitSailing": return ioSystemGraphicsType.Puid_Pow_CpM_ButtInTransitSailing;
+                case "Pow.CpA.ButtInTransit": return ioSystemGraphicsType.Puid_Pow_CpA_ButtInTransit;
+                case "Pow.CpA.ButtInTransitEngine": return ioSystemGraphicsType.Puid_Pow_CpA_ButtInTransitEngine;
+                case "Pow.CpA.ButtInTransitSailing": return ioSystemGraphicsType.Puid_Pow_CpA_ButtInTransitSailing;
+                case "Pow.CpM.CommandNoRef": return ioSystemGraphicsType.Puid_Pow_CpM_CommandNoRef;
+                case "Pow.CpM.ModeNoRef": return ioSystemGraphicsType.Puid_Pow_CpM_ModeNoRef;
+                case "Pow.CpA.CommandNoRef": return ioSystemGraphicsType.Puid_Pow_CpA_CommandNoRef;
+                case "Pow.CpA.ModeNoRef": return ioSystemGraphicsType.Puid_Pow_CpA_ModeNoRef;
                 case "Steer.GridCommandCpM": return ioSystemGraphicsType.Puid_Steer_GridCommandCpM;
                 case "Steer.GridModeCpM": return ioSystemGraphicsType.Puid_Steer_GridModeCpM;
                 case "Steer.GridSetRefCpM": return ioSystemGraphicsType.Puid_Steer_GridSetRefCpM;
@@ -1668,7 +1743,7 @@ namespace ioSystemNetworkNet
         }
         public static ioSystemGraphicsType GetPuid(Int32 puidValue)
         {
-            if ((puidValue >= 0) && (puidValue < 549))
+            if ((puidValue >= 0) && (puidValue < 574))
                 return (ioSystemGraphicsType)puidValue;
             else
                 return ioSystemGraphicsType.Puid_NotDefined;
