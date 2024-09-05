@@ -14,7 +14,7 @@ Int32 ioSystemGraphics::GetGraphicsID(ioSystemGraphicsType puid)
 }
 ioSystemGraphicsType ioSystemGraphics::GetGraphicsType(Int32 puidValue)
 {
-    if ((puidValue >= 0) && (puidValue < 574))
+    if ((puidValue >= 0) && (puidValue < 787))
         return (ioSystemGraphicsType)puidValue;
     else
         return Puid_NotDefined;

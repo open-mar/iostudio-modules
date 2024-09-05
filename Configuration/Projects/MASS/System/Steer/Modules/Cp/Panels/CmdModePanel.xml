@@ -5,7 +5,7 @@
         <RowDefinition />
         <ColumnDefinition />
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
-            <ioPanelGrid LocalID="CommandNoRef" VerticalAlignment="Top" Height="140" PanelGlobalID="Steer.CpM.CommandPanel" />
+            <ioPanelGrid LocalID="CommandNoRef" VerticalAlignment="Top" Height="140" PanelGlobalID="Steer.CpM.CmdPanelSteer" />
             <ioPanelGrid LocalID="ModeNoRef" VerticalAlignment="Top" Height="120" PanelGlobalID="Steer.CpM.ModePanel" />
         </Grid>
     </PanelObject>
@@ -13,7 +13,7 @@
         <RowDefinition />
         <ColumnDefinition />
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
-            <ioPanelGrid LocalID="CommandNoRef" VerticalAlignment="Top" Height="140" PanelGlobalID="Steer.CpA.CommandPanel" />
+            <ioPanelGrid LocalID="CommandNoRef" VerticalAlignment="Top" Height="140" PanelGlobalID="Steer.CpA.CmdPanelSteer" />
             <ioPanelGrid LocalID="ModeNoRef" VerticalAlignment="Top" Height="120" PanelGlobalID="Steer.CpA.ModePanel" />
         </Grid>
     </PanelObject>

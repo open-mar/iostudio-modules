@@ -13,5 +13,37 @@
             <Item NameClass="PowOutDataOut220F" NameObject="PortOut220F" />
             <Item NameClass="PowOutDataOut220A" NameObject="PortOut220A" />
         </DataListProgram>
+        <DataListProgram Name="Pow::Cp::PowCpData" NameObject="DataCp">
+            <Item NameClass="PowCpDataCpM" NameObject="DataCpCpM" />
+            <Item NameClass="PowCpDataCpA" NameObject="DataCpCpA" />
+        </DataListProgram>
     </DataItemsCollection>
+    <InternalFunctions>
+        <Function Name="OnRecvTakeCommandPow">
+            <Inputs>
+                <Argument Name="sender" TypeNum="Int32" TypeEnumeration="StationTypePow" />
+            </Inputs>
+            <Outputs />
+        </Function>
+    </InternalFunctions>
+    <Sequences>
+        <RxTxData NameClass="PowCpDataCpA" GlobalID="Pow.CpA.TakeCommandPow">
+            <Function TypeFunction="Internal">
+                <Call Name="OnRecvTakeCommandPow">
+                    <Input Name="sender">1</Input>
+                </Call>
+            </Function>
+            <RxTxData NameClass="PowCpDataCpA" GlobalID="Pow.CpA.OnChangeCommandPow" PortGlobalID="NetEthernet.192.168.10.Ids.OpA.13" />
+            <RxTxData NameClass="PowCpDataCpM" GlobalID="Pow.CpM.OnChangeCommandPow" PortGlobalID="NetEthernet.192.168.10.Ids.OpM.12" />
+        </RxTxData>
+        <RxTxData NameClass="PowCpDataCpM" GlobalID="Pow.CpM.TakeCommandPow">
+            <Function TypeFunction="Internal">
+                <Call Name="OnRecvTakeCommandPow">
+                    <Input Name="sender">0</Input>
+                </Call>
+            </Function>
+            <RxTxData NameClass="PowCpDataCpA" GlobalID="Pow.CpA.OnChangeCommandPow" PortGlobalID="NetEthernet.192.168.10.Ids.OpA.13" />
+            <RxTxData NameClass="PowCpDataCpM" GlobalID="Pow.CpM.OnChangeCommandPow" PortGlobalID="NetEthernet.192.168.10.Ids.OpM.12" />
+        </RxTxData>
+    </Sequences>
 </ProgramClass>

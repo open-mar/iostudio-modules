@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DataProperties Version="1.0.0.1">
     <Properties>
-        <Enumeration LocalID="TypeRawDataType">
-            <Type Name="INT" TypeID="0"/>
-            <Type Name="UINT" TypeID="1"/>
-            <Type Name="DINT" TypeID="2"/>
-            <Type Name="UDINT" TypeID="3"/>
-            <Type Name="REAL" TypeID="4"/>
-            <Type Name="LREAL" TypeID="5"/>
-        </Enumeration>
         <Enumeration LocalID="TypeUnit">
             <Type Name="m/s" TypeID="0"/>
             <Type Name="kt" TypeID="1"/>
@@ -16,6 +8,13 @@
             <Type Name="nm" TypeID="3"/>
             <Type Name="m" TypeID="4"/>
             <Type Name="°C" TypeID="5"/>
+        </Enumeration>
+        <Enumeration LocalID="StationModeType">
+            <Type Name="No command" TypeID="0" />
+            <Type Name="Taken" TypeID="1" />
+            <Type Name="Remote control" TypeID="2" />
+            <Type Name="Taken and locked" TypeID="3" />
+            <Type Name="Take over request" TypeID="4" />
         </Enumeration>
     </Properties>
 </DataProperties>

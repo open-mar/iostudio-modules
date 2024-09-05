@@ -5,7 +5,7 @@
         <RowDefinition />
         <ColumnDefinition />
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
-            <ioPanelGrid LocalID="Command" VerticalAlignment="Top" Height="140" PanelGlobalID="Steer.CpM.CommandPanel" />
+            <ioPanelGrid LocalID="Command" VerticalAlignment="Top" Height="140" PanelGlobalID="Steer.CpM.CmdPanelSteer" />
             <ioPanelGrid LocalID="Mode" VerticalAlignment="Top" Height="120" PanelGlobalID="Steer.CpM.ModePanel" />
             <ioPanelGrid LocalID="Reference" VerticalAlignment="Top" Height="140" PanelGlobalID="Steer.CpM.SetRefPanel" />
         </Grid>
@@ -14,7 +14,7 @@
         <RowDefinition />
         <ColumnDefinition />
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
-            <ioPanelGrid LocalID="Command" VerticalAlignment="Top" Height="140" PanelGlobalID="Steer.CpA.CommandPanel" />
+            <ioPanelGrid LocalID="Command" VerticalAlignment="Top" Height="140" PanelGlobalID="Steer.CpA.CmdPanelSteer" />
             <ioPanelGrid LocalID="Mode" VerticalAlignment="Top" Height="120" PanelGlobalID="Steer.CpA.ModePanel" />
             <ioPanelGrid LocalID="Reference" VerticalAlignment="Top" Height="140" PanelGlobalID="Steer.CpA.SetRefPanel" />
         </Grid>

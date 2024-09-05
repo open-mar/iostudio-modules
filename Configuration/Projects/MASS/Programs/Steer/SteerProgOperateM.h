@@ -4,8 +4,8 @@
 #include "ioSystem/Program/Core/ioProgram.h"
 #include "Programs/Steer/Cp/SteerCpDataCpM.h"
 #include "Programs/Steer/Ap/SteerApDataApM.h"
+#include "Programs/Steer/Cp/CmdPanelSteerCpM.h"
 #include "Programs/Steer/Ap/SteerApPanelApM.h"
-#include "Programs/Steer/Cp/CommandPanelCpM.h"
 #include "Programs/Steer/Cp/ModePanelCpM.h"
 #include "Programs/Steer/Cp/SetRefPanelCpM.h"
 class SteerProgOperateM : public ioProgram
@@ -19,8 +19,8 @@ public:
     virtual void ReceiveData(ioDataCollection* listData, ioData* data);
     SteerCpDataCpM DataCpM;
     SteerApDataApM DataApM;
+    CmdPanelSteerCpM CommandCpM;
     SteerApPanelApM AutopilotApM;
-    CommandPanelCpM CommandCpM;
     ModePanelCpM ModeCpM;
     SetRefPanelCpM ReferenceCpM;
 };

@@ -14,9 +14,8 @@ public:
     virtual void InitializeTask(void);
     virtual void Run(Int32 activeSlot);
     virtual void ReceiveData(ioDataCollection* listData, ioData* data);
+    virtual void OnRecvTakeCommandSteer(ioVarInt32* sender);
     virtual void OnRecvRequestSteerData(ioVarInt32* sender);
-    virtual void OnRecvTakeCommand(ioVarInt32* sender);
-    virtual void OnRecvRelease(ioVarInt32* sender);
     virtual void OnRecvSteerMode(ioVarInt32* sender, ioVarInt32* steerMode);
     SteerApDataApM DataApM;
     SteerApDataApA DataApA;

@@ -10,11 +10,11 @@ IdsProgOperateA::IdsProgOperateA()
 IdsProgOperateA::~IdsProgOperateA()
 {
 }
+void IdsProgOperateA::InitializeTask(void)
+{
+    ioProgram::InitializeTask();
+}
 void IdsProgOperateA::Run(Int32 activeSlot)
 {
     if (activeSlot == 0) {}
-    RunOperateA();
-}
-void IdsProgOperateA::RunOperateA(void)
-{
 }

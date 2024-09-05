@@ -32,6 +32,9 @@
     <Filter Include="Programs\Ids">
       <UniqueIdentifier>{0dd437b4-5b68-4241-ae18-03ce868a35e5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Programs\Pow\Cp">
+      <UniqueIdentifier>{a1eeb0ae-5e07-43b4-9f80-dfaaa2e2a29b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Programs\Batt\Dc\BattDcData.h">
@@ -127,9 +130,6 @@
     <ClInclude Include="..\..\Programs\ioSystemData.h">
       <Filter>Programs</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Programs\Pow\PowProgOperate.h">
-      <Filter>Programs\Pow</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\Programs\Pow\PowProgControl.h">
       <Filter>Programs\Pow</Filter>
     </ClInclude>
@@ -171,15 +171,6 @@
     </ClInclude>
     <ClInclude Include="..\..\Programs\Steer\Ap\SteerApPanelApM.h">
       <Filter>Programs\Steer\Ap</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Programs\Steer\Cp\CommandPanel.h">
-      <Filter>Programs\Steer\Cp</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Programs\Steer\Cp\CommandPanelCpA.h">
-      <Filter>Programs\Steer\Cp</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Programs\Steer\Cp\CommandPanelCpM.h">
-      <Filter>Programs\Steer\Cp</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Programs\Steer\Cp\ModePanel.h">
       <Filter>Programs\Steer\Cp</Filter>
@@ -227,6 +218,48 @@
       <Filter>Programs\Steer\Cp</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Programs\Steer\Cp\CmdModeRefPanelCpM.h">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Pow\PowProgOperateA.h">
+      <Filter>Programs\Pow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Pow\PowProgOperateM.h">
+      <Filter>Programs\Pow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Pow\Cp\PowCpData.h">
+      <Filter>Programs\Pow\Cp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Pow\Cp\PowCpDataCpA.h">
+      <Filter>Programs\Pow\Cp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Pow\Cp\PowCpDataCpM.h">
+      <Filter>Programs\Pow\Cp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Pow\Cp\PowModePanel.h">
+      <Filter>Programs\Pow\Cp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Pow\Cp\PowModePanelCpA.h">
+      <Filter>Programs\Pow\Cp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Pow\Cp\PowModePanelCpM.h">
+      <Filter>Programs\Pow\Cp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Pow\Cp\PowCommandPanel.h">
+      <Filter>Programs\Pow\Cp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Pow\Cp\PowCommandPanelCpA.h">
+      <Filter>Programs\Pow\Cp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Pow\Cp\PowCommandPanelCpM.h">
+      <Filter>Programs\Pow\Cp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Steer\Cp\CmdPanelSteer.h">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Steer\Cp\CmdPanelSteerCpA.h">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Steer\Cp\CmdPanelSteerCpM.h">
       <Filter>Programs\Steer\Cp</Filter>
     </ClInclude>
   </ItemGroup>
@@ -330,9 +363,6 @@
     <ClCompile Include="..\..\Programs\ioSystemData.cpp">
       <Filter>Programs</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Programs\Pow\PowProgOperate.cpp">
-      <Filter>Programs\Pow</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Programs\Pow\PowProgControl.cpp">
       <Filter>Programs\Pow</Filter>
     </ClCompile>
@@ -368,15 +398,6 @@
     </ClCompile>
     <ClCompile Include="..\..\Programs\Steer\Ap\SteerApPanelApM.cpp">
       <Filter>Programs\Steer\Ap</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Programs\Steer\Cp\CommandPanel.cpp">
-      <Filter>Programs\Steer\Cp</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Programs\Steer\Cp\CommandPanelCpA.cpp">
-      <Filter>Programs\Steer\Cp</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Programs\Steer\Cp\CommandPanelCpM.cpp">
-      <Filter>Programs\Steer\Cp</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Programs\Steer\Cp\ModePanel.cpp">
       <Filter>Programs\Steer\Cp</Filter>
@@ -424,6 +445,48 @@
       <Filter>Programs\Steer\Cp</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Programs\Steer\Cp\CmdModeRefPanelCpM.cpp">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Pow\PowProgOperateA.cpp">
+      <Filter>Programs\Pow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Pow\PowProgOperateM.cpp">
+      <Filter>Programs\Pow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Pow\Cp\PowCpData.cpp">
+      <Filter>Programs\Pow\Cp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Pow\Cp\PowCpDataCpA.cpp">
+      <Filter>Programs\Pow\Cp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Pow\Cp\PowCpDataCpM.cpp">
+      <Filter>Programs\Pow\Cp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Pow\Cp\PowModePanel.cpp">
+      <Filter>Programs\Pow\Cp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Pow\Cp\PowModePanelCpA.cpp">
+      <Filter>Programs\Pow\Cp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Pow\Cp\PowModePanelCpM.cpp">
+      <Filter>Programs\Pow\Cp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Pow\Cp\PowCommandPanel.cpp">
+      <Filter>Programs\Pow\Cp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Pow\Cp\PowCommandPanelCpA.cpp">
+      <Filter>Programs\Pow\Cp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Pow\Cp\PowCommandPanelCpM.cpp">
+      <Filter>Programs\Pow\Cp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Steer\Cp\CmdPanelSteer.cpp">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Steer\Cp\CmdPanelSteerCpA.cpp">
+      <Filter>Programs\Steer\Cp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Steer\Cp\CmdPanelSteerCpM.cpp">
       <Filter>Programs\Steer\Cp</Filter>
     </ClCompile>
   </ItemGroup>

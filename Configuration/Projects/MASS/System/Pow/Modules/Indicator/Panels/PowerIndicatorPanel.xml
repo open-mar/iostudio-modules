@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PanelClass Name="PowerIndicatorPanel">
+    <Description>Panels for indication of power distribution</Description>
+    <PanelObject ParentGlobalID="Pow.Out12V" Background="ContainerBackground">
+        <RowDefinition />
+        <ColumnDefinition />
+        <ColumnDefinition />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1">
+            <ioPanelGrid LocalID="GridAftPowOutput" PanelGlobalID="Pow.Out12A.PowIndicatorPanel" />
+        </Grid>
+        <Grid Row="1" Column="2">
+            <ioPanelGrid LocalID="GridMidPowOutput" PanelGlobalID="Pow.Out12M.PowIndicatorPanel" />
+        </Grid>
+        <Grid Row="1" Column="3">
+            <ioPanelGrid LocalID="GridFwdPowOutput" PanelGlobalID="Pow.Out12F.PowIndicatorPanel" />
+        </Grid>
+    </PanelObject>
+    <PanelObject ParentGlobalID="Pow.Out24V" Background="ContainerBackground">
+        <RowDefinition />
+        <ColumnDefinition />
+        <ColumnDefinition />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1">
+            <ioPanelGrid LocalID="GridAftPowOutput" PanelGlobalID="Pow.Out24A.PowIndicatorPanel" />
+        </Grid>
+        <Grid Row="1" Column="2">
+            <ioPanelGrid LocalID="GridMidPowOutput" PanelGlobalID="Pow.Out24M.PowIndicatorPanel" />
+        </Grid>
+        <Grid Row="1" Column="3">
+            <ioPanelGrid LocalID="GridFwdPowOutput" PanelGlobalID="Pow.Out24F.PowIndicatorPanel" />
+        </Grid>
+    </PanelObject>
+    <PanelObject ParentGlobalID="Pow.Out220V" Background="ContainerBackground">
+        <RowDefinition />
+        <ColumnDefinition />
+        <ColumnDefinition />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1">
+            <ioPanelGrid LocalID="GridAftPowOutput" PanelGlobalID="Pow.Out220A.PowIndicatorPanel" />
+        </Grid>
+        <Grid Row="1" Column="2">
+            <ioPanelGrid LocalID="GridMidPowOutput" PanelGlobalID="Pow.Out220M.PowIndicatorPanel" />
+        </Grid>
+        <Grid Row="1" Column="3">
+            <ioPanelGrid LocalID="GridFwdPowOutput" PanelGlobalID="Pow.Out220F.PowIndicatorPanel" />
+        </Grid>
+    </PanelObject>
+</PanelClass>

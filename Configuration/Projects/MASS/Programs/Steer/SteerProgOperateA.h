@@ -4,10 +4,10 @@
 #include "ioSystem/Program/Core/ioProgram.h"
 #include "Programs/Steer/Cp/SteerCpDataCpA.h"
 #include "Programs/Steer/Ap/SteerApDataApA.h"
-#include "Programs/Steer/Ap/SteerApPanelApA.h"
-#include "Programs/Steer/Cp/CommandPanelCpA.h"
+#include "Programs/Steer/Cp/CmdPanelSteerCpA.h"
 #include "Programs/Steer/Cp/ModePanelCpA.h"
 #include "Programs/Steer/Cp/SetRefPanelCpA.h"
+#include "Programs/Steer/Ap/SteerApPanelApA.h"
 class SteerProgOperateA : public ioProgram
 {
 public:
@@ -19,9 +19,9 @@ public:
     virtual void ReceiveData(ioDataCollection* listData, ioData* data);
     SteerCpDataCpA DataCpA;
     SteerApDataApA DataApA;
-    SteerApPanelApA AutopilotApA;
-    CommandPanelCpA CommandCpA;
+    CmdPanelSteerCpA CommandCpA;
     ModePanelCpA ModeCpA;
     SetRefPanelCpA ReferenceCpA;
+    SteerApPanelApA AutopilotApA;
 };
 #endif // __STEERPROGOPERATEA_H

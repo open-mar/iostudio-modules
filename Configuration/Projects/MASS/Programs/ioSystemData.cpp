@@ -2,6 +2,47 @@
 #include "pch.h"
 #pragma hdrstop
 #include "ioSystemData.h"
+TypeUnit::TypeUnit()
+{
+}
+TypeUnit::~TypeUnit()
+{
+}
+Bool TypeUnit::GetActiveText(ioString* enumText)
+{
+    if (enumText == NULL) return FALSE;
+    Int32 activeID = GetValueSigned();
+    switch (activeID)
+    {
+    case 0: enumText->Set((ioChars)"m/s"); return TRUE;
+    case 1: enumText->Set((ioChars)"kt"); return TRUE;
+    case 2: enumText->Set((ioChars)"kg"); return TRUE;
+    case 3: enumText->Set((ioChars)"nm"); return TRUE;
+    case 4: enumText->Set((ioChars)"m"); return TRUE;
+    case 5: enumText->Set((ioChars)"°C"); return TRUE;
+    default: enumText->Set((ioChars)"NotDefined");  return FALSE;
+    } // switch
+}
+StationModeType::StationModeType()
+{
+}
+StationModeType::~StationModeType()
+{
+}
+Bool StationModeType::GetActiveText(ioString* enumText)
+{
+    if (enumText == NULL) return FALSE;
+    Int32 activeID = GetValueSigned();
+    switch (activeID)
+    {
+    case 0: enumText->Set((ioChars)"No command"); return TRUE;
+    case 1: enumText->Set((ioChars)"Taken"); return TRUE;
+    case 2: enumText->Set((ioChars)"Remote control"); return TRUE;
+    case 3: enumText->Set((ioChars)"Taken and locked"); return TRUE;
+    case 4: enumText->Set((ioChars)"Take over request"); return TRUE;
+    default: enumText->Set((ioChars)"NotDefined");  return FALSE;
+    } // switch
+}
 ioSystemData::ioSystemData()
 {
 }
@@ -14,7 +55,7 @@ Int32 ioSystemData::GetDataID(ioSystemDataType duid)
 }
 ioSystemDataType ioSystemData::GetDataType(Int32 duidValue)
 {
-    if ((duidValue >= 0) && (duidValue < 324))
+    if ((duidValue >= 0) && (duidValue < 350))
         return (ioSystemDataType)duidValue;
     else
         return Duid_NotDefined;

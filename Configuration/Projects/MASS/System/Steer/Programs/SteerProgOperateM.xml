@@ -10,11 +10,11 @@
         </DataListProgram>
     </DataItemsCollection>
     <PanelsCollection>
+        <PanelInProgram Name="Steer::Cp::CmdPanelSteer" NameObject="Command">
+            <Item NameClass="CmdPanelSteerCpM" NameObject="CommandCpM" />
+        </PanelInProgram>
         <PanelInProgram Name="Steer::Ap::SteerApPanel" NameObject="Autopilot">
             <Item NameClass="SteerApPanelApM" NameObject="AutopilotApM" />
-        </PanelInProgram>
-        <PanelInProgram Name="Steer::Cp::CommandPanel" NameObject="Command">
-            <Item NameClass="CommandPanelCpM" NameObject="CommandCpM" />
         </PanelInProgram>
         <PanelInProgram Name="Steer::Cp::ModePanel" NameObject="Mode">
             <Item NameClass="ModePanelCpM" NameObject="ModeCpM" />
@@ -25,20 +25,12 @@
     </PanelsCollection>
     <Sequences>
         <Run />
-        <GraphicsEvent NameClass="CommandPanelCpM" GlobalID="Steer.CpM.ButtTakeRequest.Clicked">
-            <RxTxData NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.TakeCommand" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        <GraphicsEvent NameClass="CmdPanelSteerCpM" GlobalID="Steer.CpM.ButtTakeRequestSteer.Clicked">
+            <RxTxData NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.TakeCommandSteer" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
         </GraphicsEvent>
-        <GraphicsEvent NameClass="CommandPanelCpM" GlobalID="Steer.CpM.ButtRelease.Clicked">
-            <RxTxData NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.Release" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
-        </GraphicsEvent>
-        <RxTxData NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.OnChangeCommand">
-            <GraphicsData NameClass="CommandPanelCpM" GlobalID="Steer.CpM.TextCommandStatus">
-                <DataAssigned NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.ActiveStation" />
-            </GraphicsData>
-        </RxTxData>
-        <RxTxData NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.OnChangeSteerMode">
-            <GraphicsData NameClass="CommandPanelCpM" GlobalID="Steer.CpM.LabelCommandStatus">
-                <DataAssigned NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.SteerMode" />
+        <RxTxData NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.OnChangeCommandSteer">
+            <GraphicsData NameClass="CmdPanelSteerCpM" GlobalID="Steer.CpM.TextCommandStatusSteer">
+                <DataAssigned NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.ActiveStationSteer" />
             </GraphicsData>
         </RxTxData>
         <RxTxData NameClass="SteerApDataApM" GlobalID="Steer.ApM.OnChangeRef">
@@ -58,5 +50,10 @@
         <GraphicsEvent NameClass="ModePanelCpM" GlobalID="Steer.CpM.ButtCourse.Clicked">
             <RxTxData NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.ModeAuto" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
         </GraphicsEvent>
+        <RxTxData NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.OnChangeSteerMode">
+            <GraphicsData NameClass="CmdPanelSteerCpM" GlobalID="Steer.CpM.LabelSteerMode">
+                <DataAssigned NameClass="SteerCpDataCpM" GlobalID="Steer.CpM.SteerMode" />
+            </GraphicsData>
+        </RxTxData>
     </Sequences>
 </ProgramClass>

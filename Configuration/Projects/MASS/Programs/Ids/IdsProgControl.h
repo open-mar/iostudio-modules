@@ -9,8 +9,8 @@ class IdsProgControl : public ioProgram
 public:
     IdsProgControl();
     virtual ~IdsProgControl();
+    virtual void InitializeTask(void);
     virtual void Run(Int32 activeSlot);
-    virtual void RunControl(void);
     ioPortProgramSystem PortSystem;
     ioPortProgramModbus PortModbus;
 };

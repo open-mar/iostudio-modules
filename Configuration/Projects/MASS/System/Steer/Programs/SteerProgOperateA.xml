@@ -10,11 +10,8 @@
         </DataListProgram>
     </DataItemsCollection>
     <PanelsCollection>
-        <PanelInProgram Name="Steer::Ap::SteerApPanel" NameObject="Autopilot">
-            <Item NameClass="SteerApPanelApA" NameObject="AutopilotApA" />
-        </PanelInProgram>
-        <PanelInProgram Name="Steer::Cp::CommandPanel" NameObject="Command">
-            <Item NameClass="CommandPanelCpA" NameObject="CommandCpA" />
+        <PanelInProgram Name="Steer::Cp::CmdPanelSteer" NameObject="Command">
+            <Item NameClass="CmdPanelSteerCpA" NameObject="CommandCpA" />
         </PanelInProgram>
         <PanelInProgram Name="Steer::Cp::ModePanel" NameObject="Mode">
             <Item NameClass="ModePanelCpA" NameObject="ModeCpA" />
@@ -22,22 +19,22 @@
         <PanelInProgram Name="Steer::Cp::SetRefPanel" NameObject="Reference">
             <Item NameClass="SetRefPanelCpA" NameObject="ReferenceCpA" />
         </PanelInProgram>
+        <PanelInProgram Name="Steer::Ap::SteerApPanel" NameObject="Autopilot">
+            <Item NameClass="SteerApPanelApA" NameObject="AutopilotApA" />
+        </PanelInProgram>
     </PanelsCollection>
     <Sequences>
         <Run />
-        <GraphicsEvent NameClass="CommandPanelCpA" GlobalID="Steer.CpA.ButtTakeRequest.Clicked">
-            <RxTxData NameClass="SteerCpDataCpA" GlobalID="Steer.CpA.TakeCommand" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        <GraphicsEvent NameClass="CmdPanelSteerCpA" GlobalID="Steer.CpA.ButtTakeRequestSteer.Clicked">
+            <RxTxData NameClass="SteerCpDataCpA" GlobalID="Steer.CpA.TakeCommandSteer" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
         </GraphicsEvent>
-        <GraphicsEvent NameClass="CommandPanelCpA" GlobalID="Steer.CpA.ButtRelease.Clicked">
-            <RxTxData NameClass="SteerCpDataCpA" GlobalID="Steer.CpA.Release" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
-        </GraphicsEvent>
-        <RxTxData NameClass="SteerCpDataCpA" GlobalID="Steer.CpA.OnChangeCommand">
-            <GraphicsData NameClass="CommandPanelCpA" GlobalID="Steer.CpA.TextCommandStatus">
-                <DataAssigned NameClass="SteerCpDataCpA" GlobalID="Steer.CpA.ActiveStation" />
+        <RxTxData NameClass="SteerCpDataCpA" GlobalID="Steer.CpA.OnChangeCommandSteer">
+            <GraphicsData NameClass="CmdPanelSteerCpA" GlobalID="Steer.CpA.TextCommandStatusSteer">
+                <DataAssigned NameClass="SteerCpDataCpA" GlobalID="Steer.CpA.ActiveStationSteer" />
             </GraphicsData>
         </RxTxData>
         <RxTxData NameClass="SteerCpDataCpA" GlobalID="Steer.CpA.OnChangeSteerMode">
-            <GraphicsData NameClass="CommandPanelCpA" GlobalID="Steer.CpA.LabelCommandStatus">
+            <GraphicsData NameClass="CmdPanelSteerCpA" GlobalID="Steer.CpA.LabelSteerMode">
                 <DataAssigned NameClass="SteerCpDataCpA" GlobalID="Steer.CpA.SteerMode" />
             </GraphicsData>
         </RxTxData>

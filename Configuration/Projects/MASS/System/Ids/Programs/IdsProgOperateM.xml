@@ -1,22 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ProgramClass Name="IdsProgOperateM">
-    <Description>Program 1 for operation of MASS system</Description>
+    <Description>Program for mid deckhouse operation of MASS system</Description>
     <PortsCollection>
         <PortProgram Name="ioSystem::Ports::System::ioPortProgramSystem" NameObject="PortSystem">
             <Item NameClass="ioPortProgramSystem" NameObject="PortSystem" />
         </PortProgram>
     </PortsCollection>
-    <InternalFunctions>
-        <Function Name="RunOperateM">
-            <Inputs />
-            <Outputs />
-        </Function>
-    </InternalFunctions>
     <Sequences>
-        <Run>
-            <Function TypeFunction="Internal">
-                <Call Name="RunOperateM" />
-            </Function>
-        </Run>
+        <Run />
     </Sequences>
 </ProgramClass>

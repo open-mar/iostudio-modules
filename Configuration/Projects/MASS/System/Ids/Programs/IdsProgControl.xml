@@ -9,17 +9,7 @@
             <Item NameClass="ioPortProgramModbus" NameObject="PortModbus" />
         </PortProgram>
     </PortsCollection>
-    <InternalFunctions>
-        <Function Name="RunControl">
-            <Inputs />
-            <Outputs />
-        </Function>
-    </InternalFunctions>
     <Sequences>
-        <Run>
-            <Function TypeFunction="Internal">
-                <Call Name="RunControl" />
-            </Function>
-        </Run>
+        <Run />
     </Sequences>
 </ProgramClass>

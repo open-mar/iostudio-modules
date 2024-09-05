@@ -13,54 +13,10 @@
             <ioPanelGrid LocalID="BattPanel24V" PanelGlobalID="Batt.Dc24.BattDcPanel" />
         </Grid>
         <Grid Row="2" Column="1" IsStacked="TRUE" Orientation="Vertical">
-            <ioLabel LocalID="LabelStatus">
-                <Properties Text="BATTERY STATUS" TypeLabel="Medium" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
-            </ioLabel>
-            <ioPanelGrid LocalID="GridSoc" Orientation="Horizontal">
-                <ioTextBlock LocalID="InstrSoc" HorizontalAlignment="Left" Width="230">
-                    <Properties Text="95.1" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="ExtraHuge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="Left" />
-                </ioTextBlock>
-                <ioLabel LocalID="LabelSoc" VerticalAlignment="Bottom" Height="24" Margin="8,0,0,9">
-                    <Properties Text="SOC [%]" TypeLabel="Medium" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
-                </ioLabel>
-            </ioPanelGrid>
-            <ioPanelGrid LocalID="GridTime" Orientation="Horizontal">
-                <ioTextBlock LocalID="InstrTime" HorizontalAlignment="Left" Width="230">
-                    <Properties Text="2d 13:45:32" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Large" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="Left" />
-                </ioTextBlock>
-                <ioLabel LocalID="LabelTime" VerticalAlignment="Bottom" Height="24" Margin="8,0,0,7">
-                    <Properties Text="Time to 10% SOC" TypeLabel="Medium" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
-                </ioLabel>
-            </ioPanelGrid>
+            <ioPanelGrid LocalID="BattStatusGrid" PanelGlobalID="Batt.BattStatusPanel" />
         </Grid>
         <Grid Row="2" Column="2" IsStacked="TRUE" Orientation="Vertical">
-            <ioLabel LocalID="LabelBattCharging">
-                <Properties Text="CHARGING" TypeLabel="Medium" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
-            </ioLabel>
-            <ioPanelGrid LocalID="GridChargerInput" Orientation="Horizontal">
-                <ioTextBlock LocalID="InstrChargeInputVolt" HorizontalAlignment="Left" Width="230">
-                    <Properties Text="220.1" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="ExtraHuge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="Left" />
-                </ioTextBlock>
-                <ioLabel LocalID="LabelChargeInputVolt" VerticalAlignment="Bottom" Height="32" Margin="8,0,0,9">
-                    <Properties Text="Input voltage [VAC]" TypeLabel="Medium" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
-                </ioLabel>
-            </ioPanelGrid>
-            <ioPanelGrid LocalID="GridChargeActive12V" HorizontalAlignment="Center" Width="200" Orientation="Horizontal">
-                <ioShape LocalID="ShapeActiveCharge12V">
-                    <Properties TypeShape="Automation" ShapeID="On" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertRunning" />
-                </ioShape>
-                <ioLabel LocalID="LabelActiveCharge12V" Margin="8,0,0,0">
-                    <Properties Text="12V charging is active" TypeLabel="Medium" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
-            </ioPanelGrid>
-            <ioPanelGrid LocalID="GridChargeActive24V" HorizontalAlignment="Center" Width="200" Margin="0,8,0,0" Orientation="Horizontal">
-                <ioShape LocalID="ShapeActiveCharge24V">
-                    <Properties TypeShape="Automation" ShapeID="On" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertRunning" />
-                </ioShape>
-                <ioLabel LocalID="LabelActiveCharge24V" Margin="8,0,0,0">
-                    <Properties Text="24V charging is active" TypeLabel="Medium" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
-            </ioPanelGrid>
+            <ioPanelGrid LocalID="BattChargingGrid" PanelGlobalID="Batt.BattChargingPanel" />
         </Grid>
     </PanelObject>
 </PanelClass>

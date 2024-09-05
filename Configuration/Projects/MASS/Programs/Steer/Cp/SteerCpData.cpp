@@ -23,40 +23,20 @@ Bool SteerModeType::GetActiveText(ioString* enumText)
     default: enumText->Set((ioChars)"NotDefined");  return FALSE;
     } // switch
 }
-ActiveStationType::ActiveStationType()
+SteerStationType::SteerStationType()
 {
 }
-ActiveStationType::~ActiveStationType()
+SteerStationType::~SteerStationType()
 {
 }
-Bool ActiveStationType::GetActiveText(ioString* enumText)
+Bool SteerStationType::GetActiveText(ioString* enumText)
 {
     if (enumText == NULL) return FALSE;
     Int32 activeID = GetValueSigned();
     switch (activeID)
     {
-    case 0: enumText->Set((ioChars)"CMD at Aft Cockpit"); return TRUE;
-    case 1: enumText->Set((ioChars)"CMD at Mid Deckhouse"); return TRUE;
-    default: enumText->Set((ioChars)"NotDefined");  return FALSE;
-    } // switch
-}
-StationModeType::StationModeType()
-{
-}
-StationModeType::~StationModeType()
-{
-}
-Bool StationModeType::GetActiveText(ioString* enumText)
-{
-    if (enumText == NULL) return FALSE;
-    Int32 activeID = GetValueSigned();
-    switch (activeID)
-    {
-    case 0: enumText->Set((ioChars)"No command"); return TRUE;
-    case 1: enumText->Set((ioChars)"Taken"); return TRUE;
-    case 2: enumText->Set((ioChars)"Remote control"); return TRUE;
-    case 3: enumText->Set((ioChars)"Taken and locked"); return TRUE;
-    case 4: enumText->Set((ioChars)"Take over request"); return TRUE;
+    case 0: enumText->Set((ioChars)"Steer at Mid Deckhouse"); return TRUE;
+    case 1: enumText->Set((ioChars)"Steer at Aft Cockpit"); return TRUE;
     default: enumText->Set((ioChars)"NotDefined");  return FALSE;
     } // switch
 }
@@ -70,9 +50,9 @@ void SteerCpData::InitializeData(void)
 {
     SetListData(m_ListData, 19);
     ResetItem();
-    OnChangeCommand.SetVariablesBuffer(m_OnChangeCommandVars, 2);
-    OnChangeCommand.AddVariable(&ActiveStation);
-    OnChangeCommand.AddVariable(&StationMode);
+    OnChangeCommandSteer.SetVariablesBuffer(m_OnChangeCommandSteerVars, 2);
+    OnChangeCommandSteer.AddVariable(&ActiveStationSteer);
+    OnChangeCommandSteer.AddVariable(&StationModeSteer);
     OnChangeSteerMode.SetVariablesBuffer(m_OnChangeSteerModeVars, 1);
     OnChangeSteerMode.AddVariable(&SteerMode);
 }

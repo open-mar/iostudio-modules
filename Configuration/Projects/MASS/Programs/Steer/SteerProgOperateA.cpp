@@ -13,10 +13,10 @@ SteerProgOperateA::~SteerProgOperateA()
 void SteerProgOperateA::InitializeTask(void)
 {
     ioProgram::InitializeTask();
-    AddPanel((ioPanel*)&AutopilotApA);
     AddPanel((ioPanel*)&CommandCpA);
     AddPanel((ioPanel*)&ModeCpA);
     AddPanel((ioPanel*)&ReferenceCpA);
+    AddPanel((ioPanel*)&AutopilotApA);
 }
 void SteerProgOperateA::Run(Int32 activeSlot)
 {
@@ -29,13 +29,9 @@ void SteerProgOperateA::ReceiveGraphicsEvent(Int32 puidValue, ioProgramGraphicsE
     if (typeEvent == ioProgramGraphicsEvent_NotDefined) {}
     switch (puid)
     {
-    case Puid_Steer_CpA_ButtTakeRequest:
+    case Puid_Steer_CpA_ButtTakeRequestSteer:
         if (typeEvent == ioProgramGraphicsEvent_Clicked)
-            SendData(&DataCpA.TakeCommand, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
-        break;
-    case Puid_Steer_CpA_ButtRelease:
-        if (typeEvent == ioProgramGraphicsEvent_Clicked)
-            SendData(&DataCpA.Release, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
+            SendData(&DataCpA.TakeCommandSteer, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
         break;
     case Puid_Steer_CpA_ButtStandby:
         if (typeEvent == ioProgramGraphicsEvent_Clicked)
@@ -51,13 +47,13 @@ void SteerProgOperateA::ReceiveData(ioDataCollection* listData, ioData* data)
 {
     if (listData == NULL) {}
     if (data == NULL) {}
-    else if (data == &DataCpA.OnChangeCommand)
+    else if (data == &DataCpA.OnChangeCommandSteer)
     {
-        CommandCpA.TextCommandStatus.SetValueVar(&DataCpA.ActiveStation);
+        CommandCpA.TextCommandStatusSteer.SetValueVar(&DataCpA.ActiveStationSteer);
     }
     else if (data == &DataCpA.OnChangeSteerMode)
     {
-        CommandCpA.LabelCommandStatus.SetValueVar(&DataCpA.SteerMode);
+        CommandCpA.LabelSteerMode.SetValueVar(&DataCpA.SteerMode);
     }
     else if (data == &DataApA.OnChangeRef)
     {

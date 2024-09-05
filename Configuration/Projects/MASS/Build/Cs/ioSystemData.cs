@@ -23,310 +23,336 @@ namespace ioSystemNetworkNet
         Duid_Batt_Dc24_BattAmpAvg = 16,
         Duid_Batt_Dc24_RequestDcData = 17,
         Duid_Batt_Dc24_ResponseDcData = 18,
-        Duid_Pow_Out12M_OnCh1 = 19,
-        Duid_Pow_Out12M_OnCh2 = 20,
-        Duid_Pow_Out12M_OnCh3 = 21,
-        Duid_Pow_Out12M_OnCh4 = 22,
-        Duid_Pow_Out12M_OnCh5 = 23,
-        Duid_Pow_Out12M_OnCh6 = 24,
-        Duid_Pow_Out12M_OnCh7 = 25,
-        Duid_Pow_Out12M_OnCh8 = 26,
-        Duid_Pow_Out12M_SwitchOnCh1 = 27,
-        Duid_Pow_Out12M_SwitchOnCh2 = 28,
-        Duid_Pow_Out12M_SwitchOnCh3 = 29,
-        Duid_Pow_Out12M_SwitchOnCh4 = 30,
-        Duid_Pow_Out12M_SwitchOnCh5 = 31,
-        Duid_Pow_Out12M_SwitchOnCh6 = 32,
-        Duid_Pow_Out12M_SwitchOnCh7 = 33,
-        Duid_Pow_Out12M_SwitchOnCh8 = 34,
-        Duid_Pow_Out12M_SwitchOffCh1 = 35,
-        Duid_Pow_Out12M_SwitchOffCh2 = 36,
-        Duid_Pow_Out12M_SwitchOffCh3 = 37,
-        Duid_Pow_Out12M_SwitchOffCh4 = 38,
-        Duid_Pow_Out12M_SwitchOffCh5 = 39,
-        Duid_Pow_Out12M_SwitchOffCh6 = 40,
-        Duid_Pow_Out12M_SwitchOffCh7 = 41,
-        Duid_Pow_Out12M_SwitchOffCh8 = 42,
-        Duid_Pow_Out12M_OutStatus = 43,
-        Duid_Pow_Out12M_OnRequestPowData = 44,
-        Duid_Pow_Out12F_OnCh1 = 45,
-        Duid_Pow_Out12F_OnCh2 = 46,
-        Duid_Pow_Out12F_OnCh3 = 47,
-        Duid_Pow_Out12F_OnCh4 = 48,
-        Duid_Pow_Out12F_OnCh5 = 49,
-        Duid_Pow_Out12F_OnCh6 = 50,
-        Duid_Pow_Out12F_OnCh7 = 51,
-        Duid_Pow_Out12F_OnCh8 = 52,
-        Duid_Pow_Out12F_SwitchOnCh1 = 53,
-        Duid_Pow_Out12F_SwitchOnCh2 = 54,
-        Duid_Pow_Out12F_SwitchOnCh3 = 55,
-        Duid_Pow_Out12F_SwitchOnCh4 = 56,
-        Duid_Pow_Out12F_SwitchOnCh5 = 57,
-        Duid_Pow_Out12F_SwitchOnCh6 = 58,
-        Duid_Pow_Out12F_SwitchOnCh7 = 59,
-        Duid_Pow_Out12F_SwitchOnCh8 = 60,
-        Duid_Pow_Out12F_SwitchOffCh1 = 61,
-        Duid_Pow_Out12F_SwitchOffCh2 = 62,
-        Duid_Pow_Out12F_SwitchOffCh3 = 63,
-        Duid_Pow_Out12F_SwitchOffCh4 = 64,
-        Duid_Pow_Out12F_SwitchOffCh5 = 65,
-        Duid_Pow_Out12F_SwitchOffCh6 = 66,
-        Duid_Pow_Out12F_SwitchOffCh7 = 67,
-        Duid_Pow_Out12F_SwitchOffCh8 = 68,
-        Duid_Pow_Out12F_OutStatus = 69,
-        Duid_Pow_Out12F_OnRequestPowData = 70,
-        Duid_Pow_Out12A_OnCh1 = 71,
-        Duid_Pow_Out12A_OnCh2 = 72,
-        Duid_Pow_Out12A_OnCh3 = 73,
-        Duid_Pow_Out12A_OnCh4 = 74,
-        Duid_Pow_Out12A_OnCh5 = 75,
-        Duid_Pow_Out12A_OnCh6 = 76,
-        Duid_Pow_Out12A_OnCh7 = 77,
-        Duid_Pow_Out12A_OnCh8 = 78,
-        Duid_Pow_Out12A_SwitchOnCh1 = 79,
-        Duid_Pow_Out12A_SwitchOnCh2 = 80,
-        Duid_Pow_Out12A_SwitchOnCh3 = 81,
-        Duid_Pow_Out12A_SwitchOnCh4 = 82,
-        Duid_Pow_Out12A_SwitchOnCh5 = 83,
-        Duid_Pow_Out12A_SwitchOnCh6 = 84,
-        Duid_Pow_Out12A_SwitchOnCh7 = 85,
-        Duid_Pow_Out12A_SwitchOnCh8 = 86,
-        Duid_Pow_Out12A_SwitchOffCh1 = 87,
-        Duid_Pow_Out12A_SwitchOffCh2 = 88,
-        Duid_Pow_Out12A_SwitchOffCh3 = 89,
-        Duid_Pow_Out12A_SwitchOffCh4 = 90,
-        Duid_Pow_Out12A_SwitchOffCh5 = 91,
-        Duid_Pow_Out12A_SwitchOffCh6 = 92,
-        Duid_Pow_Out12A_SwitchOffCh7 = 93,
-        Duid_Pow_Out12A_SwitchOffCh8 = 94,
-        Duid_Pow_Out12A_OutStatus = 95,
-        Duid_Pow_Out12A_OnRequestPowData = 96,
-        Duid_Pow_Out24M_OnCh1 = 97,
-        Duid_Pow_Out24M_OnCh2 = 98,
-        Duid_Pow_Out24M_OnCh3 = 99,
-        Duid_Pow_Out24M_OnCh4 = 100,
-        Duid_Pow_Out24M_OnCh5 = 101,
-        Duid_Pow_Out24M_OnCh6 = 102,
-        Duid_Pow_Out24M_OnCh7 = 103,
-        Duid_Pow_Out24M_OnCh8 = 104,
-        Duid_Pow_Out24M_SwitchOnCh1 = 105,
-        Duid_Pow_Out24M_SwitchOnCh2 = 106,
-        Duid_Pow_Out24M_SwitchOnCh3 = 107,
-        Duid_Pow_Out24M_SwitchOnCh4 = 108,
-        Duid_Pow_Out24M_SwitchOnCh5 = 109,
-        Duid_Pow_Out24M_SwitchOnCh6 = 110,
-        Duid_Pow_Out24M_SwitchOnCh7 = 111,
-        Duid_Pow_Out24M_SwitchOnCh8 = 112,
-        Duid_Pow_Out24M_SwitchOffCh1 = 113,
-        Duid_Pow_Out24M_SwitchOffCh2 = 114,
-        Duid_Pow_Out24M_SwitchOffCh3 = 115,
-        Duid_Pow_Out24M_SwitchOffCh4 = 116,
-        Duid_Pow_Out24M_SwitchOffCh5 = 117,
-        Duid_Pow_Out24M_SwitchOffCh6 = 118,
-        Duid_Pow_Out24M_SwitchOffCh7 = 119,
-        Duid_Pow_Out24M_SwitchOffCh8 = 120,
-        Duid_Pow_Out24M_OutStatus = 121,
-        Duid_Pow_Out24M_OnRequestPowData = 122,
-        Duid_Pow_Out24F_OnCh1 = 123,
-        Duid_Pow_Out24F_OnCh2 = 124,
-        Duid_Pow_Out24F_OnCh3 = 125,
-        Duid_Pow_Out24F_OnCh4 = 126,
-        Duid_Pow_Out24F_OnCh5 = 127,
-        Duid_Pow_Out24F_OnCh6 = 128,
-        Duid_Pow_Out24F_OnCh7 = 129,
-        Duid_Pow_Out24F_OnCh8 = 130,
-        Duid_Pow_Out24F_SwitchOnCh1 = 131,
-        Duid_Pow_Out24F_SwitchOnCh2 = 132,
-        Duid_Pow_Out24F_SwitchOnCh3 = 133,
-        Duid_Pow_Out24F_SwitchOnCh4 = 134,
-        Duid_Pow_Out24F_SwitchOnCh5 = 135,
-        Duid_Pow_Out24F_SwitchOnCh6 = 136,
-        Duid_Pow_Out24F_SwitchOnCh7 = 137,
-        Duid_Pow_Out24F_SwitchOnCh8 = 138,
-        Duid_Pow_Out24F_SwitchOffCh1 = 139,
-        Duid_Pow_Out24F_SwitchOffCh2 = 140,
-        Duid_Pow_Out24F_SwitchOffCh3 = 141,
-        Duid_Pow_Out24F_SwitchOffCh4 = 142,
-        Duid_Pow_Out24F_SwitchOffCh5 = 143,
-        Duid_Pow_Out24F_SwitchOffCh6 = 144,
-        Duid_Pow_Out24F_SwitchOffCh7 = 145,
-        Duid_Pow_Out24F_SwitchOffCh8 = 146,
-        Duid_Pow_Out24F_OutStatus = 147,
-        Duid_Pow_Out24F_OnRequestPowData = 148,
-        Duid_Pow_Out24A_OnCh1 = 149,
-        Duid_Pow_Out24A_OnCh2 = 150,
-        Duid_Pow_Out24A_OnCh3 = 151,
-        Duid_Pow_Out24A_OnCh4 = 152,
-        Duid_Pow_Out24A_OnCh5 = 153,
-        Duid_Pow_Out24A_OnCh6 = 154,
-        Duid_Pow_Out24A_OnCh7 = 155,
-        Duid_Pow_Out24A_OnCh8 = 156,
-        Duid_Pow_Out24A_SwitchOnCh1 = 157,
-        Duid_Pow_Out24A_SwitchOnCh2 = 158,
-        Duid_Pow_Out24A_SwitchOnCh3 = 159,
-        Duid_Pow_Out24A_SwitchOnCh4 = 160,
-        Duid_Pow_Out24A_SwitchOnCh5 = 161,
-        Duid_Pow_Out24A_SwitchOnCh6 = 162,
-        Duid_Pow_Out24A_SwitchOnCh7 = 163,
-        Duid_Pow_Out24A_SwitchOnCh8 = 164,
-        Duid_Pow_Out24A_SwitchOffCh1 = 165,
-        Duid_Pow_Out24A_SwitchOffCh2 = 166,
-        Duid_Pow_Out24A_SwitchOffCh3 = 167,
-        Duid_Pow_Out24A_SwitchOffCh4 = 168,
-        Duid_Pow_Out24A_SwitchOffCh5 = 169,
-        Duid_Pow_Out24A_SwitchOffCh6 = 170,
-        Duid_Pow_Out24A_SwitchOffCh7 = 171,
-        Duid_Pow_Out24A_SwitchOffCh8 = 172,
-        Duid_Pow_Out24A_OutStatus = 173,
-        Duid_Pow_Out24A_OnRequestPowData = 174,
-        Duid_Pow_Out220M_OnCh1 = 175,
-        Duid_Pow_Out220M_OnCh2 = 176,
-        Duid_Pow_Out220M_OnCh3 = 177,
-        Duid_Pow_Out220M_OnCh4 = 178,
-        Duid_Pow_Out220M_OnCh5 = 179,
-        Duid_Pow_Out220M_OnCh6 = 180,
-        Duid_Pow_Out220M_OnCh7 = 181,
-        Duid_Pow_Out220M_OnCh8 = 182,
-        Duid_Pow_Out220M_SwitchOnCh1 = 183,
-        Duid_Pow_Out220M_SwitchOnCh2 = 184,
-        Duid_Pow_Out220M_SwitchOnCh3 = 185,
-        Duid_Pow_Out220M_SwitchOnCh4 = 186,
-        Duid_Pow_Out220M_SwitchOnCh5 = 187,
-        Duid_Pow_Out220M_SwitchOnCh6 = 188,
-        Duid_Pow_Out220M_SwitchOnCh7 = 189,
-        Duid_Pow_Out220M_SwitchOnCh8 = 190,
-        Duid_Pow_Out220M_SwitchOffCh1 = 191,
-        Duid_Pow_Out220M_SwitchOffCh2 = 192,
-        Duid_Pow_Out220M_SwitchOffCh3 = 193,
-        Duid_Pow_Out220M_SwitchOffCh4 = 194,
-        Duid_Pow_Out220M_SwitchOffCh5 = 195,
-        Duid_Pow_Out220M_SwitchOffCh6 = 196,
-        Duid_Pow_Out220M_SwitchOffCh7 = 197,
-        Duid_Pow_Out220M_SwitchOffCh8 = 198,
-        Duid_Pow_Out220M_OutStatus = 199,
-        Duid_Pow_Out220M_OnRequestPowData = 200,
-        Duid_Pow_Out220F_OnCh1 = 201,
-        Duid_Pow_Out220F_OnCh2 = 202,
-        Duid_Pow_Out220F_OnCh3 = 203,
-        Duid_Pow_Out220F_OnCh4 = 204,
-        Duid_Pow_Out220F_OnCh5 = 205,
-        Duid_Pow_Out220F_OnCh6 = 206,
-        Duid_Pow_Out220F_OnCh7 = 207,
-        Duid_Pow_Out220F_OnCh8 = 208,
-        Duid_Pow_Out220F_SwitchOnCh1 = 209,
-        Duid_Pow_Out220F_SwitchOnCh2 = 210,
-        Duid_Pow_Out220F_SwitchOnCh3 = 211,
-        Duid_Pow_Out220F_SwitchOnCh4 = 212,
-        Duid_Pow_Out220F_SwitchOnCh5 = 213,
-        Duid_Pow_Out220F_SwitchOnCh6 = 214,
-        Duid_Pow_Out220F_SwitchOnCh7 = 215,
-        Duid_Pow_Out220F_SwitchOnCh8 = 216,
-        Duid_Pow_Out220F_SwitchOffCh1 = 217,
-        Duid_Pow_Out220F_SwitchOffCh2 = 218,
-        Duid_Pow_Out220F_SwitchOffCh3 = 219,
-        Duid_Pow_Out220F_SwitchOffCh4 = 220,
-        Duid_Pow_Out220F_SwitchOffCh5 = 221,
-        Duid_Pow_Out220F_SwitchOffCh6 = 222,
-        Duid_Pow_Out220F_SwitchOffCh7 = 223,
-        Duid_Pow_Out220F_SwitchOffCh8 = 224,
-        Duid_Pow_Out220F_OutStatus = 225,
-        Duid_Pow_Out220F_OnRequestPowData = 226,
-        Duid_Pow_Out220A_OnCh1 = 227,
-        Duid_Pow_Out220A_OnCh2 = 228,
-        Duid_Pow_Out220A_OnCh3 = 229,
-        Duid_Pow_Out220A_OnCh4 = 230,
-        Duid_Pow_Out220A_OnCh5 = 231,
-        Duid_Pow_Out220A_OnCh6 = 232,
-        Duid_Pow_Out220A_OnCh7 = 233,
-        Duid_Pow_Out220A_OnCh8 = 234,
-        Duid_Pow_Out220A_SwitchOnCh1 = 235,
-        Duid_Pow_Out220A_SwitchOnCh2 = 236,
-        Duid_Pow_Out220A_SwitchOnCh3 = 237,
-        Duid_Pow_Out220A_SwitchOnCh4 = 238,
-        Duid_Pow_Out220A_SwitchOnCh5 = 239,
-        Duid_Pow_Out220A_SwitchOnCh6 = 240,
-        Duid_Pow_Out220A_SwitchOnCh7 = 241,
-        Duid_Pow_Out220A_SwitchOnCh8 = 242,
-        Duid_Pow_Out220A_SwitchOffCh1 = 243,
-        Duid_Pow_Out220A_SwitchOffCh2 = 244,
-        Duid_Pow_Out220A_SwitchOffCh3 = 245,
-        Duid_Pow_Out220A_SwitchOffCh4 = 246,
-        Duid_Pow_Out220A_SwitchOffCh5 = 247,
-        Duid_Pow_Out220A_SwitchOffCh6 = 248,
-        Duid_Pow_Out220A_SwitchOffCh7 = 249,
-        Duid_Pow_Out220A_SwitchOffCh8 = 250,
-        Duid_Pow_Out220A_OutStatus = 251,
-        Duid_Pow_Out220A_OnRequestPowData = 252,
-        Duid_Steer_ApM_RudderAngleMeas = 253,
-        Duid_Steer_ApM_FrontThrustMeas = 254,
-        Duid_Steer_ApM_RateOfTurnMeas = 255,
-        Duid_Steer_ApM_HeadingMeas = 256,
-        Duid_Steer_ApM_FrontThrustRef = 257,
-        Duid_Steer_ApM_OnChangeRef = 258,
-        Duid_Steer_ApM_HeadingRef = 259,
-        Duid_Steer_ApM_RateOfTurnRef = 260,
-        Duid_Steer_ApM_RudderAngleRef = 261,
-        Duid_Steer_ApM_OnRequestSteerData = 262,
-        Duid_Steer_ApM_OnChangeCompass = 263,
-        Duid_Steer_ApM_OnChangeRudder = 264,
-        Duid_Steer_ApM_OnChangeThrust = 265,
-        Duid_Steer_ApM_EngineRpmMeas = 266,
-        Duid_Steer_ApM_EngineRpmRef = 267,
-        Duid_Steer_ApM_OnChangeEngine = 268,
-        Duid_Steer_ApA_RudderAngleMeas = 269,
-        Duid_Steer_ApA_FrontThrustMeas = 270,
-        Duid_Steer_ApA_RateOfTurnMeas = 271,
-        Duid_Steer_ApA_HeadingMeas = 272,
-        Duid_Steer_ApA_FrontThrustRef = 273,
-        Duid_Steer_ApA_OnChangeRef = 274,
-        Duid_Steer_ApA_HeadingRef = 275,
-        Duid_Steer_ApA_RateOfTurnRef = 276,
-        Duid_Steer_ApA_RudderAngleRef = 277,
-        Duid_Steer_ApA_OnRequestSteerData = 278,
-        Duid_Steer_ApA_OnChangeCompass = 279,
-        Duid_Steer_ApA_OnChangeRudder = 280,
-        Duid_Steer_ApA_OnChangeThrust = 281,
-        Duid_Steer_ApA_EngineRpmMeas = 282,
-        Duid_Steer_ApA_EngineRpmRef = 283,
-        Duid_Steer_ApA_OnChangeEngine = 284,
-        Duid_Steer_CpM_TakeCommand = 285,
-        Duid_Steer_CpM_ModeDp = 286,
-        Duid_Steer_CpM_ModeRiver = 287,
-        Duid_Steer_CpM_ModeTrack = 288,
-        Duid_Steer_CpM_ModeWork = 289,
-        Duid_Steer_CpM_ModeAuto = 290,
-        Duid_Steer_CpM_ModeStandby = 291,
-        Duid_Steer_CpM_SteerMode = 292,
-        Duid_Steer_CpM_Release = 293,
-        Duid_Steer_CpM_OnChangeCommand = 294,
-        Duid_Steer_CpM_OnChangeSteerMode = 295,
-        Duid_Steer_CpM_LeftSmall = 296,
-        Duid_Steer_CpM_MidZero = 297,
-        Duid_Steer_CpM_RightSmall = 298,
-        Duid_Steer_CpM_LeftBig = 299,
-        Duid_Steer_CpM_RightBig = 300,
-        Duid_Steer_CpM_EncoderNumber = 301,
-        Duid_Steer_CpM_ActiveStation = 302,
-        Duid_Steer_CpM_StationMode = 303,
-        Duid_Steer_CpA_TakeCommand = 304,
-        Duid_Steer_CpA_ModeDp = 305,
-        Duid_Steer_CpA_ModeRiver = 306,
-        Duid_Steer_CpA_ModeTrack = 307,
-        Duid_Steer_CpA_ModeWork = 308,
-        Duid_Steer_CpA_ModeAuto = 309,
-        Duid_Steer_CpA_ModeStandby = 310,
-        Duid_Steer_CpA_SteerMode = 311,
-        Duid_Steer_CpA_Release = 312,
-        Duid_Steer_CpA_OnChangeCommand = 313,
-        Duid_Steer_CpA_OnChangeSteerMode = 314,
-        Duid_Steer_CpA_LeftSmall = 315,
-        Duid_Steer_CpA_MidZero = 316,
-        Duid_Steer_CpA_RightSmall = 317,
-        Duid_Steer_CpA_LeftBig = 318,
-        Duid_Steer_CpA_RightBig = 319,
-        Duid_Steer_CpA_EncoderNumber = 320,
-        Duid_Steer_CpA_ActiveStation = 321,
-        Duid_Steer_CpA_StationMode = 322,
+        Duid_Pow_CpM_TakeCommandPow = 19,
+        Duid_Pow_CpM_ReleaseCommandPow = 20,
+        Duid_Pow_CpM_ActiveStationPow = 21,
+        Duid_Pow_CpM_OnChangeCommandPow = 22,
+        Duid_Pow_CpM_StationModePow = 23,
+        Duid_Pow_CpM_PowModeIdle = 24,
+        Duid_Pow_CpM_PowModeShore = 25,
+        Duid_Pow_CpM_PowModeDisconnect = 26,
+        Duid_Pow_CpM_PowModeTransitDay = 27,
+        Duid_Pow_CpM_PowModeTransitNightEngine = 28,
+        Duid_Pow_CpM_PowModeTransitNightSail = 29,
+        Duid_Pow_CpM_PowMode = 30,
+        Duid_Pow_CpM_OnChangePowMode = 31,
+        Duid_Pow_CpA_TakeCommandPow = 32,
+        Duid_Pow_CpA_ReleaseCommandPow = 33,
+        Duid_Pow_CpA_ActiveStationPow = 34,
+        Duid_Pow_CpA_OnChangeCommandPow = 35,
+        Duid_Pow_CpA_StationModePow = 36,
+        Duid_Pow_CpA_PowModeIdle = 37,
+        Duid_Pow_CpA_PowModeShore = 38,
+        Duid_Pow_CpA_PowModeDisconnect = 39,
+        Duid_Pow_CpA_PowModeTransitDay = 40,
+        Duid_Pow_CpA_PowModeTransitNightEngine = 41,
+        Duid_Pow_CpA_PowModeTransitNightSail = 42,
+        Duid_Pow_CpA_PowMode = 43,
+        Duid_Pow_CpA_OnChangePowMode = 44,
+        Duid_Pow_Out12M_OnCh1 = 45,
+        Duid_Pow_Out12M_OnCh2 = 46,
+        Duid_Pow_Out12M_OnCh3 = 47,
+        Duid_Pow_Out12M_OnCh4 = 48,
+        Duid_Pow_Out12M_OnCh5 = 49,
+        Duid_Pow_Out12M_OnCh6 = 50,
+        Duid_Pow_Out12M_OnCh7 = 51,
+        Duid_Pow_Out12M_OnCh8 = 52,
+        Duid_Pow_Out12M_SwitchOnCh1 = 53,
+        Duid_Pow_Out12M_SwitchOnCh2 = 54,
+        Duid_Pow_Out12M_SwitchOnCh3 = 55,
+        Duid_Pow_Out12M_SwitchOnCh4 = 56,
+        Duid_Pow_Out12M_SwitchOnCh5 = 57,
+        Duid_Pow_Out12M_SwitchOnCh6 = 58,
+        Duid_Pow_Out12M_SwitchOnCh7 = 59,
+        Duid_Pow_Out12M_SwitchOnCh8 = 60,
+        Duid_Pow_Out12M_SwitchOffCh1 = 61,
+        Duid_Pow_Out12M_SwitchOffCh2 = 62,
+        Duid_Pow_Out12M_SwitchOffCh3 = 63,
+        Duid_Pow_Out12M_SwitchOffCh4 = 64,
+        Duid_Pow_Out12M_SwitchOffCh5 = 65,
+        Duid_Pow_Out12M_SwitchOffCh6 = 66,
+        Duid_Pow_Out12M_SwitchOffCh7 = 67,
+        Duid_Pow_Out12M_SwitchOffCh8 = 68,
+        Duid_Pow_Out12M_OutStatus = 69,
+        Duid_Pow_Out12M_OnRequestPowData = 70,
+        Duid_Pow_Out12F_OnCh1 = 71,
+        Duid_Pow_Out12F_OnCh2 = 72,
+        Duid_Pow_Out12F_OnCh3 = 73,
+        Duid_Pow_Out12F_OnCh4 = 74,
+        Duid_Pow_Out12F_OnCh5 = 75,
+        Duid_Pow_Out12F_OnCh6 = 76,
+        Duid_Pow_Out12F_OnCh7 = 77,
+        Duid_Pow_Out12F_OnCh8 = 78,
+        Duid_Pow_Out12F_SwitchOnCh1 = 79,
+        Duid_Pow_Out12F_SwitchOnCh2 = 80,
+        Duid_Pow_Out12F_SwitchOnCh3 = 81,
+        Duid_Pow_Out12F_SwitchOnCh4 = 82,
+        Duid_Pow_Out12F_SwitchOnCh5 = 83,
+        Duid_Pow_Out12F_SwitchOnCh6 = 84,
+        Duid_Pow_Out12F_SwitchOnCh7 = 85,
+        Duid_Pow_Out12F_SwitchOnCh8 = 86,
+        Duid_Pow_Out12F_SwitchOffCh1 = 87,
+        Duid_Pow_Out12F_SwitchOffCh2 = 88,
+        Duid_Pow_Out12F_SwitchOffCh3 = 89,
+        Duid_Pow_Out12F_SwitchOffCh4 = 90,
+        Duid_Pow_Out12F_SwitchOffCh5 = 91,
+        Duid_Pow_Out12F_SwitchOffCh6 = 92,
+        Duid_Pow_Out12F_SwitchOffCh7 = 93,
+        Duid_Pow_Out12F_SwitchOffCh8 = 94,
+        Duid_Pow_Out12F_OutStatus = 95,
+        Duid_Pow_Out12F_OnRequestPowData = 96,
+        Duid_Pow_Out12A_OnCh1 = 97,
+        Duid_Pow_Out12A_OnCh2 = 98,
+        Duid_Pow_Out12A_OnCh3 = 99,
+        Duid_Pow_Out12A_OnCh4 = 100,
+        Duid_Pow_Out12A_OnCh5 = 101,
+        Duid_Pow_Out12A_OnCh6 = 102,
+        Duid_Pow_Out12A_OnCh7 = 103,
+        Duid_Pow_Out12A_OnCh8 = 104,
+        Duid_Pow_Out12A_SwitchOnCh1 = 105,
+        Duid_Pow_Out12A_SwitchOnCh2 = 106,
+        Duid_Pow_Out12A_SwitchOnCh3 = 107,
+        Duid_Pow_Out12A_SwitchOnCh4 = 108,
+        Duid_Pow_Out12A_SwitchOnCh5 = 109,
+        Duid_Pow_Out12A_SwitchOnCh6 = 110,
+        Duid_Pow_Out12A_SwitchOnCh7 = 111,
+        Duid_Pow_Out12A_SwitchOnCh8 = 112,
+        Duid_Pow_Out12A_SwitchOffCh1 = 113,
+        Duid_Pow_Out12A_SwitchOffCh2 = 114,
+        Duid_Pow_Out12A_SwitchOffCh3 = 115,
+        Duid_Pow_Out12A_SwitchOffCh4 = 116,
+        Duid_Pow_Out12A_SwitchOffCh5 = 117,
+        Duid_Pow_Out12A_SwitchOffCh6 = 118,
+        Duid_Pow_Out12A_SwitchOffCh7 = 119,
+        Duid_Pow_Out12A_SwitchOffCh8 = 120,
+        Duid_Pow_Out12A_OutStatus = 121,
+        Duid_Pow_Out12A_OnRequestPowData = 122,
+        Duid_Pow_Out24M_OnCh1 = 123,
+        Duid_Pow_Out24M_OnCh2 = 124,
+        Duid_Pow_Out24M_OnCh3 = 125,
+        Duid_Pow_Out24M_OnCh4 = 126,
+        Duid_Pow_Out24M_OnCh5 = 127,
+        Duid_Pow_Out24M_OnCh6 = 128,
+        Duid_Pow_Out24M_OnCh7 = 129,
+        Duid_Pow_Out24M_OnCh8 = 130,
+        Duid_Pow_Out24M_SwitchOnCh1 = 131,
+        Duid_Pow_Out24M_SwitchOnCh2 = 132,
+        Duid_Pow_Out24M_SwitchOnCh3 = 133,
+        Duid_Pow_Out24M_SwitchOnCh4 = 134,
+        Duid_Pow_Out24M_SwitchOnCh5 = 135,
+        Duid_Pow_Out24M_SwitchOnCh6 = 136,
+        Duid_Pow_Out24M_SwitchOnCh7 = 137,
+        Duid_Pow_Out24M_SwitchOnCh8 = 138,
+        Duid_Pow_Out24M_SwitchOffCh1 = 139,
+        Duid_Pow_Out24M_SwitchOffCh2 = 140,
+        Duid_Pow_Out24M_SwitchOffCh3 = 141,
+        Duid_Pow_Out24M_SwitchOffCh4 = 142,
+        Duid_Pow_Out24M_SwitchOffCh5 = 143,
+        Duid_Pow_Out24M_SwitchOffCh6 = 144,
+        Duid_Pow_Out24M_SwitchOffCh7 = 145,
+        Duid_Pow_Out24M_SwitchOffCh8 = 146,
+        Duid_Pow_Out24M_OutStatus = 147,
+        Duid_Pow_Out24M_OnRequestPowData = 148,
+        Duid_Pow_Out24F_OnCh1 = 149,
+        Duid_Pow_Out24F_OnCh2 = 150,
+        Duid_Pow_Out24F_OnCh3 = 151,
+        Duid_Pow_Out24F_OnCh4 = 152,
+        Duid_Pow_Out24F_OnCh5 = 153,
+        Duid_Pow_Out24F_OnCh6 = 154,
+        Duid_Pow_Out24F_OnCh7 = 155,
+        Duid_Pow_Out24F_OnCh8 = 156,
+        Duid_Pow_Out24F_SwitchOnCh1 = 157,
+        Duid_Pow_Out24F_SwitchOnCh2 = 158,
+        Duid_Pow_Out24F_SwitchOnCh3 = 159,
+        Duid_Pow_Out24F_SwitchOnCh4 = 160,
+        Duid_Pow_Out24F_SwitchOnCh5 = 161,
+        Duid_Pow_Out24F_SwitchOnCh6 = 162,
+        Duid_Pow_Out24F_SwitchOnCh7 = 163,
+        Duid_Pow_Out24F_SwitchOnCh8 = 164,
+        Duid_Pow_Out24F_SwitchOffCh1 = 165,
+        Duid_Pow_Out24F_SwitchOffCh2 = 166,
+        Duid_Pow_Out24F_SwitchOffCh3 = 167,
+        Duid_Pow_Out24F_SwitchOffCh4 = 168,
+        Duid_Pow_Out24F_SwitchOffCh5 = 169,
+        Duid_Pow_Out24F_SwitchOffCh6 = 170,
+        Duid_Pow_Out24F_SwitchOffCh7 = 171,
+        Duid_Pow_Out24F_SwitchOffCh8 = 172,
+        Duid_Pow_Out24F_OutStatus = 173,
+        Duid_Pow_Out24F_OnRequestPowData = 174,
+        Duid_Pow_Out24A_OnCh1 = 175,
+        Duid_Pow_Out24A_OnCh2 = 176,
+        Duid_Pow_Out24A_OnCh3 = 177,
+        Duid_Pow_Out24A_OnCh4 = 178,
+        Duid_Pow_Out24A_OnCh5 = 179,
+        Duid_Pow_Out24A_OnCh6 = 180,
+        Duid_Pow_Out24A_OnCh7 = 181,
+        Duid_Pow_Out24A_OnCh8 = 182,
+        Duid_Pow_Out24A_SwitchOnCh1 = 183,
+        Duid_Pow_Out24A_SwitchOnCh2 = 184,
+        Duid_Pow_Out24A_SwitchOnCh3 = 185,
+        Duid_Pow_Out24A_SwitchOnCh4 = 186,
+        Duid_Pow_Out24A_SwitchOnCh5 = 187,
+        Duid_Pow_Out24A_SwitchOnCh6 = 188,
+        Duid_Pow_Out24A_SwitchOnCh7 = 189,
+        Duid_Pow_Out24A_SwitchOnCh8 = 190,
+        Duid_Pow_Out24A_SwitchOffCh1 = 191,
+        Duid_Pow_Out24A_SwitchOffCh2 = 192,
+        Duid_Pow_Out24A_SwitchOffCh3 = 193,
+        Duid_Pow_Out24A_SwitchOffCh4 = 194,
+        Duid_Pow_Out24A_SwitchOffCh5 = 195,
+        Duid_Pow_Out24A_SwitchOffCh6 = 196,
+        Duid_Pow_Out24A_SwitchOffCh7 = 197,
+        Duid_Pow_Out24A_SwitchOffCh8 = 198,
+        Duid_Pow_Out24A_OutStatus = 199,
+        Duid_Pow_Out24A_OnRequestPowData = 200,
+        Duid_Pow_Out220M_OnCh1 = 201,
+        Duid_Pow_Out220M_OnCh2 = 202,
+        Duid_Pow_Out220M_OnCh3 = 203,
+        Duid_Pow_Out220M_OnCh4 = 204,
+        Duid_Pow_Out220M_OnCh5 = 205,
+        Duid_Pow_Out220M_OnCh6 = 206,
+        Duid_Pow_Out220M_OnCh7 = 207,
+        Duid_Pow_Out220M_OnCh8 = 208,
+        Duid_Pow_Out220M_SwitchOnCh1 = 209,
+        Duid_Pow_Out220M_SwitchOnCh2 = 210,
+        Duid_Pow_Out220M_SwitchOnCh3 = 211,
+        Duid_Pow_Out220M_SwitchOnCh4 = 212,
+        Duid_Pow_Out220M_SwitchOnCh5 = 213,
+        Duid_Pow_Out220M_SwitchOnCh6 = 214,
+        Duid_Pow_Out220M_SwitchOnCh7 = 215,
+        Duid_Pow_Out220M_SwitchOnCh8 = 216,
+        Duid_Pow_Out220M_SwitchOffCh1 = 217,
+        Duid_Pow_Out220M_SwitchOffCh2 = 218,
+        Duid_Pow_Out220M_SwitchOffCh3 = 219,
+        Duid_Pow_Out220M_SwitchOffCh4 = 220,
+        Duid_Pow_Out220M_SwitchOffCh5 = 221,
+        Duid_Pow_Out220M_SwitchOffCh6 = 222,
+        Duid_Pow_Out220M_SwitchOffCh7 = 223,
+        Duid_Pow_Out220M_SwitchOffCh8 = 224,
+        Duid_Pow_Out220M_OutStatus = 225,
+        Duid_Pow_Out220M_OnRequestPowData = 226,
+        Duid_Pow_Out220F_OnCh1 = 227,
+        Duid_Pow_Out220F_OnCh2 = 228,
+        Duid_Pow_Out220F_OnCh3 = 229,
+        Duid_Pow_Out220F_OnCh4 = 230,
+        Duid_Pow_Out220F_OnCh5 = 231,
+        Duid_Pow_Out220F_OnCh6 = 232,
+        Duid_Pow_Out220F_OnCh7 = 233,
+        Duid_Pow_Out220F_OnCh8 = 234,
+        Duid_Pow_Out220F_SwitchOnCh1 = 235,
+        Duid_Pow_Out220F_SwitchOnCh2 = 236,
+        Duid_Pow_Out220F_SwitchOnCh3 = 237,
+        Duid_Pow_Out220F_SwitchOnCh4 = 238,
+        Duid_Pow_Out220F_SwitchOnCh5 = 239,
+        Duid_Pow_Out220F_SwitchOnCh6 = 240,
+        Duid_Pow_Out220F_SwitchOnCh7 = 241,
+        Duid_Pow_Out220F_SwitchOnCh8 = 242,
+        Duid_Pow_Out220F_SwitchOffCh1 = 243,
+        Duid_Pow_Out220F_SwitchOffCh2 = 244,
+        Duid_Pow_Out220F_SwitchOffCh3 = 245,
+        Duid_Pow_Out220F_SwitchOffCh4 = 246,
+        Duid_Pow_Out220F_SwitchOffCh5 = 247,
+        Duid_Pow_Out220F_SwitchOffCh6 = 248,
+        Duid_Pow_Out220F_SwitchOffCh7 = 249,
+        Duid_Pow_Out220F_SwitchOffCh8 = 250,
+        Duid_Pow_Out220F_OutStatus = 251,
+        Duid_Pow_Out220F_OnRequestPowData = 252,
+        Duid_Pow_Out220A_OnCh1 = 253,
+        Duid_Pow_Out220A_OnCh2 = 254,
+        Duid_Pow_Out220A_OnCh3 = 255,
+        Duid_Pow_Out220A_OnCh4 = 256,
+        Duid_Pow_Out220A_OnCh5 = 257,
+        Duid_Pow_Out220A_OnCh6 = 258,
+        Duid_Pow_Out220A_OnCh7 = 259,
+        Duid_Pow_Out220A_OnCh8 = 260,
+        Duid_Pow_Out220A_SwitchOnCh1 = 261,
+        Duid_Pow_Out220A_SwitchOnCh2 = 262,
+        Duid_Pow_Out220A_SwitchOnCh3 = 263,
+        Duid_Pow_Out220A_SwitchOnCh4 = 264,
+        Duid_Pow_Out220A_SwitchOnCh5 = 265,
+        Duid_Pow_Out220A_SwitchOnCh6 = 266,
+        Duid_Pow_Out220A_SwitchOnCh7 = 267,
+        Duid_Pow_Out220A_SwitchOnCh8 = 268,
+        Duid_Pow_Out220A_SwitchOffCh1 = 269,
+        Duid_Pow_Out220A_SwitchOffCh2 = 270,
+        Duid_Pow_Out220A_SwitchOffCh3 = 271,
+        Duid_Pow_Out220A_SwitchOffCh4 = 272,
+        Duid_Pow_Out220A_SwitchOffCh5 = 273,
+        Duid_Pow_Out220A_SwitchOffCh6 = 274,
+        Duid_Pow_Out220A_SwitchOffCh7 = 275,
+        Duid_Pow_Out220A_SwitchOffCh8 = 276,
+        Duid_Pow_Out220A_OutStatus = 277,
+        Duid_Pow_Out220A_OnRequestPowData = 278,
+        Duid_Steer_ApM_RudderAngleMeas = 279,
+        Duid_Steer_ApM_FrontThrustMeas = 280,
+        Duid_Steer_ApM_RateOfTurnMeas = 281,
+        Duid_Steer_ApM_HeadingMeas = 282,
+        Duid_Steer_ApM_FrontThrustRef = 283,
+        Duid_Steer_ApM_OnChangeRef = 284,
+        Duid_Steer_ApM_HeadingRef = 285,
+        Duid_Steer_ApM_RateOfTurnRef = 286,
+        Duid_Steer_ApM_RudderAngleRef = 287,
+        Duid_Steer_ApM_OnRequestSteerData = 288,
+        Duid_Steer_ApM_OnChangeCompass = 289,
+        Duid_Steer_ApM_OnChangeRudder = 290,
+        Duid_Steer_ApM_OnChangeThrust = 291,
+        Duid_Steer_ApM_EngineRpmMeas = 292,
+        Duid_Steer_ApM_EngineRpmRef = 293,
+        Duid_Steer_ApM_OnChangeEngine = 294,
+        Duid_Steer_ApA_RudderAngleMeas = 295,
+        Duid_Steer_ApA_FrontThrustMeas = 296,
+        Duid_Steer_ApA_RateOfTurnMeas = 297,
+        Duid_Steer_ApA_HeadingMeas = 298,
+        Duid_Steer_ApA_FrontThrustRef = 299,
+        Duid_Steer_ApA_OnChangeRef = 300,
+        Duid_Steer_ApA_HeadingRef = 301,
+        Duid_Steer_ApA_RateOfTurnRef = 302,
+        Duid_Steer_ApA_RudderAngleRef = 303,
+        Duid_Steer_ApA_OnRequestSteerData = 304,
+        Duid_Steer_ApA_OnChangeCompass = 305,
+        Duid_Steer_ApA_OnChangeRudder = 306,
+        Duid_Steer_ApA_OnChangeThrust = 307,
+        Duid_Steer_ApA_EngineRpmMeas = 308,
+        Duid_Steer_ApA_EngineRpmRef = 309,
+        Duid_Steer_ApA_OnChangeEngine = 310,
+        Duid_Steer_CpM_ActiveStationSteer = 311,
+        Duid_Steer_CpM_StationModeSteer = 312,
+        Duid_Steer_CpM_TakeCommandSteer = 313,
+        Duid_Steer_CpM_ReleaseCommandSteer = 314,
+        Duid_Steer_CpM_OnChangeCommandSteer = 315,
+        Duid_Steer_CpM_ModeDp = 316,
+        Duid_Steer_CpM_ModeRiver = 317,
+        Duid_Steer_CpM_ModeTrack = 318,
+        Duid_Steer_CpM_ModeWork = 319,
+        Duid_Steer_CpM_ModeAuto = 320,
+        Duid_Steer_CpM_ModeStandby = 321,
+        Duid_Steer_CpM_SteerMode = 322,
+        Duid_Steer_CpM_OnChangeSteerMode = 323,
+        Duid_Steer_CpM_LeftSmall = 324,
+        Duid_Steer_CpM_MidZero = 325,
+        Duid_Steer_CpM_RightSmall = 326,
+        Duid_Steer_CpM_LeftBig = 327,
+        Duid_Steer_CpM_RightBig = 328,
+        Duid_Steer_CpM_EncoderNumber = 329,
+        Duid_Steer_CpA_ActiveStationSteer = 330,
+        Duid_Steer_CpA_StationModeSteer = 331,
+        Duid_Steer_CpA_TakeCommandSteer = 332,
+        Duid_Steer_CpA_ReleaseCommandSteer = 333,
+        Duid_Steer_CpA_OnChangeCommandSteer = 334,
+        Duid_Steer_CpA_ModeDp = 335,
+        Duid_Steer_CpA_ModeRiver = 336,
+        Duid_Steer_CpA_ModeTrack = 337,
+        Duid_Steer_CpA_ModeWork = 338,
+        Duid_Steer_CpA_ModeAuto = 339,
+        Duid_Steer_CpA_ModeStandby = 340,
+        Duid_Steer_CpA_SteerMode = 341,
+        Duid_Steer_CpA_OnChangeSteerMode = 342,
+        Duid_Steer_CpA_LeftSmall = 343,
+        Duid_Steer_CpA_MidZero = 344,
+        Duid_Steer_CpA_RightSmall = 345,
+        Duid_Steer_CpA_LeftBig = 346,
+        Duid_Steer_CpA_RightBig = 347,
+        Duid_Steer_CpA_EncoderNumber = 348,
     } // enum
     public class ioSystemData
     {
@@ -353,6 +379,32 @@ namespace ioSystemNetworkNet
                 case ioSystemDataType.Duid_Batt_Dc24_BattAmpAvg: return "Batt.Dc24.BattAmpAvg";
                 case ioSystemDataType.Duid_Batt_Dc24_RequestDcData: return "Batt.Dc24.RequestDcData";
                 case ioSystemDataType.Duid_Batt_Dc24_ResponseDcData: return "Batt.Dc24.ResponseDcData";
+                case ioSystemDataType.Duid_Pow_CpM_TakeCommandPow: return "Pow.CpM.TakeCommandPow";
+                case ioSystemDataType.Duid_Pow_CpM_ReleaseCommandPow: return "Pow.CpM.ReleaseCommandPow";
+                case ioSystemDataType.Duid_Pow_CpM_ActiveStationPow: return "Pow.CpM.ActiveStationPow";
+                case ioSystemDataType.Duid_Pow_CpM_OnChangeCommandPow: return "Pow.CpM.OnChangeCommandPow";
+                case ioSystemDataType.Duid_Pow_CpM_StationModePow: return "Pow.CpM.StationModePow";
+                case ioSystemDataType.Duid_Pow_CpM_PowModeIdle: return "Pow.CpM.PowModeIdle";
+                case ioSystemDataType.Duid_Pow_CpM_PowModeShore: return "Pow.CpM.PowModeShore";
+                case ioSystemDataType.Duid_Pow_CpM_PowModeDisconnect: return "Pow.CpM.PowModeDisconnect";
+                case ioSystemDataType.Duid_Pow_CpM_PowModeTransitDay: return "Pow.CpM.PowModeTransitDay";
+                case ioSystemDataType.Duid_Pow_CpM_PowModeTransitNightEngine: return "Pow.CpM.PowModeTransitNightEngine";
+                case ioSystemDataType.Duid_Pow_CpM_PowModeTransitNightSail: return "Pow.CpM.PowModeTransitNightSail";
+                case ioSystemDataType.Duid_Pow_CpM_PowMode: return "Pow.CpM.PowMode";
+                case ioSystemDataType.Duid_Pow_CpM_OnChangePowMode: return "Pow.CpM.OnChangePowMode";
+                case ioSystemDataType.Duid_Pow_CpA_TakeCommandPow: return "Pow.CpA.TakeCommandPow";
+                case ioSystemDataType.Duid_Pow_CpA_ReleaseCommandPow: return "Pow.CpA.ReleaseCommandPow";
+                case ioSystemDataType.Duid_Pow_CpA_ActiveStationPow: return "Pow.CpA.ActiveStationPow";
+                case ioSystemDataType.Duid_Pow_CpA_OnChangeCommandPow: return "Pow.CpA.OnChangeCommandPow";
+                case ioSystemDataType.Duid_Pow_CpA_StationModePow: return "Pow.CpA.StationModePow";
+                case ioSystemDataType.Duid_Pow_CpA_PowModeIdle: return "Pow.CpA.PowModeIdle";
+                case ioSystemDataType.Duid_Pow_CpA_PowModeShore: return "Pow.CpA.PowModeShore";
+                case ioSystemDataType.Duid_Pow_CpA_PowModeDisconnect: return "Pow.CpA.PowModeDisconnect";
+                case ioSystemDataType.Duid_Pow_CpA_PowModeTransitDay: return "Pow.CpA.PowModeTransitDay";
+                case ioSystemDataType.Duid_Pow_CpA_PowModeTransitNightEngine: return "Pow.CpA.PowModeTransitNightEngine";
+                case ioSystemDataType.Duid_Pow_CpA_PowModeTransitNightSail: return "Pow.CpA.PowModeTransitNightSail";
+                case ioSystemDataType.Duid_Pow_CpA_PowMode: return "Pow.CpA.PowMode";
+                case ioSystemDataType.Duid_Pow_CpA_OnChangePowMode: return "Pow.CpA.OnChangePowMode";
                 case ioSystemDataType.Duid_Pow_Out12M_OnCh1: return "Pow.Out12M.OnCh1";
                 case ioSystemDataType.Duid_Pow_Out12M_OnCh2: return "Pow.Out12M.OnCh2";
                 case ioSystemDataType.Duid_Pow_Out12M_OnCh3: return "Pow.Out12M.OnCh3";
@@ -619,7 +671,11 @@ namespace ioSystemNetworkNet
                 case ioSystemDataType.Duid_Steer_ApA_EngineRpmMeas: return "Steer.ApA.EngineRpmMeas";
                 case ioSystemDataType.Duid_Steer_ApA_EngineRpmRef: return "Steer.ApA.EngineRpmRef";
                 case ioSystemDataType.Duid_Steer_ApA_OnChangeEngine: return "Steer.ApA.OnChangeEngine";
-                case ioSystemDataType.Duid_Steer_CpM_TakeCommand: return "Steer.CpM.TakeCommand";
+                case ioSystemDataType.Duid_Steer_CpM_ActiveStationSteer: return "Steer.CpM.ActiveStationSteer";
+                case ioSystemDataType.Duid_Steer_CpM_StationModeSteer: return "Steer.CpM.StationModeSteer";
+                case ioSystemDataType.Duid_Steer_CpM_TakeCommandSteer: return "Steer.CpM.TakeCommandSteer";
+                case ioSystemDataType.Duid_Steer_CpM_ReleaseCommandSteer: return "Steer.CpM.ReleaseCommandSteer";
+                case ioSystemDataType.Duid_Steer_CpM_OnChangeCommandSteer: return "Steer.CpM.OnChangeCommandSteer";
                 case ioSystemDataType.Duid_Steer_CpM_ModeDp: return "Steer.CpM.ModeDp";
                 case ioSystemDataType.Duid_Steer_CpM_ModeRiver: return "Steer.CpM.ModeRiver";
                 case ioSystemDataType.Duid_Steer_CpM_ModeTrack: return "Steer.CpM.ModeTrack";
@@ -627,8 +683,6 @@ namespace ioSystemNetworkNet
                 case ioSystemDataType.Duid_Steer_CpM_ModeAuto: return "Steer.CpM.ModeAuto";
                 case ioSystemDataType.Duid_Steer_CpM_ModeStandby: return "Steer.CpM.ModeStandby";
                 case ioSystemDataType.Duid_Steer_CpM_SteerMode: return "Steer.CpM.SteerMode";
-                case ioSystemDataType.Duid_Steer_CpM_Release: return "Steer.CpM.Release";
-                case ioSystemDataType.Duid_Steer_CpM_OnChangeCommand: return "Steer.CpM.OnChangeCommand";
                 case ioSystemDataType.Duid_Steer_CpM_OnChangeSteerMode: return "Steer.CpM.OnChangeSteerMode";
                 case ioSystemDataType.Duid_Steer_CpM_LeftSmall: return "Steer.CpM.LeftSmall";
                 case ioSystemDataType.Duid_Steer_CpM_MidZero: return "Steer.CpM.MidZero";
@@ -636,9 +690,11 @@ namespace ioSystemNetworkNet
                 case ioSystemDataType.Duid_Steer_CpM_LeftBig: return "Steer.CpM.LeftBig";
                 case ioSystemDataType.Duid_Steer_CpM_RightBig: return "Steer.CpM.RightBig";
                 case ioSystemDataType.Duid_Steer_CpM_EncoderNumber: return "Steer.CpM.EncoderNumber";
-                case ioSystemDataType.Duid_Steer_CpM_ActiveStation: return "Steer.CpM.ActiveStation";
-                case ioSystemDataType.Duid_Steer_CpM_StationMode: return "Steer.CpM.StationMode";
-                case ioSystemDataType.Duid_Steer_CpA_TakeCommand: return "Steer.CpA.TakeCommand";
+                case ioSystemDataType.Duid_Steer_CpA_ActiveStationSteer: return "Steer.CpA.ActiveStationSteer";
+                case ioSystemDataType.Duid_Steer_CpA_StationModeSteer: return "Steer.CpA.StationModeSteer";
+                case ioSystemDataType.Duid_Steer_CpA_TakeCommandSteer: return "Steer.CpA.TakeCommandSteer";
+                case ioSystemDataType.Duid_Steer_CpA_ReleaseCommandSteer: return "Steer.CpA.ReleaseCommandSteer";
+                case ioSystemDataType.Duid_Steer_CpA_OnChangeCommandSteer: return "Steer.CpA.OnChangeCommandSteer";
                 case ioSystemDataType.Duid_Steer_CpA_ModeDp: return "Steer.CpA.ModeDp";
                 case ioSystemDataType.Duid_Steer_CpA_ModeRiver: return "Steer.CpA.ModeRiver";
                 case ioSystemDataType.Duid_Steer_CpA_ModeTrack: return "Steer.CpA.ModeTrack";
@@ -646,8 +702,6 @@ namespace ioSystemNetworkNet
                 case ioSystemDataType.Duid_Steer_CpA_ModeAuto: return "Steer.CpA.ModeAuto";
                 case ioSystemDataType.Duid_Steer_CpA_ModeStandby: return "Steer.CpA.ModeStandby";
                 case ioSystemDataType.Duid_Steer_CpA_SteerMode: return "Steer.CpA.SteerMode";
-                case ioSystemDataType.Duid_Steer_CpA_Release: return "Steer.CpA.Release";
-                case ioSystemDataType.Duid_Steer_CpA_OnChangeCommand: return "Steer.CpA.OnChangeCommand";
                 case ioSystemDataType.Duid_Steer_CpA_OnChangeSteerMode: return "Steer.CpA.OnChangeSteerMode";
                 case ioSystemDataType.Duid_Steer_CpA_LeftSmall: return "Steer.CpA.LeftSmall";
                 case ioSystemDataType.Duid_Steer_CpA_MidZero: return "Steer.CpA.MidZero";
@@ -655,8 +709,6 @@ namespace ioSystemNetworkNet
                 case ioSystemDataType.Duid_Steer_CpA_LeftBig: return "Steer.CpA.LeftBig";
                 case ioSystemDataType.Duid_Steer_CpA_RightBig: return "Steer.CpA.RightBig";
                 case ioSystemDataType.Duid_Steer_CpA_EncoderNumber: return "Steer.CpA.EncoderNumber";
-                case ioSystemDataType.Duid_Steer_CpA_ActiveStation: return "Steer.CpA.ActiveStation";
-                case ioSystemDataType.Duid_Steer_CpA_StationMode: return "Steer.CpA.StationMode";
             } // switch
             return string.Empty;
         }
@@ -683,6 +735,32 @@ namespace ioSystemNetworkNet
                 case "Batt.Dc24.BattAmpAvg": return ioSystemDataType.Duid_Batt_Dc24_BattAmpAvg;
                 case "Batt.Dc24.RequestDcData": return ioSystemDataType.Duid_Batt_Dc24_RequestDcData;
                 case "Batt.Dc24.ResponseDcData": return ioSystemDataType.Duid_Batt_Dc24_ResponseDcData;
+                case "Pow.CpM.TakeCommandPow": return ioSystemDataType.Duid_Pow_CpM_TakeCommandPow;
+                case "Pow.CpM.ReleaseCommandPow": return ioSystemDataType.Duid_Pow_CpM_ReleaseCommandPow;
+                case "Pow.CpM.ActiveStationPow": return ioSystemDataType.Duid_Pow_CpM_ActiveStationPow;
+                case "Pow.CpM.OnChangeCommandPow": return ioSystemDataType.Duid_Pow_CpM_OnChangeCommandPow;
+                case "Pow.CpM.StationModePow": return ioSystemDataType.Duid_Pow_CpM_StationModePow;
+                case "Pow.CpM.PowModeIdle": return ioSystemDataType.Duid_Pow_CpM_PowModeIdle;
+                case "Pow.CpM.PowModeShore": return ioSystemDataType.Duid_Pow_CpM_PowModeShore;
+                case "Pow.CpM.PowModeDisconnect": return ioSystemDataType.Duid_Pow_CpM_PowModeDisconnect;
+                case "Pow.CpM.PowModeTransitDay": return ioSystemDataType.Duid_Pow_CpM_PowModeTransitDay;
+                case "Pow.CpM.PowModeTransitNightEngine": return ioSystemDataType.Duid_Pow_CpM_PowModeTransitNightEngine;
+                case "Pow.CpM.PowModeTransitNightSail": return ioSystemDataType.Duid_Pow_CpM_PowModeTransitNightSail;
+                case "Pow.CpM.PowMode": return ioSystemDataType.Duid_Pow_CpM_PowMode;
+                case "Pow.CpM.OnChangePowMode": return ioSystemDataType.Duid_Pow_CpM_OnChangePowMode;
+                case "Pow.CpA.TakeCommandPow": return ioSystemDataType.Duid_Pow_CpA_TakeCommandPow;
+                case "Pow.CpA.ReleaseCommandPow": return ioSystemDataType.Duid_Pow_CpA_ReleaseCommandPow;
+                case "Pow.CpA.ActiveStationPow": return ioSystemDataType.Duid_Pow_CpA_ActiveStationPow;
+                case "Pow.CpA.OnChangeCommandPow": return ioSystemDataType.Duid_Pow_CpA_OnChangeCommandPow;
+                case "Pow.CpA.StationModePow": return ioSystemDataType.Duid_Pow_CpA_StationModePow;
+                case "Pow.CpA.PowModeIdle": return ioSystemDataType.Duid_Pow_CpA_PowModeIdle;
+                case "Pow.CpA.PowModeShore": return ioSystemDataType.Duid_Pow_CpA_PowModeShore;
+                case "Pow.CpA.PowModeDisconnect": return ioSystemDataType.Duid_Pow_CpA_PowModeDisconnect;
+                case "Pow.CpA.PowModeTransitDay": return ioSystemDataType.Duid_Pow_CpA_PowModeTransitDay;
+                case "Pow.CpA.PowModeTransitNightEngine": return ioSystemDataType.Duid_Pow_CpA_PowModeTransitNightEngine;
+                case "Pow.CpA.PowModeTransitNightSail": return ioSystemDataType.Duid_Pow_CpA_PowModeTransitNightSail;
+                case "Pow.CpA.PowMode": return ioSystemDataType.Duid_Pow_CpA_PowMode;
+                case "Pow.CpA.OnChangePowMode": return ioSystemDataType.Duid_Pow_CpA_OnChangePowMode;
                 case "Pow.Out12M.OnCh1": return ioSystemDataType.Duid_Pow_Out12M_OnCh1;
                 case "Pow.Out12M.OnCh2": return ioSystemDataType.Duid_Pow_Out12M_OnCh2;
                 case "Pow.Out12M.OnCh3": return ioSystemDataType.Duid_Pow_Out12M_OnCh3;
@@ -949,7 +1027,11 @@ namespace ioSystemNetworkNet
                 case "Steer.ApA.EngineRpmMeas": return ioSystemDataType.Duid_Steer_ApA_EngineRpmMeas;
                 case "Steer.ApA.EngineRpmRef": return ioSystemDataType.Duid_Steer_ApA_EngineRpmRef;
                 case "Steer.ApA.OnChangeEngine": return ioSystemDataType.Duid_Steer_ApA_OnChangeEngine;
-                case "Steer.CpM.TakeCommand": return ioSystemDataType.Duid_Steer_CpM_TakeCommand;
+                case "Steer.CpM.ActiveStationSteer": return ioSystemDataType.Duid_Steer_CpM_ActiveStationSteer;
+                case "Steer.CpM.StationModeSteer": return ioSystemDataType.Duid_Steer_CpM_StationModeSteer;
+                case "Steer.CpM.TakeCommandSteer": return ioSystemDataType.Duid_Steer_CpM_TakeCommandSteer;
+                case "Steer.CpM.ReleaseCommandSteer": return ioSystemDataType.Duid_Steer_CpM_ReleaseCommandSteer;
+                case "Steer.CpM.OnChangeCommandSteer": return ioSystemDataType.Duid_Steer_CpM_OnChangeCommandSteer;
                 case "Steer.CpM.ModeDp": return ioSystemDataType.Duid_Steer_CpM_ModeDp;
                 case "Steer.CpM.ModeRiver": return ioSystemDataType.Duid_Steer_CpM_ModeRiver;
                 case "Steer.CpM.ModeTrack": return ioSystemDataType.Duid_Steer_CpM_ModeTrack;
@@ -957,8 +1039,6 @@ namespace ioSystemNetworkNet
                 case "Steer.CpM.ModeAuto": return ioSystemDataType.Duid_Steer_CpM_ModeAuto;
                 case "Steer.CpM.ModeStandby": return ioSystemDataType.Duid_Steer_CpM_ModeStandby;
                 case "Steer.CpM.SteerMode": return ioSystemDataType.Duid_Steer_CpM_SteerMode;
-                case "Steer.CpM.Release": return ioSystemDataType.Duid_Steer_CpM_Release;
-                case "Steer.CpM.OnChangeCommand": return ioSystemDataType.Duid_Steer_CpM_OnChangeCommand;
                 case "Steer.CpM.OnChangeSteerMode": return ioSystemDataType.Duid_Steer_CpM_OnChangeSteerMode;
                 case "Steer.CpM.LeftSmall": return ioSystemDataType.Duid_Steer_CpM_LeftSmall;
                 case "Steer.CpM.MidZero": return ioSystemDataType.Duid_Steer_CpM_MidZero;
@@ -966,9 +1046,11 @@ namespace ioSystemNetworkNet
                 case "Steer.CpM.LeftBig": return ioSystemDataType.Duid_Steer_CpM_LeftBig;
                 case "Steer.CpM.RightBig": return ioSystemDataType.Duid_Steer_CpM_RightBig;
                 case "Steer.CpM.EncoderNumber": return ioSystemDataType.Duid_Steer_CpM_EncoderNumber;
-                case "Steer.CpM.ActiveStation": return ioSystemDataType.Duid_Steer_CpM_ActiveStation;
-                case "Steer.CpM.StationMode": return ioSystemDataType.Duid_Steer_CpM_StationMode;
-                case "Steer.CpA.TakeCommand": return ioSystemDataType.Duid_Steer_CpA_TakeCommand;
+                case "Steer.CpA.ActiveStationSteer": return ioSystemDataType.Duid_Steer_CpA_ActiveStationSteer;
+                case "Steer.CpA.StationModeSteer": return ioSystemDataType.Duid_Steer_CpA_StationModeSteer;
+                case "Steer.CpA.TakeCommandSteer": return ioSystemDataType.Duid_Steer_CpA_TakeCommandSteer;
+                case "Steer.CpA.ReleaseCommandSteer": return ioSystemDataType.Duid_Steer_CpA_ReleaseCommandSteer;
+                case "Steer.CpA.OnChangeCommandSteer": return ioSystemDataType.Duid_Steer_CpA_OnChangeCommandSteer;
                 case "Steer.CpA.ModeDp": return ioSystemDataType.Duid_Steer_CpA_ModeDp;
                 case "Steer.CpA.ModeRiver": return ioSystemDataType.Duid_Steer_CpA_ModeRiver;
                 case "Steer.CpA.ModeTrack": return ioSystemDataType.Duid_Steer_CpA_ModeTrack;
@@ -976,8 +1058,6 @@ namespace ioSystemNetworkNet
                 case "Steer.CpA.ModeAuto": return ioSystemDataType.Duid_Steer_CpA_ModeAuto;
                 case "Steer.CpA.ModeStandby": return ioSystemDataType.Duid_Steer_CpA_ModeStandby;
                 case "Steer.CpA.SteerMode": return ioSystemDataType.Duid_Steer_CpA_SteerMode;
-                case "Steer.CpA.Release": return ioSystemDataType.Duid_Steer_CpA_Release;
-                case "Steer.CpA.OnChangeCommand": return ioSystemDataType.Duid_Steer_CpA_OnChangeCommand;
                 case "Steer.CpA.OnChangeSteerMode": return ioSystemDataType.Duid_Steer_CpA_OnChangeSteerMode;
                 case "Steer.CpA.LeftSmall": return ioSystemDataType.Duid_Steer_CpA_LeftSmall;
                 case "Steer.CpA.MidZero": return ioSystemDataType.Duid_Steer_CpA_MidZero;
@@ -985,8 +1065,6 @@ namespace ioSystemNetworkNet
                 case "Steer.CpA.LeftBig": return ioSystemDataType.Duid_Steer_CpA_LeftBig;
                 case "Steer.CpA.RightBig": return ioSystemDataType.Duid_Steer_CpA_RightBig;
                 case "Steer.CpA.EncoderNumber": return ioSystemDataType.Duid_Steer_CpA_EncoderNumber;
-                case "Steer.CpA.ActiveStation": return ioSystemDataType.Duid_Steer_CpA_ActiveStation;
-                case "Steer.CpA.StationMode": return ioSystemDataType.Duid_Steer_CpA_StationMode;
             } // switch
             return ioSystemDataType.Duid_Batt_ChargeInputVolt;
         }

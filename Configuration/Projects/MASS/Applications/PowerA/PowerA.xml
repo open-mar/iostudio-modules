@@ -24,8 +24,10 @@
                     <RowDefinition />
                     <RowDefinition />
                     <Grid Row="1">
+                        <ioPanelGrid PanelGlobalID="Batt.BattChargingPanel" />
                     </Grid>
                     <Grid Row="2">
+                        <ioPanelGrid PanelGlobalID="Batt.BattStatusPanel" />
                     </Grid>
                 </LeftView>
                 <MiddleView>
@@ -40,8 +42,10 @@
                         <ioPanelGrid PanelGlobalID="Batt.Dc24.BattDcPanel" />
                     </Grid>
                     <Grid Row="2" Column="1">
+                        <ioPanelGrid PanelGlobalID="Pow.Out12V.PowerIndicatorPanel" />
                     </Grid>
                     <Grid Row="2" Column="2">
+                        <ioPanelGrid PanelGlobalID="Pow.Out24V.PowerIndicatorPanel" />
                     </Grid>
                 </MiddleView>
                 <RightView>
@@ -51,99 +55,7 @@
                 </RightView>
             </Views>
         </MenuItem>
-        <MenuItem Text="Power DC">
-            <MenuIcon>
-                <ioShape LocalID="DcPanelIcon">
-                    <Properties TypeShape="Automation" ShapeID="DcDc"/>
-                </ioShape>
-            </MenuIcon>
-            <Views>
-                <LeftView>
-                    <RowDefinition />
-                    <RowDefinition />
-                    <Grid Row="1">
-                        <ioPanelGrid PanelGlobalID="Pow.Out12A.PowOutPanel" />
-                    </Grid>
-                    <Grid Row="2">
-                        <ioPanelGrid PanelGlobalID="Pow.Out24A.PowOutPanel" />
-                    </Grid>
-                </LeftView>
-                <MiddleView>
-                    <RowDefinition />
-                    <RowDefinition />
-                    <ColumnDefinition />
-                    <ColumnDefinition />
-                    <Grid Row="1" Column="1">
-                        <ioPanelGrid PanelGlobalID="Batt.Dc12.BattDcPanel" />
-                    </Grid>
-                    <Grid Row="1" Column="2">
-                        <ioPanelGrid PanelGlobalID="Batt.Dc24.BattDcPanel" />
-                    </Grid>
-                    <Grid Row="2" Column="1">
-                        <ioPanelGrid PanelGlobalID="Pow.Out12M.PowOutPanel" />
-                    </Grid>
-                    <Grid Row="2" Column="2">
-                        <ioPanelGrid PanelGlobalID="Pow.Out24M.PowOutPanel" />
-                    </Grid>
-                </MiddleView>
-                <RightView>
-                    <RowDefinition />
-                    <RowDefinition />
-                    <Grid Row="1">
-                        <ioPanelGrid PanelGlobalID="Pow.CpA.PowCommandModePanel" />
-                    </Grid>
-                    <Grid Row="2">
-                        <ioPanelGrid PanelGlobalID="Pow.Out24F.PowOutPanel" />
-                    </Grid>
-                </RightView>
-            </Views>
 
-        </MenuItem>
-        <MenuItem Text="Power AC">
-            <MenuIcon>
-                <ioShape LocalID="AcPanelIcon">
-                    <Properties TypeShape="Automation" ShapeID="AcDc"/>
-                </ioShape>
-            </MenuIcon>
-            <Views>
-                <LeftView>
-                    <RowDefinition />
-                    <RowDefinition />
-                    <Grid Row="1">
-                        <ioPanelGrid PanelGlobalID="Pow.Out220A.PowOutPanel" />
-                    </Grid>
-                    <Grid Row="2">
-                    </Grid>
-                </LeftView>
-                <MiddleView>
-                    <RowDefinition />
-                    <RowDefinition />
-                    <ColumnDefinition />
-                    <ColumnDefinition />
-                    <Grid Row="1" Column="1">
-                        <ioPanelGrid PanelGlobalID="Batt.Dc12.BattDcPanel" />
-                    </Grid>
-                    <Grid Row="1" Column="2">
-                        <ioPanelGrid PanelGlobalID="Batt.Dc24.BattDcPanel" />
-                    </Grid>
-                    <Grid Row="2" Column="1">
-                        <ioPanelGrid PanelGlobalID="Pow.Out220M.PowOutPanel" />
-                    </Grid>
-                    <Grid Row="2" Column="2">
-                    </Grid>
-                </MiddleView>
-                <RightView>
-                    <RowDefinition />
-                    <RowDefinition />
-                    <Grid Row="1">
-                        <ioPanelGrid PanelGlobalID="Pow.CpA.PowCommandModePanel" />
-                    </Grid>
-                    <Grid Row="2">
-                        <ioPanelGrid PanelGlobalID="Pow.Out220F.PowOutPanel" />
-                    </Grid>
-                </RightView>
-            </Views>            
-        </MenuItem>
     </Menu>
 
 </ApplicationObject>

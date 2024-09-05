@@ -8,8 +8,8 @@ class IdsProgOperateA : public ioProgram
 public:
     IdsProgOperateA();
     virtual ~IdsProgOperateA();
+    virtual void InitializeTask(void);
     virtual void Run(Int32 activeSlot);
-    virtual void RunOperateA(void);
     ioPortProgramSystem PortSystem;
 };
 #endif // __IDSPROGOPERATEA_H

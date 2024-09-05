@@ -13,8 +13,8 @@ SteerProgOperateM::~SteerProgOperateM()
 void SteerProgOperateM::InitializeTask(void)
 {
     ioProgram::InitializeTask();
-    AddPanel((ioPanel*)&AutopilotApM);
     AddPanel((ioPanel*)&CommandCpM);
+    AddPanel((ioPanel*)&AutopilotApM);
     AddPanel((ioPanel*)&ModeCpM);
     AddPanel((ioPanel*)&ReferenceCpM);
 }
@@ -29,13 +29,9 @@ void SteerProgOperateM::ReceiveGraphicsEvent(Int32 puidValue, ioProgramGraphicsE
     if (typeEvent == ioProgramGraphicsEvent_NotDefined) {}
     switch (puid)
     {
-    case Puid_Steer_CpM_ButtTakeRequest:
+    case Puid_Steer_CpM_ButtTakeRequestSteer:
         if (typeEvent == ioProgramGraphicsEvent_Clicked)
-            SendData(&DataCpM.TakeCommand, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
-        break;
-    case Puid_Steer_CpM_ButtRelease:
-        if (typeEvent == ioProgramGraphicsEvent_Clicked)
-            SendData(&DataCpM.Release, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
+            SendData(&DataCpM.TakeCommandSteer, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
         break;
     case Puid_Steer_CpM_ButtStandby:
         if (typeEvent == ioProgramGraphicsEvent_Clicked)
@@ -51,13 +47,9 @@ void SteerProgOperateM::ReceiveData(ioDataCollection* listData, ioData* data)
 {
     if (listData == NULL) {}
     if (data == NULL) {}
-    else if (data == &DataCpM.OnChangeCommand)
+    else if (data == &DataCpM.OnChangeCommandSteer)
     {
-        CommandCpM.TextCommandStatus.SetValueVar(&DataCpM.ActiveStation);
-    }
-    else if (data == &DataCpM.OnChangeSteerMode)
-    {
-        CommandCpM.LabelCommandStatus.SetValueVar(&DataCpM.SteerMode);
+        CommandCpM.TextCommandStatusSteer.SetValueVar(&DataCpM.ActiveStationSteer);
     }
     else if (data == &DataApM.OnChangeRef)
     {
@@ -75,5 +67,9 @@ void SteerProgOperateM::ReceiveData(ioDataCollection* listData, ioData* data)
     }
     else if (data == &DataApM.OnChangeEngine)
     {
+    }
+    else if (data == &DataCpM.OnChangeSteerMode)
+    {
+        CommandCpM.LabelSteerMode.SetValueVar(&DataCpM.SteerMode);
     }
 }

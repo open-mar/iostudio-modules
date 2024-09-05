@@ -7,12 +7,12 @@
         <ColumnDefinition />
         <ColumnDefinition Size="500" />
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
-            <ioPanelGrid LocalID="GridCommandCpM" VerticalAlignment="Top" Height="160" Margin="0,0,4,0" PanelGlobalID="Steer.CpM.CommandPanel" />
+            <ioPanelGrid LocalID="GridCommandCpM" VerticalAlignment="Top" Height="160" Margin="0,0,4,0" PanelGlobalID="Steer.CpM.CmdPanelSteer" />
             <ioPanelGrid LocalID="GridModeCpM" VerticalAlignment="Top" Height="120" Margin="0,0,4,0" PanelGlobalID="Steer.CpM.ModePanel" />
             <ioPanelGrid LocalID="GridSetRefCpM" VerticalAlignment="Top" Height="160" Margin="0,0,4,0" PanelGlobalID="Steer.CpM.SetRefPanel" />
         </Grid>
         <Grid Row="1" Column="2" IsStacked="TRUE" Orientation="Vertical">
-            <ioPanelGrid LocalID="GridCommandCpA" VerticalAlignment="Top" Height="160" Margin="4,0,0,0" PanelGlobalID="Steer.CpA.CommandPanel" />
+            <ioPanelGrid LocalID="GridCommandCpA" VerticalAlignment="Top" Height="160" Margin="4,0,0,0" PanelGlobalID="Steer.CpA.CmdPanelSteer" />
             <ioPanelGrid LocalID="GridModeCpA" VerticalAlignment="Top" Height="120" Margin="4,0,0,0" PanelGlobalID="Steer.CpA.ModePanel" />
             <ioPanelGrid LocalID="GridSetRefCpA" VerticalAlignment="Top" Height="160" Margin="4,0,0,0" PanelGlobalID="Steer.CpA.SetRefPanel" />
         </Grid>

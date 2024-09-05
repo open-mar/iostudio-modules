@@ -20,26 +20,14 @@ public:
     static const Int32 WORK = 4;
     static const Int32 DP = 5;
 };
-class ActiveStationType : public ioEnumeration
+class SteerStationType : public ioEnumeration
 {
 public:
-    ActiveStationType();
-    virtual ~ActiveStationType();
+    SteerStationType();
+    virtual ~SteerStationType();
     virtual Bool GetActiveText(ioString* enumText);
-    static const Int32 CMD_AT_AFT_COCKPIT = 0;
-    static const Int32 CMD_AT_MID_DECKHOUSE = 1;
-};
-class StationModeType : public ioEnumeration
-{
-public:
-    StationModeType();
-    virtual ~StationModeType();
-    virtual Bool GetActiveText(ioString* enumText);
-    static const Int32 NO_COMMAND = 0;
-    static const Int32 TAKEN = 1;
-    static const Int32 REMOTE_CONTROL = 2;
-    static const Int32 TAKEN_AND_LOCKED = 3;
-    static const Int32 TAKE_OVER_REQUEST = 4;
+    static const Int32 STEER_AT_MID_DECKHOUSE = 0;
+    static const Int32 STEER_AT_AFT_COCKPIT = 1;
 };
 class SteerCpData : public ioDataCollectionDynamic
 {
@@ -47,7 +35,11 @@ public:
     SteerCpData();
     virtual ~SteerCpData();
     virtual void InitializeData(void);
-    ioMethod TakeCommand;
+    SteerStationType ActiveStationSteer;
+    StationModeType StationModeSteer;
+    ioMethod TakeCommandSteer;
+    ioMethod ReleaseCommandSteer;
+    ioEvent OnChangeCommandSteer;
     ioMethod ModeDp;
     ioMethod ModeRiver;
     ioMethod ModeTrack;
@@ -55,8 +47,6 @@ public:
     ioMethod ModeAuto;
     ioMethod ModeStandby;
     SteerModeType SteerMode;
-    ioMethod Release;
-    ioEvent OnChangeCommand;
     ioEvent OnChangeSteerMode;
     ioMethod LeftSmall;
     ioMethod MidZero;
@@ -64,11 +54,9 @@ public:
     ioMethod LeftBig;
     ioMethod RightBig;
     ioMethod EncoderNumber;
-    ActiveStationType ActiveStation;
-    StationModeType StationMode;
 protected:
     ioData* m_ListData[19];
-    ioVar* m_OnChangeCommandVars[2];
+    ioVar* m_OnChangeCommandSteerVars[2];
     ioVar* m_OnChangeSteerModeVars[1];
 };
 #endif // __STEERCPDATA_H

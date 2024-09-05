@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProgramClass Name="PowProgOperateA">
+    <Description>Program for power management from aft station</Description>
+    <DataItemsCollection>
+        <DataListProgram Name="Pow::Cp::PowCpData" NameObject="DataCmd">
+            <Item NameClass="PowCpDataCpA" NameObject="DataCmdCpA" />
+        </DataListProgram>
+    </DataItemsCollection>
+    <PanelsCollection>
+        <PanelInProgram Name="Pow::Cp::PowCommandPanel" NameObject="PanelCmd">
+            <Item NameClass="PowCommandPanelCpA" NameObject="PanelCmdCpA" />
+        </PanelInProgram>
+    </PanelsCollection>
+    <Sequences>
+        <Run />
+        <GraphicsEvent NameClass="PowCommandPanelCpA" GlobalID="Pow.CpA.ButtTakeRequestPow.Clicked">
+            <RxTxData NameClass="PowCpDataCpA" GlobalID="Pow.CpA.TakeCommandPow" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <RxTxData NameClass="PowCpDataCpA" GlobalID="Pow.CpA.OnChangeCommandPow">
+            <GraphicsData NameClass="PowCommandPanelCpA" GlobalID="Pow.CpA.TextCommandStatusPow">
+                <DataAssigned NameClass="PowCpDataCpA" GlobalID="Pow.CpA.ActiveStationPow" />
+            </GraphicsData>
+        </RxTxData>
+    </Sequences>
+</ProgramClass>

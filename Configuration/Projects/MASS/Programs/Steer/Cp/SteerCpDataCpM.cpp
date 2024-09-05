@@ -12,7 +12,13 @@ SteerCpDataCpM::~SteerCpDataCpM()
 void SteerCpDataCpM::InitializeData(void)
 {
     SteerCpData::InitializeData();
-    AddData((ioData*)&TakeCommand, Duid_Steer_CpM_TakeCommand);
+    ActiveStationSteer.SetValueSigned(0);
+    AddData((ioData*)&ActiveStationSteer, Duid_Steer_CpM_ActiveStationSteer);
+    StationModeSteer.SetValueSigned(0);
+    AddData((ioData*)&StationModeSteer, Duid_Steer_CpM_StationModeSteer);
+    AddData((ioData*)&TakeCommandSteer, Duid_Steer_CpM_TakeCommandSteer);
+    AddData((ioData*)&ReleaseCommandSteer, Duid_Steer_CpM_ReleaseCommandSteer);
+    AddData((ioData*)&OnChangeCommandSteer, Duid_Steer_CpM_OnChangeCommandSteer);
     AddData((ioData*)&ModeDp, Duid_Steer_CpM_ModeDp);
     AddData((ioData*)&ModeRiver, Duid_Steer_CpM_ModeRiver);
     AddData((ioData*)&ModeTrack, Duid_Steer_CpM_ModeTrack);
@@ -21,8 +27,6 @@ void SteerCpDataCpM::InitializeData(void)
     AddData((ioData*)&ModeStandby, Duid_Steer_CpM_ModeStandby);
     SteerMode.SetValueSigned(0);
     AddData((ioData*)&SteerMode, Duid_Steer_CpM_SteerMode);
-    AddData((ioData*)&Release, Duid_Steer_CpM_Release);
-    AddData((ioData*)&OnChangeCommand, Duid_Steer_CpM_OnChangeCommand);
     AddData((ioData*)&OnChangeSteerMode, Duid_Steer_CpM_OnChangeSteerMode);
     AddData((ioData*)&LeftSmall, Duid_Steer_CpM_LeftSmall);
     AddData((ioData*)&MidZero, Duid_Steer_CpM_MidZero);
@@ -30,8 +34,4 @@ void SteerCpDataCpM::InitializeData(void)
     AddData((ioData*)&LeftBig, Duid_Steer_CpM_LeftBig);
     AddData((ioData*)&RightBig, Duid_Steer_CpM_RightBig);
     AddData((ioData*)&EncoderNumber, Duid_Steer_CpM_EncoderNumber);
-    ActiveStation.SetValueSigned(1);
-    AddData((ioData*)&ActiveStation, Duid_Steer_CpM_ActiveStation);
-    StationMode.SetValueSigned(0);
-    AddData((ioData*)&StationMode, Duid_Steer_CpM_StationMode);
 }

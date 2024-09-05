@@ -10,11 +10,11 @@ IdsProgControl::IdsProgControl()
 IdsProgControl::~IdsProgControl()
 {
 }
+void IdsProgControl::InitializeTask(void)
+{
+    ioProgram::InitializeTask();
+}
 void IdsProgControl::Run(Int32 activeSlot)
 {
     if (activeSlot == 0) {}
-    RunControl();
-}
-void IdsProgControl::RunControl(void)
-{
 }
