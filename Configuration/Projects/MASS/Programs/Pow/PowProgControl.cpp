@@ -19,20 +19,25 @@ void PowProgControl::ReceiveData(ioDataCollection* listData, ioData* data)
     ioVarInt32 in1_Int32;
     if (listData == NULL) {}
     if (data == NULL) {}
-    else if (data == &DataCpCpA.TakeCommandPow)
+    else
     {
-        in1_Int32.SetValue(1);
-        OnRecvTakeCommandPow(&in1_Int32);
-        SendData(&DataCpCpA.OnChangeCommandPow, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
-        SendData(&DataCpCpM.OnChangeCommandPow, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
-    }
-    else if (data == &DataCpCpM.TakeCommandPow)
-    {
-        in1_Int32.SetValue(0);
-        OnRecvTakeCommandPow(&in1_Int32);
-        SendData(&DataCpCpA.OnChangeCommandPow, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
-        SendData(&DataCpCpM.OnChangeCommandPow, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
-    }
+        ioSystemDataType duid = ioSystemData::GetDataType(data->GetDataID());
+        switch (duid)
+        {
+        case Duid_Pow_CpA_TakeCommandPow:
+            in1_Int32.SetValue(1);
+            OnRecvTakeCommandPow(&in1_Int32);
+            SendData(&DataCpCpA.OnChangeCommandPow, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
+            SendData(&DataCpCpM.OnChangeCommandPow, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
+            break;
+        case Duid_Pow_CpM_TakeCommandPow:
+            in1_Int32.SetValue(0);
+            OnRecvTakeCommandPow(&in1_Int32);
+            SendData(&DataCpCpA.OnChangeCommandPow, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
+            SendData(&DataCpCpM.OnChangeCommandPow, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
+            break;
+        } // switch
+    } // else
 }
 void PowProgControl::OnRecvTakeCommandPow(ioVarInt32* sender)
 {

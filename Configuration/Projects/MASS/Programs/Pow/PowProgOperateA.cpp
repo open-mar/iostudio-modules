@@ -36,8 +36,14 @@ void PowProgOperateA::ReceiveData(ioDataCollection* listData, ioData* data)
 {
     if (listData == NULL) {}
     if (data == NULL) {}
-    else if (data == &DataCmdCpA.OnChangeCommandPow)
+    else
     {
-        PanelCmdCpA.TextCommandStatusPow.SetValueVar(&DataCmdCpA.ActiveStationPow);
-    }
+        ioSystemDataType duid = ioSystemData::GetDataType(data->GetDataID());
+        switch (duid)
+        {
+        case Duid_Pow_CpA_OnChangeCommandPow:
+            PanelCmdCpA.TextCommandStatusPow.SetValueVar(&DataCmdCpA.ActiveStationPow);
+            break;
+        } // switch
+    } // else
 }
