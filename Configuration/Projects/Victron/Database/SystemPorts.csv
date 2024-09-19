@@ -1,0 +1,7 @@
+NUID;Parent;LocalID
+1;NetEthernet.192.168.10.Batt.CerboGx;10
+2;NetEthernet.192.168.10.Ids.C6015;11
+3;NetEthernet.192.168.10.Ids.Op;12
+4;NetWiFi.192.168.11.Batt.CerboGx;10
+5;NetWiFi.192.168.11.Ids.C6015;11
+6;NetWiFi.192.168.11.Ids.Op;12

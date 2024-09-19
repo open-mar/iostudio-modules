@@ -26,5 +26,7 @@ public:
     ioLabel LabelEngine;
     ioTextBlock TextThrustValue;
     ioLabel LabelThrust;
+protected:
+    ioGraphics* m_SteerApPanelGraphics[19];
 };
 #endif // __STEERAPPANEL_H

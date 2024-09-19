@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModuleClass Name="Dc">
+    <Description>Batteries</Description>
+    <ModuleObject GlobalID="Batt.Dc12" />
+    <ModuleObject GlobalID="Batt.Dc24" />
+</ModuleClass>

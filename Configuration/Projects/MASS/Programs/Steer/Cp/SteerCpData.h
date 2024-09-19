@@ -29,7 +29,7 @@ public:
     static const Int32 STEER_AT_MID_DECKHOUSE = 0;
     static const Int32 STEER_AT_AFT_COCKPIT = 1;
 };
-class SteerCpData : public ioDataCollectionDynamic
+class SteerCpData : public ioDataCollection
 {
 public:
     SteerCpData();

@@ -6,7 +6,7 @@
 #include "Programs/ioSystemData.h"
 #include "ioSystem/Data/ioEvent.h"
 #include "ioSystem/Data/ioMethod.h"
-class SteerApData : public ioDataCollectionDynamic
+class SteerApData : public ioDataCollection
 {
 public:
     SteerApData();
@@ -30,5 +30,10 @@ public:
     ioEvent OnChangeEngine;
 protected:
     ioData* m_ListData[16];
+    ioVar* m_OnChangeRefVars[5];
+    ioVar* m_OnChangeCompassVars[1];
+    ioVar* m_OnChangeRudderVars[1];
+    ioVar* m_OnChangeThrustVars[1];
+    ioVar* m_OnChangeEngineVars[1];
 };
 #endif // __STEERAPDATA_H

@@ -29,7 +29,7 @@ public:
     static const Int32 ENGINE = 4;
     static const Int32 SAILING = 5;
 };
-class PowCpData : public ioDataCollectionDynamic
+class PowCpData : public ioDataCollection
 {
 public:
     PowCpData();

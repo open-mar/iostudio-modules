@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProgramClass Name="BattProgSensor">
+    <Description>Battery management program</Description>
+    <DataItemsCollection>
+        <DataListProgram Name="Batt::Dc::BattDcData" NameObject="DcData">
+            <Item NameClass="BattDcDataDc12" NameObject="DcDataDc12" />
+            <Item NameClass="BattDcDataDc24" NameObject="DcDataDc24" />
+        </DataListProgram>
+        <DataListProgram Name="Batt::BattData" NameObject="MainData">
+            <Item NameClass="BattData" NameObject="MainData" />
+        </DataListProgram>
+    </DataItemsCollection>
+    <InternalFunctions>
+        <Function Name="CheckBattery">
+            <Inputs>
+                <Argument Name="currentIn" TypeNum="Float" />
+                <Argument Name="currentOut" TypeNum="Float" />
+                <Argument Name="voltage" TypeNum="Float" />
+            </Inputs>
+            <Outputs>
+                <Argument Name="retBool" TypeNum="Bool"/>
+                <Argument Name="currentAvg" TypeNum="Float" />
+            </Outputs>
+        </Function>
+        <Function Name="CalcSoc">
+            <Inputs>
+                <Argument Name="currentAvg12V" TypeNum="Float" />
+                <Argument Name="currentAvg24V" TypeNum="Float" />
+            </Inputs>
+            <Outputs>
+                <Argument Name="soc" TypeNum="Float" />
+                <Argument Name="timeTo10Perc" TypeNum="TimeInterval" />
+            </Outputs>
+        </Function>
+        <Function Name="GetInputVoltageCharger">
+            <Inputs />
+            <Outputs>
+                <Argument Name="retFloat" TypeNum="Float" />
+            </Outputs>
+        </Function>
+    </InternalFunctions>
+    <Sequences>
+        <Run>
+            <Function TypeFunction="Internal">
+                <Call Name="CheckBattery">
+                    <Return NameClass="BattData" GlobalID="Batt.IsChargActive12V" />
+                    <Input Name="currentIn" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpIn" TypeData="Data" />
+                    <Input Name="currentOut" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpOut" TypeData="Data" />
+                    <Input Name="voltage" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattVolt" TypeData="Data" />
+                    <Output Name="currentAvg" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpAvg" TypeData="Data" />
+                </Call>
+            </Function>
+            <Function TypeFunction="Internal">
+                <Call Name="CheckBattery">
+                    <Return NameClass="BattData" GlobalID="Batt.IsChargActive24V" />
+                    <Input Name="currentIn" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpIn" TypeData="Data" />
+                    <Input Name="currentOut" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpOut" TypeData="Data" />
+                    <Input Name="voltage" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattVolt" TypeData="Data" />
+                    <Output Name="currentAvg" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpAvg" TypeData="Data" />
+                </Call>
+            </Function>
+            <Function TypeFunction="Internal">
+                <Call Name="CalcSoc">
+                    <Input Name="currentAvg12V" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpAvg" TypeData="Data" />
+                    <Input Name="currentAvg24V" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpAvg" TypeData="Data" />
+                    <Output Name="soc" NameClass="BattData" GlobalID="Batt.StatusOfCharge" TypeData="Data" />
+                    <Output Name="timeTo10Perc" NameClass="BattData" GlobalID="Batt.TimeTo10Percent" TypeData="Data" />
+                </Call>
+            </Function>
+            <Function TypeFunction="Internal">
+                <Call Name="GetInputVoltageCharger">
+                    <Return NameClass="BattData" GlobalID="Batt.StatusOfCharge" />
+                </Call>
+            </Function>
+        </Run>
+    </Sequences>
+</ProgramClass>

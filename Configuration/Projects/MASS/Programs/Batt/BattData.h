@@ -6,7 +6,7 @@
 #include "Programs/ioSystemData.h"
 #include "ioSystem/Data/ioEvent.h"
 #include "ioSystem/Data/ioMethod.h"
-class BattData : public ioDataCollectionDynamic
+class BattData : public ioDataCollection
 {
 public:
     BattData();
@@ -21,5 +21,6 @@ public:
     ioEvent ResponseBattData;
 protected:
     ioData* m_ListData[7];
+    ioVar* m_ResponseBattDataVars[5];
 };
 #endif // __BATTDATA_H

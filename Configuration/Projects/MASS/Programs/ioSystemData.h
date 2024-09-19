@@ -3,9 +3,6 @@
 #define __IOSYSTEMDATA_H
 #include "ioSystem/Core/ioTypes.h"
 #include "ioSystem/Data/ioEnumeration.h"
-#include "ioSystem/Data/ioEnumeration.h"
-#include "ioSystem/Data/ioEnumeration.h"
-#include "ioSystem/Data/ioEnumeration.h"
 typedef enum
 {
     Duid_NotDefined = 0,

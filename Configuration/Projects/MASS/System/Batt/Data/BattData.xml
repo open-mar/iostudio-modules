@@ -2,7 +2,7 @@
 <DataList Name="BattData">
     <Description>Data for battery monitoring</Description>
     <DataListObject ParentGlobalID="Batt">
-        <Variable LocalID="ChargeInputVolt" TypeNum="Float" Unit="VAC" Decimals="1" Min="0.0" Max="999.0">220</Variable>
+        <Variable LocalID="ChargeInputVolt" TypeNum="Float" Unit="VAC" Decimals="1" Min="0.0" Max="999.0">220.0</Variable>
         <Variable LocalID="IsChargActive12V" TypeNum="Bool">TRUE</Variable>
         <Variable LocalID="IsChargActive24V" TypeNum="Bool">FALSE</Variable>
         <Variable LocalID="StatusOfCharge" TypeNum="Float" Unit="%" Decimals="1" Min="0.0" Max="100.0">0.0</Variable>

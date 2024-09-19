@@ -6,7 +6,7 @@
 #include "Programs/ioSystemData.h"
 #include "ioSystem/Data/ioEvent.h"
 #include "ioSystem/Data/ioMethod.h"
-class PowOutData : public ioDataCollectionDynamic
+class PowOutData : public ioDataCollection
 {
 public:
     PowOutData();

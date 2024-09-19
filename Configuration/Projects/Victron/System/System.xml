@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<System SysID="Victron">
+    <NetworkCollection>
+        <Network NetID="NetEthernet" TypeNetwork="Ethernet">
+            <Description>Operational wired network for MASS</Description>
+            <NetworkData SubID="192.168.10">
+                <Properties>
+                    <Variable LocalID="NetAddr" TypeNum="String">192.168.10</Variable>
+                </Properties>
+                <PortNetCollection>
+                    <PortNetDevice ParentGlobalID="Batt" DevID="CerboGx" PortID="10">
+                        <PortNetProgram PortID="502" Protocol="Modbus" />
+                    </PortNetDevice>
+                    <PortNetDevice ParentGlobalID="Ids" DevID="C6015" PortID="11">
+                        <PortNetProgram PortID="54374" Protocol="System" />
+                    </PortNetDevice>
+                    <PortNetDevice ParentGlobalID="Ids" DevID="Op" PortID="12">
+                        <PortNetProgram PortID="54374" Protocol="System" />
+                    </PortNetDevice>
+                </PortNetCollection>
+            </NetworkData>
+        </Network>
+        <Network NetID="NetWiFi" TypeNetwork="Ethernet">
+            <Description>Operational wireless network for MASS</Description>
+            <NetworkData SubID="192.168.11">
+                <Properties>
+                    <Variable LocalID="NetAddr" TypeNum="String">192.168.11</Variable>
+                </Properties>
+                <PortNetCollection>
+                    <PortNetDevice ParentGlobalID="Batt" DevID="CerboGx" PortID="10">
+                        <PortNetProgram PortID="502" Protocol="Modbus" />
+                    </PortNetDevice>
+                    <PortNetDevice ParentGlobalID="Ids" DevID="C6015" PortID="11">
+                        <PortNetProgram PortID="54374" Protocol="System" />
+                    </PortNetDevice>
+                    <PortNetDevice ParentGlobalID="Ids" DevID="Op" PortID="12">
+                        <PortNetProgram PortID="54374" Protocol="System" />
+                    </PortNetDevice>
+                </PortNetCollection>
+            </NetworkData>
+        </Network>
+    </NetworkCollection>
+</System>

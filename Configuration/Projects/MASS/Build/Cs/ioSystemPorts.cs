@@ -4,7 +4,7 @@ namespace ioSystemNetworkNet
 {
     public enum ioSystemPortsType
     {
-        Puid_NotDefined = 0,
+        Nuid_NotDefined = 0,
         Nuid_NetEthernet_192_168_10_Batt_CerboGx_10 = 1,
         Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11 = 2,
         Nuid_NetEthernet_192_168_10_Ids_OpM_12 = 3,
@@ -53,7 +53,7 @@ namespace ioSystemNetworkNet
                 case "NetC.CanHs250.Steer.Ap.GnssR.8": return ioSystemPortsType.Nuid_NetC_CanHs250_Steer_Ap_GnssR_8;
                 case "NetC.CanHs250.Steer.Ap.Rudd.Rf.9": return ioSystemPortsType.Nuid_NetC_CanHs250_Steer_Ap_Rudd_Rf_9;
             } // switch
-            return ioSystemPortsType.Puid_NotDefined;
+            return ioSystemPortsType.Nuid_NotDefined;
         }
     } // class
 } // namespace

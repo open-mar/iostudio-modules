@@ -10,4 +10,5 @@ SteerApPanel::~SteerApPanel()
 }
 void SteerApPanel::InitializeData(void)
 {
+    m_PanelGraphics.SetListData((ioItem**)m_SteerApPanelGraphics, 19);
 }

@@ -12,7 +12,7 @@ SteerApDataApM::~SteerApDataApM()
 void SteerApDataApM::InitializeData(void)
 {
     SteerApData::InitializeData();
-    RudderAngleMeas.SetValue((Float)0.0);
+    RudderAngleMeas.SetValue((Float)0.1);
     AddData((ioData*)&RudderAngleMeas, Duid_Steer_ApM_RudderAngleMeas);
     FrontThrustMeas.SetValue((Float)0.0);
     AddData((ioData*)&FrontThrustMeas, Duid_Steer_ApM_FrontThrustMeas);

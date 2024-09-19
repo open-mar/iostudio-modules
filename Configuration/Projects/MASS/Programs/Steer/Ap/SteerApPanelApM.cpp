@@ -2,6 +2,7 @@
 #include "pch.h"
 #pragma hdrstop
 #include "SteerApPanelApM.h"
+#include "Programs/ioSystemGraphics.h"
 SteerApPanelApM::SteerApPanelApM()
 {
     InitializeData();
@@ -12,9 +13,34 @@ SteerApPanelApM::~SteerApPanelApM()
 void SteerApPanelApM::InitializeData(void)
 {
     SteerApPanel::InitializeData();
+    AddGraphics(&LabelApSteer, Puid_Steer_ApM_LabelApSteer);
+    LabelApSteer.SetTextForced((ioChars)"AUTOPILOT REFERENCE [°M]");
+    AddGraphics(&InstrHeadingRef, Puid_Steer_ApM_InstrHeadingRef);
+    InstrHeadingRef.SetTextForced((ioChars)"000");
     InstrHeadingRef.SetDecimals(1);
+    AddGraphics(&LabelHeading, Puid_Steer_ApM_LabelHeading);
+    LabelHeading.SetTextForced((ioChars)"HEADING [°M]");
+    AddGraphics(&InstrHeading, Puid_Steer_ApM_InstrHeading);
+    InstrHeading.SetTextForced((ioChars)"000.0");
     InstrHeading.SetDecimals(1);
+    AddGraphics(&ShapeContourShip, Puid_Steer_ApM_ShapeContourShip);
+    AddGraphics(&CompThruster, Puid_Steer_ApM_CompThruster);
+    AddGraphics(&CompRudder, Puid_Steer_ApM_CompRudder);
+    AddGraphics(&CompRateOfTurn, Puid_Steer_ApM_CompRateOfTurn);
+    AddGraphics(&CompEngine, Puid_Steer_ApM_CompEngine);
+    AddGraphics(&TextRotValue, Puid_Steer_ApM_TextRotValue);
+    TextRotValue.SetTextForced((ioChars)"044");
     TextRotValue.SetDecimals(0);
+    AddGraphics(&LabelRot, Puid_Steer_ApM_LabelRot);
+    LabelRot.SetTextForced((ioChars)"°/min");
+    AddGraphics(&TextEngineValue, Puid_Steer_ApM_TextEngineValue);
+    TextEngineValue.SetTextForced((ioChars)"1500");
     TextEngineValue.SetDecimals(0);
+    AddGraphics(&LabelEngine, Puid_Steer_ApM_LabelEngine);
+    LabelEngine.SetTextForced((ioChars)"RPM");
+    AddGraphics(&TextThrustValue, Puid_Steer_ApM_TextThrustValue);
+    TextThrustValue.SetTextForced((ioChars)"-40");
     TextThrustValue.SetDecimals(0);
+    AddGraphics(&LabelThrust, Puid_Steer_ApM_LabelThrust);
+    LabelThrust.SetTextForced((ioChars)"%");
 }

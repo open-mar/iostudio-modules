@@ -2,7 +2,7 @@
 <DataList Name="SteerApData">
     <Description>Autopilot data</Description>
     <DataListObject ParentGlobalID="Steer.ApM">
-        <Variable LocalID="RudderAngleMeas" TypeNum="Float" Unit="°" Decimals="1" Min="-99.0" Max="99.0">0.0</Variable>
+        <Variable LocalID="RudderAngleMeas" TypeNum="Float" Unit="°" Decimals="1" Min="-99.0" Max="99.0">0.1</Variable>
         <Variable LocalID="FrontThrustMeas" TypeNum="Float" Unit="%" Decimals="3" Min="-1.000" Max="1.000">0.0</Variable>
         <Variable LocalID="RateOfTurnMeas" TypeNum="Float" Unit="°/min" Decimals="1" Min="-999.0" Max="999.0">0.0</Variable>
         <Variable LocalID="HeadingMeas" TypeNum="Float" Unit="°" Decimals="1" Min="0.0" Max="359.9">0.00</Variable>
