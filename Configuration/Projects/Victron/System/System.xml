@@ -39,5 +39,37 @@
                 </PortNetCollection>
             </NetworkData>
         </Network>
+        <Network NetID="NetDc12" TypeNetwork="Power">
+            <Description>Power network for 12VDC</Description>
+            <NetworkData SubID="Gen1">
+                <PortNetCollection>
+                    <PortNetDevice ParentGlobalID="Batt.Dc12" DevID="Argofet" PortID="Output1"/>
+                    <PortNetDevice ParentGlobalID="Batt.Dc12" DevID="Fus12" PortID="Port1"/>
+                    <PortNetDevice ParentGlobalID="Batt.Dc12" DevID="Chg12V" PortID="Output1"/>
+                </PortNetCollection>
+            </NetworkData>
+            <NetworkData SubID="Gen2">
+                <PortNetCollection>
+                    <PortNetDevice ParentGlobalID="Batt.Dc12" DevID="Argofet" PortID="Output2"/>
+                    <PortNetDevice ParentGlobalID="Batt.Dc12" DevID="FusA" PortID="Port1"/>
+                    <PortNetDevice ParentGlobalID="Batt.Dc12" DevID="FusS" PortID="Port1"/>
+                    <PortNetDevice ParentGlobalID="Batt.Dc12" DevID="SwA" PortID="Port1"/>
+                    <PortNetDevice ParentGlobalID="Batt.Dc12" DevID="Chg12V" PortID="Output2"/>
+                </PortNetCollection>
+            </NetworkData>
+            <NetworkData SubID="Gen3">
+                <PortNetCollection>
+                    <PortNetDevice ParentGlobalID="Batt.Dc12" DevID="Argofet" PortID="Output3"/>
+                </PortNetCollection>
+            </NetworkData>
+        </Network>
+        <Network NetID="NetDc24" TypeNetwork="Power">
+            <Description>Power network for 24VDC</Description>
+            <NetworkData SubID="Gen3">
+                <PortNetCollection>
+                    <PortNetDevice ParentGlobalID="Batt.Dc12" DevID="Argofet" PortID="Output3"/>
+                </PortNetCollection>
+            </NetworkData>
+        </Network>
     </NetworkCollection>
 </System>

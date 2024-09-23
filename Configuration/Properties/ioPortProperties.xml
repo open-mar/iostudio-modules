@@ -77,6 +77,15 @@
                 <DevicePort Name="CANopen"/>
             </NetworkPorts>
         </NetworkType>
+        <NetworkType Name="Power">
+            <Properties>
+            </Properties>
+            <NetworkPorts>
+                <DevicePort Name="12VDC"/>
+                <DevicePort Name="24VDC"/>
+                <DevicePort Name="220VAC"/>
+            </NetworkPorts>
+        </NetworkType>
     </NetworkTypesCollection>
 
     <ProgramPortTypesCollection>
