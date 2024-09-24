@@ -2,11 +2,22 @@
 #if !defined(__BATTCHARGINGPANEL_H)
 #define __BATTCHARGINGPANEL_H
 #include "ioSystem/Panels/ioPanel.h"
+#include "ioSystem/Panels/ioGraphicsText.h"
+#include "ioSystem/Panels/ioShape.h"
 class BattChargingPanel : public ioPanel
 {
 public:
     BattChargingPanel();
     virtual ~BattChargingPanel();
-    void InitializeData(void);
+    virtual void InitializeData(void);
+    ioLabel LabelBattCharging;
+    ioTextBlock InstrChargeInputVolt;
+    ioLabel LabelChargeInputVolt;
+    ioShape ShapeActiveCharge12V;
+    ioLabel LabelActiveCharge12V;
+    ioShape ShapeActiveCharge24V;
+    ioLabel LabelActiveCharge24V;
+protected:
+    ioGraphics* m_BattChargingPanelGraphics[7];
 };
 #endif // __BATTCHARGINGPANEL_H

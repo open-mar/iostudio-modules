@@ -262,6 +262,12 @@
     <ClInclude Include="..\..\Programs\Steer\Cp\CmdPanelSteerCpM.h">
       <Filter>Programs\Steer\Cp</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Programs\Batt\BattChargingPanel.h">
+      <Filter>Programs\Batt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Batt\BattStatusPanel.h">
+      <Filter>Programs\Batt</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MassProgramsSimulation.cpp">
@@ -488,6 +494,12 @@
     </ClCompile>
     <ClCompile Include="..\..\Programs\Steer\Cp\CmdPanelSteerCpM.cpp">
       <Filter>Programs\Steer\Cp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Batt\BattChargingPanel.cpp">
+      <Filter>Programs\Batt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Batt\BattStatusPanel.cpp">
+      <Filter>Programs\Batt</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

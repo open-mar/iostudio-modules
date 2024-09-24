@@ -10,5 +10,4 @@ PowCommandModePanel::~PowCommandModePanel()
 }
 void PowCommandModePanel::InitializeData(void)
 {
-    m_PanelGraphics.SetListData((ioItem**)m_PowCommandModePanelGraphics, 2);
 }

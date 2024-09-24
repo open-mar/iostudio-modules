@@ -7,6 +7,6 @@ class BattPanel : public ioPanel
 public:
     BattPanel();
     virtual ~BattPanel();
-    void InitializeData(void);
+    virtual void InitializeData(void);
 };
 #endif // __BATTPANEL_H

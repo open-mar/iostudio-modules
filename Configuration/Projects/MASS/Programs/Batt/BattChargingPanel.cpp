@@ -2,13 +2,27 @@
 #include "pch.h"
 #pragma hdrstop
 #include "BattChargingPanel.h"
+#include "Programs/ioSystemGraphics.h"
 BattChargingPanel::BattChargingPanel()
 {
-    InitializeData();
 }
 BattChargingPanel::~BattChargingPanel()
 {
 }
 void BattChargingPanel::InitializeData(void)
 {
+    m_PanelGraphics.SetListData((ioItem**)m_BattChargingPanelGraphics, 7);
+    AddGraphics(&LabelBattCharging, Puid_Batt_LabelBattCharging);
+    LabelBattCharging.SetTextForced((ioChars)"CHARGING");
+    AddGraphics(&InstrChargeInputVolt, Puid_Batt_InstrChargeInputVolt);
+    InstrChargeInputVolt.SetTextForced((ioChars)"220.1");
+    InstrChargeInputVolt.SetDecimals(1);
+    AddGraphics(&LabelChargeInputVolt, Puid_Batt_LabelChargeInputVolt);
+    LabelChargeInputVolt.SetTextForced((ioChars)"Input voltage [VAC]");
+    AddGraphics(&ShapeActiveCharge12V, Puid_Batt_ShapeActiveCharge12V);
+    AddGraphics(&LabelActiveCharge12V, Puid_Batt_LabelActiveCharge12V);
+    LabelActiveCharge12V.SetTextForced((ioChars)"12V charging is active");
+    AddGraphics(&ShapeActiveCharge24V, Puid_Batt_ShapeActiveCharge24V);
+    AddGraphics(&LabelActiveCharge24V, Puid_Batt_LabelActiveCharge24V);
+    LabelActiveCharge24V.SetTextForced((ioChars)"24V charging is active");
 }

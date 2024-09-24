@@ -2,13 +2,26 @@
 #include "pch.h"
 #pragma hdrstop
 #include "BattStatusPanel.h"
+#include "Programs/ioSystemGraphics.h"
 BattStatusPanel::BattStatusPanel()
 {
-    InitializeData();
 }
 BattStatusPanel::~BattStatusPanel()
 {
 }
 void BattStatusPanel::InitializeData(void)
 {
+    m_PanelGraphics.SetListData((ioItem**)m_BattStatusPanelGraphics, 5);
+    AddGraphics(&LabelStatus, Puid_Batt_LabelStatus);
+    LabelStatus.SetTextForced((ioChars)"BATTERY STATUS");
+    AddGraphics(&InstrSoc, Puid_Batt_InstrSoc);
+    InstrSoc.SetTextForced((ioChars)"95.1");
+    InstrSoc.SetDecimals(1);
+    AddGraphics(&LabelSoc, Puid_Batt_LabelSoc);
+    LabelSoc.SetTextForced((ioChars)"SOC [%]");
+    AddGraphics(&InstrTime, Puid_Batt_InstrTime);
+    InstrTime.SetTextForced((ioChars)"2d 13:45:32");
+    InstrTime.SetDecimals(1);
+    AddGraphics(&LabelTime, Puid_Batt_LabelTime);
+    LabelTime.SetTextForced((ioChars)"Time to 10% SOC");
 }

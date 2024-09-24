@@ -8,7 +8,5 @@ public:
     PowCommandModePanel();
     virtual ~PowCommandModePanel();
     virtual void InitializeData(void);
-protected:
-    ioGraphics* m_PowCommandModePanelGraphics[2];
 };
 #endif // __POWCOMMANDMODEPANEL_H

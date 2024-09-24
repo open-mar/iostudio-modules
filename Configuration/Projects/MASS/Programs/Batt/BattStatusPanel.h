@@ -2,11 +2,19 @@
 #if !defined(__BATTSTATUSPANEL_H)
 #define __BATTSTATUSPANEL_H
 #include "ioSystem/Panels/ioPanel.h"
+#include "ioSystem/Panels/ioGraphicsText.h"
 class BattStatusPanel : public ioPanel
 {
 public:
     BattStatusPanel();
     virtual ~BattStatusPanel();
-    void InitializeData(void);
+    virtual void InitializeData(void);
+    ioLabel LabelStatus;
+    ioTextBlock InstrSoc;
+    ioLabel LabelSoc;
+    ioTextBlock InstrTime;
+    ioLabel LabelTime;
+protected:
+    ioGraphics* m_BattStatusPanelGraphics[5];
 };
 #endif // __BATTSTATUSPANEL_H

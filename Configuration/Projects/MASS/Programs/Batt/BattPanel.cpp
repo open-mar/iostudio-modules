@@ -2,9 +2,9 @@
 #include "pch.h"
 #pragma hdrstop
 #include "BattPanel.h"
+#include "Programs/ioSystemGraphics.h"
 BattPanel::BattPanel()
 {
-    InitializeData();
 }
 BattPanel::~BattPanel()
 {
