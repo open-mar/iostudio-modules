@@ -35,6 +35,9 @@
     <Filter Include="Programs\Pow\Cp">
       <UniqueIdentifier>{a1eeb0ae-5e07-43b4-9f80-dfaaa2e2a29b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Programs\Pow\Indicator">
+      <UniqueIdentifier>{d4a19a18-6605-46ea-aac6-1ff21b421b92}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Programs\Batt\Dc\BattDcData.h">
@@ -268,6 +271,48 @@
     <ClInclude Include="..\..\Programs\Batt\BattStatusPanel.h">
       <Filter>Programs\Batt</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Programs\Pow\Indicator\PowerIndicatorPanel.h">
+      <Filter>Programs\Pow\Indicator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Pow\Indicator\PowerIndicatorPanelOut12V.h">
+      <Filter>Programs\Pow\Indicator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Pow\Indicator\PowerIndicatorPanelOut24V.h">
+      <Filter>Programs\Pow\Indicator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Pow\Indicator\PowerIndicatorPanelOut220V.h">
+      <Filter>Programs\Pow\Indicator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Pow\Out\PowIndicatorPanel.h">
+      <Filter>Programs\Pow\Out</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Pow\Out\PowIndicatorPanelOut12A.h">
+      <Filter>Programs\Pow\Out</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Pow\Out\PowIndicatorPanelOut12F.h">
+      <Filter>Programs\Pow\Out</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Pow\Out\PowIndicatorPanelOut12M.h">
+      <Filter>Programs\Pow\Out</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Pow\Out\PowIndicatorPanelOut24A.h">
+      <Filter>Programs\Pow\Out</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Pow\Out\PowIndicatorPanelOut24F.h">
+      <Filter>Programs\Pow\Out</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Pow\Out\PowIndicatorPanelOut24M.h">
+      <Filter>Programs\Pow\Out</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Pow\Out\PowIndicatorPanelOut220A.h">
+      <Filter>Programs\Pow\Out</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Pow\Out\PowIndicatorPanelOut220F.h">
+      <Filter>Programs\Pow\Out</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Pow\Out\PowIndicatorPanelOut220M.h">
+      <Filter>Programs\Pow\Out</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MassProgramsSimulation.cpp">
@@ -500,6 +545,48 @@
     </ClCompile>
     <ClCompile Include="..\..\Programs\Batt\BattStatusPanel.cpp">
       <Filter>Programs\Batt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Pow\Indicator\PowerIndicatorPanel.cpp">
+      <Filter>Programs\Pow\Indicator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Pow\Indicator\PowerIndicatorPanelOut12V.cpp">
+      <Filter>Programs\Pow\Indicator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Pow\Indicator\PowerIndicatorPanelOut24V.cpp">
+      <Filter>Programs\Pow\Indicator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Pow\Indicator\PowerIndicatorPanelOut220V.cpp">
+      <Filter>Programs\Pow\Indicator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Pow\Out\PowIndicatorPanel.cpp">
+      <Filter>Programs\Pow\Out</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Pow\Out\PowIndicatorPanelOut12A.cpp">
+      <Filter>Programs\Pow\Out</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Pow\Out\PowIndicatorPanelOut12F.cpp">
+      <Filter>Programs\Pow\Out</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Pow\Out\PowIndicatorPanelOut12M.cpp">
+      <Filter>Programs\Pow\Out</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Pow\Out\PowIndicatorPanelOut24A.cpp">
+      <Filter>Programs\Pow\Out</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Pow\Out\PowIndicatorPanelOut24F.cpp">
+      <Filter>Programs\Pow\Out</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Pow\Out\PowIndicatorPanelOut24M.cpp">
+      <Filter>Programs\Pow\Out</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Pow\Out\PowIndicatorPanelOut220A.cpp">
+      <Filter>Programs\Pow\Out</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Pow\Out\PowIndicatorPanelOut220F.cpp">
+      <Filter>Programs\Pow\Out</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Pow\Out\PowIndicatorPanelOut220M.cpp">
+      <Filter>Programs\Pow\Out</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

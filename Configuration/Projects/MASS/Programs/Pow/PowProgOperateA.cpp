@@ -14,6 +14,24 @@ void PowProgOperateA::InitializeTask(void)
 {
     ioProgram::InitializeTask();
     AddPanel((ioPanel*)&PanelCmdCpA);
+    AddPanel((ioPanel*)&PanelOut12M);
+    AddPanel((ioPanel*)&PanelOut12F);
+    AddPanel((ioPanel*)&PanelOut12A);
+    AddPanel((ioPanel*)&PanelOut24M);
+    AddPanel((ioPanel*)&PanelOut24F);
+    AddPanel((ioPanel*)&PanelOut24A);
+    AddPanel((ioPanel*)&PanelOut220M);
+    AddPanel((ioPanel*)&PanelOut220F);
+    AddPanel((ioPanel*)&PanelOut220A);
+    AddPanel((ioPanel*)&PanelIndOut12M);
+    AddPanel((ioPanel*)&PanelIndOut12F);
+    AddPanel((ioPanel*)&PanelIndOut12A);
+    AddPanel((ioPanel*)&PanelIndOut24M);
+    AddPanel((ioPanel*)&PanelIndOut24F);
+    AddPanel((ioPanel*)&PanelIndOut24A);
+    AddPanel((ioPanel*)&PanelIndOut220M);
+    AddPanel((ioPanel*)&PanelIndOut220F);
+    AddPanel((ioPanel*)&PanelIndOut220A);
 }
 void PowProgOperateA::Run(Int32 activeSlot)
 {

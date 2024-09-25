@@ -23,6 +23,15 @@ void PowProgOperateM::InitializeTask(void)
     AddPanel((ioPanel*)&PanelOut220M);
     AddPanel((ioPanel*)&PanelOut220F);
     AddPanel((ioPanel*)&PanelOut220A);
+    AddPanel((ioPanel*)&PanelIndOut12M);
+    AddPanel((ioPanel*)&PanelIndOut12F);
+    AddPanel((ioPanel*)&PanelIndOut12A);
+    AddPanel((ioPanel*)&PanelIndOut24M);
+    AddPanel((ioPanel*)&PanelIndOut24F);
+    AddPanel((ioPanel*)&PanelIndOut24A);
+    AddPanel((ioPanel*)&PanelIndOut220M);
+    AddPanel((ioPanel*)&PanelIndOut220F);
+    AddPanel((ioPanel*)&PanelIndOut220A);
 }
 void PowProgOperateM::Run(Int32 activeSlot)
 {

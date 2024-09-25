@@ -32,6 +32,17 @@
             <Item NameClass="PowOutPanelOut220F" NameObject="PanelOut220F" />
             <Item NameClass="PowOutPanelOut220A" NameObject="PanelOut220A" />
         </PanelInProgram>
+        <PanelInProgram Name="Pow::Out::PowIndicatorPanel" NameObject="PanelInd">
+            <Item NameClass="PowIndicatorPanelOut12M" NameObject="PanelIndOut12M" />
+            <Item NameClass="PowIndicatorPanelOut12F" NameObject="PanelIndOut12F" />
+            <Item NameClass="PowIndicatorPanelOut12A" NameObject="PanelIndOut12A" />
+            <Item NameClass="PowIndicatorPanelOut24M" NameObject="PanelIndOut24M" />
+            <Item NameClass="PowIndicatorPanelOut24F" NameObject="PanelIndOut24F" />
+            <Item NameClass="PowIndicatorPanelOut24A" NameObject="PanelIndOut24A" />
+            <Item NameClass="PowIndicatorPanelOut220M" NameObject="PanelIndOut220M" />
+            <Item NameClass="PowIndicatorPanelOut220F" NameObject="PanelIndOut220F" />
+            <Item NameClass="PowIndicatorPanelOut220A" NameObject="PanelIndOut220A" />
+        </PanelInProgram>
     </PanelsCollection>
     <Sequences>
         <Run />
