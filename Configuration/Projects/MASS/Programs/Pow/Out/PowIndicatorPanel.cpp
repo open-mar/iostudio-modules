@@ -10,5 +10,5 @@ PowIndicatorPanel::~PowIndicatorPanel()
 }
 void PowIndicatorPanel::InitializeData(void)
 {
-    m_PanelGraphics.SetListData((ioItem**)m_PowIndicatorPanelGraphics, 24);
+    m_PanelGraphics.SetListData((ioItem**)m_PowIndicatorPanelGraphics, 16);
 }

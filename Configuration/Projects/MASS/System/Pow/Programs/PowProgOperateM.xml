@@ -54,5 +54,11 @@
                 <DataAssigned NameClass="PowCpDataCpM" GlobalID="Pow.CpM.ActiveStationPow" />
             </GraphicsData>
         </RxTxData>
+        <GraphicsEvent NameClass="PowOutPanelOut12A" GlobalID="Pow.Out12A.ButtOnCh1.Clicked">
+            <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.SwitchOnCh1" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12A" GlobalID="Pow.Out12A.ButtOffCh1.Clicked">
+            <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.SwitchOffCh1" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
     </Sequences>
 </ProgramClass>

@@ -27,6 +27,6 @@ public:
     ioShape ShpOnOffInd8;
     ioLabel LabelNameInd8;
 protected:
-    ioGraphics* m_PowIndicatorPanelGraphics[24];
+    ioGraphics* m_PowIndicatorPanelGraphics[16];
 };
 #endif // __POWINDICATORPANEL_H

@@ -3,8 +3,6 @@
 #define __POWOUTPANEL_H
 #include "ioSystem/Panels/ioPanel.h"
 #include "ioSystem/Panels/ioButtonText.h"
-#include "ioSystem/Panels/ioShape.h"
-#include "ioSystem/Panels/ioGraphicsText.h"
 class PowOutPanel : public ioPanel
 {
 public:
@@ -13,37 +11,21 @@ public:
     virtual void InitializeData(void);
     ioButtonShape ButtOffCh1;
     ioButtonShape ButtOnCh1;
-    ioShape ShpOnOff1;
-    ioLabel LabelName1;
     ioButtonShape ButtOffCh2;
     ioButtonShape ButtOnCh2;
-    ioShape ShpOnOff2;
-    ioLabel LabelName2;
     ioButtonShape ButtOffCh3;
     ioButtonShape ButtOnCh3;
-    ioShape ShpOnOff3;
-    ioLabel LabelName3;
     ioButtonShape ButtOffCh4;
     ioButtonShape ButtOnCh4;
-    ioShape ShpOnOff4;
-    ioLabel LabelName4;
     ioButtonShape ButtOffCh5;
     ioButtonShape ButtOnCh5;
-    ioShape ShpOnOff5;
-    ioLabel LabelName5;
     ioButtonShape ButtOffCh6;
     ioButtonShape ButtOnCh6;
-    ioShape ShpOnOff6;
-    ioLabel LabelName6;
     ioButtonShape ButtOffCh7;
     ioButtonShape ButtOnCh7;
-    ioShape ShpOnOff7;
-    ioLabel LabelName7;
     ioButtonShape ButtOffCh8;
     ioButtonShape ButtOnCh8;
-    ioShape ShpOnOff8;
-    ioLabel LabelName8;
 protected:
-    ioGraphics* m_PowOutPanelGraphics[40];
+    ioGraphics* m_PowOutPanelGraphics[16];
 };
 #endif // __POWOUTPANEL_H

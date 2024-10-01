@@ -15,7 +15,7 @@ void PowIndicatorPanelOut12A::InitializeData(void)
     PowIndicatorPanel::InitializeData();
     AddGraphics(&ShpOnOffInd1, Puid_Pow_Out12A_ShpOnOffInd1);
     AddGraphics(&LabelNameInd1, Puid_Pow_Out12A_LabelNameInd1);
-    LabelNameInd1.SetTextForced((ioChars)"NameChannel_12A1");
+    LabelNameInd1.SetTextForced((ioChars)"AP Clutch");
     AddGraphics(&ShpOnOffInd2, Puid_Pow_Out12A_ShpOnOffInd2);
     AddGraphics(&LabelNameInd2, Puid_Pow_Out12A_LabelNameInd2);
     LabelNameInd2.SetTextForced((ioChars)"NameChannel_12A2");

@@ -1,6 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DataList Name="PowOutData">
     <Description>Data for MASS power outputs</Description>
+    <Properties>
+        <Enumeration LocalID="TypeDevicePow">
+            <Type Name="Aft12V" TypeID="0" />
+            <Type Name="Mid12V" TypeID="1" />
+            <Type Name="Front12V" TypeID="2" />
+            <Type Name="Aft24V" TypeID="3" />
+            <Type Name="Mid24V" TypeID="4" />
+            <Type Name="Front24V" TypeID="5" />
+        </Enumeration>
+        <Enumeration LocalID="TypePowOut">
+            <Type Name="ApClutch" TypeID="0" />
+        </Enumeration>
+    </Properties>
     <DataListObject ParentGlobalID="Pow.Out12M">
         <Variable LocalID="OnCh1" TypeNum="Bool">FALSE</Variable>
         <Variable LocalID="OnCh2" TypeNum="Bool">FALSE</Variable>
@@ -101,7 +114,6 @@
         <Method LocalID="SwitchOffCh7" />
         <Method LocalID="SwitchOffCh8" />
         <Event LocalID="OutStatus">
-            <NumberID>OnCh1</NumberID>
             <NumberID>OnCh2</NumberID>
             <NumberID>OnCh3</NumberID>
             <NumberID>OnCh4</NumberID>
@@ -109,6 +121,7 @@
             <NumberID>OnCh6</NumberID>
             <NumberID>OnCh7</NumberID>
             <NumberID>OnCh8</NumberID>
+            <NumberID>OnCh1</NumberID>
         </Event>
         <Method LocalID="OnRequestPowData" />
     </DataListObject>

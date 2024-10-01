@@ -3,6 +3,7 @@
     <Description>Operation panel for power output</Description>
     <PanelObject ParentGlobalID="Pow.Out12M" Background="ContainerBackground">
         <RowDefinition />
+        <ColumnDefinition Size="210" />
         <ColumnDefinition />
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
@@ -12,12 +13,6 @@
                 <ioButtonShape LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff1" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="On" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertRunning" />
-                </ioShape>
-                <ioLabel LocalID="LabelName1" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_12M1" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh2" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
@@ -26,12 +21,6 @@
                 <ioButtonShape LocalID="ButtOnCh2" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff2" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName2" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_12M2" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh3" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh3" HorizontalAlignment="Left" Width="100">
@@ -40,12 +29,6 @@
                 <ioButtonShape LocalID="ButtOnCh3" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff3" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName3" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_12M3" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh4" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh4" HorizontalAlignment="Left" Width="100">
@@ -54,12 +37,6 @@
                 <ioButtonShape LocalID="ButtOnCh4" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff4" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName4" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_12M4" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh5" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh5" HorizontalAlignment="Left" Width="100">
@@ -68,12 +45,6 @@
                 <ioButtonShape LocalID="ButtOnCh5" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff5" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName5" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_12M5" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh6" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh6" HorizontalAlignment="Left" Width="100">
@@ -82,12 +53,6 @@
                 <ioButtonShape LocalID="ButtOnCh6" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff6" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName6" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_12M6" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh7" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh7" HorizontalAlignment="Left" Width="100">
@@ -96,12 +61,6 @@
                 <ioButtonShape LocalID="ButtOnCh7" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff7" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName7" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_12M7" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh8" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh8" HorizontalAlignment="Left" Width="100">
@@ -110,17 +69,15 @@
                 <ioButtonShape LocalID="ButtOnCh8" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff8" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName8" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_12M8" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
+        </Grid>
+        <Grid Row="1" Column="2">
+            <ioPanelGrid LocalID="Ind12M" PanelGlobalID="Pow.Out12M.PowIndicatorPanel" />
         </Grid>
     </PanelObject>
     <PanelObject ParentGlobalID="Pow.Out12F" Background="ContainerBackground">
         <RowDefinition />
+        <ColumnDefinition Size="210" />
         <ColumnDefinition />
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
@@ -130,12 +87,6 @@
                 <ioButtonShape LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff1" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName1" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_12F1" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh2" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
@@ -144,12 +95,6 @@
                 <ioButtonShape LocalID="ButtOnCh2" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff2" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="On" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertRunning" />
-                </ioShape>
-                <ioLabel LocalID="LabelName2" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_12F2" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh3" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh3" HorizontalAlignment="Left" Width="100">
@@ -158,12 +103,6 @@
                 <ioButtonShape LocalID="ButtOnCh3" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff3" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName3" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_12F3" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh4" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh4" HorizontalAlignment="Left" Width="100">
@@ -172,12 +111,6 @@
                 <ioButtonShape LocalID="ButtOnCh4" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff4" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName4" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_12F4" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh5" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh5" HorizontalAlignment="Left" Width="100">
@@ -186,12 +119,6 @@
                 <ioButtonShape LocalID="ButtOnCh5" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff5" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName5" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_12F5" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh6" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh6" HorizontalAlignment="Left" Width="100">
@@ -200,12 +127,6 @@
                 <ioButtonShape LocalID="ButtOnCh6" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff6" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName6" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_12F6" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh7" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh7" HorizontalAlignment="Left" Width="100">
@@ -214,12 +135,6 @@
                 <ioButtonShape LocalID="ButtOnCh7" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff7" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName7" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_12F7" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh8" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh8" HorizontalAlignment="Left" Width="100">
@@ -228,17 +143,15 @@
                 <ioButtonShape LocalID="ButtOnCh8" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff8" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName8" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_12F8" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
+        </Grid>
+        <Grid Row="1" Column="2">
+            <ioPanelGrid LocalID="Ind12F" PanelGlobalID="Pow.Out12F.PowIndicatorPanel" />
         </Grid>
     </PanelObject>
     <PanelObject ParentGlobalID="Pow.Out12A" Background="ContainerBackground">
         <RowDefinition />
+        <ColumnDefinition Size="210" />
         <ColumnDefinition />
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
@@ -248,12 +161,6 @@
                 <ioButtonShape LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff1" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName1" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_12A1" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh2" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
@@ -262,12 +169,6 @@
                 <ioButtonShape LocalID="ButtOnCh2" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff2" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName2" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_12A2" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh3" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh3" HorizontalAlignment="Left" Width="100">
@@ -276,12 +177,6 @@
                 <ioButtonShape LocalID="ButtOnCh3" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff3" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="On" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertRunning" />
-                </ioShape>
-                <ioLabel LocalID="LabelName3" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_12A3" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh4" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh4" HorizontalAlignment="Left" Width="100">
@@ -290,12 +185,6 @@
                 <ioButtonShape LocalID="ButtOnCh4" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff4" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName4" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_12A4" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh5" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh5" HorizontalAlignment="Left" Width="100">
@@ -304,12 +193,6 @@
                 <ioButtonShape LocalID="ButtOnCh5" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff5" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName5" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_12A5" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh6" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh6" HorizontalAlignment="Left" Width="100">
@@ -318,12 +201,6 @@
                 <ioButtonShape LocalID="ButtOnCh6" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff6" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName6" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_12A6" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh7" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh7" HorizontalAlignment="Left" Width="100">
@@ -332,12 +209,6 @@
                 <ioButtonShape LocalID="ButtOnCh7" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff7" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName7" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_12A7" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh8" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh8" HorizontalAlignment="Left" Width="100">
@@ -346,17 +217,15 @@
                 <ioButtonShape LocalID="ButtOnCh8" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff8" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName8" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_12A8" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
+        </Grid>
+        <Grid Row="1" Column="2">
+            <ioPanelGrid LocalID="Ind12A" PanelGlobalID="Pow.Out12A.PowIndicatorPanel" />
         </Grid>
     </PanelObject>
     <PanelObject ParentGlobalID="Pow.Out24M" Background="ContainerBackground">
         <RowDefinition />
+        <ColumnDefinition Size="210" />
         <ColumnDefinition />
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
@@ -366,12 +235,6 @@
                 <ioButtonShape LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff1" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName1" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_24M1" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh2" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
@@ -380,12 +243,6 @@
                 <ioButtonShape LocalID="ButtOnCh2" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff2" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName2" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_24M2" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh3" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh3" HorizontalAlignment="Left" Width="100">
@@ -394,12 +251,6 @@
                 <ioButtonShape LocalID="ButtOnCh3" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff3" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName3" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_24M3" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh4" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh4" HorizontalAlignment="Left" Width="100">
@@ -408,12 +259,6 @@
                 <ioButtonShape LocalID="ButtOnCh4" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff4" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="On" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertRunning" />
-                </ioShape>
-                <ioLabel LocalID="LabelName4" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_24M4" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh5" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh5" HorizontalAlignment="Left" Width="100">
@@ -422,12 +267,6 @@
                 <ioButtonShape LocalID="ButtOnCh5" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff5" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName5" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_24M5" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh6" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh6" HorizontalAlignment="Left" Width="100">
@@ -436,12 +275,6 @@
                 <ioButtonShape LocalID="ButtOnCh6" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff6" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName6" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_24M6" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh7" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh7" HorizontalAlignment="Left" Width="100">
@@ -450,12 +283,6 @@
                 <ioButtonShape LocalID="ButtOnCh7" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff7" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName7" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_24M7" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh8" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh8" HorizontalAlignment="Left" Width="100">
@@ -464,17 +291,15 @@
                 <ioButtonShape LocalID="ButtOnCh8" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff8" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName8" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_24M8" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
+        </Grid>
+        <Grid Row="1" Column="2">
+            <ioPanelGrid LocalID="Ind24M" PanelGlobalID="Pow.Out24M.PowIndicatorPanel" />
         </Grid>
     </PanelObject>
     <PanelObject ParentGlobalID="Pow.Out24F" Background="ContainerBackground">
         <RowDefinition />
+        <ColumnDefinition Size="210" />
         <ColumnDefinition />
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
@@ -484,12 +309,6 @@
                 <ioButtonShape LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff1" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName1" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_24F1" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh2" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
@@ -498,12 +317,6 @@
                 <ioButtonShape LocalID="ButtOnCh2" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff2" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName2" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_24F2" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh3" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh3" HorizontalAlignment="Left" Width="100">
@@ -512,12 +325,6 @@
                 <ioButtonShape LocalID="ButtOnCh3" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff3" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName3" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_24F3" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh4" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh4" HorizontalAlignment="Left" Width="100">
@@ -526,12 +333,6 @@
                 <ioButtonShape LocalID="ButtOnCh4" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff4" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName4" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_24F4" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh5" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh5" HorizontalAlignment="Left" Width="100">
@@ -540,12 +341,6 @@
                 <ioButtonShape LocalID="ButtOnCh5" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff5" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="On" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertRunning" />
-                </ioShape>
-                <ioLabel LocalID="LabelName5" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_24F5" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh6" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh6" HorizontalAlignment="Left" Width="100">
@@ -554,12 +349,6 @@
                 <ioButtonShape LocalID="ButtOnCh6" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff6" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName6" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_24F6" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh7" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh7" HorizontalAlignment="Left" Width="100">
@@ -568,12 +357,6 @@
                 <ioButtonShape LocalID="ButtOnCh7" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff7" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName7" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_24F7" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh8" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh8" HorizontalAlignment="Left" Width="100">
@@ -582,17 +365,15 @@
                 <ioButtonShape LocalID="ButtOnCh8" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff8" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName8" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_24F8" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
+        </Grid>
+        <Grid Row="1" Column="2">
+            <ioPanelGrid LocalID="Ind24F" PanelGlobalID="Pow.Out24F.PowIndicatorPanel" />
         </Grid>
     </PanelObject>
     <PanelObject ParentGlobalID="Pow.Out24A" Background="ContainerBackground">
         <RowDefinition />
+        <ColumnDefinition Size="210" />
         <ColumnDefinition />
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
@@ -602,12 +383,6 @@
                 <ioButtonShape LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff1" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName1" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_24A1" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh2" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
@@ -616,12 +391,6 @@
                 <ioButtonShape LocalID="ButtOnCh2" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff2" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName2" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_24A2" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh3" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh3" HorizontalAlignment="Left" Width="100">
@@ -630,12 +399,6 @@
                 <ioButtonShape LocalID="ButtOnCh3" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff3" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName3" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_24A3" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh4" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh4" HorizontalAlignment="Left" Width="100">
@@ -644,12 +407,6 @@
                 <ioButtonShape LocalID="ButtOnCh4" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff4" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName4" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_24A4" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh5" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh5" HorizontalAlignment="Left" Width="100">
@@ -658,12 +415,6 @@
                 <ioButtonShape LocalID="ButtOnCh5" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff5" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName5" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_24A5" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh6" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh6" HorizontalAlignment="Left" Width="100">
@@ -672,12 +423,6 @@
                 <ioButtonShape LocalID="ButtOnCh6" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff6" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="On" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertRunning" />
-                </ioShape>
-                <ioLabel LocalID="LabelName6" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_24A6" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh7" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh7" HorizontalAlignment="Left" Width="100">
@@ -686,12 +431,6 @@
                 <ioButtonShape LocalID="ButtOnCh7" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff7" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName7" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_24A7" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh8" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh8" HorizontalAlignment="Left" Width="100">
@@ -700,17 +439,15 @@
                 <ioButtonShape LocalID="ButtOnCh8" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff8" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName8" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_24A8" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
+        </Grid>
+        <Grid Row="1" Column="2">
+            <ioPanelGrid LocalID="Ind24A" PanelGlobalID="Pow.Out24A.PowIndicatorPanel" />
         </Grid>
     </PanelObject>
     <PanelObject ParentGlobalID="Pow.Out220M" Background="ContainerBackground">
         <RowDefinition />
+        <ColumnDefinition Size="210" />
         <ColumnDefinition />
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
@@ -720,12 +457,6 @@
                 <ioButtonShape LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff1" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName1" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_220M1" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh2" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
@@ -734,12 +465,6 @@
                 <ioButtonShape LocalID="ButtOnCh2" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff2" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName2" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_220M2" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh3" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh3" HorizontalAlignment="Left" Width="100">
@@ -748,12 +473,6 @@
                 <ioButtonShape LocalID="ButtOnCh3" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff3" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName3" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_220M3" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh4" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh4" HorizontalAlignment="Left" Width="100">
@@ -762,12 +481,6 @@
                 <ioButtonShape LocalID="ButtOnCh4" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff4" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName4" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_220M4" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh5" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh5" HorizontalAlignment="Left" Width="100">
@@ -776,12 +489,6 @@
                 <ioButtonShape LocalID="ButtOnCh5" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff5" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName5" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_220M5" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh6" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh6" HorizontalAlignment="Left" Width="100">
@@ -790,12 +497,6 @@
                 <ioButtonShape LocalID="ButtOnCh6" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff6" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName6" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_220M6" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh7" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh7" HorizontalAlignment="Left" Width="100">
@@ -804,12 +505,6 @@
                 <ioButtonShape LocalID="ButtOnCh7" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff7" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="On" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertRunning" />
-                </ioShape>
-                <ioLabel LocalID="LabelName7" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_220M7" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh8" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh8" HorizontalAlignment="Left" Width="100">
@@ -818,17 +513,15 @@
                 <ioButtonShape LocalID="ButtOnCh8" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff8" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName8" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_220M8" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
+        </Grid>
+        <Grid Row="1" Column="2">
+            <ioPanelGrid LocalID="Ind220M" PanelGlobalID="Pow.Out220M.PowIndicatorPanel" />
         </Grid>
     </PanelObject>
     <PanelObject ParentGlobalID="Pow.Out220F" Background="ContainerBackground">
         <RowDefinition />
+        <ColumnDefinition Size="210" />
         <ColumnDefinition />
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
@@ -838,12 +531,6 @@
                 <ioButtonShape LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff1" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName1" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_220F1" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh2" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
@@ -852,12 +539,6 @@
                 <ioButtonShape LocalID="ButtOnCh2" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff2" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName2" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_220F2" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh3" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh3" HorizontalAlignment="Left" Width="100">
@@ -866,12 +547,6 @@
                 <ioButtonShape LocalID="ButtOnCh3" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff3" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName3" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_220F3" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh4" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh4" HorizontalAlignment="Left" Width="100">
@@ -880,12 +555,6 @@
                 <ioButtonShape LocalID="ButtOnCh4" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff4" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName4" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_220F4" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh5" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh5" HorizontalAlignment="Left" Width="100">
@@ -894,12 +563,6 @@
                 <ioButtonShape LocalID="ButtOnCh5" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff5" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName5" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_220F5" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh6" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh6" HorizontalAlignment="Left" Width="100">
@@ -908,12 +571,6 @@
                 <ioButtonShape LocalID="ButtOnCh6" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff6" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName6" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_220F6" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh7" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh7" HorizontalAlignment="Left" Width="100">
@@ -922,12 +579,6 @@
                 <ioButtonShape LocalID="ButtOnCh7" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff7" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName7" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_220F7" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh8" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh8" HorizontalAlignment="Left" Width="100">
@@ -936,17 +587,15 @@
                 <ioButtonShape LocalID="ButtOnCh8" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff8" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="On" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertRunning" />
-                </ioShape>
-                <ioLabel LocalID="LabelName8" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_220F8" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
+        </Grid>
+        <Grid Row="1" Column="2">
+            <ioPanelGrid LocalID="Ind220F" PanelGlobalID="Pow.Out220F.PowIndicatorPanel" />
         </Grid>
     </PanelObject>
     <PanelObject ParentGlobalID="Pow.Out220A" Background="ContainerBackground">
         <RowDefinition />
+        <ColumnDefinition Size="210" />
         <ColumnDefinition />
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
@@ -956,12 +605,6 @@
                 <ioButtonShape LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff1" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName1" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_220A1" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh2" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
@@ -970,12 +613,6 @@
                 <ioButtonShape LocalID="ButtOnCh2" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff2" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName2" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_220A2" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh3" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh3" HorizontalAlignment="Left" Width="100">
@@ -984,12 +621,6 @@
                 <ioButtonShape LocalID="ButtOnCh3" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff3" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName3" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_220A3" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh4" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh4" HorizontalAlignment="Left" Width="100">
@@ -998,12 +629,6 @@
                 <ioButtonShape LocalID="ButtOnCh4" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff4" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName4" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_220A4" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh5" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh5" HorizontalAlignment="Left" Width="100">
@@ -1012,12 +637,6 @@
                 <ioButtonShape LocalID="ButtOnCh5" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff5" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName5" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_220A5" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh6" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh6" HorizontalAlignment="Left" Width="100">
@@ -1026,12 +645,6 @@
                 <ioButtonShape LocalID="ButtOnCh6" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff6" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName6" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_220A6" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh7" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh7" HorizontalAlignment="Left" Width="100">
@@ -1040,12 +653,6 @@
                 <ioButtonShape LocalID="ButtOnCh7" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff7" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName7" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_220A7" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridCh8" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioButtonShape LocalID="ButtOffCh8" HorizontalAlignment="Left" Width="100">
@@ -1054,13 +661,10 @@
                 <ioButtonShape LocalID="ButtOnCh8" HorizontalAlignment="Left" Width="100">
                     <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
                 </ioButtonShape>
-                <ioShape LocalID="ShpOnOff8" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
-                </ioShape>
-                <ioLabel LocalID="LabelName8" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_220A8" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
             </ioPanelGrid>
+        </Grid>
+        <Grid Row="1" Column="2">
+            <ioPanelGrid LocalID="Ind220A" PanelGlobalID="Pow.Out220A.PowIndicatorPanel" />
         </Grid>
     </PanelObject>
 </PanelClass>

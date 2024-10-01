@@ -48,6 +48,14 @@ void PowProgOperateM::ReceiveGraphicsEvent(Int32 puidValue, ioProgramGraphicsEve
         if (typeEvent == ioProgramGraphicsEvent_Clicked)
             SendData(&DataCmdCpM.TakeCommandPow, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
         break;
+    case Puid_Pow_Out12A_ButtOnCh1:
+        if (typeEvent == ioProgramGraphicsEvent_Clicked)
+            SendData(&PortOut12A.SwitchOnCh1, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
+        break;
+    case Puid_Pow_Out12A_ButtOffCh1:
+        if (typeEvent == ioProgramGraphicsEvent_Clicked)
+            SendData(&PortOut12A.SwitchOffCh1, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
+        break;
     } // switch
 }
 void PowProgOperateM::ReceiveData(ioDataCollection* listData, ioData* data)

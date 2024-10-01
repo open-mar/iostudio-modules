@@ -25,6 +25,14 @@
             </Inputs>
             <Outputs />
         </Function>
+        <Function Name="OnRecvSwitchOnOff">
+            <Inputs>
+                <Argument Name="device" TypeNum="Int32" TypeEnumeration="TypeDevicePow" />
+                <Argument Name="channel" TypeNum="Int32" />
+                <Argument Name="isOn" TypeNum="Bool" />
+            </Inputs>
+            <Outputs />
+        </Function>
     </InternalFunctions>
     <Sequences>
         <RxTxData NameClass="PowCpDataCpA" GlobalID="Pow.CpA.TakeCommandPow">
@@ -44,6 +52,24 @@
             </Function>
             <RxTxData NameClass="PowCpDataCpA" GlobalID="Pow.CpA.OnChangeCommandPow" PortGlobalID="NetEthernet.192.168.10.Ids.OpA.13" />
             <RxTxData NameClass="PowCpDataCpM" GlobalID="Pow.CpM.OnChangeCommandPow" PortGlobalID="NetEthernet.192.168.10.Ids.OpM.12" />
+        </RxTxData>
+        <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.SwitchOnCh1">
+            <Function TypeFunction="Internal">
+                <Call Name="OnRecvSwitchOnOff">
+                    <Input Name="device">0</Input>
+                    <Input Name="channel">1</Input>
+                    <Input Name="isOn">TRUE</Input>
+                </Call>
+            </Function>
+        </RxTxData>
+        <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.SwitchOffCh1">
+            <Function TypeFunction="Internal">
+                <Call Name="OnRecvSwitchOnOff">
+                    <Input Name="device">0</Input>
+                    <Input Name="channel">1</Input>
+                    <Input Name="isOn">FALSE</Input>
+                </Call>
+            </Function>
         </RxTxData>
     </Sequences>
 </ProgramClass>

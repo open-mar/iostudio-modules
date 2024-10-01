@@ -4,8 +4,30 @@
 #include "ioSystem/Data/ioDataCollection.h"
 #include "ioSystem/Data/ioVar.h"
 #include "Programs/ioSystemData.h"
+#include "ioSystem/Data/ioEnumeration.h"
 #include "ioSystem/Data/ioEvent.h"
 #include "ioSystem/Data/ioMethod.h"
+class TypeDevicePow : public ioEnumeration
+{
+public:
+    TypeDevicePow();
+    virtual ~TypeDevicePow();
+    virtual Bool GetActiveText(ioString* enumText);
+    static const Int32 AFT12V = 0;
+    static const Int32 MID12V = 1;
+    static const Int32 FRONT12V = 2;
+    static const Int32 AFT24V = 3;
+    static const Int32 MID24V = 4;
+    static const Int32 FRONT24V = 5;
+};
+class TypePowOut : public ioEnumeration
+{
+public:
+    TypePowOut();
+    virtual ~TypePowOut();
+    virtual Bool GetActiveText(ioString* enumText);
+    static const Int32 APCLUTCH = 0;
+};
 class PowOutData : public ioDataCollection
 {
 public:

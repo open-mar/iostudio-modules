@@ -10,5 +10,5 @@ PowOutPanel::~PowOutPanel()
 }
 void PowOutPanel::InitializeData(void)
 {
-    m_PanelGraphics.SetListData((ioItem**)m_PowOutPanelGraphics, 40);
+    m_PanelGraphics.SetListData((ioItem**)m_PowOutPanelGraphics, 16);
 }

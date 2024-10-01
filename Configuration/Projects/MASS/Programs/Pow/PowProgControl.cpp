@@ -17,6 +17,8 @@ void PowProgControl::InitializeTask(void)
 void PowProgControl::ReceiveData(ioDataCollection* listData, ioData* data)
 {
     ioVarInt32 in1_Int32;
+    ioVarInt32 in2_Int32;
+    ioVarBool in3_Bool;
     if (listData == NULL) {}
     if (data == NULL) {}
     else
@@ -36,10 +38,28 @@ void PowProgControl::ReceiveData(ioDataCollection* listData, ioData* data)
             SendData(&DataCpCpA.OnChangeCommandPow, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
             SendData(&DataCpCpM.OnChangeCommandPow, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
             break;
+        case Duid_Pow_Out12A_SwitchOnCh1:
+            in1_Int32.SetValue(0);
+            in2_Int32.SetValue(1);
+            in3_Bool.SetValue(TRUE);
+            OnRecvSwitchOnOff(&in1_Int32, &in2_Int32, &in3_Bool);
+            break;
+        case Duid_Pow_Out12A_SwitchOffCh1:
+            in1_Int32.SetValue(0);
+            in2_Int32.SetValue(1);
+            in3_Bool.SetValue(FALSE);
+            OnRecvSwitchOnOff(&in1_Int32, &in2_Int32, &in3_Bool);
+            break;
         } // switch
     } // else
 }
 void PowProgControl::OnRecvTakeCommandPow(ioVarInt32* sender)
 {
     if (sender == NULL) {};
+}
+void PowProgControl::OnRecvSwitchOnOff(ioVarInt32* device, ioVarInt32* channel, ioVarBool* isOn)
+{
+    if (device == NULL) {};
+    if (channel == NULL) {};
+    if (isOn == NULL) {};
 }

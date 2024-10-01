@@ -2,6 +2,43 @@
 #include "pch.h"
 #pragma hdrstop
 #include "PowOutData.h"
+TypeDevicePow::TypeDevicePow()
+{
+}
+TypeDevicePow::~TypeDevicePow()
+{
+}
+Bool TypeDevicePow::GetActiveText(ioString* enumText)
+{
+    if (enumText == NULL) return FALSE;
+    Int32 activeID = GetValueSigned();
+    switch (activeID)
+    {
+    case 0: enumText->Set((ioChars)"Aft12V"); return TRUE;
+    case 1: enumText->Set((ioChars)"Mid12V"); return TRUE;
+    case 2: enumText->Set((ioChars)"Front12V"); return TRUE;
+    case 3: enumText->Set((ioChars)"Aft24V"); return TRUE;
+    case 4: enumText->Set((ioChars)"Mid24V"); return TRUE;
+    case 5: enumText->Set((ioChars)"Front24V"); return TRUE;
+    default: enumText->Set((ioChars)"NotDefined");  return FALSE;
+    } // switch
+}
+TypePowOut::TypePowOut()
+{
+}
+TypePowOut::~TypePowOut()
+{
+}
+Bool TypePowOut::GetActiveText(ioString* enumText)
+{
+    if (enumText == NULL) return FALSE;
+    Int32 activeID = GetValueSigned();
+    switch (activeID)
+    {
+    case 0: enumText->Set((ioChars)"ApClutch"); return TRUE;
+    default: enumText->Set((ioChars)"NotDefined");  return FALSE;
+    } // switch
+}
 PowOutData::PowOutData()
 {
 }

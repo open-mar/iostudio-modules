@@ -150,7 +150,7 @@
                     <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd1" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_12A1" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
+                    <Properties Text="AP Clutch" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd2" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
