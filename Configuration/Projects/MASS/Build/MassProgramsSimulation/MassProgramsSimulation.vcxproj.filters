@@ -38,6 +38,12 @@
     <Filter Include="Programs\Pow\Indicator">
       <UniqueIdentifier>{d4a19a18-6605-46ea-aac6-1ff21b421b92}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Simulation">
+      <UniqueIdentifier>{ae701f59-cffc-4f6d-82ad-5c73084546de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation\Batt">
+      <UniqueIdentifier>{8a5bf458-23e3-4049-a79e-8d110cdec08f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Programs\Batt\Dc\BattDcData.h">

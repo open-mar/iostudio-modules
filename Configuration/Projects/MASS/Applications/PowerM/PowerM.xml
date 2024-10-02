@@ -100,7 +100,7 @@
                 <RightView>
                     <RowDefinition />
                     <Grid Row="1">
-                        <ioPanelGrid PanelGlobalID="Pow.CpA.PowCommandModePanel" />
+                        <ioPanelGrid PanelGlobalID="Pow.CpM.PowCommandModePanel" />
                     </Grid>
                 </RightView>
             </Views>
@@ -152,7 +152,7 @@
                 <RightView>
                     <RowDefinition />
                     <Grid Row="1">
-                        <ioPanelGrid PanelGlobalID="Pow.CpA.PowCommandModePanel" />
+                        <ioPanelGrid PanelGlobalID="Pow.CpM.PowCommandModePanel" />
                     </Grid>
                 </RightView>
             </Views>            

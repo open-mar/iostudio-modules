@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModelClass Name="BattDcModel">
+    <Description>Simulation model for 12V/24V batteries</Description>
+    <ModelClassObject ParentGlobalID="Batt.Dc12" />
+    <ModelClassObject ParentGlobalID="Batt.Dc24" />
+</ModelClass>
