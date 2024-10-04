@@ -2,12 +2,12 @@
 <ProgramClass Name="SteerProgOperateM">
     <Description>Operation mid of steering system for MASS</Description>
     <DataItemsCollection>
-        <DataListProgram Name="Steer::Cp::SteerCpData" NameObject="Data">
+        <DataListClasses Name="Steer::Cp::SteerCpData" NameObject="Data">
             <Item NameClass="SteerCpDataCpM" NameObject="DataCpM" />
-        </DataListProgram>
-        <DataListProgram Name="Steer::Ap::SteerApData" NameObject="Data">
+        </DataListClasses>
+        <DataListClasses Name="Steer::Ap::SteerApData" NameObject="Data">
             <Item NameClass="SteerApDataApM" NameObject="DataApM" />
-        </DataListProgram>
+        </DataListClasses>
     </DataItemsCollection>
     <PanelsCollection>
         <PanelInProgram Name="Steer::Cp::CmdPanelSteer" NameObject="Command">

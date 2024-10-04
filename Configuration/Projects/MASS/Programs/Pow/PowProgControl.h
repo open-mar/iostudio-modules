@@ -20,6 +20,7 @@ public:
     virtual ~PowProgControl();
     virtual void InitializeTask(void);
     virtual void ReceiveData(ioDataCollection* listData, ioData* data);
+    virtual void Run(Int32 activeSlot);
     virtual void OnRecvTakeCommandPow(ioVarInt32* sender);
     virtual void OnRecvSwitchOnOff(ioVarInt32* device, ioVarInt32* channel, ioVarBool* isOn);
     PowOutDataOut12M PortOut12M;

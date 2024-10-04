@@ -2,9 +2,9 @@
 <ProgramClass Name="PowProgOperateA">
     <Description>Program for power management from aft station</Description>
     <DataItemsCollection>
-        <DataListProgram Name="Pow::Cp::PowCpData" NameObject="DataCmd">
+        <DataListClasses Name="Pow::Cp::PowCpData" NameObject="DataCmd">
             <Item NameClass="PowCpDataCpA" NameObject="DataCmdCpA" />
-        </DataListProgram>
+        </DataListClasses>
     </DataItemsCollection>
     <PanelsCollection>
         <PanelInProgram Name="Pow::Cp::PowCommandPanel" NameObject="PanelCmd">

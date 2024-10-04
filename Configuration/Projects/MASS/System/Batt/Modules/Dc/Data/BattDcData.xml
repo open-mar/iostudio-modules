@@ -3,6 +3,9 @@
     <Description>Monitoring data for batteries</Description>
     <DataListObject ParentGlobalID="Batt.Dc12">
         <Variable LocalID="BattVolt" TypeNum="Float" Unit="VDC" Decimals="2" Min="0.00" Max="36.00">12.00</Variable>
+        <Variable LocalID="BattAmp12M" TypeNum="Float" Unit="A" Decimals="2" Min="-99.00" Max="99.00">0</Variable>
+        <Variable LocalID="BattAmp12F" TypeNum="Float" Unit="A" Decimals="2" Min="-99.00" Max="99.00">0</Variable>
+        <Variable LocalID="BattAmp12A" TypeNum="Float" Unit="A" Decimals="2" Min="-99.00" Max="99.00">0</Variable>
         <Variable LocalID="BattAmpOut" TypeNum="Float" Unit="A" Decimals="2" Min="-99.00" Max="99.00">0</Variable>
         <Variable LocalID="BattAmpIn" TypeNum="Float" Unit="A" Decimals="2" Min="-99.00" Max="99.00">0</Variable>
         <Variable LocalID="BattAmpAvg" TypeNum="Float" Unit="A" Decimals="2" Min="-99.00" Max="99.00">0</Variable>
@@ -14,6 +17,9 @@
     </DataListObject>
     <DataListObject ParentGlobalID="Batt.Dc24">
         <Variable LocalID="BattVolt" TypeNum="Float" Unit="VDC" Decimals="2" Min="0.00" Max="36.00">24</Variable>
+        <Variable LocalID="BattAmp24M" TypeNum="Float" Unit="A" Decimals="2" Min="-99.00" Max="99.00">0</Variable>
+        <Variable LocalID="BattAmp24F" TypeNum="Float" Unit="A" Decimals="2" Min="-99.00" Max="99.00">0</Variable>
+        <Variable LocalID="BattAmp24A" TypeNum="Float" Unit="A" Decimals="2" Min="-99.00" Max="99.00">0</Variable>
         <Variable LocalID="BattAmpOut" TypeNum="Float" Unit="A" Decimals="2" Min="-99.00" Max="99.00">0</Variable>
         <Variable LocalID="BattAmpIn" TypeNum="Float" Unit="A" Decimals="2" Min="-99.00" Max="99.00">0</Variable>
         <Variable LocalID="BattAmpAvg" TypeNum="Float" Unit="A" Decimals="2" Min="-99.00" Max="99.00">0.00</Variable>

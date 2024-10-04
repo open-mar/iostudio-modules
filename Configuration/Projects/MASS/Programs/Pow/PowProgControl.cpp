@@ -53,6 +53,10 @@ void PowProgControl::ReceiveData(ioDataCollection* listData, ioData* data)
         } // switch
     } // else
 }
+void PowProgControl::Run(Int32 activeSlot)
+{
+    if (activeSlot == 0) {}
+}
 void PowProgControl::OnRecvTakeCommandPow(ioVarInt32* sender)
 {
     if (sender == NULL) {};

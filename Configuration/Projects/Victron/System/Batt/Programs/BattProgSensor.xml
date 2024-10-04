@@ -2,13 +2,13 @@
 <ProgramClass Name="BattProgSensor">
     <Description>Battery management program</Description>
     <DataItemsCollection>
-        <DataListProgram Name="Batt::Dc::BattDcData" NameObject="DcData">
+        <DataListClasses Name="Batt::Dc::BattDcData" NameObject="DcData">
             <Item NameClass="BattDcDataDc12" NameObject="DcDataDc12" />
             <Item NameClass="BattDcDataDc24" NameObject="DcDataDc24" />
-        </DataListProgram>
-        <DataListProgram Name="Batt::BattData" NameObject="MainData">
+        </DataListClasses>
+        <DataListClasses Name="Batt::BattData" NameObject="MainData">
             <Item NameClass="BattData" NameObject="MainData" />
-        </DataListProgram>
+        </DataListClasses>
     </DataItemsCollection>
     <InternalFunctions>
         <Function Name="CheckBattery">

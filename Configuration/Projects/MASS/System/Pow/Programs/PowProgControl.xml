@@ -2,7 +2,7 @@
 <ProgramClass Name="PowProgControl">
     <Description>Program for control of power distribution in MASS</Description>
     <DataItemsCollection>
-        <DataListProgram Name="Pow::Out::PowOutData" NameObject="Port">
+        <DataListClasses Name="Pow::Out::PowOutData" NameObject="Port">
             <Item NameClass="PowOutDataOut12M" NameObject="PortOut12M" />
             <Item NameClass="PowOutDataOut12F" NameObject="PortOut12F" />
             <Item NameClass="PowOutDataOut12A" NameObject="PortOut12A" />
@@ -12,11 +12,11 @@
             <Item NameClass="PowOutDataOut220M" NameObject="PortOut220M" />
             <Item NameClass="PowOutDataOut220F" NameObject="PortOut220F" />
             <Item NameClass="PowOutDataOut220A" NameObject="PortOut220A" />
-        </DataListProgram>
-        <DataListProgram Name="Pow::Cp::PowCpData" NameObject="DataCp">
+        </DataListClasses>
+        <DataListClasses Name="Pow::Cp::PowCpData" NameObject="DataCp">
             <Item NameClass="PowCpDataCpM" NameObject="DataCpCpM" />
             <Item NameClass="PowCpDataCpA" NameObject="DataCpCpA" />
-        </DataListProgram>
+        </DataListClasses>
     </DataItemsCollection>
     <InternalFunctions>
         <Function Name="OnRecvTakeCommandPow">
@@ -71,5 +71,6 @@
                 </Call>
             </Function>
         </RxTxData>
+        <Run />
     </Sequences>
 </ProgramClass>

@@ -232,6 +232,7 @@
     <ClInclude Include="..\..\Programs\Steer\SteerProgControl.h" />
     <ClInclude Include="..\..\Programs\Steer\SteerProgOperateA.h" />
     <ClInclude Include="..\..\Programs\Steer\SteerProgOperateM.h" />
+    <ClInclude Include="..\..\Simulation\Batt\Dc\BattDcModel.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
@@ -325,6 +326,7 @@
     <ClCompile Include="..\..\Programs\Steer\SteerProgControl.cpp" />
     <ClCompile Include="..\..\Programs\Steer\SteerProgOperateA.cpp" />
     <ClCompile Include="..\..\Programs\Steer\SteerProgOperateM.cpp" />
+    <ClCompile Include="..\..\Simulation\Batt\Dc\BattDcModel.cpp" />
     <ClCompile Include="MassProgramsSimulation.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

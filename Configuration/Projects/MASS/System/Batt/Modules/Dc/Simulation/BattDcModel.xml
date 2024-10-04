@@ -1,6 +1,75 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModelClass Name="BattDcModel">
     <Description>Simulation model for 12V/24V batteries</Description>
-    <ModelClassObject ParentGlobalID="Batt.Dc12" />
-    <ModelClassObject ParentGlobalID="Batt.Dc24" />
+    <InternalFunctions>
+        <Function Name="SimulateBatteryCurrent">
+            <Inputs>
+                <Argument Name="onCh1" TypeNum="Bool" />
+                <Argument Name="onCh2" TypeNum="Bool" />
+                <Argument Name="onCh3" TypeNum="Bool" />
+                <Argument Name="onCh4" TypeNum="Bool" />
+                <Argument Name="onCh5" TypeNum="Bool" />
+                <Argument Name="onCh6" TypeNum="Bool" />
+                <Argument Name="onCh7" TypeNum="Bool" />
+                <Argument Name="onCh8" TypeNum="Bool" />
+            </Inputs>
+            <Outputs>
+                <Argument Name="currentOut" TypeNum="Double" />
+            </Outputs>
+        </Function>
+    </InternalFunctions>
+    <ModelClassObject ParentGlobalID="Batt.Dc12">
+        <DataItemsCollection>
+            <DataListClasses Name="Pow::Out::PowOutData" NameObject="Pow">
+                <Item NameClass="PowOutDataOut12M" NameObject="PowOut12M" />
+                <Item NameClass="PowOutDataOut12F" NameObject="PowOut12F" />
+                <Item NameClass="PowOutDataOut12A" NameObject="PowOut12A" />
+            </DataListClasses>
+            <DataListClasses Name="Batt::Dc::BattDcData" NameObject="Batt">
+                <Item NameClass="BattDcDataDc12" NameObject="BattDc12" />
+            </DataListClasses>
+        </DataItemsCollection>
+        <Sequence>
+            <Function TypeFunction="Internal" Interval="1000">
+                <Call Name="SimulateBatteryCurrent">
+                    <Input Name="onCh1" NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnCh1" />
+                    <Input Name="onCh2" NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnCh2" />
+                    <Input Name="onCh3" NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnCh3" />
+                    <Input Name="onCh4" NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnCh4" />
+                    <Input Name="onCh5" NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnCh5" />
+                    <Input Name="onCh6" NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnCh6" />
+                    <Input Name="onCh7" NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnCh7" />
+                    <Input Name="onCh8" NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnCh8" />
+                    <Output Name="currentOut" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmp12M" />
+                </Call>
+            </Function>
+        </Sequence>
+    </ModelClassObject>
+    <ModelClassObject ParentGlobalID="Batt.Dc24">
+        <DataItemsCollection>
+            <DataListClasses Name="Pow::Out::PowOutData" NameObject="Pow">
+                <Item NameClass="PowOutDataOut24M" NameObject="PowOut24M" />
+                <Item NameClass="PowOutDataOut24F" NameObject="PowOut24F" />
+                <Item NameClass="PowOutDataOut24A" NameObject="PowOut24A" />
+            </DataListClasses>
+            <DataListClasses Name="Batt::Dc::BattDcData" NameObject="Batt">
+                <Item NameClass="BattDcDataDc24" NameObject="BattDc24" />
+            </DataListClasses>
+        </DataItemsCollection>
+        <Sequence>
+            <Function TypeFunction="Internal" Interval="1000">
+                <Call Name="SimulateBatteryCurrent">
+                    <Input Name="onCh1" NameClass="PowOutDataOut24M" GlobalID="Pow.Out24M.OnCh1" />
+                    <Input Name="onCh2" NameClass="PowOutDataOut24M" GlobalID="Pow.Out24M.OnCh2" />
+                    <Input Name="onCh3" NameClass="PowOutDataOut24M" GlobalID="Pow.Out24M.OnCh3" />
+                    <Input Name="onCh4" NameClass="PowOutDataOut24M" GlobalID="Pow.Out24M.OnCh4" />
+                    <Input Name="onCh5" NameClass="PowOutDataOut24M" GlobalID="Pow.Out24M.OnCh5" />
+                    <Input Name="onCh6" NameClass="PowOutDataOut24M" GlobalID="Pow.Out24M.OnCh6" />
+                    <Input Name="onCh7" NameClass="PowOutDataOut24M" GlobalID="Pow.Out24M.OnCh7" />
+                    <Input Name="onCh8" NameClass="PowOutDataOut24M" GlobalID="Pow.Out24M.OnCh8" />
+                    <Output Name="currentOut" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmp24M" />
+                </Call>
+            </Function>
+        </Sequence>
+    </ModelClassObject>
 </ModelClass>

@@ -2,14 +2,14 @@
 <ProgramClass Name="SteerProgControl">
     <Description>Control of steering system for MASS</Description>
     <DataItemsCollection>
-        <DataListProgram Name="Steer::Ap::SteerApData" NameObject="Data">
+        <DataListClasses Name="Steer::Ap::SteerApData" NameObject="Data">
             <Item NameClass="SteerApDataApM" NameObject="DataApM" />
             <Item NameClass="SteerApDataApA" NameObject="DataApA" />
-        </DataListProgram>
-        <DataListProgram Name="Steer::Cp::SteerCpData" NameObject="DataControl">
+        </DataListClasses>
+        <DataListClasses Name="Steer::Cp::SteerCpData" NameObject="DataControl">
             <Item NameClass="SteerCpDataCpM" NameObject="DataControlCpM" />
             <Item NameClass="SteerCpDataCpA" NameObject="DataControlCpA" />
-        </DataListProgram>
+        </DataListClasses>
     </DataItemsCollection>
     <InternalFunctions>
         <Function Name="OnRecvTakeCommandSteer">

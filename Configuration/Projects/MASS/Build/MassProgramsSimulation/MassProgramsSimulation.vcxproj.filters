@@ -44,6 +44,9 @@
     <Filter Include="Simulation\Batt">
       <UniqueIdentifier>{8a5bf458-23e3-4049-a79e-8d110cdec08f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Simulation\Batt\Dc">
+      <UniqueIdentifier>{7ec13efb-208e-4475-ae40-b6fc9769d4bd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Programs\Batt\Dc\BattDcData.h">
@@ -319,6 +322,9 @@
     <ClInclude Include="..\..\Programs\Pow\Out\PowIndicatorPanelOut220M.h">
       <Filter>Programs\Pow\Out</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Simulation\Batt\Dc\BattDcModel.h">
+      <Filter>Simulation\Batt\Dc</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MassProgramsSimulation.cpp">
@@ -593,6 +599,9 @@
     </ClCompile>
     <ClCompile Include="..\..\Programs\Pow\Out\PowIndicatorPanelOut220M.cpp">
       <Filter>Programs\Pow\Out</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Simulation\Batt\Dc\BattDcModel.cpp">
+      <Filter>Simulation\Batt\Dc</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

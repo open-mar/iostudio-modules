@@ -2,10 +2,10 @@
 <ProgramClass Name="PowProgOperateM">
     <Description>Program for power management from mid deckhouse</Description>
     <DataItemsCollection>
-        <DataListProgram Name="Pow::Cp::PowCpData" NameObject="DataCmd">
+        <DataListClasses Name="Pow::Cp::PowCpData" NameObject="DataCmd">
             <Item NameClass="PowCpDataCpM" NameObject="DataCmdCpM" />
-        </DataListProgram>
-        <DataListProgram Name="Pow::Out::PowOutData" NameObject="Port">
+        </DataListClasses>
+        <DataListClasses Name="Pow::Out::PowOutData" NameObject="Port">
             <Item NameClass="PowOutDataOut12M" NameObject="PortOut12M" />
             <Item NameClass="PowOutDataOut12F" NameObject="PortOut12F" />
             <Item NameClass="PowOutDataOut12A" NameObject="PortOut12A" />
@@ -15,7 +15,7 @@
             <Item NameClass="PowOutDataOut220M" NameObject="PortOut220M" />
             <Item NameClass="PowOutDataOut220F" NameObject="PortOut220F" />
             <Item NameClass="PowOutDataOut220A" NameObject="PortOut220A" />
-        </DataListProgram>
+        </DataListClasses>
     </DataItemsCollection>
     <PanelsCollection>
         <PanelInProgram Name="Pow::Cp::PowCommandPanel" NameObject="PanelCmd">
