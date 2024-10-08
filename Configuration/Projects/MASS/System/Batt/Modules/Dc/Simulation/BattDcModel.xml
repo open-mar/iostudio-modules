@@ -4,6 +4,7 @@
     <InternalFunctions>
         <Function Name="SimulateBatteryCurrent">
             <Inputs>
+                <Argument Name="typeDevice" TypeNum="Int32" TypeEnumeration="TypeDevicePow"/>
                 <Argument Name="onCh1" TypeNum="Bool" />
                 <Argument Name="onCh2" TypeNum="Bool" />
                 <Argument Name="onCh3" TypeNum="Bool" />
@@ -14,7 +15,7 @@
                 <Argument Name="onCh8" TypeNum="Bool" />
             </Inputs>
             <Outputs>
-                <Argument Name="currentOut" TypeNum="Double" />
+                <Argument Name="currentOut" TypeNum="Float" />
             </Outputs>
         </Function>
     </InternalFunctions>
@@ -32,6 +33,21 @@
         <Sequence>
             <Function TypeFunction="Internal" Interval="1000">
                 <Call Name="SimulateBatteryCurrent">
+                    <Input Name="typeDevice">TypeDevicePow::AFT12V</Input>
+                    <Input Name="onCh1" NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnCh1" />
+                    <Input Name="onCh2" NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnCh2" />
+                    <Input Name="onCh3" NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnCh3" />
+                    <Input Name="onCh4" NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnCh4" />
+                    <Input Name="onCh5" NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnCh5" />
+                    <Input Name="onCh6" NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnCh6" />
+                    <Input Name="onCh7" NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnCh7" />
+                    <Input Name="onCh8" NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnCh8" />
+                    <Output Name="currentOut" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpA" />
+                </Call>
+            </Function>
+            <Function TypeFunction="Internal" Interval="1000">
+                <Call Name="SimulateBatteryCurrent">
+                    <Input Name="typeDevice">TypeDevicePow::MID12V</Input>
                     <Input Name="onCh1" NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnCh1" />
                     <Input Name="onCh2" NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnCh2" />
                     <Input Name="onCh3" NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnCh3" />
@@ -40,7 +56,21 @@
                     <Input Name="onCh6" NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnCh6" />
                     <Input Name="onCh7" NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnCh7" />
                     <Input Name="onCh8" NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnCh8" />
-                    <Output Name="currentOut" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmp12M" />
+                    <Output Name="currentOut" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpM" />
+                </Call>
+            </Function>
+            <Function TypeFunction="Internal" Interval="1000">
+                <Call Name="SimulateBatteryCurrent">
+                    <Input Name="typeDevice">TypeDevicePow::FRONT12V</Input>
+                    <Input Name="onCh1" NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OnCh1" />
+                    <Input Name="onCh2" NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OnCh2" />
+                    <Input Name="onCh3" NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OnCh3" />
+                    <Input Name="onCh4" NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OnCh4" />
+                    <Input Name="onCh5" NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OnCh5" />
+                    <Input Name="onCh6" NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OnCh6" />
+                    <Input Name="onCh7" NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OnCh7" />
+                    <Input Name="onCh8" NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OnCh8" />
+                    <Output Name="currentOut" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpF" />
                 </Call>
             </Function>
         </Sequence>
@@ -59,6 +89,21 @@
         <Sequence>
             <Function TypeFunction="Internal" Interval="1000">
                 <Call Name="SimulateBatteryCurrent">
+                    <Input Name="typeDevice">TypeDevicePow::AFT24V</Input>
+                    <Input Name="onCh1" NameClass="PowOutDataOut24A" GlobalID="Pow.Out24A.OnCh1" />
+                    <Input Name="onCh2" NameClass="PowOutDataOut24A" GlobalID="Pow.Out24A.OnCh2" />
+                    <Input Name="onCh3" NameClass="PowOutDataOut24A" GlobalID="Pow.Out24A.OnCh3" />
+                    <Input Name="onCh4" NameClass="PowOutDataOut24A" GlobalID="Pow.Out24A.OnCh4" />
+                    <Input Name="onCh5" NameClass="PowOutDataOut24A" GlobalID="Pow.Out24A.OnCh5" />
+                    <Input Name="onCh6" NameClass="PowOutDataOut24A" GlobalID="Pow.Out24A.OnCh6" />
+                    <Input Name="onCh7" NameClass="PowOutDataOut24A" GlobalID="Pow.Out24A.OnCh7" />
+                    <Input Name="onCh8" NameClass="PowOutDataOut24A" GlobalID="Pow.Out24A.OnCh8" />
+                    <Output Name="currentOut" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpA" />
+                </Call>
+            </Function>
+            <Function TypeFunction="Internal" Interval="1000">
+                <Call Name="SimulateBatteryCurrent">
+                    <Input Name="typeDevice">TypeDevicePow::MID24V</Input>
                     <Input Name="onCh1" NameClass="PowOutDataOut24M" GlobalID="Pow.Out24M.OnCh1" />
                     <Input Name="onCh2" NameClass="PowOutDataOut24M" GlobalID="Pow.Out24M.OnCh2" />
                     <Input Name="onCh3" NameClass="PowOutDataOut24M" GlobalID="Pow.Out24M.OnCh3" />
@@ -67,9 +112,22 @@
                     <Input Name="onCh6" NameClass="PowOutDataOut24M" GlobalID="Pow.Out24M.OnCh6" />
                     <Input Name="onCh7" NameClass="PowOutDataOut24M" GlobalID="Pow.Out24M.OnCh7" />
                     <Input Name="onCh8" NameClass="PowOutDataOut24M" GlobalID="Pow.Out24M.OnCh8" />
-                    <Output Name="currentOut" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmp24M" />
+                    <Output Name="currentOut" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpM" />
                 </Call>
             </Function>
+            <Function TypeFunction="Internal" Interval="1000">
+                <Call Name="SimulateBatteryCurrent">
+                    <Input Name="typeDevice">TypeDevicePow::FRONT24V</Input>
+                    <Input Name="onCh1" NameClass="PowOutDataOut24F" GlobalID="Pow.Out24F.OnCh1" />
+                    <Input Name="onCh2" NameClass="PowOutDataOut24F" GlobalID="Pow.Out24F.OnCh2" />
+                    <Input Name="onCh3" NameClass="PowOutDataOut24F" GlobalID="Pow.Out24F.OnCh3" />
+                    <Input Name="onCh4" NameClass="PowOutDataOut24F" GlobalID="Pow.Out24F.OnCh4" />
+                    <Input Name="onCh5" NameClass="PowOutDataOut24F" GlobalID="Pow.Out24F.OnCh5" />
+                    <Input Name="onCh6" NameClass="PowOutDataOut24F" GlobalID="Pow.Out24F.OnCh6" />
+                    <Input Name="onCh7" NameClass="PowOutDataOut24F" GlobalID="Pow.Out24F.OnCh7" />
+                    <Input Name="onCh8" NameClass="PowOutDataOut24F" GlobalID="Pow.Out24F.OnCh8" />
+                    <Output Name="currentOut" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpF" />
+                </Call>            </Function>
         </Sequence>
     </ModelClassObject>
 </ModelClass>

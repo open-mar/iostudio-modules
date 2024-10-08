@@ -12,10 +12,10 @@ void BattDcModel::InitializeItem(void)
 {
     ioModel::InitializeItem();
 }
-void BattDcModel::DoSimulation_100ms(void)
+void BattDcModel::DoSimulation_100ms(Int32 slotCounter_100ms)
 {
 }
-void BattDcModel::SimulateBatteryCurrent(Bool onCh1, Bool onCh2, Bool onCh3, Bool onCh4, Bool onCh5, Bool onCh6, Bool onCh7, Bool onCh8, Double* currentOut)
+void BattDcModel::SimulateBatteryCurrent(Int32 typeDevice, Bool onCh1, Bool onCh2, Bool onCh3, Bool onCh4, Bool onCh5, Bool onCh6, Bool onCh7, Bool onCh8, Float* currentOut)
 {
 }
 BattDcModelDc12::BattDcModelDc12()
@@ -32,21 +32,57 @@ void BattDcModelDc12::InitializeItem(void)
     AddData((ioDataCollection*)&PowOut12A);
     AddData((ioDataCollection*)&BattDc12);
 }
-void BattDcModelDc12::DoSimulation_100ms(void)
+void BattDcModelDc12::DoSimulation_100ms(Int32 slotCounter_100ms)
 {
-    Double outValue1 = 0.0;
-    SimulateBatteryCurrent(
-        PowOut12M.OnCh1.GetValue(),
-        PowOut12M.OnCh1.GetValue(),
-        PowOut12M.OnCh1.GetValue(),
-        PowOut12M.OnCh1.GetValue(),
-        PowOut12M.OnCh1.GetValue(),
-        PowOut12M.OnCh1.GetValue(),
-        PowOut12M.OnCh1.GetValue(),
-        PowOut12M.OnCh1.GetValue(),
-        &outValue1
-    );
-    BattDc12.BattAmpOut.SetValue((Float)outValue1);
+    Float out0_Float;
+    if ((slotCounter_100ms % 10) == 0)
+    {
+        SimulateBatteryCurrent(
+                TypeDevicePow::AFT12V, 
+                PowOut12A.OnCh1.GetValue(), 
+                PowOut12A.OnCh2.GetValue(), 
+                PowOut12A.OnCh3.GetValue(), 
+                PowOut12A.OnCh4.GetValue(), 
+                PowOut12A.OnCh5.GetValue(), 
+                PowOut12A.OnCh6.GetValue(), 
+                PowOut12A.OnCh7.GetValue(), 
+                PowOut12A.OnCh8.GetValue(), 
+                &out0_Float
+        );
+        BattDc12.BattAmpA.SetValue(out0_Float);
+    } // if
+    if ((slotCounter_100ms % 10) == 0)
+    {
+        SimulateBatteryCurrent(
+                TypeDevicePow::MID12V, 
+                PowOut12M.OnCh1.GetValue(), 
+                PowOut12M.OnCh2.GetValue(), 
+                PowOut12M.OnCh3.GetValue(), 
+                PowOut12M.OnCh4.GetValue(), 
+                PowOut12M.OnCh5.GetValue(), 
+                PowOut12M.OnCh6.GetValue(), 
+                PowOut12M.OnCh7.GetValue(), 
+                PowOut12M.OnCh8.GetValue(), 
+                &out0_Float
+        );
+        BattDc12.BattAmpM.SetValue(out0_Float);
+    } // if
+    if ((slotCounter_100ms % 10) == 0)
+    {
+        SimulateBatteryCurrent(
+                TypeDevicePow::FRONT12V, 
+                PowOut12F.OnCh1.GetValue(), 
+                PowOut12F.OnCh2.GetValue(), 
+                PowOut12F.OnCh3.GetValue(), 
+                PowOut12F.OnCh4.GetValue(), 
+                PowOut12F.OnCh5.GetValue(), 
+                PowOut12F.OnCh6.GetValue(), 
+                PowOut12F.OnCh7.GetValue(), 
+                PowOut12F.OnCh8.GetValue(), 
+                &out0_Float
+        );
+        BattDc12.BattAmpF.SetValue(out0_Float);
+    } // if
 }
 BattDcModelDc24::BattDcModelDc24()
 {
@@ -62,19 +98,55 @@ void BattDcModelDc24::InitializeItem(void)
     AddData((ioDataCollection*)&PowOut24A);
     AddData((ioDataCollection*)&BattDc24);
 }
-void BattDcModelDc24::DoSimulation_100ms(void)
+void BattDcModelDc24::DoSimulation_100ms(Int32 slotCounter_100ms)
 {
-    Double outValue1 = 0.0;
-    SimulateBatteryCurrent(
-        PowOut24M.OnCh1.GetValue(),
-        PowOut24M.OnCh1.GetValue(),
-        PowOut24M.OnCh1.GetValue(),
-        PowOut24M.OnCh1.GetValue(),
-        PowOut24M.OnCh1.GetValue(),
-        PowOut24M.OnCh1.GetValue(),
-        PowOut24M.OnCh1.GetValue(),
-        PowOut24M.OnCh1.GetValue(),
-        &outValue1
-    );
-    BattDc24.BattAmpOut.SetValue((Float)outValue1);
+    Float out0_Float;
+    if ((slotCounter_100ms % 10) == 0)
+    {
+        SimulateBatteryCurrent(
+                TypeDevicePow::AFT24V, 
+                PowOut24A.OnCh1.GetValue(), 
+                PowOut24A.OnCh2.GetValue(), 
+                PowOut24A.OnCh3.GetValue(), 
+                PowOut24A.OnCh4.GetValue(), 
+                PowOut24A.OnCh5.GetValue(), 
+                PowOut24A.OnCh6.GetValue(), 
+                PowOut24A.OnCh7.GetValue(), 
+                PowOut24A.OnCh8.GetValue(), 
+                &out0_Float
+        );
+        BattDc24.BattAmpA.SetValue(out0_Float);
+    } // if
+    if ((slotCounter_100ms % 10) == 0)
+    {
+        SimulateBatteryCurrent(
+                TypeDevicePow::MID24V, 
+                PowOut24M.OnCh1.GetValue(), 
+                PowOut24M.OnCh2.GetValue(), 
+                PowOut24M.OnCh3.GetValue(), 
+                PowOut24M.OnCh4.GetValue(), 
+                PowOut24M.OnCh5.GetValue(), 
+                PowOut24M.OnCh6.GetValue(), 
+                PowOut24M.OnCh7.GetValue(), 
+                PowOut24M.OnCh8.GetValue(), 
+                &out0_Float
+        );
+        BattDc24.BattAmpM.SetValue(out0_Float);
+    } // if
+    if ((slotCounter_100ms % 10) == 0)
+    {
+        SimulateBatteryCurrent(
+                TypeDevicePow::FRONT24V, 
+                PowOut24F.OnCh1.GetValue(), 
+                PowOut24F.OnCh2.GetValue(), 
+                PowOut24F.OnCh3.GetValue(), 
+                PowOut24F.OnCh4.GetValue(), 
+                PowOut24F.OnCh5.GetValue(), 
+                PowOut24F.OnCh6.GetValue(), 
+                PowOut24F.OnCh7.GetValue(), 
+                PowOut24F.OnCh8.GetValue(), 
+                &out0_Float
+        );
+        BattDc24.BattAmpF.SetValue(out0_Float);
+    } // if
 }

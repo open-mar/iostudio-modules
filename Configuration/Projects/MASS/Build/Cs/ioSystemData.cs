@@ -13,12 +13,18 @@ namespace ioSystemNetworkNet
         Duid_Batt_RequestBattData = 6,
         Duid_Batt_ResponseBattData = 7,
         Duid_Batt_Dc12_BattVolt = 8,
+        Duid_Batt_Dc12_BattAmpM = 350,
+        Duid_Batt_Dc12_BattAmpF = 351,
+        Duid_Batt_Dc12_BattAmpA = 352,
         Duid_Batt_Dc12_BattAmpOut = 9,
         Duid_Batt_Dc12_BattAmpIn = 10,
         Duid_Batt_Dc12_BattAmpAvg = 11,
         Duid_Batt_Dc12_RequestDcData = 12,
         Duid_Batt_Dc12_ResponseDcData = 13,
         Duid_Batt_Dc24_BattVolt = 14,
+        Duid_Batt_Dc24_BattAmpM = 353,
+        Duid_Batt_Dc24_BattAmpF = 354,
+        Duid_Batt_Dc24_BattAmpA = 355,
         Duid_Batt_Dc24_BattAmpOut = 15,
         Duid_Batt_Dc24_BattAmpIn = 16,
         Duid_Batt_Dc24_BattAmpAvg = 17,
@@ -369,12 +375,18 @@ namespace ioSystemNetworkNet
                 case ioSystemDataType.Duid_Batt_RequestBattData: return "Batt.RequestBattData";
                 case ioSystemDataType.Duid_Batt_ResponseBattData: return "Batt.ResponseBattData";
                 case ioSystemDataType.Duid_Batt_Dc12_BattVolt: return "Batt.Dc12.BattVolt";
+                case ioSystemDataType.Duid_Batt_Dc12_BattAmpM: return "Batt.Dc12.BattAmpM";
+                case ioSystemDataType.Duid_Batt_Dc12_BattAmpF: return "Batt.Dc12.BattAmpF";
+                case ioSystemDataType.Duid_Batt_Dc12_BattAmpA: return "Batt.Dc12.BattAmpA";
                 case ioSystemDataType.Duid_Batt_Dc12_BattAmpOut: return "Batt.Dc12.BattAmpOut";
                 case ioSystemDataType.Duid_Batt_Dc12_BattAmpIn: return "Batt.Dc12.BattAmpIn";
                 case ioSystemDataType.Duid_Batt_Dc12_BattAmpAvg: return "Batt.Dc12.BattAmpAvg";
                 case ioSystemDataType.Duid_Batt_Dc12_RequestDcData: return "Batt.Dc12.RequestDcData";
                 case ioSystemDataType.Duid_Batt_Dc12_ResponseDcData: return "Batt.Dc12.ResponseDcData";
                 case ioSystemDataType.Duid_Batt_Dc24_BattVolt: return "Batt.Dc24.BattVolt";
+                case ioSystemDataType.Duid_Batt_Dc24_BattAmpM: return "Batt.Dc24.BattAmpM";
+                case ioSystemDataType.Duid_Batt_Dc24_BattAmpF: return "Batt.Dc24.BattAmpF";
+                case ioSystemDataType.Duid_Batt_Dc24_BattAmpA: return "Batt.Dc24.BattAmpA";
                 case ioSystemDataType.Duid_Batt_Dc24_BattAmpOut: return "Batt.Dc24.BattAmpOut";
                 case ioSystemDataType.Duid_Batt_Dc24_BattAmpIn: return "Batt.Dc24.BattAmpIn";
                 case ioSystemDataType.Duid_Batt_Dc24_BattAmpAvg: return "Batt.Dc24.BattAmpAvg";
@@ -725,12 +737,18 @@ namespace ioSystemNetworkNet
                 case "Batt.RequestBattData": return ioSystemDataType.Duid_Batt_RequestBattData;
                 case "Batt.ResponseBattData": return ioSystemDataType.Duid_Batt_ResponseBattData;
                 case "Batt.Dc12.BattVolt": return ioSystemDataType.Duid_Batt_Dc12_BattVolt;
+                case "Batt.Dc12.BattAmpM": return ioSystemDataType.Duid_Batt_Dc12_BattAmpM;
+                case "Batt.Dc12.BattAmpF": return ioSystemDataType.Duid_Batt_Dc12_BattAmpF;
+                case "Batt.Dc12.BattAmpA": return ioSystemDataType.Duid_Batt_Dc12_BattAmpA;
                 case "Batt.Dc12.BattAmpOut": return ioSystemDataType.Duid_Batt_Dc12_BattAmpOut;
                 case "Batt.Dc12.BattAmpIn": return ioSystemDataType.Duid_Batt_Dc12_BattAmpIn;
                 case "Batt.Dc12.BattAmpAvg": return ioSystemDataType.Duid_Batt_Dc12_BattAmpAvg;
                 case "Batt.Dc12.RequestDcData": return ioSystemDataType.Duid_Batt_Dc12_RequestDcData;
                 case "Batt.Dc12.ResponseDcData": return ioSystemDataType.Duid_Batt_Dc12_ResponseDcData;
                 case "Batt.Dc24.BattVolt": return ioSystemDataType.Duid_Batt_Dc24_BattVolt;
+                case "Batt.Dc24.BattAmpM": return ioSystemDataType.Duid_Batt_Dc24_BattAmpM;
+                case "Batt.Dc24.BattAmpF": return ioSystemDataType.Duid_Batt_Dc24_BattAmpF;
+                case "Batt.Dc24.BattAmpA": return ioSystemDataType.Duid_Batt_Dc24_BattAmpA;
                 case "Batt.Dc24.BattAmpOut": return ioSystemDataType.Duid_Batt_Dc24_BattAmpOut;
                 case "Batt.Dc24.BattAmpIn": return ioSystemDataType.Duid_Batt_Dc24_BattAmpIn;
                 case "Batt.Dc24.BattAmpAvg": return ioSystemDataType.Duid_Batt_Dc24_BattAmpAvg;

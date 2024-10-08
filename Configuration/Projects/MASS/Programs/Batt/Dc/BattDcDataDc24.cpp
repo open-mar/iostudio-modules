@@ -14,6 +14,12 @@ void BattDcDataDc24::InitializeData(void)
     BattDcData::InitializeData();
     BattVolt.SetValue((Float)24);
     AddData((ioData*)&BattVolt, Duid_Batt_Dc24_BattVolt);
+    BattAmpM.SetValue((Float)0);
+    AddData((ioData*)&BattAmpM, Duid_Batt_Dc24_BattAmpM);
+    BattAmpF.SetValue((Float)0);
+    AddData((ioData*)&BattAmpF, Duid_Batt_Dc24_BattAmpF);
+    BattAmpA.SetValue((Float)0.0);
+    AddData((ioData*)&BattAmpA, Duid_Batt_Dc24_BattAmpA);
     BattAmpOut.SetValue((Float)0);
     AddData((ioData*)&BattAmpOut, Duid_Batt_Dc24_BattAmpOut);
     BattAmpIn.SetValue((Float)0);

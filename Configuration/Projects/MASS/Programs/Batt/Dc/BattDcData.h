@@ -4,8 +4,18 @@
 #include "ioSystem/Data/ioDataCollection.h"
 #include "ioSystem/Data/ioVar.h"
 #include "Programs/ioSystemData.h"
+#include "ioSystem/Data/ioEnumeration.h"
 #include "ioSystem/Data/ioEvent.h"
 #include "ioSystem/Data/ioMethod.h"
+class TypeDcBatt : public ioEnumeration
+{
+public:
+    TypeDcBatt();
+    virtual ~TypeDcBatt();
+    virtual Bool GetActiveText(ioString* enumText);
+    static const Int32 DC12V = 0;
+    static const Int32 DC24V = 1;
+};
 class BattDcData : public ioDataCollection
 {
 public:
@@ -13,13 +23,16 @@ public:
     virtual ~BattDcData();
     virtual void InitializeData(void);
     ioVarFloat BattVolt;
+    ioVarFloat BattAmpM;
+    ioVarFloat BattAmpF;
+    ioVarFloat BattAmpA;
     ioVarFloat BattAmpOut;
     ioVarFloat BattAmpIn;
     ioVarFloat BattAmpAvg;
     ioMethod RequestDcData;
     ioEvent ResponseDcData;
 protected:
-    ioData* m_ListData[6];
+    ioData* m_ListData[9];
     ioVar* m_ResponseDcDataVars[2];
 };
 #endif // __BATTDCDATA_H

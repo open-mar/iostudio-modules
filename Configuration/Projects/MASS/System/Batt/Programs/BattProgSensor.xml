@@ -11,6 +11,17 @@
         </DataListClasses>
     </DataItemsCollection>
     <InternalFunctions>
+        <Function Name="CalcCurrentOut">
+            <Inputs>
+                <Argument Name="typeBatt" TypeNum="Int32" TypeEnumeration="TypeDcBatt" />
+                <Argument Name="currentOutA" TypeNum="Float" />
+                <Argument Name="currentOutM" TypeNum="Float" />
+                <Argument Name="currentOutF" TypeNum="Float" />
+            </Inputs>
+            <Outputs>
+                <Argument Name="currentOut" TypeNum="Float" />
+            </Outputs>
+        </Function>
         <Function Name="CheckBattery">
             <Inputs>
                 <Argument Name="currentIn" TypeNum="Float" />
@@ -18,7 +29,7 @@
                 <Argument Name="voltage" TypeNum="Float" />
             </Inputs>
             <Outputs>
-                <Argument Name="retBool" TypeNum="Bool"/>
+                <Argument Name="retBool" TypeNum="Bool" />
                 <Argument Name="currentAvg" TypeNum="Float" />
             </Outputs>
         </Function>
@@ -42,8 +53,25 @@
     <Sequences>
         <Run>
             <Function TypeFunction="Internal">
+                <Call Name="CalcCurrentOut">
+                    <Input Name="typeBatt">0</Input>
+                    <Input Name="currentOutA" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpA" TypeData="Data" />
+                    <Input Name="currentOutM" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpM" TypeData="Data" />
+                    <Input Name="currentOutF" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpF" TypeData="Data" />
+                    <Output Name="currentOut" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpOut" TypeData="Data" />
+                </Call>
+            </Function>
+            <Function TypeFunction="Internal">
+                <Call Name="CalcCurrentOut">
+                    <Input Name="typeBatt">1</Input>
+                    <Input Name="currentOutA" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpA" TypeData="Data" />
+                    <Input Name="currentOutM" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpM" TypeData="Data" />
+                    <Input Name="currentOutF" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpF" TypeData="Data" />
+                    <Output Name="currentOut" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpOut" TypeData="Data" />
+                </Call>
+            </Function>
+            <Function TypeFunction="Internal">
                 <Call Name="CheckBattery">
-                    <Return NameClass="BattData" GlobalID="Batt.IsChargActive12V" />
                     <Input Name="currentIn" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpIn" TypeData="Data" />
                     <Input Name="currentOut" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpOut" TypeData="Data" />
                     <Input Name="voltage" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattVolt" TypeData="Data" />
@@ -52,7 +80,6 @@
             </Function>
             <Function TypeFunction="Internal">
                 <Call Name="CheckBattery">
-                    <Return NameClass="BattData" GlobalID="Batt.IsChargActive24V" />
                     <Input Name="currentIn" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpIn" TypeData="Data" />
                     <Input Name="currentOut" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpOut" TypeData="Data" />
                     <Input Name="voltage" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattVolt" TypeData="Data" />
@@ -68,9 +95,7 @@
                 </Call>
             </Function>
             <Function TypeFunction="Internal">
-                <Call Name="GetInputVoltageCharger">
-                    <Return NameClass="BattData" GlobalID="Batt.StatusOfCharge" />
-                </Call>
+                <Call Name="GetInputVoltageCharger" />
             </Function>
         </Run>
     </Sequences>

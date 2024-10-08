@@ -348,3 +348,9 @@ DUID;Parent;LocalID
 347;Steer.CpA;LeftBig
 348;Steer.CpA;RightBig
 349;Steer.CpA;EncoderNumber
+350;Batt.Dc12;BattAmpM
+351;Batt.Dc12;BattAmpF
+352;Batt.Dc12;BattAmpA
+353;Batt.Dc24;BattAmpM
+354;Batt.Dc24;BattAmpF
+355;Batt.Dc24;BattAmpA
