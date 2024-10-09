@@ -60,5 +60,28 @@
         <GraphicsEvent NameClass="PowOutPanelOut12A" GlobalID="Pow.Out12A.ButtOffCh1.Clicked">
             <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.SwitchOffCh1" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
         </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12A" GlobalID="Pow.Out12A.ButtOnCh2.Clicked">
+            <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.SwitchOnCh2" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12A" GlobalID="Pow.Out12A.ButtOffCh2.Clicked">
+            <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.SwitchOffCh2" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12A" GlobalID="Pow.Out12A.ButtOnCh3.Clicked">
+            <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.SwitchOnCh3" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12A" GlobalID="Pow.Out12A.ButtOffCh3.Clicked">
+            <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.SwitchOffCh3" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OutStatus">
+            <GraphicsData NameClass="PowIndicatorPanelOut12A" GlobalID="Pow.Out12A.ShpOnOffInd1">
+                <DataAssigned NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnCh1" />
+            </GraphicsData>
+            <GraphicsData NameClass="PowIndicatorPanelOut12A" GlobalID="Pow.Out12A.ShpOnOffInd2">
+                <DataAssigned NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnCh2" />
+            </GraphicsData>
+            <GraphicsData NameClass="PowIndicatorPanelOut12A" GlobalID="Pow.Out12A.ShpOnOffInd3">
+                <DataAssigned NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnCh3" />
+            </GraphicsData>
+        </RxTxData>
     </Sequences>
 </ProgramClass>

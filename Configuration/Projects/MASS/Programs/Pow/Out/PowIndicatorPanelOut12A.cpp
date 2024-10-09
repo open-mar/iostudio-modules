@@ -18,10 +18,10 @@ void PowIndicatorPanelOut12A::InitializeData(void)
     LabelNameInd1.SetTextForced((ioChars)"AP Clutch");
     AddGraphics(&ShpOnOffInd2, Puid_Pow_Out12A_ShpOnOffInd2);
     AddGraphics(&LabelNameInd2, Puid_Pow_Out12A_LabelNameInd2);
-    LabelNameInd2.SetTextForced((ioChars)"NameChannel_12A2");
+    LabelNameInd2.SetTextForced((ioChars)"AP Drive");
     AddGraphics(&ShpOnOffInd3, Puid_Pow_Out12A_ShpOnOffInd3);
     AddGraphics(&LabelNameInd3, Puid_Pow_Out12A_LabelNameInd3);
-    LabelNameInd3.SetTextForced((ioChars)"NameChannel_12A3");
+    LabelNameInd3.SetTextForced((ioChars)"NMEA 2000");
     AddGraphics(&ShpOnOffInd4, Puid_Pow_Out12A_ShpOnOffInd4);
     AddGraphics(&LabelNameInd4, Puid_Pow_Out12A_LabelNameInd4);
     LabelNameInd4.SetTextForced((ioChars)"NameChannel_12A4");

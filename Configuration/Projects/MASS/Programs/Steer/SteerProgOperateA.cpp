@@ -47,29 +47,29 @@ void SteerProgOperateA::ReceiveData(ioDataCollection* listData, ioData* data)
 {
     if (listData == NULL) {}
     if (data == NULL) {}
-    else if (data == &DataCpA.OnChangeCommandSteer)
+    else
     {
-        CommandCpA.TextCommandStatusSteer.SetValueVar(&DataCpA.ActiveStationSteer);
-    }
-    else if (data == &DataCpA.OnChangeSteerMode)
-    {
-        CommandCpA.LabelSteerMode.SetValueVar(&DataCpA.SteerMode);
-    }
-    else if (data == &DataApA.OnChangeRef)
-    {
-        AutopilotApA.InstrHeadingRef.SetValueVar(&DataApA.HeadingRef);
-    }
-    else if (data == &DataApA.OnChangeCompass)
-    {
-        SendData(&DataCpA.ModeWork, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
-    }
-    else if (data == &DataApA.OnChangeRudder)
-    {
-    }
-    else if (data == &DataApA.OnChangeThrust)
-    {
-    }
-    else if (data == &DataApA.OnChangeEngine)
-    {
-    }
+        ioSystemDataType duid = ioSystemData::GetDataType(data->GetDataID());
+        switch (duid)
+        {
+        case Duid_Steer_CpA_OnChangeCommandSteer:
+            CommandCpA.TextCommandStatusSteer.SetValueVar(&DataCpA.ActiveStationSteer);
+            break;
+        case Duid_Steer_CpA_OnChangeSteerMode:
+            CommandCpA.LabelSteerMode.SetValueVar(&DataCpA.SteerMode);
+            break;
+        case Duid_Steer_ApA_OnChangeRef:
+            AutopilotApA.InstrHeadingRef.SetValueVar(&DataApA.HeadingRef);
+            break;
+        case Duid_Steer_ApA_OnChangeCompass:
+            SendData(&DataCpA.ModeWork, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
+            break;
+        case Duid_Steer_ApA_OnChangeRudder:
+            break;
+        case Duid_Steer_ApA_OnChangeThrust:
+            break;
+        case Duid_Steer_ApA_OnChangeEngine:
+            break;
+        } // switch
+    } // else
 }

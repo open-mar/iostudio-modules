@@ -14,6 +14,10 @@ void PowProgControl::InitializeTask(void)
 {
     ioProgram::InitializeTask();
 }
+void PowProgControl::Run(Int32 activeSlot)
+{
+    if (activeSlot == 0) {}
+}
 void PowProgControl::ReceiveData(ioDataCollection* listData, ioData* data)
 {
     ioVarInt32 in1_Int32;
@@ -43,19 +47,51 @@ void PowProgControl::ReceiveData(ioDataCollection* listData, ioData* data)
             in2_Int32.SetValue(1);
             in3_Bool.SetValue(TRUE);
             OnRecvSwitchOnOff(&in1_Int32, &in2_Int32, &in3_Bool);
+            SendData(&PortOut12A.OutStatus, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
+            SendData(&PortOut12A.OutStatus, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
             break;
         case Duid_Pow_Out12A_SwitchOffCh1:
             in1_Int32.SetValue(0);
             in2_Int32.SetValue(1);
             in3_Bool.SetValue(FALSE);
             OnRecvSwitchOnOff(&in1_Int32, &in2_Int32, &in3_Bool);
+            SendData(&PortOut12A.OutStatus, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
+            SendData(&PortOut12A.OutStatus, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
+            break;
+        case Duid_Pow_Out12A_SwitchOnCh2:
+            in1_Int32.SetValue(0);
+            in2_Int32.SetValue(2);
+            in3_Bool.SetValue(TRUE);
+            OnRecvSwitchOnOff(&in1_Int32, &in2_Int32, &in3_Bool);
+            SendData(&PortOut12A.OutStatus, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
+            SendData(&PortOut12A.OutStatus, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
+            break;
+        case Duid_Pow_Out12A_SwitchOffCh2:
+            in1_Int32.SetValue(0);
+            in2_Int32.SetValue(2);
+            in3_Bool.SetValue(FALSE);
+            OnRecvSwitchOnOff(&in1_Int32, &in2_Int32, &in3_Bool);
+            SendData(&PortOut12A.OutStatus, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
+            SendData(&PortOut12A.OutStatus, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
+            break;
+        case Duid_Pow_Out12A_SwitchOnCh3:
+            in1_Int32.SetValue(0);
+            in2_Int32.SetValue(3);
+            in3_Bool.SetValue(TRUE);
+            OnRecvSwitchOnOff(&in1_Int32, &in2_Int32, &in3_Bool);
+            SendData(&PortOut12A.OutStatus, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
+            SendData(&PortOut12A.OutStatus, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
+            break;
+        case Duid_Pow_Out12A_SwitchOffCh3:
+            in1_Int32.SetValue(0);
+            in2_Int32.SetValue(3);
+            in3_Bool.SetValue(FALSE);
+            OnRecvSwitchOnOff(&in1_Int32, &in2_Int32, &in3_Bool);
+            SendData(&PortOut12A.OutStatus, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
+            SendData(&PortOut12A.OutStatus, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
             break;
         } // switch
     } // else
-}
-void PowProgControl::Run(Int32 activeSlot)
-{
-    if (activeSlot == 0) {}
 }
 void PowProgControl::OnRecvTakeCommandPow(ioVarInt32* sender)
 {

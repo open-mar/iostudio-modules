@@ -47,29 +47,29 @@ void SteerProgOperateM::ReceiveData(ioDataCollection* listData, ioData* data)
 {
     if (listData == NULL) {}
     if (data == NULL) {}
-    else if (data == &DataCpM.OnChangeCommandSteer)
+    else
     {
-        CommandCpM.TextCommandStatusSteer.SetValueVar(&DataCpM.ActiveStationSteer);
-    }
-    else if (data == &DataApM.OnChangeRef)
-    {
-        AutopilotApM.LabelApSteer.SetValueVar(&DataApM.HeadingRef);
-    }
-    else if (data == &DataApM.OnChangeCompass)
-    {
-        SendData(&DataCpM.ModeWork, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
-    }
-    else if (data == &DataApM.OnChangeRudder)
-    {
-    }
-    else if (data == &DataApM.OnChangeThrust)
-    {
-    }
-    else if (data == &DataApM.OnChangeEngine)
-    {
-    }
-    else if (data == &DataCpM.OnChangeSteerMode)
-    {
-        CommandCpM.LabelSteerMode.SetValueVar(&DataCpM.SteerMode);
-    }
+        ioSystemDataType duid = ioSystemData::GetDataType(data->GetDataID());
+        switch (duid)
+        {
+        case Duid_Steer_CpM_OnChangeCommandSteer:
+            CommandCpM.TextCommandStatusSteer.SetValueVar(&DataCpM.ActiveStationSteer);
+            break;
+        case Duid_Steer_ApM_OnChangeRef:
+            AutopilotApM.LabelApSteer.SetValueVar(&DataApM.HeadingRef);
+            break;
+        case Duid_Steer_ApM_OnChangeCompass:
+            SendData(&DataCpM.ModeWork, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
+            break;
+        case Duid_Steer_ApM_OnChangeRudder:
+            break;
+        case Duid_Steer_ApM_OnChangeThrust:
+            break;
+        case Duid_Steer_ApM_OnChangeEngine:
+            break;
+        case Duid_Steer_CpM_OnChangeSteerMode:
+            CommandCpM.LabelSteerMode.SetValueVar(&DataCpM.SteerMode);
+            break;
+        } // switch
+    } // else
 }

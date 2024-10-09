@@ -24,57 +24,57 @@ void SteerProgControl::ReceiveData(ioDataCollection* listData, ioData* data)
     ioVarInt32 in2_Int32;
     if (listData == NULL) {}
     if (data == NULL) {}
-    else if (data == &DataControlCpA.TakeCommandSteer)
+    else
     {
-        in1_Int32.SetValue(1);
-        OnRecvTakeCommandSteer(&in1_Int32);
-        SendData(&DataControlCpA.OnChangeCommandSteer, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
-        SendData(&DataControlCpM.OnChangeCommandSteer, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
-    }
-    else if (data == &DataControlCpM.TakeCommandSteer)
-    {
-        in1_Int32.SetValue(0);
-        OnRecvTakeCommandSteer(&in1_Int32);
-        SendData(&DataControlCpM.OnChangeCommandSteer, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
-        SendData(&DataControlCpA.OnChangeCommandSteer, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
-    }
-    else if (data == &DataApM.OnRequestSteerData)
-    {
-        in1_Int32.SetValue(1);
-        OnRecvRequestSteerData(&in1_Int32);
-    }
-    else if (data == &DataControlCpM.ModeStandby)
-    {
-        in1_Int32.SetValue(0);
-        in2_Int32.SetValue(0);
-        OnRecvSteerMode(&in1_Int32, &in2_Int32);
-        SendData(&DataControlCpM.OnChangeSteerMode, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
-        SendData(&DataControlCpA.OnChangeSteerMode, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
-    }
-    else if (data == &DataControlCpM.ModeAuto)
-    {
-        in1_Int32.SetValue(0);
-        in2_Int32.SetValue(2);
-        OnRecvSteerMode(&in1_Int32, &in2_Int32);
-        SendData(&DataControlCpM.OnChangeSteerMode, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
-        SendData(&DataControlCpA.OnChangeSteerMode, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
-    }
-    else if (data == &DataControlCpA.ModeStandby)
-    {
-        in1_Int32.SetValue(1);
-        in2_Int32.SetValue(0);
-        OnRecvSteerMode(&in1_Int32, &in2_Int32);
-        SendData(&DataControlCpM.OnChangeSteerMode, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
-        SendData(&DataControlCpA.OnChangeSteerMode, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
-    }
-    else if (data == &DataControlCpA.ModeAuto)
-    {
-        in1_Int32.SetValue(1);
-        in2_Int32.SetValue(2);
-        OnRecvSteerMode(&in1_Int32, &in2_Int32);
-        SendData(&DataControlCpM.OnChangeSteerMode, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
-        SendData(&DataControlCpA.OnChangeSteerMode, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
-    }
+        ioSystemDataType duid = ioSystemData::GetDataType(data->GetDataID());
+        switch (duid)
+        {
+        case Duid_Steer_CpA_TakeCommandSteer:
+            in1_Int32.SetValue(1);
+            OnRecvTakeCommandSteer(&in1_Int32);
+            SendData(&DataControlCpA.OnChangeCommandSteer, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
+            SendData(&DataControlCpM.OnChangeCommandSteer, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
+            break;
+        case Duid_Steer_CpM_TakeCommandSteer:
+            in1_Int32.SetValue(0);
+            OnRecvTakeCommandSteer(&in1_Int32);
+            SendData(&DataControlCpM.OnChangeCommandSteer, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
+            SendData(&DataControlCpA.OnChangeCommandSteer, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
+            break;
+        case Duid_Steer_ApM_OnRequestSteerData:
+            in1_Int32.SetValue(1);
+            OnRecvRequestSteerData(&in1_Int32);
+            break;
+        case Duid_Steer_CpM_ModeStandby:
+            in1_Int32.SetValue(0);
+            in2_Int32.SetValue(0);
+            OnRecvSteerMode(&in1_Int32, &in2_Int32);
+            SendData(&DataControlCpM.OnChangeSteerMode, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
+            SendData(&DataControlCpA.OnChangeSteerMode, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
+            break;
+        case Duid_Steer_CpM_ModeAuto:
+            in1_Int32.SetValue(0);
+            in2_Int32.SetValue(2);
+            OnRecvSteerMode(&in1_Int32, &in2_Int32);
+            SendData(&DataControlCpM.OnChangeSteerMode, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
+            SendData(&DataControlCpA.OnChangeSteerMode, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
+            break;
+        case Duid_Steer_CpA_ModeStandby:
+            in1_Int32.SetValue(1);
+            in2_Int32.SetValue(0);
+            OnRecvSteerMode(&in1_Int32, &in2_Int32);
+            SendData(&DataControlCpM.OnChangeSteerMode, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
+            SendData(&DataControlCpA.OnChangeSteerMode, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
+            break;
+        case Duid_Steer_CpA_ModeAuto:
+            in1_Int32.SetValue(1);
+            in2_Int32.SetValue(2);
+            OnRecvSteerMode(&in1_Int32, &in2_Int32);
+            SendData(&DataControlCpM.OnChangeSteerMode, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
+            SendData(&DataControlCpA.OnChangeSteerMode, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
+            break;
+        } // switch
+    } // else
 }
 void SteerProgControl::OnRecvTakeCommandSteer(ioVarInt32* sender)
 {
