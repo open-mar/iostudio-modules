@@ -90,7 +90,7 @@ PUID;Parent;LocalID
 89;Pow.Out220V;GridAftPowOutput
 90;Pow.Out220V;GridMidPowOutput
 91;Pow.Out220V;GridFwdPowOutput
-92;Pow.Out12M;GridChInd1New
+92;Pow.Out12M;GridChInd1
 93;Pow.Out12M;ShpOnOffInd1
 94;Pow.Out12M;LabelNameInd1
 95;Pow.Out12M;GridChInd2

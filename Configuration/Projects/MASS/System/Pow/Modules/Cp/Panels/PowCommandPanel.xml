@@ -15,7 +15,7 @@
         <Grid Row="1" Column="2" />
         <Grid Row="2" Column="1">
             <ioShape LocalID="ShapeCommandStatusPow" HorizontalAlignment="Center" Width="100" VerticalAlignment="Center" Height="32">
-                <Properties TypeShape="Command" ShapeID="NotInCommand" ScaleX="1.0" ScaleY="1.0" TypeColor="InstrumentEnhancedPrimary" />
+                <Properties StyleID="InCommandStyle" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
             </ioShape>
         </Grid>
         <Grid Row="2" Column="2" IsStacked="TRUE" Orientation="Vertical">
@@ -51,7 +51,7 @@
         <Grid Row="1" Column="2" />
         <Grid Row="2" Column="1">
             <ioShape LocalID="ShapeCommandStatusPow" HorizontalAlignment="Center" Width="100" VerticalAlignment="Center" Height="32">
-                <Properties TypeShape="Command" ShapeID="NotInCommand" ScaleX="1.0" ScaleY="1.0" TypeColor="InstrumentEnhancedPrimary" />
+                <Properties StyleID="InCommandStyle" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
             </ioShape>
         </Grid>
         <Grid Row="2" Column="2" IsStacked="TRUE" Orientation="Vertical">

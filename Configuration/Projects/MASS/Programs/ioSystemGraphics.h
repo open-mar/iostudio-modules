@@ -96,7 +96,7 @@ typedef enum
     Puid_Pow_Out220V_GridAftPowOutput = 89,
     Puid_Pow_Out220V_GridMidPowOutput = 90,
     Puid_Pow_Out220V_GridFwdPowOutput = 91,
-    Puid_Pow_Out12M_GridChInd1New = 92,
+    Puid_Pow_Out12M_GridChInd1 = 92,
     Puid_Pow_Out12M_ShpOnOffInd1 = 93,
     Puid_Pow_Out12M_LabelNameInd1 = 94,
     Puid_Pow_Out12M_GridChInd2 = 95,

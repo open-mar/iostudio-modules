@@ -25,46 +25,46 @@
             <Type Name="ElementDisabledInverted" TypeID="6"/>
         </Enumeration>        
         <Enumeration LocalID="ioColorGeneral">
-            <Type Name="AutomationDevicePrimary" TypeID="0"/>
-            <Type Name="AutomationDeviceSceondary" TypeID="1"/>
-            <Type Name="AutomationPipePrimary" TypeID="2"/>
-            <Type Name="AutomationPipeSecondary" TypeID="3"/>
-            <Type Name="AutomationPipeTertiary" TypeID="4"/>
-            <Type Name="AutomationPipeOverlay" TypeID="5"/>
-            <Type Name="AutomationPipeDisabled" TypeID="6"/>
-            <Type Name="AutomationAcidAlkalis" TypeID="7"/>
-            <Type Name="AutomationAirVentilation" TypeID="8"/>
-            <Type Name="AutomationFireFighting" TypeID="9"/>
-            <Type Name="AutomationFlammableGas" TypeID="10"/>
-            <Type Name="AutomationFreshWater" TypeID="11"/>
-            <Type Name="AutomationFuel" TypeID="12"/>
-            <Type Name="AutomationMasses" TypeID="13"/>
-            <Type Name="AutomationNonFlammableGas" TypeID="14"/>
-            <Type Name="AutomationOil" TypeID="15"/>
-            <Type Name="AutomationSeaWater" TypeID="30"/>
-            <Type Name="AutomationSteam" TypeID="31"/>
-            <Type Name="AutomationWasteMedia" TypeID="32"/>
-            <Type Name="InstrumentEnhancedPrimary" TypeID="33"/>
-            <Type Name="InstrumentEnhancedSecondary" TypeID="34"/>
-            <Type Name="InstrumentEnhancedTertiary" TypeID="35"/>
-            <Type Name="InstrumentRegularPrimary" TypeID="36"/>
-            <Type Name="InstrumentRegularSecondary" TypeID="37"/>
-            <Type Name="InstrumentRegularTertiary" TypeID="38"/>
-            <Type Name="InstrumentFramePrimary" TypeID="39"/>
-            <Type Name="InstrumentFrameSecondary" TypeID="40"/>
-            <Type Name="InstrumentFrameTertiary" TypeID="41"/>
-            <Type Name="InstrumentTickPrimary" TypeID="42"/>
-            <Type Name="InstrumentTickSecondary" TypeID="43"/>
-            <Type Name="InstrumentTickTertiary" TypeID="44"/>
-            <Type Name="InstrumentStarboard" TypeID="45"/>
-            <Type Name="InstrumentPort" TypeID="60"/>
-            <Type Name="AlertRunning" TypeID="61"/>
-            <Type Name="AlertCaution" TypeID="62"/>
-            <Type Name="AlertWarning" TypeID="63"/>
-            <Type Name="AlertAlarm" TypeID="64"/>
-            <Type Name="AlertCritical" TypeID="65"/>
-            <Type Name="AlertLimitPrimary" TypeID="66"/>
-            <Type Name="AlertLimitSecondary" TypeID="67"/>
+            <Type Name="AutomationDevicePrimary" TypeID="21"/>
+            <Type Name="AutomationDeviceSecondary" TypeID="22"/>
+            <Type Name="AutomationPipePrimary" TypeID="24"/>
+            <Type Name="AutomationPipeSecondary" TypeID="25"/>
+            <Type Name="AutomationPipeTertiary" TypeID="26"/>
+            <Type Name="AutomationPipeOverlay" TypeID="27"/>
+            <Type Name="AutomationPipeDisabled" TypeID="28"/>
+            <Type Name="AutomationAcidAlkalis" TypeID="29"/>
+            <Type Name="AutomationAirVentilation" TypeID="30"/>
+            <Type Name="AutomationFireFighting" TypeID="31"/>
+            <Type Name="AutomationFlammableGas" TypeID="32"/>
+            <Type Name="AutomationFreshWater" TypeID="33"/>
+            <Type Name="AutomationFuel" TypeID="34"/>
+            <Type Name="AutomationMasses" TypeID="35"/>
+            <Type Name="AutomationNonFlammableGas" TypeID="32"/>
+            <Type Name="AutomationOil" TypeID="37"/>
+            <Type Name="AutomationSeaWater" TypeID="38"/>
+            <Type Name="AutomationSteam" TypeID="39"/>
+            <Type Name="AutomationWasteMedia" TypeID="40"/>
+            <Type Name="InstrumentEnhancedPrimary" TypeID="0"/>
+            <Type Name="InstrumentEnhancedSecondary" TypeID="1"/>
+            <Type Name="InstrumentEnhancedTertiary" TypeID="2"/>
+            <Type Name="InstrumentRegularPrimary" TypeID="3"/>
+            <Type Name="InstrumentRegularSecondary" TypeID="4"/>
+            <Type Name="InstrumentRegularTertiary" TypeID="5"/>
+            <Type Name="InstrumentFramePrimary" TypeID="6"/>
+            <Type Name="InstrumentFrameSecondary" TypeID="7"/>
+            <Type Name="InstrumentFrameTertiary" TypeID="8"/>
+            <Type Name="InstrumentTickPrimary" TypeID="9"/>
+            <Type Name="InstrumentTickSecondary" TypeID="10"/>
+            <Type Name="InstrumentTickTertiary" TypeID="11"/>
+            <Type Name="InstrumentStarboard" TypeID="12"/>
+            <Type Name="InstrumentPort" TypeID="13"/>
+            <Type Name="AlertRunning" TypeID="14"/>
+            <Type Name="AlertCaution" TypeID="15"/>
+            <Type Name="AlertWarning" TypeID="16"/>
+            <Type Name="AlertAlarm" TypeID="17"/>
+            <Type Name="AlertCritical" TypeID="18"/>
+            <Type Name="AlertLimitPrimary" TypeID="19"/>
+            <Type Name="AlertLimitSecondary" TypeID="20"/>
         </Enumeration>
         <Enumeration LocalID="ioLabelType">
             <Type Name="Small" TypeID="0"/>
@@ -120,99 +120,135 @@
     </Properties>
     <Children>
         <GraphicsType Name="ioPanelGrid"/>
-        <GraphicsType Name="ioUiComponent">
+        <GraphicsType Name="ioGraphicsToStyle" IsBaseOnly="TRUE">
             <Properties>
-                <Variable LocalID="TypeUiComponent" TypeNum="String">Navigation</Variable>
-                <Variable LocalID="UiComponentID" TypeNum="String">ioTunnelThrusterSimple</Variable>
-                <Variable LocalID="Radius" TypeNum="Double">150.0</Variable>
-            </Properties>
-        </GraphicsType>
-        <GraphicsType Name="ioGraphicsText" IsBaseOnly="TRUE">
-            <Properties>
-                <Variable LocalID="Text" TypeNum="String"/>
+                <Variable LocalID="StyleID" TypeNum="String"></Variable>
+                <Variable LocalID="ValueStyle" TypeNum="String"></Variable>
             </Properties>
             <Children>
-                <GraphicsType Name="ioButtonText">
+                <GraphicsType Name="ioUiComponent">
                     <Properties>
-                        <Variable LocalID="TypeColor" TypeEnumeration="ioColorType">0</Variable>
+                        <Variable LocalID="TypeUiComponent" TypeNum="String">Navigation</Variable>
+                        <Variable LocalID="UiComponentID" TypeNum="String">ioTunnelThrusterSimple</Variable>
+                        <Variable LocalID="Radius" TypeNum="Double">150.0</Variable>
                     </Properties>
-                    <Children>
-                        <GraphicsType Name="ioButtonIcon">
-                            <Properties>
-                                <Variable LocalID="TypeFontIcon" TypeNum="String">Windows</Variable>
-                                <Variable LocalID="IconID" TypeNum="String">AllApps</Variable>
-                            </Properties>
-                        </GraphicsType>
-                        <GraphicsType Name="ioButtonShape">
-                            <Properties>
-                                <Variable LocalID="TypeShape" TypeNum="String">Automation</Variable>
-                                <Variable LocalID="ShapeID" TypeNum="String">Off</Variable>
-                            </Properties>
-                        </GraphicsType>
-                    </Children>
                 </GraphicsType>
-                <GraphicsType Name="ioTextBox" IsBaseOnly="TRUE">
+                <GraphicsType Name="ioGraphicsText" IsBaseOnly="TRUE">
                     <Properties>
-                        <Variable LocalID="TextAlignment" TypeEnumeration="ioTextAlignment">0</Variable>
+                        <Variable LocalID="Text" TypeNum="String"/>
                     </Properties>
                     <Children>
-                        <GraphicsType Name="ioTextBoxText">
+                        <GraphicsType Name="ioButtonText">
                             <Properties>
-                                <Variable LocalID="AcceptsReturn" TypeNum="Bool">FALSE</Variable>
+                                <Variable LocalID="TypeColor" TypeEnumeration="ioColorType">0</Variable>
+                            </Properties>
+                            <Children>
+                                <GraphicsType Name="ioButtonIcon">
+                                    <Properties>
+                                        <Variable LocalID="TypeFontIcon" TypeNum="String">Windows</Variable>
+                                        <Variable LocalID="IconID" TypeNum="String">AllApps</Variable>
+                                    </Properties>
+                                </GraphicsType>
+                                <GraphicsType Name="ioButtonShape">
+                                    <Properties>
+                                        <Variable LocalID="TypeShape" TypeNum="String">Automation</Variable>
+                                        <Variable LocalID="ShapeID" TypeNum="String">Off</Variable>
+                                    </Properties>
+                                </GraphicsType>
+                            </Children>
+                        </GraphicsType>
+                        <GraphicsType Name="ioTextBox" IsBaseOnly="TRUE">
+                            <Properties>
+                                <Variable LocalID="TextAlignment" TypeEnumeration="ioTextAlignment">0</Variable>
+                            </Properties>
+                            <Children>
+                                <GraphicsType Name="ioTextBoxText">
+                                    <Properties>
+                                        <Variable LocalID="AcceptsReturn" TypeNum="Bool">FALSE</Variable>
+                                        <Variable LocalID="TextWrapping" TypeEnumeration="ioTextWrapping">0</Variable>
+                                    </Properties>
+                                </GraphicsType>
+                                <GraphicsType Name="ioTextBoxNumber">
+                                    <Properties>
+                                        <Variable LocalID="Decimals" TypeNum="UInt32">0</Variable>
+                                        <Variable LocalID="Min" TypeNum="Double">0</Variable>
+                                        <Variable LocalID="Max" TypeNum="Double">9999</Variable>
+                                    </Properties>
+                                </GraphicsType>
+                            </Children>
+                        </GraphicsType>
+                        <GraphicsType Name="ioLabel">
+                            <Properties>
+                                <Variable LocalID="TypeLabel" TypeEnumeration="ioLabelType">0</Variable>
+                                <Variable LocalID="TypeColor" TypeEnumeration="ioColorForeground">0</Variable>
                                 <Variable LocalID="TextWrapping" TypeEnumeration="ioTextWrapping">0</Variable>
                             </Properties>
                         </GraphicsType>
-                        <GraphicsType Name="ioTextBoxNumber">
+                        <GraphicsType Name="ioTextBlock">
                             <Properties>
-                                <Variable LocalID="Decimals" TypeNum="UInt32">0</Variable>
-                                <Variable LocalID="Min" TypeNum="Double">0</Variable>
-                                <Variable LocalID="Max" TypeNum="Double">9999</Variable>
+                                <Variable LocalID="TypeColor" TypeEnumeration="ioColorGeneral">0</Variable>
+                                <Variable LocalID="FontFamily" TypeEnumeration="ioFontFamily">0</Variable>
+                                <Variable LocalID="FontSize" TypeEnumeration="ioFontSize">0</Variable>
+                                <Variable LocalID="FontWeight" TypeEnumeration="ioFontWeights">0</Variable>
+                                <Variable LocalID="TextWrapping" TypeEnumeration="ioTextWrapping">0</Variable>
+                                <Variable LocalID="Decimals" TypeNum="UInt32">1</Variable>
+                                <Variable LocalID="TextAlignment" TypeEnumeration="ioTextAlignment">0</Variable>
                             </Properties>
                         </GraphicsType>
                     </Children>
                 </GraphicsType>
-                <GraphicsType Name="ioLabel">
+                <GraphicsType Name="ioRadioButton"/>
+                <GraphicsType Name="ioComboBox"/>
+                <GraphicsType Name="ioCheckBox">
                     <Properties>
-                        <Variable LocalID="TypeLabel" TypeEnumeration="ioLabelType">0</Variable>
-                        <Variable LocalID="TypeColor" TypeEnumeration="ioColorForeground">0</Variable>
-                        <Variable LocalID="TextWrapping" TypeEnumeration="ioTextWrapping">0</Variable>
+                        <Variable LocalID="IsChecked" TypeNum="Bool">FALSE</Variable>
                     </Properties>
                 </GraphicsType>
-                <GraphicsType Name="ioTextBlock">
+                <GraphicsType Name="ioIcon">
                     <Properties>
+                        <Variable LocalID="TypeFont" TypeNum="String">MaterialDesign</Variable>
+                        <Variable LocalID="IconID" TypeNum="String">apps</Variable>
                         <Variable LocalID="TypeColor" TypeEnumeration="ioColorGeneral">0</Variable>
-                        <Variable LocalID="FontFamily" TypeEnumeration="ioFontFamily">0</Variable>
-                        <Variable LocalID="FontSize" TypeEnumeration="ioFontSize">0</Variable>
-                        <Variable LocalID="FontWeight" TypeEnumeration="ioFontWeights">0</Variable>
-                        <Variable LocalID="TextWrapping" TypeEnumeration="ioTextWrapping">0</Variable>
-                        <Variable LocalID="Decimals" TypeNum="UInt32">1</Variable>
-                        <Variable LocalID="TextAlignment" TypeEnumeration="ioTextAlignment">0</Variable>
                     </Properties>
+                </GraphicsType>
+                <GraphicsType Name="ioShape">
+                    <Properties>
+                        <Variable LocalID="TypeShape" TypeNum="String">Automation</Variable>
+                        <Variable LocalID="ShapeID" TypeNum="String">Off</Variable>
+                        <Variable LocalID="ScaleX" TypeNum="Double" Decimals="3" Min="0.001" Max="999.0">1.0</Variable>
+                        <Variable LocalID="ScaleY" TypeNum="Double" Decimals="3" Min="0.001" Max="999.0">1.0</Variable>
+                        <Variable LocalID="TypeColor" TypeEnumeration="ioColorGeneral">0</Variable>
+                        <Variable LocalID="StyleID" TypeNum="String">OnOffSwitch</Variable>
+                        <Variable LocalID="ValueStyle" TypeNum="String">OnOffSwitch</Variable>
+                    </Properties>
+                    <Resources>
+                        <Style LocalID="OnOffSwitch" TypeNum="Bool">
+                            <VisualState Value="TRUE">
+                                <Setter Target="TypeColor">14</Setter>
+                                <Setter Target="TypeShape">Automation</Setter>
+                                <Setter Target="ShapeID">On</Setter>
+                            </VisualState>
+                            <VisualState Value="FALSE">
+                                <Setter Target="TypeColor">17</Setter>
+                                <Setter Target="TypeShape">Automation</Setter>
+                                <Setter Target="ShapeID">Off</Setter>
+                            </VisualState>
+                        </Style>
+                        <Style LocalID="InCommandStyle" TypeNum="Bool">
+                            <VisualState Value="TRUE">
+                                <Setter Target="TypeColor">0</Setter>
+                                <Setter Target="TypeShape">Command</Setter>
+                                <Setter Target="ShapeID">InCommand</Setter>
+                            </VisualState>
+                            <VisualState Value="FALSE">
+                                <Setter Target="TypeColor">4</Setter>
+                                <Setter Target="TypeShape">Command</Setter>
+                                <Setter Target="ShapeID">NotInCommand</Setter>
+                            </VisualState>
+                        </Style>
+                    </Resources>
                 </GraphicsType>
             </Children>
-        </GraphicsType>
-        <GraphicsType Name="ioRadioButton"/>
-        <GraphicsType Name="ioComboBox"/>
-        <GraphicsType Name="ioCheckBox">
-            <Properties>
-                <Variable LocalID="IsChecked" TypeNum="Bool">FALSE</Variable>
-            </Properties>
-        </GraphicsType>
-        <GraphicsType Name="ioIcon">
-            <Properties>
-                <Variable LocalID="TypeFont" TypeNum="String">MaterialDesign</Variable>
-                <Variable LocalID="IconID" TypeNum="String">apps</Variable>
-                <Variable LocalID="TypeColor" TypeEnumeration="ioColorGeneral">0</Variable>
-            </Properties>
-        </GraphicsType>
-        <GraphicsType Name="ioShape">
-            <Properties>
-                <Variable LocalID="TypeShape" TypeNum="String">Automation</Variable>
-                <Variable LocalID="ShapeID" TypeNum="String">Off</Variable>
-                <Variable LocalID="ScaleX" TypeNum="Double" Decimals="3" Min="0.001" Max="999.0">1.0</Variable>
-                <Variable LocalID="ScaleY" TypeNum="Double" Decimals="3" Min="0.001" Max="999.0">1.0</Variable>
-                <Variable LocalID="TypeColor" TypeEnumeration="ioColorGeneral">0</Variable>
-            </Properties>
         </GraphicsType>
     </Children>
 </PanelProperties>

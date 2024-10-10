@@ -40,6 +40,7 @@ public:
     virtual void Run(Int32 activeSlot);
     virtual void ReceiveGraphicsEvent(Int32 puidValue, ioProgramGraphicsEvent typeEvent);
     virtual void ReceiveData(ioDataCollection* listData, ioData* data);
+    virtual void ReceiveOnChangeCommandPow(ioVarInt32* activeStation);
     PowCpDataCpM DataCmdCpM;
     PowOutDataOut12M PortOut12M;
     PowOutDataOut12F PortOut12F;

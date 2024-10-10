@@ -76,6 +76,7 @@ void PowProgOperateM::ReceiveGraphicsEvent(Int32 puidValue, ioProgramGraphicsEve
 }
 void PowProgOperateM::ReceiveData(ioDataCollection* listData, ioData* data)
 {
+    ioVarInt32 in1_Int32;
     if (listData == NULL) {}
     if (data == NULL) {}
     else
@@ -85,6 +86,8 @@ void PowProgOperateM::ReceiveData(ioDataCollection* listData, ioData* data)
         {
         case Duid_Pow_CpM_OnChangeCommandPow:
             PanelCmdCpM.TextCommandStatusPow.SetValueVar(&DataCmdCpM.ActiveStationPow);
+            in1_Int32.SetValueVar(&DataCmdCpM.ActiveStationPow);
+            ReceiveOnChangeCommandPow(&in1_Int32);
             break;
         case Duid_Pow_Out12A_OutStatus:
             PanelIndOut12A.ShpOnOffInd1.SetValueVar(&PortOut12A.OnCh1);
@@ -93,4 +96,8 @@ void PowProgOperateM::ReceiveData(ioDataCollection* listData, ioData* data)
             break;
         } // switch
     } // else
+}
+void PowProgOperateM::ReceiveOnChangeCommandPow(ioVarInt32* activeStation)
+{
+    if (activeStation == NULL) {};
 }

@@ -5,9 +5,9 @@
         <RowDefinition />
         <ColumnDefinition />
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
-            <ioPanelGrid LocalID="GridChInd1New" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
+            <ioPanelGrid LocalID="GridChInd1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd1" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="On" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertRunning" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd1" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_12M1" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -15,7 +15,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd2" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd2" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd2" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_12M2" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -23,7 +23,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd3" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd3" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd3" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_12M3" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -31,7 +31,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd4" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd4" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd4" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_12M4" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -39,7 +39,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd5" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd5" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd5" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_12M5" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -47,7 +47,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd6" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd6" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd6" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_12M6" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -55,7 +55,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd7" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd7" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd7" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_12M7" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -63,7 +63,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd8" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd8" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd8" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_12M8" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -77,7 +77,7 @@
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridChInd1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd1" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd1" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_12F1" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -85,7 +85,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd2" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd2" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="On" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertRunning" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd2" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_12F2" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -93,7 +93,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd3" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd3" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd3" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_12F3" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -101,7 +101,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd4" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd4" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd4" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_12F4" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -109,7 +109,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd5" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd5" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd5" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_12F5" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -117,7 +117,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd6" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd6" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd6" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_12F6" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -125,7 +125,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd7" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd7" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd7" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_12F7" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -133,7 +133,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd8" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd8" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd8" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_12F8" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -147,7 +147,7 @@
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridChInd1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd1" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd1" VerticalAlignment="Center" Height="15">
                     <Properties Text="AP Clutch" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -155,7 +155,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd2" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd2" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd2" VerticalAlignment="Center" Height="15">
                     <Properties Text="AP Drive" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -163,7 +163,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd3" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd3" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="On" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertRunning" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd3" VerticalAlignment="Center" Height="15">
                     <Properties Text="NMEA 2000" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -171,7 +171,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd4" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd4" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd4" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_12A4" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -179,7 +179,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd5" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd5" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd5" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_12A5" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -187,7 +187,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd6" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd6" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd6" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_12A6" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -195,7 +195,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd7" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd7" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd7" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_12A7" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -203,7 +203,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd8" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd8" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd8" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_12A8" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -217,7 +217,7 @@
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridChInd1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd1" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd1" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_24M1" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -225,7 +225,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd2" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd2" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd2" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_24M2" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -233,7 +233,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd3" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd3" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd3" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_24M3" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -241,7 +241,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd4" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd4" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="On" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertRunning" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd4" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_24M4" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -249,7 +249,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd5" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd5" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd5" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_24M5" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -257,7 +257,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd6" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd6" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd6" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_24M6" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -265,7 +265,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd7" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd7" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd7" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_24M7" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -273,7 +273,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd8" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd8" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd8" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_24M8" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -287,7 +287,7 @@
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridChInd1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd1" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd1" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_24F1" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -295,7 +295,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd2" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd2" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd2" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_24F2" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -303,7 +303,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd3" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd3" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd3" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_24F3" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -311,7 +311,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd4" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd4" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd4" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_24F4" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -319,7 +319,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd5" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd5" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="On" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertRunning" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd5" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_24F5" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -327,7 +327,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd6" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd6" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd6" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_24F6" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -335,7 +335,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd7" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd7" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd7" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_24F7" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -343,7 +343,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd8" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd8" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd8" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_24F8" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -357,7 +357,7 @@
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridChInd1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd1" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd1" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_24A1" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -365,7 +365,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd2" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd2" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd2" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_24A2" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -373,7 +373,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd3" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd3" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd3" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_24A3" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -381,7 +381,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd4" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd4" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd4" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_24A4" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -389,7 +389,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd5" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd5" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd5" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_24A5" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -397,7 +397,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd6" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd6" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="On" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertRunning" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd6" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_24A6" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -405,7 +405,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd7" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd7" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd7" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_24A7" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -413,7 +413,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd8" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd8" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd8" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_24A8" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -427,7 +427,7 @@
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridChInd1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd1" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd1" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_220M1" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -435,7 +435,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd2" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd2" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd2" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_220M2" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -443,7 +443,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd3" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd3" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd3" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_220M3" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -451,7 +451,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd4" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd4" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd4" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_220M4" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -459,7 +459,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd5" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd5" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd5" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_220M5" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -467,7 +467,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd6" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd6" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd6" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_220M6" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -475,7 +475,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd7" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd7" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="On" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertRunning" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd7" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_220M7" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -483,7 +483,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd8" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd8" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd8" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_220M8" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -497,7 +497,7 @@
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridChInd1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd1" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd1" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_220F1" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -505,7 +505,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd2" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd2" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd2" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_220F2" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -513,7 +513,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd3" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd3" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd3" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_220F3" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -521,15 +521,15 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd4" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd4" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd4" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_220F4" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd5" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd5" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd5" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_220F5" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -537,7 +537,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd6" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd6" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd6" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_220F6" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -545,7 +545,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd7" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd7" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd7" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_220F7" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -553,7 +553,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd8" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd8" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="On" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertRunning" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd8" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_220F8" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -567,7 +567,7 @@
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridChInd1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd1" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd1" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_220A1" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -575,7 +575,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd2" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd2" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd2" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_220A2" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -583,7 +583,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd3" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd3" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd3" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_220A3" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -591,7 +591,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd4" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd4" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd4" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_220A4" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -599,7 +599,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd5" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd5" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd5" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_220A5" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -607,7 +607,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd6" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd6" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd6" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_220A6" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -615,7 +615,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd7" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd7" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd7" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_220A7" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
@@ -623,7 +623,7 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd8" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd8" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertAlarm" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" ScaleX="1.0" ScaleY="1.0" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd8" VerticalAlignment="Center" Height="15">
                     <Properties Text="NameChannel_220A8" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />

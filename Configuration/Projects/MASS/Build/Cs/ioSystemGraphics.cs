@@ -96,7 +96,7 @@ namespace ioSystemNetworkNet
         Puid_Pow_Out220V_GridAftPowOutput = 89,
         Puid_Pow_Out220V_GridMidPowOutput = 90,
         Puid_Pow_Out220V_GridFwdPowOutput = 91,
-        Puid_Pow_Out12M_GridChInd1New = 92,
+        Puid_Pow_Out12M_GridChInd1 = 92,
         Puid_Pow_Out12M_ShpOnOffInd1 = 93,
         Puid_Pow_Out12M_LabelNameInd1 = 94,
         Puid_Pow_Out12M_GridChInd2 = 95,
@@ -730,7 +730,7 @@ namespace ioSystemNetworkNet
                 case ioSystemGraphicsType.Puid_Pow_Out220V_GridAftPowOutput: return "Pow.Out220V.GridAftPowOutput";
                 case ioSystemGraphicsType.Puid_Pow_Out220V_GridMidPowOutput: return "Pow.Out220V.GridMidPowOutput";
                 case ioSystemGraphicsType.Puid_Pow_Out220V_GridFwdPowOutput: return "Pow.Out220V.GridFwdPowOutput";
-                case ioSystemGraphicsType.Puid_Pow_Out12M_GridChInd1New: return "Pow.Out12M.GridChInd1New";
+                case ioSystemGraphicsType.Puid_Pow_Out12M_GridChInd1: return "Pow.Out12M.GridChInd1";
                 case ioSystemGraphicsType.Puid_Pow_Out12M_ShpOnOffInd1: return "Pow.Out12M.ShpOnOffInd1";
                 case ioSystemGraphicsType.Puid_Pow_Out12M_LabelNameInd1: return "Pow.Out12M.LabelNameInd1";
                 case ioSystemGraphicsType.Puid_Pow_Out12M_GridChInd2: return "Pow.Out12M.GridChInd2";
@@ -1364,7 +1364,7 @@ namespace ioSystemNetworkNet
                 case "Pow.Out220V.GridAftPowOutput": return ioSystemGraphicsType.Puid_Pow_Out220V_GridAftPowOutput;
                 case "Pow.Out220V.GridMidPowOutput": return ioSystemGraphicsType.Puid_Pow_Out220V_GridMidPowOutput;
                 case "Pow.Out220V.GridFwdPowOutput": return ioSystemGraphicsType.Puid_Pow_Out220V_GridFwdPowOutput;
-                case "Pow.Out12M.GridChInd1New": return ioSystemGraphicsType.Puid_Pow_Out12M_GridChInd1New;
+                case "Pow.Out12M.GridChInd1": return ioSystemGraphicsType.Puid_Pow_Out12M_GridChInd1;
                 case "Pow.Out12M.ShpOnOffInd1": return ioSystemGraphicsType.Puid_Pow_Out12M_ShpOnOffInd1;
                 case "Pow.Out12M.LabelNameInd1": return ioSystemGraphicsType.Puid_Pow_Out12M_LabelNameInd1;
                 case "Pow.Out12M.GridChInd2": return ioSystemGraphicsType.Puid_Pow_Out12M_GridChInd2;

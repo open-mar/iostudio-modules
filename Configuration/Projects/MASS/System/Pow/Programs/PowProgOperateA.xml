@@ -33,6 +33,14 @@
             <Item NameClass="PowIndicatorPanelOut220A" NameObject="PanelIndOut220A" />
         </PanelInProgram>
     </PanelsCollection>
+    <InternalFunctions>
+        <Function Name="ReceiveOnChangeCommandPow">
+            <Inputs>
+                <Argument Name="activeStation" TypeNum="Int32" />
+            </Inputs>
+            <Outputs />
+        </Function>
+    </InternalFunctions>
     <Sequences>
         <Run />
         <GraphicsEvent NameClass="PowCommandPanelCpA" GlobalID="Pow.CpA.ButtTakeRequestPow.Clicked">
@@ -42,6 +50,11 @@
             <GraphicsData NameClass="PowCommandPanelCpA" GlobalID="Pow.CpA.TextCommandStatusPow">
                 <DataAssigned NameClass="PowCpDataCpA" GlobalID="Pow.CpA.ActiveStationPow" />
             </GraphicsData>
+            <Function TypeFunction="Internal">
+                <Call Name="ReceiveOnChangeCommandPow">
+                    <Input Name="activeStation" NameClass="PowCpDataCpA" GlobalID="Pow.CpA.ActiveStationPow" TypeData="Data" />
+                </Call>
+            </Function>
         </RxTxData>
     </Sequences>
 </ProgramClass>
