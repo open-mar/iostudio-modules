@@ -3,16 +3,16 @@
 #define __POWPROGOPERATEA_H
 #include "ioSystem/Program/Core/ioProgram.h"
 #include "Programs/Pow/Cp/PowCpDataCpA.h"
+#include "Programs/Pow/Out/PowOutDataOut12M.h"
+#include "Programs/Pow/Out/PowOutDataOut12F.h"
+#include "Programs/Pow/Out/PowOutDataOut12A.h"
+#include "Programs/Pow/Out/PowOutDataOut24M.h"
+#include "Programs/Pow/Out/PowOutDataOut24F.h"
+#include "Programs/Pow/Out/PowOutDataOut24A.h"
+#include "Programs/Pow/Out/PowOutDataOut220M.h"
+#include "Programs/Pow/Out/PowOutDataOut220F.h"
+#include "Programs/Pow/Out/PowOutDataOut220A.h"
 #include "Programs/Pow/Cp/PowCommandPanelCpA.h"
-#include "Programs/Pow/Out/PowOutPanelOut12M.h"
-#include "Programs/Pow/Out/PowOutPanelOut12F.h"
-#include "Programs/Pow/Out/PowOutPanelOut12A.h"
-#include "Programs/Pow/Out/PowOutPanelOut24M.h"
-#include "Programs/Pow/Out/PowOutPanelOut24F.h"
-#include "Programs/Pow/Out/PowOutPanelOut24A.h"
-#include "Programs/Pow/Out/PowOutPanelOut220M.h"
-#include "Programs/Pow/Out/PowOutPanelOut220F.h"
-#include "Programs/Pow/Out/PowOutPanelOut220A.h"
 #include "Programs/Pow/Out/PowIndicatorPanelOut12M.h"
 #include "Programs/Pow/Out/PowIndicatorPanelOut12F.h"
 #include "Programs/Pow/Out/PowIndicatorPanelOut12A.h"
@@ -33,16 +33,16 @@ public:
     virtual void ReceiveData(ioDataCollection* listData, ioData* data);
     virtual void ReceiveOnChangeCommandPow(ioVarInt32* activeStation);
     PowCpDataCpA DataCmdCpA;
+    PowOutDataOut12M PortOut12M;
+    PowOutDataOut12F PortOut12F;
+    PowOutDataOut12A PortOut12A;
+    PowOutDataOut24M PortOut24M;
+    PowOutDataOut24F PortOut24F;
+    PowOutDataOut24A PortOut24A;
+    PowOutDataOut220M PortOut220M;
+    PowOutDataOut220F PortOut220F;
+    PowOutDataOut220A PortOut220A;
     PowCommandPanelCpA PanelCmdCpA;
-    PowOutPanelOut12M PanelOut12M;
-    PowOutPanelOut12F PanelOut12F;
-    PowOutPanelOut12A PanelOut12A;
-    PowOutPanelOut24M PanelOut24M;
-    PowOutPanelOut24F PanelOut24F;
-    PowOutPanelOut24A PanelOut24A;
-    PowOutPanelOut220M PanelOut220M;
-    PowOutPanelOut220F PanelOut220F;
-    PowOutPanelOut220A PanelOut220A;
     PowIndicatorPanelOut12M PanelIndOut12M;
     PowIndicatorPanelOut12F PanelIndOut12F;
     PowIndicatorPanelOut12A PanelIndOut12A;

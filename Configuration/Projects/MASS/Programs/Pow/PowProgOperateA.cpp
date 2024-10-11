@@ -14,15 +14,6 @@ void PowProgOperateA::InitializeTask(void)
 {
     ioProgram::InitializeTask();
     AddPanel((ioPanel*)&PanelCmdCpA);
-    AddPanel((ioPanel*)&PanelOut12M);
-    AddPanel((ioPanel*)&PanelOut12F);
-    AddPanel((ioPanel*)&PanelOut12A);
-    AddPanel((ioPanel*)&PanelOut24M);
-    AddPanel((ioPanel*)&PanelOut24F);
-    AddPanel((ioPanel*)&PanelOut24A);
-    AddPanel((ioPanel*)&PanelOut220M);
-    AddPanel((ioPanel*)&PanelOut220F);
-    AddPanel((ioPanel*)&PanelOut220A);
     AddPanel((ioPanel*)&PanelIndOut12M);
     AddPanel((ioPanel*)&PanelIndOut12F);
     AddPanel((ioPanel*)&PanelIndOut12A);
@@ -64,6 +55,11 @@ void PowProgOperateA::ReceiveData(ioDataCollection* listData, ioData* data)
             PanelCmdCpA.TextCommandStatusPow.SetValueVar(&DataCmdCpA.ActiveStationPow);
             in1_Int32.SetValueVar(&DataCmdCpA.ActiveStationPow);
             ReceiveOnChangeCommandPow(&in1_Int32);
+            break;
+        case Duid_Pow_Out12A_OutStatus:
+            PanelIndOut12A.ShpOnOffInd1.SetValueVar(&PortOut12A.OnCh1);
+            PanelIndOut12A.ShpOnOffInd2.SetValueVar(&PortOut12A.OnCh2);
+            PanelIndOut12A.ShpOnOffInd3.SetValueVar(&PortOut12A.OnCh3);
             break;
         } // switch
     } // else
