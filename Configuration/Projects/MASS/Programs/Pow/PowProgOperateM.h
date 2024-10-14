@@ -31,6 +31,7 @@
 #include "Programs/Pow/Out/PowIndicatorPanelOut220M.h"
 #include "Programs/Pow/Out/PowIndicatorPanelOut220F.h"
 #include "Programs/Pow/Out/PowIndicatorPanelOut220A.h"
+#include "Programs/Pow/Cp/PowModePanelCpM.h"
 class PowProgOperateM : public ioProgram
 {
 public:
@@ -70,5 +71,6 @@ public:
     PowIndicatorPanelOut220M PanelIndOut220M;
     PowIndicatorPanelOut220F PanelIndOut220F;
     PowIndicatorPanelOut220A PanelIndOut220A;
+    PowModePanelCpM PanelModeCpM;
 };
 #endif // __POWPROGOPERATEM_H

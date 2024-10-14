@@ -43,6 +43,9 @@
             <Item NameClass="PowIndicatorPanelOut220F" NameObject="PanelIndOut220F" />
             <Item NameClass="PowIndicatorPanelOut220A" NameObject="PanelIndOut220A" />
         </PanelInProgram>
+        <PanelInProgram Name="Pow::Cp::PowModePanel" NameObject="PanelMode">
+            <Item NameClass="PowModePanelCpM" NameObject="PanelModeCpM" />
+        </PanelInProgram>
     </PanelsCollection>
     <InternalFunctions>
         <Function Name="ReceiveOnChangeCommandPow">
@@ -94,6 +97,29 @@
             </GraphicsData>
             <GraphicsData NameClass="PowIndicatorPanelOut12A" GlobalID="Pow.Out12A.ShpOnOffInd3">
                 <DataAssigned NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnCh3" />
+            </GraphicsData>
+        </RxTxData>
+        <GraphicsEvent NameClass="PowModePanelCpM" GlobalID="Pow.CpM.ButtDockIdle.Clicked">
+            <RxTxData NameClass="PowCpDataCpM" GlobalID="Pow.CpM.PowModeIdle" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowModePanelCpM" GlobalID="Pow.CpM.ButtDockConnectedShore.Clicked">
+            <RxTxData NameClass="PowCpDataCpM" GlobalID="Pow.CpM.PowModeShore" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowModePanelCpM" GlobalID="Pow.CpM.ButtDockNotConnected.Clicked">
+            <RxTxData NameClass="PowCpDataCpM" GlobalID="Pow.CpM.PowModeDisconnect" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowModePanelCpM" GlobalID="Pow.CpM.ButtInTransit.Clicked">
+            <RxTxData NameClass="PowCpDataCpM" GlobalID="Pow.CpM.PowModeTransitDay" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowModePanelCpM" GlobalID="Pow.CpM.ButtInTransitEngine.Clicked">
+            <RxTxData NameClass="PowCpDataCpM" GlobalID="Pow.CpM.PowModeTransitNightEngine" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowModePanelCpM" GlobalID="Pow.CpM.ButtInTransitSailing.Clicked">
+            <RxTxData NameClass="PowCpDataCpM" GlobalID="Pow.CpM.PowModeTransitNightSail" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <RxTxData NameClass="PowCpDataCpM" GlobalID="Pow.CpM.OnChangePowMode">
+            <GraphicsData NameClass="PowCommandPanelCpM" GlobalID="Pow.CpM.LabelPowerMode">
+                <DataAssigned NameClass="PowCpDataCpM" GlobalID="Pow.CpM.PowMode" />
             </GraphicsData>
         </RxTxData>
     </Sequences>

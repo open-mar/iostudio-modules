@@ -23,6 +23,7 @@ public:
     virtual void ReceiveData(ioDataCollection* listData, ioData* data);
     virtual void OnRecvTakeCommandPow(ioVarInt32* sender);
     virtual void OnRecvSwitchOnOff(ioVarInt32* device, ioVarInt32* channel, ioVarBool* isOn);
+    virtual void OnRecvPowMode(ioVarInt32* sender, ioVarInt32* mode);
     PowOutDataOut12M PortOut12M;
     PowOutDataOut12F PortOut12F;
     PowOutDataOut12A PortOut12A;

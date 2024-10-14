@@ -18,6 +18,16 @@
                 <Argument Name="currentOut" TypeNum="Float" />
             </Outputs>
         </Function>
+        <Function Name="SimulateBatteryVoltage">
+            <Inputs>
+                <Argument Name="currentAft" TypeNum="Float" />
+                <Argument Name="currentMid" TypeNum="Float" />
+                <Argument Name="currentFront" TypeNum="Float" />
+            </Inputs>
+            <Outputs>
+                <Argument Name="voltageOut" TypeNum="Float" />
+            </Outputs>
+        </Function>
     </InternalFunctions>
     <ModelClassObject ParentGlobalID="Batt.Dc12">
         <DataItemsCollection>
@@ -71,6 +81,14 @@
                     <Input Name="onCh7" NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OnCh7" />
                     <Input Name="onCh8" NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OnCh8" />
                     <Output Name="currentOut" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpF" />
+                </Call>
+            </Function>
+            <Function TypeFunction="Internal" Interval="1000">
+                <Call Name="SimulateBatteryVoltage">
+                    <Input Name="currentAft" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpA" />
+                    <Input Name="currentMid" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpM" />
+                    <Input Name="currentFront" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpF" />
+                    <Output Name="voltageOut" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattVolt" />
                 </Call>
             </Function>
         </Sequence>
@@ -127,7 +145,16 @@
                     <Input Name="onCh7" NameClass="PowOutDataOut24F" GlobalID="Pow.Out24F.OnCh7" />
                     <Input Name="onCh8" NameClass="PowOutDataOut24F" GlobalID="Pow.Out24F.OnCh8" />
                     <Output Name="currentOut" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpF" />
-                </Call>            </Function>
+                </Call>            
+            </Function>
+            <Function TypeFunction="Internal" Interval="1000">
+                <Call Name="SimulateBatteryVoltage">
+                    <Input Name="currentAft" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpA" />
+                    <Input Name="currentMid" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpM" />
+                    <Input Name="currentFront" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpF" />
+                    <Output Name="voltageOut" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattVolt" />
+                </Call>
+            </Function>
         </Sequence>
     </ModelClassObject>
 </ModelClass>

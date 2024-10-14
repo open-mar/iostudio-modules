@@ -18,6 +18,7 @@ public:
     virtual void InitializeItem(void);
     virtual void DoSimulation_100ms(Int32 slotCounter_100ms);
     virtual void SimulateBatteryCurrent(Int32 typeDevice, Bool onCh1, Bool onCh2, Bool onCh3, Bool onCh4, Bool onCh5, Bool onCh6, Bool onCh7, Bool onCh8, Float* currentOut);
+    virtual void SimulateBatteryVoltage(Float currentAft, Float currentMid, Float currentFront, Float* voltageOut);
 };
 class BattDcModelDc12 : public BattDcModel
 {

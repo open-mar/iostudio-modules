@@ -23,6 +23,7 @@ void PowProgOperateA::InitializeTask(void)
     AddPanel((ioPanel*)&PanelIndOut220M);
     AddPanel((ioPanel*)&PanelIndOut220F);
     AddPanel((ioPanel*)&PanelIndOut220A);
+    AddPanel((ioPanel*)&PanelModeCpA);
 }
 void PowProgOperateA::Run(Int32 activeSlot)
 {
@@ -38,6 +39,18 @@ void PowProgOperateA::ReceiveGraphicsEvent(Int32 puidValue, ioProgramGraphicsEve
     case Puid_Pow_CpA_ButtTakeRequestPow:
         if (typeEvent == ioProgramGraphicsEvent_Clicked)
             SendData(&DataCmdCpA.TakeCommandPow, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
+        break;
+    case Puid_Pow_CpA_ButtInTransit:
+        if (typeEvent == ioProgramGraphicsEvent_Clicked)
+            SendData(&DataCmdCpA.PowModeTransitDay, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
+        break;
+    case Puid_Pow_CpA_ButtInTransitEngine:
+        if (typeEvent == ioProgramGraphicsEvent_Clicked)
+            SendData(&DataCmdCpA.PowModeTransitNightEngine, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
+        break;
+    case Puid_Pow_CpA_ButtInTransitSailing:
+        if (typeEvent == ioProgramGraphicsEvent_Clicked)
+            SendData(&DataCmdCpA.PowModeTransitNightSail, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
         break;
     } // switch
 }
@@ -60,6 +73,9 @@ void PowProgOperateA::ReceiveData(ioDataCollection* listData, ioData* data)
             PanelIndOut12A.ShpOnOffInd1.SetValueVar(&PortOut12A.OnCh1);
             PanelIndOut12A.ShpOnOffInd2.SetValueVar(&PortOut12A.OnCh2);
             PanelIndOut12A.ShpOnOffInd3.SetValueVar(&PortOut12A.OnCh3);
+            break;
+        case Duid_Pow_CpA_OnChangePowMode:
+            PanelCmdCpA.LabelPowerMode.SetValueVar(&DataCmdCpA.PowMode);
             break;
         } // switch
     } // else

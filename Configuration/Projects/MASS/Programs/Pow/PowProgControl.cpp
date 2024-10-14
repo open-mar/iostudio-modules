@@ -90,6 +90,69 @@ void PowProgControl::ReceiveData(ioDataCollection* listData, ioData* data)
             SendData(&PortOut12A.OutStatus, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
             SendData(&PortOut12A.OutStatus, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
             break;
+        case Duid_Pow_CpM_PowModeIdle:
+            in1_Int32.SetValue(0);
+            in2_Int32.SetValue(0);
+            OnRecvPowMode(&in1_Int32, &in2_Int32);
+            SendData(&DataCpCpM.OnChangePowMode, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
+            SendData(&DataCpCpA.OnChangePowMode, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
+            break;
+        case Duid_Pow_CpM_PowModeDisconnect:
+            in1_Int32.SetValue(0);
+            in2_Int32.SetValue(2);
+            OnRecvPowMode(&in1_Int32, &in2_Int32);
+            SendData(&DataCpCpM.OnChangePowMode, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
+            SendData(&DataCpCpA.OnChangePowMode, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
+            break;
+        case Duid_Pow_CpM_PowModeShore:
+            in1_Int32.SetValue(0);
+            in2_Int32.SetValue(1);
+            OnRecvPowMode(&in1_Int32, &in2_Int32);
+            SendData(&DataCpCpM.OnChangePowMode, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
+            SendData(&DataCpCpA.OnChangePowMode, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
+            break;
+        case Duid_Pow_CpM_PowModeTransitDay:
+            in1_Int32.SetValue(0);
+            in2_Int32.SetValue(3);
+            OnRecvPowMode(&in1_Int32, &in2_Int32);
+            SendData(&DataCpCpM.OnChangePowMode, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
+            SendData(&DataCpCpA.OnChangePowMode, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
+            break;
+        case Duid_Pow_CpM_PowModeTransitNightEngine:
+            in1_Int32.SetValue(0);
+            in2_Int32.SetValue(4);
+            OnRecvPowMode(&in1_Int32, &in2_Int32);
+            SendData(&DataCpCpM.OnChangePowMode, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
+            SendData(&DataCpCpA.OnChangePowMode, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
+            break;
+        case Duid_Pow_CpM_PowModeTransitNightSail:
+            in1_Int32.SetValue(0);
+            in2_Int32.SetValue(5);
+            OnRecvPowMode(&in1_Int32, &in2_Int32);
+            SendData(&DataCpCpM.OnChangePowMode, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
+            SendData(&DataCpCpA.OnChangePowMode, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
+            break;
+        case Duid_Pow_CpA_PowModeTransitDay:
+            in1_Int32.SetValue(1);
+            in2_Int32.SetValue(3);
+            OnRecvPowMode(&in1_Int32, &in2_Int32);
+            SendData(&DataCpCpM.OnChangePowMode, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
+            SendData(&DataCpCpA.OnChangePowMode, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
+            break;
+        case Duid_Pow_CpA_PowModeTransitNightEngine:
+            in1_Int32.SetValue(1);
+            in2_Int32.SetValue(4);
+            OnRecvPowMode(&in1_Int32, &in2_Int32);
+            SendData(&DataCpCpM.OnChangePowMode, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
+            SendData(&DataCpCpA.OnChangePowMode, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
+            break;
+        case Duid_Pow_CpA_PowModeTransitNightSail:
+            in1_Int32.SetValue(1);
+            in2_Int32.SetValue(5);
+            OnRecvPowMode(&in1_Int32, &in2_Int32);
+            SendData(&DataCpCpM.OnChangePowMode, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
+            SendData(&DataCpCpA.OnChangePowMode, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
+            break;
         } // switch
     } // else
 }
@@ -102,4 +165,9 @@ void PowProgControl::OnRecvSwitchOnOff(ioVarInt32* device, ioVarInt32* channel, 
     if (device == NULL) {};
     if (channel == NULL) {};
     if (isOn == NULL) {};
+}
+void PowProgControl::OnRecvPowMode(ioVarInt32* sender, ioVarInt32* mode)
+{
+    if (sender == NULL) {};
+    if (mode == NULL) {};
 }

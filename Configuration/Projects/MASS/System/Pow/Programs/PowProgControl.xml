@@ -33,6 +33,13 @@
             </Inputs>
             <Outputs />
         </Function>
+        <Function Name="OnRecvPowMode">
+            <Inputs>
+                <Argument Name="sender" TypeNum="Int32" TypeEnumeration="StationTypePow" />
+                <Argument Name="mode" TypeNum="Int32" TypeEnumeration="PowModeType" />
+            </Inputs>
+            <Outputs />
+        </Function>
     </InternalFunctions>
     <Sequences>
         <Run />
@@ -119,6 +126,96 @@
             </Function>
             <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OutStatus" PortGlobalID="NetEthernet.192.168.10.Ids.OpM.12" />
             <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OutStatus" PortGlobalID="NetEthernet.192.168.10.Ids.OpA.13" />
+        </RxTxData>
+        <RxTxData NameClass="PowCpDataCpM" GlobalID="Pow.CpM.PowModeIdle">
+            <Function TypeFunction="Internal">
+                <Call Name="OnRecvPowMode">
+                    <Input Name="sender">0</Input>
+                    <Input Name="mode">0</Input>
+                </Call>
+            </Function>
+            <RxTxData NameClass="PowCpDataCpM" GlobalID="Pow.CpM.OnChangePowMode" PortGlobalID="NetEthernet.192.168.10.Ids.OpM.12" />
+            <RxTxData NameClass="PowCpDataCpA" GlobalID="Pow.CpA.OnChangePowMode" PortGlobalID="NetEthernet.192.168.10.Ids.OpA.13" />
+        </RxTxData>
+        <RxTxData NameClass="PowCpDataCpM" GlobalID="Pow.CpM.PowModeDisconnect">
+            <Function TypeFunction="Internal">
+                <Call Name="OnRecvPowMode">
+                    <Input Name="sender">0</Input>
+                    <Input Name="mode">2</Input>
+                </Call>
+            </Function>
+            <RxTxData NameClass="PowCpDataCpM" GlobalID="Pow.CpM.OnChangePowMode" PortGlobalID="NetEthernet.192.168.10.Ids.OpM.12" />
+            <RxTxData NameClass="PowCpDataCpA" GlobalID="Pow.CpA.OnChangePowMode" PortGlobalID="NetEthernet.192.168.10.Ids.OpA.13" />
+        </RxTxData>
+        <RxTxData NameClass="PowCpDataCpM" GlobalID="Pow.CpM.PowModeShore">
+            <Function TypeFunction="Internal">
+                <Call Name="OnRecvPowMode">
+                    <Input Name="sender">0</Input>
+                    <Input Name="mode">1</Input>
+                </Call>
+            </Function>
+            <RxTxData NameClass="PowCpDataCpM" GlobalID="Pow.CpM.OnChangePowMode" PortGlobalID="NetEthernet.192.168.10.Ids.OpM.12" />
+            <RxTxData NameClass="PowCpDataCpA" GlobalID="Pow.CpA.OnChangePowMode" PortGlobalID="NetEthernet.192.168.10.Ids.OpA.13" />
+        </RxTxData>
+        <RxTxData NameClass="PowCpDataCpM" GlobalID="Pow.CpM.PowModeTransitDay">
+            <Function TypeFunction="Internal">
+                <Call Name="OnRecvPowMode">
+                    <Input Name="sender">0</Input>
+                    <Input Name="mode">3</Input>
+                </Call>
+            </Function>
+            <RxTxData NameClass="PowCpDataCpM" GlobalID="Pow.CpM.OnChangePowMode" PortGlobalID="NetEthernet.192.168.10.Ids.OpM.12" />
+            <RxTxData NameClass="PowCpDataCpA" GlobalID="Pow.CpA.OnChangePowMode" PortGlobalID="NetEthernet.192.168.10.Ids.OpA.13" />
+        </RxTxData>
+        <RxTxData NameClass="PowCpDataCpM" GlobalID="Pow.CpM.PowModeTransitNightEngine">
+            <Function TypeFunction="Internal">
+                <Call Name="OnRecvPowMode">
+                    <Input Name="sender">0</Input>
+                    <Input Name="mode">4</Input>
+                </Call>
+            </Function>
+            <RxTxData NameClass="PowCpDataCpM" GlobalID="Pow.CpM.OnChangePowMode" PortGlobalID="NetEthernet.192.168.10.Ids.OpM.12" />
+            <RxTxData NameClass="PowCpDataCpA" GlobalID="Pow.CpA.OnChangePowMode" PortGlobalID="NetEthernet.192.168.10.Ids.OpA.13" />
+        </RxTxData>
+        <RxTxData NameClass="PowCpDataCpM" GlobalID="Pow.CpM.PowModeTransitNightSail">
+            <Function TypeFunction="Internal">
+                <Call Name="OnRecvPowMode">
+                    <Input Name="sender">0</Input>
+                    <Input Name="mode">5</Input>
+                </Call>
+            </Function>
+            <RxTxData NameClass="PowCpDataCpM" GlobalID="Pow.CpM.OnChangePowMode" PortGlobalID="NetEthernet.192.168.10.Ids.OpM.12" />
+            <RxTxData NameClass="PowCpDataCpA" GlobalID="Pow.CpA.OnChangePowMode" PortGlobalID="NetEthernet.192.168.10.Ids.OpA.13" />
+        </RxTxData>
+        <RxTxData NameClass="PowCpDataCpA" GlobalID="Pow.CpA.PowModeTransitDay">
+            <Function TypeFunction="Internal">
+                <Call Name="OnRecvPowMode">
+                    <Input Name="sender">1</Input>
+                    <Input Name="mode">3</Input>
+                </Call>
+            </Function>
+            <RxTxData NameClass="PowCpDataCpM" GlobalID="Pow.CpM.OnChangePowMode" PortGlobalID="NetEthernet.192.168.10.Ids.OpM.12" />
+            <RxTxData NameClass="PowCpDataCpA" GlobalID="Pow.CpA.OnChangePowMode" PortGlobalID="NetEthernet.192.168.10.Ids.OpA.13" />
+        </RxTxData>
+        <RxTxData NameClass="PowCpDataCpA" GlobalID="Pow.CpA.PowModeTransitNightEngine">
+            <Function TypeFunction="Internal">
+                <Call Name="OnRecvPowMode">
+                    <Input Name="sender">1</Input>
+                    <Input Name="mode">4</Input>
+                </Call>
+            </Function>
+            <RxTxData NameClass="PowCpDataCpM" GlobalID="Pow.CpM.OnChangePowMode" PortGlobalID="NetEthernet.192.168.10.Ids.OpM.12" />
+            <RxTxData NameClass="PowCpDataCpA" GlobalID="Pow.CpA.OnChangePowMode" PortGlobalID="NetEthernet.192.168.10.Ids.OpA.13" />
+        </RxTxData>
+        <RxTxData NameClass="PowCpDataCpA" GlobalID="Pow.CpA.PowModeTransitNightSail">
+            <Function TypeFunction="Internal">
+                <Call Name="OnRecvPowMode">
+                    <Input Name="sender">1</Input>
+                    <Input Name="mode">5</Input>
+                </Call>
+            </Function>
+            <RxTxData NameClass="PowCpDataCpM" GlobalID="Pow.CpM.OnChangePowMode" PortGlobalID="NetEthernet.192.168.10.Ids.OpM.12" />
+            <RxTxData NameClass="PowCpDataCpA" GlobalID="Pow.CpA.OnChangePowMode" PortGlobalID="NetEthernet.192.168.10.Ids.OpA.13" />
         </RxTxData>
     </Sequences>
 </ProgramClass>

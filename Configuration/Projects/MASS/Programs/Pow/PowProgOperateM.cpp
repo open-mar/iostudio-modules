@@ -32,6 +32,7 @@ void PowProgOperateM::InitializeTask(void)
     AddPanel((ioPanel*)&PanelIndOut220M);
     AddPanel((ioPanel*)&PanelIndOut220F);
     AddPanel((ioPanel*)&PanelIndOut220A);
+    AddPanel((ioPanel*)&PanelModeCpM);
 }
 void PowProgOperateM::Run(Int32 activeSlot)
 {
@@ -72,6 +73,30 @@ void PowProgOperateM::ReceiveGraphicsEvent(Int32 puidValue, ioProgramGraphicsEve
         if (typeEvent == ioProgramGraphicsEvent_Clicked)
             SendData(&PortOut12A.SwitchOffCh3, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
         break;
+    case Puid_Pow_CpM_ButtDockIdle:
+        if (typeEvent == ioProgramGraphicsEvent_Clicked)
+            SendData(&DataCmdCpM.PowModeIdle, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
+        break;
+    case Puid_Pow_CpM_ButtDockConnectedShore:
+        if (typeEvent == ioProgramGraphicsEvent_Clicked)
+            SendData(&DataCmdCpM.PowModeShore, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
+        break;
+    case Puid_Pow_CpM_ButtDockNotConnected:
+        if (typeEvent == ioProgramGraphicsEvent_Clicked)
+            SendData(&DataCmdCpM.PowModeDisconnect, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
+        break;
+    case Puid_Pow_CpM_ButtInTransit:
+        if (typeEvent == ioProgramGraphicsEvent_Clicked)
+            SendData(&DataCmdCpM.PowModeTransitDay, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
+        break;
+    case Puid_Pow_CpM_ButtInTransitEngine:
+        if (typeEvent == ioProgramGraphicsEvent_Clicked)
+            SendData(&DataCmdCpM.PowModeTransitNightEngine, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
+        break;
+    case Puid_Pow_CpM_ButtInTransitSailing:
+        if (typeEvent == ioProgramGraphicsEvent_Clicked)
+            SendData(&DataCmdCpM.PowModeTransitNightSail, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
+        break;
     } // switch
 }
 void PowProgOperateM::ReceiveData(ioDataCollection* listData, ioData* data)
@@ -93,6 +118,9 @@ void PowProgOperateM::ReceiveData(ioDataCollection* listData, ioData* data)
             PanelIndOut12A.ShpOnOffInd1.SetValueVar(&PortOut12A.OnCh1);
             PanelIndOut12A.ShpOnOffInd2.SetValueVar(&PortOut12A.OnCh2);
             PanelIndOut12A.ShpOnOffInd3.SetValueVar(&PortOut12A.OnCh3);
+            break;
+        case Duid_Pow_CpM_OnChangePowMode:
+            PanelCmdCpM.LabelPowerMode.SetValueVar(&DataCmdCpM.PowMode);
             break;
         } // switch
     } // else
