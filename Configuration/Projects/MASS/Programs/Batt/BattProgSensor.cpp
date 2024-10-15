@@ -30,7 +30,7 @@ void BattProgSensor::Run(Int32 activeSlot)
     in4_Float.SetValueVar(&DcDataDc12.BattAmpF);
     CalcCurrentOut(&in1_Int32, &in2_Float, &in3_Float, &in4_Float, &out1_Float);
     DcDataDc12.BattAmpOut.SetValueVar(&out1_Float);
-    in1_Int32.SetValue(TypeDcBatt::DC24V);
+    in1_Int32.SetValue(1);
     in2_Float.SetValueVar(&DcDataDc24.BattAmpA);
     in3_Float.SetValueVar(&DcDataDc24.BattAmpM);
     in4_Float.SetValueVar(&DcDataDc24.BattAmpF);
@@ -52,6 +52,21 @@ void BattProgSensor::Run(Int32 activeSlot)
     MainData.StatusOfCharge.SetValueVar(&out1_Float);
     MainData.TimeTo10Percent.SetValueVar(&out2_TimeInterval);
     GetInputVoltageCharger();
+}
+void BattProgSensor::ReceiveData(ioDataCollection* listData, ioData* data)
+{
+    if (listData == NULL) {}
+    if (data == NULL) {}
+    else
+    {
+        ioSystemDataType duid = ioSystemData::GetDataType(data->GetDataID());
+        switch (duid)
+        {
+        case Duid_Batt_Dc12_RequestDcData:
+            SendData(&DcDataDc12.ResponseDcData, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
+            break;
+        } // switch
+    } // else
 }
 void BattProgSensor::CalcCurrentOut(ioVarInt32* typeBatt, ioVarFloat* currentOutA, ioVarFloat* currentOutM, ioVarFloat* currentOutF, ioVarFloat* currentOut)
 {

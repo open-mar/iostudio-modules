@@ -31,5 +31,5 @@ void BattDcData::InitializeData(void)
     ResetItem();
     ResponseDcData.SetVariablesBuffer(m_ResponseDcDataVars, 2);
     ResponseDcData.AddVariable(&BattVolt);
-    ResponseDcData.AddVariable(&BattAmpAvg);
+    ResponseDcData.AddVariable(&BattAmpOut);
 }

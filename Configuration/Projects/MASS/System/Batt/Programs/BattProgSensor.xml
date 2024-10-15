@@ -98,5 +98,8 @@
                 <Call Name="GetInputVoltageCharger" />
             </Function>
         </Run>
+        <RxTxData NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.RequestDcData">
+            <RxTxData NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.ResponseDcData" PortGlobalID="NetEthernet.192.168.10.Ids.OpM.12" />
+        </RxTxData>
     </Sequences>
 </ProgramClass>

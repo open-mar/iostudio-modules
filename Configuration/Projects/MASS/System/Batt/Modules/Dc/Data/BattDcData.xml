@@ -18,7 +18,7 @@
         <Method LocalID="RequestDcData" />
         <Event LocalID="ResponseDcData">
             <NumberID>BattVolt</NumberID>
-            <NumberID>BattAmpAvg</NumberID>
+            <NumberID>BattAmpOut</NumberID>
         </Event>
     </DataListObject>
     <DataListObject ParentGlobalID="Batt.Dc24">
@@ -32,7 +32,7 @@
         <Method LocalID="RequestDcData" />
         <Event LocalID="ResponseDcData">
             <NumberID>BattVolt</NumberID>
-            <NumberID>BattAmpAvg</NumberID>
+            <NumberID>BattAmpOut</NumberID>
         </Event>
     </DataListObject>
 </DataList>

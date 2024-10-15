@@ -12,6 +12,7 @@ public:
     virtual ~BattProgSensor();
     virtual void InitializeTask(void);
     virtual void Run(Int32 activeSlot);
+    virtual void ReceiveData(ioDataCollection* listData, ioData* data);
     virtual void CalcCurrentOut(ioVarInt32* typeBatt, ioVarFloat* currentOutA, ioVarFloat* currentOutM, ioVarFloat* currentOutF, ioVarFloat* currentOut);
     virtual void CheckBattery(ioVarFloat* currentIn, ioVarFloat* currentOut, ioVarFloat* voltage, ioVarFloat* currentAvg);
     virtual void CalcSoc(ioVarFloat* currentAvg12V, ioVarFloat* currentAvg24V, ioVarFloat* soc, ioVarTimeInterval* timeTo10Perc);
