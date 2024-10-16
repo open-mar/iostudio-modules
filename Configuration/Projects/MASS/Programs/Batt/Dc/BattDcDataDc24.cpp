@@ -26,6 +26,7 @@ void BattDcDataDc24::InitializeData(void)
     AddData((ioData*)&BattAmpIn, Duid_Batt_Dc24_BattAmpIn);
     BattAmpAvg.SetValue((Float)0.00);
     AddData((ioData*)&BattAmpAvg, Duid_Batt_Dc24_BattAmpAvg);
-    AddData((ioData*)&RequestDcData, Duid_Batt_Dc24_RequestDcData);
+    IsChargeActive.SetValue(FALSE);
+    AddData((ioData*)&IsChargeActive, Duid_Batt_Dc24_IsChargeActive);
     AddData((ioData*)&ResponseDcData, Duid_Batt_Dc24_ResponseDcData);
 }

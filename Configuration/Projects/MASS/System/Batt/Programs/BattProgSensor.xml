@@ -98,8 +98,23 @@
                 <Call Name="GetInputVoltageCharger" />
             </Function>
         </Run>
-        <RxTxData NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.RequestDcData">
+        <RxTxData NameClass="BattData" GlobalID="Batt.RequestDataDc12OpM">
             <RxTxData NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.ResponseDcData" PortGlobalID="NetEthernet.192.168.10.Ids.OpM.12" />
+        </RxTxData>
+        <RxTxData NameClass="BattData" GlobalID="Batt.RequestDataDc24OpM">
+            <RxTxData NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.ResponseDcData" PortGlobalID="NetEthernet.192.168.10.Ids.OpM.12" />
+        </RxTxData>
+        <RxTxData NameClass="BattData" GlobalID="Batt.RequestDataDc12OpA">
+            <RxTxData NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.ResponseDcData" PortGlobalID="NetEthernet.192.168.10.Ids.OpA.13" />
+        </RxTxData>
+        <RxTxData NameClass="BattData" GlobalID="Batt.RequestDataDc24OpA">
+            <RxTxData NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.ResponseDcData" PortGlobalID="NetEthernet.192.168.10.Ids.OpA.13" />
+        </RxTxData>
+        <RxTxData NameClass="BattData" GlobalID="Batt.RequestBattDataOpM">
+            <RxTxData NameClass="BattData" GlobalID="Batt.ResponseBattData" PortGlobalID="NetEthernet.192.168.10.Ids.OpM.12" />
+        </RxTxData>
+        <RxTxData NameClass="BattData" GlobalID="Batt.RequestBattDataOpA">
+            <RxTxData NameClass="BattData" GlobalID="Batt.ResponseBattData" PortGlobalID="NetEthernet.192.168.10.Ids.OpA.13" />
         </RxTxData>
     </Sequences>
 </ProgramClass>

@@ -73,9 +73,6 @@
     <ClInclude Include="..\..\Programs\Batt\BattPanel.h">
       <Filter>Programs\Batt</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Programs\Batt\BattProgMonitor.h">
-      <Filter>Programs\Batt</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\Programs\Batt\BattProgSensor.h">
       <Filter>Programs\Batt</Filter>
     </ClInclude>
@@ -325,6 +322,12 @@
     <ClInclude Include="..\..\Simulation\Batt\Dc\BattDcModel.h">
       <Filter>Simulation\Batt\Dc</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Programs\Batt\BattProgMonitorA.h">
+      <Filter>Programs\Batt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Batt\BattProgMonitorM.h">
+      <Filter>Programs\Batt</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MassProgramsSimulation.cpp">
@@ -355,9 +358,6 @@
       <Filter>Programs\Batt</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Programs\Batt\BattPanel.cpp">
-      <Filter>Programs\Batt</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Programs\Batt\BattProgMonitor.cpp">
       <Filter>Programs\Batt</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Programs\Batt\BattProgSensor.cpp">
@@ -602,6 +602,12 @@
     </ClCompile>
     <ClCompile Include="..\..\Simulation\Batt\Dc\BattDcModel.cpp">
       <Filter>Simulation\Batt\Dc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Batt\BattProgMonitorA.cpp">
+      <Filter>Programs\Batt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Batt\BattProgMonitorM.cpp">
+      <Filter>Programs\Batt</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

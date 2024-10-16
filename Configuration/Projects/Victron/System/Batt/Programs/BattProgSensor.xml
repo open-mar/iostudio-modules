@@ -43,7 +43,6 @@
         <Run>
             <Function TypeFunction="Internal">
                 <Call Name="CheckBattery">
-                    <Return NameClass="BattData" GlobalID="Batt.IsChargActive12V" />
                     <Input Name="currentIn" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpIn" TypeData="Data" />
                     <Input Name="currentOut" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpOut" TypeData="Data" />
                     <Input Name="voltage" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattVolt" TypeData="Data" />
@@ -52,7 +51,6 @@
             </Function>
             <Function TypeFunction="Internal">
                 <Call Name="CheckBattery">
-                    <Return NameClass="BattData" GlobalID="Batt.IsChargActive24V" />
                     <Input Name="currentIn" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpIn" TypeData="Data" />
                     <Input Name="currentOut" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpOut" TypeData="Data" />
                     <Input Name="voltage" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattVolt" TypeData="Data" />

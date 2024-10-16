@@ -62,8 +62,23 @@ void BattProgSensor::ReceiveData(ioDataCollection* listData, ioData* data)
         ioSystemDataType duid = ioSystemData::GetDataType(data->GetDataID());
         switch (duid)
         {
-        case Duid_Batt_Dc12_RequestDcData:
+        case Duid_Batt_RequestDataDc12OpM:
             SendData(&DcDataDc12.ResponseDcData, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
+            break;
+        case Duid_Batt_RequestDataDc24OpM:
+            SendData(&DcDataDc24.ResponseDcData, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
+            break;
+        case Duid_Batt_RequestDataDc12OpA:
+            SendData(&DcDataDc12.ResponseDcData, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
+            break;
+        case Duid_Batt_RequestDataDc24OpA:
+            SendData(&DcDataDc24.ResponseDcData, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
+            break;
+        case Duid_Batt_RequestBattDataOpM:
+            SendData(&MainData.ResponseBattData, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpM_12);
+            break;
+        case Duid_Batt_RequestBattDataOpA:
+            SendData(&MainData.ResponseBattData, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_OpA_13);
             break;
         } // switch
     } // else

@@ -146,7 +146,8 @@
     <ClInclude Include="..\..\Programs\Batt\BattChargingPanel.h" />
     <ClInclude Include="..\..\Programs\Batt\BattData.h" />
     <ClInclude Include="..\..\Programs\Batt\BattPanel.h" />
-    <ClInclude Include="..\..\Programs\Batt\BattProgMonitor.h" />
+    <ClInclude Include="..\..\Programs\Batt\BattProgMonitorA.h" />
+    <ClInclude Include="..\..\Programs\Batt\BattProgMonitorM.h" />
     <ClInclude Include="..\..\Programs\Batt\BattProgSensor.h" />
     <ClInclude Include="..\..\Programs\Batt\BattStatusPanel.h" />
     <ClInclude Include="..\..\Programs\Batt\Dc\BattDcData.h" />
@@ -240,7 +241,8 @@
     <ClCompile Include="..\..\Programs\Batt\BattChargingPanel.cpp" />
     <ClCompile Include="..\..\Programs\Batt\BattData.cpp" />
     <ClCompile Include="..\..\Programs\Batt\BattPanel.cpp" />
-    <ClCompile Include="..\..\Programs\Batt\BattProgMonitor.cpp" />
+    <ClCompile Include="..\..\Programs\Batt\BattProgMonitorA.cpp" />
+    <ClCompile Include="..\..\Programs\Batt\BattProgMonitorM.cpp" />
     <ClCompile Include="..\..\Programs\Batt\BattProgSensor.cpp" />
     <ClCompile Include="..\..\Programs\Batt\BattStatusPanel.cpp" />
     <ClCompile Include="..\..\Programs\Batt\Dc\BattDcData.cpp" />

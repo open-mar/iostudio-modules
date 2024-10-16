@@ -13,14 +13,17 @@ public:
     virtual ~BattData();
     void InitializeData(void);
     ioVarFloat ChargeInputVolt;
-    ioVarBool IsChargActive12V;
-    ioVarBool IsChargActive24V;
     ioVarFloat StatusOfCharge;
     ioVarTimeInterval TimeTo10Percent;
-    ioMethod RequestBattData;
+    ioMethod RequestBattDataOpM;
+    ioMethod RequestBattDataOpA;
+    ioMethod RequestDataDc12OpM;
+    ioMethod RequestDataDc12OpA;
+    ioMethod RequestDataDc24OpM;
+    ioMethod RequestDataDc24OpA;
     ioEvent ResponseBattData;
 protected:
-    ioData* m_ListData[7];
-    ioVar* m_ResponseBattDataVars[5];
+    ioData* m_ListData[10];
+    ioVar* m_ResponseBattDataVars[3];
 };
 #endif // __BATTDATA_H

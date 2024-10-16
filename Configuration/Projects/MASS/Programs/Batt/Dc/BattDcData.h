@@ -6,7 +6,6 @@
 #include "Programs/ioSystemData.h"
 #include "ioSystem/Data/ioEnumeration.h"
 #include "ioSystem/Data/ioEvent.h"
-#include "ioSystem/Data/ioMethod.h"
 class TypeDcBatt : public ioEnumeration
 {
 public:
@@ -29,7 +28,7 @@ public:
     ioVarFloat BattAmpOut;
     ioVarFloat BattAmpIn;
     ioVarFloat BattAmpAvg;
-    ioMethod RequestDcData;
+    ioVarBool IsChargeActive;
     ioEvent ResponseDcData;
 protected:
     ioData* m_ListData[9];
