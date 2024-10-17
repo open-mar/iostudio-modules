@@ -24,7 +24,7 @@ void PowIndicatorPanelOut220F::InitializeData(void)
     LabelNameInd3.SetTextForced((ioChars)"NameChannel_220F3");
     AddGraphics(&ShpOnOffInd4, Puid_Pow_Out220F_ShpOnOffInd4);
     AddGraphics(&LabelNameInd4, Puid_Pow_Out220F_LabelNameInd4);
-    LabelNameInd4.SetTextForced((ioChars)"NameChannel_220F4");
+    LabelNameInd4.SetTextForced((ioChars)"");
     AddGraphics(&ShpOnOffInd5, Puid_Pow_Out220F_ShpOnOffInd5);
     AddGraphics(&LabelNameInd5, Puid_Pow_Out220F_LabelNameInd5);
     LabelNameInd5.SetTextForced((ioChars)"NameChannel_220F5");
