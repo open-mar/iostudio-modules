@@ -19,20 +19,20 @@ PUID;Parent;LocalID;Text;TypeColor
 64;Pow.CpM;LabelPowerMode;;
 68;Pow.CpA;HeaderCommandPanelPow;;
 70;Pow.CpA;LabelPowerMode;;
-94;Pow.Out12M;LabelNameInd1;;ElementInactiveInverted
-97;Pow.Out12M;LabelNameInd2;;ElementInactiveInverted
-100;Pow.Out12M;LabelNameInd3;;ElementInactiveInverted
-103;Pow.Out12M;LabelNameInd4;;ElementInactiveInverted
-106;Pow.Out12M;LabelNameInd5;;ElementInactiveInverted
+94;Pow.Out12M;LabelNameInd1;Front Cabin;ElementActive
+97;Pow.Out12M;LabelNameInd2;Mid Cabin;ElementActive
+100;Pow.Out12M;LabelNameInd3;Galley;ElementActive
+103;Pow.Out12M;LabelNameInd4;Deckhouse;ElementActive
+106;Pow.Out12M;LabelNameInd5;Aft Cabin;ElementActive
 109;Pow.Out12M;LabelNameInd6;;ElementInactiveInverted
 112;Pow.Out12M;LabelNameInd7;;ElementInactiveInverted
 115;Pow.Out12M;LabelNameInd8;;ElementInactiveInverted
-118;Pow.Out12F;LabelNameInd1;;ElementInactiveInverted
-121;Pow.Out12F;LabelNameInd2;;ElementInactiveInverted
-124;Pow.Out12F;LabelNameInd3;;ElementInactiveInverted
-127;Pow.Out12F;LabelNameInd4;;ElementInactiveInverted
-130;Pow.Out12F;LabelNameInd5;;ElementInactiveInverted
-133;Pow.Out12F;LabelNameInd6;;ElementInactiveInverted
+118;Pow.Out12F;LabelNameInd1;Engine Nav Light;ElementActive
+121;Pow.Out12F;LabelNameInd2;Side Nav Light;ElementActive
+124;Pow.Out12F;LabelNameInd3;Deck Light;ElementActive
+127;Pow.Out12F;LabelNameInd4;Water Pump;ElementActive
+130;Pow.Out12F;LabelNameInd5;Front Bilge;ElementActive
+133;Pow.Out12F;LabelNameInd6;Mid Bilge;ElementActive
 136;Pow.Out12F;LabelNameInd7;;ElementInactiveInverted
 139;Pow.Out12F;LabelNameInd8;;ElementInactiveInverted
 142;Pow.Out12A;LabelNameInd1;AP Clutch;ElementActive

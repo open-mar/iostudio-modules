@@ -43,6 +43,7 @@
     </InternalFunctions>
     <Sequences>
         <Run />
+        <!--Power commands-->
         <RxTxData NameClass="PowCpDataCpA" GlobalID="Pow.CpA.TakeCommandPow">
             <Function TypeFunction="Internal">
                 <Call Name="OnRecvTakeCommandPow">
@@ -61,6 +62,7 @@
             <RxTxData NameClass="PowCpDataCpA" GlobalID="Pow.CpA.OnChangeCommandPow" PortGlobalID="NetEthernet.192.168.10.Ids.OpA.13" />
             <RxTxData NameClass="PowCpDataCpM" GlobalID="Pow.CpM.OnChangeCommandPow" PortGlobalID="NetEthernet.192.168.10.Ids.OpM.12" />
         </RxTxData>
+        <!--12V-A-->
         <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.SwitchOnCh1">
             <Function TypeFunction="Internal">
                 <Call Name="OnRecvSwitchOnOff">
@@ -127,6 +129,19 @@
             <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OutStatus" PortGlobalID="NetEthernet.192.168.10.Ids.OpM.12" />
             <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OutStatus" PortGlobalID="NetEthernet.192.168.10.Ids.OpA.13" />
         </RxTxData>
+        <!--12V-F-->
+        <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.SwitchOnCh1">
+            <Function TypeFunction="Internal">
+                <Call Name="OnRecvSwitchOnOff">
+                    <Input Name="device">0</Input>
+                    <Input Name="channel">1</Input>
+                    <Input Name="isOn">TRUE</Input>
+                </Call>
+            </Function>
+            <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OutStatus" PortGlobalID="NetEthernet.192.168.10.Ids.OpM.12" />
+            <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OutStatus" PortGlobalID="NetEthernet.192.168.10.Ids.OpA.13" />
+        </RxTxData>
+        <!--Power modes-->
         <RxTxData NameClass="PowCpDataCpM" GlobalID="Pow.CpM.PowModeIdle">
             <Function TypeFunction="Internal">
                 <Call Name="OnRecvPowMode">
