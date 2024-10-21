@@ -54,8 +54,6 @@ PUID;Parent;LocalID;TypeGraphics
 53;Ids.CcA;ShapeEthernet;ioShape
 54;Ids.CcA;ShapeIO;ioShape
 55;Ids.CcA;ShapeInCommand;ioShape
-56;Pow;PowPanelRow1;ioPanelGrid
-57;Pow;PowPanelCol1;ioPanelGrid
 58;Pow.CpM;CommandNoRef;ioPanelGrid
 59;Pow.CpM;ModeNoRef;ioPanelGrid
 60;Pow.CpA;CommandNoRef;ioPanelGrid
@@ -626,3 +624,5 @@ PUID;Parent;LocalID;TypeGraphics
 625;Steer.CpA;EncoderNumber;ioTextBoxNumber
 626;Steer.CpA;ButtLeftBig;ioButtonText
 627;Steer.CpA;ButtRightBig;ioButtonText
+56;Pow;RowTop12V;ioPanelGrid
+57;Pow;RowMid24V;ioPanelGrid

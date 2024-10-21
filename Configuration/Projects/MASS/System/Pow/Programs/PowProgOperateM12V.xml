@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProgramClass Name="PowProgOperateM12V">
+    <Description>Program for 12V power management from mid deckhouse</Description>
+    <DataItemsCollection>
+        <DataListClasses Name="Pow::Out::PowOutData" NameObject="Port">
+            <Item NameClass="PowOutDataOut12M" NameObject="PortOut12M" />
+            <Item NameClass="PowOutDataOut12F" NameObject="PortOut12F" />
+            <Item NameClass="PowOutDataOut12A" NameObject="PortOut12A" />
+        </DataListClasses>
+    </DataItemsCollection>
+    <PanelsCollection>
+        <PanelInProgram Name="Pow::Out::PowOutPanel" NameObject="Panel">
+            <Item NameClass="PowOutPanelOut12M" NameObject="PanelOut12M" />
+            <Item NameClass="PowOutPanelOut12F" NameObject="PanelOut12F" />
+            <Item NameClass="PowOutPanelOut12A" NameObject="PanelOut12A" />
+        </PanelInProgram>
+        <PanelInProgram Name="Pow::Out::PowIndicatorPanel" NameObject="PanelInd">
+            <Item NameClass="PowIndicatorPanelOut12M" NameObject="PanelIndOut12M" />
+            <Item NameClass="PowIndicatorPanelOut12F" NameObject="PanelIndOut12F" />
+            <Item NameClass="PowIndicatorPanelOut12A" NameObject="PanelIndOut12A" />
+        </PanelInProgram>
+    </PanelsCollection>
+    <Sequences>
+        <GraphicsEvent NameClass="PowOutPanelOut12A" GlobalID="Pow.Out12A.ButtOnCh1.Clicked">
+            <SetConstant NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnOffCh">1</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.SwitchOn" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12A" GlobalID="Pow.Out12A.ButtOffCh1.Clicked">
+            <SetConstant NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnOffCh">1</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.SwitchOff" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12A" GlobalID="Pow.Out12A.ButtOnCh2.Clicked">
+            <SetConstant NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnOffCh">2</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.SwitchOn" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12A" GlobalID="Pow.Out12A.ButtOffCh2.Clicked">
+            <SetConstant NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnOffCh">2</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.SwitchOff" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12A" GlobalID="Pow.Out12A.ButtOnCh3.Clicked">
+            <SetConstant NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnOffCh">3</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.SwitchOn" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12A" GlobalID="Pow.Out12A.ButtOffCh3.Clicked">
+            <SetConstant NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnOffCh">3</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.SwitchOff" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12A" GlobalID="Pow.Out12A.ButtOnCh4.Clicked">
+            <SetConstant NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnOffCh">4</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.SwitchOn" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12A" GlobalID="Pow.Out12A.ButtOffCh4.Clicked">
+            <SetConstant NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnOffCh">4</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.SwitchOff" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12A" GlobalID="Pow.Out12A.ButtOnCh5.Clicked">
+            <SetConstant NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnOffCh">5</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.SwitchOn" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12A" GlobalID="Pow.Out12A.ButtOffCh5.Clicked">
+            <SetConstant NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnOffCh">5</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.SwitchOff" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12A" GlobalID="Pow.Out12A.ButtOnCh6.Clicked">
+            <SetConstant NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnOffCh">6</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.SwitchOn" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12A" GlobalID="Pow.Out12A.ButtOffCh6.Clicked">
+            <SetConstant NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnOffCh">6</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.SwitchOff" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12A" GlobalID="Pow.Out12A.ButtOnCh7.Clicked">
+            <SetConstant NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnOffCh">7</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.SwitchOn" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12A" GlobalID="Pow.Out12A.ButtOffCh7.Clicked">
+            <SetConstant NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnOffCh">7</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.SwitchOff" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12A" GlobalID="Pow.Out12A.ButtOnCh8.Clicked">
+            <SetConstant NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnOffCh">8</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.SwitchOn" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12A" GlobalID="Pow.Out12A.ButtOffCh8.Clicked">
+            <SetConstant NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnOffCh">8</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.SwitchOff" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OutStatus">
+            <GraphicsData NameClass="PowIndicatorPanelOut12A" GlobalID="Pow.Out12A.ShpOnOffInd1">
+                <DataAssigned NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnCh1" />
+            </GraphicsData>
+            <GraphicsData NameClass="PowIndicatorPanelOut12A" GlobalID="Pow.Out12A.ShpOnOffInd2">
+                <DataAssigned NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnCh2" />
+            </GraphicsData>
+            <GraphicsData NameClass="PowIndicatorPanelOut12A" GlobalID="Pow.Out12A.ShpOnOffInd3">
+                <DataAssigned NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnCh3" />
+            </GraphicsData>
+            <GraphicsData NameClass="PowIndicatorPanelOut12A" GlobalID="Pow.Out12A.ShpOnOffInd4">
+                <DataAssigned NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnCh4" />
+            </GraphicsData>
+            <GraphicsData NameClass="PowIndicatorPanelOut12A" GlobalID="Pow.Out12A.ShpOnOffInd5">
+                <DataAssigned NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnCh5" />
+            </GraphicsData>
+            <GraphicsData NameClass="PowIndicatorPanelOut12A" GlobalID="Pow.Out12A.ShpOnOffInd6">
+                <DataAssigned NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnCh6" />
+            </GraphicsData>
+            <GraphicsData NameClass="PowIndicatorPanelOut12A" GlobalID="Pow.Out12A.ShpOnOffInd7">
+                <DataAssigned NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnCh7" />
+            </GraphicsData>
+            <GraphicsData NameClass="PowIndicatorPanelOut12A" GlobalID="Pow.Out12A.ShpOnOffInd8">
+                <DataAssigned NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnCh8" />
+            </GraphicsData>
+        </RxTxData>
+        <GraphicsEvent NameClass="PowOutPanelOut12F" GlobalID="Pow.Out12F.ButtOnCh1.Clicked">
+            <SetConstant NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OnOffCh">1</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.SwitchOn" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12F" GlobalID="Pow.Out12F.ButtOffCh1.Clicked">
+            <SetConstant NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OnOffCh">1</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.SwitchOff" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12F" GlobalID="Pow.Out12F.ButtOnCh2.Clicked">
+            <SetConstant NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OnOffCh">2</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.SwitchOn" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12F" GlobalID="Pow.Out12F.ButtOffCh2.Clicked">
+            <SetConstant NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OnOffCh">2</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.SwitchOff" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12F" GlobalID="Pow.Out12F.ButtOnCh3.Clicked">
+            <SetConstant NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OnOffCh">3</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.SwitchOn" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12F" GlobalID="Pow.Out12F.ButtOffCh3.Clicked">
+            <SetConstant NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OnOffCh">3</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.SwitchOff" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12F" GlobalID="Pow.Out12F.ButtOnCh4.Clicked">
+            <SetConstant NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OnOffCh">4</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.SwitchOn" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12F" GlobalID="Pow.Out12F.ButtOffCh4.Clicked">
+            <SetConstant NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OnOffCh">4</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.SwitchOff" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12F" GlobalID="Pow.Out12F.ButtOnCh5.Clicked">
+            <SetConstant NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OnOffCh">5</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.SwitchOn" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12F" GlobalID="Pow.Out12F.ButtOffCh5.Clicked">
+            <SetConstant NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OnOffCh">5</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.SwitchOff" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12F" GlobalID="Pow.Out12F.ButtOnCh6.Clicked">
+            <SetConstant NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OnOffCh">6</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.SwitchOn" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12F" GlobalID="Pow.Out12F.ButtOffCh6.Clicked">
+            <SetConstant NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OnOffCh">6</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.SwitchOff" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <RxTxData NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OutStatus">
+            <GraphicsData NameClass="PowIndicatorPanelOut12F" GlobalID="Pow.Out12F.ShpOnOffInd1">
+                <DataAssigned NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OnCh1" />
+            </GraphicsData>
+            <GraphicsData NameClass="PowIndicatorPanelOut12F" GlobalID="Pow.Out12F.ShpOnOffInd2">
+                <DataAssigned NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OnCh2" />
+            </GraphicsData>
+            <GraphicsData NameClass="PowIndicatorPanelOut12F" GlobalID="Pow.Out12F.ShpOnOffInd3">
+                <DataAssigned NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OnCh3" />
+            </GraphicsData>
+            <GraphicsData NameClass="PowIndicatorPanelOut12F" GlobalID="Pow.Out12F.ShpOnOffInd4">
+                <DataAssigned NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OnCh4" />
+            </GraphicsData>
+            <GraphicsData NameClass="PowIndicatorPanelOut12F" GlobalID="Pow.Out12F.ShpOnOffInd5">
+                <DataAssigned NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OnCh5" />
+            </GraphicsData>
+            <GraphicsData NameClass="PowIndicatorPanelOut12F" GlobalID="Pow.Out12F.ShpOnOffInd6">
+                <DataAssigned NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OnCh6" />
+            </GraphicsData>
+        </RxTxData>
+        <GraphicsEvent NameClass="PowOutPanelOut12M" GlobalID="Pow.Out12M.ButtOnCh1.Clicked">
+            <SetConstant NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnOffCh">1</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.SwitchOn" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12M" GlobalID="Pow.Out12M.ButtOffCh1.Clicked">
+            <SetConstant NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnOffCh">1</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.SwitchOff" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12M" GlobalID="Pow.Out12M.ButtOnCh2.Clicked">
+            <SetConstant NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnOffCh">2</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.SwitchOn" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12M" GlobalID="Pow.Out12M.ButtOffCh2.Clicked">
+            <SetConstant NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnOffCh">2</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.SwitchOff" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12M" GlobalID="Pow.Out12M.ButtOnCh3.Clicked">
+            <SetConstant NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnOffCh">3</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.SwitchOn" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12M" GlobalID="Pow.Out12M.ButtOffCh3.Clicked">
+            <SetConstant NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnOffCh">3</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.SwitchOff" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12M" GlobalID="Pow.Out12M.ButtOnCh4.Clicked">
+            <SetConstant NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnOffCh">4</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.SwitchOn" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12M" GlobalID="Pow.Out12M.ButtOffCh4.Clicked">
+            <SetConstant NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnOffCh">4</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.SwitchOff" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12M" GlobalID="Pow.Out12M.ButtOnCh5.Clicked">
+            <SetConstant NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnOffCh">5</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.SwitchOn" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <GraphicsEvent NameClass="PowOutPanelOut12M" GlobalID="Pow.Out12M.ButtOffCh5.Clicked">
+            <SetConstant NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnOffCh">5</SetConstant>
+            <RxTxData NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.SwitchOff" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
+        </GraphicsEvent>
+        <RxTxData NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OutStatus">
+            <GraphicsData NameClass="PowIndicatorPanelOut12M" GlobalID="Pow.Out12M.ShpOnOffInd1">
+                <DataAssigned NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnCh1" />
+            </GraphicsData>
+            <GraphicsData NameClass="PowIndicatorPanelOut12M" GlobalID="Pow.Out12M.ShpOnOffInd2">
+                <DataAssigned NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnCh2" />
+            </GraphicsData>
+            <GraphicsData NameClass="PowIndicatorPanelOut12M" GlobalID="Pow.Out12M.ShpOnOffInd3">
+                <DataAssigned NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnCh3" />
+            </GraphicsData>
+            <GraphicsData NameClass="PowIndicatorPanelOut12M" GlobalID="Pow.Out12M.ShpOnOffInd4">
+                <DataAssigned NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnCh4" />
+            </GraphicsData>
+            <GraphicsData NameClass="PowIndicatorPanelOut12M" GlobalID="Pow.Out12M.ShpOnOffInd5">
+                <DataAssigned NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnCh5" />
+            </GraphicsData>
+        </RxTxData>
+    </Sequences>
+</ProgramClass>

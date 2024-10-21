@@ -34,11 +34,11 @@ PUID;Parent;LocalID;StyleID;ValueStyle;TypeColor
 141;Pow.Out12A;ShpOnOffInd1;OnOffSwitch;FALSE;InstrumentEnhancedPrimary
 144;Pow.Out12A;ShpOnOffInd2;OnOffSwitch;FALSE;InstrumentEnhancedPrimary
 147;Pow.Out12A;ShpOnOffInd3;OnOffSwitch;FALSE;InstrumentEnhancedPrimary
-150;Pow.Out12A;ShpOnOffInd4;;;InstrumentFrameSecondary
-153;Pow.Out12A;ShpOnOffInd5;;;InstrumentFrameSecondary
-156;Pow.Out12A;ShpOnOffInd6;;;InstrumentFrameSecondary
-159;Pow.Out12A;ShpOnOffInd7;;;InstrumentFrameSecondary
-162;Pow.Out12A;ShpOnOffInd8;;;InstrumentFrameSecondary
+150;Pow.Out12A;ShpOnOffInd4;OnOffSwitch;FALSE;InstrumentEnhancedPrimary
+153;Pow.Out12A;ShpOnOffInd5;OnOffSwitch;FALSE;InstrumentEnhancedPrimary
+156;Pow.Out12A;ShpOnOffInd6;OnOffSwitch;FALSE;InstrumentEnhancedPrimary
+159;Pow.Out12A;ShpOnOffInd7;OnOffSwitch;FALSE;InstrumentEnhancedPrimary
+162;Pow.Out12A;ShpOnOffInd8;OnOffSwitch;FALSE;InstrumentEnhancedPrimary
 165;Pow.Out24M;ShpOnOffInd1;;;InstrumentFrameSecondary
 168;Pow.Out24M;ShpOnOffInd2;;;InstrumentFrameSecondary
 171;Pow.Out24M;ShpOnOffInd3;;;InstrumentFrameSecondary

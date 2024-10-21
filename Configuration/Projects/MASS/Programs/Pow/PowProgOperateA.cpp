@@ -38,19 +38,27 @@ void PowProgOperateA::ReceiveGraphicsEvent(Int32 puidValue, ioProgramGraphicsEve
     {
     case Puid_Pow_CpA_ButtTakeRequestPow:
         if (typeEvent == ioProgramGraphicsEvent_Clicked)
+        {
             SendData(&DataCmdCpA.TakeCommandPow, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
+        }
         break;
     case Puid_Pow_CpA_ButtInTransit:
         if (typeEvent == ioProgramGraphicsEvent_Clicked)
+        {
             SendData(&DataCmdCpA.PowModeTransitDay, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
+        }
         break;
     case Puid_Pow_CpA_ButtInTransitEngine:
         if (typeEvent == ioProgramGraphicsEvent_Clicked)
+        {
             SendData(&DataCmdCpA.PowModeTransitNightEngine, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
+        }
         break;
     case Puid_Pow_CpA_ButtInTransitSailing:
         if (typeEvent == ioProgramGraphicsEvent_Clicked)
+        {
             SendData(&DataCmdCpA.PowModeTransitNightSail, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
+        }
         break;
     } // switch
 }
@@ -69,13 +77,33 @@ void PowProgOperateA::ReceiveData(ioDataCollection* listData, ioData* data)
             in1_Int32.SetValueVar(&DataCmdCpA.ActiveStationPow);
             ReceiveOnChangeCommandPow(&in1_Int32);
             break;
+        case Duid_Pow_CpA_OnChangePowMode:
+            PanelCmdCpA.LabelPowerMode.SetValueVar(&DataCmdCpA.PowMode);
+            break;
         case Duid_Pow_Out12A_OutStatus:
             PanelIndOut12A.ShpOnOffInd1.SetValueVar(&PortOut12A.OnCh1);
             PanelIndOut12A.ShpOnOffInd2.SetValueVar(&PortOut12A.OnCh2);
             PanelIndOut12A.ShpOnOffInd3.SetValueVar(&PortOut12A.OnCh3);
+            PanelIndOut12A.ShpOnOffInd4.SetValueVar(&PortOut12A.OnCh4);
+            PanelIndOut12A.ShpOnOffInd5.SetValueVar(&PortOut12A.OnCh5);
+            PanelIndOut12A.ShpOnOffInd6.SetValueVar(&PortOut12A.OnCh6);
+            PanelIndOut12A.ShpOnOffInd7.SetValueVar(&PortOut12A.OnCh7);
+            PanelIndOut12A.ShpOnOffInd8.SetValueVar(&PortOut12A.OnCh8);
             break;
-        case Duid_Pow_CpA_OnChangePowMode:
-            PanelCmdCpA.LabelPowerMode.SetValueVar(&DataCmdCpA.PowMode);
+        case Duid_Pow_Out12F_OutStatus:
+            PanelIndOut12F.ShpOnOffInd1.SetValueVar(&PortOut12F.OnCh1);
+            PanelIndOut12F.ShpOnOffInd2.SetValueVar(&PortOut12F.OnCh2);
+            PanelIndOut12F.ShpOnOffInd3.SetValueVar(&PortOut12F.OnCh3);
+            PanelIndOut12F.ShpOnOffInd4.SetValueVar(&PortOut12F.OnCh4);
+            PanelIndOut12F.ShpOnOffInd5.SetValueVar(&PortOut12F.OnCh5);
+            PanelIndOut12F.ShpOnOffInd6.SetValueVar(&PortOut12F.OnCh6);
+            break;
+        case Duid_Pow_Out12M_OutStatus:
+            PanelIndOut12M.ShpOnOffInd1.SetValueVar(&PortOut12M.OnCh1);
+            PanelIndOut12M.ShpOnOffInd2.SetValueVar(&PortOut12M.OnCh2);
+            PanelIndOut12M.ShpOnOffInd3.SetValueVar(&PortOut12M.OnCh3);
+            PanelIndOut12M.ShpOnOffInd4.SetValueVar(&PortOut12M.OnCh4);
+            PanelIndOut12M.ShpOnOffInd5.SetValueVar(&PortOut12M.OnCh5);
             break;
         } // switch
     } // else

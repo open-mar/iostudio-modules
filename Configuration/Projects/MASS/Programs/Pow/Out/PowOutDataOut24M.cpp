@@ -28,22 +28,10 @@ void PowOutDataOut24M::InitializeData(void)
     AddData((ioData*)&OnCh7, Duid_Pow_Out24M_OnCh7);
     OnCh8.SetValue(FALSE);
     AddData((ioData*)&OnCh8, Duid_Pow_Out24M_OnCh8);
-    AddData((ioData*)&SwitchOnCh1, Duid_Pow_Out24M_SwitchOnCh1);
-    AddData((ioData*)&SwitchOnCh2, Duid_Pow_Out24M_SwitchOnCh2);
-    AddData((ioData*)&SwitchOnCh3, Duid_Pow_Out24M_SwitchOnCh3);
-    AddData((ioData*)&SwitchOnCh4, Duid_Pow_Out24M_SwitchOnCh4);
-    AddData((ioData*)&SwitchOnCh5, Duid_Pow_Out24M_SwitchOnCh5);
-    AddData((ioData*)&SwitchOnCh6, Duid_Pow_Out24M_SwitchOnCh6);
-    AddData((ioData*)&SwitchOnCh7, Duid_Pow_Out24M_SwitchOnCh7);
-    AddData((ioData*)&SwitchOnCh8, Duid_Pow_Out24M_SwitchOnCh8);
-    AddData((ioData*)&SwitchOffCh1, Duid_Pow_Out24M_SwitchOffCh1);
-    AddData((ioData*)&SwitchOffCh2, Duid_Pow_Out24M_SwitchOffCh2);
-    AddData((ioData*)&SwitchOffCh3, Duid_Pow_Out24M_SwitchOffCh3);
-    AddData((ioData*)&SwitchOffCh4, Duid_Pow_Out24M_SwitchOffCh4);
-    AddData((ioData*)&SwitchOffCh5, Duid_Pow_Out24M_SwitchOffCh5);
-    AddData((ioData*)&SwitchOffCh6, Duid_Pow_Out24M_SwitchOffCh6);
-    AddData((ioData*)&SwitchOffCh7, Duid_Pow_Out24M_SwitchOffCh7);
-    AddData((ioData*)&SwitchOffCh8, Duid_Pow_Out24M_SwitchOffCh8);
+    OnOffCh.SetValueSigned(1);
+    AddData((ioData*)&OnOffCh, Duid_Pow_Out24M_OnOffCh);
+    AddData((ioData*)&SwitchOn, Duid_Pow_Out24M_SwitchOn);
+    AddData((ioData*)&SwitchOff, Duid_Pow_Out24M_SwitchOff);
     AddData((ioData*)&OutStatus, Duid_Pow_Out24M_OutStatus);
     AddData((ioData*)&OnRequestPowData, Duid_Pow_Out24M_OnRequestPowData);
 }

@@ -206,8 +206,10 @@
     <ClInclude Include="..\..\Programs\Pow\Out\PowOutPanelOut24F.h" />
     <ClInclude Include="..\..\Programs\Pow\Out\PowOutPanelOut24M.h" />
     <ClInclude Include="..\..\Programs\Pow\PowProgControl.h" />
+    <ClInclude Include="..\..\Programs\Pow\PowProgControl12V.h" />
     <ClInclude Include="..\..\Programs\Pow\PowProgOperateA.h" />
     <ClInclude Include="..\..\Programs\Pow\PowProgOperateM.h" />
+    <ClInclude Include="..\..\Programs\Pow\PowProgOperateM12V.h" />
     <ClInclude Include="..\..\Programs\Steer\Ap\SteerApData.h" />
     <ClInclude Include="..\..\Programs\Steer\Ap\SteerApDataApA.h" />
     <ClInclude Include="..\..\Programs\Steer\Ap\SteerApDataApM.h" />
@@ -301,8 +303,10 @@
     <ClCompile Include="..\..\Programs\Pow\Out\PowOutPanelOut24F.cpp" />
     <ClCompile Include="..\..\Programs\Pow\Out\PowOutPanelOut24M.cpp" />
     <ClCompile Include="..\..\Programs\Pow\PowProgControl.cpp" />
+    <ClCompile Include="..\..\Programs\Pow\PowProgControl12V.cpp" />
     <ClCompile Include="..\..\Programs\Pow\PowProgOperateA.cpp" />
     <ClCompile Include="..\..\Programs\Pow\PowProgOperateM.cpp" />
+    <ClCompile Include="..\..\Programs\Pow\PowProgOperateM12V.cpp" />
     <ClCompile Include="..\..\Programs\Steer\Ap\SteerApData.cpp" />
     <ClCompile Include="..\..\Programs\Steer\Ap\SteerApDataApA.cpp" />
     <ClCompile Include="..\..\Programs\Steer\Ap\SteerApDataApM.cpp" />

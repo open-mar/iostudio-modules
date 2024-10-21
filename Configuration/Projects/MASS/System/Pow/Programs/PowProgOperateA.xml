@@ -59,17 +59,6 @@
                 </Call>
             </Function>
         </RxTxData>
-        <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OutStatus">
-            <GraphicsData NameClass="PowIndicatorPanelOut12A" GlobalID="Pow.Out12A.ShpOnOffInd1">
-                <DataAssigned NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnCh1" />
-            </GraphicsData>
-            <GraphicsData NameClass="PowIndicatorPanelOut12A" GlobalID="Pow.Out12A.ShpOnOffInd2">
-                <DataAssigned NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnCh2" />
-            </GraphicsData>
-            <GraphicsData NameClass="PowIndicatorPanelOut12A" GlobalID="Pow.Out12A.ShpOnOffInd3">
-                <DataAssigned NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnCh3" />
-            </GraphicsData>
-        </RxTxData>
         <GraphicsEvent NameClass="PowModePanelCpA" GlobalID="Pow.CpA.ButtInTransit.Clicked">
             <RxTxData NameClass="PowCpDataCpA" GlobalID="Pow.CpA.PowModeTransitDay" PortGlobalID="NetEthernet.192.168.10.Ids.CcM.C6015.11" />
         </GraphicsEvent>
@@ -84,5 +73,69 @@
                 <DataAssigned NameClass="PowCpDataCpA" GlobalID="Pow.CpA.PowMode" />
             </GraphicsData>
         </RxTxData>
+        <RxTxData NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OutStatus">
+            <GraphicsData NameClass="PowIndicatorPanelOut12A" GlobalID="Pow.Out12A.ShpOnOffInd1">
+                <DataAssigned NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnCh1" />
+            </GraphicsData>
+            <GraphicsData NameClass="PowIndicatorPanelOut12A" GlobalID="Pow.Out12A.ShpOnOffInd2">
+                <DataAssigned NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnCh2" />
+            </GraphicsData>
+            <GraphicsData NameClass="PowIndicatorPanelOut12A" GlobalID="Pow.Out12A.ShpOnOffInd3">
+                <DataAssigned NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnCh3" />
+            </GraphicsData>
+            <GraphicsData NameClass="PowIndicatorPanelOut12A" GlobalID="Pow.Out12A.ShpOnOffInd4">
+                <DataAssigned NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnCh4" />
+            </GraphicsData>
+            <GraphicsData NameClass="PowIndicatorPanelOut12A" GlobalID="Pow.Out12A.ShpOnOffInd5">
+                <DataAssigned NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnCh5" />
+            </GraphicsData>
+            <GraphicsData NameClass="PowIndicatorPanelOut12A" GlobalID="Pow.Out12A.ShpOnOffInd6">
+                <DataAssigned NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnCh6" />
+            </GraphicsData>
+            <GraphicsData NameClass="PowIndicatorPanelOut12A" GlobalID="Pow.Out12A.ShpOnOffInd7">
+                <DataAssigned NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnCh7" />
+            </GraphicsData>
+            <GraphicsData NameClass="PowIndicatorPanelOut12A" GlobalID="Pow.Out12A.ShpOnOffInd8">
+                <DataAssigned NameClass="PowOutDataOut12A" GlobalID="Pow.Out12A.OnCh8" />
+            </GraphicsData>
+        </RxTxData>
+        <RxTxData NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OutStatus">
+            <GraphicsData NameClass="PowIndicatorPanelOut12F" GlobalID="Pow.Out12F.ShpOnOffInd1">
+                <DataAssigned NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OnCh1" />
+            </GraphicsData>
+            <GraphicsData NameClass="PowIndicatorPanelOut12F" GlobalID="Pow.Out12F.ShpOnOffInd2">
+                <DataAssigned NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OnCh2" />
+            </GraphicsData>
+            <GraphicsData NameClass="PowIndicatorPanelOut12F" GlobalID="Pow.Out12F.ShpOnOffInd3">
+                <DataAssigned NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OnCh3" />
+            </GraphicsData>
+            <GraphicsData NameClass="PowIndicatorPanelOut12F" GlobalID="Pow.Out12F.ShpOnOffInd4">
+                <DataAssigned NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OnCh4" />
+            </GraphicsData>
+            <GraphicsData NameClass="PowIndicatorPanelOut12F" GlobalID="Pow.Out12F.ShpOnOffInd5">
+                <DataAssigned NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OnCh5" />
+            </GraphicsData>
+            <GraphicsData NameClass="PowIndicatorPanelOut12F" GlobalID="Pow.Out12F.ShpOnOffInd6">
+                <DataAssigned NameClass="PowOutDataOut12F" GlobalID="Pow.Out12F.OnCh6" />
+            </GraphicsData>
+        </RxTxData>
+        <RxTxData NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OutStatus">
+            <GraphicsData NameClass="PowIndicatorPanelOut12M" GlobalID="Pow.Out12M.ShpOnOffInd1">
+                <DataAssigned NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnCh1" />
+            </GraphicsData>
+            <GraphicsData NameClass="PowIndicatorPanelOut12M" GlobalID="Pow.Out12M.ShpOnOffInd2">
+                <DataAssigned NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnCh2" />
+            </GraphicsData>
+            <GraphicsData NameClass="PowIndicatorPanelOut12M" GlobalID="Pow.Out12M.ShpOnOffInd3">
+                <DataAssigned NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnCh3" />
+            </GraphicsData>
+            <GraphicsData NameClass="PowIndicatorPanelOut12M" GlobalID="Pow.Out12M.ShpOnOffInd4">
+                <DataAssigned NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnCh4" />
+            </GraphicsData>
+            <GraphicsData NameClass="PowIndicatorPanelOut12M" GlobalID="Pow.Out12M.ShpOnOffInd5">
+                <DataAssigned NameClass="PowOutDataOut12M" GlobalID="Pow.Out12M.OnCh5" />
+            </GraphicsData>
+        </RxTxData>
+
     </Sequences>
 </ProgramClass>

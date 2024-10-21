@@ -328,6 +328,12 @@
     <ClInclude Include="..\..\Programs\Batt\BattProgMonitorM.h">
       <Filter>Programs\Batt</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Programs\Pow\PowProgControl12V.h">
+      <Filter>Programs\Pow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Pow\PowProgOperateM12V.h">
+      <Filter>Programs\Pow</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MassProgramsSimulation.cpp">
@@ -608,6 +614,12 @@
     </ClCompile>
     <ClCompile Include="..\..\Programs\Batt\BattProgMonitorM.cpp">
       <Filter>Programs\Batt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Pow\PowProgControl12V.cpp">
+      <Filter>Programs\Pow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Pow\PowProgOperateM12V.cpp">
+      <Filter>Programs\Pow</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

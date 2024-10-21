@@ -171,42 +171,42 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd4" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd4" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="InstrumentFrameSecondary" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="InstrumentEnhancedPrimary" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd4" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_12A4" TypeLabel="Small" TypeColor="ElementInactiveInverted" TextWrapping="NoWrap" />
+                    <Properties Text="AP Cockpit" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd5" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd5" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="InstrumentFrameSecondary" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="InstrumentEnhancedPrimary" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd5" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_12A5" TypeLabel="Small" TypeColor="ElementInactiveInverted" TextWrapping="NoWrap" />
+                    <Properties Text="Depth Sensor" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd6" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd6" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="InstrumentFrameSecondary" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="InstrumentEnhancedPrimary" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd6" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_12A6" TypeLabel="Small" TypeColor="ElementInactiveInverted" TextWrapping="NoWrap" />
+                    <Properties Text="RADAR" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd7" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd7" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="InstrumentFrameSecondary" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="InstrumentEnhancedPrimary" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd7" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_12A7" TypeLabel="Small" TypeColor="ElementInactiveInverted" TextWrapping="NoWrap" />
+                    <Properties Text="GNSS" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridChInd8" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
                 <ioShape LocalID="ShpOnOffInd8" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="40">
-                    <Properties TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="InstrumentFrameSecondary" />
+                    <Properties StyleID="OnOffSwitch" ValueStyle="FALSE" TypeShape="Automation" ShapeID="Off" ScaleX="1.0" ScaleY="1.0" TypeColor="InstrumentEnhancedPrimary" />
                 </ioShape>
                 <ioLabel LocalID="LabelNameInd8" VerticalAlignment="Center" Height="15">
-                    <Properties Text="NameChannel_12A8" TypeLabel="Small" TypeColor="ElementInactiveInverted" TextWrapping="NoWrap" />
+                    <Properties Text="VHF" TypeLabel="Small" TypeColor="ElementActive" TextWrapping="NoWrap" />
                 </ioLabel>
             </ioPanelGrid>
         </Grid>

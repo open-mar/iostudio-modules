@@ -2,9 +2,6 @@
 #if !defined(__POWPROGCONTROL_H)
 #define __POWPROGCONTROL_H
 #include "ioSystem/Program/Core/ioProgram.h"
-#include "Programs/Pow/Out/PowOutDataOut12M.h"
-#include "Programs/Pow/Out/PowOutDataOut12F.h"
-#include "Programs/Pow/Out/PowOutDataOut12A.h"
 #include "Programs/Pow/Out/PowOutDataOut24M.h"
 #include "Programs/Pow/Out/PowOutDataOut24F.h"
 #include "Programs/Pow/Out/PowOutDataOut24A.h"
@@ -22,11 +19,7 @@ public:
     virtual void Run(Int32 activeSlot);
     virtual void ReceiveData(ioDataCollection* listData, ioData* data);
     virtual void OnRecvTakeCommandPow(ioVarInt32* sender);
-    virtual void OnRecvSwitchOnOff(ioVarInt32* device, ioVarInt32* channel, ioVarBool* isOn);
     virtual void OnRecvPowMode(ioVarInt32* sender, ioVarInt32* mode);
-    PowOutDataOut12M PortOut12M;
-    PowOutDataOut12F PortOut12F;
-    PowOutDataOut12A PortOut12A;
     PowOutDataOut24M PortOut24M;
     PowOutDataOut24F PortOut24F;
     PowOutDataOut24A PortOut24A;

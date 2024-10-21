@@ -14,18 +14,12 @@ void PowProgOperateM::InitializeTask(void)
 {
     ioProgram::InitializeTask();
     AddPanel((ioPanel*)&PanelCmdCpM);
-    AddPanel((ioPanel*)&PanelOut12M);
-    AddPanel((ioPanel*)&PanelOut12F);
-    AddPanel((ioPanel*)&PanelOut12A);
     AddPanel((ioPanel*)&PanelOut24M);
     AddPanel((ioPanel*)&PanelOut24F);
     AddPanel((ioPanel*)&PanelOut24A);
     AddPanel((ioPanel*)&PanelOut220M);
     AddPanel((ioPanel*)&PanelOut220F);
     AddPanel((ioPanel*)&PanelOut220A);
-    AddPanel((ioPanel*)&PanelIndOut12M);
-    AddPanel((ioPanel*)&PanelIndOut12F);
-    AddPanel((ioPanel*)&PanelIndOut12A);
     AddPanel((ioPanel*)&PanelIndOut24M);
     AddPanel((ioPanel*)&PanelIndOut24F);
     AddPanel((ioPanel*)&PanelIndOut24A);
@@ -47,95 +41,45 @@ void PowProgOperateM::ReceiveGraphicsEvent(Int32 puidValue, ioProgramGraphicsEve
     {
     case Puid_Pow_CpM_ButtTakeRequestPow:
         if (typeEvent == ioProgramGraphicsEvent_Clicked)
+        {
             SendData(&DataCmdCpM.TakeCommandPow, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
-        break;
-    case Puid_Pow_Out12A_ButtOnCh1:
-        if (typeEvent == ioProgramGraphicsEvent_Clicked)
-            SendData(&PortOut12A.SwitchOnCh1, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
-        break;
-    case Puid_Pow_Out12A_ButtOffCh1:
-        if (typeEvent == ioProgramGraphicsEvent_Clicked)
-            SendData(&PortOut12A.SwitchOffCh1, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
-        break;
-    case Puid_Pow_Out12A_ButtOnCh2:
-        if (typeEvent == ioProgramGraphicsEvent_Clicked)
-            SendData(&PortOut12A.SwitchOnCh2, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
-        break;
-    case Puid_Pow_Out12A_ButtOffCh2:
-        if (typeEvent == ioProgramGraphicsEvent_Clicked)
-            SendData(&PortOut12A.SwitchOffCh2, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
-        break;
-    case Puid_Pow_Out12A_ButtOnCh3:
-        if (typeEvent == ioProgramGraphicsEvent_Clicked)
-            SendData(&PortOut12A.SwitchOnCh3, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
-        break;
-    case Puid_Pow_Out12A_ButtOffCh3:
-        if (typeEvent == ioProgramGraphicsEvent_Clicked)
-            SendData(&PortOut12A.SwitchOffCh3, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
-        break;
-    case Puid_Pow_Out12F_ButtOnCh1:
-        if (typeEvent == ioProgramGraphicsEvent_Clicked)
-            SendData(&PortOut12F.SwitchOnCh1, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
-        break;
-    case Puid_Pow_Out12F_ButtOffCh1:
-        if (typeEvent == ioProgramGraphicsEvent_Clicked)
-            SendData(&PortOut12F.SwitchOffCh1, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
-        break;
-    case Puid_Pow_Out12F_ButtOnCh2:
-        if (typeEvent == ioProgramGraphicsEvent_Clicked)
-            SendData(&PortOut12F.SwitchOnCh2, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
-        break;
-    case Puid_Pow_Out12F_ButtOffCh2:
-        if (typeEvent == ioProgramGraphicsEvent_Clicked)
-            SendData(&PortOut12F.SwitchOffCh2, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
-        break;
-    case Puid_Pow_Out12F_ButtOnCh3:
-        if (typeEvent == ioProgramGraphicsEvent_Clicked)
-            SendData(&PortOut12F.SwitchOnCh3, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
-        break;
-    case Puid_Pow_Out12F_ButtOffCh3:
-        if (typeEvent == ioProgramGraphicsEvent_Clicked)
-            SendData(&PortOut12F.SwitchOffCh3, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
-        break;
-    case Puid_Pow_Out12F_ButtOnCh4:
-        if (typeEvent == ioProgramGraphicsEvent_Clicked)
-            SendData(&PortOut12F.SwitchOnCh4, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
-        break;
-    case Puid_Pow_Out12F_ButtOffCh4:
-        if (typeEvent == ioProgramGraphicsEvent_Clicked)
-            SendData(&PortOut12F.SwitchOffCh4, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
-        break;
-    case Puid_Pow_Out12F_ButtOnCh5:
-        if (typeEvent == ioProgramGraphicsEvent_Clicked)
-            SendData(&PortOut12F.SwitchOnCh5, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
-        break;
-    case Puid_Pow_Out12F_ButtOffCh5:
-        if (typeEvent == ioProgramGraphicsEvent_Clicked)
-            SendData(&PortOut12F.SwitchOffCh5, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
+        }
         break;
     case Puid_Pow_CpM_ButtDockIdle:
         if (typeEvent == ioProgramGraphicsEvent_Clicked)
+        {
             SendData(&DataCmdCpM.PowModeIdle, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
+        }
         break;
     case Puid_Pow_CpM_ButtDockConnectedShore:
         if (typeEvent == ioProgramGraphicsEvent_Clicked)
+        {
             SendData(&DataCmdCpM.PowModeShore, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
+        }
         break;
     case Puid_Pow_CpM_ButtDockNotConnected:
         if (typeEvent == ioProgramGraphicsEvent_Clicked)
+        {
             SendData(&DataCmdCpM.PowModeDisconnect, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
+        }
         break;
     case Puid_Pow_CpM_ButtInTransit:
         if (typeEvent == ioProgramGraphicsEvent_Clicked)
+        {
             SendData(&DataCmdCpM.PowModeTransitDay, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
+        }
         break;
     case Puid_Pow_CpM_ButtInTransitEngine:
         if (typeEvent == ioProgramGraphicsEvent_Clicked)
+        {
             SendData(&DataCmdCpM.PowModeTransitNightEngine, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
+        }
         break;
     case Puid_Pow_CpM_ButtInTransitSailing:
         if (typeEvent == ioProgramGraphicsEvent_Clicked)
+        {
             SendData(&DataCmdCpM.PowModeTransitNightSail, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Ids_CcM_C6015_11);
+        }
         break;
     } // switch
 }
@@ -153,11 +97,6 @@ void PowProgOperateM::ReceiveData(ioDataCollection* listData, ioData* data)
             PanelCmdCpM.TextCommandStatusPow.SetValueVar(&DataCmdCpM.ActiveStationPow);
             in1_Int32.SetValueVar(&DataCmdCpM.ActiveStationPow);
             ReceiveOnChangeCommandPow(&in1_Int32);
-            break;
-        case Duid_Pow_Out12A_OutStatus:
-            PanelIndOut12A.ShpOnOffInd1.SetValueVar(&PortOut12A.OnCh1);
-            PanelIndOut12A.ShpOnOffInd2.SetValueVar(&PortOut12A.OnCh2);
-            PanelIndOut12A.ShpOnOffInd3.SetValueVar(&PortOut12A.OnCh3);
             break;
         case Duid_Pow_CpM_OnChangePowMode:
             PanelCmdCpM.LabelPowerMode.SetValueVar(&DataCmdCpM.PowMode);

@@ -67,22 +67,9 @@ namespace ioSystemNetworkNet
         Duid_Pow_Out12M_OnCh6 = 51,
         Duid_Pow_Out12M_OnCh7 = 52,
         Duid_Pow_Out12M_OnCh8 = 53,
-        Duid_Pow_Out12M_SwitchOnCh1 = 54,
-        Duid_Pow_Out12M_SwitchOnCh2 = 55,
-        Duid_Pow_Out12M_SwitchOnCh3 = 56,
-        Duid_Pow_Out12M_SwitchOnCh4 = 57,
-        Duid_Pow_Out12M_SwitchOnCh5 = 58,
-        Duid_Pow_Out12M_SwitchOnCh6 = 59,
-        Duid_Pow_Out12M_SwitchOnCh7 = 60,
-        Duid_Pow_Out12M_SwitchOnCh8 = 61,
-        Duid_Pow_Out12M_SwitchOffCh1 = 62,
-        Duid_Pow_Out12M_SwitchOffCh2 = 63,
-        Duid_Pow_Out12M_SwitchOffCh3 = 64,
-        Duid_Pow_Out12M_SwitchOffCh4 = 65,
-        Duid_Pow_Out12M_SwitchOffCh5 = 66,
-        Duid_Pow_Out12M_SwitchOffCh6 = 67,
-        Duid_Pow_Out12M_SwitchOffCh7 = 68,
-        Duid_Pow_Out12M_SwitchOffCh8 = 69,
+        Duid_Pow_Out12M_OnOffCh = 54,
+        Duid_Pow_Out12M_SwitchOn = 55,
+        Duid_Pow_Out12M_SwitchOff = 56,
         Duid_Pow_Out12M_OutStatus = 70,
         Duid_Pow_Out12M_OnRequestPowData = 71,
         Duid_Pow_Out12F_OnCh1 = 72,
@@ -93,22 +80,9 @@ namespace ioSystemNetworkNet
         Duid_Pow_Out12F_OnCh6 = 77,
         Duid_Pow_Out12F_OnCh7 = 78,
         Duid_Pow_Out12F_OnCh8 = 79,
-        Duid_Pow_Out12F_SwitchOnCh1 = 80,
-        Duid_Pow_Out12F_SwitchOnCh2 = 81,
-        Duid_Pow_Out12F_SwitchOnCh3 = 82,
-        Duid_Pow_Out12F_SwitchOnCh4 = 83,
-        Duid_Pow_Out12F_SwitchOnCh5 = 84,
-        Duid_Pow_Out12F_SwitchOnCh6 = 85,
-        Duid_Pow_Out12F_SwitchOnCh7 = 86,
-        Duid_Pow_Out12F_SwitchOnCh8 = 87,
-        Duid_Pow_Out12F_SwitchOffCh1 = 88,
-        Duid_Pow_Out12F_SwitchOffCh2 = 89,
-        Duid_Pow_Out12F_SwitchOffCh3 = 90,
-        Duid_Pow_Out12F_SwitchOffCh4 = 91,
-        Duid_Pow_Out12F_SwitchOffCh5 = 92,
-        Duid_Pow_Out12F_SwitchOffCh6 = 93,
-        Duid_Pow_Out12F_SwitchOffCh7 = 94,
-        Duid_Pow_Out12F_SwitchOffCh8 = 95,
+        Duid_Pow_Out12F_OnOffCh = 80,
+        Duid_Pow_Out12F_SwitchOn = 81,
+        Duid_Pow_Out12F_SwitchOff = 82,
         Duid_Pow_Out12F_OutStatus = 96,
         Duid_Pow_Out12F_OnRequestPowData = 97,
         Duid_Pow_Out12A_OnCh1 = 98,
@@ -119,22 +93,9 @@ namespace ioSystemNetworkNet
         Duid_Pow_Out12A_OnCh6 = 103,
         Duid_Pow_Out12A_OnCh7 = 104,
         Duid_Pow_Out12A_OnCh8 = 105,
-        Duid_Pow_Out12A_SwitchOnCh1 = 106,
-        Duid_Pow_Out12A_SwitchOnCh2 = 107,
-        Duid_Pow_Out12A_SwitchOnCh3 = 108,
-        Duid_Pow_Out12A_SwitchOnCh4 = 109,
-        Duid_Pow_Out12A_SwitchOnCh5 = 110,
-        Duid_Pow_Out12A_SwitchOnCh6 = 111,
-        Duid_Pow_Out12A_SwitchOnCh7 = 112,
-        Duid_Pow_Out12A_SwitchOnCh8 = 113,
-        Duid_Pow_Out12A_SwitchOffCh1 = 114,
-        Duid_Pow_Out12A_SwitchOffCh2 = 115,
-        Duid_Pow_Out12A_SwitchOffCh3 = 116,
-        Duid_Pow_Out12A_SwitchOffCh4 = 117,
-        Duid_Pow_Out12A_SwitchOffCh5 = 118,
-        Duid_Pow_Out12A_SwitchOffCh6 = 119,
-        Duid_Pow_Out12A_SwitchOffCh7 = 120,
-        Duid_Pow_Out12A_SwitchOffCh8 = 121,
+        Duid_Pow_Out12A_OnOffCh = 106,
+        Duid_Pow_Out12A_SwitchOn = 107,
+        Duid_Pow_Out12A_SwitchOff = 108,
         Duid_Pow_Out12A_OutStatus = 122,
         Duid_Pow_Out12A_OnRequestPowData = 123,
         Duid_Pow_Out24M_OnCh1 = 124,
@@ -145,22 +106,9 @@ namespace ioSystemNetworkNet
         Duid_Pow_Out24M_OnCh6 = 129,
         Duid_Pow_Out24M_OnCh7 = 130,
         Duid_Pow_Out24M_OnCh8 = 131,
-        Duid_Pow_Out24M_SwitchOnCh1 = 132,
-        Duid_Pow_Out24M_SwitchOnCh2 = 133,
-        Duid_Pow_Out24M_SwitchOnCh3 = 134,
-        Duid_Pow_Out24M_SwitchOnCh4 = 135,
-        Duid_Pow_Out24M_SwitchOnCh5 = 136,
-        Duid_Pow_Out24M_SwitchOnCh6 = 137,
-        Duid_Pow_Out24M_SwitchOnCh7 = 138,
-        Duid_Pow_Out24M_SwitchOnCh8 = 139,
-        Duid_Pow_Out24M_SwitchOffCh1 = 140,
-        Duid_Pow_Out24M_SwitchOffCh2 = 141,
-        Duid_Pow_Out24M_SwitchOffCh3 = 142,
-        Duid_Pow_Out24M_SwitchOffCh4 = 143,
-        Duid_Pow_Out24M_SwitchOffCh5 = 144,
-        Duid_Pow_Out24M_SwitchOffCh6 = 145,
-        Duid_Pow_Out24M_SwitchOffCh7 = 146,
-        Duid_Pow_Out24M_SwitchOffCh8 = 147,
+        Duid_Pow_Out24M_OnOffCh = 132,
+        Duid_Pow_Out24M_SwitchOn = 133,
+        Duid_Pow_Out24M_SwitchOff = 134,
         Duid_Pow_Out24M_OutStatus = 148,
         Duid_Pow_Out24M_OnRequestPowData = 149,
         Duid_Pow_Out24F_OnCh1 = 150,
@@ -171,22 +119,9 @@ namespace ioSystemNetworkNet
         Duid_Pow_Out24F_OnCh6 = 155,
         Duid_Pow_Out24F_OnCh7 = 156,
         Duid_Pow_Out24F_OnCh8 = 157,
-        Duid_Pow_Out24F_SwitchOnCh1 = 158,
-        Duid_Pow_Out24F_SwitchOnCh2 = 159,
-        Duid_Pow_Out24F_SwitchOnCh3 = 160,
-        Duid_Pow_Out24F_SwitchOnCh4 = 161,
-        Duid_Pow_Out24F_SwitchOnCh5 = 162,
-        Duid_Pow_Out24F_SwitchOnCh6 = 163,
-        Duid_Pow_Out24F_SwitchOnCh7 = 164,
-        Duid_Pow_Out24F_SwitchOnCh8 = 165,
-        Duid_Pow_Out24F_SwitchOffCh1 = 166,
-        Duid_Pow_Out24F_SwitchOffCh2 = 167,
-        Duid_Pow_Out24F_SwitchOffCh3 = 168,
-        Duid_Pow_Out24F_SwitchOffCh4 = 169,
-        Duid_Pow_Out24F_SwitchOffCh5 = 170,
-        Duid_Pow_Out24F_SwitchOffCh6 = 171,
-        Duid_Pow_Out24F_SwitchOffCh7 = 172,
-        Duid_Pow_Out24F_SwitchOffCh8 = 173,
+        Duid_Pow_Out24F_OnOffCh = 158,
+        Duid_Pow_Out24F_SwitchOn = 159,
+        Duid_Pow_Out24F_SwitchOff = 160,
         Duid_Pow_Out24F_OutStatus = 174,
         Duid_Pow_Out24F_OnRequestPowData = 175,
         Duid_Pow_Out24A_OnCh1 = 176,
@@ -197,22 +132,9 @@ namespace ioSystemNetworkNet
         Duid_Pow_Out24A_OnCh6 = 181,
         Duid_Pow_Out24A_OnCh7 = 182,
         Duid_Pow_Out24A_OnCh8 = 183,
-        Duid_Pow_Out24A_SwitchOnCh1 = 184,
-        Duid_Pow_Out24A_SwitchOnCh2 = 185,
-        Duid_Pow_Out24A_SwitchOnCh3 = 186,
-        Duid_Pow_Out24A_SwitchOnCh4 = 187,
-        Duid_Pow_Out24A_SwitchOnCh5 = 188,
-        Duid_Pow_Out24A_SwitchOnCh6 = 189,
-        Duid_Pow_Out24A_SwitchOnCh7 = 190,
-        Duid_Pow_Out24A_SwitchOnCh8 = 191,
-        Duid_Pow_Out24A_SwitchOffCh1 = 192,
-        Duid_Pow_Out24A_SwitchOffCh2 = 193,
-        Duid_Pow_Out24A_SwitchOffCh3 = 194,
-        Duid_Pow_Out24A_SwitchOffCh4 = 195,
-        Duid_Pow_Out24A_SwitchOffCh5 = 196,
-        Duid_Pow_Out24A_SwitchOffCh6 = 197,
-        Duid_Pow_Out24A_SwitchOffCh7 = 198,
-        Duid_Pow_Out24A_SwitchOffCh8 = 199,
+        Duid_Pow_Out24A_OnOffCh = 184,
+        Duid_Pow_Out24A_SwitchOn = 185,
+        Duid_Pow_Out24A_SwitchOff = 186,
         Duid_Pow_Out24A_OutStatus = 200,
         Duid_Pow_Out24A_OnRequestPowData = 201,
         Duid_Pow_Out220M_OnCh1 = 202,
@@ -223,22 +145,9 @@ namespace ioSystemNetworkNet
         Duid_Pow_Out220M_OnCh6 = 207,
         Duid_Pow_Out220M_OnCh7 = 208,
         Duid_Pow_Out220M_OnCh8 = 209,
-        Duid_Pow_Out220M_SwitchOnCh1 = 210,
-        Duid_Pow_Out220M_SwitchOnCh2 = 211,
-        Duid_Pow_Out220M_SwitchOnCh3 = 212,
-        Duid_Pow_Out220M_SwitchOnCh4 = 213,
-        Duid_Pow_Out220M_SwitchOnCh5 = 214,
-        Duid_Pow_Out220M_SwitchOnCh6 = 215,
-        Duid_Pow_Out220M_SwitchOnCh7 = 216,
-        Duid_Pow_Out220M_SwitchOnCh8 = 217,
-        Duid_Pow_Out220M_SwitchOffCh1 = 218,
-        Duid_Pow_Out220M_SwitchOffCh2 = 219,
-        Duid_Pow_Out220M_SwitchOffCh3 = 220,
-        Duid_Pow_Out220M_SwitchOffCh4 = 221,
-        Duid_Pow_Out220M_SwitchOffCh5 = 222,
-        Duid_Pow_Out220M_SwitchOffCh6 = 223,
-        Duid_Pow_Out220M_SwitchOffCh7 = 224,
-        Duid_Pow_Out220M_SwitchOffCh8 = 225,
+        Duid_Pow_Out220M_OnOffCh = 210,
+        Duid_Pow_Out220M_SwitchOn = 211,
+        Duid_Pow_Out220M_SwitchOff = 212,
         Duid_Pow_Out220M_OutStatus = 226,
         Duid_Pow_Out220M_OnRequestPowData = 227,
         Duid_Pow_Out220F_OnCh1 = 228,
@@ -249,22 +158,9 @@ namespace ioSystemNetworkNet
         Duid_Pow_Out220F_OnCh6 = 233,
         Duid_Pow_Out220F_OnCh7 = 234,
         Duid_Pow_Out220F_OnCh8 = 235,
-        Duid_Pow_Out220F_SwitchOnCh1 = 236,
-        Duid_Pow_Out220F_SwitchOnCh2 = 237,
-        Duid_Pow_Out220F_SwitchOnCh3 = 238,
-        Duid_Pow_Out220F_SwitchOnCh4 = 239,
-        Duid_Pow_Out220F_SwitchOnCh5 = 240,
-        Duid_Pow_Out220F_SwitchOnCh6 = 241,
-        Duid_Pow_Out220F_SwitchOnCh7 = 242,
-        Duid_Pow_Out220F_SwitchOnCh8 = 243,
-        Duid_Pow_Out220F_SwitchOffCh1 = 244,
-        Duid_Pow_Out220F_SwitchOffCh2 = 245,
-        Duid_Pow_Out220F_SwitchOffCh3 = 246,
-        Duid_Pow_Out220F_SwitchOffCh4 = 247,
-        Duid_Pow_Out220F_SwitchOffCh5 = 248,
-        Duid_Pow_Out220F_SwitchOffCh6 = 249,
-        Duid_Pow_Out220F_SwitchOffCh7 = 250,
-        Duid_Pow_Out220F_SwitchOffCh8 = 251,
+        Duid_Pow_Out220F_OnOffCh = 236,
+        Duid_Pow_Out220F_SwitchOn = 237,
+        Duid_Pow_Out220F_SwitchOff = 238,
         Duid_Pow_Out220F_OutStatus = 252,
         Duid_Pow_Out220F_OnRequestPowData = 253,
         Duid_Pow_Out220A_OnCh1 = 254,
@@ -275,24 +171,11 @@ namespace ioSystemNetworkNet
         Duid_Pow_Out220A_OnCh6 = 259,
         Duid_Pow_Out220A_OnCh7 = 260,
         Duid_Pow_Out220A_OnCh8 = 261,
-        Duid_Pow_Out220A_SwitchOnCh1 = 262,
-        Duid_Pow_Out220A_SwitchOnCh2 = 263,
-        Duid_Pow_Out220A_SwitchOnCh3 = 264,
-        Duid_Pow_Out220A_SwitchOnCh4 = 265,
-        Duid_Pow_Out220A_SwitchOnCh5 = 266,
-        Duid_Pow_Out220A_SwitchOnCh6 = 267,
-        Duid_Pow_Out220A_SwitchOnCh7 = 268,
-        Duid_Pow_Out220A_SwitchOnCh8 = 269,
-        Duid_Pow_Out220A_SwitchOffCh1 = 270,
-        Duid_Pow_Out220A_SwitchOffCh2 = 271,
-        Duid_Pow_Out220A_SwitchOffCh3 = 272,
-        Duid_Pow_Out220A_SwitchOffCh4 = 273,
-        Duid_Pow_Out220A_SwitchOffCh5 = 274,
-        Duid_Pow_Out220A_SwitchOffCh6 = 275,
-        Duid_Pow_Out220A_SwitchOffCh7 = 276,
-        Duid_Pow_Out220A_SwitchOffCh8 = 277,
-        Duid_Pow_Out220A_OutStatus = 278,
-        Duid_Pow_Out220A_OnRequestPowData = 279,
+        Duid_Pow_Out220A_OnOffCh = 262,
+        Duid_Pow_Out220A_SwitchOn = 263,
+        Duid_Pow_Out220A_SwitchOff = 264,
+        Duid_Pow_Out220A_OutStatus = 265,
+        Duid_Pow_Out220A_OnRequestPowData = 266,
         Duid_Steer_ApM_RudderAngleMeas = 280,
         Duid_Steer_ApM_FrontThrustMeas = 281,
         Duid_Steer_ApM_RateOfTurnMeas = 282,
@@ -432,22 +315,9 @@ namespace ioSystemNetworkNet
                 case ioSystemDataType.Duid_Pow_Out12M_OnCh6: return "Pow.Out12M.OnCh6";
                 case ioSystemDataType.Duid_Pow_Out12M_OnCh7: return "Pow.Out12M.OnCh7";
                 case ioSystemDataType.Duid_Pow_Out12M_OnCh8: return "Pow.Out12M.OnCh8";
-                case ioSystemDataType.Duid_Pow_Out12M_SwitchOnCh1: return "Pow.Out12M.SwitchOnCh1";
-                case ioSystemDataType.Duid_Pow_Out12M_SwitchOnCh2: return "Pow.Out12M.SwitchOnCh2";
-                case ioSystemDataType.Duid_Pow_Out12M_SwitchOnCh3: return "Pow.Out12M.SwitchOnCh3";
-                case ioSystemDataType.Duid_Pow_Out12M_SwitchOnCh4: return "Pow.Out12M.SwitchOnCh4";
-                case ioSystemDataType.Duid_Pow_Out12M_SwitchOnCh5: return "Pow.Out12M.SwitchOnCh5";
-                case ioSystemDataType.Duid_Pow_Out12M_SwitchOnCh6: return "Pow.Out12M.SwitchOnCh6";
-                case ioSystemDataType.Duid_Pow_Out12M_SwitchOnCh7: return "Pow.Out12M.SwitchOnCh7";
-                case ioSystemDataType.Duid_Pow_Out12M_SwitchOnCh8: return "Pow.Out12M.SwitchOnCh8";
-                case ioSystemDataType.Duid_Pow_Out12M_SwitchOffCh1: return "Pow.Out12M.SwitchOffCh1";
-                case ioSystemDataType.Duid_Pow_Out12M_SwitchOffCh2: return "Pow.Out12M.SwitchOffCh2";
-                case ioSystemDataType.Duid_Pow_Out12M_SwitchOffCh3: return "Pow.Out12M.SwitchOffCh3";
-                case ioSystemDataType.Duid_Pow_Out12M_SwitchOffCh4: return "Pow.Out12M.SwitchOffCh4";
-                case ioSystemDataType.Duid_Pow_Out12M_SwitchOffCh5: return "Pow.Out12M.SwitchOffCh5";
-                case ioSystemDataType.Duid_Pow_Out12M_SwitchOffCh6: return "Pow.Out12M.SwitchOffCh6";
-                case ioSystemDataType.Duid_Pow_Out12M_SwitchOffCh7: return "Pow.Out12M.SwitchOffCh7";
-                case ioSystemDataType.Duid_Pow_Out12M_SwitchOffCh8: return "Pow.Out12M.SwitchOffCh8";
+                case ioSystemDataType.Duid_Pow_Out12M_OnOffCh: return "Pow.Out12M.OnOffCh";
+                case ioSystemDataType.Duid_Pow_Out12M_SwitchOn: return "Pow.Out12M.SwitchOn";
+                case ioSystemDataType.Duid_Pow_Out12M_SwitchOff: return "Pow.Out12M.SwitchOff";
                 case ioSystemDataType.Duid_Pow_Out12M_OutStatus: return "Pow.Out12M.OutStatus";
                 case ioSystemDataType.Duid_Pow_Out12M_OnRequestPowData: return "Pow.Out12M.OnRequestPowData";
                 case ioSystemDataType.Duid_Pow_Out12F_OnCh1: return "Pow.Out12F.OnCh1";
@@ -458,22 +328,9 @@ namespace ioSystemNetworkNet
                 case ioSystemDataType.Duid_Pow_Out12F_OnCh6: return "Pow.Out12F.OnCh6";
                 case ioSystemDataType.Duid_Pow_Out12F_OnCh7: return "Pow.Out12F.OnCh7";
                 case ioSystemDataType.Duid_Pow_Out12F_OnCh8: return "Pow.Out12F.OnCh8";
-                case ioSystemDataType.Duid_Pow_Out12F_SwitchOnCh1: return "Pow.Out12F.SwitchOnCh1";
-                case ioSystemDataType.Duid_Pow_Out12F_SwitchOnCh2: return "Pow.Out12F.SwitchOnCh2";
-                case ioSystemDataType.Duid_Pow_Out12F_SwitchOnCh3: return "Pow.Out12F.SwitchOnCh3";
-                case ioSystemDataType.Duid_Pow_Out12F_SwitchOnCh4: return "Pow.Out12F.SwitchOnCh4";
-                case ioSystemDataType.Duid_Pow_Out12F_SwitchOnCh5: return "Pow.Out12F.SwitchOnCh5";
-                case ioSystemDataType.Duid_Pow_Out12F_SwitchOnCh6: return "Pow.Out12F.SwitchOnCh6";
-                case ioSystemDataType.Duid_Pow_Out12F_SwitchOnCh7: return "Pow.Out12F.SwitchOnCh7";
-                case ioSystemDataType.Duid_Pow_Out12F_SwitchOnCh8: return "Pow.Out12F.SwitchOnCh8";
-                case ioSystemDataType.Duid_Pow_Out12F_SwitchOffCh1: return "Pow.Out12F.SwitchOffCh1";
-                case ioSystemDataType.Duid_Pow_Out12F_SwitchOffCh2: return "Pow.Out12F.SwitchOffCh2";
-                case ioSystemDataType.Duid_Pow_Out12F_SwitchOffCh3: return "Pow.Out12F.SwitchOffCh3";
-                case ioSystemDataType.Duid_Pow_Out12F_SwitchOffCh4: return "Pow.Out12F.SwitchOffCh4";
-                case ioSystemDataType.Duid_Pow_Out12F_SwitchOffCh5: return "Pow.Out12F.SwitchOffCh5";
-                case ioSystemDataType.Duid_Pow_Out12F_SwitchOffCh6: return "Pow.Out12F.SwitchOffCh6";
-                case ioSystemDataType.Duid_Pow_Out12F_SwitchOffCh7: return "Pow.Out12F.SwitchOffCh7";
-                case ioSystemDataType.Duid_Pow_Out12F_SwitchOffCh8: return "Pow.Out12F.SwitchOffCh8";
+                case ioSystemDataType.Duid_Pow_Out12F_OnOffCh: return "Pow.Out12F.OnOffCh";
+                case ioSystemDataType.Duid_Pow_Out12F_SwitchOn: return "Pow.Out12F.SwitchOn";
+                case ioSystemDataType.Duid_Pow_Out12F_SwitchOff: return "Pow.Out12F.SwitchOff";
                 case ioSystemDataType.Duid_Pow_Out12F_OutStatus: return "Pow.Out12F.OutStatus";
                 case ioSystemDataType.Duid_Pow_Out12F_OnRequestPowData: return "Pow.Out12F.OnRequestPowData";
                 case ioSystemDataType.Duid_Pow_Out12A_OnCh1: return "Pow.Out12A.OnCh1";
@@ -484,22 +341,9 @@ namespace ioSystemNetworkNet
                 case ioSystemDataType.Duid_Pow_Out12A_OnCh6: return "Pow.Out12A.OnCh6";
                 case ioSystemDataType.Duid_Pow_Out12A_OnCh7: return "Pow.Out12A.OnCh7";
                 case ioSystemDataType.Duid_Pow_Out12A_OnCh8: return "Pow.Out12A.OnCh8";
-                case ioSystemDataType.Duid_Pow_Out12A_SwitchOnCh1: return "Pow.Out12A.SwitchOnCh1";
-                case ioSystemDataType.Duid_Pow_Out12A_SwitchOnCh2: return "Pow.Out12A.SwitchOnCh2";
-                case ioSystemDataType.Duid_Pow_Out12A_SwitchOnCh3: return "Pow.Out12A.SwitchOnCh3";
-                case ioSystemDataType.Duid_Pow_Out12A_SwitchOnCh4: return "Pow.Out12A.SwitchOnCh4";
-                case ioSystemDataType.Duid_Pow_Out12A_SwitchOnCh5: return "Pow.Out12A.SwitchOnCh5";
-                case ioSystemDataType.Duid_Pow_Out12A_SwitchOnCh6: return "Pow.Out12A.SwitchOnCh6";
-                case ioSystemDataType.Duid_Pow_Out12A_SwitchOnCh7: return "Pow.Out12A.SwitchOnCh7";
-                case ioSystemDataType.Duid_Pow_Out12A_SwitchOnCh8: return "Pow.Out12A.SwitchOnCh8";
-                case ioSystemDataType.Duid_Pow_Out12A_SwitchOffCh1: return "Pow.Out12A.SwitchOffCh1";
-                case ioSystemDataType.Duid_Pow_Out12A_SwitchOffCh2: return "Pow.Out12A.SwitchOffCh2";
-                case ioSystemDataType.Duid_Pow_Out12A_SwitchOffCh3: return "Pow.Out12A.SwitchOffCh3";
-                case ioSystemDataType.Duid_Pow_Out12A_SwitchOffCh4: return "Pow.Out12A.SwitchOffCh4";
-                case ioSystemDataType.Duid_Pow_Out12A_SwitchOffCh5: return "Pow.Out12A.SwitchOffCh5";
-                case ioSystemDataType.Duid_Pow_Out12A_SwitchOffCh6: return "Pow.Out12A.SwitchOffCh6";
-                case ioSystemDataType.Duid_Pow_Out12A_SwitchOffCh7: return "Pow.Out12A.SwitchOffCh7";
-                case ioSystemDataType.Duid_Pow_Out12A_SwitchOffCh8: return "Pow.Out12A.SwitchOffCh8";
+                case ioSystemDataType.Duid_Pow_Out12A_OnOffCh: return "Pow.Out12A.OnOffCh";
+                case ioSystemDataType.Duid_Pow_Out12A_SwitchOn: return "Pow.Out12A.SwitchOn";
+                case ioSystemDataType.Duid_Pow_Out12A_SwitchOff: return "Pow.Out12A.SwitchOff";
                 case ioSystemDataType.Duid_Pow_Out12A_OutStatus: return "Pow.Out12A.OutStatus";
                 case ioSystemDataType.Duid_Pow_Out12A_OnRequestPowData: return "Pow.Out12A.OnRequestPowData";
                 case ioSystemDataType.Duid_Pow_Out24M_OnCh1: return "Pow.Out24M.OnCh1";
@@ -510,22 +354,9 @@ namespace ioSystemNetworkNet
                 case ioSystemDataType.Duid_Pow_Out24M_OnCh6: return "Pow.Out24M.OnCh6";
                 case ioSystemDataType.Duid_Pow_Out24M_OnCh7: return "Pow.Out24M.OnCh7";
                 case ioSystemDataType.Duid_Pow_Out24M_OnCh8: return "Pow.Out24M.OnCh8";
-                case ioSystemDataType.Duid_Pow_Out24M_SwitchOnCh1: return "Pow.Out24M.SwitchOnCh1";
-                case ioSystemDataType.Duid_Pow_Out24M_SwitchOnCh2: return "Pow.Out24M.SwitchOnCh2";
-                case ioSystemDataType.Duid_Pow_Out24M_SwitchOnCh3: return "Pow.Out24M.SwitchOnCh3";
-                case ioSystemDataType.Duid_Pow_Out24M_SwitchOnCh4: return "Pow.Out24M.SwitchOnCh4";
-                case ioSystemDataType.Duid_Pow_Out24M_SwitchOnCh5: return "Pow.Out24M.SwitchOnCh5";
-                case ioSystemDataType.Duid_Pow_Out24M_SwitchOnCh6: return "Pow.Out24M.SwitchOnCh6";
-                case ioSystemDataType.Duid_Pow_Out24M_SwitchOnCh7: return "Pow.Out24M.SwitchOnCh7";
-                case ioSystemDataType.Duid_Pow_Out24M_SwitchOnCh8: return "Pow.Out24M.SwitchOnCh8";
-                case ioSystemDataType.Duid_Pow_Out24M_SwitchOffCh1: return "Pow.Out24M.SwitchOffCh1";
-                case ioSystemDataType.Duid_Pow_Out24M_SwitchOffCh2: return "Pow.Out24M.SwitchOffCh2";
-                case ioSystemDataType.Duid_Pow_Out24M_SwitchOffCh3: return "Pow.Out24M.SwitchOffCh3";
-                case ioSystemDataType.Duid_Pow_Out24M_SwitchOffCh4: return "Pow.Out24M.SwitchOffCh4";
-                case ioSystemDataType.Duid_Pow_Out24M_SwitchOffCh5: return "Pow.Out24M.SwitchOffCh5";
-                case ioSystemDataType.Duid_Pow_Out24M_SwitchOffCh6: return "Pow.Out24M.SwitchOffCh6";
-                case ioSystemDataType.Duid_Pow_Out24M_SwitchOffCh7: return "Pow.Out24M.SwitchOffCh7";
-                case ioSystemDataType.Duid_Pow_Out24M_SwitchOffCh8: return "Pow.Out24M.SwitchOffCh8";
+                case ioSystemDataType.Duid_Pow_Out24M_OnOffCh: return "Pow.Out24M.OnOffCh";
+                case ioSystemDataType.Duid_Pow_Out24M_SwitchOn: return "Pow.Out24M.SwitchOn";
+                case ioSystemDataType.Duid_Pow_Out24M_SwitchOff: return "Pow.Out24M.SwitchOff";
                 case ioSystemDataType.Duid_Pow_Out24M_OutStatus: return "Pow.Out24M.OutStatus";
                 case ioSystemDataType.Duid_Pow_Out24M_OnRequestPowData: return "Pow.Out24M.OnRequestPowData";
                 case ioSystemDataType.Duid_Pow_Out24F_OnCh1: return "Pow.Out24F.OnCh1";
@@ -536,22 +367,9 @@ namespace ioSystemNetworkNet
                 case ioSystemDataType.Duid_Pow_Out24F_OnCh6: return "Pow.Out24F.OnCh6";
                 case ioSystemDataType.Duid_Pow_Out24F_OnCh7: return "Pow.Out24F.OnCh7";
                 case ioSystemDataType.Duid_Pow_Out24F_OnCh8: return "Pow.Out24F.OnCh8";
-                case ioSystemDataType.Duid_Pow_Out24F_SwitchOnCh1: return "Pow.Out24F.SwitchOnCh1";
-                case ioSystemDataType.Duid_Pow_Out24F_SwitchOnCh2: return "Pow.Out24F.SwitchOnCh2";
-                case ioSystemDataType.Duid_Pow_Out24F_SwitchOnCh3: return "Pow.Out24F.SwitchOnCh3";
-                case ioSystemDataType.Duid_Pow_Out24F_SwitchOnCh4: return "Pow.Out24F.SwitchOnCh4";
-                case ioSystemDataType.Duid_Pow_Out24F_SwitchOnCh5: return "Pow.Out24F.SwitchOnCh5";
-                case ioSystemDataType.Duid_Pow_Out24F_SwitchOnCh6: return "Pow.Out24F.SwitchOnCh6";
-                case ioSystemDataType.Duid_Pow_Out24F_SwitchOnCh7: return "Pow.Out24F.SwitchOnCh7";
-                case ioSystemDataType.Duid_Pow_Out24F_SwitchOnCh8: return "Pow.Out24F.SwitchOnCh8";
-                case ioSystemDataType.Duid_Pow_Out24F_SwitchOffCh1: return "Pow.Out24F.SwitchOffCh1";
-                case ioSystemDataType.Duid_Pow_Out24F_SwitchOffCh2: return "Pow.Out24F.SwitchOffCh2";
-                case ioSystemDataType.Duid_Pow_Out24F_SwitchOffCh3: return "Pow.Out24F.SwitchOffCh3";
-                case ioSystemDataType.Duid_Pow_Out24F_SwitchOffCh4: return "Pow.Out24F.SwitchOffCh4";
-                case ioSystemDataType.Duid_Pow_Out24F_SwitchOffCh5: return "Pow.Out24F.SwitchOffCh5";
-                case ioSystemDataType.Duid_Pow_Out24F_SwitchOffCh6: return "Pow.Out24F.SwitchOffCh6";
-                case ioSystemDataType.Duid_Pow_Out24F_SwitchOffCh7: return "Pow.Out24F.SwitchOffCh7";
-                case ioSystemDataType.Duid_Pow_Out24F_SwitchOffCh8: return "Pow.Out24F.SwitchOffCh8";
+                case ioSystemDataType.Duid_Pow_Out24F_OnOffCh: return "Pow.Out24F.OnOffCh";
+                case ioSystemDataType.Duid_Pow_Out24F_SwitchOn: return "Pow.Out24F.SwitchOn";
+                case ioSystemDataType.Duid_Pow_Out24F_SwitchOff: return "Pow.Out24F.SwitchOff";
                 case ioSystemDataType.Duid_Pow_Out24F_OutStatus: return "Pow.Out24F.OutStatus";
                 case ioSystemDataType.Duid_Pow_Out24F_OnRequestPowData: return "Pow.Out24F.OnRequestPowData";
                 case ioSystemDataType.Duid_Pow_Out24A_OnCh1: return "Pow.Out24A.OnCh1";
@@ -562,22 +380,9 @@ namespace ioSystemNetworkNet
                 case ioSystemDataType.Duid_Pow_Out24A_OnCh6: return "Pow.Out24A.OnCh6";
                 case ioSystemDataType.Duid_Pow_Out24A_OnCh7: return "Pow.Out24A.OnCh7";
                 case ioSystemDataType.Duid_Pow_Out24A_OnCh8: return "Pow.Out24A.OnCh8";
-                case ioSystemDataType.Duid_Pow_Out24A_SwitchOnCh1: return "Pow.Out24A.SwitchOnCh1";
-                case ioSystemDataType.Duid_Pow_Out24A_SwitchOnCh2: return "Pow.Out24A.SwitchOnCh2";
-                case ioSystemDataType.Duid_Pow_Out24A_SwitchOnCh3: return "Pow.Out24A.SwitchOnCh3";
-                case ioSystemDataType.Duid_Pow_Out24A_SwitchOnCh4: return "Pow.Out24A.SwitchOnCh4";
-                case ioSystemDataType.Duid_Pow_Out24A_SwitchOnCh5: return "Pow.Out24A.SwitchOnCh5";
-                case ioSystemDataType.Duid_Pow_Out24A_SwitchOnCh6: return "Pow.Out24A.SwitchOnCh6";
-                case ioSystemDataType.Duid_Pow_Out24A_SwitchOnCh7: return "Pow.Out24A.SwitchOnCh7";
-                case ioSystemDataType.Duid_Pow_Out24A_SwitchOnCh8: return "Pow.Out24A.SwitchOnCh8";
-                case ioSystemDataType.Duid_Pow_Out24A_SwitchOffCh1: return "Pow.Out24A.SwitchOffCh1";
-                case ioSystemDataType.Duid_Pow_Out24A_SwitchOffCh2: return "Pow.Out24A.SwitchOffCh2";
-                case ioSystemDataType.Duid_Pow_Out24A_SwitchOffCh3: return "Pow.Out24A.SwitchOffCh3";
-                case ioSystemDataType.Duid_Pow_Out24A_SwitchOffCh4: return "Pow.Out24A.SwitchOffCh4";
-                case ioSystemDataType.Duid_Pow_Out24A_SwitchOffCh5: return "Pow.Out24A.SwitchOffCh5";
-                case ioSystemDataType.Duid_Pow_Out24A_SwitchOffCh6: return "Pow.Out24A.SwitchOffCh6";
-                case ioSystemDataType.Duid_Pow_Out24A_SwitchOffCh7: return "Pow.Out24A.SwitchOffCh7";
-                case ioSystemDataType.Duid_Pow_Out24A_SwitchOffCh8: return "Pow.Out24A.SwitchOffCh8";
+                case ioSystemDataType.Duid_Pow_Out24A_OnOffCh: return "Pow.Out24A.OnOffCh";
+                case ioSystemDataType.Duid_Pow_Out24A_SwitchOn: return "Pow.Out24A.SwitchOn";
+                case ioSystemDataType.Duid_Pow_Out24A_SwitchOff: return "Pow.Out24A.SwitchOff";
                 case ioSystemDataType.Duid_Pow_Out24A_OutStatus: return "Pow.Out24A.OutStatus";
                 case ioSystemDataType.Duid_Pow_Out24A_OnRequestPowData: return "Pow.Out24A.OnRequestPowData";
                 case ioSystemDataType.Duid_Pow_Out220M_OnCh1: return "Pow.Out220M.OnCh1";
@@ -588,22 +393,9 @@ namespace ioSystemNetworkNet
                 case ioSystemDataType.Duid_Pow_Out220M_OnCh6: return "Pow.Out220M.OnCh6";
                 case ioSystemDataType.Duid_Pow_Out220M_OnCh7: return "Pow.Out220M.OnCh7";
                 case ioSystemDataType.Duid_Pow_Out220M_OnCh8: return "Pow.Out220M.OnCh8";
-                case ioSystemDataType.Duid_Pow_Out220M_SwitchOnCh1: return "Pow.Out220M.SwitchOnCh1";
-                case ioSystemDataType.Duid_Pow_Out220M_SwitchOnCh2: return "Pow.Out220M.SwitchOnCh2";
-                case ioSystemDataType.Duid_Pow_Out220M_SwitchOnCh3: return "Pow.Out220M.SwitchOnCh3";
-                case ioSystemDataType.Duid_Pow_Out220M_SwitchOnCh4: return "Pow.Out220M.SwitchOnCh4";
-                case ioSystemDataType.Duid_Pow_Out220M_SwitchOnCh5: return "Pow.Out220M.SwitchOnCh5";
-                case ioSystemDataType.Duid_Pow_Out220M_SwitchOnCh6: return "Pow.Out220M.SwitchOnCh6";
-                case ioSystemDataType.Duid_Pow_Out220M_SwitchOnCh7: return "Pow.Out220M.SwitchOnCh7";
-                case ioSystemDataType.Duid_Pow_Out220M_SwitchOnCh8: return "Pow.Out220M.SwitchOnCh8";
-                case ioSystemDataType.Duid_Pow_Out220M_SwitchOffCh1: return "Pow.Out220M.SwitchOffCh1";
-                case ioSystemDataType.Duid_Pow_Out220M_SwitchOffCh2: return "Pow.Out220M.SwitchOffCh2";
-                case ioSystemDataType.Duid_Pow_Out220M_SwitchOffCh3: return "Pow.Out220M.SwitchOffCh3";
-                case ioSystemDataType.Duid_Pow_Out220M_SwitchOffCh4: return "Pow.Out220M.SwitchOffCh4";
-                case ioSystemDataType.Duid_Pow_Out220M_SwitchOffCh5: return "Pow.Out220M.SwitchOffCh5";
-                case ioSystemDataType.Duid_Pow_Out220M_SwitchOffCh6: return "Pow.Out220M.SwitchOffCh6";
-                case ioSystemDataType.Duid_Pow_Out220M_SwitchOffCh7: return "Pow.Out220M.SwitchOffCh7";
-                case ioSystemDataType.Duid_Pow_Out220M_SwitchOffCh8: return "Pow.Out220M.SwitchOffCh8";
+                case ioSystemDataType.Duid_Pow_Out220M_OnOffCh: return "Pow.Out220M.OnOffCh";
+                case ioSystemDataType.Duid_Pow_Out220M_SwitchOn: return "Pow.Out220M.SwitchOn";
+                case ioSystemDataType.Duid_Pow_Out220M_SwitchOff: return "Pow.Out220M.SwitchOff";
                 case ioSystemDataType.Duid_Pow_Out220M_OutStatus: return "Pow.Out220M.OutStatus";
                 case ioSystemDataType.Duid_Pow_Out220M_OnRequestPowData: return "Pow.Out220M.OnRequestPowData";
                 case ioSystemDataType.Duid_Pow_Out220F_OnCh1: return "Pow.Out220F.OnCh1";
@@ -614,22 +406,9 @@ namespace ioSystemNetworkNet
                 case ioSystemDataType.Duid_Pow_Out220F_OnCh6: return "Pow.Out220F.OnCh6";
                 case ioSystemDataType.Duid_Pow_Out220F_OnCh7: return "Pow.Out220F.OnCh7";
                 case ioSystemDataType.Duid_Pow_Out220F_OnCh8: return "Pow.Out220F.OnCh8";
-                case ioSystemDataType.Duid_Pow_Out220F_SwitchOnCh1: return "Pow.Out220F.SwitchOnCh1";
-                case ioSystemDataType.Duid_Pow_Out220F_SwitchOnCh2: return "Pow.Out220F.SwitchOnCh2";
-                case ioSystemDataType.Duid_Pow_Out220F_SwitchOnCh3: return "Pow.Out220F.SwitchOnCh3";
-                case ioSystemDataType.Duid_Pow_Out220F_SwitchOnCh4: return "Pow.Out220F.SwitchOnCh4";
-                case ioSystemDataType.Duid_Pow_Out220F_SwitchOnCh5: return "Pow.Out220F.SwitchOnCh5";
-                case ioSystemDataType.Duid_Pow_Out220F_SwitchOnCh6: return "Pow.Out220F.SwitchOnCh6";
-                case ioSystemDataType.Duid_Pow_Out220F_SwitchOnCh7: return "Pow.Out220F.SwitchOnCh7";
-                case ioSystemDataType.Duid_Pow_Out220F_SwitchOnCh8: return "Pow.Out220F.SwitchOnCh8";
-                case ioSystemDataType.Duid_Pow_Out220F_SwitchOffCh1: return "Pow.Out220F.SwitchOffCh1";
-                case ioSystemDataType.Duid_Pow_Out220F_SwitchOffCh2: return "Pow.Out220F.SwitchOffCh2";
-                case ioSystemDataType.Duid_Pow_Out220F_SwitchOffCh3: return "Pow.Out220F.SwitchOffCh3";
-                case ioSystemDataType.Duid_Pow_Out220F_SwitchOffCh4: return "Pow.Out220F.SwitchOffCh4";
-                case ioSystemDataType.Duid_Pow_Out220F_SwitchOffCh5: return "Pow.Out220F.SwitchOffCh5";
-                case ioSystemDataType.Duid_Pow_Out220F_SwitchOffCh6: return "Pow.Out220F.SwitchOffCh6";
-                case ioSystemDataType.Duid_Pow_Out220F_SwitchOffCh7: return "Pow.Out220F.SwitchOffCh7";
-                case ioSystemDataType.Duid_Pow_Out220F_SwitchOffCh8: return "Pow.Out220F.SwitchOffCh8";
+                case ioSystemDataType.Duid_Pow_Out220F_OnOffCh: return "Pow.Out220F.OnOffCh";
+                case ioSystemDataType.Duid_Pow_Out220F_SwitchOn: return "Pow.Out220F.SwitchOn";
+                case ioSystemDataType.Duid_Pow_Out220F_SwitchOff: return "Pow.Out220F.SwitchOff";
                 case ioSystemDataType.Duid_Pow_Out220F_OutStatus: return "Pow.Out220F.OutStatus";
                 case ioSystemDataType.Duid_Pow_Out220F_OnRequestPowData: return "Pow.Out220F.OnRequestPowData";
                 case ioSystemDataType.Duid_Pow_Out220A_OnCh1: return "Pow.Out220A.OnCh1";
@@ -640,22 +419,9 @@ namespace ioSystemNetworkNet
                 case ioSystemDataType.Duid_Pow_Out220A_OnCh6: return "Pow.Out220A.OnCh6";
                 case ioSystemDataType.Duid_Pow_Out220A_OnCh7: return "Pow.Out220A.OnCh7";
                 case ioSystemDataType.Duid_Pow_Out220A_OnCh8: return "Pow.Out220A.OnCh8";
-                case ioSystemDataType.Duid_Pow_Out220A_SwitchOnCh1: return "Pow.Out220A.SwitchOnCh1";
-                case ioSystemDataType.Duid_Pow_Out220A_SwitchOnCh2: return "Pow.Out220A.SwitchOnCh2";
-                case ioSystemDataType.Duid_Pow_Out220A_SwitchOnCh3: return "Pow.Out220A.SwitchOnCh3";
-                case ioSystemDataType.Duid_Pow_Out220A_SwitchOnCh4: return "Pow.Out220A.SwitchOnCh4";
-                case ioSystemDataType.Duid_Pow_Out220A_SwitchOnCh5: return "Pow.Out220A.SwitchOnCh5";
-                case ioSystemDataType.Duid_Pow_Out220A_SwitchOnCh6: return "Pow.Out220A.SwitchOnCh6";
-                case ioSystemDataType.Duid_Pow_Out220A_SwitchOnCh7: return "Pow.Out220A.SwitchOnCh7";
-                case ioSystemDataType.Duid_Pow_Out220A_SwitchOnCh8: return "Pow.Out220A.SwitchOnCh8";
-                case ioSystemDataType.Duid_Pow_Out220A_SwitchOffCh1: return "Pow.Out220A.SwitchOffCh1";
-                case ioSystemDataType.Duid_Pow_Out220A_SwitchOffCh2: return "Pow.Out220A.SwitchOffCh2";
-                case ioSystemDataType.Duid_Pow_Out220A_SwitchOffCh3: return "Pow.Out220A.SwitchOffCh3";
-                case ioSystemDataType.Duid_Pow_Out220A_SwitchOffCh4: return "Pow.Out220A.SwitchOffCh4";
-                case ioSystemDataType.Duid_Pow_Out220A_SwitchOffCh5: return "Pow.Out220A.SwitchOffCh5";
-                case ioSystemDataType.Duid_Pow_Out220A_SwitchOffCh6: return "Pow.Out220A.SwitchOffCh6";
-                case ioSystemDataType.Duid_Pow_Out220A_SwitchOffCh7: return "Pow.Out220A.SwitchOffCh7";
-                case ioSystemDataType.Duid_Pow_Out220A_SwitchOffCh8: return "Pow.Out220A.SwitchOffCh8";
+                case ioSystemDataType.Duid_Pow_Out220A_OnOffCh: return "Pow.Out220A.OnOffCh";
+                case ioSystemDataType.Duid_Pow_Out220A_SwitchOn: return "Pow.Out220A.SwitchOn";
+                case ioSystemDataType.Duid_Pow_Out220A_SwitchOff: return "Pow.Out220A.SwitchOff";
                 case ioSystemDataType.Duid_Pow_Out220A_OutStatus: return "Pow.Out220A.OutStatus";
                 case ioSystemDataType.Duid_Pow_Out220A_OnRequestPowData: return "Pow.Out220A.OnRequestPowData";
                 case ioSystemDataType.Duid_Steer_ApM_RudderAngleMeas: return "Steer.ApM.RudderAngleMeas";
@@ -797,22 +563,9 @@ namespace ioSystemNetworkNet
                 case "Pow.Out12M.OnCh6": return ioSystemDataType.Duid_Pow_Out12M_OnCh6;
                 case "Pow.Out12M.OnCh7": return ioSystemDataType.Duid_Pow_Out12M_OnCh7;
                 case "Pow.Out12M.OnCh8": return ioSystemDataType.Duid_Pow_Out12M_OnCh8;
-                case "Pow.Out12M.SwitchOnCh1": return ioSystemDataType.Duid_Pow_Out12M_SwitchOnCh1;
-                case "Pow.Out12M.SwitchOnCh2": return ioSystemDataType.Duid_Pow_Out12M_SwitchOnCh2;
-                case "Pow.Out12M.SwitchOnCh3": return ioSystemDataType.Duid_Pow_Out12M_SwitchOnCh3;
-                case "Pow.Out12M.SwitchOnCh4": return ioSystemDataType.Duid_Pow_Out12M_SwitchOnCh4;
-                case "Pow.Out12M.SwitchOnCh5": return ioSystemDataType.Duid_Pow_Out12M_SwitchOnCh5;
-                case "Pow.Out12M.SwitchOnCh6": return ioSystemDataType.Duid_Pow_Out12M_SwitchOnCh6;
-                case "Pow.Out12M.SwitchOnCh7": return ioSystemDataType.Duid_Pow_Out12M_SwitchOnCh7;
-                case "Pow.Out12M.SwitchOnCh8": return ioSystemDataType.Duid_Pow_Out12M_SwitchOnCh8;
-                case "Pow.Out12M.SwitchOffCh1": return ioSystemDataType.Duid_Pow_Out12M_SwitchOffCh1;
-                case "Pow.Out12M.SwitchOffCh2": return ioSystemDataType.Duid_Pow_Out12M_SwitchOffCh2;
-                case "Pow.Out12M.SwitchOffCh3": return ioSystemDataType.Duid_Pow_Out12M_SwitchOffCh3;
-                case "Pow.Out12M.SwitchOffCh4": return ioSystemDataType.Duid_Pow_Out12M_SwitchOffCh4;
-                case "Pow.Out12M.SwitchOffCh5": return ioSystemDataType.Duid_Pow_Out12M_SwitchOffCh5;
-                case "Pow.Out12M.SwitchOffCh6": return ioSystemDataType.Duid_Pow_Out12M_SwitchOffCh6;
-                case "Pow.Out12M.SwitchOffCh7": return ioSystemDataType.Duid_Pow_Out12M_SwitchOffCh7;
-                case "Pow.Out12M.SwitchOffCh8": return ioSystemDataType.Duid_Pow_Out12M_SwitchOffCh8;
+                case "Pow.Out12M.OnOffCh": return ioSystemDataType.Duid_Pow_Out12M_OnOffCh;
+                case "Pow.Out12M.SwitchOn": return ioSystemDataType.Duid_Pow_Out12M_SwitchOn;
+                case "Pow.Out12M.SwitchOff": return ioSystemDataType.Duid_Pow_Out12M_SwitchOff;
                 case "Pow.Out12M.OutStatus": return ioSystemDataType.Duid_Pow_Out12M_OutStatus;
                 case "Pow.Out12M.OnRequestPowData": return ioSystemDataType.Duid_Pow_Out12M_OnRequestPowData;
                 case "Pow.Out12F.OnCh1": return ioSystemDataType.Duid_Pow_Out12F_OnCh1;
@@ -823,22 +576,9 @@ namespace ioSystemNetworkNet
                 case "Pow.Out12F.OnCh6": return ioSystemDataType.Duid_Pow_Out12F_OnCh6;
                 case "Pow.Out12F.OnCh7": return ioSystemDataType.Duid_Pow_Out12F_OnCh7;
                 case "Pow.Out12F.OnCh8": return ioSystemDataType.Duid_Pow_Out12F_OnCh8;
-                case "Pow.Out12F.SwitchOnCh1": return ioSystemDataType.Duid_Pow_Out12F_SwitchOnCh1;
-                case "Pow.Out12F.SwitchOnCh2": return ioSystemDataType.Duid_Pow_Out12F_SwitchOnCh2;
-                case "Pow.Out12F.SwitchOnCh3": return ioSystemDataType.Duid_Pow_Out12F_SwitchOnCh3;
-                case "Pow.Out12F.SwitchOnCh4": return ioSystemDataType.Duid_Pow_Out12F_SwitchOnCh4;
-                case "Pow.Out12F.SwitchOnCh5": return ioSystemDataType.Duid_Pow_Out12F_SwitchOnCh5;
-                case "Pow.Out12F.SwitchOnCh6": return ioSystemDataType.Duid_Pow_Out12F_SwitchOnCh6;
-                case "Pow.Out12F.SwitchOnCh7": return ioSystemDataType.Duid_Pow_Out12F_SwitchOnCh7;
-                case "Pow.Out12F.SwitchOnCh8": return ioSystemDataType.Duid_Pow_Out12F_SwitchOnCh8;
-                case "Pow.Out12F.SwitchOffCh1": return ioSystemDataType.Duid_Pow_Out12F_SwitchOffCh1;
-                case "Pow.Out12F.SwitchOffCh2": return ioSystemDataType.Duid_Pow_Out12F_SwitchOffCh2;
-                case "Pow.Out12F.SwitchOffCh3": return ioSystemDataType.Duid_Pow_Out12F_SwitchOffCh3;
-                case "Pow.Out12F.SwitchOffCh4": return ioSystemDataType.Duid_Pow_Out12F_SwitchOffCh4;
-                case "Pow.Out12F.SwitchOffCh5": return ioSystemDataType.Duid_Pow_Out12F_SwitchOffCh5;
-                case "Pow.Out12F.SwitchOffCh6": return ioSystemDataType.Duid_Pow_Out12F_SwitchOffCh6;
-                case "Pow.Out12F.SwitchOffCh7": return ioSystemDataType.Duid_Pow_Out12F_SwitchOffCh7;
-                case "Pow.Out12F.SwitchOffCh8": return ioSystemDataType.Duid_Pow_Out12F_SwitchOffCh8;
+                case "Pow.Out12F.OnOffCh": return ioSystemDataType.Duid_Pow_Out12F_OnOffCh;
+                case "Pow.Out12F.SwitchOn": return ioSystemDataType.Duid_Pow_Out12F_SwitchOn;
+                case "Pow.Out12F.SwitchOff": return ioSystemDataType.Duid_Pow_Out12F_SwitchOff;
                 case "Pow.Out12F.OutStatus": return ioSystemDataType.Duid_Pow_Out12F_OutStatus;
                 case "Pow.Out12F.OnRequestPowData": return ioSystemDataType.Duid_Pow_Out12F_OnRequestPowData;
                 case "Pow.Out12A.OnCh1": return ioSystemDataType.Duid_Pow_Out12A_OnCh1;
@@ -849,22 +589,9 @@ namespace ioSystemNetworkNet
                 case "Pow.Out12A.OnCh6": return ioSystemDataType.Duid_Pow_Out12A_OnCh6;
                 case "Pow.Out12A.OnCh7": return ioSystemDataType.Duid_Pow_Out12A_OnCh7;
                 case "Pow.Out12A.OnCh8": return ioSystemDataType.Duid_Pow_Out12A_OnCh8;
-                case "Pow.Out12A.SwitchOnCh1": return ioSystemDataType.Duid_Pow_Out12A_SwitchOnCh1;
-                case "Pow.Out12A.SwitchOnCh2": return ioSystemDataType.Duid_Pow_Out12A_SwitchOnCh2;
-                case "Pow.Out12A.SwitchOnCh3": return ioSystemDataType.Duid_Pow_Out12A_SwitchOnCh3;
-                case "Pow.Out12A.SwitchOnCh4": return ioSystemDataType.Duid_Pow_Out12A_SwitchOnCh4;
-                case "Pow.Out12A.SwitchOnCh5": return ioSystemDataType.Duid_Pow_Out12A_SwitchOnCh5;
-                case "Pow.Out12A.SwitchOnCh6": return ioSystemDataType.Duid_Pow_Out12A_SwitchOnCh6;
-                case "Pow.Out12A.SwitchOnCh7": return ioSystemDataType.Duid_Pow_Out12A_SwitchOnCh7;
-                case "Pow.Out12A.SwitchOnCh8": return ioSystemDataType.Duid_Pow_Out12A_SwitchOnCh8;
-                case "Pow.Out12A.SwitchOffCh1": return ioSystemDataType.Duid_Pow_Out12A_SwitchOffCh1;
-                case "Pow.Out12A.SwitchOffCh2": return ioSystemDataType.Duid_Pow_Out12A_SwitchOffCh2;
-                case "Pow.Out12A.SwitchOffCh3": return ioSystemDataType.Duid_Pow_Out12A_SwitchOffCh3;
-                case "Pow.Out12A.SwitchOffCh4": return ioSystemDataType.Duid_Pow_Out12A_SwitchOffCh4;
-                case "Pow.Out12A.SwitchOffCh5": return ioSystemDataType.Duid_Pow_Out12A_SwitchOffCh5;
-                case "Pow.Out12A.SwitchOffCh6": return ioSystemDataType.Duid_Pow_Out12A_SwitchOffCh6;
-                case "Pow.Out12A.SwitchOffCh7": return ioSystemDataType.Duid_Pow_Out12A_SwitchOffCh7;
-                case "Pow.Out12A.SwitchOffCh8": return ioSystemDataType.Duid_Pow_Out12A_SwitchOffCh8;
+                case "Pow.Out12A.OnOffCh": return ioSystemDataType.Duid_Pow_Out12A_OnOffCh;
+                case "Pow.Out12A.SwitchOn": return ioSystemDataType.Duid_Pow_Out12A_SwitchOn;
+                case "Pow.Out12A.SwitchOff": return ioSystemDataType.Duid_Pow_Out12A_SwitchOff;
                 case "Pow.Out12A.OutStatus": return ioSystemDataType.Duid_Pow_Out12A_OutStatus;
                 case "Pow.Out12A.OnRequestPowData": return ioSystemDataType.Duid_Pow_Out12A_OnRequestPowData;
                 case "Pow.Out24M.OnCh1": return ioSystemDataType.Duid_Pow_Out24M_OnCh1;
@@ -875,22 +602,9 @@ namespace ioSystemNetworkNet
                 case "Pow.Out24M.OnCh6": return ioSystemDataType.Duid_Pow_Out24M_OnCh6;
                 case "Pow.Out24M.OnCh7": return ioSystemDataType.Duid_Pow_Out24M_OnCh7;
                 case "Pow.Out24M.OnCh8": return ioSystemDataType.Duid_Pow_Out24M_OnCh8;
-                case "Pow.Out24M.SwitchOnCh1": return ioSystemDataType.Duid_Pow_Out24M_SwitchOnCh1;
-                case "Pow.Out24M.SwitchOnCh2": return ioSystemDataType.Duid_Pow_Out24M_SwitchOnCh2;
-                case "Pow.Out24M.SwitchOnCh3": return ioSystemDataType.Duid_Pow_Out24M_SwitchOnCh3;
-                case "Pow.Out24M.SwitchOnCh4": return ioSystemDataType.Duid_Pow_Out24M_SwitchOnCh4;
-                case "Pow.Out24M.SwitchOnCh5": return ioSystemDataType.Duid_Pow_Out24M_SwitchOnCh5;
-                case "Pow.Out24M.SwitchOnCh6": return ioSystemDataType.Duid_Pow_Out24M_SwitchOnCh6;
-                case "Pow.Out24M.SwitchOnCh7": return ioSystemDataType.Duid_Pow_Out24M_SwitchOnCh7;
-                case "Pow.Out24M.SwitchOnCh8": return ioSystemDataType.Duid_Pow_Out24M_SwitchOnCh8;
-                case "Pow.Out24M.SwitchOffCh1": return ioSystemDataType.Duid_Pow_Out24M_SwitchOffCh1;
-                case "Pow.Out24M.SwitchOffCh2": return ioSystemDataType.Duid_Pow_Out24M_SwitchOffCh2;
-                case "Pow.Out24M.SwitchOffCh3": return ioSystemDataType.Duid_Pow_Out24M_SwitchOffCh3;
-                case "Pow.Out24M.SwitchOffCh4": return ioSystemDataType.Duid_Pow_Out24M_SwitchOffCh4;
-                case "Pow.Out24M.SwitchOffCh5": return ioSystemDataType.Duid_Pow_Out24M_SwitchOffCh5;
-                case "Pow.Out24M.SwitchOffCh6": return ioSystemDataType.Duid_Pow_Out24M_SwitchOffCh6;
-                case "Pow.Out24M.SwitchOffCh7": return ioSystemDataType.Duid_Pow_Out24M_SwitchOffCh7;
-                case "Pow.Out24M.SwitchOffCh8": return ioSystemDataType.Duid_Pow_Out24M_SwitchOffCh8;
+                case "Pow.Out24M.OnOffCh": return ioSystemDataType.Duid_Pow_Out24M_OnOffCh;
+                case "Pow.Out24M.SwitchOn": return ioSystemDataType.Duid_Pow_Out24M_SwitchOn;
+                case "Pow.Out24M.SwitchOff": return ioSystemDataType.Duid_Pow_Out24M_SwitchOff;
                 case "Pow.Out24M.OutStatus": return ioSystemDataType.Duid_Pow_Out24M_OutStatus;
                 case "Pow.Out24M.OnRequestPowData": return ioSystemDataType.Duid_Pow_Out24M_OnRequestPowData;
                 case "Pow.Out24F.OnCh1": return ioSystemDataType.Duid_Pow_Out24F_OnCh1;
@@ -901,22 +615,9 @@ namespace ioSystemNetworkNet
                 case "Pow.Out24F.OnCh6": return ioSystemDataType.Duid_Pow_Out24F_OnCh6;
                 case "Pow.Out24F.OnCh7": return ioSystemDataType.Duid_Pow_Out24F_OnCh7;
                 case "Pow.Out24F.OnCh8": return ioSystemDataType.Duid_Pow_Out24F_OnCh8;
-                case "Pow.Out24F.SwitchOnCh1": return ioSystemDataType.Duid_Pow_Out24F_SwitchOnCh1;
-                case "Pow.Out24F.SwitchOnCh2": return ioSystemDataType.Duid_Pow_Out24F_SwitchOnCh2;
-                case "Pow.Out24F.SwitchOnCh3": return ioSystemDataType.Duid_Pow_Out24F_SwitchOnCh3;
-                case "Pow.Out24F.SwitchOnCh4": return ioSystemDataType.Duid_Pow_Out24F_SwitchOnCh4;
-                case "Pow.Out24F.SwitchOnCh5": return ioSystemDataType.Duid_Pow_Out24F_SwitchOnCh5;
-                case "Pow.Out24F.SwitchOnCh6": return ioSystemDataType.Duid_Pow_Out24F_SwitchOnCh6;
-                case "Pow.Out24F.SwitchOnCh7": return ioSystemDataType.Duid_Pow_Out24F_SwitchOnCh7;
-                case "Pow.Out24F.SwitchOnCh8": return ioSystemDataType.Duid_Pow_Out24F_SwitchOnCh8;
-                case "Pow.Out24F.SwitchOffCh1": return ioSystemDataType.Duid_Pow_Out24F_SwitchOffCh1;
-                case "Pow.Out24F.SwitchOffCh2": return ioSystemDataType.Duid_Pow_Out24F_SwitchOffCh2;
-                case "Pow.Out24F.SwitchOffCh3": return ioSystemDataType.Duid_Pow_Out24F_SwitchOffCh3;
-                case "Pow.Out24F.SwitchOffCh4": return ioSystemDataType.Duid_Pow_Out24F_SwitchOffCh4;
-                case "Pow.Out24F.SwitchOffCh5": return ioSystemDataType.Duid_Pow_Out24F_SwitchOffCh5;
-                case "Pow.Out24F.SwitchOffCh6": return ioSystemDataType.Duid_Pow_Out24F_SwitchOffCh6;
-                case "Pow.Out24F.SwitchOffCh7": return ioSystemDataType.Duid_Pow_Out24F_SwitchOffCh7;
-                case "Pow.Out24F.SwitchOffCh8": return ioSystemDataType.Duid_Pow_Out24F_SwitchOffCh8;
+                case "Pow.Out24F.OnOffCh": return ioSystemDataType.Duid_Pow_Out24F_OnOffCh;
+                case "Pow.Out24F.SwitchOn": return ioSystemDataType.Duid_Pow_Out24F_SwitchOn;
+                case "Pow.Out24F.SwitchOff": return ioSystemDataType.Duid_Pow_Out24F_SwitchOff;
                 case "Pow.Out24F.OutStatus": return ioSystemDataType.Duid_Pow_Out24F_OutStatus;
                 case "Pow.Out24F.OnRequestPowData": return ioSystemDataType.Duid_Pow_Out24F_OnRequestPowData;
                 case "Pow.Out24A.OnCh1": return ioSystemDataType.Duid_Pow_Out24A_OnCh1;
@@ -927,22 +628,9 @@ namespace ioSystemNetworkNet
                 case "Pow.Out24A.OnCh6": return ioSystemDataType.Duid_Pow_Out24A_OnCh6;
                 case "Pow.Out24A.OnCh7": return ioSystemDataType.Duid_Pow_Out24A_OnCh7;
                 case "Pow.Out24A.OnCh8": return ioSystemDataType.Duid_Pow_Out24A_OnCh8;
-                case "Pow.Out24A.SwitchOnCh1": return ioSystemDataType.Duid_Pow_Out24A_SwitchOnCh1;
-                case "Pow.Out24A.SwitchOnCh2": return ioSystemDataType.Duid_Pow_Out24A_SwitchOnCh2;
-                case "Pow.Out24A.SwitchOnCh3": return ioSystemDataType.Duid_Pow_Out24A_SwitchOnCh3;
-                case "Pow.Out24A.SwitchOnCh4": return ioSystemDataType.Duid_Pow_Out24A_SwitchOnCh4;
-                case "Pow.Out24A.SwitchOnCh5": return ioSystemDataType.Duid_Pow_Out24A_SwitchOnCh5;
-                case "Pow.Out24A.SwitchOnCh6": return ioSystemDataType.Duid_Pow_Out24A_SwitchOnCh6;
-                case "Pow.Out24A.SwitchOnCh7": return ioSystemDataType.Duid_Pow_Out24A_SwitchOnCh7;
-                case "Pow.Out24A.SwitchOnCh8": return ioSystemDataType.Duid_Pow_Out24A_SwitchOnCh8;
-                case "Pow.Out24A.SwitchOffCh1": return ioSystemDataType.Duid_Pow_Out24A_SwitchOffCh1;
-                case "Pow.Out24A.SwitchOffCh2": return ioSystemDataType.Duid_Pow_Out24A_SwitchOffCh2;
-                case "Pow.Out24A.SwitchOffCh3": return ioSystemDataType.Duid_Pow_Out24A_SwitchOffCh3;
-                case "Pow.Out24A.SwitchOffCh4": return ioSystemDataType.Duid_Pow_Out24A_SwitchOffCh4;
-                case "Pow.Out24A.SwitchOffCh5": return ioSystemDataType.Duid_Pow_Out24A_SwitchOffCh5;
-                case "Pow.Out24A.SwitchOffCh6": return ioSystemDataType.Duid_Pow_Out24A_SwitchOffCh6;
-                case "Pow.Out24A.SwitchOffCh7": return ioSystemDataType.Duid_Pow_Out24A_SwitchOffCh7;
-                case "Pow.Out24A.SwitchOffCh8": return ioSystemDataType.Duid_Pow_Out24A_SwitchOffCh8;
+                case "Pow.Out24A.OnOffCh": return ioSystemDataType.Duid_Pow_Out24A_OnOffCh;
+                case "Pow.Out24A.SwitchOn": return ioSystemDataType.Duid_Pow_Out24A_SwitchOn;
+                case "Pow.Out24A.SwitchOff": return ioSystemDataType.Duid_Pow_Out24A_SwitchOff;
                 case "Pow.Out24A.OutStatus": return ioSystemDataType.Duid_Pow_Out24A_OutStatus;
                 case "Pow.Out24A.OnRequestPowData": return ioSystemDataType.Duid_Pow_Out24A_OnRequestPowData;
                 case "Pow.Out220M.OnCh1": return ioSystemDataType.Duid_Pow_Out220M_OnCh1;
@@ -953,22 +641,9 @@ namespace ioSystemNetworkNet
                 case "Pow.Out220M.OnCh6": return ioSystemDataType.Duid_Pow_Out220M_OnCh6;
                 case "Pow.Out220M.OnCh7": return ioSystemDataType.Duid_Pow_Out220M_OnCh7;
                 case "Pow.Out220M.OnCh8": return ioSystemDataType.Duid_Pow_Out220M_OnCh8;
-                case "Pow.Out220M.SwitchOnCh1": return ioSystemDataType.Duid_Pow_Out220M_SwitchOnCh1;
-                case "Pow.Out220M.SwitchOnCh2": return ioSystemDataType.Duid_Pow_Out220M_SwitchOnCh2;
-                case "Pow.Out220M.SwitchOnCh3": return ioSystemDataType.Duid_Pow_Out220M_SwitchOnCh3;
-                case "Pow.Out220M.SwitchOnCh4": return ioSystemDataType.Duid_Pow_Out220M_SwitchOnCh4;
-                case "Pow.Out220M.SwitchOnCh5": return ioSystemDataType.Duid_Pow_Out220M_SwitchOnCh5;
-                case "Pow.Out220M.SwitchOnCh6": return ioSystemDataType.Duid_Pow_Out220M_SwitchOnCh6;
-                case "Pow.Out220M.SwitchOnCh7": return ioSystemDataType.Duid_Pow_Out220M_SwitchOnCh7;
-                case "Pow.Out220M.SwitchOnCh8": return ioSystemDataType.Duid_Pow_Out220M_SwitchOnCh8;
-                case "Pow.Out220M.SwitchOffCh1": return ioSystemDataType.Duid_Pow_Out220M_SwitchOffCh1;
-                case "Pow.Out220M.SwitchOffCh2": return ioSystemDataType.Duid_Pow_Out220M_SwitchOffCh2;
-                case "Pow.Out220M.SwitchOffCh3": return ioSystemDataType.Duid_Pow_Out220M_SwitchOffCh3;
-                case "Pow.Out220M.SwitchOffCh4": return ioSystemDataType.Duid_Pow_Out220M_SwitchOffCh4;
-                case "Pow.Out220M.SwitchOffCh5": return ioSystemDataType.Duid_Pow_Out220M_SwitchOffCh5;
-                case "Pow.Out220M.SwitchOffCh6": return ioSystemDataType.Duid_Pow_Out220M_SwitchOffCh6;
-                case "Pow.Out220M.SwitchOffCh7": return ioSystemDataType.Duid_Pow_Out220M_SwitchOffCh7;
-                case "Pow.Out220M.SwitchOffCh8": return ioSystemDataType.Duid_Pow_Out220M_SwitchOffCh8;
+                case "Pow.Out220M.OnOffCh": return ioSystemDataType.Duid_Pow_Out220M_OnOffCh;
+                case "Pow.Out220M.SwitchOn": return ioSystemDataType.Duid_Pow_Out220M_SwitchOn;
+                case "Pow.Out220M.SwitchOff": return ioSystemDataType.Duid_Pow_Out220M_SwitchOff;
                 case "Pow.Out220M.OutStatus": return ioSystemDataType.Duid_Pow_Out220M_OutStatus;
                 case "Pow.Out220M.OnRequestPowData": return ioSystemDataType.Duid_Pow_Out220M_OnRequestPowData;
                 case "Pow.Out220F.OnCh1": return ioSystemDataType.Duid_Pow_Out220F_OnCh1;
@@ -979,22 +654,9 @@ namespace ioSystemNetworkNet
                 case "Pow.Out220F.OnCh6": return ioSystemDataType.Duid_Pow_Out220F_OnCh6;
                 case "Pow.Out220F.OnCh7": return ioSystemDataType.Duid_Pow_Out220F_OnCh7;
                 case "Pow.Out220F.OnCh8": return ioSystemDataType.Duid_Pow_Out220F_OnCh8;
-                case "Pow.Out220F.SwitchOnCh1": return ioSystemDataType.Duid_Pow_Out220F_SwitchOnCh1;
-                case "Pow.Out220F.SwitchOnCh2": return ioSystemDataType.Duid_Pow_Out220F_SwitchOnCh2;
-                case "Pow.Out220F.SwitchOnCh3": return ioSystemDataType.Duid_Pow_Out220F_SwitchOnCh3;
-                case "Pow.Out220F.SwitchOnCh4": return ioSystemDataType.Duid_Pow_Out220F_SwitchOnCh4;
-                case "Pow.Out220F.SwitchOnCh5": return ioSystemDataType.Duid_Pow_Out220F_SwitchOnCh5;
-                case "Pow.Out220F.SwitchOnCh6": return ioSystemDataType.Duid_Pow_Out220F_SwitchOnCh6;
-                case "Pow.Out220F.SwitchOnCh7": return ioSystemDataType.Duid_Pow_Out220F_SwitchOnCh7;
-                case "Pow.Out220F.SwitchOnCh8": return ioSystemDataType.Duid_Pow_Out220F_SwitchOnCh8;
-                case "Pow.Out220F.SwitchOffCh1": return ioSystemDataType.Duid_Pow_Out220F_SwitchOffCh1;
-                case "Pow.Out220F.SwitchOffCh2": return ioSystemDataType.Duid_Pow_Out220F_SwitchOffCh2;
-                case "Pow.Out220F.SwitchOffCh3": return ioSystemDataType.Duid_Pow_Out220F_SwitchOffCh3;
-                case "Pow.Out220F.SwitchOffCh4": return ioSystemDataType.Duid_Pow_Out220F_SwitchOffCh4;
-                case "Pow.Out220F.SwitchOffCh5": return ioSystemDataType.Duid_Pow_Out220F_SwitchOffCh5;
-                case "Pow.Out220F.SwitchOffCh6": return ioSystemDataType.Duid_Pow_Out220F_SwitchOffCh6;
-                case "Pow.Out220F.SwitchOffCh7": return ioSystemDataType.Duid_Pow_Out220F_SwitchOffCh7;
-                case "Pow.Out220F.SwitchOffCh8": return ioSystemDataType.Duid_Pow_Out220F_SwitchOffCh8;
+                case "Pow.Out220F.OnOffCh": return ioSystemDataType.Duid_Pow_Out220F_OnOffCh;
+                case "Pow.Out220F.SwitchOn": return ioSystemDataType.Duid_Pow_Out220F_SwitchOn;
+                case "Pow.Out220F.SwitchOff": return ioSystemDataType.Duid_Pow_Out220F_SwitchOff;
                 case "Pow.Out220F.OutStatus": return ioSystemDataType.Duid_Pow_Out220F_OutStatus;
                 case "Pow.Out220F.OnRequestPowData": return ioSystemDataType.Duid_Pow_Out220F_OnRequestPowData;
                 case "Pow.Out220A.OnCh1": return ioSystemDataType.Duid_Pow_Out220A_OnCh1;
@@ -1005,22 +667,9 @@ namespace ioSystemNetworkNet
                 case "Pow.Out220A.OnCh6": return ioSystemDataType.Duid_Pow_Out220A_OnCh6;
                 case "Pow.Out220A.OnCh7": return ioSystemDataType.Duid_Pow_Out220A_OnCh7;
                 case "Pow.Out220A.OnCh8": return ioSystemDataType.Duid_Pow_Out220A_OnCh8;
-                case "Pow.Out220A.SwitchOnCh1": return ioSystemDataType.Duid_Pow_Out220A_SwitchOnCh1;
-                case "Pow.Out220A.SwitchOnCh2": return ioSystemDataType.Duid_Pow_Out220A_SwitchOnCh2;
-                case "Pow.Out220A.SwitchOnCh3": return ioSystemDataType.Duid_Pow_Out220A_SwitchOnCh3;
-                case "Pow.Out220A.SwitchOnCh4": return ioSystemDataType.Duid_Pow_Out220A_SwitchOnCh4;
-                case "Pow.Out220A.SwitchOnCh5": return ioSystemDataType.Duid_Pow_Out220A_SwitchOnCh5;
-                case "Pow.Out220A.SwitchOnCh6": return ioSystemDataType.Duid_Pow_Out220A_SwitchOnCh6;
-                case "Pow.Out220A.SwitchOnCh7": return ioSystemDataType.Duid_Pow_Out220A_SwitchOnCh7;
-                case "Pow.Out220A.SwitchOnCh8": return ioSystemDataType.Duid_Pow_Out220A_SwitchOnCh8;
-                case "Pow.Out220A.SwitchOffCh1": return ioSystemDataType.Duid_Pow_Out220A_SwitchOffCh1;
-                case "Pow.Out220A.SwitchOffCh2": return ioSystemDataType.Duid_Pow_Out220A_SwitchOffCh2;
-                case "Pow.Out220A.SwitchOffCh3": return ioSystemDataType.Duid_Pow_Out220A_SwitchOffCh3;
-                case "Pow.Out220A.SwitchOffCh4": return ioSystemDataType.Duid_Pow_Out220A_SwitchOffCh4;
-                case "Pow.Out220A.SwitchOffCh5": return ioSystemDataType.Duid_Pow_Out220A_SwitchOffCh5;
-                case "Pow.Out220A.SwitchOffCh6": return ioSystemDataType.Duid_Pow_Out220A_SwitchOffCh6;
-                case "Pow.Out220A.SwitchOffCh7": return ioSystemDataType.Duid_Pow_Out220A_SwitchOffCh7;
-                case "Pow.Out220A.SwitchOffCh8": return ioSystemDataType.Duid_Pow_Out220A_SwitchOffCh8;
+                case "Pow.Out220A.OnOffCh": return ioSystemDataType.Duid_Pow_Out220A_OnOffCh;
+                case "Pow.Out220A.SwitchOn": return ioSystemDataType.Duid_Pow_Out220A_SwitchOn;
+                case "Pow.Out220A.SwitchOff": return ioSystemDataType.Duid_Pow_Out220A_SwitchOff;
                 case "Pow.Out220A.OutStatus": return ioSystemDataType.Duid_Pow_Out220A_OutStatus;
                 case "Pow.Out220A.OnRequestPowData": return ioSystemDataType.Duid_Pow_Out220A_OnRequestPowData;
                 case "Steer.ApM.RudderAngleMeas": return ioSystemDataType.Duid_Steer_ApM_RudderAngleMeas;

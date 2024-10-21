@@ -41,7 +41,7 @@ void BattDcModelDc12::DoSimulation_100ms(Int32 slotCounter_100ms)
     if ((slotCounter_100ms % 10) == 0)
     {
         SimulateBatteryCurrent(
-                TypeDevicePow::AFT12V, 
+                TypeDevicePow::AFT, 
                 PowOut12A.OnCh1.GetValue(), 
                 PowOut12A.OnCh2.GetValue(), 
                 PowOut12A.OnCh3.GetValue(), 
@@ -57,7 +57,7 @@ void BattDcModelDc12::DoSimulation_100ms(Int32 slotCounter_100ms)
     if ((slotCounter_100ms % 10) == 0)
     {
         SimulateBatteryCurrent(
-                TypeDevicePow::MID12V, 
+                TypeDevicePow::MID, 
                 PowOut12M.OnCh1.GetValue(), 
                 PowOut12M.OnCh2.GetValue(), 
                 PowOut12M.OnCh3.GetValue(), 
@@ -73,7 +73,7 @@ void BattDcModelDc12::DoSimulation_100ms(Int32 slotCounter_100ms)
     if ((slotCounter_100ms % 10) == 0)
     {
         SimulateBatteryCurrent(
-                TypeDevicePow::FRONT12V, 
+                TypeDevicePow::FRONT, 
                 PowOut12F.OnCh1.GetValue(), 
                 PowOut12F.OnCh2.GetValue(), 
                 PowOut12F.OnCh3.GetValue(), 
@@ -117,7 +117,7 @@ void BattDcModelDc24::DoSimulation_100ms(Int32 slotCounter_100ms)
     if ((slotCounter_100ms % 10) == 0)
     {
         SimulateBatteryCurrent(
-                TypeDevicePow::AFT24V, 
+                TypeDevicePow::AFT, 
                 PowOut24A.OnCh1.GetValue(), 
                 PowOut24A.OnCh2.GetValue(), 
                 PowOut24A.OnCh3.GetValue(), 
@@ -133,7 +133,7 @@ void BattDcModelDc24::DoSimulation_100ms(Int32 slotCounter_100ms)
     if ((slotCounter_100ms % 10) == 0)
     {
         SimulateBatteryCurrent(
-                TypeDevicePow::MID24V, 
+                TypeDevicePow::MID, 
                 PowOut24M.OnCh1.GetValue(), 
                 PowOut24M.OnCh2.GetValue(), 
                 PowOut24M.OnCh3.GetValue(), 
@@ -149,7 +149,7 @@ void BattDcModelDc24::DoSimulation_100ms(Int32 slotCounter_100ms)
     if ((slotCounter_100ms % 10) == 0)
     {
         SimulateBatteryCurrent(
-                TypeDevicePow::FRONT24V, 
+                TypeDevicePow::FRONT, 
                 PowOut24F.OnCh1.GetValue(), 
                 PowOut24F.OnCh2.GetValue(), 
                 PowOut24F.OnCh3.GetValue(), 

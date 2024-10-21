@@ -13,12 +13,9 @@ public:
     TypeDevicePow();
     virtual ~TypeDevicePow();
     virtual Bool GetActiveText(ioString* enumText);
-    static const Int32 AFT12V = 0;
-    static const Int32 MID12V = 1;
-    static const Int32 FRONT12V = 2;
-    static const Int32 AFT24V = 3;
-    static const Int32 MID24V = 4;
-    static const Int32 FRONT24V = 5;
+    static const Int32 AFT = 0;
+    static const Int32 MID = 1;
+    static const Int32 FRONT = 2;
 };
 class TypePowOut : public ioEnumeration
 {
@@ -42,26 +39,15 @@ public:
     ioVarBool OnCh6;
     ioVarBool OnCh7;
     ioVarBool OnCh8;
-    ioMethod SwitchOnCh1;
-    ioMethod SwitchOnCh2;
-    ioMethod SwitchOnCh3;
-    ioMethod SwitchOnCh4;
-    ioMethod SwitchOnCh5;
-    ioMethod SwitchOnCh6;
-    ioMethod SwitchOnCh7;
-    ioMethod SwitchOnCh8;
-    ioMethod SwitchOffCh1;
-    ioMethod SwitchOffCh2;
-    ioMethod SwitchOffCh3;
-    ioMethod SwitchOffCh4;
-    ioMethod SwitchOffCh5;
-    ioMethod SwitchOffCh6;
-    ioMethod SwitchOffCh7;
-    ioMethod SwitchOffCh8;
+    ioVarInt32 OnOffCh;
+    ioMethod SwitchOn;
+    ioMethod SwitchOff;
     ioEvent OutStatus;
     ioMethod OnRequestPowData;
 protected:
-    ioData* m_ListData[26];
+    ioData* m_ListData[13];
+    ioVar* m_SwitchOnVars[1];
+    ioVar* m_SwitchOffVars[1];
     ioVar* m_OutStatusVars[8];
 };
 #endif // __POWOUTDATA_H

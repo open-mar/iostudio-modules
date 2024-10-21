@@ -38,11 +38,11 @@ PUID;Parent;LocalID;Text;TypeColor
 142;Pow.Out12A;LabelNameInd1;AP Clutch;ElementActive
 145;Pow.Out12A;LabelNameInd2;AP Drive;ElementActive
 148;Pow.Out12A;LabelNameInd3;NMEA 2000;ElementActive
-151;Pow.Out12A;LabelNameInd4;;ElementInactiveInverted
-154;Pow.Out12A;LabelNameInd5;;ElementInactiveInverted
-157;Pow.Out12A;LabelNameInd6;;ElementInactiveInverted
-160;Pow.Out12A;LabelNameInd7;;ElementInactiveInverted
-163;Pow.Out12A;LabelNameInd8;;ElementInactiveInverted
+151;Pow.Out12A;LabelNameInd4;AP Cockpit;ElementActive
+154;Pow.Out12A;LabelNameInd5;Depth Sensor;ElementActive
+157;Pow.Out12A;LabelNameInd6;RADAR;ElementActive
+160;Pow.Out12A;LabelNameInd7;GNSS;ElementActive
+163;Pow.Out12A;LabelNameInd8;VHF;ElementActive
 166;Pow.Out24M;LabelNameInd1;;ElementInactiveInverted
 169;Pow.Out24M;LabelNameInd2;;ElementInactiveInverted
 172;Pow.Out24M;LabelNameInd3;;ElementInactiveInverted

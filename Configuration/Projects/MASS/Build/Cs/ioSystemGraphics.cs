@@ -60,8 +60,9 @@ namespace ioSystemNetworkNet
         Puid_Ids_CcA_ShapeEthernet = 53,
         Puid_Ids_CcA_ShapeIO = 54,
         Puid_Ids_CcA_ShapeInCommand = 55,
-        Puid_Pow_PowPanelRow1 = 56,
-        Puid_Pow_PowPanelCol1 = 57,
+        Puid_Pow_RowTop12V = 56,
+        Puid_Pow_RowMid24V = 57,
+        Puid_Pow_RowBottom220V = 58,
         Puid_Pow_CpM_CommandNoRef = 58,
         Puid_Pow_CpM_ModeNoRef = 59,
         Puid_Pow_CpA_CommandNoRef = 60,
@@ -694,8 +695,9 @@ namespace ioSystemNetworkNet
                 case ioSystemGraphicsType.Puid_Ids_CcA_ShapeEthernet: return "Ids.CcA.ShapeEthernet";
                 case ioSystemGraphicsType.Puid_Ids_CcA_ShapeIO: return "Ids.CcA.ShapeIO";
                 case ioSystemGraphicsType.Puid_Ids_CcA_ShapeInCommand: return "Ids.CcA.ShapeInCommand";
-                case ioSystemGraphicsType.Puid_Pow_PowPanelRow1: return "Pow.PowPanelRow1";
-                case ioSystemGraphicsType.Puid_Pow_PowPanelCol1: return "Pow.PowPanelCol1";
+                case ioSystemGraphicsType.Puid_Pow_RowTop12V: return "Pow.RowTop12V";
+                case ioSystemGraphicsType.Puid_Pow_RowMid24V: return "Pow.RowMid24V";
+                case ioSystemGraphicsType.Puid_Pow_RowBottom220V: return "Pow.RowBottom220V";
                 case ioSystemGraphicsType.Puid_Pow_CpM_CommandNoRef: return "Pow.CpM.CommandNoRef";
                 case ioSystemGraphicsType.Puid_Pow_CpM_ModeNoRef: return "Pow.CpM.ModeNoRef";
                 case ioSystemGraphicsType.Puid_Pow_CpA_CommandNoRef: return "Pow.CpA.CommandNoRef";
@@ -1328,8 +1330,9 @@ namespace ioSystemNetworkNet
                 case "Ids.CcA.ShapeEthernet": return ioSystemGraphicsType.Puid_Ids_CcA_ShapeEthernet;
                 case "Ids.CcA.ShapeIO": return ioSystemGraphicsType.Puid_Ids_CcA_ShapeIO;
                 case "Ids.CcA.ShapeInCommand": return ioSystemGraphicsType.Puid_Ids_CcA_ShapeInCommand;
-                case "Pow.PowPanelRow1": return ioSystemGraphicsType.Puid_Pow_PowPanelRow1;
-                case "Pow.PowPanelCol1": return ioSystemGraphicsType.Puid_Pow_PowPanelCol1;
+                case "Pow.RowTop12V": return ioSystemGraphicsType.Puid_Pow_RowTop12V;
+                case "Pow.RowMid24V": return ioSystemGraphicsType.Puid_Pow_RowMid24V;
+                case "Pow.RowBottom220V": return ioSystemGraphicsType.Puid_Pow_RowBottom220V;
                 case "Pow.CpM.CommandNoRef": return ioSystemGraphicsType.Puid_Pow_CpM_CommandNoRef;
                 case "Pow.CpM.ModeNoRef": return ioSystemGraphicsType.Puid_Pow_CpM_ModeNoRef;
                 case "Pow.CpA.CommandNoRef": return ioSystemGraphicsType.Puid_Pow_CpA_CommandNoRef;
@@ -1905,7 +1908,7 @@ namespace ioSystemNetworkNet
         }
         public static ioSystemGraphicsType GetPuid(Int32 puidValue)
         {
-            if ((puidValue >= 0) && (puidValue < 628))
+            if ((puidValue >= 0) && (puidValue < 629))
                 return (ioSystemGraphicsType)puidValue;
             else
                 return ioSystemGraphicsType.Puid_NotDefined;

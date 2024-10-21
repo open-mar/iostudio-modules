@@ -3,12 +3,9 @@
     <Description>Data for MASS power outputs</Description>
     <Properties>
         <Enumeration LocalID="TypeDevicePow">
-            <Type Name="Aft12V" TypeID="0" />
-            <Type Name="Mid12V" TypeID="1" />
-            <Type Name="Front12V" TypeID="2" />
-            <Type Name="Aft24V" TypeID="3" />
-            <Type Name="Mid24V" TypeID="4" />
-            <Type Name="Front24V" TypeID="5" />
+            <Type Name="Aft" TypeID="0" />
+            <Type Name="Mid" TypeID="1" />
+            <Type Name="Front" TypeID="2" />
         </Enumeration>
         <Enumeration LocalID="TypePowOut">
             <Type Name="ApClutch" TypeID="0" />
@@ -23,22 +20,13 @@
         <Variable LocalID="OnCh6" TypeNum="Bool">FALSE</Variable>
         <Variable LocalID="OnCh7" TypeNum="Bool">FALSE</Variable>
         <Variable LocalID="OnCh8" TypeNum="Bool">FALSE</Variable>
-        <Method LocalID="SwitchOnCh1" />
-        <Method LocalID="SwitchOnCh2" />
-        <Method LocalID="SwitchOnCh3" />
-        <Method LocalID="SwitchOnCh4" />
-        <Method LocalID="SwitchOnCh5" />
-        <Method LocalID="SwitchOnCh6" />
-        <Method LocalID="SwitchOnCh7" />
-        <Method LocalID="SwitchOnCh8" />
-        <Method LocalID="SwitchOffCh1" />
-        <Method LocalID="SwitchOffCh2" />
-        <Method LocalID="SwitchOffCh3" />
-        <Method LocalID="SwitchOffCh4" />
-        <Method LocalID="SwitchOffCh5" />
-        <Method LocalID="SwitchOffCh6" />
-        <Method LocalID="SwitchOffCh7" />
-        <Method LocalID="SwitchOffCh8" />
+        <Variable LocalID="OnOffCh" TypeNum="Int32">1</Variable>
+        <Method LocalID="SwitchOn">
+            <NumberID>OnOffCh</NumberID>
+        </Method>
+        <Method LocalID="SwitchOff">
+            <NumberID>OnOffCh</NumberID>
+        </Method>
         <Event LocalID="OutStatus">
             <NumberID>OnCh1</NumberID>
             <NumberID>OnCh2</NumberID>
@@ -60,22 +48,13 @@
         <Variable LocalID="OnCh6" TypeNum="Bool">FALSE</Variable>
         <Variable LocalID="OnCh7" TypeNum="Bool">FALSE</Variable>
         <Variable LocalID="OnCh8" TypeNum="Bool">FALSE</Variable>
-        <Method LocalID="SwitchOnCh1" />
-        <Method LocalID="SwitchOnCh2" />
-        <Method LocalID="SwitchOnCh3" />
-        <Method LocalID="SwitchOnCh4" />
-        <Method LocalID="SwitchOnCh5" />
-        <Method LocalID="SwitchOnCh6" />
-        <Method LocalID="SwitchOnCh7" />
-        <Method LocalID="SwitchOnCh8" />
-        <Method LocalID="SwitchOffCh1" />
-        <Method LocalID="SwitchOffCh2" />
-        <Method LocalID="SwitchOffCh3" />
-        <Method LocalID="SwitchOffCh4" />
-        <Method LocalID="SwitchOffCh5" />
-        <Method LocalID="SwitchOffCh6" />
-        <Method LocalID="SwitchOffCh7" />
-        <Method LocalID="SwitchOffCh8" />
+        <Variable LocalID="OnOffCh" TypeNum="Int32">1</Variable>
+        <Method LocalID="SwitchOn">
+            <NumberID>OnOffCh</NumberID>
+        </Method>
+        <Method LocalID="SwitchOff">
+            <NumberID>OnOffCh</NumberID>
+        </Method>
         <Event LocalID="OutStatus">
             <NumberID>OnCh1</NumberID>
             <NumberID>OnCh2</NumberID>
@@ -97,22 +76,13 @@
         <Variable LocalID="OnCh6" TypeNum="Bool">FALSE</Variable>
         <Variable LocalID="OnCh7" TypeNum="Bool">FALSE</Variable>
         <Variable LocalID="OnCh8" TypeNum="Bool">FALSE</Variable>
-        <Method LocalID="SwitchOnCh1" />
-        <Method LocalID="SwitchOnCh2" />
-        <Method LocalID="SwitchOnCh3" />
-        <Method LocalID="SwitchOnCh4" />
-        <Method LocalID="SwitchOnCh5" />
-        <Method LocalID="SwitchOnCh6" />
-        <Method LocalID="SwitchOnCh7" />
-        <Method LocalID="SwitchOnCh8" />
-        <Method LocalID="SwitchOffCh1" />
-        <Method LocalID="SwitchOffCh2" />
-        <Method LocalID="SwitchOffCh3" />
-        <Method LocalID="SwitchOffCh4" />
-        <Method LocalID="SwitchOffCh5" />
-        <Method LocalID="SwitchOffCh6" />
-        <Method LocalID="SwitchOffCh7" />
-        <Method LocalID="SwitchOffCh8" />
+        <Variable LocalID="OnOffCh" TypeNum="Int32">1</Variable>
+        <Method LocalID="SwitchOn">
+            <NumberID>OnOffCh</NumberID>
+        </Method>
+        <Method LocalID="SwitchOff">
+            <NumberID>OnOffCh</NumberID>
+        </Method>
         <Event LocalID="OutStatus">
             <NumberID>OnCh2</NumberID>
             <NumberID>OnCh3</NumberID>
@@ -134,22 +104,13 @@
         <Variable LocalID="OnCh6" TypeNum="Bool">FALSE</Variable>
         <Variable LocalID="OnCh7" TypeNum="Bool">FALSE</Variable>
         <Variable LocalID="OnCh8" TypeNum="Bool">FALSE</Variable>
-        <Method LocalID="SwitchOnCh1" />
-        <Method LocalID="SwitchOnCh2" />
-        <Method LocalID="SwitchOnCh3" />
-        <Method LocalID="SwitchOnCh4" />
-        <Method LocalID="SwitchOnCh5" />
-        <Method LocalID="SwitchOnCh6" />
-        <Method LocalID="SwitchOnCh7" />
-        <Method LocalID="SwitchOnCh8" />
-        <Method LocalID="SwitchOffCh1" />
-        <Method LocalID="SwitchOffCh2" />
-        <Method LocalID="SwitchOffCh3" />
-        <Method LocalID="SwitchOffCh4" />
-        <Method LocalID="SwitchOffCh5" />
-        <Method LocalID="SwitchOffCh6" />
-        <Method LocalID="SwitchOffCh7" />
-        <Method LocalID="SwitchOffCh8" />
+        <Variable LocalID="OnOffCh" TypeNum="Int32">1</Variable>
+        <Method LocalID="SwitchOn">
+            <NumberID>OnOffCh</NumberID>
+        </Method>
+        <Method LocalID="SwitchOff">
+            <NumberID>OnOffCh</NumberID>
+        </Method>
         <Event LocalID="OutStatus">
             <NumberID>OnCh1</NumberID>
             <NumberID>OnCh2</NumberID>
@@ -171,22 +132,13 @@
         <Variable LocalID="OnCh6" TypeNum="Bool">FALSE</Variable>
         <Variable LocalID="OnCh7" TypeNum="Bool">FALSE</Variable>
         <Variable LocalID="OnCh8" TypeNum="Bool">FALSE</Variable>
-        <Method LocalID="SwitchOnCh1" />
-        <Method LocalID="SwitchOnCh2" />
-        <Method LocalID="SwitchOnCh3" />
-        <Method LocalID="SwitchOnCh4" />
-        <Method LocalID="SwitchOnCh5" />
-        <Method LocalID="SwitchOnCh6" />
-        <Method LocalID="SwitchOnCh7" />
-        <Method LocalID="SwitchOnCh8" />
-        <Method LocalID="SwitchOffCh1" />
-        <Method LocalID="SwitchOffCh2" />
-        <Method LocalID="SwitchOffCh3" />
-        <Method LocalID="SwitchOffCh4" />
-        <Method LocalID="SwitchOffCh5" />
-        <Method LocalID="SwitchOffCh6" />
-        <Method LocalID="SwitchOffCh7" />
-        <Method LocalID="SwitchOffCh8" />
+        <Variable LocalID="OnOffCh" TypeNum="Int32">1</Variable>
+        <Method LocalID="SwitchOn">
+            <NumberID>OnOffCh</NumberID>
+        </Method>
+        <Method LocalID="SwitchOff">
+            <NumberID>OnOffCh</NumberID>
+        </Method>
         <Event LocalID="OutStatus">
             <NumberID>OnCh1</NumberID>
             <NumberID>OnCh2</NumberID>
@@ -208,22 +160,13 @@
         <Variable LocalID="OnCh6" TypeNum="Bool">FALSE</Variable>
         <Variable LocalID="OnCh7" TypeNum="Bool">FALSE</Variable>
         <Variable LocalID="OnCh8" TypeNum="Bool">FALSE</Variable>
-        <Method LocalID="SwitchOnCh1" />
-        <Method LocalID="SwitchOnCh2" />
-        <Method LocalID="SwitchOnCh3" />
-        <Method LocalID="SwitchOnCh4" />
-        <Method LocalID="SwitchOnCh5" />
-        <Method LocalID="SwitchOnCh6" />
-        <Method LocalID="SwitchOnCh7" />
-        <Method LocalID="SwitchOnCh8" />
-        <Method LocalID="SwitchOffCh1" />
-        <Method LocalID="SwitchOffCh2" />
-        <Method LocalID="SwitchOffCh3" />
-        <Method LocalID="SwitchOffCh4" />
-        <Method LocalID="SwitchOffCh5" />
-        <Method LocalID="SwitchOffCh6" />
-        <Method LocalID="SwitchOffCh7" />
-        <Method LocalID="SwitchOffCh8" />
+        <Variable LocalID="OnOffCh" TypeNum="Int32">1</Variable>
+        <Method LocalID="SwitchOn">
+            <NumberID>OnOffCh</NumberID>
+        </Method>
+        <Method LocalID="SwitchOff">
+            <NumberID>OnOffCh</NumberID>
+        </Method>
         <Event LocalID="OutStatus">
             <NumberID>OnCh1</NumberID>
             <NumberID>OnCh2</NumberID>
@@ -245,22 +188,13 @@
         <Variable LocalID="OnCh6" TypeNum="Bool">FALSE</Variable>
         <Variable LocalID="OnCh7" TypeNum="Bool">FALSE</Variable>
         <Variable LocalID="OnCh8" TypeNum="Bool">FALSE</Variable>
-        <Method LocalID="SwitchOnCh1" />
-        <Method LocalID="SwitchOnCh2" />
-        <Method LocalID="SwitchOnCh3" />
-        <Method LocalID="SwitchOnCh4" />
-        <Method LocalID="SwitchOnCh5" />
-        <Method LocalID="SwitchOnCh6" />
-        <Method LocalID="SwitchOnCh7" />
-        <Method LocalID="SwitchOnCh8" />
-        <Method LocalID="SwitchOffCh1" />
-        <Method LocalID="SwitchOffCh2" />
-        <Method LocalID="SwitchOffCh3" />
-        <Method LocalID="SwitchOffCh4" />
-        <Method LocalID="SwitchOffCh5" />
-        <Method LocalID="SwitchOffCh6" />
-        <Method LocalID="SwitchOffCh7" />
-        <Method LocalID="SwitchOffCh8" />
+        <Variable LocalID="OnOffCh" TypeNum="Int32">1</Variable>
+        <Method LocalID="SwitchOn">
+            <NumberID>OnOffCh</NumberID>
+        </Method>
+        <Method LocalID="SwitchOff">
+            <NumberID>OnOffCh</NumberID>
+        </Method>
         <Event LocalID="OutStatus">
             <NumberID>OnCh1</NumberID>
             <NumberID>OnCh2</NumberID>
@@ -282,22 +216,13 @@
         <Variable LocalID="OnCh6" TypeNum="Bool">FALSE</Variable>
         <Variable LocalID="OnCh7" TypeNum="Bool">FALSE</Variable>
         <Variable LocalID="OnCh8" TypeNum="Bool">FALSE</Variable>
-        <Method LocalID="SwitchOnCh1" />
-        <Method LocalID="SwitchOnCh2" />
-        <Method LocalID="SwitchOnCh3" />
-        <Method LocalID="SwitchOnCh4" />
-        <Method LocalID="SwitchOnCh5" />
-        <Method LocalID="SwitchOnCh6" />
-        <Method LocalID="SwitchOnCh7" />
-        <Method LocalID="SwitchOnCh8" />
-        <Method LocalID="SwitchOffCh1" />
-        <Method LocalID="SwitchOffCh2" />
-        <Method LocalID="SwitchOffCh3" />
-        <Method LocalID="SwitchOffCh4" />
-        <Method LocalID="SwitchOffCh5" />
-        <Method LocalID="SwitchOffCh6" />
-        <Method LocalID="SwitchOffCh7" />
-        <Method LocalID="SwitchOffCh8" />
+        <Variable LocalID="OnOffCh" TypeNum="Int32">1</Variable>
+        <Method LocalID="SwitchOn">
+            <NumberID>OnOffCh</NumberID>
+        </Method>
+        <Method LocalID="SwitchOff">
+            <NumberID>OnOffCh</NumberID>
+        </Method>
         <Event LocalID="OutStatus">
             <NumberID>OnCh1</NumberID>
             <NumberID>OnCh2</NumberID>
@@ -319,22 +244,13 @@
         <Variable LocalID="OnCh6" TypeNum="Bool">FALSE</Variable>
         <Variable LocalID="OnCh7" TypeNum="Bool">FALSE</Variable>
         <Variable LocalID="OnCh8" TypeNum="Bool">FALSE</Variable>
-        <Method LocalID="SwitchOnCh1" />
-        <Method LocalID="SwitchOnCh2" />
-        <Method LocalID="SwitchOnCh3" />
-        <Method LocalID="SwitchOnCh4" />
-        <Method LocalID="SwitchOnCh5" />
-        <Method LocalID="SwitchOnCh6" />
-        <Method LocalID="SwitchOnCh7" />
-        <Method LocalID="SwitchOnCh8" />
-        <Method LocalID="SwitchOffCh1" />
-        <Method LocalID="SwitchOffCh2" />
-        <Method LocalID="SwitchOffCh3" />
-        <Method LocalID="SwitchOffCh4" />
-        <Method LocalID="SwitchOffCh5" />
-        <Method LocalID="SwitchOffCh6" />
-        <Method LocalID="SwitchOffCh7" />
-        <Method LocalID="SwitchOffCh8" />
+        <Variable LocalID="OnOffCh" TypeNum="Int32">1</Variable>
+        <Method LocalID="SwitchOn">
+            <NumberID>OnOffCh</NumberID>
+        </Method>
+        <Method LocalID="SwitchOff">
+            <NumberID>OnOffCh</NumberID>
+        </Method>
         <Event LocalID="OutStatus">
             <NumberID>OnCh1</NumberID>
             <NumberID>OnCh2</NumberID>

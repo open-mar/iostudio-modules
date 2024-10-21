@@ -4,12 +4,36 @@
     <PanelObject ParentGlobalID="Pow" Background="ContainerBackground">
         <RowDefinition />
         <RowDefinition />
+        <RowDefinition />
+        <ColumnDefinition />
+        <ColumnDefinition />
         <ColumnDefinition />
         <Grid Row="1" Column="1">
-            <ioPanelGrid LocalID="PowPanelRow1" PanelGlobalID="Pow.Row1.PowRowPanel" />
+            <ioPanelGrid LocalID="RowTop12VA" PanelGlobalID="Pow.Out12A.PowOutPanel" />
+        </Grid>
+        <Grid Row="1" Column="2">
+            <ioPanelGrid LocalID="RowTop12VM" PanelGlobalID="Pow.Out12M.PowOutPanel" />
+        </Grid>
+        <Grid Row="1" Column="3">
+            <ioPanelGrid LocalID="RowTop12VF" PanelGlobalID="Pow.Out12F.PowOutPanel" />
         </Grid>
         <Grid Row="2" Column="1">
-            <ioPanelGrid LocalID="PowPanelCol1" PanelGlobalID="Pow.Row2.PowRowPanel" />
+            <ioPanelGrid LocalID="RowMid24V" PanelGlobalID="Pow.Out24A.PowOutPanel" />
+        </Grid>
+        <Grid Row="2" Column="2">
+            <ioPanelGrid LocalID="RowMid24V" PanelGlobalID="Pow.Out24M.PowOutPanel" />
+        </Grid>
+        <Grid Row="2" Column="3">
+            <ioPanelGrid LocalID="RowMid24V" PanelGlobalID="Pow.Out24F.PowOutPanel" />
+        </Grid>
+        <Grid Row="3" Column="1">
+            <ioPanelGrid LocalID="RowBottom220V" PanelGlobalID="Pow.Out220A.PowOutPanel" />
+        </Grid>
+        <Grid Row="3" Column="2">
+            <ioPanelGrid LocalID="RowBottom220V" PanelGlobalID="Pow.Out220M.PowOutPanel" />
+        </Grid>
+        <Grid Row="3" Column="3">
+            <ioPanelGrid LocalID="RowBottom220V" PanelGlobalID="Pow.Out220F.PowOutPanel" />
         </Grid>
     </PanelObject>
 </PanelClass>
