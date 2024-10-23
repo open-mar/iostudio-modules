@@ -19,7 +19,9 @@
         <Event LocalID="ResponseDcData">
             <NumberID>BattVolt</NumberID>
             <NumberID>BattAmpOut</NumberID>
+            <NumberID>BattSoc</NumberID>
         </Event>
+        <Variable LocalID="BattSoc" TypeNum="Float" Unit="%" Decimals="1" Min="0.0" Max="100.0">99.9</Variable>
     </DataListObject>
     <DataListObject ParentGlobalID="Batt.Dc24">
         <Variable LocalID="BattVolt" TypeNum="Float" Unit="VDC" Decimals="2" Min="0.00" Max="36.00">24</Variable>
@@ -33,6 +35,8 @@
         <Event LocalID="ResponseDcData">
             <NumberID>BattVolt</NumberID>
             <NumberID>BattAmpOut</NumberID>
+            <NumberID>BattSoc</NumberID>
         </Event>
+        <Variable LocalID="BattSoc" TypeNum="Float" Unit="%" Decimals="1" Min="0.0" Max="100.0">99.9</Variable>
     </DataListObject>
 </DataList>

@@ -240,3 +240,5 @@ DUID;Parent;LocalID;TypeData
 356;Batt;RequestBattDataOpM;Method
 357;Batt;RequestBattDataOpA;Method
 358;Batt;RequestDataDc24OpM;Method
+57;Batt.Dc12;BattSoc;Variable
+58;Batt.Dc24;BattSoc;Variable

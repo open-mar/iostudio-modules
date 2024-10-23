@@ -2,59 +2,89 @@
 <PanelClass Name="BattDcPanel">
     <Description>Monitoring panel for batteries</Description>
     <PanelObject ParentGlobalID="Batt.Dc12" Background="ContainerBackground">
-        <RowDefinition />
+        <RowDefinition Size="24" />
+        <RowDefinition Size="90" />
+        <RowDefinition Size="70" />
+        <RowDefinition Size="60" />
+        <ColumnDefinition Size="230" />
         <ColumnDefinition />
-        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
+        <Grid Row="1" Column="1">
             <ioLabel LocalID="LabelBatt" Margin="0,1,0,0">
                 <Properties Text="BATTERY 12V" TypeLabel="Medium" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
-            <ioPanelGrid LocalID="GridVolt" Orientation="Horizontal">
-                <ioTextBlock LocalID="InstrVolt" HorizontalAlignment="Left" Width="230">
-                    <Properties Text="12.12" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="ExtraHuge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="2" TextAlignment="Left" />
-                </ioTextBlock>
-                <ioLabel LocalID="LabelVolt" VerticalAlignment="Bottom" Height="24" Margin="8,0,0,16">
-                    <Properties Text="Voltage [VDC]" TypeLabel="Medium" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
-                </ioLabel>
-            </ioPanelGrid>
-            <ioPanelGrid LocalID="GridBattAmp" Orientation="Horizontal">
-                <ioTextBlock LocalID="InstrAmpAvg" HorizontalAlignment="Left" Width="230">
-                    <Properties Text="2.12" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="Left" />
-                </ioTextBlock>
-                <ioLabel LocalID="LabelAmpAvg" VerticalAlignment="Bottom" Height="24" Margin="8,0,0,9">
-                    <Properties Text="Current [A]" TypeLabel="Medium" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
-                </ioLabel>
-                <ioTextBlock LocalID="InstrAmpDiff" VerticalAlignment="Bottom" Height="24" Margin="16,0,0,8">
-                    <Properties Text="0.12" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Medium" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="Left" />
-                </ioTextBlock>
-            </ioPanelGrid>
+        </Grid>
+        <Grid Row="2" Column="1">
+            <ioTextBlock LocalID="InstrVolt" VerticalAlignment="Bottom" Height="95" Margin="0,0,16,0">
+                <Properties Text="12.12" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="ExtraHuge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="2" TextAlignment="End" />
+            </ioTextBlock>
+        </Grid>
+        <Grid Row="3" Column="1">
+            <ioTextBlock LocalID="InstrAmpAvg" VerticalAlignment="Bottom" Height="68" Margin="0,0,16,0">
+                <Properties Text="2.12" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+            </ioTextBlock>
+        </Grid>
+        <Grid Row="4" Column="1">
+            <ioTextBlock LocalID="InstrSoc" VerticalAlignment="Bottom" Height="44" Margin="0,0,16,0">
+                <Properties Text="99.9" TypeColor="InstrumentEnhancedSecondary" FontFamily="OpenSans" FontSize="ExtraLarge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+            </ioTextBlock>
+        </Grid>
+        <Grid Row="2" Column="2">
+            <ioLabel LocalID="LabelVolt" VerticalAlignment="Bottom" Height="32">
+                <Properties Text="Voltage [VDC]" TypeLabel="Medium" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
+        </Grid>
+        <Grid Row="3" Column="2">
+            <ioLabel LocalID="LabelAmpAvg" VerticalAlignment="Bottom" Height="32">
+                <Properties Text="Current [A]" TypeLabel="Medium" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
+        </Grid>
+        <Grid Row="4" Column="2">
+            <ioLabel LocalID="LabelSoc" VerticalAlignment="Bottom" Height="32">
+                <Properties Text="SOC [%]" TypeLabel="Medium" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
         </Grid>
     </PanelObject>
     <PanelObject ParentGlobalID="Batt.Dc24" Background="ContainerBackground">
-        <RowDefinition />
+        <RowDefinition Size="24" />
+        <RowDefinition Size="90" />
+        <RowDefinition Size="70" />
+        <RowDefinition Size="60" />
+        <ColumnDefinition Size="230" />
         <ColumnDefinition />
-        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
-            <ioLabel LocalID="LabelBatt">
+        <Grid Row="1" Column="1">
+            <ioLabel LocalID="LabelBatt" Margin="0,1,0,0">
                 <Properties Text="BATTERY 24V" TypeLabel="Medium" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
-            <ioPanelGrid LocalID="GridVolt" Orientation="Horizontal">
-                <ioTextBlock LocalID="InstrVolt" HorizontalAlignment="Left" Width="230" Margin="0,1,0,0">
-                    <Properties Text="24.32" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="ExtraHuge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="2" TextAlignment="Left" />
-                </ioTextBlock>
-                <ioLabel LocalID="LabelVolt" VerticalAlignment="Bottom" Height="24" Margin="8,0,0,16">
-                    <Properties Text="Voltage [VDC]" TypeLabel="Medium" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
-                </ioLabel>
-            </ioPanelGrid>
-            <ioPanelGrid LocalID="GridBattAmp" Orientation="Horizontal">
-                <ioTextBlock LocalID="InstrAmpAvg" HorizontalAlignment="Left" Width="230">
-                    <Properties Text="1.31" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="Left" />
-                </ioTextBlock>
-                <ioLabel LocalID="LabelAmpAvg" VerticalAlignment="Bottom" Height="24" Margin="8,0,0,9">
-                    <Properties Text="Current [A]" TypeLabel="Medium" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
-                </ioLabel>
-                <ioTextBlock LocalID="InstrAmpDiff" VerticalAlignment="Bottom" Height="24" Margin="16,0,0,8">
-                    <Properties Text="0.45" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Medium" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="Left" />
-                </ioTextBlock>
-            </ioPanelGrid>
+        </Grid>
+        <Grid Row="2" Column="1">
+            <ioTextBlock LocalID="InstrVolt" VerticalAlignment="Bottom" Height="95" Margin="0,0,16,0">
+                <Properties Text="24.32" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="ExtraHuge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="2" TextAlignment="End" />
+            </ioTextBlock>
+        </Grid>
+        <Grid Row="3" Column="1">
+            <ioTextBlock LocalID="InstrAmpAvg" VerticalAlignment="Bottom" Height="68" Margin="0,0,16,0">
+                <Properties Text="1.31" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+            </ioTextBlock>
+        </Grid>
+        <Grid Row="4" Column="1">
+            <ioTextBlock LocalID="InstrSoc" VerticalAlignment="Bottom" Height="44" Margin="0,0,16,0">
+                <Properties Text="89.9" TypeColor="InstrumentEnhancedSecondary" FontFamily="OpenSans" FontSize="ExtraLarge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+            </ioTextBlock>
+        </Grid>
+        <Grid Row="2" Column="2">
+            <ioLabel LocalID="LabelVolt" VerticalAlignment="Bottom" Height="32">
+                <Properties Text="Voltage [VDC]" TypeLabel="Medium" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
+        </Grid>
+        <Grid Row="3" Column="2">
+            <ioLabel LocalID="LabelAmpAvg" VerticalAlignment="Bottom" Height="32">
+                <Properties Text="Current [A]" TypeLabel="Medium" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
+        </Grid>
+        <Grid Row="4" Column="2">
+            <ioLabel LocalID="LabelSoc" VerticalAlignment="Bottom" Height="32">
+                <Properties Text="SOC [%]" TypeLabel="Medium" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
         </Grid>
     </PanelObject>
 </PanelClass>

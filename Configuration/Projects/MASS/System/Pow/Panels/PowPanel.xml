@@ -18,22 +18,22 @@
             <ioPanelGrid LocalID="RowTop12VF" PanelGlobalID="Pow.Out12F.PowOutPanel" />
         </Grid>
         <Grid Row="2" Column="1">
-            <ioPanelGrid LocalID="RowMid24V" PanelGlobalID="Pow.Out24A.PowOutPanel" />
+            <ioPanelGrid LocalID="RowMid24VA" PanelGlobalID="Pow.Out24A.PowOutPanel" />
         </Grid>
         <Grid Row="2" Column="2">
-            <ioPanelGrid LocalID="RowMid24V" PanelGlobalID="Pow.Out24M.PowOutPanel" />
+            <ioPanelGrid LocalID="RowMid24VM" PanelGlobalID="Pow.Out24M.PowOutPanel" />
         </Grid>
         <Grid Row="2" Column="3">
-            <ioPanelGrid LocalID="RowMid24V" PanelGlobalID="Pow.Out24F.PowOutPanel" />
+            <ioPanelGrid LocalID="RowMid24VF" PanelGlobalID="Pow.Out24F.PowOutPanel" />
         </Grid>
         <Grid Row="3" Column="1">
-            <ioPanelGrid LocalID="RowBottom220V" PanelGlobalID="Pow.Out220A.PowOutPanel" />
+            <ioPanelGrid LocalID="RowBottom220VA" PanelGlobalID="Pow.Out220A.PowOutPanel" />
         </Grid>
         <Grid Row="3" Column="2">
-            <ioPanelGrid LocalID="RowBottom220V" PanelGlobalID="Pow.Out220M.PowOutPanel" />
+            <ioPanelGrid LocalID="RowBottom220VM" PanelGlobalID="Pow.Out220M.PowOutPanel" />
         </Grid>
         <Grid Row="3" Column="3">
-            <ioPanelGrid LocalID="RowBottom220V" PanelGlobalID="Pow.Out220F.PowOutPanel" />
+            <ioPanelGrid LocalID="RowBottom220VF" PanelGlobalID="Pow.Out220F.PowOutPanel" />
         </Grid>
     </PanelObject>
 </PanelClass>

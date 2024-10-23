@@ -26,6 +26,7 @@
             </Inputs>
             <Outputs>
                 <Argument Name="voltageOut" TypeNum="Float" />
+                <Argument Name="soc" TypeNum="Float" />
             </Outputs>
         </Function>
     </InternalFunctions>
@@ -89,6 +90,7 @@
                     <Input Name="currentMid" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpM" />
                     <Input Name="currentFront" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpF" />
                     <Output Name="voltageOut" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattVolt" />
+                    <Output Name="soc" NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattSoc" />
                 </Call>
             </Function>
         </Sequence>
@@ -153,6 +155,7 @@
                     <Input Name="currentMid" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpM" />
                     <Input Name="currentFront" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpF" />
                     <Output Name="voltageOut" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattVolt" />
+                    <Output Name="soc" NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattSoc" />
                 </Call>
             </Function>
         </Sequence>

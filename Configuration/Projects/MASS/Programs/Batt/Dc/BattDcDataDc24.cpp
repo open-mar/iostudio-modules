@@ -29,4 +29,6 @@ void BattDcDataDc24::InitializeData(void)
     IsChargeActive.SetValue(FALSE);
     AddData((ioData*)&IsChargeActive, Duid_Batt_Dc24_IsChargeActive);
     AddData((ioData*)&ResponseDcData, Duid_Batt_Dc24_ResponseDcData);
+    BattSoc.SetValue((Float)99.9);
+    AddData((ioData*)&BattSoc, Duid_Batt_Dc24_BattSoc);
 }

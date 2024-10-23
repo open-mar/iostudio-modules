@@ -31,6 +31,9 @@
     <Filter Include="Programs\Ids">
       <UniqueIdentifier>{adf01b8b-fe41-4867-a82e-8c1b3b626d60}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Programs\Pow\Cp">
+      <UniqueIdentifier>{7f08dc19-9977-4681-a0f3-1ab35da54a7e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TcPch.h">
@@ -117,6 +120,18 @@
     <ClInclude Include="..\..\Programs\Steer\Cp\SteerCpDataCpM.h">
       <Filter>Programs\Steer\Cp</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Programs\Pow\PowProgControl12V.h">
+      <Filter>Programs\Pow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Pow\Cp\PowCpData.h">
+      <Filter>Programs\Pow\Cp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Pow\Cp\PowCpDataCpA.h">
+      <Filter>Programs\Pow\Cp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Pow\Cp\PowCpDataCpM.h">
+      <Filter>Programs\Pow\Cp</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TcPch.cpp">
@@ -196,6 +211,18 @@
     </ClCompile>
     <ClCompile Include="..\..\Programs\Steer\Cp\SteerCpDataCpM.cpp">
       <Filter>Programs\Steer\Cp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Pow\PowProgControl12V.cpp">
+      <Filter>Programs\Pow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Pow\Cp\PowCpData.cpp">
+      <Filter>Programs\Pow\Cp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Pow\Cp\PowCpDataCpA.cpp">
+      <Filter>Programs\Pow\Cp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Pow\Cp\PowCpDataCpM.cpp">
+      <Filter>Programs\Pow\Cp</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

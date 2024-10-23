@@ -6,42 +6,35 @@ namespace ioSystemNetworkNet
     {
         Puid_NotDefined = 0,
         Puid_Batt_LabelBattCharging = 1,
-        Puid_Batt_GridChargerInput = 2,
         Puid_Batt_InstrChargeInputVolt = 3,
-        Puid_Batt_LabelChargeInputVolt = 4,
-        Puid_Batt_GridChargeActive12V = 5,
         Puid_Batt_ShapeActiveCharge12V = 6,
-        Puid_Batt_LabelActiveCharge12V = 7,
-        Puid_Batt_GridChargeActive24V = 8,
         Puid_Batt_ShapeActiveCharge24V = 9,
+        Puid_Batt_LabelChargeInputVolt = 4,
+        Puid_Batt_LabelActiveCharge12V = 7,
         Puid_Batt_LabelActiveCharge24V = 10,
         Puid_Batt_BattPanel12V = 11,
         Puid_Batt_BattPanel24V = 12,
         Puid_Batt_BattStatusGrid = 13,
         Puid_Batt_BattChargingGrid = 14,
         Puid_Batt_LabelStatus = 15,
-        Puid_Batt_GridSoc = 16,
         Puid_Batt_InstrSoc = 17,
-        Puid_Batt_LabelSoc = 18,
-        Puid_Batt_GridTime = 19,
         Puid_Batt_InstrTime = 20,
+        Puid_Batt_LabelSoc = 18,
         Puid_Batt_LabelTime = 21,
         Puid_Batt_Dc12_LabelBatt = 22,
-        Puid_Batt_Dc12_GridVolt = 23,
         Puid_Batt_Dc12_InstrVolt = 24,
-        Puid_Batt_Dc12_LabelVolt = 25,
-        Puid_Batt_Dc12_GridBattAmp = 26,
         Puid_Batt_Dc12_InstrAmpAvg = 27,
+        Puid_Batt_Dc12_InstrSoc = 638,
+        Puid_Batt_Dc12_LabelVolt = 25,
         Puid_Batt_Dc12_LabelAmpAvg = 28,
-        Puid_Batt_Dc12_InstrAmpDiff = 29,
+        Puid_Batt_Dc12_LabelSoc = 639,
         Puid_Batt_Dc24_LabelBatt = 30,
-        Puid_Batt_Dc24_GridVolt = 31,
         Puid_Batt_Dc24_InstrVolt = 32,
-        Puid_Batt_Dc24_LabelVolt = 33,
-        Puid_Batt_Dc24_GridBattAmp = 34,
         Puid_Batt_Dc24_InstrAmpAvg = 35,
+        Puid_Batt_Dc24_InstrSoc = 56,
+        Puid_Batt_Dc24_LabelVolt = 33,
         Puid_Batt_Dc24_LabelAmpAvg = 36,
-        Puid_Batt_Dc24_InstrAmpDiff = 37,
+        Puid_Batt_Dc24_LabelSoc = 57,
         Puid_Ids_GridStatusCcF = 38,
         Puid_Ids_GridStatusCcM = 39,
         Puid_Ids_GridStatusCcA = 40,
@@ -60,9 +53,15 @@ namespace ioSystemNetworkNet
         Puid_Ids_CcA_ShapeEthernet = 53,
         Puid_Ids_CcA_ShapeIO = 54,
         Puid_Ids_CcA_ShapeInCommand = 55,
-        Puid_Pow_RowTop12V = 56,
-        Puid_Pow_RowMid24V = 57,
-        Puid_Pow_RowBottom220V = 58,
+        Puid_Pow_RowTop12VA = 628,
+        Puid_Pow_RowTop12VM = 629,
+        Puid_Pow_RowTop12VF = 630,
+        Puid_Pow_RowMid24VA = 631,
+        Puid_Pow_RowMid24VM = 632,
+        Puid_Pow_RowMid24VF = 633,
+        Puid_Pow_RowBottom220VA = 634,
+        Puid_Pow_RowBottom220VM = 635,
+        Puid_Pow_RowBottom220VF = 636,
         Puid_Pow_CpM_CommandNoRef = 58,
         Puid_Pow_CpM_ModeNoRef = 59,
         Puid_Pow_CpA_CommandNoRef = 60,
@@ -641,42 +640,35 @@ namespace ioSystemNetworkNet
             switch (puid)
             {
                 case ioSystemGraphicsType.Puid_Batt_LabelBattCharging: return "Batt.LabelBattCharging";
-                case ioSystemGraphicsType.Puid_Batt_GridChargerInput: return "Batt.GridChargerInput";
                 case ioSystemGraphicsType.Puid_Batt_InstrChargeInputVolt: return "Batt.InstrChargeInputVolt";
-                case ioSystemGraphicsType.Puid_Batt_LabelChargeInputVolt: return "Batt.LabelChargeInputVolt";
-                case ioSystemGraphicsType.Puid_Batt_GridChargeActive12V: return "Batt.GridChargeActive12V";
                 case ioSystemGraphicsType.Puid_Batt_ShapeActiveCharge12V: return "Batt.ShapeActiveCharge12V";
-                case ioSystemGraphicsType.Puid_Batt_LabelActiveCharge12V: return "Batt.LabelActiveCharge12V";
-                case ioSystemGraphicsType.Puid_Batt_GridChargeActive24V: return "Batt.GridChargeActive24V";
                 case ioSystemGraphicsType.Puid_Batt_ShapeActiveCharge24V: return "Batt.ShapeActiveCharge24V";
+                case ioSystemGraphicsType.Puid_Batt_LabelChargeInputVolt: return "Batt.LabelChargeInputVolt";
+                case ioSystemGraphicsType.Puid_Batt_LabelActiveCharge12V: return "Batt.LabelActiveCharge12V";
                 case ioSystemGraphicsType.Puid_Batt_LabelActiveCharge24V: return "Batt.LabelActiveCharge24V";
                 case ioSystemGraphicsType.Puid_Batt_BattPanel12V: return "Batt.BattPanel12V";
                 case ioSystemGraphicsType.Puid_Batt_BattPanel24V: return "Batt.BattPanel24V";
                 case ioSystemGraphicsType.Puid_Batt_BattStatusGrid: return "Batt.BattStatusGrid";
                 case ioSystemGraphicsType.Puid_Batt_BattChargingGrid: return "Batt.BattChargingGrid";
                 case ioSystemGraphicsType.Puid_Batt_LabelStatus: return "Batt.LabelStatus";
-                case ioSystemGraphicsType.Puid_Batt_GridSoc: return "Batt.GridSoc";
                 case ioSystemGraphicsType.Puid_Batt_InstrSoc: return "Batt.InstrSoc";
-                case ioSystemGraphicsType.Puid_Batt_LabelSoc: return "Batt.LabelSoc";
-                case ioSystemGraphicsType.Puid_Batt_GridTime: return "Batt.GridTime";
                 case ioSystemGraphicsType.Puid_Batt_InstrTime: return "Batt.InstrTime";
+                case ioSystemGraphicsType.Puid_Batt_LabelSoc: return "Batt.LabelSoc";
                 case ioSystemGraphicsType.Puid_Batt_LabelTime: return "Batt.LabelTime";
                 case ioSystemGraphicsType.Puid_Batt_Dc12_LabelBatt: return "Batt.Dc12.LabelBatt";
-                case ioSystemGraphicsType.Puid_Batt_Dc12_GridVolt: return "Batt.Dc12.GridVolt";
                 case ioSystemGraphicsType.Puid_Batt_Dc12_InstrVolt: return "Batt.Dc12.InstrVolt";
-                case ioSystemGraphicsType.Puid_Batt_Dc12_LabelVolt: return "Batt.Dc12.LabelVolt";
-                case ioSystemGraphicsType.Puid_Batt_Dc12_GridBattAmp: return "Batt.Dc12.GridBattAmp";
                 case ioSystemGraphicsType.Puid_Batt_Dc12_InstrAmpAvg: return "Batt.Dc12.InstrAmpAvg";
+                case ioSystemGraphicsType.Puid_Batt_Dc12_InstrSoc: return "Batt.Dc12.InstrSoc";
+                case ioSystemGraphicsType.Puid_Batt_Dc12_LabelVolt: return "Batt.Dc12.LabelVolt";
                 case ioSystemGraphicsType.Puid_Batt_Dc12_LabelAmpAvg: return "Batt.Dc12.LabelAmpAvg";
-                case ioSystemGraphicsType.Puid_Batt_Dc12_InstrAmpDiff: return "Batt.Dc12.InstrAmpDiff";
+                case ioSystemGraphicsType.Puid_Batt_Dc12_LabelSoc: return "Batt.Dc12.LabelSoc";
                 case ioSystemGraphicsType.Puid_Batt_Dc24_LabelBatt: return "Batt.Dc24.LabelBatt";
-                case ioSystemGraphicsType.Puid_Batt_Dc24_GridVolt: return "Batt.Dc24.GridVolt";
                 case ioSystemGraphicsType.Puid_Batt_Dc24_InstrVolt: return "Batt.Dc24.InstrVolt";
-                case ioSystemGraphicsType.Puid_Batt_Dc24_LabelVolt: return "Batt.Dc24.LabelVolt";
-                case ioSystemGraphicsType.Puid_Batt_Dc24_GridBattAmp: return "Batt.Dc24.GridBattAmp";
                 case ioSystemGraphicsType.Puid_Batt_Dc24_InstrAmpAvg: return "Batt.Dc24.InstrAmpAvg";
+                case ioSystemGraphicsType.Puid_Batt_Dc24_InstrSoc: return "Batt.Dc24.InstrSoc";
+                case ioSystemGraphicsType.Puid_Batt_Dc24_LabelVolt: return "Batt.Dc24.LabelVolt";
                 case ioSystemGraphicsType.Puid_Batt_Dc24_LabelAmpAvg: return "Batt.Dc24.LabelAmpAvg";
-                case ioSystemGraphicsType.Puid_Batt_Dc24_InstrAmpDiff: return "Batt.Dc24.InstrAmpDiff";
+                case ioSystemGraphicsType.Puid_Batt_Dc24_LabelSoc: return "Batt.Dc24.LabelSoc";
                 case ioSystemGraphicsType.Puid_Ids_GridStatusCcF: return "Ids.GridStatusCcF";
                 case ioSystemGraphicsType.Puid_Ids_GridStatusCcM: return "Ids.GridStatusCcM";
                 case ioSystemGraphicsType.Puid_Ids_GridStatusCcA: return "Ids.GridStatusCcA";
@@ -695,9 +687,15 @@ namespace ioSystemNetworkNet
                 case ioSystemGraphicsType.Puid_Ids_CcA_ShapeEthernet: return "Ids.CcA.ShapeEthernet";
                 case ioSystemGraphicsType.Puid_Ids_CcA_ShapeIO: return "Ids.CcA.ShapeIO";
                 case ioSystemGraphicsType.Puid_Ids_CcA_ShapeInCommand: return "Ids.CcA.ShapeInCommand";
-                case ioSystemGraphicsType.Puid_Pow_RowTop12V: return "Pow.RowTop12V";
-                case ioSystemGraphicsType.Puid_Pow_RowMid24V: return "Pow.RowMid24V";
-                case ioSystemGraphicsType.Puid_Pow_RowBottom220V: return "Pow.RowBottom220V";
+                case ioSystemGraphicsType.Puid_Pow_RowTop12VA: return "Pow.RowTop12VA";
+                case ioSystemGraphicsType.Puid_Pow_RowTop12VM: return "Pow.RowTop12VM";
+                case ioSystemGraphicsType.Puid_Pow_RowTop12VF: return "Pow.RowTop12VF";
+                case ioSystemGraphicsType.Puid_Pow_RowMid24VA: return "Pow.RowMid24VA";
+                case ioSystemGraphicsType.Puid_Pow_RowMid24VM: return "Pow.RowMid24VM";
+                case ioSystemGraphicsType.Puid_Pow_RowMid24VF: return "Pow.RowMid24VF";
+                case ioSystemGraphicsType.Puid_Pow_RowBottom220VA: return "Pow.RowBottom220VA";
+                case ioSystemGraphicsType.Puid_Pow_RowBottom220VM: return "Pow.RowBottom220VM";
+                case ioSystemGraphicsType.Puid_Pow_RowBottom220VF: return "Pow.RowBottom220VF";
                 case ioSystemGraphicsType.Puid_Pow_CpM_CommandNoRef: return "Pow.CpM.CommandNoRef";
                 case ioSystemGraphicsType.Puid_Pow_CpM_ModeNoRef: return "Pow.CpM.ModeNoRef";
                 case ioSystemGraphicsType.Puid_Pow_CpA_CommandNoRef: return "Pow.CpA.CommandNoRef";
@@ -1276,42 +1274,35 @@ namespace ioSystemNetworkNet
             switch (globalID)
             {
                 case "Batt.LabelBattCharging": return ioSystemGraphicsType.Puid_Batt_LabelBattCharging;
-                case "Batt.GridChargerInput": return ioSystemGraphicsType.Puid_Batt_GridChargerInput;
                 case "Batt.InstrChargeInputVolt": return ioSystemGraphicsType.Puid_Batt_InstrChargeInputVolt;
-                case "Batt.LabelChargeInputVolt": return ioSystemGraphicsType.Puid_Batt_LabelChargeInputVolt;
-                case "Batt.GridChargeActive12V": return ioSystemGraphicsType.Puid_Batt_GridChargeActive12V;
                 case "Batt.ShapeActiveCharge12V": return ioSystemGraphicsType.Puid_Batt_ShapeActiveCharge12V;
-                case "Batt.LabelActiveCharge12V": return ioSystemGraphicsType.Puid_Batt_LabelActiveCharge12V;
-                case "Batt.GridChargeActive24V": return ioSystemGraphicsType.Puid_Batt_GridChargeActive24V;
                 case "Batt.ShapeActiveCharge24V": return ioSystemGraphicsType.Puid_Batt_ShapeActiveCharge24V;
+                case "Batt.LabelChargeInputVolt": return ioSystemGraphicsType.Puid_Batt_LabelChargeInputVolt;
+                case "Batt.LabelActiveCharge12V": return ioSystemGraphicsType.Puid_Batt_LabelActiveCharge12V;
                 case "Batt.LabelActiveCharge24V": return ioSystemGraphicsType.Puid_Batt_LabelActiveCharge24V;
                 case "Batt.BattPanel12V": return ioSystemGraphicsType.Puid_Batt_BattPanel12V;
                 case "Batt.BattPanel24V": return ioSystemGraphicsType.Puid_Batt_BattPanel24V;
                 case "Batt.BattStatusGrid": return ioSystemGraphicsType.Puid_Batt_BattStatusGrid;
                 case "Batt.BattChargingGrid": return ioSystemGraphicsType.Puid_Batt_BattChargingGrid;
                 case "Batt.LabelStatus": return ioSystemGraphicsType.Puid_Batt_LabelStatus;
-                case "Batt.GridSoc": return ioSystemGraphicsType.Puid_Batt_GridSoc;
                 case "Batt.InstrSoc": return ioSystemGraphicsType.Puid_Batt_InstrSoc;
-                case "Batt.LabelSoc": return ioSystemGraphicsType.Puid_Batt_LabelSoc;
-                case "Batt.GridTime": return ioSystemGraphicsType.Puid_Batt_GridTime;
                 case "Batt.InstrTime": return ioSystemGraphicsType.Puid_Batt_InstrTime;
+                case "Batt.LabelSoc": return ioSystemGraphicsType.Puid_Batt_LabelSoc;
                 case "Batt.LabelTime": return ioSystemGraphicsType.Puid_Batt_LabelTime;
                 case "Batt.Dc12.LabelBatt": return ioSystemGraphicsType.Puid_Batt_Dc12_LabelBatt;
-                case "Batt.Dc12.GridVolt": return ioSystemGraphicsType.Puid_Batt_Dc12_GridVolt;
                 case "Batt.Dc12.InstrVolt": return ioSystemGraphicsType.Puid_Batt_Dc12_InstrVolt;
-                case "Batt.Dc12.LabelVolt": return ioSystemGraphicsType.Puid_Batt_Dc12_LabelVolt;
-                case "Batt.Dc12.GridBattAmp": return ioSystemGraphicsType.Puid_Batt_Dc12_GridBattAmp;
                 case "Batt.Dc12.InstrAmpAvg": return ioSystemGraphicsType.Puid_Batt_Dc12_InstrAmpAvg;
+                case "Batt.Dc12.InstrSoc": return ioSystemGraphicsType.Puid_Batt_Dc12_InstrSoc;
+                case "Batt.Dc12.LabelVolt": return ioSystemGraphicsType.Puid_Batt_Dc12_LabelVolt;
                 case "Batt.Dc12.LabelAmpAvg": return ioSystemGraphicsType.Puid_Batt_Dc12_LabelAmpAvg;
-                case "Batt.Dc12.InstrAmpDiff": return ioSystemGraphicsType.Puid_Batt_Dc12_InstrAmpDiff;
+                case "Batt.Dc12.LabelSoc": return ioSystemGraphicsType.Puid_Batt_Dc12_LabelSoc;
                 case "Batt.Dc24.LabelBatt": return ioSystemGraphicsType.Puid_Batt_Dc24_LabelBatt;
-                case "Batt.Dc24.GridVolt": return ioSystemGraphicsType.Puid_Batt_Dc24_GridVolt;
                 case "Batt.Dc24.InstrVolt": return ioSystemGraphicsType.Puid_Batt_Dc24_InstrVolt;
-                case "Batt.Dc24.LabelVolt": return ioSystemGraphicsType.Puid_Batt_Dc24_LabelVolt;
-                case "Batt.Dc24.GridBattAmp": return ioSystemGraphicsType.Puid_Batt_Dc24_GridBattAmp;
                 case "Batt.Dc24.InstrAmpAvg": return ioSystemGraphicsType.Puid_Batt_Dc24_InstrAmpAvg;
+                case "Batt.Dc24.InstrSoc": return ioSystemGraphicsType.Puid_Batt_Dc24_InstrSoc;
+                case "Batt.Dc24.LabelVolt": return ioSystemGraphicsType.Puid_Batt_Dc24_LabelVolt;
                 case "Batt.Dc24.LabelAmpAvg": return ioSystemGraphicsType.Puid_Batt_Dc24_LabelAmpAvg;
-                case "Batt.Dc24.InstrAmpDiff": return ioSystemGraphicsType.Puid_Batt_Dc24_InstrAmpDiff;
+                case "Batt.Dc24.LabelSoc": return ioSystemGraphicsType.Puid_Batt_Dc24_LabelSoc;
                 case "Ids.GridStatusCcF": return ioSystemGraphicsType.Puid_Ids_GridStatusCcF;
                 case "Ids.GridStatusCcM": return ioSystemGraphicsType.Puid_Ids_GridStatusCcM;
                 case "Ids.GridStatusCcA": return ioSystemGraphicsType.Puid_Ids_GridStatusCcA;
@@ -1330,9 +1321,15 @@ namespace ioSystemNetworkNet
                 case "Ids.CcA.ShapeEthernet": return ioSystemGraphicsType.Puid_Ids_CcA_ShapeEthernet;
                 case "Ids.CcA.ShapeIO": return ioSystemGraphicsType.Puid_Ids_CcA_ShapeIO;
                 case "Ids.CcA.ShapeInCommand": return ioSystemGraphicsType.Puid_Ids_CcA_ShapeInCommand;
-                case "Pow.RowTop12V": return ioSystemGraphicsType.Puid_Pow_RowTop12V;
-                case "Pow.RowMid24V": return ioSystemGraphicsType.Puid_Pow_RowMid24V;
-                case "Pow.RowBottom220V": return ioSystemGraphicsType.Puid_Pow_RowBottom220V;
+                case "Pow.RowTop12VA": return ioSystemGraphicsType.Puid_Pow_RowTop12VA;
+                case "Pow.RowTop12VM": return ioSystemGraphicsType.Puid_Pow_RowTop12VM;
+                case "Pow.RowTop12VF": return ioSystemGraphicsType.Puid_Pow_RowTop12VF;
+                case "Pow.RowMid24VA": return ioSystemGraphicsType.Puid_Pow_RowMid24VA;
+                case "Pow.RowMid24VM": return ioSystemGraphicsType.Puid_Pow_RowMid24VM;
+                case "Pow.RowMid24VF": return ioSystemGraphicsType.Puid_Pow_RowMid24VF;
+                case "Pow.RowBottom220VA": return ioSystemGraphicsType.Puid_Pow_RowBottom220VA;
+                case "Pow.RowBottom220VM": return ioSystemGraphicsType.Puid_Pow_RowBottom220VM;
+                case "Pow.RowBottom220VF": return ioSystemGraphicsType.Puid_Pow_RowBottom220VF;
                 case "Pow.CpM.CommandNoRef": return ioSystemGraphicsType.Puid_Pow_CpM_CommandNoRef;
                 case "Pow.CpM.ModeNoRef": return ioSystemGraphicsType.Puid_Pow_CpM_ModeNoRef;
                 case "Pow.CpA.CommandNoRef": return ioSystemGraphicsType.Puid_Pow_CpA_CommandNoRef;
@@ -1908,7 +1905,7 @@ namespace ioSystemNetworkNet
         }
         public static ioSystemGraphicsType GetPuid(Int32 puidValue)
         {
-            if ((puidValue >= 0) && (puidValue < 629))
+            if ((puidValue >= 0) && (puidValue < 628))
                 return (ioSystemGraphicsType)puidValue;
             else
                 return ioSystemGraphicsType.Puid_NotDefined;

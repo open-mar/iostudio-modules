@@ -18,7 +18,7 @@ void BattDcModel::DoSimulation_100ms(Int32 slotCounter_100ms)
 void BattDcModel::SimulateBatteryCurrent(Int32 typeDevice, Bool onCh1, Bool onCh2, Bool onCh3, Bool onCh4, Bool onCh5, Bool onCh6, Bool onCh7, Bool onCh8, Float* currentOut)
 {
 }
-void BattDcModel::SimulateBatteryVoltage(Float currentAft, Float currentMid, Float currentFront, Float* voltageOut)
+void BattDcModel::SimulateBatteryVoltage(Float currentAft, Float currentMid, Float currentFront, Float* voltageOut, Float* soc)
 {
 }
 BattDcModelDc12::BattDcModelDc12()
@@ -38,6 +38,7 @@ void BattDcModelDc12::InitializeItem(void)
 void BattDcModelDc12::DoSimulation_100ms(Int32 slotCounter_100ms)
 {
     Float out0_Float;
+    Float out1_Float;
     if ((slotCounter_100ms % 10) == 0)
     {
         SimulateBatteryCurrent(
@@ -92,9 +93,11 @@ void BattDcModelDc12::DoSimulation_100ms(Int32 slotCounter_100ms)
                 BattDc12.BattAmpA.GetValue(), 
                 BattDc12.BattAmpM.GetValue(), 
                 BattDc12.BattAmpF.GetValue(), 
-                &out0_Float
+                &out0_Float, 
+                &out1_Float
         );
         BattDc12.BattVolt.SetValue(out0_Float);
+        BattDc12.BattSoc.SetValue(out1_Float);
     } // if
 }
 BattDcModelDc24::BattDcModelDc24()
@@ -114,6 +117,7 @@ void BattDcModelDc24::InitializeItem(void)
 void BattDcModelDc24::DoSimulation_100ms(Int32 slotCounter_100ms)
 {
     Float out0_Float;
+    Float out1_Float;
     if ((slotCounter_100ms % 10) == 0)
     {
         SimulateBatteryCurrent(
@@ -168,8 +172,10 @@ void BattDcModelDc24::DoSimulation_100ms(Int32 slotCounter_100ms)
                 BattDc24.BattAmpA.GetValue(), 
                 BattDc24.BattAmpM.GetValue(), 
                 BattDc24.BattAmpF.GetValue(), 
-                &out0_Float
+                &out0_Float, 
+                &out1_Float
         );
         BattDc24.BattVolt.SetValue(out0_Float);
+        BattDc24.BattSoc.SetValue(out1_Float);
     } // if
 }

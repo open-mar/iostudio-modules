@@ -11,8 +11,8 @@ public:
     virtual void InitializeData(void);
     ioLabel LabelStatus;
     ioTextBlock InstrSoc;
-    ioLabel LabelSoc;
     ioTextBlock InstrTime;
+    ioLabel LabelSoc;
     ioLabel LabelTime;
 protected:
     ioGraphics* m_BattStatusPanelGraphics[5];

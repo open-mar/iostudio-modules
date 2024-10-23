@@ -30,8 +30,9 @@ public:
     ioVarFloat BattAmpAvg;
     ioVarBool IsChargeActive;
     ioEvent ResponseDcData;
+    ioVarFloat BattSoc;
 protected:
-    ioData* m_ListData[9];
-    ioVar* m_ResponseDcDataVars[2];
+    ioData* m_ListData[10];
+    ioVar* m_ResponseDcDataVars[3];
 };
 #endif // __BATTDCDATA_H

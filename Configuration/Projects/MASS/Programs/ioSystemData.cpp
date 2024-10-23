@@ -78,6 +78,7 @@ ioSystemDataType ioSystemData::GetDataType(Int32 duidValue)
     case 11: return Duid_Batt_Dc12_BattAmpAvg; 
     case 2: return Duid_Batt_Dc12_IsChargeActive; 
     case 13: return Duid_Batt_Dc12_ResponseDcData; 
+    case 57: return Duid_Batt_Dc12_BattSoc; 
     case 14: return Duid_Batt_Dc24_BattVolt; 
     case 353: return Duid_Batt_Dc24_BattAmpM; 
     case 354: return Duid_Batt_Dc24_BattAmpF; 
@@ -87,6 +88,7 @@ ioSystemDataType ioSystemData::GetDataType(Int32 duidValue)
     case 17: return Duid_Batt_Dc24_BattAmpAvg; 
     case 3: return Duid_Batt_Dc24_IsChargeActive; 
     case 19: return Duid_Batt_Dc24_ResponseDcData; 
+    case 58: return Duid_Batt_Dc24_BattSoc; 
     case 20: return Duid_Pow_CpM_TakeCommandPow; 
     case 21: return Duid_Pow_CpM_ReleaseCommandPow; 
     case 22: return Duid_Pow_CpM_ActiveStationPow; 

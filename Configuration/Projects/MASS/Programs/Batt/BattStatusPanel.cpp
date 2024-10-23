@@ -17,11 +17,11 @@ void BattStatusPanel::InitializeData(void)
     AddGraphics(&InstrSoc, Puid_Batt_InstrSoc);
     InstrSoc.SetTextForced((ioChars)"95.1");
     InstrSoc.SetDecimals(1);
-    AddGraphics(&LabelSoc, Puid_Batt_LabelSoc);
-    LabelSoc.SetTextForced((ioChars)"SOC [%]");
     AddGraphics(&InstrTime, Puid_Batt_InstrTime);
     InstrTime.SetTextForced((ioChars)"2d 13:45:32");
     InstrTime.SetDecimals(1);
+    AddGraphics(&LabelSoc, Puid_Batt_LabelSoc);
+    LabelSoc.SetTextForced((ioChars)"SOC [%]");
     AddGraphics(&LabelTime, Puid_Batt_LabelTime);
     LabelTime.SetTextForced((ioChars)"Time to 10% SOC");
 }

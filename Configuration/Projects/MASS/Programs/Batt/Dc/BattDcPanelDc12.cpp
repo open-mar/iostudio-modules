@@ -18,14 +18,16 @@ void BattDcPanelDc12::InitializeData(void)
     AddGraphics(&InstrVolt, Puid_Batt_Dc12_InstrVolt);
     InstrVolt.SetTextForced((ioChars)"12.12");
     InstrVolt.SetDecimals(2);
-    AddGraphics(&LabelVolt, Puid_Batt_Dc12_LabelVolt);
-    LabelVolt.SetTextForced((ioChars)"Voltage [VDC]");
     AddGraphics(&InstrAmpAvg, Puid_Batt_Dc12_InstrAmpAvg);
     InstrAmpAvg.SetTextForced((ioChars)"2.12");
     InstrAmpAvg.SetDecimals(1);
+    AddGraphics(&InstrSoc, Puid_Batt_Dc12_InstrSoc);
+    InstrSoc.SetTextForced((ioChars)"99.9");
+    InstrSoc.SetDecimals(1);
+    AddGraphics(&LabelVolt, Puid_Batt_Dc12_LabelVolt);
+    LabelVolt.SetTextForced((ioChars)"Voltage [VDC]");
     AddGraphics(&LabelAmpAvg, Puid_Batt_Dc12_LabelAmpAvg);
     LabelAmpAvg.SetTextForced((ioChars)"Current [A]");
-    AddGraphics(&InstrAmpDiff, Puid_Batt_Dc12_InstrAmpDiff);
-    InstrAmpDiff.SetTextForced((ioChars)"0.12");
-    InstrAmpDiff.SetDecimals(1);
+    AddGraphics(&LabelSoc, Puid_Batt_Dc12_LabelSoc);
+    LabelSoc.SetTextForced((ioChars)"SOC [%]");
 }

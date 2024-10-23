@@ -24,6 +24,7 @@ namespace ioSystemNetworkNet
         Duid_Batt_Dc12_BattAmpAvg = 11,
         Duid_Batt_Dc12_IsChargeActive = 2,
         Duid_Batt_Dc12_ResponseDcData = 13,
+        Duid_Batt_Dc12_BattSoc = 57,
         Duid_Batt_Dc24_BattVolt = 14,
         Duid_Batt_Dc24_BattAmpM = 353,
         Duid_Batt_Dc24_BattAmpF = 354,
@@ -33,6 +34,7 @@ namespace ioSystemNetworkNet
         Duid_Batt_Dc24_BattAmpAvg = 17,
         Duid_Batt_Dc24_IsChargeActive = 3,
         Duid_Batt_Dc24_ResponseDcData = 19,
+        Duid_Batt_Dc24_BattSoc = 58,
         Duid_Pow_CpM_TakeCommandPow = 20,
         Duid_Pow_CpM_ReleaseCommandPow = 21,
         Duid_Pow_CpM_ActiveStationPow = 22,
@@ -272,6 +274,7 @@ namespace ioSystemNetworkNet
                 case ioSystemDataType.Duid_Batt_Dc12_BattAmpAvg: return "Batt.Dc12.BattAmpAvg";
                 case ioSystemDataType.Duid_Batt_Dc12_IsChargeActive: return "Batt.Dc12.IsChargeActive";
                 case ioSystemDataType.Duid_Batt_Dc12_ResponseDcData: return "Batt.Dc12.ResponseDcData";
+                case ioSystemDataType.Duid_Batt_Dc12_BattSoc: return "Batt.Dc12.BattSoc";
                 case ioSystemDataType.Duid_Batt_Dc24_BattVolt: return "Batt.Dc24.BattVolt";
                 case ioSystemDataType.Duid_Batt_Dc24_BattAmpM: return "Batt.Dc24.BattAmpM";
                 case ioSystemDataType.Duid_Batt_Dc24_BattAmpF: return "Batt.Dc24.BattAmpF";
@@ -281,6 +284,7 @@ namespace ioSystemNetworkNet
                 case ioSystemDataType.Duid_Batt_Dc24_BattAmpAvg: return "Batt.Dc24.BattAmpAvg";
                 case ioSystemDataType.Duid_Batt_Dc24_IsChargeActive: return "Batt.Dc24.IsChargeActive";
                 case ioSystemDataType.Duid_Batt_Dc24_ResponseDcData: return "Batt.Dc24.ResponseDcData";
+                case ioSystemDataType.Duid_Batt_Dc24_BattSoc: return "Batt.Dc24.BattSoc";
                 case ioSystemDataType.Duid_Pow_CpM_TakeCommandPow: return "Pow.CpM.TakeCommandPow";
                 case ioSystemDataType.Duid_Pow_CpM_ReleaseCommandPow: return "Pow.CpM.ReleaseCommandPow";
                 case ioSystemDataType.Duid_Pow_CpM_ActiveStationPow: return "Pow.CpM.ActiveStationPow";
@@ -520,6 +524,7 @@ namespace ioSystemNetworkNet
                 case "Batt.Dc12.BattAmpAvg": return ioSystemDataType.Duid_Batt_Dc12_BattAmpAvg;
                 case "Batt.Dc12.IsChargeActive": return ioSystemDataType.Duid_Batt_Dc12_IsChargeActive;
                 case "Batt.Dc12.ResponseDcData": return ioSystemDataType.Duid_Batt_Dc12_ResponseDcData;
+                case "Batt.Dc12.BattSoc": return ioSystemDataType.Duid_Batt_Dc12_BattSoc;
                 case "Batt.Dc24.BattVolt": return ioSystemDataType.Duid_Batt_Dc24_BattVolt;
                 case "Batt.Dc24.BattAmpM": return ioSystemDataType.Duid_Batt_Dc24_BattAmpM;
                 case "Batt.Dc24.BattAmpF": return ioSystemDataType.Duid_Batt_Dc24_BattAmpF;
@@ -529,6 +534,7 @@ namespace ioSystemNetworkNet
                 case "Batt.Dc24.BattAmpAvg": return ioSystemDataType.Duid_Batt_Dc24_BattAmpAvg;
                 case "Batt.Dc24.IsChargeActive": return ioSystemDataType.Duid_Batt_Dc24_IsChargeActive;
                 case "Batt.Dc24.ResponseDcData": return ioSystemDataType.Duid_Batt_Dc24_ResponseDcData;
+                case "Batt.Dc24.BattSoc": return ioSystemDataType.Duid_Batt_Dc24_BattSoc;
                 case "Pow.CpM.TakeCommandPow": return ioSystemDataType.Duid_Pow_CpM_TakeCommandPow;
                 case "Pow.CpM.ReleaseCommandPow": return ioSystemDataType.Duid_Pow_CpM_ReleaseCommandPow;
                 case "Pow.CpM.ActiveStationPow": return ioSystemDataType.Duid_Pow_CpM_ActiveStationPow;

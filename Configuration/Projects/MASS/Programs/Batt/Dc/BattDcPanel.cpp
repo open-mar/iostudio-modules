@@ -10,5 +10,5 @@ BattDcPanel::~BattDcPanel()
 }
 void BattDcPanel::InitializeData(void)
 {
-    m_PanelGraphics.SetListData((ioItem**)m_BattDcPanelGraphics, 6);
+    m_PanelGraphics.SetListData((ioItem**)m_BattDcPanelGraphics, 7);
 }

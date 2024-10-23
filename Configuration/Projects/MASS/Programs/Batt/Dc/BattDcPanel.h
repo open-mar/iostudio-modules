@@ -11,11 +11,12 @@ public:
     virtual void InitializeData(void);
     ioLabel LabelBatt;
     ioTextBlock InstrVolt;
-    ioLabel LabelVolt;
     ioTextBlock InstrAmpAvg;
+    ioTextBlock InstrSoc;
+    ioLabel LabelVolt;
     ioLabel LabelAmpAvg;
-    ioTextBlock InstrAmpDiff;
+    ioLabel LabelSoc;
 protected:
-    ioGraphics* m_BattDcPanelGraphics[6];
+    ioGraphics* m_BattDcPanelGraphics[7];
 };
 #endif // __BATTDCPANEL_H

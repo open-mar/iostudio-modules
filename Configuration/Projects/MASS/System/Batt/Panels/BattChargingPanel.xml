@@ -2,36 +2,46 @@
 <PanelClass Name="BattChargingPanel">
     <Description>Panel for charging of 12V and 24V batteries</Description>
     <PanelObject ParentGlobalID="Batt" Background="ContainerBackground">
-        <RowDefinition />
+        <RowDefinition Size="24" />
+        <RowDefinition Size="90" />
+        <RowDefinition Size="40" />
+        <RowDefinition Size="40" />
+        <ColumnDefinition Size="230" />
         <ColumnDefinition />
-        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
+        <Grid Row="1" Column="1">
             <ioLabel LocalID="LabelBattCharging">
                 <Properties Text="CHARGING" TypeLabel="Medium" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
-            <ioPanelGrid LocalID="GridChargerInput" Orientation="Horizontal">
-                <ioTextBlock LocalID="InstrChargeInputVolt" HorizontalAlignment="Left" Width="200">
-                    <Properties Text="220.1" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="ExtraHuge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="Left" />
-                </ioTextBlock>
-                <ioLabel LocalID="LabelChargeInputVolt" VerticalAlignment="Bottom" Height="32" Margin="8,0,0,9">
-                    <Properties Text="Input voltage [VAC]" TypeLabel="Medium" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
-                </ioLabel>
-            </ioPanelGrid>
-            <ioPanelGrid LocalID="GridChargeActive12V" HorizontalAlignment="Center" Width="200" Orientation="Horizontal">
-                <ioShape LocalID="ShapeActiveCharge12V">
-                    <Properties TypeShape="Automation" ShapeID="On" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertRunning" />
-                </ioShape>
-                <ioLabel LocalID="LabelActiveCharge12V" Margin="8,0,0,0">
-                    <Properties Text="12V charging is active" TypeLabel="Medium" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
-            </ioPanelGrid>
-            <ioPanelGrid LocalID="GridChargeActive24V" HorizontalAlignment="Center" Width="200" Margin="0,8,0,0" Orientation="Horizontal">
-                <ioShape LocalID="ShapeActiveCharge24V">
-                    <Properties TypeShape="Automation" ShapeID="On" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertRunning" />
-                </ioShape>
-                <ioLabel LocalID="LabelActiveCharge24V" Margin="8,0,0,0">
-                    <Properties Text="24V charging is active" TypeLabel="Medium" TypeColor="ElementActive" TextWrapping="NoWrap" />
-                </ioLabel>
-            </ioPanelGrid>
+        </Grid>
+        <Grid Row="2" Column="1">
+            <ioTextBlock LocalID="InstrChargeInputVolt" VerticalAlignment="Bottom" Height="95" Margin="0,0,16,0">
+                <Properties Text="220.1" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="ExtraHuge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+            </ioTextBlock>
+        </Grid>
+        <Grid Row="3" Column="1">
+            <ioShape LocalID="ShapeActiveCharge12V" HorizontalAlignment="Right" Width="36" Margin="0,0,16,4">
+                <Properties TypeShape="Automation" ShapeID="On" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertRunning" />
+            </ioShape>
+        </Grid>
+        <Grid Row="4" Column="1">
+            <ioShape LocalID="ShapeActiveCharge24V" HorizontalAlignment="Right" Width="36" Margin="0,0,16,4">
+                <Properties TypeShape="Automation" ShapeID="On" ScaleX="1.0" ScaleY="1.0" TypeColor="AlertRunning" />
+            </ioShape>
+        </Grid>
+        <Grid Row="2" Column="2">
+            <ioLabel LocalID="LabelChargeInputVolt" VerticalAlignment="Bottom" Height="32">
+                <Properties Text="Input voltage [VAC]" TypeLabel="Medium" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
+        </Grid>
+        <Grid Row="3" Column="2">
+            <ioLabel LocalID="LabelActiveCharge12V" VerticalAlignment="Bottom" Height="32">
+                <Properties Text="12V charging is active" TypeLabel="Medium" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
+        </Grid>
+        <Grid Row="4" Column="2">
+            <ioLabel LocalID="LabelActiveCharge24V" VerticalAlignment="Bottom" Height="32">
+                <Properties Text="24V charging is active" TypeLabel="Medium" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
         </Grid>
     </PanelObject>
 </PanelClass>

@@ -12,10 +12,10 @@ public:
     virtual void InitializeData(void);
     ioLabel LabelBattCharging;
     ioTextBlock InstrChargeInputVolt;
-    ioLabel LabelChargeInputVolt;
     ioShape ShapeActiveCharge12V;
-    ioLabel LabelActiveCharge12V;
     ioShape ShapeActiveCharge24V;
+    ioLabel LabelChargeInputVolt;
+    ioLabel LabelActiveCharge12V;
     ioLabel LabelActiveCharge24V;
 protected:
     ioGraphics* m_BattChargingPanelGraphics[7];

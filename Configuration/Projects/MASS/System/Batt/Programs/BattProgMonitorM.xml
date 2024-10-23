@@ -31,6 +31,9 @@
             <GraphicsData NameClass="BattDcPanelDc12" GlobalID="Batt.Dc12.InstrAmpAvg">
                 <DataAssigned NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattAmpOut" />
             </GraphicsData>
+            <GraphicsData NameClass="BattDcPanelDc12" GlobalID="Batt.Dc12.InstrSoc">
+                <DataAssigned NameClass="BattDcDataDc12" GlobalID="Batt.Dc12.BattSoc" />
+            </GraphicsData>
         </RxTxData>
         <RxTxData NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.ResponseDcData">
             <GraphicsData NameClass="BattDcPanelDc24" GlobalID="Batt.Dc24.InstrVolt">
@@ -38,6 +41,9 @@
             </GraphicsData>
             <GraphicsData NameClass="BattDcPanelDc24" GlobalID="Batt.Dc24.InstrAmpAvg">
                 <DataAssigned NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattAmpOut" />
+            </GraphicsData>
+            <GraphicsData NameClass="BattDcPanelDc24" GlobalID="Batt.Dc24.InstrSoc">
+                <DataAssigned NameClass="BattDcDataDc24" GlobalID="Batt.Dc24.BattSoc" />
             </GraphicsData>
         </RxTxData>
         <RxTxData NameClass="BattData" GlobalID="Batt.ResponseBattData">

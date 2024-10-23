@@ -27,9 +27,10 @@ BattDcData::~BattDcData()
 }
 void BattDcData::InitializeData(void)
 {
-    SetListData(m_ListData, 9);
+    SetListData(m_ListData, 10);
     ResetItem();
-    ResponseDcData.SetVariablesBuffer(m_ResponseDcDataVars, 2);
+    ResponseDcData.SetVariablesBuffer(m_ResponseDcDataVars, 3);
     ResponseDcData.AddVariable(&BattVolt);
     ResponseDcData.AddVariable(&BattAmpOut);
+    ResponseDcData.AddVariable(&BattSoc);
 }
