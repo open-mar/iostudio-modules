@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataList Name="DataCharge">
+    <Description>Data for Victron chargers</Description>
+    <DataListObject ParentGlobalID="Victron.Charge">
+        <Variable LocalID="VoltInputAc" TypeNum="Float" Unit="VAC" Decimals="1" Min="0.0" Max="300.0">0.0</Variable>
+        <Variable LocalID="VoltOutputDc" TypeNum="Float" Unit="VDC" Decimals="2" Min="0.00" Max="60.00">0.0</Variable>
+        <Variable LocalID="IsOutputActive" TypeNum="Bool" Unit="VDC">TRUE</Variable>
+    </DataListObject>
+</DataList>

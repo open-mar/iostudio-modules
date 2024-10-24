@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectProperties Name="Power">
+    <Description>Library project for power devices, panels and programs</Description>
+    <Properties>
+        <Variable LocalID="Version" TypeNum="String">1.0.0.1</Variable>
+        <Variable LocalID="DateEdit" TypeNum="Date">18.SEP.2024</Variable>
+        <Variable LocalID="Author" TypeNum="String">OMI</Variable>
+    </Properties>
+</ProjectProperties>

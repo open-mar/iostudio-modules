@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProgramClass Name="VictronMonitor">
+    <Description>Program for monitoring of battery data</Description>
+    <DataItemsCollection>
+        <DataListClasses Name="Victron::VictronData" NameObject="MainData">
+            <Item NameClass="VictronData" NameObject="MainData" />
+        </DataListClasses>
+    </DataItemsCollection>
+    <PanelsCollection>
+        <PanelInProgram Name="Victron::VictronPanel" NameObject="MainPanel">
+            <Item NameClass="VictronPanel" NameObject="MainPanel" />
+        </PanelInProgram>
+    </PanelsCollection>
+    <InternalFunctions>
+    </InternalFunctions>
+    <Sequences>
+    </Sequences>
+</ProgramClass>

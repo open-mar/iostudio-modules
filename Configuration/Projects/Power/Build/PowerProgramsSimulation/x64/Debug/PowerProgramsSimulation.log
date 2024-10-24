@@ -1,0 +1,9 @@
+﻿  pch.cpp
+  ioSystemData.cpp
+  ioSystemGraphics.cpp
+  ioSystemPorts.cpp
+  DataDcDc.cpp
+  OrionTrSmartIso12_24_10.cpp
+  PowerProgramsSimulation.cpp
+  Generating Code...
+  PowerProgramsSimulation.vcxproj -> C:\SW_IO\ioEmbedded\ioStudioAutonomy\MassSimulator\bin\x64\Debug\PowerProgramsSimulation.lib

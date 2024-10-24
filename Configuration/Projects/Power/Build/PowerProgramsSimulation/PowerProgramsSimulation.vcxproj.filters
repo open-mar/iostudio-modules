@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Programs">
+      <UniqueIdentifier>{f3a02955-8a40-4e7d-995f-881f4b9440c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation">
+      <UniqueIdentifier>{ae701f59-cffc-4f6d-82ad-5c73084546de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PowerProgramsSimulation">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Simulation\Victron">
+      <UniqueIdentifier>{51c3eaab-4521-4992-b623-a45a8d84e704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation\Victron\DcDc">
+      <UniqueIdentifier>{cebaa1c6-4f8a-43bb-910d-04a7057a95bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Victron">
+      <UniqueIdentifier>{8a27a57b-184a-4a64-88fb-16059e69d8d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Victron\DcDc">
+      <UniqueIdentifier>{48eb9f4e-ac4e-45ac-bfd4-ba967139f6d9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Programs\ioSystemData.h">
+      <Filter>Programs</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>PowerProgramsSimulation</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>PowerProgramsSimulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\ioSystemGraphics.h">
+      <Filter>Programs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\ioSystemPorts.h">
+      <Filter>Programs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Simulation\Victron\DcDc\OrionTrSmartIso12_24_10.h">
+      <Filter>Simulation\Victron\DcDc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Victron\DcDc\DataDcDc.h">
+      <Filter>Programs\Victron\DcDc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>PowerProgramsSimulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\ioSystemData.cpp">
+      <Filter>Programs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\ioSystemGraphics.cpp">
+      <Filter>Programs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\ioSystemPorts.cpp">
+      <Filter>Programs</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerProgramsSimulation.cpp">
+      <Filter>PowerProgramsSimulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Simulation\Victron\DcDc\OrionTrSmartIso12_24_10.cpp">
+      <Filter>Simulation\Victron\DcDc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Victron\DcDc\DataDcDc.cpp">
+      <Filter>Programs\Victron\DcDc</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

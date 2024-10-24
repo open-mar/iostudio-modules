@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PanelClass Name="VictronPanel">
+    <Description>Operation panel for Victron devices</Description>
+    <PanelObject ParentGlobalID="Batt" Background="ContainerBackground">
+        <RowDefinition />
+        <RowDefinition />
+        <ColumnDefinition />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1">
+        </Grid>
+        <Grid Row="1" Column="2">
+        </Grid>
+        <Grid Row="2" Column="1">
+        </Grid>
+        <Grid Row="2" Column="2">
+        </Grid>
+    </PanelObject>
+</PanelClass>

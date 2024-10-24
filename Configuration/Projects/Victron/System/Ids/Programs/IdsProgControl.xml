@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ProgramClass Name="IdsProgControl">
-    <Description>Control program for Victron system</Description>
-    <Sequences />
-</ProgramClass>

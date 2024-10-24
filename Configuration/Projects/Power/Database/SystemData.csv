@@ -1,0 +1,7 @@
+DUID;Parent;LocalID;TypeData
+1;Victron.DcDc;VoltInput;Variable
+2;Victron.DcDc;VoltOutput;Variable
+3;Victron.DcDc;IsOutputActive;Variable
+4;Victron.Charge;VoltInputAc;Variable
+5;Victron.Charge;VoltOutputDc;Variable
+6;Victron.Charge;IsOutputActive;Variable

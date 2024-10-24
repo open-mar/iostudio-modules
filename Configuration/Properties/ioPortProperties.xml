@@ -86,6 +86,13 @@
                 <DevicePort Name="220VAC"/>
             </NetworkPorts>
         </NetworkType>
+        <NetworkType Name="PowerData">
+            <Properties>
+            </Properties>
+            <NetworkPorts>
+                <DevicePort Name="VeDirect"/>
+            </NetworkPorts>
+        </NetworkType>
     </NetworkTypesCollection>
 
     <ProgramPortTypesCollection>

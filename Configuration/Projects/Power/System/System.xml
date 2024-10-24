@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<System SysID="Power">
+    <NetworkCollection>
+        <Network NetID="NetEthernet" TypeNetwork="Ethernet">
+            <Description>Operational wired network for power devices</Description>
+            <NetworkData SubID="192.168.10">
+                <Properties>
+                    <Variable LocalID="NetAddr" TypeNum="String">192.168.10</Variable>
+                </Properties>
+                <PortNetCollection>
+                    <PortNetDevice ParentGlobalID="Victron" DevID="CerboGx" PortID="10">
+                        <PortNetProgram PortID="502" Protocol="Modbus" />
+                    </PortNetDevice>
+                    <PortNetDevice ParentGlobalID="Ids" DevID="PlcIpc" PortID="11">
+                        <PortNetProgram PortID="54374" Protocol="System" />
+                    </PortNetDevice>
+                    <PortNetDevice ParentGlobalID="Ids" DevID="Op" PortID="12">
+                        <PortNetProgram PortID="54374" Protocol="System" />
+                    </PortNetDevice>
+                </PortNetCollection>
+            </NetworkData>
+        </Network>
+        <Network NetID="NetWiFi" TypeNetwork="Ethernet">
+            <Description>Operational wireless network for power devices</Description>
+            <NetworkData SubID="192.168.11">
+                <Properties>
+                    <Variable LocalID="NetAddr" TypeNum="String">192.168.11</Variable>
+                </Properties>
+                <PortNetCollection>
+                    <PortNetDevice ParentGlobalID="Victron.Io" DevID="CerboGx" PortID="10">
+                        <PortNetProgram PortID="502" Protocol="Modbus" />
+                    </PortNetDevice>
+                    <PortNetDevice ParentGlobalID="Ids" DevID="PlcIpc" PortID="11">
+                        <PortNetProgram PortID="54374" Protocol="System" />
+                    </PortNetDevice>
+                    <PortNetDevice ParentGlobalID="Ids" DevID="Op" PortID="12">
+                        <PortNetProgram PortID="54374" Protocol="System" />
+                    </PortNetDevice>
+                </PortNetCollection>
+            </NetworkData>
+        </Network>
+        <Network NetID="NetVeDirect" TypeNetwork="PowerData">
+            <Description>Power data network for Victron devices</Description>
+            <NetworkData SubID="Io">
+                <PortNetCollection>
+                    <PortNetDevice ParentGlobalID="Victron.Io" DevID="VeDirectToUsbA" PortID="VeDirect"/>
+                    <PortNetDevice ParentGlobalID="Victron.Io" DevID="VeDirectToUsbB" PortID="VeDirect"/>
+                    <PortNetDevice ParentGlobalID="Victron.Io" DevID="CerboGx" PortID="VeDirect1"/>
+                    <PortNetDevice ParentGlobalID="Victron.Io" DevID="CerboGx" PortID="VeDirect2"/>
+                    <PortNetDevice ParentGlobalID="Victron.Io" DevID="CerboGx" PortID="VeDirect3"/>
+                    <PortNetDevice ParentGlobalID="Victron.Charge" DevID="SmartIp43_12V_50_2" PortID="VeDirect"/>
+                    <PortNetDevice ParentGlobalID="Victron.Charge" DevID="SmartIp43_12V_30_2" PortID="VeDirect"/>
+                    <PortNetDevice ParentGlobalID="Victron.Charge" DevID="OrionTrSmartIso12_24_10A" PortID="VeDirect"/>
+                    <PortNetDevice ParentGlobalID="Victron.Charge" DevID="OrionTrSmartIso12_24_10B" PortID="VeDirect"/>
+                </PortNetCollection>
+            </NetworkData>
+        </Network>
+        <Network NetID="NetAc220" TypeNetwork="Power">
+            <Description>220VAC dock power network</Description>
+            <NetworkData SubID="Dock">
+            </NetworkData>
+        </Network>
+        <Network NetID="NetDc12" TypeNetwork="Power">
+            <Description>Power network for 12VDC Lithium</Description>
+            <NetworkData SubID="Generator">
+                <PortNetCollection>
+                    <PortNetDevice ParentGlobalID="Victron.Isolate" DevID="Argofet200_3" PortID="Input"/>
+                    <PortNetDevice ParentGlobalID="MaksPower.Generator" DevID="Mp200" PortID="Out14_4V"/>
+                </PortNetCollection>
+            </NetworkData>
+            <NetworkData SubID="Consume">
+                <PortNetCollection>
+                    <PortNetDevice ParentGlobalID="Victron.Isolate" DevID="Argofet200_3" PortID="Output1"/>
+                    <PortNetDevice ParentGlobalID="MaksPower.Fuses" DevID="Mega300A" PortID="Port1"/>
+                    <PortNetDevice ParentGlobalID="MaksPower.Batteries" DevID="Ultimate150Ah1" PortID="Pos"/>
+                    <PortNetDevice ParentGlobalID="MaksPower.Batteries" DevID="Ultimate150Ah2" PortID="Pos"/>
+                    <PortNetDevice ParentGlobalID="Victron.Charge" DevID="SmartIp43_12V_50_2" PortID="Battery"/>
+                    <PortNetDevice ParentGlobalID="Victron.Charge" DevID="SmartIp43_12V_30_2" PortID="Battery"/>
+                    <PortNetDevice ParentGlobalID="BEP" DevID="Switch_275A" PortID="Input"/>
+                </PortNetCollection>
+            </NetworkData>
+            <NetworkData SubID="Motor">
+                <PortNetCollection>
+                    <PortNetDevice ParentGlobalID="Victron.Isolate" DevID="Argofet200_3" PortID="Output2"/>
+                    <PortNetDevice ParentGlobalID="MaksPower.Fuses" DevID="Mega300A" PortID="Port1"/>
+                    <PortNetDevice ParentGlobalID="BEP" DevID="Switch_275A" PortID="Input"/>
+                    <PortNetDevice ParentGlobalID="Victron" DevID="Chg12V" PortID="Output2"/>
+                    <PortNetDevice ParentGlobalID="MaksPower.Batteries" DevID="Optima50Ah" PortID="Pos"/>
+                    <PortNetDevice ParentGlobalID="Victron.Charge" DevID="SmartIp43_12V_50_2" PortID="Trickle"/>
+                    <PortNetDevice ParentGlobalID="Victron.Charge" DevID="SmartIp43_12V_30_2" PortID="Trickle"/>
+                </PortNetCollection>
+            </NetworkData>
+            <NetworkData SubID="DcDc">
+                <PortNetCollection>
+                    <PortNetDevice ParentGlobalID="Victron.Isolate" DevID="Argofet200_3" PortID="Output3"/>
+                    <PortNetDevice ParentGlobalID="Victron.DcDc" DevID="OrionTrSmartIso12_24_10A" PortID="Input"/>
+                    <PortNetDevice ParentGlobalID="Victron.DcDc" DevID="OrionTrSmartIso12_24_10B" PortID="Input"/>
+                </PortNetCollection>
+            </NetworkData>
+        </Network>
+        <Network NetID="NetDc24" TypeNetwork="Power">
+            <Description>Power network for 24VDC</Description>
+            <NetworkData SubID="Consume">
+                <PortNetCollection>
+                    <PortNetDevice ParentGlobalID="Victron.DcDc" DevID="OrionTrSmartIso12_24_10A" PortID="Output"/>
+                    <PortNetDevice ParentGlobalID="Victron.Charge" DevID="SmartIp43_24V_16_2" PortID="Battery"/>
+                    <PortNetDevice ParentGlobalID="Victron.Charge" DevID="SmartIp43_12V_25_2" PortID="Battery"/>
+                    <PortNetDevice ParentGlobalID="MaksPower.Batteries" DevID="Ultimate150Ah1" PortID="Pos"/>
+                    <PortNetDevice ParentGlobalID="BEP" DevID="Switch_275A" PortID="Input"/>
+                </PortNetCollection>
+            </NetworkData>
+            <NetworkData SubID="Motor">
+                <PortNetCollection>
+                    <PortNetDevice ParentGlobalID="Victron.DcDc" DevID="OrionTrSmartIso12_24_10B" PortID="Output"/>
+                    <PortNetDevice ParentGlobalID="MaksPower.Batteries" DevID="Optima50Ah" PortID="Pos"/>
+                    <PortNetDevice ParentGlobalID="Victron.Charge" DevID="SmartIp43_24V_16_2" PortID="Trickle"/>
+                    <PortNetDevice ParentGlobalID="Victron.Charge" DevID="SmartIp43_12V_25_2" PortID="Trickle"/>
+                    <PortNetDevice ParentGlobalID="BEP" DevID="Switch_275A" PortID="Input"/>
+                </PortNetCollection>
+            </NetworkData>
+        </Network>
+    </NetworkCollection>
+</System>

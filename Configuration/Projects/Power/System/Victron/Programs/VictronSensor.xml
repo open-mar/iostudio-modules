@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProgramClass Name="VictronSensor">
+    <Description>Sensor program for Victron devices</Description>
+    <DataItemsCollection>
+    </DataItemsCollection>
+    <InternalFunctions>
+    </InternalFunctions>
+    <Sequences>
+    </Sequences>
+</ProgramClass>
