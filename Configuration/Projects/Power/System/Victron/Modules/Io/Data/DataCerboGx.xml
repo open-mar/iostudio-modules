@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataList Name="DataCerboGx">
+    <Description>Data for Victron Cerbo GX</Description>
+    <DataListObject ParentGlobalID="Victron.Io">
+        <Method LocalID="RequestDataCgx">
+            <NumberID>Dc0Power</NumberID>
+            <NumberID>Dc0Voltage</NumberID>
+            <NumberID>Dc1Voltage</NumberID>
+            <NumberID>Dc0Current</NumberID>
+            <NumberID>Dc0Temperature</NumberID>
+            <NumberID>Dc0MidVoltage</NumberID>
+            <NumberID>Dc0MidVoltageDeviation</NumberID>
+            <NumberID>ConsumedAmphours</NumberID>
+            <NumberID>Soc</NumberID>
+        </Method>
+        <Event LocalID="ResponseDataCgx">
+            <NumberID>Dc0Power</NumberID>
+            <NumberID>Dc0Voltage</NumberID>
+            <NumberID>Dc1Voltage</NumberID>
+            <NumberID>Dc0Current</NumberID>
+            <NumberID>Dc0Temperature</NumberID>
+            <NumberID>Dc0MidVoltage</NumberID>
+            <NumberID>Dc0MidVoltageDeviation</NumberID>
+            <NumberID>ConsumedAmphours</NumberID>
+            <NumberID>Soc</NumberID>
+        </Event>
+        <Variable LocalID="Dc0Voltage" TypeNum="UInt16">120</Variable>
+        <Variable LocalID="Dc0MidVoltage" TypeNum="UInt16">0</Variable>
+        <Variable LocalID="Dc0MidVoltageDeviation" TypeNum="UInt16">0</Variable>
+        <Variable LocalID="Dc0Current" TypeNum="Int16">0</Variable>
+        <Variable LocalID="Dc0Power" TypeNum="Int16">0</Variable>
+        <Variable LocalID="Dc1Voltage" TypeNum="UInt16">0</Variable>
+        <Variable LocalID="Soc" TypeNum="UInt16">0</Variable>
+        <Variable LocalID="ConsumedAmphours" TypeNum="UInt16">0</Variable>
+        <Variable LocalID="Dc0Temperature" TypeNum="UInt16">0</Variable>
+    </DataListObject>
+</DataList>

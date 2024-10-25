@@ -5,12 +5,23 @@ namespace ioSystemNetworkNet
     public enum ioSystemDataType
     {
         Duid_NotDefined = 0,
-        Duid_Victron_Charge_VoltInputAc = 4,
-        Duid_Victron_Charge_VoltOutputDc = 5,
-        Duid_Victron_Charge_IsOutputActive = 6,
-        Duid_Victron_DcDc_VoltInput = 1,
-        Duid_Victron_DcDc_VoltOutput = 2,
-        Duid_Victron_DcDc_IsOutputActive = 3,
+        Duid_Victron_Charge_VoltInputAc = 1,
+        Duid_Victron_Charge_VoltOutputDc = 2,
+        Duid_Victron_Charge_IsOutputActive = 3,
+        Duid_Victron_DcDc_VoltInput = 4,
+        Duid_Victron_DcDc_VoltOutput = 5,
+        Duid_Victron_DcDc_IsOutputActive = 6,
+        Duid_Victron_Io_RequestDataCgx = 7,
+        Duid_Victron_Io_ResponseDataCgx = 8,
+        Duid_Victron_Io_Dc0Voltage = 9,
+        Duid_Victron_Io_Dc0MidVoltage = 15,
+        Duid_Victron_Io_Dc0MidVoltageDeviation = 16,
+        Duid_Victron_Io_Dc0Current = 10,
+        Duid_Victron_Io_Dc0Power = 11,
+        Duid_Victron_Io_Dc1Voltage = 13,
+        Duid_Victron_Io_Soc = 12,
+        Duid_Victron_Io_ConsumedAmphours = 14,
+        Duid_Victron_Io_Dc0Temperature = 17,
     } // enum
     public class ioSystemData
     {
@@ -24,6 +35,17 @@ namespace ioSystemNetworkNet
                 case ioSystemDataType.Duid_Victron_DcDc_VoltInput: return "Victron.DcDc.VoltInput";
                 case ioSystemDataType.Duid_Victron_DcDc_VoltOutput: return "Victron.DcDc.VoltOutput";
                 case ioSystemDataType.Duid_Victron_DcDc_IsOutputActive: return "Victron.DcDc.IsOutputActive";
+                case ioSystemDataType.Duid_Victron_Io_RequestDataCgx: return "Victron.Io.RequestDataCgx";
+                case ioSystemDataType.Duid_Victron_Io_ResponseDataCgx: return "Victron.Io.ResponseDataCgx";
+                case ioSystemDataType.Duid_Victron_Io_Dc0Voltage: return "Victron.Io.Dc0Voltage";
+                case ioSystemDataType.Duid_Victron_Io_Dc0MidVoltage: return "Victron.Io.Dc0MidVoltage";
+                case ioSystemDataType.Duid_Victron_Io_Dc0MidVoltageDeviation: return "Victron.Io.Dc0MidVoltageDeviation";
+                case ioSystemDataType.Duid_Victron_Io_Dc0Current: return "Victron.Io.Dc0Current";
+                case ioSystemDataType.Duid_Victron_Io_Dc0Power: return "Victron.Io.Dc0Power";
+                case ioSystemDataType.Duid_Victron_Io_Dc1Voltage: return "Victron.Io.Dc1Voltage";
+                case ioSystemDataType.Duid_Victron_Io_Soc: return "Victron.Io.Soc";
+                case ioSystemDataType.Duid_Victron_Io_ConsumedAmphours: return "Victron.Io.ConsumedAmphours";
+                case ioSystemDataType.Duid_Victron_Io_Dc0Temperature: return "Victron.Io.Dc0Temperature";
             } // switch
             return string.Empty;
         }
@@ -37,6 +59,17 @@ namespace ioSystemNetworkNet
                 case "Victron.DcDc.VoltInput": return ioSystemDataType.Duid_Victron_DcDc_VoltInput;
                 case "Victron.DcDc.VoltOutput": return ioSystemDataType.Duid_Victron_DcDc_VoltOutput;
                 case "Victron.DcDc.IsOutputActive": return ioSystemDataType.Duid_Victron_DcDc_IsOutputActive;
+                case "Victron.Io.RequestDataCgx": return ioSystemDataType.Duid_Victron_Io_RequestDataCgx;
+                case "Victron.Io.ResponseDataCgx": return ioSystemDataType.Duid_Victron_Io_ResponseDataCgx;
+                case "Victron.Io.Dc0Voltage": return ioSystemDataType.Duid_Victron_Io_Dc0Voltage;
+                case "Victron.Io.Dc0MidVoltage": return ioSystemDataType.Duid_Victron_Io_Dc0MidVoltage;
+                case "Victron.Io.Dc0MidVoltageDeviation": return ioSystemDataType.Duid_Victron_Io_Dc0MidVoltageDeviation;
+                case "Victron.Io.Dc0Current": return ioSystemDataType.Duid_Victron_Io_Dc0Current;
+                case "Victron.Io.Dc0Power": return ioSystemDataType.Duid_Victron_Io_Dc0Power;
+                case "Victron.Io.Dc1Voltage": return ioSystemDataType.Duid_Victron_Io_Dc1Voltage;
+                case "Victron.Io.Soc": return ioSystemDataType.Duid_Victron_Io_Soc;
+                case "Victron.Io.ConsumedAmphours": return ioSystemDataType.Duid_Victron_Io_ConsumedAmphours;
+                case "Victron.Io.Dc0Temperature": return ioSystemDataType.Duid_Victron_Io_Dc0Temperature;
             } // switch
             return ioSystemDataType.Duid_NotDefined;
         }

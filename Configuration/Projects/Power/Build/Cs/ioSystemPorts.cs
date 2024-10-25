@@ -5,12 +5,50 @@ namespace ioSystemNetworkNet
     public enum ioSystemPortsType
     {
         Nuid_NotDefined = 0,
-        Nuid_NetEthernet_192_168_10_Batt_CerboGx_10 = 1,
-        Nuid_NetEthernet_192_168_10_Ids_C6015_11 = 2,
+        Nuid_NetEthernet_192_168_10_Victron_CerboGx_10 = 1,
+        Nuid_NetEthernet_192_168_10_Ids_PlcIpc_11 = 2,
         Nuid_NetEthernet_192_168_10_Ids_Op_12 = 3,
-        Nuid_NetWiFi_192_168_11_Batt_CerboGx_10 = 4,
-        Nuid_NetWiFi_192_168_11_Ids_C6015_11 = 5,
+        Nuid_NetWiFi_192_168_11_Victron_Io_CerboGx_10 = 4,
+        Nuid_NetWiFi_192_168_11_Ids_PlcIpc_11 = 5,
         Nuid_NetWiFi_192_168_11_Ids_Op_12 = 6,
+        Nuid_NetVeDirect_Io_Victron_Io_VeDirectToUsbA_VeDirect = 7,
+        Nuid_NetVeDirect_Io_Victron_Io_VeDirectToUsbB_VeDirect = 8,
+        Nuid_NetVeDirect_Io_Victron_Io_CerboGx_VeDirect1 = 9,
+        Nuid_NetVeDirect_Io_Victron_Io_CerboGx_VeDirect2 = 10,
+        Nuid_NetVeDirect_Io_Victron_Io_CerboGx_VeDirect3 = 11,
+        Nuid_NetVeDirect_Io_Victron_Charge_SmartIp43_12V_50_2_VeDirect = 12,
+        Nuid_NetVeDirect_Io_Victron_Charge_SmartIp43_12V_30_2_VeDirect = 13,
+        Nuid_NetVeDirect_Io_Victron_Charge_OrionTrSmartIso12_24_10A_VeDirect = 14,
+        Nuid_NetVeDirect_Io_Victron_Charge_OrionTrSmartIso12_24_10B_VeDirect = 15,
+        Nuid_NetDc12_Generator_Victron_Isolate_Argofet200_3_Input = 16,
+        Nuid_NetDc12_Generator_MaksPower_Generator_Mp200_Out14_4V = 17,
+        Nuid_NetDc12_Consume_Victron_Isolate_Argofet200_3_Output1 = 18,
+        Nuid_NetDc12_Consume_MaksPower_Fuses_Mega300A_Port1 = 19,
+        Nuid_NetDc12_Consume_MaksPower_Batteries_Ultimate150Ah1_Pos = 20,
+        Nuid_NetDc12_Consume_MaksPower_Batteries_Ultimate150Ah2_Pos = 21,
+        Nuid_NetDc12_Consume_Victron_Charge_SmartIp43_12V_50_2_Battery = 22,
+        Nuid_NetDc12_Consume_Victron_Charge_SmartIp43_12V_30_2_Battery = 23,
+        Nuid_NetDc12_Consume_BEP_Switch_275A_Input = 24,
+        Nuid_NetDc12_Motor_Victron_Isolate_Argofet200_3_Output2 = 25,
+        Nuid_NetDc12_Motor_MaksPower_Fuses_Mega300A_Port1 = 26,
+        Nuid_NetDc12_Motor_BEP_Switch_275A_Input = 27,
+        Nuid_NetDc12_Motor_Victron_Chg12V_Output2 = 28,
+        Nuid_NetDc12_Motor_MaksPower_Batteries_Optima50Ah_Pos = 29,
+        Nuid_NetDc12_Motor_Victron_Charge_SmartIp43_12V_50_2_Trickle = 30,
+        Nuid_NetDc12_Motor_Victron_Charge_SmartIp43_12V_30_2_Trickle = 31,
+        Nuid_NetDc12_DcDc_Victron_Isolate_Argofet200_3_Output3 = 32,
+        Nuid_NetDc12_DcDc_Victron_DcDc_OrionTrSmartIso12_24_10A_Input = 33,
+        Nuid_NetDc12_DcDc_Victron_DcDc_OrionTrSmartIso12_24_10B_Input = 34,
+        Nuid_NetDc24_Consume_Victron_DcDc_OrionTrSmartIso12_24_10A_Output = 35,
+        Nuid_NetDc24_Consume_Victron_Charge_SmartIp43_24V_16_2_Battery = 36,
+        Nuid_NetDc24_Consume_Victron_Charge_SmartIp43_12V_25_2_Battery = 37,
+        Nuid_NetDc24_Consume_MaksPower_Batteries_Ultimate150Ah1_Pos = 38,
+        Nuid_NetDc24_Consume_BEP_Switch_275A_Input = 39,
+        Nuid_NetDc24_Motor_Victron_DcDc_OrionTrSmartIso12_24_10B_Output = 40,
+        Nuid_NetDc24_Motor_MaksPower_Batteries_Optima50Ah_Pos = 41,
+        Nuid_NetDc24_Motor_Victron_Charge_SmartIp43_24V_16_2_Trickle = 42,
+        Nuid_NetDc24_Motor_Victron_Charge_SmartIp43_12V_25_2_Trickle = 43,
+        Nuid_NetDc24_Motor_BEP_Switch_275A_Input = 44,
     } // enum
     public class ioSystemPorts
     {
@@ -18,12 +56,50 @@ namespace ioSystemNetworkNet
         {
             switch (nuid)
             {
-                case ioSystemPortsType.Nuid_NetEthernet_192_168_10_Batt_CerboGx_10: return "NetEthernet.192.168.10.Batt.CerboGx.10";
-                case ioSystemPortsType.Nuid_NetEthernet_192_168_10_Ids_C6015_11: return "NetEthernet.192.168.10.Ids.C6015.11";
+                case ioSystemPortsType.Nuid_NetEthernet_192_168_10_Victron_CerboGx_10: return "NetEthernet.192.168.10.Victron.CerboGx.10";
+                case ioSystemPortsType.Nuid_NetEthernet_192_168_10_Ids_PlcIpc_11: return "NetEthernet.192.168.10.Ids.PlcIpc.11";
                 case ioSystemPortsType.Nuid_NetEthernet_192_168_10_Ids_Op_12: return "NetEthernet.192.168.10.Ids.Op.12";
-                case ioSystemPortsType.Nuid_NetWiFi_192_168_11_Batt_CerboGx_10: return "NetWiFi.192.168.11.Batt.CerboGx.10";
-                case ioSystemPortsType.Nuid_NetWiFi_192_168_11_Ids_C6015_11: return "NetWiFi.192.168.11.Ids.C6015.11";
+                case ioSystemPortsType.Nuid_NetWiFi_192_168_11_Victron_Io_CerboGx_10: return "NetWiFi.192.168.11.Victron.Io.CerboGx.10";
+                case ioSystemPortsType.Nuid_NetWiFi_192_168_11_Ids_PlcIpc_11: return "NetWiFi.192.168.11.Ids.PlcIpc.11";
                 case ioSystemPortsType.Nuid_NetWiFi_192_168_11_Ids_Op_12: return "NetWiFi.192.168.11.Ids.Op.12";
+                case ioSystemPortsType.Nuid_NetVeDirect_Io_Victron_Io_VeDirectToUsbA_VeDirect: return "NetVeDirect.Io.Victron.Io.VeDirectToUsbA.VeDirect";
+                case ioSystemPortsType.Nuid_NetVeDirect_Io_Victron_Io_VeDirectToUsbB_VeDirect: return "NetVeDirect.Io.Victron.Io.VeDirectToUsbB.VeDirect";
+                case ioSystemPortsType.Nuid_NetVeDirect_Io_Victron_Io_CerboGx_VeDirect1: return "NetVeDirect.Io.Victron.Io.CerboGx.VeDirect1";
+                case ioSystemPortsType.Nuid_NetVeDirect_Io_Victron_Io_CerboGx_VeDirect2: return "NetVeDirect.Io.Victron.Io.CerboGx.VeDirect2";
+                case ioSystemPortsType.Nuid_NetVeDirect_Io_Victron_Io_CerboGx_VeDirect3: return "NetVeDirect.Io.Victron.Io.CerboGx.VeDirect3";
+                case ioSystemPortsType.Nuid_NetVeDirect_Io_Victron_Charge_SmartIp43_12V_50_2_VeDirect: return "NetVeDirect.Io.Victron.Charge.SmartIp43_12V_50_2.VeDirect";
+                case ioSystemPortsType.Nuid_NetVeDirect_Io_Victron_Charge_SmartIp43_12V_30_2_VeDirect: return "NetVeDirect.Io.Victron.Charge.SmartIp43_12V_30_2.VeDirect";
+                case ioSystemPortsType.Nuid_NetVeDirect_Io_Victron_Charge_OrionTrSmartIso12_24_10A_VeDirect: return "NetVeDirect.Io.Victron.Charge.OrionTrSmartIso12_24_10A.VeDirect";
+                case ioSystemPortsType.Nuid_NetVeDirect_Io_Victron_Charge_OrionTrSmartIso12_24_10B_VeDirect: return "NetVeDirect.Io.Victron.Charge.OrionTrSmartIso12_24_10B.VeDirect";
+                case ioSystemPortsType.Nuid_NetDc12_Generator_Victron_Isolate_Argofet200_3_Input: return "NetDc12.Generator.Victron.Isolate.Argofet200_3.Input";
+                case ioSystemPortsType.Nuid_NetDc12_Generator_MaksPower_Generator_Mp200_Out14_4V: return "NetDc12.Generator.MaksPower.Generator.Mp200.Out14_4V";
+                case ioSystemPortsType.Nuid_NetDc12_Consume_Victron_Isolate_Argofet200_3_Output1: return "NetDc12.Consume.Victron.Isolate.Argofet200_3.Output1";
+                case ioSystemPortsType.Nuid_NetDc12_Consume_MaksPower_Fuses_Mega300A_Port1: return "NetDc12.Consume.MaksPower.Fuses.Mega300A.Port1";
+                case ioSystemPortsType.Nuid_NetDc12_Consume_MaksPower_Batteries_Ultimate150Ah1_Pos: return "NetDc12.Consume.MaksPower.Batteries.Ultimate150Ah1.Pos";
+                case ioSystemPortsType.Nuid_NetDc12_Consume_MaksPower_Batteries_Ultimate150Ah2_Pos: return "NetDc12.Consume.MaksPower.Batteries.Ultimate150Ah2.Pos";
+                case ioSystemPortsType.Nuid_NetDc12_Consume_Victron_Charge_SmartIp43_12V_50_2_Battery: return "NetDc12.Consume.Victron.Charge.SmartIp43_12V_50_2.Battery";
+                case ioSystemPortsType.Nuid_NetDc12_Consume_Victron_Charge_SmartIp43_12V_30_2_Battery: return "NetDc12.Consume.Victron.Charge.SmartIp43_12V_30_2.Battery";
+                case ioSystemPortsType.Nuid_NetDc12_Consume_BEP_Switch_275A_Input: return "NetDc12.Consume.BEP.Switch_275A.Input";
+                case ioSystemPortsType.Nuid_NetDc12_Motor_Victron_Isolate_Argofet200_3_Output2: return "NetDc12.Motor.Victron.Isolate.Argofet200_3.Output2";
+                case ioSystemPortsType.Nuid_NetDc12_Motor_MaksPower_Fuses_Mega300A_Port1: return "NetDc12.Motor.MaksPower.Fuses.Mega300A.Port1";
+                case ioSystemPortsType.Nuid_NetDc12_Motor_BEP_Switch_275A_Input: return "NetDc12.Motor.BEP.Switch_275A.Input";
+                case ioSystemPortsType.Nuid_NetDc12_Motor_Victron_Chg12V_Output2: return "NetDc12.Motor.Victron.Chg12V.Output2";
+                case ioSystemPortsType.Nuid_NetDc12_Motor_MaksPower_Batteries_Optima50Ah_Pos: return "NetDc12.Motor.MaksPower.Batteries.Optima50Ah.Pos";
+                case ioSystemPortsType.Nuid_NetDc12_Motor_Victron_Charge_SmartIp43_12V_50_2_Trickle: return "NetDc12.Motor.Victron.Charge.SmartIp43_12V_50_2.Trickle";
+                case ioSystemPortsType.Nuid_NetDc12_Motor_Victron_Charge_SmartIp43_12V_30_2_Trickle: return "NetDc12.Motor.Victron.Charge.SmartIp43_12V_30_2.Trickle";
+                case ioSystemPortsType.Nuid_NetDc12_DcDc_Victron_Isolate_Argofet200_3_Output3: return "NetDc12.DcDc.Victron.Isolate.Argofet200_3.Output3";
+                case ioSystemPortsType.Nuid_NetDc12_DcDc_Victron_DcDc_OrionTrSmartIso12_24_10A_Input: return "NetDc12.DcDc.Victron.DcDc.OrionTrSmartIso12_24_10A.Input";
+                case ioSystemPortsType.Nuid_NetDc12_DcDc_Victron_DcDc_OrionTrSmartIso12_24_10B_Input: return "NetDc12.DcDc.Victron.DcDc.OrionTrSmartIso12_24_10B.Input";
+                case ioSystemPortsType.Nuid_NetDc24_Consume_Victron_DcDc_OrionTrSmartIso12_24_10A_Output: return "NetDc24.Consume.Victron.DcDc.OrionTrSmartIso12_24_10A.Output";
+                case ioSystemPortsType.Nuid_NetDc24_Consume_Victron_Charge_SmartIp43_24V_16_2_Battery: return "NetDc24.Consume.Victron.Charge.SmartIp43_24V_16_2.Battery";
+                case ioSystemPortsType.Nuid_NetDc24_Consume_Victron_Charge_SmartIp43_12V_25_2_Battery: return "NetDc24.Consume.Victron.Charge.SmartIp43_12V_25_2.Battery";
+                case ioSystemPortsType.Nuid_NetDc24_Consume_MaksPower_Batteries_Ultimate150Ah1_Pos: return "NetDc24.Consume.MaksPower.Batteries.Ultimate150Ah1.Pos";
+                case ioSystemPortsType.Nuid_NetDc24_Consume_BEP_Switch_275A_Input: return "NetDc24.Consume.BEP.Switch_275A.Input";
+                case ioSystemPortsType.Nuid_NetDc24_Motor_Victron_DcDc_OrionTrSmartIso12_24_10B_Output: return "NetDc24.Motor.Victron.DcDc.OrionTrSmartIso12_24_10B.Output";
+                case ioSystemPortsType.Nuid_NetDc24_Motor_MaksPower_Batteries_Optima50Ah_Pos: return "NetDc24.Motor.MaksPower.Batteries.Optima50Ah.Pos";
+                case ioSystemPortsType.Nuid_NetDc24_Motor_Victron_Charge_SmartIp43_24V_16_2_Trickle: return "NetDc24.Motor.Victron.Charge.SmartIp43_24V_16_2.Trickle";
+                case ioSystemPortsType.Nuid_NetDc24_Motor_Victron_Charge_SmartIp43_12V_25_2_Trickle: return "NetDc24.Motor.Victron.Charge.SmartIp43_12V_25_2.Trickle";
+                case ioSystemPortsType.Nuid_NetDc24_Motor_BEP_Switch_275A_Input: return "NetDc24.Motor.BEP.Switch_275A.Input";
             } // switch
             return string.Empty;
         }
@@ -31,12 +107,50 @@ namespace ioSystemNetworkNet
         {
             switch (globalID)
             {
-                case "NetEthernet.192.168.10.Batt.CerboGx.10": return ioSystemPortsType.Nuid_NetEthernet_192_168_10_Batt_CerboGx_10;
-                case "NetEthernet.192.168.10.Ids.C6015.11": return ioSystemPortsType.Nuid_NetEthernet_192_168_10_Ids_C6015_11;
+                case "NetEthernet.192.168.10.Victron.CerboGx.10": return ioSystemPortsType.Nuid_NetEthernet_192_168_10_Victron_CerboGx_10;
+                case "NetEthernet.192.168.10.Ids.PlcIpc.11": return ioSystemPortsType.Nuid_NetEthernet_192_168_10_Ids_PlcIpc_11;
                 case "NetEthernet.192.168.10.Ids.Op.12": return ioSystemPortsType.Nuid_NetEthernet_192_168_10_Ids_Op_12;
-                case "NetWiFi.192.168.11.Batt.CerboGx.10": return ioSystemPortsType.Nuid_NetWiFi_192_168_11_Batt_CerboGx_10;
-                case "NetWiFi.192.168.11.Ids.C6015.11": return ioSystemPortsType.Nuid_NetWiFi_192_168_11_Ids_C6015_11;
+                case "NetWiFi.192.168.11.Victron.Io.CerboGx.10": return ioSystemPortsType.Nuid_NetWiFi_192_168_11_Victron_Io_CerboGx_10;
+                case "NetWiFi.192.168.11.Ids.PlcIpc.11": return ioSystemPortsType.Nuid_NetWiFi_192_168_11_Ids_PlcIpc_11;
                 case "NetWiFi.192.168.11.Ids.Op.12": return ioSystemPortsType.Nuid_NetWiFi_192_168_11_Ids_Op_12;
+                case "NetVeDirect.Io.Victron.Io.VeDirectToUsbA.VeDirect": return ioSystemPortsType.Nuid_NetVeDirect_Io_Victron_Io_VeDirectToUsbA_VeDirect;
+                case "NetVeDirect.Io.Victron.Io.VeDirectToUsbB.VeDirect": return ioSystemPortsType.Nuid_NetVeDirect_Io_Victron_Io_VeDirectToUsbB_VeDirect;
+                case "NetVeDirect.Io.Victron.Io.CerboGx.VeDirect1": return ioSystemPortsType.Nuid_NetVeDirect_Io_Victron_Io_CerboGx_VeDirect1;
+                case "NetVeDirect.Io.Victron.Io.CerboGx.VeDirect2": return ioSystemPortsType.Nuid_NetVeDirect_Io_Victron_Io_CerboGx_VeDirect2;
+                case "NetVeDirect.Io.Victron.Io.CerboGx.VeDirect3": return ioSystemPortsType.Nuid_NetVeDirect_Io_Victron_Io_CerboGx_VeDirect3;
+                case "NetVeDirect.Io.Victron.Charge.SmartIp43_12V_50_2.VeDirect": return ioSystemPortsType.Nuid_NetVeDirect_Io_Victron_Charge_SmartIp43_12V_50_2_VeDirect;
+                case "NetVeDirect.Io.Victron.Charge.SmartIp43_12V_30_2.VeDirect": return ioSystemPortsType.Nuid_NetVeDirect_Io_Victron_Charge_SmartIp43_12V_30_2_VeDirect;
+                case "NetVeDirect.Io.Victron.Charge.OrionTrSmartIso12_24_10A.VeDirect": return ioSystemPortsType.Nuid_NetVeDirect_Io_Victron_Charge_OrionTrSmartIso12_24_10A_VeDirect;
+                case "NetVeDirect.Io.Victron.Charge.OrionTrSmartIso12_24_10B.VeDirect": return ioSystemPortsType.Nuid_NetVeDirect_Io_Victron_Charge_OrionTrSmartIso12_24_10B_VeDirect;
+                case "NetDc12.Generator.Victron.Isolate.Argofet200_3.Input": return ioSystemPortsType.Nuid_NetDc12_Generator_Victron_Isolate_Argofet200_3_Input;
+                case "NetDc12.Generator.MaksPower.Generator.Mp200.Out14_4V": return ioSystemPortsType.Nuid_NetDc12_Generator_MaksPower_Generator_Mp200_Out14_4V;
+                case "NetDc12.Consume.Victron.Isolate.Argofet200_3.Output1": return ioSystemPortsType.Nuid_NetDc12_Consume_Victron_Isolate_Argofet200_3_Output1;
+                case "NetDc12.Consume.MaksPower.Fuses.Mega300A.Port1": return ioSystemPortsType.Nuid_NetDc12_Consume_MaksPower_Fuses_Mega300A_Port1;
+                case "NetDc12.Consume.MaksPower.Batteries.Ultimate150Ah1.Pos": return ioSystemPortsType.Nuid_NetDc12_Consume_MaksPower_Batteries_Ultimate150Ah1_Pos;
+                case "NetDc12.Consume.MaksPower.Batteries.Ultimate150Ah2.Pos": return ioSystemPortsType.Nuid_NetDc12_Consume_MaksPower_Batteries_Ultimate150Ah2_Pos;
+                case "NetDc12.Consume.Victron.Charge.SmartIp43_12V_50_2.Battery": return ioSystemPortsType.Nuid_NetDc12_Consume_Victron_Charge_SmartIp43_12V_50_2_Battery;
+                case "NetDc12.Consume.Victron.Charge.SmartIp43_12V_30_2.Battery": return ioSystemPortsType.Nuid_NetDc12_Consume_Victron_Charge_SmartIp43_12V_30_2_Battery;
+                case "NetDc12.Consume.BEP.Switch_275A.Input": return ioSystemPortsType.Nuid_NetDc12_Consume_BEP_Switch_275A_Input;
+                case "NetDc12.Motor.Victron.Isolate.Argofet200_3.Output2": return ioSystemPortsType.Nuid_NetDc12_Motor_Victron_Isolate_Argofet200_3_Output2;
+                case "NetDc12.Motor.MaksPower.Fuses.Mega300A.Port1": return ioSystemPortsType.Nuid_NetDc12_Motor_MaksPower_Fuses_Mega300A_Port1;
+                case "NetDc12.Motor.BEP.Switch_275A.Input": return ioSystemPortsType.Nuid_NetDc12_Motor_BEP_Switch_275A_Input;
+                case "NetDc12.Motor.Victron.Chg12V.Output2": return ioSystemPortsType.Nuid_NetDc12_Motor_Victron_Chg12V_Output2;
+                case "NetDc12.Motor.MaksPower.Batteries.Optima50Ah.Pos": return ioSystemPortsType.Nuid_NetDc12_Motor_MaksPower_Batteries_Optima50Ah_Pos;
+                case "NetDc12.Motor.Victron.Charge.SmartIp43_12V_50_2.Trickle": return ioSystemPortsType.Nuid_NetDc12_Motor_Victron_Charge_SmartIp43_12V_50_2_Trickle;
+                case "NetDc12.Motor.Victron.Charge.SmartIp43_12V_30_2.Trickle": return ioSystemPortsType.Nuid_NetDc12_Motor_Victron_Charge_SmartIp43_12V_30_2_Trickle;
+                case "NetDc12.DcDc.Victron.Isolate.Argofet200_3.Output3": return ioSystemPortsType.Nuid_NetDc12_DcDc_Victron_Isolate_Argofet200_3_Output3;
+                case "NetDc12.DcDc.Victron.DcDc.OrionTrSmartIso12_24_10A.Input": return ioSystemPortsType.Nuid_NetDc12_DcDc_Victron_DcDc_OrionTrSmartIso12_24_10A_Input;
+                case "NetDc12.DcDc.Victron.DcDc.OrionTrSmartIso12_24_10B.Input": return ioSystemPortsType.Nuid_NetDc12_DcDc_Victron_DcDc_OrionTrSmartIso12_24_10B_Input;
+                case "NetDc24.Consume.Victron.DcDc.OrionTrSmartIso12_24_10A.Output": return ioSystemPortsType.Nuid_NetDc24_Consume_Victron_DcDc_OrionTrSmartIso12_24_10A_Output;
+                case "NetDc24.Consume.Victron.Charge.SmartIp43_24V_16_2.Battery": return ioSystemPortsType.Nuid_NetDc24_Consume_Victron_Charge_SmartIp43_24V_16_2_Battery;
+                case "NetDc24.Consume.Victron.Charge.SmartIp43_12V_25_2.Battery": return ioSystemPortsType.Nuid_NetDc24_Consume_Victron_Charge_SmartIp43_12V_25_2_Battery;
+                case "NetDc24.Consume.MaksPower.Batteries.Ultimate150Ah1.Pos": return ioSystemPortsType.Nuid_NetDc24_Consume_MaksPower_Batteries_Ultimate150Ah1_Pos;
+                case "NetDc24.Consume.BEP.Switch_275A.Input": return ioSystemPortsType.Nuid_NetDc24_Consume_BEP_Switch_275A_Input;
+                case "NetDc24.Motor.Victron.DcDc.OrionTrSmartIso12_24_10B.Output": return ioSystemPortsType.Nuid_NetDc24_Motor_Victron_DcDc_OrionTrSmartIso12_24_10B_Output;
+                case "NetDc24.Motor.MaksPower.Batteries.Optima50Ah.Pos": return ioSystemPortsType.Nuid_NetDc24_Motor_MaksPower_Batteries_Optima50Ah_Pos;
+                case "NetDc24.Motor.Victron.Charge.SmartIp43_24V_16_2.Trickle": return ioSystemPortsType.Nuid_NetDc24_Motor_Victron_Charge_SmartIp43_24V_16_2_Trickle;
+                case "NetDc24.Motor.Victron.Charge.SmartIp43_12V_25_2.Trickle": return ioSystemPortsType.Nuid_NetDc24_Motor_Victron_Charge_SmartIp43_12V_25_2_Trickle;
+                case "NetDc24.Motor.BEP.Switch_275A.Input": return ioSystemPortsType.Nuid_NetDc24_Motor_BEP_Switch_275A_Input;
             } // switch
             return ioSystemPortsType.Nuid_NotDefined;
         }

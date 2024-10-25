@@ -59,11 +59,22 @@ ioSystemDataType ioSystemData::GetDataType(Int32 duidValue)
     {
     default: return Duid_NotDefined; 
     case 0: return Duid_NotDefined; 
-    case 3: return Duid_Victron_Charge_VoltInputAc; 
-    case 4: return Duid_Victron_Charge_VoltOutputDc; 
-    case 5: return Duid_Victron_Charge_IsOutputActive; 
-    case 20: return Duid_Victron_DcDc_VoltInput; 
-    case 1: return Duid_Victron_DcDc_VoltOutput; 
-    case 2: return Duid_Victron_DcDc_IsOutputActive; 
+    case 1: return Duid_Victron_Charge_VoltInputAc; 
+    case 2: return Duid_Victron_Charge_VoltOutputDc; 
+    case 3: return Duid_Victron_Charge_IsOutputActive; 
+    case 4: return Duid_Victron_DcDc_VoltInput; 
+    case 5: return Duid_Victron_DcDc_VoltOutput; 
+    case 6: return Duid_Victron_DcDc_IsOutputActive; 
+    case 7: return Duid_Victron_Io_RequestDataCgx; 
+    case 8: return Duid_Victron_Io_ResponseDataCgx; 
+    case 9: return Duid_Victron_Io_Dc0Voltage; 
+    case 15: return Duid_Victron_Io_Dc0MidVoltage; 
+    case 16: return Duid_Victron_Io_Dc0MidVoltageDeviation; 
+    case 10: return Duid_Victron_Io_Dc0Current; 
+    case 11: return Duid_Victron_Io_Dc0Power; 
+    case 13: return Duid_Victron_Io_Dc1Voltage; 
+    case 12: return Duid_Victron_Io_Soc; 
+    case 14: return Duid_Victron_Io_ConsumedAmphours; 
+    case 17: return Duid_Victron_Io_Dc0Temperature; 
     } // switch
 }

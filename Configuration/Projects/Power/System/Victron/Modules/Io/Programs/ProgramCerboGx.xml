@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProgramClass Name="ProgramCerboGx">
+    <Description>Program interfacing Victron Cerbo GX device</Description>
+    <DataItemsCollection>
+        <DataListClasses Name="Victron::Charge::DataCharge" NameObject="ChargeData">
+            <Item NameClass="DataCharge" NameObject="ChargeData" />
+        </DataListClasses>
+        <DataListClasses Name="Victron::Io::DataCerboGx" NameObject="CgxData">
+            <Item NameClass="DataCerboGx" NameObject="CgxData" />
+        </DataListClasses>
+        <DataListClasses Name="Victron::DcDc::DataDcDc" NameObject="DcDcData">
+            <Item NameClass="DataDcDc" NameObject="DcDcData" />
+        </DataListClasses>
+    </DataItemsCollection>
+    <PanelsCollection>
+        <PanelInProgram Name="Victron::Charge::PanelCharge" NameObject="ChargePanel">
+            <Item NameClass="PanelCharge" NameObject="ChargePanel" />
+        </PanelInProgram>
+        <PanelInProgram Name="Victron::DcDc::PanelDcDc" NameObject="DcDcPanel">
+            <Item NameClass="PanelDcDc" NameObject="DcDcPanel" />
+        </PanelInProgram>
+    </PanelsCollection>
+    <PortsCollection>
+        <PortProgram Name="ioModbus::ioPortProgramModbus" NameObject="PortModbus">
+            <Item NameClass="ioPortProgramModbus" NameObject="PortModbus" />
+        </PortProgram>
+    </PortsCollection>
+    <Sequences>
+        <RxTxData NameClass="DataCerboGx" GlobalID="Victron.Io.ResponseDataCgx">
+            <GraphicsData NameClass="PanelCharge" GlobalID="Victron.Charge.InstrVoltInput">
+                <DataAssigned NameClass="DataCharge" GlobalID="Victron.Charge.VoltInputAc" />
+            </GraphicsData>
+            <GraphicsData NameClass="PanelCharge" GlobalID="Victron.Charge.InstVoltOutput">
+                <DataAssigned NameClass="DataCharge" GlobalID="Victron.Charge.VoltOutputDc" />
+            </GraphicsData>
+            <GraphicsData NameClass="PanelDcDc" GlobalID="Victron.DcDc.InstrVoltInput">
+                <DataAssigned NameClass="DataDcDc" GlobalID="Victron.DcDc.VoltInput" />
+            </GraphicsData>
+            <GraphicsData NameClass="PanelDcDc" GlobalID="Victron.DcDc.InstVoltOutput">
+                <DataAssigned NameClass="DataDcDc" GlobalID="Victron.DcDc.VoltOutput" />
+            </GraphicsData>
+        </RxTxData>
+        <Run>
+            <RxTxData NameClass="DataCerboGx" GlobalID="Victron.Io.RequestDataCgx" PortGlobalID="NetEthernet.192.168.10.Victron.CerboGx.10" />
+        </Run>
+    </Sequences>
+</ProgramClass>

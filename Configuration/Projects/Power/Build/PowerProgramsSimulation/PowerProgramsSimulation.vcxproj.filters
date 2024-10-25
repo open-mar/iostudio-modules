@@ -23,6 +23,15 @@
     <Filter Include="Programs\Victron\DcDc">
       <UniqueIdentifier>{48eb9f4e-ac4e-45ac-bfd4-ba967139f6d9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Programs\Victron\Io">
+      <UniqueIdentifier>{b0edf15b-ab56-4c3c-9f72-93f3e07dd3d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Victron\Charge">
+      <UniqueIdentifier>{c34a6563-ca5e-480a-8c56-b7845ec75ae7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Ids">
+      <UniqueIdentifier>{b782b041-cbae-4323-8c32-761b1dacc3b9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Programs\ioSystemData.h">
@@ -46,6 +55,27 @@
     <ClInclude Include="..\..\Programs\Victron\DcDc\DataDcDc.h">
       <Filter>Programs\Victron\DcDc</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Programs\Victron\Io\DataCerboGx.h">
+      <Filter>Programs\Victron\Io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Victron\Io\ProgramCerboGx.h">
+      <Filter>Programs\Victron\Io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Victron\Charge\DataCharge.h">
+      <Filter>Programs\Victron\Charge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Victron\Charge\PanelCharge.h">
+      <Filter>Programs\Victron\Charge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Victron\DcDc\PanelDcDc.h">
+      <Filter>Programs\Victron\DcDc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Ids\IdsProgControl.h">
+      <Filter>Programs\Ids</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Ids\IdsProgOperate.h">
+      <Filter>Programs\Ids</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -68,6 +98,27 @@
     </ClCompile>
     <ClCompile Include="..\..\Programs\Victron\DcDc\DataDcDc.cpp">
       <Filter>Programs\Victron\DcDc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Victron\Io\DataCerboGx.cpp">
+      <Filter>Programs\Victron\Io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Victron\Io\ProgramCerboGx.cpp">
+      <Filter>Programs\Victron\Io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Victron\Charge\DataCharge.cpp">
+      <Filter>Programs\Victron\Charge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Victron\Charge\PanelCharge.cpp">
+      <Filter>Programs\Victron\Charge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Victron\DcDc\PanelDcDc.cpp">
+      <Filter>Programs\Victron\DcDc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Ids\IdsProgControl.cpp">
+      <Filter>Programs\Ids</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Ids\IdsProgOperate.cpp">
+      <Filter>Programs\Ids</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -6,12 +6,23 @@
 typedef enum
 {
     Duid_NotDefined = 0,
-    Duid_Victron_Charge_VoltInputAc = 4,
-    Duid_Victron_Charge_VoltOutputDc = 5,
-    Duid_Victron_Charge_IsOutputActive = 6,
-    Duid_Victron_DcDc_VoltInput = 1,
-    Duid_Victron_DcDc_VoltOutput = 2,
-    Duid_Victron_DcDc_IsOutputActive = 3,
+    Duid_Victron_Charge_VoltInputAc = 1,
+    Duid_Victron_Charge_VoltOutputDc = 2,
+    Duid_Victron_Charge_IsOutputActive = 3,
+    Duid_Victron_DcDc_VoltInput = 4,
+    Duid_Victron_DcDc_VoltOutput = 5,
+    Duid_Victron_DcDc_IsOutputActive = 6,
+    Duid_Victron_Io_RequestDataCgx = 7,
+    Duid_Victron_Io_ResponseDataCgx = 8,
+    Duid_Victron_Io_Dc0Voltage = 9,
+    Duid_Victron_Io_Dc0MidVoltage = 15,
+    Duid_Victron_Io_Dc0MidVoltageDeviation = 16,
+    Duid_Victron_Io_Dc0Current = 10,
+    Duid_Victron_Io_Dc0Power = 11,
+    Duid_Victron_Io_Dc1Voltage = 13,
+    Duid_Victron_Io_Soc = 12,
+    Duid_Victron_Io_ConsumedAmphours = 14,
+    Duid_Victron_Io_Dc0Temperature = 17,
 } ioSystemDataType;
 class TypeUnit : public ioEnumeration
 {

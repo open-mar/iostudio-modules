@@ -1,5 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ProgramClass Name="IdsProgControl">
     <Description>IDS control program for Victron devices</Description>
+    <PortsCollection>
+        <PortProgram Name="ioSystem::Ports::System::ioPortProgramSystem" NameObject="PortSystem">
+            <Item NameClass="ioPortProgramSystem" NameObject="PortSystem" />
+        </PortProgram>
+    </PortsCollection>
     <Sequences />
 </ProgramClass>

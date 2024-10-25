@@ -14,8 +14,17 @@ Int32 ioSystemGraphics::GetGraphicsID(ioSystemGraphicsType puid)
 }
 ioSystemGraphicsType ioSystemGraphics::GetGraphicsType(Int32 puidValue)
 {
-    if ((puidValue >= 0) && (puidValue < 38))
-        return (ioSystemGraphicsType)puidValue;
-    else
-        return Puid_NotDefined;
+    switch (puidValue)
+    {
+    default: return Puid_NotDefined; 
+    case 0: return Puid_NotDefined; 
+    case 1: return Puid_Victron_Charge_LabelHeaderChargeInput; 
+    case 4: return Puid_Victron_Charge_LabelHeaderChargeOutput; 
+    case 2: return Puid_Victron_Charge_InstrVoltInput; 
+    case 3: return Puid_Victron_Charge_InstVoltOutput; 
+    case 5: return Puid_Victron_DcDc_LabelHeaderDcDcInput; 
+    case 6: return Puid_Victron_DcDc_LabelHeaderDcDcOutput; 
+    case 7: return Puid_Victron_DcDc_InstrVoltInput; 
+    case 8: return Puid_Victron_DcDc_InstVoltOutput; 
+    } // switch
 }
