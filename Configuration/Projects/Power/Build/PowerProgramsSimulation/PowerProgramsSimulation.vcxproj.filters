@@ -76,6 +76,18 @@
     <ClInclude Include="..\..\Programs\Ids\IdsProgOperate.h">
       <Filter>Programs\Ids</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Programs\Victron\VictronMonitor.h">
+      <Filter>Programs\Victron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Victron\VictronSensor.h">
+      <Filter>Programs\Victron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Victron\VictronData.h">
+      <Filter>Programs\Victron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Victron\VictronPanel.h">
+      <Filter>Programs\Victron</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -119,6 +131,18 @@
     </ClCompile>
     <ClCompile Include="..\..\Programs\Ids\IdsProgOperate.cpp">
       <Filter>Programs\Ids</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Victron\VictronMonitor.cpp">
+      <Filter>Programs\Victron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Victron\VictronSensor.cpp">
+      <Filter>Programs\Victron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Victron\VictronData.cpp">
+      <Filter>Programs\Victron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Victron\VictronPanel.cpp">
+      <Filter>Programs\Victron</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

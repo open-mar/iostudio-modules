@@ -6,5 +6,7 @@
             <Item NameClass="ioPortProgramSystem" NameObject="PortSystem" />
         </PortProgram>
     </PortsCollection>
-    <Sequences />
+    <Sequences>
+        <Run />
+    </Sequences>
 </ProgramClass>

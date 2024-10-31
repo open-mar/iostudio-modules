@@ -5,10 +5,15 @@ namespace ioSystemNetworkNet
     public enum ioSystemGraphicsType
     {
         Puid_NotDefined = 0,
+        Puid_Batt_PanelCharge = 9,
+        Puid_Batt_PanelCharge = 9,
+        Puid_Victron_Charge_SelectCharger = 11,
+        Puid_Victron_Charge_InstrVoltOutput = 10,
         Puid_Victron_Charge_LabelHeaderChargeInput = 1,
         Puid_Victron_Charge_LabelHeaderChargeOutput = 4,
         Puid_Victron_Charge_InstrVoltInput = 2,
         Puid_Victron_Charge_InstVoltOutput = 3,
+        Puid_Victron_DcDc_PanelDcDc_SelectDcDc = 12,
         Puid_Victron_DcDc_LabelHeaderDcDcInput = 5,
         Puid_Victron_DcDc_LabelHeaderDcDcOutput = 6,
         Puid_Victron_DcDc_InstrVoltInput = 7,
@@ -20,10 +25,15 @@ namespace ioSystemNetworkNet
         {
             switch (puid)
             {
+                case ioSystemGraphicsType.Puid_Batt_PanelCharge: return "Batt.PanelCharge";
+                case ioSystemGraphicsType.Puid_Batt_PanelCharge: return "Batt.PanelCharge";
+                case ioSystemGraphicsType.Puid_Victron_Charge_SelectCharger: return "Victron.Charge.SelectCharger";
+                case ioSystemGraphicsType.Puid_Victron_Charge_InstrVoltOutput: return "Victron.Charge.InstrVoltOutput";
                 case ioSystemGraphicsType.Puid_Victron_Charge_LabelHeaderChargeInput: return "Victron.Charge.LabelHeaderChargeInput";
                 case ioSystemGraphicsType.Puid_Victron_Charge_LabelHeaderChargeOutput: return "Victron.Charge.LabelHeaderChargeOutput";
                 case ioSystemGraphicsType.Puid_Victron_Charge_InstrVoltInput: return "Victron.Charge.InstrVoltInput";
                 case ioSystemGraphicsType.Puid_Victron_Charge_InstVoltOutput: return "Victron.Charge.InstVoltOutput";
+                case ioSystemGraphicsType.Puid_Victron_DcDc_PanelDcDc_SelectDcDc: return "Victron.DcDc.PanelDcDc.SelectDcDc";
                 case ioSystemGraphicsType.Puid_Victron_DcDc_LabelHeaderDcDcInput: return "Victron.DcDc.LabelHeaderDcDcInput";
                 case ioSystemGraphicsType.Puid_Victron_DcDc_LabelHeaderDcDcOutput: return "Victron.DcDc.LabelHeaderDcDcOutput";
                 case ioSystemGraphicsType.Puid_Victron_DcDc_InstrVoltInput: return "Victron.DcDc.InstrVoltInput";
@@ -35,10 +45,15 @@ namespace ioSystemNetworkNet
         {
             switch (globalID)
             {
+                case "Batt.PanelCharge": return ioSystemGraphicsType.Puid_Batt_PanelCharge;
+                case "Batt.PanelCharge": return ioSystemGraphicsType.Puid_Batt_PanelCharge;
+                case "Victron.Charge.SelectCharger": return ioSystemGraphicsType.Puid_Victron_Charge_SelectCharger;
+                case "Victron.Charge.InstrVoltOutput": return ioSystemGraphicsType.Puid_Victron_Charge_InstrVoltOutput;
                 case "Victron.Charge.LabelHeaderChargeInput": return ioSystemGraphicsType.Puid_Victron_Charge_LabelHeaderChargeInput;
                 case "Victron.Charge.LabelHeaderChargeOutput": return ioSystemGraphicsType.Puid_Victron_Charge_LabelHeaderChargeOutput;
                 case "Victron.Charge.InstrVoltInput": return ioSystemGraphicsType.Puid_Victron_Charge_InstrVoltInput;
                 case "Victron.Charge.InstVoltOutput": return ioSystemGraphicsType.Puid_Victron_Charge_InstVoltOutput;
+                case "Victron.DcDc.PanelDcDc.SelectDcDc": return ioSystemGraphicsType.Puid_Victron_DcDc_PanelDcDc_SelectDcDc;
                 case "Victron.DcDc.LabelHeaderDcDcInput": return ioSystemGraphicsType.Puid_Victron_DcDc_LabelHeaderDcDcInput;
                 case "Victron.DcDc.LabelHeaderDcDcOutput": return ioSystemGraphicsType.Puid_Victron_DcDc_LabelHeaderDcDcOutput;
                 case "Victron.DcDc.InstrVoltInput": return ioSystemGraphicsType.Puid_Victron_DcDc_InstrVoltInput;
@@ -48,7 +63,7 @@ namespace ioSystemNetworkNet
         }
         public static ioSystemGraphicsType GetPuid(Int32 puidValue)
         {
-            if ((puidValue >= 0) && (puidValue < 9))
+            if ((puidValue >= 0) && (puidValue < 14))
                 return (ioSystemGraphicsType)puidValue;
             else
                 return ioSystemGraphicsType.Puid_NotDefined;

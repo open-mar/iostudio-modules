@@ -16,3 +16,5 @@ DUID;Parent;LocalID;TypeData
 15;Victron.Io;Dc0MidVoltage;Variable
 16;Victron.Io;Dc0MidVoltageDeviation;Variable
 17;Victron.Io;Dc0Temperature;Variable
+18;Victron;RequestVictronData;Method
+19;Victron;ResponseVictronData;Event

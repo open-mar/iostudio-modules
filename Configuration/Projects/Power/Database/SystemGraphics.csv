@@ -7,3 +7,7 @@ PUID;Parent;LocalID;TypeGraphics
 6;Victron.DcDc;LabelHeaderDcDcOutput;ioLabel
 7;Victron.DcDc;InstrVoltInput;ioTextBlock
 8;Victron.DcDc;InstVoltOutput;ioTextBlock
+9;Batt;PanelCharge;ioPanelGrid
+11;Victron.Charge;SelectCharger;ioComboBox
+10;Victron.Charge;InstrVoltOutput;ioTextBlock
+12;Victron.DcDc.PanelDcDc;SelectDcDc;ioComboBox

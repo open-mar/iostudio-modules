@@ -11,7 +11,11 @@ PanelCharge::~PanelCharge()
 }
 void PanelCharge::InitializeData(void)
 {
-    m_PanelGraphics.SetListData((ioItem**)m_PanelChargeGraphics, 4);
+    m_PanelGraphics.SetListData((ioItem**)m_PanelChargeGraphics, 6);
+    AddGraphics(&SelectCharger, Puid_Victron_Charge_SelectCharger);
+    AddGraphics(&InstrVoltOutput, Puid_Victron_Charge_InstrVoltOutput);
+    InstrVoltOutput.SetTextForced((ioChars)"14.2");
+    InstrVoltOutput.SetDecimals(1);
     AddGraphics(&LabelHeaderChargeInput, Puid_Victron_Charge_LabelHeaderChargeInput);
     LabelHeaderChargeInput.SetTextForced((ioChars)"CHARGE INPUT [VAC]");
     AddGraphics(&LabelHeaderChargeOutput, Puid_Victron_Charge_LabelHeaderChargeOutput);

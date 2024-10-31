@@ -6,6 +6,8 @@
 typedef enum
 {
     Duid_NotDefined = 0,
+    Duid_Victron_RequestVictronData = 18,
+    Duid_Victron_ResponseVictronData = 19,
     Duid_Victron_Charge_VoltInputAc = 1,
     Duid_Victron_Charge_VoltOutputDc = 2,
     Duid_Victron_Charge_IsOutputActive = 3,

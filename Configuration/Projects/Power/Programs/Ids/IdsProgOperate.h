@@ -9,6 +9,7 @@ public:
     IdsProgOperate();
     virtual ~IdsProgOperate();
     virtual void InitializeTask(void);
+    virtual void Run(Int32 activeSlot);
     ioPortProgramSystem PortSystem;
 };
 #endif // __IDSPROGOPERATE_H

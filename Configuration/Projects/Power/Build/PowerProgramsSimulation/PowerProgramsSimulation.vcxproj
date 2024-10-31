@@ -154,6 +154,10 @@
     <ClInclude Include="..\..\Programs\Victron\DcDc\PanelDcDc.h" />
     <ClInclude Include="..\..\Programs\Victron\Io\DataCerboGx.h" />
     <ClInclude Include="..\..\Programs\Victron\Io\ProgramCerboGx.h" />
+    <ClInclude Include="..\..\Programs\Victron\VictronData.h" />
+    <ClInclude Include="..\..\Programs\Victron\VictronMonitor.h" />
+    <ClInclude Include="..\..\Programs\Victron\VictronPanel.h" />
+    <ClInclude Include="..\..\Programs\Victron\VictronSensor.h" />
     <ClInclude Include="..\..\Simulation\Victron\DcDc\OrionTrSmartIso12_24_10.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="pch.h" />
@@ -170,6 +174,10 @@
     <ClCompile Include="..\..\Programs\Victron\DcDc\PanelDcDc.cpp" />
     <ClCompile Include="..\..\Programs\Victron\Io\DataCerboGx.cpp" />
     <ClCompile Include="..\..\Programs\Victron\Io\ProgramCerboGx.cpp" />
+    <ClCompile Include="..\..\Programs\Victron\VictronData.cpp" />
+    <ClCompile Include="..\..\Programs\Victron\VictronMonitor.cpp" />
+    <ClCompile Include="..\..\Programs\Victron\VictronPanel.cpp" />
+    <ClCompile Include="..\..\Programs\Victron\VictronSensor.cpp" />
     <ClCompile Include="..\..\Simulation\Victron\DcDc\OrionTrSmartIso12_24_10.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

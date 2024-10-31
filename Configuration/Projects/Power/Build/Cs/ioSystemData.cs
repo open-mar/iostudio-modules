@@ -5,6 +5,8 @@ namespace ioSystemNetworkNet
     public enum ioSystemDataType
     {
         Duid_NotDefined = 0,
+        Duid_Victron_RequestVictronData = 18,
+        Duid_Victron_ResponseVictronData = 19,
         Duid_Victron_Charge_VoltInputAc = 1,
         Duid_Victron_Charge_VoltOutputDc = 2,
         Duid_Victron_Charge_IsOutputActive = 3,
@@ -29,6 +31,8 @@ namespace ioSystemNetworkNet
         {
             switch (duid)
             {
+                case ioSystemDataType.Duid_Victron_RequestVictronData: return "Victron.RequestVictronData";
+                case ioSystemDataType.Duid_Victron_ResponseVictronData: return "Victron.ResponseVictronData";
                 case ioSystemDataType.Duid_Victron_Charge_VoltInputAc: return "Victron.Charge.VoltInputAc";
                 case ioSystemDataType.Duid_Victron_Charge_VoltOutputDc: return "Victron.Charge.VoltOutputDc";
                 case ioSystemDataType.Duid_Victron_Charge_IsOutputActive: return "Victron.Charge.IsOutputActive";
@@ -53,6 +57,8 @@ namespace ioSystemNetworkNet
         {
             switch (globalID)
             {
+                case "Victron.RequestVictronData": return ioSystemDataType.Duid_Victron_RequestVictronData;
+                case "Victron.ResponseVictronData": return ioSystemDataType.Duid_Victron_ResponseVictronData;
                 case "Victron.Charge.VoltInputAc": return ioSystemDataType.Duid_Victron_Charge_VoltInputAc;
                 case "Victron.Charge.VoltOutputDc": return ioSystemDataType.Duid_Victron_Charge_VoltOutputDc;
                 case "Victron.Charge.IsOutputActive": return ioSystemDataType.Duid_Victron_Charge_IsOutputActive;

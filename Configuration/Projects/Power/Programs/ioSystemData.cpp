@@ -59,6 +59,8 @@ ioSystemDataType ioSystemData::GetDataType(Int32 duidValue)
     {
     default: return Duid_NotDefined; 
     case 0: return Duid_NotDefined; 
+    case 18: return Duid_Victron_RequestVictronData; 
+    case 19: return Duid_Victron_ResponseVictronData; 
     case 1: return Duid_Victron_Charge_VoltInputAc; 
     case 2: return Duid_Victron_Charge_VoltOutputDc; 
     case 3: return Duid_Victron_Charge_IsOutputActive; 

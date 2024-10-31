@@ -11,7 +11,8 @@ PanelDcDc::~PanelDcDc()
 }
 void PanelDcDc::InitializeData(void)
 {
-    m_PanelGraphics.SetListData((ioItem**)m_PanelDcDcGraphics, 4);
+    m_PanelGraphics.SetListData((ioItem**)m_PanelDcDcGraphics, 5);
+    AddGraphics(&SelectDcDc, Puid_Victron_DcDc_PanelDcDc_SelectDcDc);
     AddGraphics(&LabelHeaderDcDcInput, Puid_Victron_DcDc_LabelHeaderDcDcInput);
     LabelHeaderDcDcInput.SetTextForced((ioChars)"DC-DC INPUT [VDC]");
     AddGraphics(&LabelHeaderDcDcOutput, Puid_Victron_DcDc_LabelHeaderDcDcOutput);
