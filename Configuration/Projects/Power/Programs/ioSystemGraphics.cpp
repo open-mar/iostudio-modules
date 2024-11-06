@@ -19,7 +19,6 @@ ioSystemGraphicsType ioSystemGraphics::GetGraphicsType(Int32 puidValue)
     default: return Puid_NotDefined; 
     case 0: return Puid_NotDefined; 
     case 9: return Puid_Batt_PanelCharge; 
-    case 9: return Puid_Batt_PanelCharge; 
     case 11: return Puid_Victron_Charge_SelectCharger; 
     case 10: return Puid_Victron_Charge_InstrVoltOutput; 
     case 1: return Puid_Victron_Charge_LabelHeaderChargeInput; 

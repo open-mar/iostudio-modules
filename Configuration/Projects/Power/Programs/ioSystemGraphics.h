@@ -6,7 +6,6 @@ typedef enum
 {
     Puid_NotDefined = 0,
     Puid_Batt_PanelCharge = 9,
-    Puid_Batt_PanelCharge = 9,
     Puid_Victron_Charge_SelectCharger = 11,
     Puid_Victron_Charge_InstrVoltOutput = 10,
     Puid_Victron_Charge_LabelHeaderChargeInput = 1,
