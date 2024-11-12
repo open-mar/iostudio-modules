@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PanelClass Name="VictronPanel">
     <Description>Operation panel for Victron devices</Description>
-    <PanelObject ParentGlobalID="Batt" Background="ContainerBackground">
+    <PanelObject ParentGlobalID="Victron" Background="ContainerBackground">
         <RowDefinition />
         <RowDefinition />
         <RowDefinition />
@@ -12,10 +12,11 @@
             <ioPanelGrid LocalID="PanelCharge" PanelGlobalID="Victron.Charge.PanelCharge" />
         </Grid>
         <Grid Row="1" Column="2">
-            <ioPanelGrid LocalID="PanelCharge" PanelGlobalID="Victron.DcDc.PanelDcDc" />
         </Grid>
         <Grid Row="1" Column="3" />
-        <Grid Row="2" Column="1" />
+        <Grid Row="2" Column="1">
+            <ioPanelGrid LocalID="PanelCharge" PanelGlobalID="Victron.DcDc.PanelDcDc" />
+        </Grid>
         <Grid Row="2" Column="2" />
         <Grid Row="2" Column="3" />
         <Grid Row="3" Column="1" />
