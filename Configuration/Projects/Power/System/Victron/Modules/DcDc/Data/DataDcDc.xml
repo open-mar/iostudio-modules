@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<DataList Name="DataDcDc">
-    <Description>Data list for Victron DC DC converters</Description>
-    <DataListObject ParentGlobalID="Victron.DcDc">
-        <Variable LocalID="VoltInput" TypeNum="Float" Unit="VDC" Decimals="2" Min="0.00" Max="60.00">12</Variable>
-        <Variable LocalID="VoltOutput" TypeNum="Float" Unit="VDC" Decimals="2" Min="0.00" Max="60.00">24</Variable>
-        <Variable LocalID="IsOutputActive" TypeNum="Bool" Unit="VDC">TRUE</Variable>
-    </DataListObject>
-</DataList>

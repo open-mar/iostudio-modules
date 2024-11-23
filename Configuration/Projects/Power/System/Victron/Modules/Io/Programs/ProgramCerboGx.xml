@@ -2,21 +2,21 @@
 <ProgramClass Name="ProgramCerboGx">
     <Description>Program interfacing Victron Cerbo GX device</Description>
     <DataItemsCollection>
-        <DataListClasses Name="Victron::Charge::DataCharge" NameObject="ChargeData">
+        <DataListClasses Name="Ids::Convert::DataCharge" NameObject="ChargeData">
             <Item NameClass="DataCharge" NameObject="ChargeData" />
         </DataListClasses>
         <DataListClasses Name="Victron::Io::DataCerboGx" NameObject="CgxData">
             <Item NameClass="DataCerboGx" NameObject="CgxData" />
         </DataListClasses>
-        <DataListClasses Name="Victron::DcDc::DataDcDc" NameObject="DcDcData">
+        <DataListClasses Name="Ids::Convert::DataDcDc" NameObject="DcDcData">
             <Item NameClass="DataDcDc" NameObject="DcDcData" />
         </DataListClasses>
     </DataItemsCollection>
     <PanelsCollection>
-        <PanelInProgram Name="Victron::Charge::PanelCharge" NameObject="ChargePanel">
+        <PanelInProgram Name="Ids::Convert::PanelCharge" NameObject="ChargePanel">
             <Item NameClass="PanelCharge" NameObject="ChargePanel" />
         </PanelInProgram>
-        <PanelInProgram Name="Victron::DcDc::PanelDcDc" NameObject="DcDcPanel">
+        <PanelInProgram Name="Ids::Convert::PanelDcDc" NameObject="DcDcPanel">
             <Item NameClass="PanelDcDc" NameObject="DcDcPanel" />
         </PanelInProgram>
     </PanelsCollection>
@@ -25,19 +25,28 @@
             <Item NameClass="ioPortProgramModbus" NameObject="PortModbus" />
         </PortProgram>
     </PortsCollection>
+    <InternalFunctions>
+        <Function Name="UpdateFromCergoGxData">
+            <Inputs />
+            <Outputs />
+        </Function>
+    </InternalFunctions>
     <Sequences>
         <RxTxData NameClass="DataCerboGx" GlobalID="Victron.Io.ResponseDataCgx">
-            <GraphicsData NameClass="PanelCharge" GlobalID="Victron.Charge.InstrVoltInput">
-                <DataAssigned NameClass="DataCharge" GlobalID="Victron.Charge.VoltInputAc" />
+            <Function TypeFunction="Internal">
+                <Call Name="UpdateFromCergoGxData" />
+            </Function>
+            <GraphicsData NameClass="PanelCharge" GlobalID="Victron.Convert.InstrVoltInputAc">
+                <DataAssigned NameClass="DataCharge" GlobalID="Victron.Convert.VoltageInputAc" />
             </GraphicsData>
-            <GraphicsData NameClass="PanelCharge" GlobalID="Victron.Charge.InstVoltOutput">
-                <DataAssigned NameClass="DataCharge" GlobalID="Victron.Charge.VoltOutputDc" />
+            <GraphicsData NameClass="PanelCharge" GlobalID="Victron.Convert.InstVoltOutputDc">
+                <DataAssigned NameClass="DataCharge" GlobalID="Victron.Convert.VoltageOutputDc" />
             </GraphicsData>
-            <GraphicsData NameClass="PanelDcDc" GlobalID="Victron.DcDc.InstrVoltInput">
-                <DataAssigned NameClass="DataDcDc" GlobalID="Victron.DcDc.VoltInput" />
+            <GraphicsData NameClass="PanelDcDc" GlobalID="Victron.Convert.InstrVoltInputDcDc">
+                <DataAssigned NameClass="DataDcDc" GlobalID="Victron.Convert.VoltageInputDcDc" />
             </GraphicsData>
-            <GraphicsData NameClass="PanelDcDc" GlobalID="Victron.DcDc.InstVoltOutput">
-                <DataAssigned NameClass="DataDcDc" GlobalID="Victron.DcDc.VoltOutput" />
+            <GraphicsData NameClass="PanelDcDc" GlobalID="Victron.Convert.InstrVoltOutputDcDc">
+                <DataAssigned NameClass="DataDcDc" GlobalID="Victron.Convert.VoltageOutputDcDc" />
             </GraphicsData>
         </RxTxData>
         <Run>

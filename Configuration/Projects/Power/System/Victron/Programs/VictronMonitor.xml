@@ -5,14 +5,23 @@
         <DataListClasses Name="Victron::VictronData" NameObject="MainData">
             <Item NameClass="VictronData" NameObject="MainData" />
         </DataListClasses>
+        <DataListClasses Name="Ids::Convert::DataDcDc" NameObject="DcDcData">
+            <Item NameClass="DataDcDc" NameObject="DcDcData" />
+        </DataListClasses>
     </DataItemsCollection>
     <PanelsCollection>
         <PanelInProgram Name="Victron::VictronPanel" NameObject="MainPanel">
             <Item NameClass="VictronPanel" NameObject="MainPanel" />
         </PanelInProgram>
+        <PanelInProgram Name="Ids::Convert::PanelDcDc" NameObject="DcDcPanel">
+            <Item NameClass="PanelDcDc" NameObject="DcDcPanel" />
+        </PanelInProgram>
     </PanelsCollection>
-    <InternalFunctions>
-    </InternalFunctions>
     <Sequences>
+        <RxTxData NameClass="VictronData" GlobalID="Victron.ResponseVictronData">
+            <GraphicsData NameClass="PanelDcDc" GlobalID="Ids.Convert.InstrVoltInputDcDc">
+                <DataAssigned NameClass="DataDcDc" GlobalID="Ids.Convert.IsDcDcOutputActive" />
+            </GraphicsData>
+        </RxTxData>
     </Sequences>
 </ProgramClass>

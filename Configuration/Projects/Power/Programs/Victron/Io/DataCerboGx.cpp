@@ -13,6 +13,16 @@ void DataCerboGx::InitializeData(void)
 {
     SetListData(m_ListData, 11);
     ResetItem();
+    RequestDataCgx.SetVariablesBuffer(m_RequestDataCgxVars, 9);
+    RequestDataCgx.AddVariable(&Dc0Power);
+    RequestDataCgx.AddVariable(&Dc0Voltage);
+    RequestDataCgx.AddVariable(&Dc1Voltage);
+    RequestDataCgx.AddVariable(&Dc0Current);
+    RequestDataCgx.AddVariable(&Dc0Temperature);
+    RequestDataCgx.AddVariable(&Dc0MidVoltage);
+    RequestDataCgx.AddVariable(&Dc0MidVoltageDeviation);
+    RequestDataCgx.AddVariable(&ConsumedAmphours);
+    RequestDataCgx.AddVariable(&Soc);
     AddData((ioData*)&RequestDataCgx, Duid_Victron_Io_RequestDataCgx);
     ResponseDataCgx.SetVariablesBuffer(m_ResponseDataCgxVars, 9);
     ResponseDataCgx.AddVariable(&Dc0Power);

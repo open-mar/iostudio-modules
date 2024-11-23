@@ -24,3 +24,7 @@ Configuration/Configuration.sln
 Schematics/MASS/.$MassSequenceModulesNetwork.drawio.bkp
 
 Configuration/Projects/Power/Build/PowerProgramsSimulation/x64/
+
+Configuration/Projects/Power/Build/Cs/bin/
+
+Configuration/Projects/Power/Build/Cs/obj/

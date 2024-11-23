@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModelClass Name="BatteryModel">
+    <Description>Simulation model for a battery connected to a power network</Description>
+    <ModelClassObject ParentGlobalID="Ids.Source">
+        <Sequence />
+    </ModelClassObject>
+</ModelClass>

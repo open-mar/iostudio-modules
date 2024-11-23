@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModelClass Name="SwitchBoardModel">
+    <Description>Simulation model for distributing power from networks</Description>
+    <ModelClassObject ParentGlobalID="Ids.Consume">
+        <Sequence />
+    </ModelClassObject>
+</ModelClass>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelClass Name="MaksPowerMp200Dynamo">
+    <Description>Simulation model for Makspower MP200 Dynamo for Lithium batteries</Description>
+    <ModelClassObject ParentGlobalID="MaksPower.Source">
+        <DataItemsCollection>
+            <DataListClasses Name="Ids::Source::DataGenerator" NameObject="Data">
+                <Item NameClass="DataGenerator" NameObject="GeneratorData" />
+            </DataListClasses>
+        </DataItemsCollection>
+        <Sequence />
+    </ModelClassObject>
+</ModelClass>

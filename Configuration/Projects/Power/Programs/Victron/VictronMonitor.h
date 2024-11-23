@@ -3,14 +3,19 @@
 #define __VICTRONMONITOR_H
 #include "ioSystem/Program/Core/ioProgram.h"
 #include "Programs/Victron/VictronData.h"
+#include "Programs/Ids/Convert/DataDcDc.h"
 #include "Programs/Victron/VictronPanel.h"
+#include "Programs/Ids/Convert/PanelDcDc.h"
 class VictronMonitor : public ioProgram
 {
 public:
     VictronMonitor();
     virtual ~VictronMonitor();
     virtual void InitializeTask(void);
+    virtual void ReceiveData(ioDataCollection* listData, ioData* data);
     VictronData MainData;
+    DataDcDc DcDcData;
     VictronPanel MainPanel;
+    PanelDcDc DcDcPanel;
 };
 #endif // __VICTRONMONITOR_H

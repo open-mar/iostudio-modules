@@ -14,7 +14,7 @@ void IdsProgOperate::InitializeTask(void)
 {
     ioProgram::InitializeTask();
 }
-void IdsProgOperate::Run(Int32 activeSlot)
+void IdsProgOperate::RunTask(Int32 activeSlot)
 {
     if (activeSlot == 0) {}
 }

@@ -26,16 +26,20 @@ void ProgramCerboGx::ReceiveData(ioDataCollection* listData, ioData* data)
         switch (duid)
         {
         case Duid_Victron_Io_ResponseDataCgx:
-            ChargePanel.InstrVoltInput.SetValueVar(&ChargeData.VoltInputAc);
-            ChargePanel.InstVoltOutput.SetValueVar(&ChargeData.VoltOutputDc);
-            DcDcPanel.InstrVoltInput.SetValueVar(&DcDcData.VoltInput);
-            DcDcPanel.InstVoltOutput.SetValueVar(&DcDcData.VoltOutput);
+            UpdateFromCergoGxData();
+            ChargePanel.InstrVoltInputAc.SetValueVar(&ChargeData.VoltageInputAc);
+            ChargePanel.InstVoltOutputDc.SetValueVar(&ChargeData.VoltageOutputDc);
+            DcDcPanel.InstrVoltInputDcDc.SetValueVar(&DcDcData.VoltageInputDcDc);
+            DcDcPanel.InstrVoltOutputDcDc.SetValueVar(&DcDcData.VoltageOutputDcDc);
             break;
         } // switch
     } // else
 }
-void ProgramCerboGx::Run(Int32 activeSlot)
+void ProgramCerboGx::RunTask(Int32 activeSlot)
 {
     if (activeSlot == 0) {}
     SendData(&CgxData.RequestDataCgx, ioPortProgramProtocol_System, (Int32)Nuid_NetEthernet_192_168_10_Victron_CerboGx_10);
+}
+void ProgramCerboGx::UpdateFromCergoGxData(void)
+{
 }

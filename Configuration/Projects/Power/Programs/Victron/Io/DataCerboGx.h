@@ -25,6 +25,7 @@ public:
     ioVarInt32 Dc0Temperature;
 protected:
     ioData* m_ListData[11];
+    ioVar* m_RequestDataCgxVars[9];
     ioVar* m_ResponseDataCgxVars[9];
 };
 #endif // __DATACERBOGX_H

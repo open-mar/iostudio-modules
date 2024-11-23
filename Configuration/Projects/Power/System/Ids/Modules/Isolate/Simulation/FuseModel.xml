@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModelClass Name="FuseModel">
+    <Description>Simulation model of a fuse protecting a power source</Description>
+    <ModelClassObject ParentGlobalID="Ids.Isolate">
+        <Sequence />
+    </ModelClassObject>
+</ModelClass>

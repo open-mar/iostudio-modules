@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModuleClass Name="Convert">
+    <Description>Simulation of conversion devices for IDS</Description>
+    <ModuleObject GlobalID="Ids.Convert" />
+</ModuleClass>

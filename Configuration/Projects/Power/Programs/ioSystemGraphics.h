@@ -5,18 +5,19 @@
 typedef enum
 {
     Puid_NotDefined = 0,
-    Puid_Batt_PanelCharge = 9,
-    Puid_Victron_Charge_SelectCharger = 11,
-    Puid_Victron_Charge_InstrVoltOutput = 10,
-    Puid_Victron_Charge_LabelHeaderChargeInput = 1,
-    Puid_Victron_Charge_LabelHeaderChargeOutput = 4,
-    Puid_Victron_Charge_InstrVoltInput = 2,
-    Puid_Victron_Charge_InstVoltOutput = 3,
-    Puid_Victron_DcDc_PanelDcDc_SelectDcDc = 12,
-    Puid_Victron_DcDc_LabelHeaderDcDcInput = 5,
-    Puid_Victron_DcDc_LabelHeaderDcDcOutput = 6,
-    Puid_Victron_DcDc_InstrVoltInput = 7,
-    Puid_Victron_DcDc_InstVoltOutput = 8,
+    Puid_Ids_Convert_SelectCharger = 13,
+    Puid_Ids_Convert_InstrVoltOutputDc = 15,
+    Puid_Ids_Convert_LabelHeaderChargeInput = 16,
+    Puid_Ids_Convert_LabelHeaderChargeOutput = 17,
+    Puid_Ids_Convert_InstrVoltInputAc = 18,
+    Puid_Ids_Convert_InstVoltOutputDc = 19,
+    Puid_Ids_Convert_SelectDcDc = 20,
+    Puid_Ids_Convert_LabelHeaderDcDcInput = 21,
+    Puid_Ids_Convert_LabelHeaderDcDcOutput = 22,
+    Puid_Ids_Convert_InstrVoltInputDcDc = 23,
+    Puid_Ids_Convert_InstrVoltOutputDcDc = 24,
+    Puid_Victron_PanelCharge = 1,
+    Puid_Victron_PanelDcDc = 2,
 } ioSystemGraphicsType;
 class ioSystemGraphics
 {

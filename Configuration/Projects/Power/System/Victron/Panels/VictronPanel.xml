@@ -9,13 +9,12 @@
         <ColumnDefinition />
         <ColumnDefinition />
         <Grid Row="1" Column="1">
-            <ioPanelGrid LocalID="PanelCharge" PanelGlobalID="Victron.Charge.PanelCharge" />
+            <ioPanelGrid LocalID="PanelCharge" PanelGlobalID="Victron.Convert.PanelCharge" />
         </Grid>
-        <Grid Row="1" Column="2">
-        </Grid>
+        <Grid Row="1" Column="2" />
         <Grid Row="1" Column="3" />
         <Grid Row="2" Column="1">
-            <ioPanelGrid LocalID="PanelCharge" PanelGlobalID="Victron.DcDc.PanelDcDc" />
+            <ioPanelGrid LocalID="PanelDcDc" PanelGlobalID="Victron.Convert.PanelDcDc" />
         </Grid>
         <Grid Row="2" Column="2" />
         <Grid Row="2" Column="3" />

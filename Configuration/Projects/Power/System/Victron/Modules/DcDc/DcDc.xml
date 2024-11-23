@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ModuleClass Name="DcDc">
-    <Description>Victron DC-DC converters</Description>
-    <ModuleObject GlobalID="Victron.DcDc" />
-</ModuleClass>

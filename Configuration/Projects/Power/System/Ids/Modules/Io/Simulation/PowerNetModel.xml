@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModelClass Name="PowerNetModel">
+    <Description>Simulation model of a network for connection of power device ports</Description>
+    <ModelClassObject ParentGlobalID="Ids.Io">
+        <Sequence />
+    </ModelClassObject>
+</ModelClass>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataList Name="DataCharge">
+    <Description>Data for IDS chargers</Description>
+    <DataListObject ParentGlobalID="Ids.Convert">
+        <Variable LocalID="VoltageInputAc" TypeNum="Float" Unit="VAC" Decimals="1" Min="0.0" Max="300.0">220</Variable>
+        <Variable LocalID="IsChargingActive" TypeNum="Bool" Unit="VDC">FALSE</Variable>
+        <Variable LocalID="MaxOutCurrentDc" TypeNum="Float" Unit="A" Decimals="2" Min="0.00" Max="100.00">50</Variable>
+        <Array LocalID="CurrentOutputDc" TypeNum="Float" Unit="A" Decimals="2" Min="0.00" Max="100.00">
+            <Number>0.00</Number>
+            <Number>0.00</Number>
+            <Number>0.00</Number>
+        </Array>
+        <Array LocalID="VoltageOutputDc" TypeNum="Float" Unit="VDC" Decimals="2" Min="0.00" Max="36.00">
+            <Number>12.00</Number>
+            <Number>12.00</Number>
+            <Number>12.00</Number>
+        </Array>
+    </DataListObject>
+</DataList>

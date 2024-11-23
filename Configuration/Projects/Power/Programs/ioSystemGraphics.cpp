@@ -18,17 +18,18 @@ ioSystemGraphicsType ioSystemGraphics::GetGraphicsType(Int32 puidValue)
     {
     default: return Puid_NotDefined; 
     case 0: return Puid_NotDefined; 
-    case 9: return Puid_Batt_PanelCharge; 
-    case 11: return Puid_Victron_Charge_SelectCharger; 
-    case 10: return Puid_Victron_Charge_InstrVoltOutput; 
-    case 1: return Puid_Victron_Charge_LabelHeaderChargeInput; 
-    case 4: return Puid_Victron_Charge_LabelHeaderChargeOutput; 
-    case 2: return Puid_Victron_Charge_InstrVoltInput; 
-    case 3: return Puid_Victron_Charge_InstVoltOutput; 
-    case 12: return Puid_Victron_DcDc_PanelDcDc_SelectDcDc; 
-    case 5: return Puid_Victron_DcDc_LabelHeaderDcDcInput; 
-    case 6: return Puid_Victron_DcDc_LabelHeaderDcDcOutput; 
-    case 7: return Puid_Victron_DcDc_InstrVoltInput; 
-    case 8: return Puid_Victron_DcDc_InstVoltOutput; 
+    case 13: return Puid_Ids_Convert_SelectCharger; 
+    case 15: return Puid_Ids_Convert_InstrVoltOutputDc; 
+    case 16: return Puid_Ids_Convert_LabelHeaderChargeInput; 
+    case 17: return Puid_Ids_Convert_LabelHeaderChargeOutput; 
+    case 18: return Puid_Ids_Convert_InstrVoltInputAc; 
+    case 19: return Puid_Ids_Convert_InstVoltOutputDc; 
+    case 20: return Puid_Ids_Convert_SelectDcDc; 
+    case 21: return Puid_Ids_Convert_LabelHeaderDcDcInput; 
+    case 22: return Puid_Ids_Convert_LabelHeaderDcDcOutput; 
+    case 23: return Puid_Ids_Convert_InstrVoltInputDcDc; 
+    case 24: return Puid_Ids_Convert_InstrVoltOutputDcDc; 
+    case 1: return Puid_Victron_PanelCharge; 
+    case 2: return Puid_Victron_PanelDcDc; 
     } // switch
 }

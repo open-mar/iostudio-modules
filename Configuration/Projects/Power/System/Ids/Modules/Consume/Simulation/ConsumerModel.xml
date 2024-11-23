@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModelClass Name="ConsumerModel">
+    <Description>Simulation model for consumer connected to a switch board</Description>
+    <ModelClassObject ParentGlobalID="Ids.Consume">
+        <Sequence />
+    </ModelClassObject>
+</ModelClass>

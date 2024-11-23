@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModelClass Name="SmartIp43_12V_50_2">
+    <Description>Model for Phoenix Smart Charger 12 | 50 | 1+1</Description>
+    <InternalFunctions>
+        <Function Name="SimulateVoltOutput">
+            <Inputs>
+                <Argument Name="voltInputAc" TypeNum="Float" />
+                <Argument Name="isOutputActive" TypeNum="Bool" />
+            </Inputs>
+            <Outputs>
+                <Argument Name="voltOutputDc" TypeNum="Float" />
+            </Outputs>
+        </Function>
+    </InternalFunctions>
+    <ModelClassObject ParentGlobalID="Victron.Convert">
+        <DataItemsCollection>
+            <DataListClasses Name="Ids::Convert::DataCharge" NameObject="Data">
+                <Item NameClass="DataCharge" NameObject="ChargeData" />
+            </DataListClasses>
+        </DataItemsCollection>
+        <Sequence>
+            <Function TypeFunction="Internal" Interval="1000">
+                <Call Name="SimulateVoltOutput">
+                    <Input Name="voltInputAc" NameClass="DataCharge" GlobalID="Ids.Convert.ChargeData.VoltageInputAc" />
+                    <Input Name="isOutputActive" NameClass="DataCharge" GlobalID="Ids.Convert.ChargeData.IsChargingActive" />
+                    <Output Name="voltOutputDc" NameClass="DataCharge" GlobalID="Ids.Convert.ChargeData.VoltageOutputDc" />
+                </Call>
+            </Function>
+        </Sequence>
+    </ModelClassObject>
+</ModelClass>

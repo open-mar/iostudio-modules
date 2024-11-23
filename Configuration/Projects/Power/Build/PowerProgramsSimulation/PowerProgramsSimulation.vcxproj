@@ -143,42 +143,66 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Programs\Ids\Convert\DataCharge.h" />
+    <ClInclude Include="..\..\Programs\Ids\Convert\DataDcDc.h" />
+    <ClInclude Include="..\..\Programs\Ids\Convert\PanelCharge.h" />
+    <ClInclude Include="..\..\Programs\Ids\Convert\PanelDcDc.h" />
     <ClInclude Include="..\..\Programs\Ids\IdsProgControl.h" />
     <ClInclude Include="..\..\Programs\Ids\IdsProgOperate.h" />
     <ClInclude Include="..\..\Programs\ioSystemData.h" />
     <ClInclude Include="..\..\Programs\ioSystemGraphics.h" />
     <ClInclude Include="..\..\Programs\ioSystemPorts.h" />
-    <ClInclude Include="..\..\Programs\Victron\Charge\DataCharge.h" />
-    <ClInclude Include="..\..\Programs\Victron\Charge\PanelCharge.h" />
-    <ClInclude Include="..\..\Programs\Victron\DcDc\DataDcDc.h" />
-    <ClInclude Include="..\..\Programs\Victron\DcDc\PanelDcDc.h" />
     <ClInclude Include="..\..\Programs\Victron\Io\DataCerboGx.h" />
     <ClInclude Include="..\..\Programs\Victron\Io\ProgramCerboGx.h" />
     <ClInclude Include="..\..\Programs\Victron\VictronData.h" />
     <ClInclude Include="..\..\Programs\Victron\VictronMonitor.h" />
     <ClInclude Include="..\..\Programs\Victron\VictronPanel.h" />
     <ClInclude Include="..\..\Programs\Victron\VictronSensor.h" />
-    <ClInclude Include="..\..\Simulation\Victron\DcDc\OrionTrSmartIso12_24_10.h" />
+    <ClInclude Include="..\..\Simulation\Ids\Consume\ConsumerModel.h" />
+    <ClInclude Include="..\..\Simulation\Ids\Consume\SwitchBoardModel.h" />
+    <ClInclude Include="..\..\Simulation\Ids\Convert\ChargeModel.h" />
+    <ClInclude Include="..\..\Simulation\Ids\Convert\DcDcModel.h" />
+    <ClInclude Include="..\..\Simulation\Ids\Io\PowerNetModel.h" />
+    <ClInclude Include="..\..\Simulation\Ids\Io\ShuntModel.h" />
+    <ClInclude Include="..\..\Simulation\Ids\Isolate\DiodeModel.h" />
+    <ClInclude Include="..\..\Simulation\Ids\Isolate\FuseModel.h" />
+    <ClInclude Include="..\..\Simulation\Ids\Isolate\SwitchModel.h" />
+    <ClInclude Include="..\..\Simulation\Ids\Source\BatteryModel.h" />
+    <ClInclude Include="..\..\Simulation\Ids\Source\GeneratorModel.h" />
+    <ClInclude Include="..\..\Simulation\Victron\Convert\OrionTrSmartIso12_24_10.h" />
+    <ClInclude Include="..\..\Simulation\Victron\Convert\SmartIp43_12V_50_2.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Programs\Ids\Convert\DataCharge.cpp" />
+    <ClCompile Include="..\..\Programs\Ids\Convert\DataDcDc.cpp" />
+    <ClCompile Include="..\..\Programs\Ids\Convert\PanelCharge.cpp" />
+    <ClCompile Include="..\..\Programs\Ids\Convert\PanelDcDc.cpp" />
     <ClCompile Include="..\..\Programs\Ids\IdsProgControl.cpp" />
     <ClCompile Include="..\..\Programs\Ids\IdsProgOperate.cpp" />
     <ClCompile Include="..\..\Programs\ioSystemData.cpp" />
     <ClCompile Include="..\..\Programs\ioSystemGraphics.cpp" />
     <ClCompile Include="..\..\Programs\ioSystemPorts.cpp" />
-    <ClCompile Include="..\..\Programs\Victron\Charge\DataCharge.cpp" />
-    <ClCompile Include="..\..\Programs\Victron\Charge\PanelCharge.cpp" />
-    <ClCompile Include="..\..\Programs\Victron\DcDc\DataDcDc.cpp" />
-    <ClCompile Include="..\..\Programs\Victron\DcDc\PanelDcDc.cpp" />
     <ClCompile Include="..\..\Programs\Victron\Io\DataCerboGx.cpp" />
     <ClCompile Include="..\..\Programs\Victron\Io\ProgramCerboGx.cpp" />
     <ClCompile Include="..\..\Programs\Victron\VictronData.cpp" />
     <ClCompile Include="..\..\Programs\Victron\VictronMonitor.cpp" />
     <ClCompile Include="..\..\Programs\Victron\VictronPanel.cpp" />
     <ClCompile Include="..\..\Programs\Victron\VictronSensor.cpp" />
-    <ClCompile Include="..\..\Simulation\Victron\DcDc\OrionTrSmartIso12_24_10.cpp" />
+    <ClCompile Include="..\..\Simulation\Ids\Consume\ConsumerModel.cpp" />
+    <ClCompile Include="..\..\Simulation\Ids\Consume\SwitchBoardModel.cpp" />
+    <ClCompile Include="..\..\Simulation\Ids\Convert\ChargeModel.cpp" />
+    <ClCompile Include="..\..\Simulation\Ids\Convert\DcDcModel.cpp" />
+    <ClCompile Include="..\..\Simulation\Ids\Io\PowerNetModel.cpp" />
+    <ClCompile Include="..\..\Simulation\Ids\Io\ShuntModel.cpp" />
+    <ClCompile Include="..\..\Simulation\Ids\Isolate\DiodeModel.cpp" />
+    <ClCompile Include="..\..\Simulation\Ids\Isolate\FuseModel.cpp" />
+    <ClCompile Include="..\..\Simulation\Ids\Isolate\SwitchModel.cpp" />
+    <ClCompile Include="..\..\Simulation\Ids\Source\BatteryModel.cpp" />
+    <ClCompile Include="..\..\Simulation\Ids\Source\GeneratorModel.cpp" />
+    <ClCompile Include="..\..\Simulation\Victron\Convert\OrionTrSmartIso12_24_10.cpp" />
+    <ClCompile Include="..\..\Simulation\Victron\Convert\SmartIp43_12V_50_2.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
