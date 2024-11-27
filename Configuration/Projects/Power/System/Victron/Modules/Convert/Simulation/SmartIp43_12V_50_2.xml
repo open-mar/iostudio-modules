@@ -23,7 +23,7 @@
                 <Call Name="SimulateVoltOutput">
                     <Input Name="voltInputAc" NameClass="DataCharge" GlobalID="Ids.Convert.ChargeData.VoltageInputAc" />
                     <Input Name="isOutputActive" NameClass="DataCharge" GlobalID="Ids.Convert.ChargeData.IsChargingActive" />
-                    <Output Name="voltOutputDc" NameClass="DataCharge" GlobalID="Ids.Convert.ChargeData.VoltageOutputDc" />
+                    <OutputArray Name="voltOutputDc" NameClass="DataCharge" GlobalID="Ids.Convert.ChargeData.VoltageOutputDc" />
                 </Call>
             </Function>
         </Sequence>

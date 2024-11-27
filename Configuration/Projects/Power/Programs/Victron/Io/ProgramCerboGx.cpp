@@ -28,7 +28,7 @@ void ProgramCerboGx::ReceiveData(ioDataCollection* listData, ioData* data)
         case Duid_Victron_Io_ResponseDataCgx:
             UpdateFromCergoGxData();
             ChargePanel.InstrVoltInputAc.SetValueVar(&ChargeData.VoltageInputAc);
-            ChargePanel.InstVoltOutputDc.SetValueVar(&ChargeData.VoltageOutputDc);
+//            ChargePanel.InstVoltOutputDc.SetValueVar(&ChargeData.VoltageOutputDc);
             DcDcPanel.InstrVoltInputDcDc.SetValueVar(&DcDcData.VoltageInputDcDc);
             DcDcPanel.InstrVoltOutputDcDc.SetValueVar(&DcDcData.VoltageOutputDcDc);
             break;
