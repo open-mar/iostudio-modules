@@ -10,13 +10,17 @@ namespace ioSystemNetworkNet
         Duid_Ids_Convert_MaxOutCurrentDc = 23,
         Duid_Ids_Convert_CurrentOutputDc = 3,
         Duid_Ids_Convert_VoltageOutputDc = 4,
+        Duid_Ids_Convert_CurrentInputAc = 7,
         Duid_Ids_Convert_VoltageInputDcDc = 24,
         Duid_Ids_Convert_VoltageOutputDcDc = 25,
         Duid_Ids_Convert_IsDcDcOutputActive = 26,
         Duid_Ids_Convert_MaxOutCurrentDcDc = 27,
+        Duid_Ids_Convert_CurrentInputDcDc = 5,
+        Duid_Ids_Convert_CurrentOutputDcDc = 6,
         Duid_Ids_Source_VoltOutputGenerator = 28,
         Duid_Ids_Source_IsGeneratorOutputActive = 30,
         Duid_Ids_Source_MaxOutCurrentGenerator = 29,
+        Duid_Ids_Source_CurrentGenerator = 8,
         Duid_Victron_RequestVictronData = 1,
         Duid_Victron_ResponseVictronData = 2,
         Duid_Victron_Io_RequestDataCgx = 9,
@@ -42,13 +46,17 @@ namespace ioSystemNetworkNet
                 case ioSystemDataPowerType.Duid_Ids_Convert_MaxOutCurrentDc: return "Ids.Convert.MaxOutCurrentDc";
                 case ioSystemDataPowerType.Duid_Ids_Convert_CurrentOutputDc: return "Ids.Convert.CurrentOutputDc";
                 case ioSystemDataPowerType.Duid_Ids_Convert_VoltageOutputDc: return "Ids.Convert.VoltageOutputDc";
+                case ioSystemDataPowerType.Duid_Ids_Convert_CurrentInputAc: return "Ids.Convert.CurrentInputAc";
                 case ioSystemDataPowerType.Duid_Ids_Convert_VoltageInputDcDc: return "Ids.Convert.VoltageInputDcDc";
                 case ioSystemDataPowerType.Duid_Ids_Convert_VoltageOutputDcDc: return "Ids.Convert.VoltageOutputDcDc";
                 case ioSystemDataPowerType.Duid_Ids_Convert_IsDcDcOutputActive: return "Ids.Convert.IsDcDcOutputActive";
                 case ioSystemDataPowerType.Duid_Ids_Convert_MaxOutCurrentDcDc: return "Ids.Convert.MaxOutCurrentDcDc";
+                case ioSystemDataPowerType.Duid_Ids_Convert_CurrentInputDcDc: return "Ids.Convert.CurrentInputDcDc";
+                case ioSystemDataPowerType.Duid_Ids_Convert_CurrentOutputDcDc: return "Ids.Convert.CurrentOutputDcDc";
                 case ioSystemDataPowerType.Duid_Ids_Source_VoltOutputGenerator: return "Ids.Source.VoltOutputGenerator";
                 case ioSystemDataPowerType.Duid_Ids_Source_IsGeneratorOutputActive: return "Ids.Source.IsGeneratorOutputActive";
                 case ioSystemDataPowerType.Duid_Ids_Source_MaxOutCurrentGenerator: return "Ids.Source.MaxOutCurrentGenerator";
+                case ioSystemDataPowerType.Duid_Ids_Source_CurrentGenerator: return "Ids.Source.CurrentGenerator";
                 case ioSystemDataPowerType.Duid_Victron_RequestVictronData: return "Victron.RequestVictronData";
                 case ioSystemDataPowerType.Duid_Victron_ResponseVictronData: return "Victron.ResponseVictronData";
                 case ioSystemDataPowerType.Duid_Victron_Io_RequestDataCgx: return "Victron.Io.RequestDataCgx";
@@ -74,13 +82,17 @@ namespace ioSystemNetworkNet
                 case "Ids.Convert.MaxOutCurrentDc": return ioSystemDataPowerType.Duid_Ids_Convert_MaxOutCurrentDc;
                 case "Ids.Convert.CurrentOutputDc": return ioSystemDataPowerType.Duid_Ids_Convert_CurrentOutputDc;
                 case "Ids.Convert.VoltageOutputDc": return ioSystemDataPowerType.Duid_Ids_Convert_VoltageOutputDc;
+                case "Ids.Convert.CurrentInputAc": return ioSystemDataPowerType.Duid_Ids_Convert_CurrentInputAc;
                 case "Ids.Convert.VoltageInputDcDc": return ioSystemDataPowerType.Duid_Ids_Convert_VoltageInputDcDc;
                 case "Ids.Convert.VoltageOutputDcDc": return ioSystemDataPowerType.Duid_Ids_Convert_VoltageOutputDcDc;
                 case "Ids.Convert.IsDcDcOutputActive": return ioSystemDataPowerType.Duid_Ids_Convert_IsDcDcOutputActive;
                 case "Ids.Convert.MaxOutCurrentDcDc": return ioSystemDataPowerType.Duid_Ids_Convert_MaxOutCurrentDcDc;
+                case "Ids.Convert.CurrentInputDcDc": return ioSystemDataPowerType.Duid_Ids_Convert_CurrentInputDcDc;
+                case "Ids.Convert.CurrentOutputDcDc": return ioSystemDataPowerType.Duid_Ids_Convert_CurrentOutputDcDc;
                 case "Ids.Source.VoltOutputGenerator": return ioSystemDataPowerType.Duid_Ids_Source_VoltOutputGenerator;
                 case "Ids.Source.IsGeneratorOutputActive": return ioSystemDataPowerType.Duid_Ids_Source_IsGeneratorOutputActive;
                 case "Ids.Source.MaxOutCurrentGenerator": return ioSystemDataPowerType.Duid_Ids_Source_MaxOutCurrentGenerator;
+                case "Ids.Source.CurrentGenerator": return ioSystemDataPowerType.Duid_Ids_Source_CurrentGenerator;
                 case "Victron.RequestVictronData": return ioSystemDataPowerType.Duid_Victron_RequestVictronData;
                 case "Victron.ResponseVictronData": return ioSystemDataPowerType.Duid_Victron_ResponseVictronData;
                 case "Victron.Io.RequestDataCgx": return ioSystemDataPowerType.Duid_Victron_Io_RequestDataCgx;

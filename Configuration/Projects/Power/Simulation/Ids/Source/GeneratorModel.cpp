@@ -11,6 +11,7 @@ GeneratorModel::~GeneratorModel()
 void GeneratorModel::InitializeItem(void)
 {
     ioModel::InitializeItem();
+    AddData((ioDataCollection*)&GeneratorData);
 }
 void GeneratorModel::DoSimulation_100ms(Int32 slotCounter_100ms)
 {

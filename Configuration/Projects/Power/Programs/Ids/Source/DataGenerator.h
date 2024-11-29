@@ -13,7 +13,8 @@ public:
     ioVarFloat VoltOutputGenerator;
     ioVarBool IsGeneratorOutputActive;
     ioVarDouble MaxOutCurrentGenerator;
+    ioVarFloat CurrentGenerator;
 protected:
-    ioData* m_ListData[3];
+    ioData* m_ListData[4];
 };
 #endif // __DATAGENERATOR_H

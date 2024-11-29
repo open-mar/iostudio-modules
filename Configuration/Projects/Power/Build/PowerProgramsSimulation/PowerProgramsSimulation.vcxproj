@@ -149,6 +149,7 @@
     <ClInclude Include="..\..\Programs\Ids\Convert\PanelDcDc.h" />
     <ClInclude Include="..\..\Programs\Ids\IdsProgControl.h" />
     <ClInclude Include="..\..\Programs\Ids\IdsProgOperate.h" />
+    <ClInclude Include="..\..\Programs\Ids\Source\DataGenerator.h" />
     <ClInclude Include="..\..\Programs\ioSystemData.h" />
     <ClInclude Include="..\..\Programs\ioSystemGraphics.h" />
     <ClInclude Include="..\..\Programs\ioSystemPorts.h" />
@@ -169,6 +170,7 @@
     <ClInclude Include="..\..\Simulation\Ids\Isolate\SwitchModel.h" />
     <ClInclude Include="..\..\Simulation\Ids\Source\BatteryModel.h" />
     <ClInclude Include="..\..\Simulation\Ids\Source\GeneratorModel.h" />
+    <ClInclude Include="..\..\Simulation\MaksPower\Source\MaksPowerMp200Dynamo.h" />
     <ClInclude Include="..\..\Simulation\Victron\Convert\OrionTrSmartIso12_24_10.h" />
     <ClInclude Include="..\..\Simulation\Victron\Convert\SmartIp43_12V_50_2.h" />
     <ClInclude Include="framework.h" />
@@ -181,6 +183,7 @@
     <ClCompile Include="..\..\Programs\Ids\Convert\PanelDcDc.cpp" />
     <ClCompile Include="..\..\Programs\Ids\IdsProgControl.cpp" />
     <ClCompile Include="..\..\Programs\Ids\IdsProgOperate.cpp" />
+    <ClCompile Include="..\..\Programs\Ids\Source\DataGenerator.cpp" />
     <ClCompile Include="..\..\Programs\ioSystemData.cpp" />
     <ClCompile Include="..\..\Programs\ioSystemGraphics.cpp" />
     <ClCompile Include="..\..\Programs\ioSystemPorts.cpp" />
@@ -201,6 +204,7 @@
     <ClCompile Include="..\..\Simulation\Ids\Isolate\SwitchModel.cpp" />
     <ClCompile Include="..\..\Simulation\Ids\Source\BatteryModel.cpp" />
     <ClCompile Include="..\..\Simulation\Ids\Source\GeneratorModel.cpp" />
+    <ClCompile Include="..\..\Simulation\MaksPower\Source\MaksPowerMp200Dynamo.cpp" />
     <ClCompile Include="..\..\Simulation\Victron\Convert\OrionTrSmartIso12_24_10.cpp" />
     <ClCompile Include="..\..\Simulation\Victron\Convert\SmartIp43_12V_50_2.cpp" />
     <ClCompile Include="pch.cpp">

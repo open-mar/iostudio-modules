@@ -6,5 +6,7 @@
         <Variable LocalID="VoltageOutputDcDc" TypeNum="Float" Unit="VDC" Decimals="2" Min="0.00" Max="60.00">24</Variable>
         <Variable LocalID="IsDcDcOutputActive" TypeNum="Bool" Unit="VDC">TRUE</Variable>
         <Variable LocalID="MaxOutCurrentDcDc" TypeNum="Float" Unit="A" Decimals="2" Min="0.00" Max="40.00">20</Variable>
+        <Variable LocalID="CurrentInputDcDc" TypeNum="Float" Unit="A" Decimals="2" Min="-99.00" Max="99.00">0.0</Variable>
+        <Variable LocalID="CurrentOutputDcDc" TypeNum="Float" Unit="A" Decimals="2" Min="-99.00" Max="99.00">0.0</Variable>
     </DataListObject>
 </DataList>

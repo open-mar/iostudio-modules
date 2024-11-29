@@ -15,17 +15,17 @@ void SmartIp43_12V_50_2::InitializeItem(void)
 }
 void SmartIp43_12V_50_2::DoSimulation_100ms(Int32 slotCounter_100ms)
 {
-    Float out0_Float;
+    ioStringL out0_Array;
     if ((slotCounter_100ms % 10) == 0)
     {
         SimulateVoltOutput(
                 ChargeData.VoltageInputAc.GetValue(), 
                 ChargeData.IsChargingActive.GetValue(), 
-                &out0_Float
+                &out0_Array
         );
-//        ChargeData.VoltageOutputDc.SetValue(out0_Float);
+        ChargeData.VoltageOutputDc.SetValue(&out0_Array);
     } // if
 }
-void SmartIp43_12V_50_2::SimulateVoltOutput(Float voltInputAc, Bool isOutputActive, Float* voltOutputDc)
+void SmartIp43_12V_50_2::SimulateVoltOutput(Float voltInputAc, Bool isOutputActive, ioString* voltOutputDc)
 {
 }

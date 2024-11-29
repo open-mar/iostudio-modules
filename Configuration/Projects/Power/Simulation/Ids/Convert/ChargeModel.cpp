@@ -11,6 +11,7 @@ ChargeModel::~ChargeModel()
 void ChargeModel::InitializeItem(void)
 {
     ioModel::InitializeItem();
+    AddData((ioDataCollection*)&ChargeData);
 }
 void ChargeModel::DoSimulation_100ms(Int32 slotCounter_100ms)
 {

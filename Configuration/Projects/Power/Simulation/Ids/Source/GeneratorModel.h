@@ -2,6 +2,7 @@
 #if !defined(__GENERATORMODEL_H)
 #define __GENERATORMODEL_H
 #include "ioSystem/Simulation/ioModel.h"
+#include "Programs/Ids/Source/DataGenerator.h"
 class GeneratorModel : public ioModel
 {
 public:
@@ -9,5 +10,6 @@ public:
     virtual ~GeneratorModel();
     virtual void InitializeItem(void);
     virtual void DoSimulation_100ms(Int32 slotCounter_100ms);
+    DataGenerator GeneratorData;
 };
 #endif // __GENERATORMODEL_H

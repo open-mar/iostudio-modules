@@ -8,7 +8,7 @@
                 <Argument Name="isOutputActive" TypeNum="Bool" />
             </Inputs>
             <Outputs>
-                <Argument Name="voltOutputDc" TypeNum="Float" />
+                <ArgumentArray Name="voltOutputDc" TypeNum="Float" />
             </Outputs>
         </Function>
     </InternalFunctions>

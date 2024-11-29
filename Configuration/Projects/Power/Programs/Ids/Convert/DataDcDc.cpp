@@ -11,7 +11,7 @@ DataDcDc::~DataDcDc()
 }
 void DataDcDc::InitializeData(void)
 {
-    SetListData(m_ListData, 4);
+    SetListData(m_ListData, 6);
     ResetItem();
     VoltageInputDcDc.SetValue((Float)12.00);
     AddData((ioData*)&VoltageInputDcDc, Duid_Ids_Convert_VoltageInputDcDc);
@@ -21,4 +21,8 @@ void DataDcDc::InitializeData(void)
     AddData((ioData*)&IsDcDcOutputActive, Duid_Ids_Convert_IsDcDcOutputActive);
     MaxOutCurrentDcDc.SetValue((Float)20);
     AddData((ioData*)&MaxOutCurrentDcDc, Duid_Ids_Convert_MaxOutCurrentDcDc);
+    CurrentInputDcDc.SetValue((Float)0.0);
+    AddData((ioData*)&CurrentInputDcDc, Duid_Ids_Convert_CurrentInputDcDc);
+    CurrentOutputDcDc.SetValue((Float)0.0);
+    AddData((ioData*)&CurrentOutputDcDc, Duid_Ids_Convert_CurrentOutputDcDc);
 }

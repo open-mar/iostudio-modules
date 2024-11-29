@@ -15,5 +15,6 @@
             <Number>12.00</Number>
             <Number>12.00</Number>
         </Array>
+        <Variable LocalID="CurrentInputAc" TypeNum="Float" Unit="A" Decimals="2" Min="-99.00" Max="99.00">0.0</Variable>
     </DataListObject>
 </DataList>

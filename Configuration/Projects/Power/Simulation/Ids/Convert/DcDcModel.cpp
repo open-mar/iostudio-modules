@@ -11,6 +11,7 @@ DcDcModel::~DcDcModel()
 void DcDcModel::InitializeItem(void)
 {
     ioModel::InitializeItem();
+    AddData((ioDataCollection*)&DcDcData);
 }
 void DcDcModel::DoSimulation_100ms(Int32 slotCounter_100ms)
 {

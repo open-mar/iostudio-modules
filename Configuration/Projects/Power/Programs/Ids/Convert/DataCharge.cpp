@@ -11,7 +11,7 @@ DataCharge::~DataCharge()
 }
 void DataCharge::InitializeData(void)
 {
-    SetListData(m_ListData, 5);
+    SetListData(m_ListData, 6);
     ResetItem();
     VoltageInputAc.SetValue((Float)220);
     AddData((ioData*)&VoltageInputAc, Duid_Ids_Convert_VoltageInputAc);
@@ -35,4 +35,6 @@ void DataCharge::InitializeData(void)
     m_VoltageOutputDcValues[2].SetValue((Float)12.00);
     VoltageOutputDc.AddNumber(&m_VoltageOutputDcValues[2]);
     AddData((ioData*)&VoltageOutputDc, Duid_Ids_Convert_VoltageOutputDc);
+    CurrentInputAc.SetValue((Float)0.0);
+    AddData((ioData*)&CurrentInputAc, Duid_Ids_Convert_CurrentInputAc);
 }

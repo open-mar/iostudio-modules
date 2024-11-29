@@ -64,13 +64,17 @@ ioSystemDataType ioSystemData::GetDataType(Int32 duidValue)
     case 23: return Duid_Ids_Convert_MaxOutCurrentDc; 
     case 3: return Duid_Ids_Convert_CurrentOutputDc; 
     case 4: return Duid_Ids_Convert_VoltageOutputDc; 
+    case 7: return Duid_Ids_Convert_CurrentInputAc; 
     case 24: return Duid_Ids_Convert_VoltageInputDcDc; 
     case 25: return Duid_Ids_Convert_VoltageOutputDcDc; 
     case 26: return Duid_Ids_Convert_IsDcDcOutputActive; 
     case 27: return Duid_Ids_Convert_MaxOutCurrentDcDc; 
+    case 5: return Duid_Ids_Convert_CurrentInputDcDc; 
+    case 6: return Duid_Ids_Convert_CurrentOutputDcDc; 
     case 28: return Duid_Ids_Source_VoltOutputGenerator; 
     case 30: return Duid_Ids_Source_IsGeneratorOutputActive; 
     case 29: return Duid_Ids_Source_MaxOutCurrentGenerator; 
+    case 8: return Duid_Ids_Source_CurrentGenerator; 
     case 1: return Duid_Victron_RequestVictronData; 
     case 2: return Duid_Victron_ResponseVictronData; 
     case 9: return Duid_Victron_Io_RequestDataCgx; 

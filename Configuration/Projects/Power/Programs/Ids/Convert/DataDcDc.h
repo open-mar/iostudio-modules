@@ -14,7 +14,9 @@ public:
     ioVarFloat VoltageOutputDcDc;
     ioVarBool IsDcDcOutputActive;
     ioVarFloat MaxOutCurrentDcDc;
+    ioVarFloat CurrentInputDcDc;
+    ioVarFloat CurrentOutputDcDc;
 protected:
-    ioData* m_ListData[4];
+    ioData* m_ListData[6];
 };
 #endif // __DATADCDC_H

@@ -47,6 +47,15 @@
     <Filter Include="Programs\Ids\Convert">
       <UniqueIdentifier>{086777bd-a9d2-46e8-b2ba-ea64fb15cf67}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Simulation\MaksPower">
+      <UniqueIdentifier>{e928ecff-acc2-46c9-8e3d-c1955a5cfaef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation\MaksPower\Source">
+      <UniqueIdentifier>{fdc411d7-8bf6-4b4e-8fac-56ff461419c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Ids\Source">
+      <UniqueIdentifier>{38f0f167-8d85-4a54-ad38-aef4786e790f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Programs\ioSystemData.h">
@@ -139,6 +148,12 @@
     <ClInclude Include="..\..\Programs\Ids\Convert\PanelDcDc.h">
       <Filter>Programs\Ids\Convert</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Simulation\MaksPower\Source\MaksPowerMp200Dynamo.h">
+      <Filter>Simulation\MaksPower\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Ids\Source\DataGenerator.h">
+      <Filter>Programs\Ids\Source</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -230,6 +245,12 @@
     </ClCompile>
     <ClCompile Include="..\..\Programs\Ids\Convert\PanelDcDc.cpp">
       <Filter>Programs\Ids\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Simulation\MaksPower\Source\MaksPowerMp200Dynamo.cpp">
+      <Filter>Simulation\MaksPower\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Ids\Source\DataGenerator.cpp">
+      <Filter>Programs\Ids\Source</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

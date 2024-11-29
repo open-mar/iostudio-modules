@@ -10,7 +10,7 @@ public:
     virtual ~SmartIp43_12V_50_2();
     virtual void InitializeItem(void);
     virtual void DoSimulation_100ms(Int32 slotCounter_100ms);
-    virtual void SimulateVoltOutput(Float voltInputAc, Bool isOutputActive, Float* voltOutputDc);
+    virtual void SimulateVoltOutput(Float voltInputAc, Bool isOutputActive, ioString* voltOutputDc);
     DataCharge ChargeData;
 };
 #endif // __SMARTIP43_12V_50_2_H

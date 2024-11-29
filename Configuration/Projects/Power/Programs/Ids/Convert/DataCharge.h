@@ -16,8 +16,9 @@ public:
     ioVarFloat MaxOutCurrentDc;
     ioArray CurrentOutputDc;
     ioArray VoltageOutputDc;
+    ioVarFloat CurrentInputAc;
 protected:
-    ioData* m_ListData[5];
+    ioData* m_ListData[6];
     ioNum* m_CurrentOutputDcNumbers[3];
     ioNumFloat m_CurrentOutputDcValues[3];
     ioNum* m_VoltageOutputDcNumbers[3];

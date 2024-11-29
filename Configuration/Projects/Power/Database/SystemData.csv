@@ -24,3 +24,7 @@ DUID;Parent;LocalID;TypeData
 30;Ids.Source;IsGeneratorOutputActive;Variable
 3;Ids.Convert;CurrentOutputDc;Array
 4;Ids.Convert;VoltageOutputDc;Array
+5;Ids.Convert;CurrentInputDcDc;Variable
+6;Ids.Convert;CurrentOutputDcDc;Variable
+7;Ids.Convert;CurrentInputAc;Variable
+8;Ids.Source;CurrentGenerator;Variable

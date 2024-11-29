@@ -2,6 +2,7 @@
 #if !defined(__DCDCMODEL_H)
 #define __DCDCMODEL_H
 #include "ioSystem/Simulation/ioModel.h"
+#include "Programs/Ids/Convert/DataDcDc.h"
 class DcDcModel : public ioModel
 {
 public:
@@ -9,5 +10,6 @@ public:
     virtual ~DcDcModel();
     virtual void InitializeItem(void);
     virtual void DoSimulation_100ms(Int32 slotCounter_100ms);
+    DataDcDc DcDcData;
 };
 #endif // __DCDCMODEL_H
