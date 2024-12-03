@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ModelClass Name="BatteryModel">
-    <Description>Simulation model for a battery connected to a power network</Description>
-    <ModelClassObject ParentGlobalID="Ids.Source">
+<ModelClass Name="MaksPowerBattOptima50Ah12V">
+    <Description>Simulation model for MaksPower Optima 12V 50Ah motor battery</Description>
+    <ModelClassObject ParentGlobalID="MaksPower.Source">
         <DataItemsCollection>
             <DataListClasses Name="Ids::Source::DataBattery" NameObject="Data">
                 <Item NameClass="DataBattery" NameObject="BatteryData" />

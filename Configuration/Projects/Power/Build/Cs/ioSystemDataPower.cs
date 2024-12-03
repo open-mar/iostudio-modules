@@ -5,22 +5,31 @@ namespace ioSystemNetworkNet
     public enum ioSystemDataPowerType
     {
         Duid_NotDefined = 0,
+        Duid_Ids_Consume_IsOutputOn = 32,
+        Duid_Ids_Consume_PowerConsumer = 33,
         Duid_Ids_Convert_VoltageInputAc = 20,
         Duid_Ids_Convert_IsChargingActive = 22,
-        Duid_Ids_Convert_MaxOutCurrentDc = 23,
         Duid_Ids_Convert_CurrentOutputDc = 3,
         Duid_Ids_Convert_VoltageOutputDc = 4,
         Duid_Ids_Convert_CurrentInputAc = 7,
+        Duid_Ids_Convert_MaxOutCurrentDc = 23,
         Duid_Ids_Convert_VoltageInputDcDc = 24,
         Duid_Ids_Convert_VoltageOutputDcDc = 25,
         Duid_Ids_Convert_IsDcDcOutputActive = 26,
         Duid_Ids_Convert_MaxOutCurrentDcDc = 27,
         Duid_Ids_Convert_CurrentInputDcDc = 5,
         Duid_Ids_Convert_CurrentOutputDcDc = 6,
+        Duid_Ids_Isolate_MaxFuseCurrent = 37,
+        Duid_Ids_Isolate_IsFuseBlown = 35,
+        Duid_Ids_Isolate_ResetFuse = 38,
+        Duid_Ids_Source_VoltageBattery = 21,
+        Duid_Ids_Source_CurrentBattery = 31,
+        Duid_Ids_Source_StatusOfCharge = 34,
         Duid_Ids_Source_VoltOutputGenerator = 28,
         Duid_Ids_Source_IsGeneratorOutputActive = 30,
         Duid_Ids_Source_MaxOutCurrentGenerator = 29,
         Duid_Ids_Source_CurrentGenerator = 8,
+        Duid_Ids_Source_BatteryChargeResistance = 36,
         Duid_Victron_RequestVictronData = 1,
         Duid_Victron_ResponseVictronData = 2,
         Duid_Victron_Io_RequestDataCgx = 9,
@@ -41,22 +50,31 @@ namespace ioSystemNetworkNet
         {
             switch (duid)
             {
+                case ioSystemDataPowerType.Duid_Ids_Consume_IsOutputOn: return "Ids.Consume.IsOutputOn";
+                case ioSystemDataPowerType.Duid_Ids_Consume_PowerConsumer: return "Ids.Consume.PowerConsumer";
                 case ioSystemDataPowerType.Duid_Ids_Convert_VoltageInputAc: return "Ids.Convert.VoltageInputAc";
                 case ioSystemDataPowerType.Duid_Ids_Convert_IsChargingActive: return "Ids.Convert.IsChargingActive";
-                case ioSystemDataPowerType.Duid_Ids_Convert_MaxOutCurrentDc: return "Ids.Convert.MaxOutCurrentDc";
                 case ioSystemDataPowerType.Duid_Ids_Convert_CurrentOutputDc: return "Ids.Convert.CurrentOutputDc";
                 case ioSystemDataPowerType.Duid_Ids_Convert_VoltageOutputDc: return "Ids.Convert.VoltageOutputDc";
                 case ioSystemDataPowerType.Duid_Ids_Convert_CurrentInputAc: return "Ids.Convert.CurrentInputAc";
+                case ioSystemDataPowerType.Duid_Ids_Convert_MaxOutCurrentDc: return "Ids.Convert.MaxOutCurrentDc";
                 case ioSystemDataPowerType.Duid_Ids_Convert_VoltageInputDcDc: return "Ids.Convert.VoltageInputDcDc";
                 case ioSystemDataPowerType.Duid_Ids_Convert_VoltageOutputDcDc: return "Ids.Convert.VoltageOutputDcDc";
                 case ioSystemDataPowerType.Duid_Ids_Convert_IsDcDcOutputActive: return "Ids.Convert.IsDcDcOutputActive";
                 case ioSystemDataPowerType.Duid_Ids_Convert_MaxOutCurrentDcDc: return "Ids.Convert.MaxOutCurrentDcDc";
                 case ioSystemDataPowerType.Duid_Ids_Convert_CurrentInputDcDc: return "Ids.Convert.CurrentInputDcDc";
                 case ioSystemDataPowerType.Duid_Ids_Convert_CurrentOutputDcDc: return "Ids.Convert.CurrentOutputDcDc";
+                case ioSystemDataPowerType.Duid_Ids_Isolate_MaxFuseCurrent: return "Ids.Isolate.MaxFuseCurrent";
+                case ioSystemDataPowerType.Duid_Ids_Isolate_IsFuseBlown: return "Ids.Isolate.IsFuseBlown";
+                case ioSystemDataPowerType.Duid_Ids_Isolate_ResetFuse: return "Ids.Isolate.ResetFuse";
+                case ioSystemDataPowerType.Duid_Ids_Source_VoltageBattery: return "Ids.Source.VoltageBattery";
+                case ioSystemDataPowerType.Duid_Ids_Source_CurrentBattery: return "Ids.Source.CurrentBattery";
+                case ioSystemDataPowerType.Duid_Ids_Source_StatusOfCharge: return "Ids.Source.StatusOfCharge";
                 case ioSystemDataPowerType.Duid_Ids_Source_VoltOutputGenerator: return "Ids.Source.VoltOutputGenerator";
                 case ioSystemDataPowerType.Duid_Ids_Source_IsGeneratorOutputActive: return "Ids.Source.IsGeneratorOutputActive";
                 case ioSystemDataPowerType.Duid_Ids_Source_MaxOutCurrentGenerator: return "Ids.Source.MaxOutCurrentGenerator";
                 case ioSystemDataPowerType.Duid_Ids_Source_CurrentGenerator: return "Ids.Source.CurrentGenerator";
+                case ioSystemDataPowerType.Duid_Ids_Source_BatteryChargeResistance: return "Ids.Source.BatteryChargeResistance";
                 case ioSystemDataPowerType.Duid_Victron_RequestVictronData: return "Victron.RequestVictronData";
                 case ioSystemDataPowerType.Duid_Victron_ResponseVictronData: return "Victron.ResponseVictronData";
                 case ioSystemDataPowerType.Duid_Victron_Io_RequestDataCgx: return "Victron.Io.RequestDataCgx";
@@ -77,22 +95,31 @@ namespace ioSystemNetworkNet
         {
             switch (globalID)
             {
+                case "Ids.Consume.IsOutputOn": return ioSystemDataPowerType.Duid_Ids_Consume_IsOutputOn;
+                case "Ids.Consume.PowerConsumer": return ioSystemDataPowerType.Duid_Ids_Consume_PowerConsumer;
                 case "Ids.Convert.VoltageInputAc": return ioSystemDataPowerType.Duid_Ids_Convert_VoltageInputAc;
                 case "Ids.Convert.IsChargingActive": return ioSystemDataPowerType.Duid_Ids_Convert_IsChargingActive;
-                case "Ids.Convert.MaxOutCurrentDc": return ioSystemDataPowerType.Duid_Ids_Convert_MaxOutCurrentDc;
                 case "Ids.Convert.CurrentOutputDc": return ioSystemDataPowerType.Duid_Ids_Convert_CurrentOutputDc;
                 case "Ids.Convert.VoltageOutputDc": return ioSystemDataPowerType.Duid_Ids_Convert_VoltageOutputDc;
                 case "Ids.Convert.CurrentInputAc": return ioSystemDataPowerType.Duid_Ids_Convert_CurrentInputAc;
+                case "Ids.Convert.MaxOutCurrentDc": return ioSystemDataPowerType.Duid_Ids_Convert_MaxOutCurrentDc;
                 case "Ids.Convert.VoltageInputDcDc": return ioSystemDataPowerType.Duid_Ids_Convert_VoltageInputDcDc;
                 case "Ids.Convert.VoltageOutputDcDc": return ioSystemDataPowerType.Duid_Ids_Convert_VoltageOutputDcDc;
                 case "Ids.Convert.IsDcDcOutputActive": return ioSystemDataPowerType.Duid_Ids_Convert_IsDcDcOutputActive;
                 case "Ids.Convert.MaxOutCurrentDcDc": return ioSystemDataPowerType.Duid_Ids_Convert_MaxOutCurrentDcDc;
                 case "Ids.Convert.CurrentInputDcDc": return ioSystemDataPowerType.Duid_Ids_Convert_CurrentInputDcDc;
                 case "Ids.Convert.CurrentOutputDcDc": return ioSystemDataPowerType.Duid_Ids_Convert_CurrentOutputDcDc;
+                case "Ids.Isolate.MaxFuseCurrent": return ioSystemDataPowerType.Duid_Ids_Isolate_MaxFuseCurrent;
+                case "Ids.Isolate.IsFuseBlown": return ioSystemDataPowerType.Duid_Ids_Isolate_IsFuseBlown;
+                case "Ids.Isolate.ResetFuse": return ioSystemDataPowerType.Duid_Ids_Isolate_ResetFuse;
+                case "Ids.Source.VoltageBattery": return ioSystemDataPowerType.Duid_Ids_Source_VoltageBattery;
+                case "Ids.Source.CurrentBattery": return ioSystemDataPowerType.Duid_Ids_Source_CurrentBattery;
+                case "Ids.Source.StatusOfCharge": return ioSystemDataPowerType.Duid_Ids_Source_StatusOfCharge;
                 case "Ids.Source.VoltOutputGenerator": return ioSystemDataPowerType.Duid_Ids_Source_VoltOutputGenerator;
                 case "Ids.Source.IsGeneratorOutputActive": return ioSystemDataPowerType.Duid_Ids_Source_IsGeneratorOutputActive;
                 case "Ids.Source.MaxOutCurrentGenerator": return ioSystemDataPowerType.Duid_Ids_Source_MaxOutCurrentGenerator;
                 case "Ids.Source.CurrentGenerator": return ioSystemDataPowerType.Duid_Ids_Source_CurrentGenerator;
+                case "Ids.Source.BatteryChargeResistance": return ioSystemDataPowerType.Duid_Ids_Source_BatteryChargeResistance;
                 case "Victron.RequestVictronData": return ioSystemDataPowerType.Duid_Victron_RequestVictronData;
                 case "Victron.ResponseVictronData": return ioSystemDataPowerType.Duid_Victron_ResponseVictronData;
                 case "Victron.Io.RequestDataCgx": return ioSystemDataPowerType.Duid_Victron_Io_RequestDataCgx;

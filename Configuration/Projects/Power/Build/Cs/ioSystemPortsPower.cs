@@ -34,7 +34,6 @@ namespace ioSystemNetworkNet
         Nuid_NetDc_Motor_Ids_Source_BattMotor_Pos = 30,
         Nuid_NetDc_Motor_Ids_Isolate_Diode_Output2 = 26,
         Nuid_NetDc_Motor_Ids_Isolate_FuseMotor_Port1 = 27,
-        Nuid_NetDc_Motor_Ids_Isolate_SwitchMotor_Input = 28,
         Nuid_NetDc_Motor_Ids_Convert_Charge_Motor = 31,
         Nuid_NetDc_Motor_Ids_Consume_Motor_Input = 35,
         Nuid_NetDc_Level_Ids_Isolate_Diode_Output3 = 32,
@@ -76,7 +75,6 @@ namespace ioSystemNetworkNet
                 case ioSystemPortsPowerType.Nuid_NetDc_Motor_Ids_Source_BattMotor_Pos: return "NetDc.Motor.Ids.Source.BattMotor.Pos";
                 case ioSystemPortsPowerType.Nuid_NetDc_Motor_Ids_Isolate_Diode_Output2: return "NetDc.Motor.Ids.Isolate.Diode.Output2";
                 case ioSystemPortsPowerType.Nuid_NetDc_Motor_Ids_Isolate_FuseMotor_Port1: return "NetDc.Motor.Ids.Isolate.FuseMotor.Port1";
-                case ioSystemPortsPowerType.Nuid_NetDc_Motor_Ids_Isolate_SwitchMotor_Input: return "NetDc.Motor.Ids.Isolate.SwitchMotor.Input";
                 case ioSystemPortsPowerType.Nuid_NetDc_Motor_Ids_Convert_Charge_Motor: return "NetDc.Motor.Ids.Convert.Charge.Motor";
                 case ioSystemPortsPowerType.Nuid_NetDc_Motor_Ids_Consume_Motor_Input: return "NetDc.Motor.Ids.Consume.Motor.Input";
                 case ioSystemPortsPowerType.Nuid_NetDc_Level_Ids_Isolate_Diode_Output3: return "NetDc.Level.Ids.Isolate.Diode.Output3";
@@ -118,7 +116,6 @@ namespace ioSystemNetworkNet
                 case "NetDc.Motor.Ids.Source.BattMotor.Pos": return ioSystemPortsPowerType.Nuid_NetDc_Motor_Ids_Source_BattMotor_Pos;
                 case "NetDc.Motor.Ids.Isolate.Diode.Output2": return ioSystemPortsPowerType.Nuid_NetDc_Motor_Ids_Isolate_Diode_Output2;
                 case "NetDc.Motor.Ids.Isolate.FuseMotor.Port1": return ioSystemPortsPowerType.Nuid_NetDc_Motor_Ids_Isolate_FuseMotor_Port1;
-                case "NetDc.Motor.Ids.Isolate.SwitchMotor.Input": return ioSystemPortsPowerType.Nuid_NetDc_Motor_Ids_Isolate_SwitchMotor_Input;
                 case "NetDc.Motor.Ids.Convert.Charge.Motor": return ioSystemPortsPowerType.Nuid_NetDc_Motor_Ids_Convert_Charge_Motor;
                 case "NetDc.Motor.Ids.Consume.Motor.Input": return ioSystemPortsPowerType.Nuid_NetDc_Motor_Ids_Consume_Motor_Input;
                 case "NetDc.Level.Ids.Isolate.Diode.Output3": return ioSystemPortsPowerType.Nuid_NetDc_Level_Ids_Isolate_Diode_Output3;

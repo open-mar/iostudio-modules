@@ -11,6 +11,8 @@ BatteryModel::~BatteryModel()
 void BatteryModel::InitializeItem(void)
 {
     ioModel::InitializeItem();
+    AddData((ioDataCollection*)&BatteryData);
+    AddData((ioDataCollection*)&ModelData);
 }
 void BatteryModel::DoSimulation_100ms(Int32 slotCounter_100ms)
 {

@@ -2,6 +2,7 @@
 #if !defined(__FUSEMODEL_H)
 #define __FUSEMODEL_H
 #include "ioSystem/Simulation/ioModel.h"
+#include "Programs/Ids/Isolate/FuseModelData.h"
 class FuseModel : public ioModel
 {
 public:
@@ -9,5 +10,6 @@ public:
     virtual ~FuseModel();
     virtual void InitializeItem(void);
     virtual void DoSimulation_100ms(Int32 slotCounter_100ms);
+    FuseModelData ModelData;
 };
 #endif // __FUSEMODEL_H

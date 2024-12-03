@@ -88,7 +88,6 @@
                     <PortNetDevice ParentGlobalID="Ids.Source" DevID="BattMotor" PortID="Pos" />
                     <PortNetDevice ParentGlobalID="Ids.Isolate" DevID="Diode" PortID="Output2" />
                     <PortNetDevice ParentGlobalID="Ids.Isolate" DevID="FuseMotor" PortID="Port1" />
-                    <PortNetDevice ParentGlobalID="Ids.Isolate" DevID="SwitchMotor" PortID="Input" />
                     <PortNetDevice ParentGlobalID="Ids.Convert" DevID="Charge" PortID="Motor" />
                     <PortNetDevice ParentGlobalID="Ids.Consume" DevID="Motor" PortID="Input" />
                 </PortNetCollection>

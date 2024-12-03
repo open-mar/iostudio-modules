@@ -143,12 +143,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Programs\Ids\Consume\ConsumerData.h" />
+    <ClInclude Include="..\..\Programs\Ids\Consume\ConsumerModelData.h" />
     <ClInclude Include="..\..\Programs\Ids\Convert\DataCharge.h" />
     <ClInclude Include="..\..\Programs\Ids\Convert\DataDcDc.h" />
     <ClInclude Include="..\..\Programs\Ids\Convert\PanelCharge.h" />
     <ClInclude Include="..\..\Programs\Ids\Convert\PanelDcDc.h" />
     <ClInclude Include="..\..\Programs\Ids\IdsProgControl.h" />
     <ClInclude Include="..\..\Programs\Ids\IdsProgOperate.h" />
+    <ClInclude Include="..\..\Programs\Ids\Isolate\FuseModelData.h" />
+    <ClInclude Include="..\..\Programs\Ids\Source\DataBattery.h" />
+    <ClInclude Include="..\..\Programs\Ids\Source\DataBatteryModel.h" />
     <ClInclude Include="..\..\Programs\Ids\Source\DataGenerator.h" />
     <ClInclude Include="..\..\Programs\ioSystemData.h" />
     <ClInclude Include="..\..\Programs\ioSystemGraphics.h" />
@@ -170,6 +175,9 @@
     <ClInclude Include="..\..\Simulation\Ids\Isolate\SwitchModel.h" />
     <ClInclude Include="..\..\Simulation\Ids\Source\BatteryModel.h" />
     <ClInclude Include="..\..\Simulation\Ids\Source\GeneratorModel.h" />
+    <ClInclude Include="..\..\Simulation\MaksPower\Source\MaksPowerBattLithium150Ah12V.h" />
+    <ClInclude Include="..\..\Simulation\MaksPower\Source\MaksPowerBattLithium2x150Ah12V.h" />
+    <ClInclude Include="..\..\Simulation\MaksPower\Source\MaksPowerBattOptima50Ah12V.h" />
     <ClInclude Include="..\..\Simulation\MaksPower\Source\MaksPowerMp200Dynamo.h" />
     <ClInclude Include="..\..\Simulation\Victron\Convert\OrionTrSmartIso12_24_10.h" />
     <ClInclude Include="..\..\Simulation\Victron\Convert\SmartIp43_12V_50_2.h" />
@@ -177,12 +185,17 @@
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Programs\Ids\Consume\ConsumerData.cpp" />
+    <ClCompile Include="..\..\Programs\Ids\Consume\ConsumerModelData.cpp" />
     <ClCompile Include="..\..\Programs\Ids\Convert\DataCharge.cpp" />
     <ClCompile Include="..\..\Programs\Ids\Convert\DataDcDc.cpp" />
     <ClCompile Include="..\..\Programs\Ids\Convert\PanelCharge.cpp" />
     <ClCompile Include="..\..\Programs\Ids\Convert\PanelDcDc.cpp" />
     <ClCompile Include="..\..\Programs\Ids\IdsProgControl.cpp" />
     <ClCompile Include="..\..\Programs\Ids\IdsProgOperate.cpp" />
+    <ClCompile Include="..\..\Programs\Ids\Isolate\FuseModelData.cpp" />
+    <ClCompile Include="..\..\Programs\Ids\Source\DataBattery.cpp" />
+    <ClCompile Include="..\..\Programs\Ids\Source\DataBatteryModel.cpp" />
     <ClCompile Include="..\..\Programs\Ids\Source\DataGenerator.cpp" />
     <ClCompile Include="..\..\Programs\ioSystemData.cpp" />
     <ClCompile Include="..\..\Programs\ioSystemGraphics.cpp" />
@@ -204,6 +217,9 @@
     <ClCompile Include="..\..\Simulation\Ids\Isolate\SwitchModel.cpp" />
     <ClCompile Include="..\..\Simulation\Ids\Source\BatteryModel.cpp" />
     <ClCompile Include="..\..\Simulation\Ids\Source\GeneratorModel.cpp" />
+    <ClCompile Include="..\..\Simulation\MaksPower\Source\MaksPowerBattLithium150Ah12V.cpp" />
+    <ClCompile Include="..\..\Simulation\MaksPower\Source\MaksPowerBattLithium2x150Ah12V.cpp" />
+    <ClCompile Include="..\..\Simulation\MaksPower\Source\MaksPowerBattOptima50Ah12V.cpp" />
     <ClCompile Include="..\..\Simulation\MaksPower\Source\MaksPowerMp200Dynamo.cpp" />
     <ClCompile Include="..\..\Simulation\Victron\Convert\OrionTrSmartIso12_24_10.cpp" />
     <ClCompile Include="..\..\Simulation\Victron\Convert\SmartIp43_12V_50_2.cpp" />

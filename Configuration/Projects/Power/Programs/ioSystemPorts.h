@@ -34,7 +34,6 @@ typedef enum
     Nuid_NetDc_Motor_Ids_Source_BattMotor_Pos = 30,
     Nuid_NetDc_Motor_Ids_Isolate_Diode_Output2 = 26,
     Nuid_NetDc_Motor_Ids_Isolate_FuseMotor_Port1 = 27,
-    Nuid_NetDc_Motor_Ids_Isolate_SwitchMotor_Input = 28,
     Nuid_NetDc_Motor_Ids_Convert_Charge_Motor = 31,
     Nuid_NetDc_Motor_Ids_Consume_Motor_Input = 35,
     Nuid_NetDc_Level_Ids_Isolate_Diode_Output3 = 32,

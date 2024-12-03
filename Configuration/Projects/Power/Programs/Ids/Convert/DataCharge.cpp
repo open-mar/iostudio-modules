@@ -17,8 +17,6 @@ void DataCharge::InitializeData(void)
     AddData((ioData*)&VoltageInputAc, Duid_Ids_Convert_VoltageInputAc);
     IsChargingActive.SetValue(FALSE);
     AddData((ioData*)&IsChargingActive, Duid_Ids_Convert_IsChargingActive);
-    MaxOutCurrentDc.SetValue((Float)50);
-    AddData((ioData*)&MaxOutCurrentDc, Duid_Ids_Convert_MaxOutCurrentDc);
     CurrentOutputDc.SetNumList(m_CurrentOutputDcNumbers, 3);
     m_CurrentOutputDcValues[0].SetValue((Float)0.00);
     CurrentOutputDc.AddNumber(&m_CurrentOutputDcValues[0]);
@@ -37,4 +35,12 @@ void DataCharge::InitializeData(void)
     AddData((ioData*)&VoltageOutputDc, Duid_Ids_Convert_VoltageOutputDc);
     CurrentInputAc.SetValue((Float)0.0);
     AddData((ioData*)&CurrentInputAc, Duid_Ids_Convert_CurrentInputAc);
+    MaxOutCurrentDc.SetNumList(m_MaxOutCurrentDcNumbers, 3);
+    m_MaxOutCurrentDcValues[0].SetValue((Float)50.00);
+    MaxOutCurrentDc.AddNumber(&m_MaxOutCurrentDcValues[0]);
+    m_MaxOutCurrentDcValues[1].SetValue((Float)50.00);
+    MaxOutCurrentDc.AddNumber(&m_MaxOutCurrentDcValues[1]);
+    m_MaxOutCurrentDcValues[2].SetValue((Float)50.00);
+    MaxOutCurrentDc.AddNumber(&m_MaxOutCurrentDcValues[2]);
+    AddData((ioData*)&MaxOutCurrentDc, Duid_Ids_Convert_MaxOutCurrentDc);
 }

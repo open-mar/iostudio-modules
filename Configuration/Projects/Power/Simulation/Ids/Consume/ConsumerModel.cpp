@@ -11,6 +11,7 @@ ConsumerModel::~ConsumerModel()
 void ConsumerModel::InitializeItem(void)
 {
     ioModel::InitializeItem();
+    AddData((ioDataCollection*)&DataModel);
 }
 void ConsumerModel::DoSimulation_100ms(Int32 slotCounter_100ms)
 {

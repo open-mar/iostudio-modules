@@ -26,7 +26,6 @@ NUID;Parent;LocalID;TypePort
 25;NetDc.Aux.Ids.Consume.Aux;Input;
 26;NetDc.Motor.Ids.Isolate.Diode;Output2;
 27;NetDc.Motor.Ids.Isolate.FuseMotor;Port1;
-28;NetDc.Motor.Ids.Isolate.SwitchMotor;Input;
 30;NetDc.Motor.Ids.Source.BattMotor;Pos;
 31;NetDc.Motor.Ids.Convert.Charge;Motor;
 32;NetDc.Level.Ids.Isolate.Diode;Output3;

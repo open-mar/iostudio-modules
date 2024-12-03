@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataList Name="DataBatteryModel">
+    <Description>Data for simulation model of a battery + fuse</Description>
+    <DataListObject ParentGlobalID="Ids.Source">
+        <Variable LocalID="BatteryChargeResistance" TypeNum="Float" Decimals="3" Min="0.000" Max="99.999">0.15</Variable>
+    </DataListObject>
+</DataList>

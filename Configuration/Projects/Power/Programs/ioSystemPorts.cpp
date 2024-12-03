@@ -47,7 +47,6 @@ ioSystemPortsType ioSystemPorts::GetPortType(Int32 nuidValue)
     case 30: return Nuid_NetDc_Motor_Ids_Source_BattMotor_Pos; 
     case 26: return Nuid_NetDc_Motor_Ids_Isolate_Diode_Output2; 
     case 27: return Nuid_NetDc_Motor_Ids_Isolate_FuseMotor_Port1; 
-    case 28: return Nuid_NetDc_Motor_Ids_Isolate_SwitchMotor_Input; 
     case 31: return Nuid_NetDc_Motor_Ids_Convert_Charge_Motor; 
     case 35: return Nuid_NetDc_Motor_Ids_Consume_Motor_Input; 
     case 32: return Nuid_NetDc_Level_Ids_Isolate_Diode_Output3; 

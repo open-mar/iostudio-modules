@@ -56,6 +56,12 @@
     <Filter Include="Programs\Ids\Source">
       <UniqueIdentifier>{38f0f167-8d85-4a54-ad38-aef4786e790f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Programs\Ids\Consume">
+      <UniqueIdentifier>{f9eb9809-8b8b-4fc5-8f2c-d7046950dbde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Ids\Isolate">
+      <UniqueIdentifier>{7147397f-a2d5-4998-b2dc-000a0300bdbd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Programs\ioSystemData.h">
@@ -154,6 +160,30 @@
     <ClInclude Include="..\..\Programs\Ids\Source\DataGenerator.h">
       <Filter>Programs\Ids\Source</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Programs\Ids\Source\DataBattery.h">
+      <Filter>Programs\Ids\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Simulation\MaksPower\Source\MaksPowerBattLithium2x150Ah12V.h">
+      <Filter>Simulation\MaksPower\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Simulation\MaksPower\Source\MaksPowerBattLithium150Ah12V.h">
+      <Filter>Simulation\MaksPower\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Simulation\MaksPower\Source\MaksPowerBattOptima50Ah12V.h">
+      <Filter>Simulation\MaksPower\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Ids\Consume\ConsumerModelData.h">
+      <Filter>Programs\Ids\Consume</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Ids\Consume\ConsumerData.h">
+      <Filter>Programs\Ids\Consume</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Ids\Source\DataBatteryModel.h">
+      <Filter>Programs\Ids\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Ids\Isolate\FuseModelData.h">
+      <Filter>Programs\Ids\Isolate</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -251,6 +281,30 @@
     </ClCompile>
     <ClCompile Include="..\..\Programs\Ids\Source\DataGenerator.cpp">
       <Filter>Programs\Ids\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Ids\Source\DataBattery.cpp">
+      <Filter>Programs\Ids\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Simulation\MaksPower\Source\MaksPowerBattLithium2x150Ah12V.cpp">
+      <Filter>Simulation\MaksPower\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Simulation\MaksPower\Source\MaksPowerBattLithium150Ah12V.cpp">
+      <Filter>Simulation\MaksPower\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Simulation\MaksPower\Source\MaksPowerBattOptima50Ah12V.cpp">
+      <Filter>Simulation\MaksPower\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Ids\Consume\ConsumerModelData.cpp">
+      <Filter>Programs\Ids\Consume</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Ids\Consume\ConsumerData.cpp">
+      <Filter>Programs\Ids\Consume</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Ids\Source\DataBatteryModel.cpp">
+      <Filter>Programs\Ids\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Ids\Isolate\FuseModelData.cpp">
+      <Filter>Programs\Ids\Isolate</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

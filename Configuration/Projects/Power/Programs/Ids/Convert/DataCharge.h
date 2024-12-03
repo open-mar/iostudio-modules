@@ -13,15 +13,17 @@ public:
     void InitializeData(void);
     ioVarFloat VoltageInputAc;
     ioVarBool IsChargingActive;
-    ioVarFloat MaxOutCurrentDc;
     ioArray CurrentOutputDc;
     ioArray VoltageOutputDc;
     ioVarFloat CurrentInputAc;
+    ioArray MaxOutCurrentDc;
 protected:
     ioData* m_ListData[6];
     ioNum* m_CurrentOutputDcNumbers[3];
     ioNumFloat m_CurrentOutputDcValues[3];
     ioNum* m_VoltageOutputDcNumbers[3];
     ioNumFloat m_VoltageOutputDcValues[3];
+    ioNum* m_MaxOutCurrentDcNumbers[3];
+    ioNumFloat m_MaxOutCurrentDcValues[3];
 };
 #endif // __DATACHARGE_H

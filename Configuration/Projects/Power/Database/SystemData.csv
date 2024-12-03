@@ -14,7 +14,6 @@ DUID;Parent;LocalID;TypeData
 19;Victron.Io;Dc0Temperature;Variable
 20;Ids.Convert;VoltageInputAc;Variable
 22;Ids.Convert;IsChargingActive;Variable
-23;Ids.Convert;MaxOutCurrentDc;Variable
 24;Ids.Convert;VoltageInputDcDc;Variable
 25;Ids.Convert;VoltageOutputDcDc;Variable
 26;Ids.Convert;IsDcDcOutputActive;Variable
@@ -28,3 +27,13 @@ DUID;Parent;LocalID;TypeData
 6;Ids.Convert;CurrentOutputDcDc;Variable
 7;Ids.Convert;CurrentInputAc;Variable
 8;Ids.Source;CurrentGenerator;Variable
+21;Ids.Source;VoltageBattery;Variable
+31;Ids.Source;CurrentBattery;Variable
+33;Ids.Consume;PowerConsumer;Variable
+32;Ids.Consume;IsOutputOn;Variable
+34;Ids.Source;StatusOfCharge;Variable
+23;Ids.Convert;MaxOutCurrentDc;Array
+36;Ids.Source;BatteryChargeResistance;Variable
+37;Ids.Isolate;MaxFuseCurrent;Variable
+35;Ids.Isolate;IsFuseBlown;Variable
+38;Ids.Isolate;ResetFuse;Method

@@ -2,6 +2,8 @@
 #if !defined(__CONSUMERMODEL_H)
 #define __CONSUMERMODEL_H
 #include "ioSystem/Simulation/ioModel.h"
+#include "Programs/Ids/Consume/ConsumerModelData.h"
+#include "Programs/Ids/Consume/ConsumerData.h"
 class ConsumerModel : public ioModel
 {
 public:
@@ -9,5 +11,7 @@ public:
     virtual ~ConsumerModel();
     virtual void InitializeItem(void);
     virtual void DoSimulation_100ms(Int32 slotCounter_100ms);
+    ConsumerModelData DataModel;
+    ConsumerData DataProgram;
 };
 #endif // __CONSUMERMODEL_H

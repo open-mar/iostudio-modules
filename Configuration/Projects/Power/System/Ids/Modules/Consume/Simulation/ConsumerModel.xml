@@ -2,6 +2,14 @@
 <ModelClass Name="ConsumerModel">
     <Description>Simulation model for consumer connected to a switch board</Description>
     <ModelClassObject ParentGlobalID="Ids.Consume">
+        <DataItemsCollection>
+            <DataListClasses Name="Ids::Consume::ConsumerModelData" NameObject="Data">
+                <Item NameClass="ConsumerModelData" NameObject="DataModel" />
+            </DataListClasses>
+            <DataListClasses Name="Ids::Consume::ConsumerData" NameObject="Data">
+                <Item NameClass="ConsumerData" NameObject="DataProgram" />
+            </DataListClasses>
+        </DataItemsCollection>
         <Sequence />
     </ModelClassObject>
 </ModelClass>
