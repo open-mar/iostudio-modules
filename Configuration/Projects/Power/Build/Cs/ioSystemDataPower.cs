@@ -25,11 +25,12 @@ namespace ioSystemNetworkNet
         Duid_Ids_Source_VoltageBattery = 21,
         Duid_Ids_Source_CurrentBattery = 31,
         Duid_Ids_Source_StatusOfCharge = 34,
+        Duid_Ids_Source_BatteryChargeResistance = 36,
+        Duid_Ids_Source_BatteryEnergy = 39,
         Duid_Ids_Source_VoltOutputGenerator = 28,
         Duid_Ids_Source_IsGeneratorOutputActive = 30,
         Duid_Ids_Source_MaxOutCurrentGenerator = 29,
         Duid_Ids_Source_CurrentGenerator = 8,
-        Duid_Ids_Source_BatteryChargeResistance = 36,
         Duid_Victron_RequestVictronData = 1,
         Duid_Victron_ResponseVictronData = 2,
         Duid_Victron_Io_RequestDataCgx = 9,
@@ -70,11 +71,12 @@ namespace ioSystemNetworkNet
                 case ioSystemDataPowerType.Duid_Ids_Source_VoltageBattery: return "Ids.Source.VoltageBattery";
                 case ioSystemDataPowerType.Duid_Ids_Source_CurrentBattery: return "Ids.Source.CurrentBattery";
                 case ioSystemDataPowerType.Duid_Ids_Source_StatusOfCharge: return "Ids.Source.StatusOfCharge";
+                case ioSystemDataPowerType.Duid_Ids_Source_BatteryChargeResistance: return "Ids.Source.BatteryChargeResistance";
+                case ioSystemDataPowerType.Duid_Ids_Source_BatteryEnergy: return "Ids.Source.BatteryEnergy";
                 case ioSystemDataPowerType.Duid_Ids_Source_VoltOutputGenerator: return "Ids.Source.VoltOutputGenerator";
                 case ioSystemDataPowerType.Duid_Ids_Source_IsGeneratorOutputActive: return "Ids.Source.IsGeneratorOutputActive";
                 case ioSystemDataPowerType.Duid_Ids_Source_MaxOutCurrentGenerator: return "Ids.Source.MaxOutCurrentGenerator";
                 case ioSystemDataPowerType.Duid_Ids_Source_CurrentGenerator: return "Ids.Source.CurrentGenerator";
-                case ioSystemDataPowerType.Duid_Ids_Source_BatteryChargeResistance: return "Ids.Source.BatteryChargeResistance";
                 case ioSystemDataPowerType.Duid_Victron_RequestVictronData: return "Victron.RequestVictronData";
                 case ioSystemDataPowerType.Duid_Victron_ResponseVictronData: return "Victron.ResponseVictronData";
                 case ioSystemDataPowerType.Duid_Victron_Io_RequestDataCgx: return "Victron.Io.RequestDataCgx";
@@ -115,11 +117,12 @@ namespace ioSystemNetworkNet
                 case "Ids.Source.VoltageBattery": return ioSystemDataPowerType.Duid_Ids_Source_VoltageBattery;
                 case "Ids.Source.CurrentBattery": return ioSystemDataPowerType.Duid_Ids_Source_CurrentBattery;
                 case "Ids.Source.StatusOfCharge": return ioSystemDataPowerType.Duid_Ids_Source_StatusOfCharge;
+                case "Ids.Source.BatteryChargeResistance": return ioSystemDataPowerType.Duid_Ids_Source_BatteryChargeResistance;
+                case "Ids.Source.BatteryEnergy": return ioSystemDataPowerType.Duid_Ids_Source_BatteryEnergy;
                 case "Ids.Source.VoltOutputGenerator": return ioSystemDataPowerType.Duid_Ids_Source_VoltOutputGenerator;
                 case "Ids.Source.IsGeneratorOutputActive": return ioSystemDataPowerType.Duid_Ids_Source_IsGeneratorOutputActive;
                 case "Ids.Source.MaxOutCurrentGenerator": return ioSystemDataPowerType.Duid_Ids_Source_MaxOutCurrentGenerator;
                 case "Ids.Source.CurrentGenerator": return ioSystemDataPowerType.Duid_Ids_Source_CurrentGenerator;
-                case "Ids.Source.BatteryChargeResistance": return ioSystemDataPowerType.Duid_Ids_Source_BatteryChargeResistance;
                 case "Victron.RequestVictronData": return ioSystemDataPowerType.Duid_Victron_RequestVictronData;
                 case "Victron.ResponseVictronData": return ioSystemDataPowerType.Duid_Victron_ResponseVictronData;
                 case "Victron.Io.RequestDataCgx": return ioSystemDataPowerType.Duid_Victron_Io_RequestDataCgx;

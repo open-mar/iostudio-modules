@@ -36,21 +36,19 @@
             <Function TypeFunction="Internal">
                 <Call Name="UpdateFromCergoGxData" />
             </Function>
-            <GraphicsData NameClass="PanelCharge" GlobalID="Victron.Convert.InstrVoltInputAc">
-                <DataAssigned NameClass="DataCharge" GlobalID="Victron.Convert.VoltageInputAc" />
+            <GraphicsData NameClass="PanelCharge" GlobalID="Ids.Convert.InstrVoltInputAc">
+                <DataAssigned NameClass="DataCharge" GlobalID="Ids.Convert.VoltageInputAc" />
             </GraphicsData>
-            <GraphicsData NameClass="PanelCharge" GlobalID="Victron.Convert.InstVoltOutputDc">
-                <DataAssigned NameClass="DataCharge" GlobalID="Victron.Convert.VoltageOutputDc" />
+            <GraphicsData NameClass="PanelCharge" GlobalID="Ids.Convert.InstVoltOutputDc">
+                <DataAssigned NameClass="DataCharge" GlobalID="Ids.Convert.VoltageOutputDc" Index="0" TypeNum="Float" />
             </GraphicsData>
-            <GraphicsData NameClass="PanelDcDc" GlobalID="Victron.Convert.InstrVoltInputDcDc">
-                <DataAssigned NameClass="DataDcDc" GlobalID="Victron.Convert.VoltageInputDcDc" />
+            <GraphicsData NameClass="PanelDcDc" GlobalID="Ids.Convert.InstrVoltInputDcDc">
+                <DataAssigned NameClass="DataDcDc" GlobalID="Ids.Convert.VoltageInputDcDc" />
             </GraphicsData>
-            <GraphicsData NameClass="PanelDcDc" GlobalID="Victron.Convert.InstrVoltOutputDcDc">
-                <DataAssigned NameClass="DataDcDc" GlobalID="Victron.Convert.VoltageOutputDcDc" />
+            <GraphicsData NameClass="PanelDcDc" GlobalID="Ids.Convert.InstrVoltOutputDcDc">
+                <DataAssigned NameClass="DataDcDc" GlobalID="Ids.Convert.VoltageOutputDcDc" />
             </GraphicsData>
         </RxTxData>
-        <Run>
-            <RxTxData NameClass="DataCerboGx" GlobalID="Victron.Io.RequestDataCgx" PortGlobalID="NetEthernet.192.168.10.Victron.CerboGx.10" />
-        </Run>
+        <Run />
     </Sequences>
 </ProgramClass>

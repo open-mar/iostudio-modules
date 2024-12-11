@@ -62,6 +62,9 @@
     <Filter Include="Programs\Ids\Isolate">
       <UniqueIdentifier>{7147397f-a2d5-4998-b2dc-000a0300bdbd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Simulation\Victron\Io">
+      <UniqueIdentifier>{c6a2051f-defb-4c50-9bd1-f8774df738ec}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Programs\ioSystemData.h">

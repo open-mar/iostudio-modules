@@ -11,7 +11,8 @@ public:
     virtual ~DataBatteryModel();
     void InitializeData(void);
     ioVarFloat BatteryChargeResistance;
+    ioVarFloat BatteryEnergy;
 protected:
-    ioData* m_ListData[1];
+    ioData* m_ListData[2];
 };
 #endif // __DATABATTERYMODEL_H

@@ -17,7 +17,7 @@ void DataGenerator::InitializeData(void)
     AddData((ioData*)&VoltOutputGenerator, Duid_Ids_Source_VoltOutputGenerator);
     IsGeneratorOutputActive.SetValue(TRUE);
     AddData((ioData*)&IsGeneratorOutputActive, Duid_Ids_Source_IsGeneratorOutputActive);
-    MaxOutCurrentGenerator.SetValue(160.00);
+    MaxOutCurrentGenerator.SetValue((Float)0.0);
     AddData((ioData*)&MaxOutCurrentGenerator, Duid_Ids_Source_MaxOutCurrentGenerator);
     CurrentGenerator.SetValue((Float)0.0);
     AddData((ioData*)&CurrentGenerator, Duid_Ids_Source_CurrentGenerator);

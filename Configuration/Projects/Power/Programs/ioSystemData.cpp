@@ -79,11 +79,12 @@ ioSystemDataType ioSystemData::GetDataType(Int32 duidValue)
     case 21: return Duid_Ids_Source_VoltageBattery; 
     case 31: return Duid_Ids_Source_CurrentBattery; 
     case 34: return Duid_Ids_Source_StatusOfCharge; 
+    case 36: return Duid_Ids_Source_BatteryChargeResistance; 
+    case 39: return Duid_Ids_Source_BatteryEnergy; 
     case 28: return Duid_Ids_Source_VoltOutputGenerator; 
     case 30: return Duid_Ids_Source_IsGeneratorOutputActive; 
     case 29: return Duid_Ids_Source_MaxOutCurrentGenerator; 
     case 8: return Duid_Ids_Source_CurrentGenerator; 
-    case 36: return Duid_Ids_Source_BatteryChargeResistance; 
     case 1: return Duid_Victron_RequestVictronData; 
     case 2: return Duid_Victron_ResponseVictronData; 
     case 9: return Duid_Victron_Io_RequestDataCgx; 

@@ -12,7 +12,7 @@ public:
     void InitializeData(void);
     ioVarFloat VoltOutputGenerator;
     ioVarBool IsGeneratorOutputActive;
-    ioVarDouble MaxOutCurrentGenerator;
+    ioVarFloat MaxOutCurrentGenerator;
     ioVarFloat CurrentGenerator;
 protected:
     ioData* m_ListData[4];

@@ -4,7 +4,7 @@
     <DataListObject ParentGlobalID="Ids.Source">
         <Variable LocalID="VoltOutputGenerator" TypeNum="Float" Unit="VDC" Decimals="2" Min="0.00" Max="60.00">12</Variable>
         <Variable LocalID="IsGeneratorOutputActive" TypeNum="Bool" Unit="VDC">TRUE</Variable>
-        <Variable LocalID="MaxOutCurrentGenerator" TypeNum="Double" Unit="A" Decimals="2" Min="0.00" Max="40.00">160.00</Variable>
+        <Variable LocalID="MaxOutCurrentGenerator" TypeNum="Float" Decimals="1" Min="0.0" Max="9999.9">0.0</Variable>
         <Variable LocalID="CurrentGenerator" TypeNum="Float" Unit="A" Decimals="2" Min="0.00" Max="999.00">0.0</Variable>
     </DataListObject>
 </DataList>

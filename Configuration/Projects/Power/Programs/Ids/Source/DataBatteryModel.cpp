@@ -11,8 +11,10 @@ DataBatteryModel::~DataBatteryModel()
 }
 void DataBatteryModel::InitializeData(void)
 {
-    SetListData(m_ListData, 1);
+    SetListData(m_ListData, 2);
     ResetItem();
     BatteryChargeResistance.SetValue((Float)0.15);
     AddData((ioData*)&BatteryChargeResistance, Duid_Ids_Source_BatteryChargeResistance);
+    BatteryEnergy.SetValue((Float)300);
+    AddData((ioData*)&BatteryEnergy, Duid_Ids_Source_BatteryEnergy);
 }

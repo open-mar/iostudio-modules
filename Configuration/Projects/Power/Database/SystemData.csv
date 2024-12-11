@@ -37,3 +37,4 @@ DUID;Parent;LocalID;TypeData
 37;Ids.Isolate;MaxFuseCurrent;Variable
 35;Ids.Isolate;IsFuseBlown;Variable
 38;Ids.Isolate;ResetFuse;Method
+39;Ids.Source;BatteryEnergy;Variable
