@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModelClass Name="SwitchBoardModel">
+    <Description>Simulation model for distributing power from networks</Description>
+    <ModelClassObject ParentGlobalID="Ops.Consume">
+        <DataItemsCollection>
+            <DataListClasses Name="Ids::Consume::ModeCommandData" NameObject="Data">
+                <Item NameClass="ModeCommandData" NameObject="DataProgram" />
+            </DataListClasses>
+        </DataItemsCollection>
+        <Sequence />
+    </ModelClassObject>
+</ModelClass>

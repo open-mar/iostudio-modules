@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DeviceClass Name="OpsSmartShunt">
+    <Description>Smart shunt for batteries in Open Power and Steering systems</Description>
+    <DeviceItemCollection GlobalID="Ops.Network.OpsSmartShunt">
+        <PortsCollection>
+            <DevicePort LocalID="Output1" TypePort="12_24VDC" GroupID="1"/>
+            <DevicePort LocalID="Output2" TypePort="12_24VDC" GroupID="1"/>
+            <DevicePort LocalID="Input" TypePort="0V" GroupID="1"/>
+            <DevicePort LocalID="VeDirect" TypePort="OpsIo" GroupID="2"/>
+        </PortsCollection>
+    </DeviceItemCollection>
+</DeviceClass>

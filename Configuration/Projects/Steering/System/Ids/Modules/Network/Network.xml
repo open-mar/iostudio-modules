@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModuleClass Name="Network">
+    <Description>Panels, programs and data for network in steering systems for Integrated Digital System</Description>
+    <ModuleObject GlobalID="Ids.Network" />
+</ModuleClass>

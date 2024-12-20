@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ModuleClass Name="Io">
-    <Description>Simulation of I/O devices</Description>
-    <ModuleObject GlobalID="Ids.Io" />
-</ModuleClass>

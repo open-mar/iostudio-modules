@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModelClass Name="DcDcModel">
+    <Description>Simulation of DC-DC device for Open Power and Steering</Description>
+    <ModelClassObject ParentGlobalID="Ops.Convert">
+        <DataItemsCollection>
+            <DataListClasses Name="Ids::Convert::DataDcDc" NameObject="Data">
+                <Item NameClass="DataDcDc" NameObject="DcDcData" />
+            </DataListClasses>
+        </DataItemsCollection>
+        <Sequence />
+    </ModelClassObject>
+</ModelClass>

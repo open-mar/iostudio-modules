@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataList Name="FuseModelData">
+    <Description>Data list for for fuse protection simulation model</Description>
+    <DataListObject ParentGlobalID="Ops.Isolate">
+        <Variable LocalID="MaxFuseCurrent" TypeNum="Float" Decimals="3" Min="0.000" Max="99.999">0.15</Variable>
+        <Variable LocalID="IsFuseBlown" TypeNum="Bool">FALSE</Variable>
+        <Method LocalID="ResetFuse" />
+    </DataListObject>
+</DataList>

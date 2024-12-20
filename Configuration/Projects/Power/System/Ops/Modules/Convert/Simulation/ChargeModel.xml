@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModelClass Name="ChargeModel">
+    <Description>Simulation of charging device for Open Power and Steering</Description>
+    <InternalFunctions>
+        <Function Name="SimulateVoltOutput">
+            <Inputs>
+                <Argument Name="voltInputAc" TypeNum="Float" />
+                <Argument Name="isOutputActive" TypeNum="Bool" />
+            </Inputs>
+            <Outputs>
+                <Argument Name="voltOutputDc" TypeNum="Float" />
+            </Outputs>
+        </Function>
+    </InternalFunctions>
+    <ModelClassObject ParentGlobalID="Ops.Convert">
+        <DataItemsCollection>
+            <DataListClasses Name="Ids::Convert::DataCharge" NameObject="Data">
+                <Item NameClass="DataCharge" NameObject="ChargeData" />
+            </DataListClasses>
+        </DataItemsCollection>
+        <Sequence />
+    </ModelClassObject>
+</ModelClass>

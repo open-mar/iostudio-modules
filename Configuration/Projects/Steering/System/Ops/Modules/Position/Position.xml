@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModuleClass Name="Position">
+    <Description>Position steering devices for Open Power and Steering system</Description>
+    <ModuleObject GlobalID="Ops.Position" />
+</ModuleClass>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DeviceClass Name="OpsRudderFeedback">
+    <Description>Rudder feedback for Open Power and Steering systems</Description>
+    <DeviceItemCollection GlobalID="Ops.Pilot.OpsRudderFeedback" />
+</DeviceClass>

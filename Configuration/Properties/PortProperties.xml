@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PortProperties>
+    <DevicePortTypesCollection>
+        <DevicePortType Name="Serial" IsBaseOnly="TRUE">
+            <Properties>
+                <Variable LocalID="ComPort" TypeNum="String">COM1</Variable>
+            </Properties>
+            <Children>
+                <DevicePortType Name="RS232"/>
+                <DevicePortType Name="RS422"/>
+                <DevicePortType Name="RS485"/>
+                <DevicePortType Name="Profibus"/>
+                <DevicePortType Name="CANopen"/>
+                <DevicePortType Name="NMEA0183"/>
+                <DevicePortType Name="NMEA2000"/>
+            </Children>
+        </DevicePortType>
+        <DevicePortType Name="Nic">
+            <Properties>
+                <Variable LocalID="NodeID" TypeNum="Int32" Min="1" Max="255">1</Variable>
+            </Properties>
+        </DevicePortType>
+        <DevicePortType Name="SystemPort">
+            <Properties>
+                <Variable LocalID="NodeID" TypeNum="Int32" Min="1" Max="255">1</Variable>
+            </Properties>
+        </DevicePortType>
+        <DevicePortType Name="DC" IsBaseOnly="TRUE">
+            <Properties>
+                <Variable LocalID="MaxCurrent" TypeNum="Float" Unit="A" Decimals="1">10</Variable>
+            </Properties>
+            <Children>
+                <DevicePortType Name="24VDC"/>
+                <DevicePortType Name="12VDC"/>
+                <DevicePortType Name="12_24VDC"/>
+                <DevicePortType Name="0V"/>
+            </Children>
+        </DevicePortType>
+        <DevicePortType Name="230VAC"/>
+        <DevicePortType Name="NMEA2000"/>
+        <DevicePortType Name="OpsIo"/>
+        <DevicePortType Name="OpsNet">
+            <Properties>
+                <Variable LocalID="NodeID" TypeNum="String"/>
+            </Properties>
+        </DevicePortType>
+    </DevicePortTypesCollection>
+    
+    <NetworkTypesCollection>
+        <NetworkType Name="SystemNet">
+            <Properties>
+                <Variable LocalID="SystemID" TypeNum="Int32" Min="1" Max="99">1</Variable>
+                <Variable LocalID="PhysicalNet" TypeNum="Int32" Min="1" Max="9">1</Variable>
+                <Variable LocalID="VlanID" TypeNum="Int32" Min="1" Max="255">1</Variable>
+            </Properties>
+            <NetworkPorts>
+                <DevicePort Name="SystemPort"/>
+            </NetworkPorts>
+        </NetworkType>
+        <NetworkType Name="Ethernet">
+            <Properties>
+                <Variable LocalID="NetAddr" TypeNum="String">192.168.0</Variable>
+            </Properties>
+            <NetworkPorts>
+                <DevicePort Name="Nic"/>
+            </NetworkPorts>
+        </NetworkType>
+        <NetworkType Name="NMEA2000">
+            <Properties>
+            </Properties>
+            <NetworkPorts>
+                <DevicePort Name="NMEA2000"/>
+            </NetworkPorts>
+        </NetworkType>
+        <NetworkType Name="CANopen">
+            <Properties>
+            </Properties>
+            <NetworkPorts>
+                <DevicePort Name="CANopen"/>
+            </NetworkPorts>
+        </NetworkType>
+        <NetworkType Name="Power">
+            <Properties>
+            </Properties>
+            <NetworkPorts>
+                <DevicePort Name="12VDC"/>
+                <DevicePort Name="24VDC"/>
+                <DevicePort Name="220VAC"/>
+            </NetworkPorts>
+        </NetworkType>
+        <NetworkType Name="PowerData">
+            <Properties>
+            </Properties>
+            <NetworkPorts>
+                <DevicePort Name="VeDirect"/>
+                <DevicePort Name="OpsNet"/>
+            </NetworkPorts>
+        </NetworkType>
+    </NetworkTypesCollection>
+
+    <ProgramPortTypesCollection>
+        <ProgramPortType Name="Socket" IsBaseOnly="TRUE" DevicePort="Nic">
+            <Properties>
+                <Variable LocalID="PortID" TypeNum="Int32">4370</Variable>
+            </Properties>
+            <Children>
+                <ProgramPortType Name="TCP/IP" DevicePort="Nic"/>
+                <ProgramPortType Name="UDP Broadcast" DevicePort="Nic"/>
+                <ProgramPortType Name="UDP Multicast" DevicePort="Nic"/>
+                <ProgramPortType Name="UDP Unicast" DevicePort="Nic"/>
+            </Children>
+        </ProgramPortType>
+        <ProgramPortType Name="WebSocket" DevicePort="Nic">
+            <Properties>
+                <Variable LocalID="URL" TypeNum="STRING">https://www.iostudiotech.com/</Variable>
+            </Properties>
+        </ProgramPortType>
+        <ProgramPortType Name="ComPort" DevicePort="Serial"/>
+    </ProgramPortTypesCollection>
+
+    <ProtocolsCollection>
+        <Protocol Name="OPC UA Server">
+            <Properties>
+                <Variable LocalID="ServerID" TypeNum="String"></Variable>
+            </Properties>
+            <ProtocolPorts>
+                <ProgramPort Name="TCP/IP"/>
+                <ProgramPort Name="WebSocket"/>
+            </ProtocolPorts>
+        </Protocol>
+        <Protocol Name="OPC UA Client">
+            <Properties>
+                <Variable LocalID="ServerID" TypeNum="String"></Variable>
+            </Properties>
+            <ProtocolPorts>
+                <ProgramPort Name="TCP/IP"/>
+                <ProgramPort Name="WebSocket"/>
+            </ProtocolPorts>
+        </Protocol>
+        <Protocol Name="IEC 61162-450">
+            <ProtocolPorts>
+                <ProgramPort Name="TCP/IP"/>
+                <ProgramPort Name="UDP Broadcast"/>
+                <ProgramPort Name="UDP Multicast"/>
+                <ProgramPort Name="UDP Unicast"/>
+            </ProtocolPorts>
+            <Properties>
+            </Properties>
+        </Protocol>
+        <Protocol Name="Modbus">
+            <ProtocolPorts>
+                <ProgramPort Name="TCP/IP"/>
+                <ProgramPort Name="ComPort"/>
+            </ProtocolPorts>
+            <Properties>
+            </Properties>
+        </Protocol>
+        <Protocol Name="System">
+            <ProtocolPorts>
+                <ProgramPort Name="TCP/IP"/>
+                <ProgramPort Name="UDP Broadcast"/>
+                <ProgramPort Name="UDP Multicast"/>
+                <ProgramPort Name="UDP Unicast"/>
+            </ProtocolPorts>
+            <Properties>
+            </Properties>
+        </Protocol>
+        <Protocol Name="NMEA2000">
+            <ProtocolPorts>
+                <ProgramPort Name="ComPort"/>
+            </ProtocolPorts>
+            <Properties>
+            </Properties>
+        </Protocol>
+        <Protocol Name="NMEA0183">
+            <ProtocolPorts>
+                <ProgramPort Name="ComPort"/>
+            </ProtocolPorts>
+            <Properties>
+            </Properties>
+        </Protocol>
+    </ProtocolsCollection>
+</PortProperties>

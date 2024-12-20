@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ModelClass Name="ShuntModel">
-    <Description>Simulation model of a shunt device for NetAux</Description>
-    <ModelClassObject ParentGlobalID="Ids.Io">
-        <Sequence />
-    </ModelClassObject>
-</ModelClass>

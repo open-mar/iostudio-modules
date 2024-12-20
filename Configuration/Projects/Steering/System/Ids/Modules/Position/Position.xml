@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModuleClass Name="Position">
+    <Description>Position steering programs, panels and data for Integrated Digital System</Description>
+    <ModuleObject GlobalID="Ids.Position" />
+</ModuleClass>

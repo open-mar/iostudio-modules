@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DeviceClass Name="OpsBatteryGate">
+    <Description>Battery Modbus gate for Open Power and Steering systems</Description>
+    <DeviceItemCollection GlobalID="Ops.Network.OpsBatteryGate">
+        <PortsCollection>
+            <DevicePort LocalID="Input" TypePort="12_24VDC" GroupID="1"/>
+            <DevicePort LocalID="VeDirect" TypePort="OpsIo" GroupID="2"/>
+            <DevicePort LocalID="9" TypePort="Nic" GroupID="3">
+                <Properties>
+                    <Variable LocalID="NodeID" TypeNum="Int32" Min="1" Max="255">9</Variable>
+                </Properties>
+            </DevicePort>
+        </PortsCollection>
+    </DeviceItemCollection>
+</DeviceClass>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataList Name="ConsumerModelData">
+    <Description>Data list for a simulation model of a consumer connected to a switch board</Description>
+    <DataListObject ParentGlobalID="Ops.Consume">
+        <Variable LocalID="PowerConsumer" TypeNum="Float" Decimals="1" Min="0.0" Max="9999.0">0.0</Variable>
+    </DataListObject>
+</DataList>

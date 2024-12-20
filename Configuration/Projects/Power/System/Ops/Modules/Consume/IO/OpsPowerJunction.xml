@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DeviceClass Name="OpsPowerJunction">
+    <Description>Power junction switches for Open Power and Steering systems</Description>
+    <DeviceItemCollection GlobalID="Ops.Consume.OpsPowerJunction">
+        <PortsCollection>
+            <DevicePort LocalID="Input" TypePort="12_24VDC" GroupID="1"/>
+            <DevicePort LocalID="PowerPanelIo" TypePort="OpsIo"  GroupID="2"/>
+            <DevicePort LocalID="PowerNet" TypePort="OpsNet" GroupID="2">
+                <Properties>
+                    <Variable LocalID="NodeID" TypeNum="String"/>
+                </Properties>
+            </DevicePort>
+        </PortsCollection>
+    </DeviceItemCollection>
+</DeviceClass>

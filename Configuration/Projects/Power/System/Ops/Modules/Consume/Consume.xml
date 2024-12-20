@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModuleClass Name="Consume">
+    <Description>Simulation of power consuming for Open Power and Steering devices</Description>
+    <ModuleObject GlobalID="Ops.Consume" />
+</ModuleClass>

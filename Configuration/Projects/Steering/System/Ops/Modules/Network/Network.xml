@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModuleClass Name="Network">
+    <Description>Devices for network in Open Power and Steering steering systems</Description>
+    <ModuleObject GlobalID="Ops.Network" />
+</ModuleClass>

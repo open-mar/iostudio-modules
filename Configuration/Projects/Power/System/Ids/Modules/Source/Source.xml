@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModuleClass Name="Source">
-    <Description>Simulation of power source devices</Description>
+    <Description>Panels and program data for power source devices</Description>
     <ModuleObject GlobalID="Ids.Source" />
 </ModuleClass>

@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<DataList Name="ConsumerData">
-    <Description>Data list for IDS consumer connected to a switch-board</Description>
-    <DataListObject ParentGlobalID="Ids.Consume">
-        <Variable LocalID="IsOutputOn" TypeNum="Bool">FALSE</Variable>
-    </DataListObject>
-</DataList>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DeviceClass Name="OpsPowerSwitch">
+    <Description>Power switch for Open Power and Steering systems</Description>
+    <DeviceItemCollection GlobalID="Ops.Isolate.OpsPowerSwitch">
+        <Properties>
+            <Enumeration LocalID="TypeSwitchVoltage">
+                <Type Name="AC" TypeID="0"/>
+                <Type Name="DC" TypeID="1"/>
+            </Enumeration>
+            <Variable LocalID="SwitchVoltage" TypeEnumeration="TypeSwitchVoltage">1</Variable>
+        </Properties>
+    </DeviceItemCollection>
+</DeviceClass>

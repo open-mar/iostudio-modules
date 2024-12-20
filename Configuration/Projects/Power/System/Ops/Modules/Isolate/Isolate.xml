@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModuleClass Name="Isolate">
+    <Description>Simulation of isolating Open Power and Simulation devices</Description>
+    <ModuleObject GlobalID="Ids.Isolate" />
+</ModuleClass>

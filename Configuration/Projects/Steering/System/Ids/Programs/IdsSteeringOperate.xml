@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProgramClass Name="IdsSteeringOperate">
+    <Description>IDS operation program for steering devices</Description>
+    <PortsCollection>
+        <PortProgram Name="ioSystem::Ports::System::ioPortProgramSystem" NameObject="PortSystem">
+            <Item NameClass="ioPortProgramSystem" NameObject="PortSystem" />
+        </PortProgram>
+    </PortsCollection>
+    <Sequences>
+        <Run />
+    </Sequences>
+</ProgramClass>

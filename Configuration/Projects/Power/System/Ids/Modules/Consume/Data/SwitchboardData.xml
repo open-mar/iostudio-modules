@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataList Name="SwitchboardData">
+    <Description>Data list for IDS consumer connected to a switch-board</Description>
+    <DataListObject ParentGlobalID="Ids.Consume">
+        <Variable LocalID="IsOutputOn1" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="IsOutputOn2" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="IsOutputOn3" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="IsOutputOn4" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="IsOutputOn5" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="IsOutputOn6" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="IsOutputOn7" TypeNum="Bool">FALSE</Variable>
+        <Variable LocalID="IsOutputOn8" TypeNum="Bool">FALSE</Variable>
+    </DataListObject>
+</DataList>

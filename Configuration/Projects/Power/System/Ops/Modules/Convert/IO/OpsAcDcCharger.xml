@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DeviceClass Name="OpsAcDcCharger">
+    <Description>Battery charger for Open Power and Steering systems</Description>
+    <DeviceItemCollection GlobalID="Ops.Convert.OpsAcDcCharger">
+        <Properties>
+            <Variable LocalID="InputVoltage" TypeNum="Float" Unit="VAC"  Min="210.0" Max="250.0">230.0</Variable>
+            <Variable LocalID="ChargeVoltageAbsorption" TypeNum="Float" Unit="VDC">14.4</Variable>
+            <Variable LocalID="ChargeVoltageFloat" TypeNum="Float" Unit="VDC">13.8</Variable>
+            <Variable LocalID="ChargeVoltageStorage" TypeNum="Float" Unit="VDC">13.2</Variable>
+            <Variable LocalID="ChargeCurrent" TypeNum="Float" Unit="A">50.0</Variable>
+        </Properties>
+    </DeviceItemCollection>
+</DeviceClass>

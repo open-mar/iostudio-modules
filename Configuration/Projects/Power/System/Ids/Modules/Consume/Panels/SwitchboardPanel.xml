@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PanelClass Name="SwitchboardPanel">
+    <Description>Operation panel for power switching</Description>
+    <PanelObject ParentGlobalID="Ids.Consume" Background="ContainerBackground">
+        <RowDefinition />
+        <ColumnDefinition Size="210" />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
+            <ioPanelGrid LocalID="GridCh1" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
+                <ioButtonShape LocalID="ButtOffCh1" HorizontalAlignment="Left" Width="100">
+                    <Properties Text="Off" TypeColor="Raised" TypeShape="Automation" ShapeID="Off" />
+                </ioButtonShape>
+                <ioButtonShape LocalID="ButtOnCh1" HorizontalAlignment="Left" Width="100">
+                    <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
+                </ioButtonShape>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridCh2" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
+                <ioButtonShape LocalID="ButtOffCh2" HorizontalAlignment="Left" Width="100">
+                    <Properties Text="Off" TypeColor="Raised" TypeShape="Automation" ShapeID="Off" />
+                </ioButtonShape>
+                <ioButtonShape LocalID="ButtOnCh2" HorizontalAlignment="Left" Width="100">
+                    <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
+                </ioButtonShape>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridCh3" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
+                <ioButtonShape LocalID="ButtOffCh3" HorizontalAlignment="Left" Width="100">
+                    <Properties Text="Off" TypeColor="Raised" TypeShape="Automation" ShapeID="Off" />
+                </ioButtonShape>
+                <ioButtonShape LocalID="ButtOnCh3" HorizontalAlignment="Left" Width="100">
+                    <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
+                </ioButtonShape>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridCh4" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
+                <ioButtonShape LocalID="ButtOffCh4" HorizontalAlignment="Left" Width="100">
+                    <Properties Text="Off" TypeColor="Raised" TypeShape="Automation" ShapeID="Off" />
+                </ioButtonShape>
+                <ioButtonShape LocalID="ButtOnCh4" HorizontalAlignment="Left" Width="100">
+                    <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
+                </ioButtonShape>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridCh5" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
+                <ioButtonShape LocalID="ButtOffCh5" HorizontalAlignment="Left" Width="100">
+                    <Properties Text="Off" TypeColor="Raised" TypeShape="Automation" ShapeID="Off" />
+                </ioButtonShape>
+                <ioButtonShape LocalID="ButtOnCh5" HorizontalAlignment="Left" Width="100">
+                    <Properties Text="On" TypeColor="Normal" TypeShape="Automation" ShapeID="On" />
+                </ioButtonShape>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridCh6" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
+                <ioButtonShape LocalID="ButtOffCh6" HorizontalAlignment="Left" Width="100">
+                    <Properties Text="Off" TypeColor="Flat" TypeShape="Automation" ShapeID="Off" />
+                </ioButtonShape>
+                <ioButtonShape LocalID="ButtOnCh6" HorizontalAlignment="Left" Width="100">
+                    <Properties Text="On" TypeColor="Flat" TypeShape="Automation" ShapeID="On" />
+                </ioButtonShape>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridCh7" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
+                <ioButtonShape LocalID="ButtOffCh7" HorizontalAlignment="Left" Width="100">
+                    <Properties Text="Off" TypeColor="Flat" TypeShape="Automation" ShapeID="Off" />
+                </ioButtonShape>
+                <ioButtonShape LocalID="ButtOnCh7" HorizontalAlignment="Left" Width="100">
+                    <Properties Text="On" TypeColor="Flat" TypeShape="Automation" ShapeID="On" />
+                </ioButtonShape>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridCh8" VerticalAlignment="Top" Height="40" Orientation="Horizontal">
+                <ioButtonShape LocalID="ButtOffCh8" HorizontalAlignment="Left" Width="100">
+                    <Properties Text="Off" TypeColor="Flat" TypeShape="Automation" ShapeID="Off" />
+                </ioButtonShape>
+                <ioButtonShape LocalID="ButtOnCh8" HorizontalAlignment="Left" Width="100">
+                    <Properties Text="On" TypeColor="Flat" TypeShape="Automation" ShapeID="On" />
+                </ioButtonShape>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="1" Column="2">
+            <ioPanelGrid LocalID="Ind12M" PanelGlobalID="Ids.Consume.PowIndicatorPanel" />
+        </Grid>
+    </PanelObject>
+
+</PanelClass>

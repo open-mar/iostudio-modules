@@ -5,40 +5,42 @@ namespace ioSystemNetworkNet
     public enum ioSystemPortsPowerType
     {
         Nuid_NotDefined = 0,
-        Nuid_NetEthernet_192_168_10_Victron_CerboGx_10 = 1,
-        Nuid_NetEthernet_192_168_10_Ids_PlcIpc_11 = 2,
-        Nuid_NetEthernet_192_168_10_Ids_Op_12 = 3,
-        Nuid_NetWiFi_192_168_11_Victron_Io_CerboGx_10 = 4,
-        Nuid_NetWiFi_192_168_11_Ids_PlcIpc_11 = 5,
-        Nuid_NetWiFi_192_168_11_Ids_Op_12 = 6,
-        Nuid_NetVeDirect_Io_Victron_Io_VeDirectToUsbA_VeDirect = 7,
-        Nuid_NetVeDirect_Io_Victron_Io_VeDirectToUsbB_VeDirect = 8,
-        Nuid_NetVeDirect_Io_Victron_Io_CerboGx_VeDirect1 = 9,
-        Nuid_NetVeDirect_Io_Victron_Io_CerboGx_VeDirect2 = 10,
-        Nuid_NetVeDirect_Io_Victron_Io_CerboGx_VeDirect3 = 11,
-        Nuid_NetVeDirect_Io_Victron_Source_Chg12V_VeDirect = 12,
-        Nuid_NetVeDirect_Io_Victron_Source_Chg24V_VeDirect = 13,
-        Nuid_NetVeDirect_Io_Victron_Convert_Aux24V_VeDirect = 14,
-        Nuid_NetVeDirect_Io_Victron_Convert_24VT_VeDirect = 15,
-        Nuid_NetAc_Dock_Ids_Isolate_SwitchCharge_Input = 16,
-        Nuid_NetAc_Dock_Ids_Convert_Charge_Input = 29,
-        Nuid_NetDc_Generator_Ids_Isolate_Diode_Input = 17,
-        Nuid_NetDc_Generator_Ids_Source_Generator_Output = 18,
-        Nuid_NetDc_Aux_Ids_Source_BattAux_Pos = 22,
-        Nuid_NetDc_Aux_Ids_Isolate_Diode_Output1 = 19,
-        Nuid_NetDc_Aux_Ids_Isolate_FuseAux_Port1 = 21,
-        Nuid_NetDc_Aux_Ids_Isolate_SwitchAux_Input = 24,
-        Nuid_NetDc_Aux_Ids_Convert_Charge_Battery = 23,
-        Nuid_NetDc_Aux_Ids_Io_Shunt_Output = 20,
-        Nuid_NetDc_Aux_Ids_Consume_Aux_Input = 25,
-        Nuid_NetDc_Motor_Ids_Source_BattMotor_Pos = 30,
-        Nuid_NetDc_Motor_Ids_Isolate_Diode_Output2 = 26,
-        Nuid_NetDc_Motor_Ids_Isolate_FuseMotor_Port1 = 27,
-        Nuid_NetDc_Motor_Ids_Convert_Charge_Motor = 31,
-        Nuid_NetDc_Motor_Ids_Consume_Motor_Input = 35,
-        Nuid_NetDc_Level_Ids_Isolate_Diode_Output3 = 32,
-        Nuid_NetDc_Level_Ids_Convert_DcDc_Output = 33,
-        Nuid_NetDc_Level_Ids_Consume_Level_Input = 34,
+        Nuid_NetEthernet_192_168_10_Ops_Network_OpsBatteryGate_9 = 1,
+        Nuid_NetEthernet_192_168_10_Victron_Network_CerboGx_10 = 2,
+        Nuid_NetEthernet_192_168_10_Ops_OpsController_11 = 3,
+        Nuid_NetEthernet_192_168_10_Ops_OpsInstrumentDisplay_12 = 4,
+        Nuid_NetWiFi_192_168_11_Ops_Network_OpsBatteryGate_9 = 5,
+        Nuid_NetWiFi_192_168_11_Victron_Network_CerboGx_10 = 6,
+        Nuid_NetWiFi_192_168_11_Ops_OpsController_11 = 7,
+        Nuid_NetWiFi_192_168_11_Ops_OpsInstrumentDisplay_12 = 8,
+        Nuid_NetVeDirect_Victron_Victron_Network_VeDirectToUsbA_VeDirect = 9,
+        Nuid_NetVeDirect_Victron_Victron_Network_VeDirectToUsbB_VeDirect = 10,
+        Nuid_NetVeDirect_Victron_Victron_Network_CerboGx_VeDirect1 = 11,
+        Nuid_NetVeDirect_Victron_Victron_Network_CerboGx_VeDirect2 = 12,
+        Nuid_NetVeDirect_Victron_Victron_Network_CerboGx_VeDirect3 = 13,
+        Nuid_NetVeDirect_Victron_Ops_Convert_OpsAcDcCharger_VeDirect = 14,
+        Nuid_NetVeDirect_Victron_Ops_Convert_OpsDcDcConverter_VeDirect = 15,
+        Nuid_NetVeDirect_Victron_Ops_Network_OpsSmartShunt_VeDirect = 16,
+        Nuid_NetAc_Dock_Ops_Isolate_OpsPowerSwitch_Input = 17,
+        Nuid_NetAc_Dock_Ops_Convert_OpsAcDcCharger_Input = 18,
+        Nuid_NetDc_Generator_Ops_Isolate_OpsDiodeIsolator_Input = 19,
+        Nuid_NetDc_Generator_Rotate_Source_EngineGenerator_Output = 20,
+        Nuid_NetDc_Aux_Ops_Source_OpsLithiumBattery_Pos = 21,
+        Nuid_NetDc_Aux_Ops_Isolate_OpsDiodeIsolator_Output1 = 22,
+        Nuid_NetDc_Aux_Ops_Isolate_OpsBatteryFuse_Port1 = 23,
+        Nuid_NetDc_Aux_Ops_Isolate_OpsPowerSwitch_Input = 24,
+        Nuid_NetDc_Aux_Ops_Convert_OpsBatteryCharger_Battery = 25,
+        Nuid_NetDc_Aux_Ops_Network_OpsSmartShunt_Output = 26,
+        Nuid_NetDc_Aux_Ops_Consume_OpsPowerJunction_Input = 27,
+        Nuid_NetDc_Motor_Ops_Source_OpsMotorBattery_Pos = 28,
+        Nuid_NetDc_Motor_Ops_Isolate_OpsDiodeIsolator_Output2 = 29,
+        Nuid_NetDc_Motor_Ops_Isolate_OpsBatteryFuse_Port1 = 30,
+        Nuid_NetDc_Motor_Ops_Convert_OpsBatteryCharger_Motor = 31,
+        Nuid_NetDc_Motor_Rotate_Consume_EngineStartMotor_Input = 32,
+        Nuid_NetDc_Level_Ops_Isolate_OpsDiodeIsolator_Output3 = 33,
+        Nuid_NetDc_Level_Ops_Convert_OpsDcDcConverter_Output = 34,
+        Nuid_NetDc_Level_Ops_Isolate_OpsBatteryFuse_Port1 = 35,
+        Nuid_NetDc_Level_Ops_Source_OpsLithiumBattery_Pos = 36,
     } // enum
     public class ioSystemPortsPower
     {
@@ -46,40 +48,42 @@ namespace ioSystemNetworkNet
         {
             switch (nuid)
             {
-                case ioSystemPortsPowerType.Nuid_NetEthernet_192_168_10_Victron_CerboGx_10: return "NetEthernet.192.168.10.Victron.CerboGx.10";
-                case ioSystemPortsPowerType.Nuid_NetEthernet_192_168_10_Ids_PlcIpc_11: return "NetEthernet.192.168.10.Ids.PlcIpc.11";
-                case ioSystemPortsPowerType.Nuid_NetEthernet_192_168_10_Ids_Op_12: return "NetEthernet.192.168.10.Ids.Op.12";
-                case ioSystemPortsPowerType.Nuid_NetWiFi_192_168_11_Victron_Io_CerboGx_10: return "NetWiFi.192.168.11.Victron.Io.CerboGx.10";
-                case ioSystemPortsPowerType.Nuid_NetWiFi_192_168_11_Ids_PlcIpc_11: return "NetWiFi.192.168.11.Ids.PlcIpc.11";
-                case ioSystemPortsPowerType.Nuid_NetWiFi_192_168_11_Ids_Op_12: return "NetWiFi.192.168.11.Ids.Op.12";
-                case ioSystemPortsPowerType.Nuid_NetVeDirect_Io_Victron_Io_VeDirectToUsbA_VeDirect: return "NetVeDirect.Io.Victron.Io.VeDirectToUsbA.VeDirect";
-                case ioSystemPortsPowerType.Nuid_NetVeDirect_Io_Victron_Io_VeDirectToUsbB_VeDirect: return "NetVeDirect.Io.Victron.Io.VeDirectToUsbB.VeDirect";
-                case ioSystemPortsPowerType.Nuid_NetVeDirect_Io_Victron_Io_CerboGx_VeDirect1: return "NetVeDirect.Io.Victron.Io.CerboGx.VeDirect1";
-                case ioSystemPortsPowerType.Nuid_NetVeDirect_Io_Victron_Io_CerboGx_VeDirect2: return "NetVeDirect.Io.Victron.Io.CerboGx.VeDirect2";
-                case ioSystemPortsPowerType.Nuid_NetVeDirect_Io_Victron_Io_CerboGx_VeDirect3: return "NetVeDirect.Io.Victron.Io.CerboGx.VeDirect3";
-                case ioSystemPortsPowerType.Nuid_NetVeDirect_Io_Victron_Source_Chg12V_VeDirect: return "NetVeDirect.Io.Victron.Source.Chg12V.VeDirect";
-                case ioSystemPortsPowerType.Nuid_NetVeDirect_Io_Victron_Source_Chg24V_VeDirect: return "NetVeDirect.Io.Victron.Source.Chg24V.VeDirect";
-                case ioSystemPortsPowerType.Nuid_NetVeDirect_Io_Victron_Convert_Aux24V_VeDirect: return "NetVeDirect.Io.Victron.Convert.Aux24V.VeDirect";
-                case ioSystemPortsPowerType.Nuid_NetVeDirect_Io_Victron_Convert_24VT_VeDirect: return "NetVeDirect.Io.Victron.Convert.24VT.VeDirect";
-                case ioSystemPortsPowerType.Nuid_NetAc_Dock_Ids_Isolate_SwitchCharge_Input: return "NetAc.Dock.Ids.Isolate.SwitchCharge.Input";
-                case ioSystemPortsPowerType.Nuid_NetAc_Dock_Ids_Convert_Charge_Input: return "NetAc.Dock.Ids.Convert.Charge.Input";
-                case ioSystemPortsPowerType.Nuid_NetDc_Generator_Ids_Isolate_Diode_Input: return "NetDc.Generator.Ids.Isolate.Diode.Input";
-                case ioSystemPortsPowerType.Nuid_NetDc_Generator_Ids_Source_Generator_Output: return "NetDc.Generator.Ids.Source.Generator.Output";
-                case ioSystemPortsPowerType.Nuid_NetDc_Aux_Ids_Source_BattAux_Pos: return "NetDc.Aux.Ids.Source.BattAux.Pos";
-                case ioSystemPortsPowerType.Nuid_NetDc_Aux_Ids_Isolate_Diode_Output1: return "NetDc.Aux.Ids.Isolate.Diode.Output1";
-                case ioSystemPortsPowerType.Nuid_NetDc_Aux_Ids_Isolate_FuseAux_Port1: return "NetDc.Aux.Ids.Isolate.FuseAux.Port1";
-                case ioSystemPortsPowerType.Nuid_NetDc_Aux_Ids_Isolate_SwitchAux_Input: return "NetDc.Aux.Ids.Isolate.SwitchAux.Input";
-                case ioSystemPortsPowerType.Nuid_NetDc_Aux_Ids_Convert_Charge_Battery: return "NetDc.Aux.Ids.Convert.Charge.Battery";
-                case ioSystemPortsPowerType.Nuid_NetDc_Aux_Ids_Io_Shunt_Output: return "NetDc.Aux.Ids.Io.Shunt.Output";
-                case ioSystemPortsPowerType.Nuid_NetDc_Aux_Ids_Consume_Aux_Input: return "NetDc.Aux.Ids.Consume.Aux.Input";
-                case ioSystemPortsPowerType.Nuid_NetDc_Motor_Ids_Source_BattMotor_Pos: return "NetDc.Motor.Ids.Source.BattMotor.Pos";
-                case ioSystemPortsPowerType.Nuid_NetDc_Motor_Ids_Isolate_Diode_Output2: return "NetDc.Motor.Ids.Isolate.Diode.Output2";
-                case ioSystemPortsPowerType.Nuid_NetDc_Motor_Ids_Isolate_FuseMotor_Port1: return "NetDc.Motor.Ids.Isolate.FuseMotor.Port1";
-                case ioSystemPortsPowerType.Nuid_NetDc_Motor_Ids_Convert_Charge_Motor: return "NetDc.Motor.Ids.Convert.Charge.Motor";
-                case ioSystemPortsPowerType.Nuid_NetDc_Motor_Ids_Consume_Motor_Input: return "NetDc.Motor.Ids.Consume.Motor.Input";
-                case ioSystemPortsPowerType.Nuid_NetDc_Level_Ids_Isolate_Diode_Output3: return "NetDc.Level.Ids.Isolate.Diode.Output3";
-                case ioSystemPortsPowerType.Nuid_NetDc_Level_Ids_Convert_DcDc_Output: return "NetDc.Level.Ids.Convert.DcDc.Output";
-                case ioSystemPortsPowerType.Nuid_NetDc_Level_Ids_Consume_Level_Input: return "NetDc.Level.Ids.Consume.Level.Input";
+                case ioSystemPortsPowerType.Nuid_NetEthernet_192_168_10_Ops_Network_OpsBatteryGate_9: return "NetEthernet.192.168.10.Ops.Network.OpsBatteryGate.9";
+                case ioSystemPortsPowerType.Nuid_NetEthernet_192_168_10_Victron_Network_CerboGx_10: return "NetEthernet.192.168.10.Victron.Network.CerboGx.10";
+                case ioSystemPortsPowerType.Nuid_NetEthernet_192_168_10_Ops_OpsController_11: return "NetEthernet.192.168.10.Ops.OpsController.11";
+                case ioSystemPortsPowerType.Nuid_NetEthernet_192_168_10_Ops_OpsInstrumentDisplay_12: return "NetEthernet.192.168.10.Ops.OpsInstrumentDisplay.12";
+                case ioSystemPortsPowerType.Nuid_NetWiFi_192_168_11_Ops_Network_OpsBatteryGate_9: return "NetWiFi.192.168.11.Ops.Network.OpsBatteryGate.9";
+                case ioSystemPortsPowerType.Nuid_NetWiFi_192_168_11_Victron_Network_CerboGx_10: return "NetWiFi.192.168.11.Victron.Network.CerboGx.10";
+                case ioSystemPortsPowerType.Nuid_NetWiFi_192_168_11_Ops_OpsController_11: return "NetWiFi.192.168.11.Ops.OpsController.11";
+                case ioSystemPortsPowerType.Nuid_NetWiFi_192_168_11_Ops_OpsInstrumentDisplay_12: return "NetWiFi.192.168.11.Ops.OpsInstrumentDisplay.12";
+                case ioSystemPortsPowerType.Nuid_NetVeDirect_Victron_Victron_Network_VeDirectToUsbA_VeDirect: return "NetVeDirect.Victron.Victron.Network.VeDirectToUsbA.VeDirect";
+                case ioSystemPortsPowerType.Nuid_NetVeDirect_Victron_Victron_Network_VeDirectToUsbB_VeDirect: return "NetVeDirect.Victron.Victron.Network.VeDirectToUsbB.VeDirect";
+                case ioSystemPortsPowerType.Nuid_NetVeDirect_Victron_Victron_Network_CerboGx_VeDirect1: return "NetVeDirect.Victron.Victron.Network.CerboGx.VeDirect1";
+                case ioSystemPortsPowerType.Nuid_NetVeDirect_Victron_Victron_Network_CerboGx_VeDirect2: return "NetVeDirect.Victron.Victron.Network.CerboGx.VeDirect2";
+                case ioSystemPortsPowerType.Nuid_NetVeDirect_Victron_Victron_Network_CerboGx_VeDirect3: return "NetVeDirect.Victron.Victron.Network.CerboGx.VeDirect3";
+                case ioSystemPortsPowerType.Nuid_NetVeDirect_Victron_Ops_Convert_OpsAcDcCharger_VeDirect: return "NetVeDirect.Victron.Ops.Convert.OpsAcDcCharger.VeDirect";
+                case ioSystemPortsPowerType.Nuid_NetVeDirect_Victron_Ops_Convert_OpsDcDcConverter_VeDirect: return "NetVeDirect.Victron.Ops.Convert.OpsDcDcConverter.VeDirect";
+                case ioSystemPortsPowerType.Nuid_NetVeDirect_Victron_Ops_Network_OpsSmartShunt_VeDirect: return "NetVeDirect.Victron.Ops.Network.OpsSmartShunt.VeDirect";
+                case ioSystemPortsPowerType.Nuid_NetAc_Dock_Ops_Isolate_OpsPowerSwitch_Input: return "NetAc.Dock.Ops.Isolate.OpsPowerSwitch.Input";
+                case ioSystemPortsPowerType.Nuid_NetAc_Dock_Ops_Convert_OpsAcDcCharger_Input: return "NetAc.Dock.Ops.Convert.OpsAcDcCharger.Input";
+                case ioSystemPortsPowerType.Nuid_NetDc_Generator_Ops_Isolate_OpsDiodeIsolator_Input: return "NetDc.Generator.Ops.Isolate.OpsDiodeIsolator.Input";
+                case ioSystemPortsPowerType.Nuid_NetDc_Generator_Rotate_Source_EngineGenerator_Output: return "NetDc.Generator.Rotate.Source.EngineGenerator.Output";
+                case ioSystemPortsPowerType.Nuid_NetDc_Aux_Ops_Source_OpsLithiumBattery_Pos: return "NetDc.Aux.Ops.Source.OpsLithiumBattery.Pos";
+                case ioSystemPortsPowerType.Nuid_NetDc_Aux_Ops_Isolate_OpsDiodeIsolator_Output1: return "NetDc.Aux.Ops.Isolate.OpsDiodeIsolator.Output1";
+                case ioSystemPortsPowerType.Nuid_NetDc_Aux_Ops_Isolate_OpsBatteryFuse_Port1: return "NetDc.Aux.Ops.Isolate.OpsBatteryFuse.Port1";
+                case ioSystemPortsPowerType.Nuid_NetDc_Aux_Ops_Isolate_OpsPowerSwitch_Input: return "NetDc.Aux.Ops.Isolate.OpsPowerSwitch.Input";
+                case ioSystemPortsPowerType.Nuid_NetDc_Aux_Ops_Convert_OpsBatteryCharger_Battery: return "NetDc.Aux.Ops.Convert.OpsBatteryCharger.Battery";
+                case ioSystemPortsPowerType.Nuid_NetDc_Aux_Ops_Network_OpsSmartShunt_Output: return "NetDc.Aux.Ops.Network.OpsSmartShunt.Output";
+                case ioSystemPortsPowerType.Nuid_NetDc_Aux_Ops_Consume_OpsPowerJunction_Input: return "NetDc.Aux.Ops.Consume.OpsPowerJunction.Input";
+                case ioSystemPortsPowerType.Nuid_NetDc_Motor_Ops_Source_OpsMotorBattery_Pos: return "NetDc.Motor.Ops.Source.OpsMotorBattery.Pos";
+                case ioSystemPortsPowerType.Nuid_NetDc_Motor_Ops_Isolate_OpsDiodeIsolator_Output2: return "NetDc.Motor.Ops.Isolate.OpsDiodeIsolator.Output2";
+                case ioSystemPortsPowerType.Nuid_NetDc_Motor_Ops_Isolate_OpsBatteryFuse_Port1: return "NetDc.Motor.Ops.Isolate.OpsBatteryFuse.Port1";
+                case ioSystemPortsPowerType.Nuid_NetDc_Motor_Ops_Convert_OpsBatteryCharger_Motor: return "NetDc.Motor.Ops.Convert.OpsBatteryCharger.Motor";
+                case ioSystemPortsPowerType.Nuid_NetDc_Motor_Rotate_Consume_EngineStartMotor_Input: return "NetDc.Motor.Rotate.Consume.EngineStartMotor.Input";
+                case ioSystemPortsPowerType.Nuid_NetDc_Level_Ops_Isolate_OpsDiodeIsolator_Output3: return "NetDc.Level.Ops.Isolate.OpsDiodeIsolator.Output3";
+                case ioSystemPortsPowerType.Nuid_NetDc_Level_Ops_Convert_OpsDcDcConverter_Output: return "NetDc.Level.Ops.Convert.OpsDcDcConverter.Output";
+                case ioSystemPortsPowerType.Nuid_NetDc_Level_Ops_Isolate_OpsBatteryFuse_Port1: return "NetDc.Level.Ops.Isolate.OpsBatteryFuse.Port1";
+                case ioSystemPortsPowerType.Nuid_NetDc_Level_Ops_Source_OpsLithiumBattery_Pos: return "NetDc.Level.Ops.Source.OpsLithiumBattery.Pos";
             } // switch
             return string.Empty;
         }
@@ -87,40 +91,42 @@ namespace ioSystemNetworkNet
         {
             switch (globalID)
             {
-                case "NetEthernet.192.168.10.Victron.CerboGx.10": return ioSystemPortsPowerType.Nuid_NetEthernet_192_168_10_Victron_CerboGx_10;
-                case "NetEthernet.192.168.10.Ids.PlcIpc.11": return ioSystemPortsPowerType.Nuid_NetEthernet_192_168_10_Ids_PlcIpc_11;
-                case "NetEthernet.192.168.10.Ids.Op.12": return ioSystemPortsPowerType.Nuid_NetEthernet_192_168_10_Ids_Op_12;
-                case "NetWiFi.192.168.11.Victron.Io.CerboGx.10": return ioSystemPortsPowerType.Nuid_NetWiFi_192_168_11_Victron_Io_CerboGx_10;
-                case "NetWiFi.192.168.11.Ids.PlcIpc.11": return ioSystemPortsPowerType.Nuid_NetWiFi_192_168_11_Ids_PlcIpc_11;
-                case "NetWiFi.192.168.11.Ids.Op.12": return ioSystemPortsPowerType.Nuid_NetWiFi_192_168_11_Ids_Op_12;
-                case "NetVeDirect.Io.Victron.Io.VeDirectToUsbA.VeDirect": return ioSystemPortsPowerType.Nuid_NetVeDirect_Io_Victron_Io_VeDirectToUsbA_VeDirect;
-                case "NetVeDirect.Io.Victron.Io.VeDirectToUsbB.VeDirect": return ioSystemPortsPowerType.Nuid_NetVeDirect_Io_Victron_Io_VeDirectToUsbB_VeDirect;
-                case "NetVeDirect.Io.Victron.Io.CerboGx.VeDirect1": return ioSystemPortsPowerType.Nuid_NetVeDirect_Io_Victron_Io_CerboGx_VeDirect1;
-                case "NetVeDirect.Io.Victron.Io.CerboGx.VeDirect2": return ioSystemPortsPowerType.Nuid_NetVeDirect_Io_Victron_Io_CerboGx_VeDirect2;
-                case "NetVeDirect.Io.Victron.Io.CerboGx.VeDirect3": return ioSystemPortsPowerType.Nuid_NetVeDirect_Io_Victron_Io_CerboGx_VeDirect3;
-                case "NetVeDirect.Io.Victron.Source.Chg12V.VeDirect": return ioSystemPortsPowerType.Nuid_NetVeDirect_Io_Victron_Source_Chg12V_VeDirect;
-                case "NetVeDirect.Io.Victron.Source.Chg24V.VeDirect": return ioSystemPortsPowerType.Nuid_NetVeDirect_Io_Victron_Source_Chg24V_VeDirect;
-                case "NetVeDirect.Io.Victron.Convert.Aux24V.VeDirect": return ioSystemPortsPowerType.Nuid_NetVeDirect_Io_Victron_Convert_Aux24V_VeDirect;
-                case "NetVeDirect.Io.Victron.Convert.24VT.VeDirect": return ioSystemPortsPowerType.Nuid_NetVeDirect_Io_Victron_Convert_24VT_VeDirect;
-                case "NetAc.Dock.Ids.Isolate.SwitchCharge.Input": return ioSystemPortsPowerType.Nuid_NetAc_Dock_Ids_Isolate_SwitchCharge_Input;
-                case "NetAc.Dock.Ids.Convert.Charge.Input": return ioSystemPortsPowerType.Nuid_NetAc_Dock_Ids_Convert_Charge_Input;
-                case "NetDc.Generator.Ids.Isolate.Diode.Input": return ioSystemPortsPowerType.Nuid_NetDc_Generator_Ids_Isolate_Diode_Input;
-                case "NetDc.Generator.Ids.Source.Generator.Output": return ioSystemPortsPowerType.Nuid_NetDc_Generator_Ids_Source_Generator_Output;
-                case "NetDc.Aux.Ids.Source.BattAux.Pos": return ioSystemPortsPowerType.Nuid_NetDc_Aux_Ids_Source_BattAux_Pos;
-                case "NetDc.Aux.Ids.Isolate.Diode.Output1": return ioSystemPortsPowerType.Nuid_NetDc_Aux_Ids_Isolate_Diode_Output1;
-                case "NetDc.Aux.Ids.Isolate.FuseAux.Port1": return ioSystemPortsPowerType.Nuid_NetDc_Aux_Ids_Isolate_FuseAux_Port1;
-                case "NetDc.Aux.Ids.Isolate.SwitchAux.Input": return ioSystemPortsPowerType.Nuid_NetDc_Aux_Ids_Isolate_SwitchAux_Input;
-                case "NetDc.Aux.Ids.Convert.Charge.Battery": return ioSystemPortsPowerType.Nuid_NetDc_Aux_Ids_Convert_Charge_Battery;
-                case "NetDc.Aux.Ids.Io.Shunt.Output": return ioSystemPortsPowerType.Nuid_NetDc_Aux_Ids_Io_Shunt_Output;
-                case "NetDc.Aux.Ids.Consume.Aux.Input": return ioSystemPortsPowerType.Nuid_NetDc_Aux_Ids_Consume_Aux_Input;
-                case "NetDc.Motor.Ids.Source.BattMotor.Pos": return ioSystemPortsPowerType.Nuid_NetDc_Motor_Ids_Source_BattMotor_Pos;
-                case "NetDc.Motor.Ids.Isolate.Diode.Output2": return ioSystemPortsPowerType.Nuid_NetDc_Motor_Ids_Isolate_Diode_Output2;
-                case "NetDc.Motor.Ids.Isolate.FuseMotor.Port1": return ioSystemPortsPowerType.Nuid_NetDc_Motor_Ids_Isolate_FuseMotor_Port1;
-                case "NetDc.Motor.Ids.Convert.Charge.Motor": return ioSystemPortsPowerType.Nuid_NetDc_Motor_Ids_Convert_Charge_Motor;
-                case "NetDc.Motor.Ids.Consume.Motor.Input": return ioSystemPortsPowerType.Nuid_NetDc_Motor_Ids_Consume_Motor_Input;
-                case "NetDc.Level.Ids.Isolate.Diode.Output3": return ioSystemPortsPowerType.Nuid_NetDc_Level_Ids_Isolate_Diode_Output3;
-                case "NetDc.Level.Ids.Convert.DcDc.Output": return ioSystemPortsPowerType.Nuid_NetDc_Level_Ids_Convert_DcDc_Output;
-                case "NetDc.Level.Ids.Consume.Level.Input": return ioSystemPortsPowerType.Nuid_NetDc_Level_Ids_Consume_Level_Input;
+                case "NetEthernet.192.168.10.Ops.Network.OpsBatteryGate.9": return ioSystemPortsPowerType.Nuid_NetEthernet_192_168_10_Ops_Network_OpsBatteryGate_9;
+                case "NetEthernet.192.168.10.Victron.Network.CerboGx.10": return ioSystemPortsPowerType.Nuid_NetEthernet_192_168_10_Victron_Network_CerboGx_10;
+                case "NetEthernet.192.168.10.Ops.OpsController.11": return ioSystemPortsPowerType.Nuid_NetEthernet_192_168_10_Ops_OpsController_11;
+                case "NetEthernet.192.168.10.Ops.OpsInstrumentDisplay.12": return ioSystemPortsPowerType.Nuid_NetEthernet_192_168_10_Ops_OpsInstrumentDisplay_12;
+                case "NetWiFi.192.168.11.Ops.Network.OpsBatteryGate.9": return ioSystemPortsPowerType.Nuid_NetWiFi_192_168_11_Ops_Network_OpsBatteryGate_9;
+                case "NetWiFi.192.168.11.Victron.Network.CerboGx.10": return ioSystemPortsPowerType.Nuid_NetWiFi_192_168_11_Victron_Network_CerboGx_10;
+                case "NetWiFi.192.168.11.Ops.OpsController.11": return ioSystemPortsPowerType.Nuid_NetWiFi_192_168_11_Ops_OpsController_11;
+                case "NetWiFi.192.168.11.Ops.OpsInstrumentDisplay.12": return ioSystemPortsPowerType.Nuid_NetWiFi_192_168_11_Ops_OpsInstrumentDisplay_12;
+                case "NetVeDirect.Victron.Victron.Network.VeDirectToUsbA.VeDirect": return ioSystemPortsPowerType.Nuid_NetVeDirect_Victron_Victron_Network_VeDirectToUsbA_VeDirect;
+                case "NetVeDirect.Victron.Victron.Network.VeDirectToUsbB.VeDirect": return ioSystemPortsPowerType.Nuid_NetVeDirect_Victron_Victron_Network_VeDirectToUsbB_VeDirect;
+                case "NetVeDirect.Victron.Victron.Network.CerboGx.VeDirect1": return ioSystemPortsPowerType.Nuid_NetVeDirect_Victron_Victron_Network_CerboGx_VeDirect1;
+                case "NetVeDirect.Victron.Victron.Network.CerboGx.VeDirect2": return ioSystemPortsPowerType.Nuid_NetVeDirect_Victron_Victron_Network_CerboGx_VeDirect2;
+                case "NetVeDirect.Victron.Victron.Network.CerboGx.VeDirect3": return ioSystemPortsPowerType.Nuid_NetVeDirect_Victron_Victron_Network_CerboGx_VeDirect3;
+                case "NetVeDirect.Victron.Ops.Convert.OpsAcDcCharger.VeDirect": return ioSystemPortsPowerType.Nuid_NetVeDirect_Victron_Ops_Convert_OpsAcDcCharger_VeDirect;
+                case "NetVeDirect.Victron.Ops.Convert.OpsDcDcConverter.VeDirect": return ioSystemPortsPowerType.Nuid_NetVeDirect_Victron_Ops_Convert_OpsDcDcConverter_VeDirect;
+                case "NetVeDirect.Victron.Ops.Network.OpsSmartShunt.VeDirect": return ioSystemPortsPowerType.Nuid_NetVeDirect_Victron_Ops_Network_OpsSmartShunt_VeDirect;
+                case "NetAc.Dock.Ops.Isolate.OpsPowerSwitch.Input": return ioSystemPortsPowerType.Nuid_NetAc_Dock_Ops_Isolate_OpsPowerSwitch_Input;
+                case "NetAc.Dock.Ops.Convert.OpsAcDcCharger.Input": return ioSystemPortsPowerType.Nuid_NetAc_Dock_Ops_Convert_OpsAcDcCharger_Input;
+                case "NetDc.Generator.Ops.Isolate.OpsDiodeIsolator.Input": return ioSystemPortsPowerType.Nuid_NetDc_Generator_Ops_Isolate_OpsDiodeIsolator_Input;
+                case "NetDc.Generator.Rotate.Source.EngineGenerator.Output": return ioSystemPortsPowerType.Nuid_NetDc_Generator_Rotate_Source_EngineGenerator_Output;
+                case "NetDc.Aux.Ops.Source.OpsLithiumBattery.Pos": return ioSystemPortsPowerType.Nuid_NetDc_Aux_Ops_Source_OpsLithiumBattery_Pos;
+                case "NetDc.Aux.Ops.Isolate.OpsDiodeIsolator.Output1": return ioSystemPortsPowerType.Nuid_NetDc_Aux_Ops_Isolate_OpsDiodeIsolator_Output1;
+                case "NetDc.Aux.Ops.Isolate.OpsBatteryFuse.Port1": return ioSystemPortsPowerType.Nuid_NetDc_Aux_Ops_Isolate_OpsBatteryFuse_Port1;
+                case "NetDc.Aux.Ops.Isolate.OpsPowerSwitch.Input": return ioSystemPortsPowerType.Nuid_NetDc_Aux_Ops_Isolate_OpsPowerSwitch_Input;
+                case "NetDc.Aux.Ops.Convert.OpsBatteryCharger.Battery": return ioSystemPortsPowerType.Nuid_NetDc_Aux_Ops_Convert_OpsBatteryCharger_Battery;
+                case "NetDc.Aux.Ops.Network.OpsSmartShunt.Output": return ioSystemPortsPowerType.Nuid_NetDc_Aux_Ops_Network_OpsSmartShunt_Output;
+                case "NetDc.Aux.Ops.Consume.OpsPowerJunction.Input": return ioSystemPortsPowerType.Nuid_NetDc_Aux_Ops_Consume_OpsPowerJunction_Input;
+                case "NetDc.Motor.Ops.Source.OpsMotorBattery.Pos": return ioSystemPortsPowerType.Nuid_NetDc_Motor_Ops_Source_OpsMotorBattery_Pos;
+                case "NetDc.Motor.Ops.Isolate.OpsDiodeIsolator.Output2": return ioSystemPortsPowerType.Nuid_NetDc_Motor_Ops_Isolate_OpsDiodeIsolator_Output2;
+                case "NetDc.Motor.Ops.Isolate.OpsBatteryFuse.Port1": return ioSystemPortsPowerType.Nuid_NetDc_Motor_Ops_Isolate_OpsBatteryFuse_Port1;
+                case "NetDc.Motor.Ops.Convert.OpsBatteryCharger.Motor": return ioSystemPortsPowerType.Nuid_NetDc_Motor_Ops_Convert_OpsBatteryCharger_Motor;
+                case "NetDc.Motor.Rotate.Consume.EngineStartMotor.Input": return ioSystemPortsPowerType.Nuid_NetDc_Motor_Rotate_Consume_EngineStartMotor_Input;
+                case "NetDc.Level.Ops.Isolate.OpsDiodeIsolator.Output3": return ioSystemPortsPowerType.Nuid_NetDc_Level_Ops_Isolate_OpsDiodeIsolator_Output3;
+                case "NetDc.Level.Ops.Convert.OpsDcDcConverter.Output": return ioSystemPortsPowerType.Nuid_NetDc_Level_Ops_Convert_OpsDcDcConverter_Output;
+                case "NetDc.Level.Ops.Isolate.OpsBatteryFuse.Port1": return ioSystemPortsPowerType.Nuid_NetDc_Level_Ops_Isolate_OpsBatteryFuse_Port1;
+                case "NetDc.Level.Ops.Source.OpsLithiumBattery.Pos": return ioSystemPortsPowerType.Nuid_NetDc_Level_Ops_Source_OpsLithiumBattery_Pos;
             } // switch
             return ioSystemPortsPowerType.Nuid_NotDefined;
         }

@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ModelClass Name="DiodeModel">
-    <Description>Simulation model of a diode device isolating the generator from power networks</Description>
-    <ModelClassObject ParentGlobalID="Ids.Isolate">
-        <Sequence />
-    </ModelClassObject>
-</ModelClass>

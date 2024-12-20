@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DeviceClass Name="OpsDcDcConverter">
+    <Description>DC/DC voltage converter for Open Power and Steering systems</Description>
+    <DeviceItemCollection GlobalID="Ops.Convert.OpsDcDcConverter">
+        <Properties>
+            <Variable LocalID="InputVoltage" TypeNum="Float" Unit="VDC"  Min="8.0" Max="17.0">12.0</Variable>
+            <Variable LocalID="NominalOutputVoltage" TypeNum="Float" Unit="VDC">24.2</Variable>
+            <Variable LocalID="NominalOutputCurrent" TypeNum="Float" Unit="A">15.0</Variable>
+        </Properties>
+    </DeviceItemCollection>
+</DeviceClass>
