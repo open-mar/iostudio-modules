@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DataList Name="DataCerboGx">
     <Description>Data for Victron Cerbo GX</Description>
-    <DataListObject ParentGlobalID="Victron.Io">
+    <DataListObject ParentGlobalID="Victron.Network">
         <Method LocalID="RequestDataCgx">
             <NumberID>Dc0Power</NumberID>
             <NumberID>Dc0Voltage</NumberID>

@@ -2,7 +2,7 @@
 #if !defined(__MAKSPOWERMP200DYNAMO_H)
 #define __MAKSPOWERMP200DYNAMO_H
 #include "ioSystem/Simulation/ioModel.h"
-#include "Programs/Ids/Source/DataGenerator.h"
+#include "Programs/Ops/Source/DataGenerator.h"
 class MaksPowerMp200Dynamo : public ioModel
 {
 public:

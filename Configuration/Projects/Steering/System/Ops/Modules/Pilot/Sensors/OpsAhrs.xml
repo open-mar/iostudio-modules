@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DeviceClass Name="OpsAhrs">
     <Description>Panel for course steering Open Power and Steering systems</Description>
-    <DeviceItemCollection GlobalID="Ops.Pilot.OpsAhrs" />
+    <DeviceClassObject GlobalID="Ops.Pilot.OpsAhrs" Category="Sensor"/>
 </DeviceClass>

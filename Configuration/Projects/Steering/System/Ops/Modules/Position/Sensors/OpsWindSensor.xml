@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DeviceClass Name="OpsWindSensor">
     <Description>Wind sensor for Open Power and Steering systems</Description>
-    <DeviceItemCollection GlobalID="Ops.Position.OpsWindSensor" />
+    <DeviceClassObject GlobalID="Ops.Position.OpsWindSensor" Category="Sensor"/>
 </DeviceClass>

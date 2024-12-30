@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DeviceClass Name="OpsDisplay">
     <Description>Instrument display for Open Power and Steering systems</Description>
-    <DeviceItemCollection GlobalID="Ops.Instrument.OpsDisplay">
+    <DeviceClassObject GlobalID="Ops.Instrument.OpsDisplay" Category="Operation">
         <Properties>
             <Variable LocalID="DisplaySize" TypeNum="Float" Unit="Inches">12</Variable>
         </Properties>
@@ -13,5 +13,5 @@
                 </Properties>
             </DevicePort>
         </PortsCollection>
-    </DeviceItemCollection>
+    </DeviceClassObject>
 </DeviceClass>

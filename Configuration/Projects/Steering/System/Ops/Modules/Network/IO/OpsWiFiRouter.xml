@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DeviceClass Name="OpsWiFiRouter">
     <Description>WiFi router for WiFi devices in Open Power and Steering systems</Description>
-    <DeviceItemCollection GlobalID="Ops.Network.OpsWiFiRouter" />
+    <DeviceClassObject GlobalID="Ops.Network.OpsWiFiRouter" Category="IO"/>
 </DeviceClass>

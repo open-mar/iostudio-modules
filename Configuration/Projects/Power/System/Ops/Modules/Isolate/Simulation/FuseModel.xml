@@ -3,7 +3,7 @@
     <Description>Simulation model of a fuse protecting a power source</Description>
     <ModelClassObject ParentGlobalID="Ops.Isolate">
         <DataItemsCollection>
-            <DataListClasses Name="Ids::Isolate::FuseModelData" NameObject="Data">
+            <DataListClasses Name="Ops::Isolate::FuseModelData" NameObject="Data">
                 <Item NameClass="FuseModelData" NameObject="ModelData" />
             </DataListClasses>
         </DataItemsCollection>

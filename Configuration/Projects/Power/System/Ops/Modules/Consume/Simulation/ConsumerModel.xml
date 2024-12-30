@@ -3,7 +3,7 @@
     <Description>Simulation model for consumer connected to a switch board</Description>
     <ModelClassObject ParentGlobalID="Ops.Consume">
         <DataItemsCollection>
-            <DataListClasses Name="Ids::Consume::ConsumerModelData" NameObject="Data">
+            <DataListClasses Name="Ops::Consume::ConsumerModelData" NameObject="Data">
                 <Item NameClass="ConsumerModelData" NameObject="DataModel" />
             </DataListClasses>
             <DataListClasses Name="Ids::Consume::SwitchboardData" NameObject="Data">

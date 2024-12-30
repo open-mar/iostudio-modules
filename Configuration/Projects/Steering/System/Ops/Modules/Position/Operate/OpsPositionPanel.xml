@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DeviceClass Name="OpsPositionPanel">
     <Description>Position steering panel for Open Power and Steering systems</Description>
-    <DeviceItemCollection GlobalID="Ops.Position.OpsPositionPanel" />
+    <DeviceClassObject GlobalID="Ops.Position.OpsPositionPanel" Category="Operation"/>
 </DeviceClass>

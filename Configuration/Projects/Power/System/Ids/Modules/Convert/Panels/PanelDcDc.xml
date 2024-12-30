@@ -2,33 +2,26 @@
 <PanelClass Name="PanelDcDc">
     <Description>Instrument panel for IDS DC-DC data</Description>
     <PanelObject ParentGlobalID="Ids.Convert" Background="ContainerBackground">
-        <RowDefinition Size="32" />
         <RowDefinition Size="24" />
         <RowDefinition />
         <ColumnDefinition />
         <ColumnDefinition />
-        <Grid Row="1" Column="1" SpanColumns="2">
-            <ioComboBox LocalID="SelectDcDc">
-                <Properties />
-            </ioComboBox>
-        </Grid>
-        <Grid Row="1" Column="2" />
-        <Grid Row="2" Column="1">
+        <Grid Row="1" Column="1">
             <ioLabel LocalID="LabelHeaderDcDcInput">
                 <Properties Text="DC-DC INPUT [VDC]" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
         </Grid>
-        <Grid Row="2" Column="2">
+        <Grid Row="1" Column="2">
             <ioLabel LocalID="LabelHeaderDcDcOutput">
                 <Properties Text="DC-DC OUTPUT [VDC]" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
         </Grid>
-        <Grid Row="3" Column="1">
+        <Grid Row="2" Column="1">
             <ioTextBlock LocalID="InstrVoltInputDcDc">
                 <Properties Text="12.1" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
             </ioTextBlock>
         </Grid>
-        <Grid Row="3" Column="2">
+        <Grid Row="2" Column="2">
             <ioTextBlock LocalID="InstrVoltOutputDcDc">
                 <Properties Text="24.2" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
             </ioTextBlock>

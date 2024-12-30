@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DeviceClass Name="OpsIoNmea0183">
     <Description>NMEA0183 I/O for Open Power and Steering systems</Description>
-    <DeviceItemCollection GlobalID="Ops.Controller.OpsIoNmea0183" />
+    <DeviceClassObject GlobalID="Ops.Controller.OpsIoNmea0183" Category="IO"/>
 </DeviceClass>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DeviceClass Name="OpsImu">
     <Description>Inertial Measurement Unit for Open Power and Steering systems</Description>
-    <DeviceItemCollection GlobalID="Ops.Pilot.OpsImu" />
+    <DeviceClassObject GlobalID="Ops.Pilot.OpsImu" Category="Sensor"/>
 </DeviceClass>

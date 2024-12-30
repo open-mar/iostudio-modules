@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<DataList Name="VictronData">
-    <Description>Data for Victron devices</Description>
-    <DataListObject ParentGlobalID="Victron">
-        <Method LocalID="RequestVictronData" />
-        <Event LocalID="ResponseVictronData" />
-    </DataListObject>
-</DataList>

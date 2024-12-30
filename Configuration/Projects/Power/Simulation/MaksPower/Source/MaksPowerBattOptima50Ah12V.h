@@ -3,7 +3,7 @@
 #define __MAKSPOWERBATTOPTIMA50AH12V_H
 #include "ioSystem/Simulation/ioModel.h"
 #include "Programs/Ids/Source/DataBattery.h"
-#include "Programs/Ids/Source/DataBatteryModel.h"
+#include "Programs/Ops/Source/DataBatteryModel.h"
 class MaksPowerBattOptima50Ah12V : public ioModel
 {
 public:

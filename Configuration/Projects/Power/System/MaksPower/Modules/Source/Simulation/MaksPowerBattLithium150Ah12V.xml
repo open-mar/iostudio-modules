@@ -6,7 +6,7 @@
             <DataListClasses Name="Ids::Source::DataBattery" NameObject="Data">
                 <Item NameClass="DataBattery" NameObject="BatteryData" />
             </DataListClasses>
-            <DataListClasses Name="Ids::Source::DataBatteryModel" NameObject="Data">
+            <DataListClasses Name="Ops::Source::DataBatteryModel" NameObject="Data">
                 <Item NameClass="DataBatteryModel" NameObject="ModelData" />
             </DataListClasses>
         </DataItemsCollection>

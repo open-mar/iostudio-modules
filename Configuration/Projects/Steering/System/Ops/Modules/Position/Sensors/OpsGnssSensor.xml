@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DeviceClass Name="OpsGnssSensor">
     <Description>GNSS sensor for Open Power and Steering systems</Description>
-    <DeviceItemCollection GlobalID="Ops.Position.OpsGnssSensor" />
+    <DeviceClassObject GlobalID="Ops.Position.OpsGnssSensor" Category="Sensor"/>
 </DeviceClass>

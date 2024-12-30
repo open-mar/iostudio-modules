@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DeviceClass Name="OpsRiverLever">
     <Description>Rate of turn steering lever for Open Power and Steering systems</Description>
-    <DeviceItemCollection GlobalID="Ops.Pilot.OpsRiverLever" />
+    <DeviceClassObject GlobalID="Ops.Pilot.OpsRiverLever" Category="Operation"/>
 </DeviceClass>

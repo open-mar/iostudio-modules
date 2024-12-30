@@ -3,7 +3,7 @@
     <Description>Simulation model for Makspower MP200 Dynamo</Description>
     <ModelClassObject ParentGlobalID="MaksPower.Source">
         <DataItemsCollection>
-            <DataListClasses Name="Ids::Source::DataGenerator" NameObject="Data">
+            <DataListClasses Name="Ops::Source::DataGenerator" NameObject="Data">
                 <Item NameClass="DataGenerator" NameObject="GeneratorData" />
             </DataListClasses>
         </DataItemsCollection>

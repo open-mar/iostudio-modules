@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DeviceClass Name="OpsMotorBattery">
     <Description>Motor battery for Open Power and Steering systems</Description>
-    <DeviceItemCollection GlobalID="Ops.Source.OpsMotorBattery">
+    <DeviceClassObject GlobalID="Ops.Source.OpsMotorBattery" Category="Actuator">
         <Properties>
             <Variable LocalID="NominalVoltage" TypeNum="Float" Decimals="1">12.8</Variable>
             <Variable LocalID="DischargedVoltage" TypeNum="Float" Decimals="1">10.0</Variable>
@@ -9,5 +9,5 @@
         <PortsCollection>
             <DevicePort LocalID="Pos" TypePort="12_24VDC" GroupID="1"/>
         </PortsCollection>
-    </DeviceItemCollection>
+    </DeviceClassObject>
 </DeviceClass>

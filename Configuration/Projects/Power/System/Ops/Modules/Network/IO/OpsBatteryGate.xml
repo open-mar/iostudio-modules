@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DeviceClass Name="OpsBatteryGate">
     <Description>Battery Modbus gate for Open Power and Steering systems</Description>
-    <DeviceItemCollection GlobalID="Ops.Network.OpsBatteryGate">
+    <DeviceClassObject GlobalID="Ops.Network.OpsBatteryGate" Category="IO">
         <PortsCollection>
             <DevicePort LocalID="Input" TypePort="12_24VDC" GroupID="1"/>
             <DevicePort LocalID="VeDirect" TypePort="OpsIo" GroupID="2"/>
@@ -11,5 +11,5 @@
                 </Properties>
             </DevicePort>
         </PortsCollection>
-    </DeviceItemCollection>
+    </DeviceClassObject>
 </DeviceClass>

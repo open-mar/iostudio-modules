@@ -5,7 +5,7 @@
         <DataListClasses Name="Ids::Convert::DataCharge" NameObject="ChargeData">
             <Item NameClass="DataCharge" NameObject="ChargeData" />
         </DataListClasses>
-        <DataListClasses Name="Victron::Io::DataCerboGx" NameObject="CgxData">
+        <DataListClasses Name="Victron::Network::DataCerboGx" NameObject="CgxData">
             <Item NameClass="DataCerboGx" NameObject="CgxData" />
         </DataListClasses>
         <DataListClasses Name="Ids::Convert::DataDcDc" NameObject="DcDcData">
@@ -32,7 +32,7 @@
         </Function>
     </InternalFunctions>
     <Sequences>
-        <RxTxData NameClass="DataCerboGx" GlobalID="Victron.Io.ResponseDataCgx">
+        <RxTxData NameClass="DataCerboGx" GlobalID="Victron.Network.ResponseDataCgx">
             <Function TypeFunction="Internal">
                 <Call Name="UpdateFromCergoGxData" />
             </Function>

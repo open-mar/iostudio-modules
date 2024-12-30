@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ModuleClass Name="BEP">
-    <Description>BEP battery power distribution</Description>
-    <ModuleObject GlobalID="BEP" />
-</ModuleClass>

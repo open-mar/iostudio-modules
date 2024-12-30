@@ -17,32 +17,11 @@
     <Filter Include="Programs\Victron">
       <UniqueIdentifier>{8a27a57b-184a-4a64-88fb-16059e69d8d8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Programs\Victron\Io">
-      <UniqueIdentifier>{b0edf15b-ab56-4c3c-9f72-93f3e07dd3d9}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Programs\Ids">
       <UniqueIdentifier>{b782b041-cbae-4323-8c32-761b1dacc3b9}</UniqueIdentifier>
     </Filter>
     <Filter Include="Simulation\Victron\Convert">
       <UniqueIdentifier>{cebaa1c6-4f8a-43bb-910d-04a7057a95bb}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Simulation\Ids">
-      <UniqueIdentifier>{a450cbc8-f178-4b15-a912-e63999b4ddfb}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Simulation\Ids\Convert">
-      <UniqueIdentifier>{cc037227-10db-439f-add0-f062ecdb7bc8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Simulation\Ids\Source">
-      <UniqueIdentifier>{b6e91dce-478d-4250-aa41-c88295966698}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Simulation\Ids\Isolate">
-      <UniqueIdentifier>{328338ca-845c-469d-8e7c-3faab6be61b3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Simulation\Ids\Io">
-      <UniqueIdentifier>{ea8ad0e9-b13b-4206-b3d8-dd9e0d80f3cd}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Simulation\Ids\Consume">
-      <UniqueIdentifier>{b6468d91-780e-4287-bfea-da4388d09d98}</UniqueIdentifier>
     </Filter>
     <Filter Include="Programs\Ids\Convert">
       <UniqueIdentifier>{086777bd-a9d2-46e8-b2ba-ea64fb15cf67}</UniqueIdentifier>
@@ -62,7 +41,40 @@
     <Filter Include="Programs\Ids\Isolate">
       <UniqueIdentifier>{7147397f-a2d5-4998-b2dc-000a0300bdbd}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Simulation\Victron\Io">
+    <Filter Include="Programs\Victron\Network">
+      <UniqueIdentifier>{b0edf15b-ab56-4c3c-9f72-93f3e07dd3d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation\Ops">
+      <UniqueIdentifier>{5ab4c5b1-7507-48ed-b60f-ec7eaad44542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation\Ops\Consume">
+      <UniqueIdentifier>{19fb9c13-c186-4106-8c00-838ac67870fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Ops">
+      <UniqueIdentifier>{e89bed9c-e9f7-4a2c-b199-5ec63918117f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Ops\Consume">
+      <UniqueIdentifier>{f4a88d97-c0f0-4d9b-bfef-a4cd809f9556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Ops\Source">
+      <UniqueIdentifier>{3e6c476f-3aee-4cde-aa66-4a9565f01ad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation\Ops\Convert">
+      <UniqueIdentifier>{82af096f-8305-489f-b041-5435ea7ebce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation\Ops\Isolate">
+      <UniqueIdentifier>{f4f4a412-b1e5-482d-916b-73d5ec1c01de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Ops\Isolate">
+      <UniqueIdentifier>{a150749f-8d78-4dd9-976a-2e7adb01483f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation\Ops\Network">
+      <UniqueIdentifier>{8f249cde-c1f0-4bec-9467-c905495cf7d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation\Ops\Source">
+      <UniqueIdentifier>{baa941f0-1457-414c-8bb8-3e3db31bccc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation\Victron\Network">
       <UniqueIdentifier>{c6a2051f-defb-4c50-9bd1-f8774df738ec}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -82,68 +94,11 @@
     <ClInclude Include="..\..\Programs\ioSystemPorts.h">
       <Filter>Programs</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Programs\Victron\Io\DataCerboGx.h">
-      <Filter>Programs\Victron\Io</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Programs\Victron\Io\ProgramCerboGx.h">
-      <Filter>Programs\Victron\Io</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Programs\Ids\IdsProgControl.h">
-      <Filter>Programs\Ids</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Programs\Ids\IdsProgOperate.h">
-      <Filter>Programs\Ids</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Programs\Victron\VictronMonitor.h">
-      <Filter>Programs\Victron</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Programs\Victron\VictronSensor.h">
-      <Filter>Programs\Victron</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Programs\Victron\VictronData.h">
-      <Filter>Programs\Victron</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Programs\Victron\VictronPanel.h">
-      <Filter>Programs\Victron</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\Simulation\Victron\Convert\OrionTrSmartIso12_24_10.h">
       <Filter>Simulation\Victron\Convert</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Simulation\Victron\Convert\SmartIp43_12V_50_2.h">
       <Filter>Simulation\Victron\Convert</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Simulation\Ids\Convert\ChargeModel.h">
-      <Filter>Simulation\Ids\Convert</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Simulation\Ids\Convert\DcDcModel.h">
-      <Filter>Simulation\Ids\Convert</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Simulation\Ids\Source\GeneratorModel.h">
-      <Filter>Simulation\Ids\Source</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Simulation\Ids\Isolate\DiodeModel.h">
-      <Filter>Simulation\Ids\Isolate</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Simulation\Ids\Io\ShuntModel.h">
-      <Filter>Simulation\Ids\Io</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Simulation\Ids\Consume\ConsumerModel.h">
-      <Filter>Simulation\Ids\Consume</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Simulation\Ids\Consume\SwitchBoardModel.h">
-      <Filter>Simulation\Ids\Consume</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Simulation\Ids\Source\BatteryModel.h">
-      <Filter>Simulation\Ids\Source</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Simulation\Ids\Isolate\FuseModel.h">
-      <Filter>Simulation\Ids\Isolate</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Simulation\Ids\Isolate\SwitchModel.h">
-      <Filter>Simulation\Ids\Isolate</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Simulation\Ids\Io\PowerNetModel.h">
-      <Filter>Simulation\Ids\Io</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Programs\Ids\Convert\DataCharge.h">
       <Filter>Programs\Ids\Convert</Filter>
@@ -160,9 +115,6 @@
     <ClInclude Include="..\..\Simulation\MaksPower\Source\MaksPowerMp200Dynamo.h">
       <Filter>Simulation\MaksPower\Source</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Programs\Ids\Source\DataGenerator.h">
-      <Filter>Programs\Ids\Source</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\Programs\Ids\Source\DataBattery.h">
       <Filter>Programs\Ids\Source</Filter>
     </ClInclude>
@@ -175,17 +127,68 @@
     <ClInclude Include="..\..\Simulation\MaksPower\Source\MaksPowerBattOptima50Ah12V.h">
       <Filter>Simulation\MaksPower\Source</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Programs\Ids\Consume\ConsumerModelData.h">
+    <ClInclude Include="..\..\Programs\Ids\IdsPowerControl.h">
+      <Filter>Programs\Ids</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Ids\Consume\ModeCommandData.h">
       <Filter>Programs\Ids\Consume</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Programs\Ids\Consume\ConsumerData.h">
+    <ClInclude Include="..\..\Programs\Ids\Consume\SwitchboardData.h">
       <Filter>Programs\Ids\Consume</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Programs\Ids\Source\DataBatteryModel.h">
-      <Filter>Programs\Ids\Source</Filter>
+    <ClInclude Include="..\..\Programs\Ids\IdsPowerOperate.h">
+      <Filter>Programs\Ids</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Programs\Ids\Isolate\FuseModelData.h">
-      <Filter>Programs\Ids\Isolate</Filter>
+    <ClInclude Include="..\..\Programs\Victron\Network\DataCerboGx.h">
+      <Filter>Programs\Victron\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Victron\Network\ProgramCerboGx.h">
+      <Filter>Programs\Victron\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Simulation\Ops\Consume\ConsumerModel.h">
+      <Filter>Simulation\Ops\Consume</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Simulation\Ops\Consume\SwitchBoardModel.h">
+      <Filter>Simulation\Ops\Consume</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Ops\Consume\ConsumerModelData.h">
+      <Filter>Programs\Ops\Consume</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Ops\Source\DataBatteryModel.h">
+      <Filter>Programs\Ops\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Ops\Source\DataGenerator.h">
+      <Filter>Programs\Ops\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Simulation\Ops\Convert\ChargeModel.h">
+      <Filter>Simulation\Ops\Convert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Simulation\Ops\Convert\DcDcModel.h">
+      <Filter>Simulation\Ops\Convert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Simulation\Ops\Isolate\DiodeModel.h">
+      <Filter>Simulation\Ops\Isolate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Simulation\Ops\Isolate\FuseModel.h">
+      <Filter>Simulation\Ops\Isolate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Simulation\Ops\Isolate\SwitchModel.h">
+      <Filter>Simulation\Ops\Isolate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Ops\Isolate\FuseModelData.h">
+      <Filter>Programs\Ops\Isolate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Simulation\Ops\Network\PowerNetModel.h">
+      <Filter>Simulation\Ops\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Simulation\Ops\Network\ShuntModel.h">
+      <Filter>Simulation\Ops\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Simulation\Ops\Source\BatteryModel.h">
+      <Filter>Simulation\Ops\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Simulation\Ops\Source\GeneratorModel.h">
+      <Filter>Simulation\Ops\Source</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -204,68 +207,11 @@
     <ClCompile Include="PowerProgramsSimulation.cpp">
       <Filter>PowerProgramsSimulation</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Programs\Victron\Io\DataCerboGx.cpp">
-      <Filter>Programs\Victron\Io</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Programs\Victron\Io\ProgramCerboGx.cpp">
-      <Filter>Programs\Victron\Io</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Programs\Ids\IdsProgControl.cpp">
-      <Filter>Programs\Ids</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Programs\Ids\IdsProgOperate.cpp">
-      <Filter>Programs\Ids</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Programs\Victron\VictronMonitor.cpp">
-      <Filter>Programs\Victron</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Programs\Victron\VictronSensor.cpp">
-      <Filter>Programs\Victron</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Programs\Victron\VictronData.cpp">
-      <Filter>Programs\Victron</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Programs\Victron\VictronPanel.cpp">
-      <Filter>Programs\Victron</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Simulation\Victron\Convert\OrionTrSmartIso12_24_10.cpp">
       <Filter>Simulation\Victron\Convert</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Simulation\Victron\Convert\SmartIp43_12V_50_2.cpp">
       <Filter>Simulation\Victron\Convert</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Simulation\Ids\Convert\ChargeModel.cpp">
-      <Filter>Simulation\Ids\Convert</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Simulation\Ids\Convert\DcDcModel.cpp">
-      <Filter>Simulation\Ids\Convert</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Simulation\Ids\Source\GeneratorModel.cpp">
-      <Filter>Simulation\Ids\Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Simulation\Ids\Isolate\DiodeModel.cpp">
-      <Filter>Simulation\Ids\Isolate</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Simulation\Ids\Io\ShuntModel.cpp">
-      <Filter>Simulation\Ids\Io</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Simulation\Ids\Consume\ConsumerModel.cpp">
-      <Filter>Simulation\Ids\Consume</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Simulation\Ids\Consume\SwitchBoardModel.cpp">
-      <Filter>Simulation\Ids\Consume</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Simulation\Ids\Source\BatteryModel.cpp">
-      <Filter>Simulation\Ids\Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Simulation\Ids\Isolate\FuseModel.cpp">
-      <Filter>Simulation\Ids\Isolate</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Simulation\Ids\Isolate\SwitchModel.cpp">
-      <Filter>Simulation\Ids\Isolate</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Simulation\Ids\Io\PowerNetModel.cpp">
-      <Filter>Simulation\Ids\Io</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Programs\Ids\Convert\DataCharge.cpp">
       <Filter>Programs\Ids\Convert</Filter>
@@ -282,9 +228,6 @@
     <ClCompile Include="..\..\Simulation\MaksPower\Source\MaksPowerMp200Dynamo.cpp">
       <Filter>Simulation\MaksPower\Source</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Programs\Ids\Source\DataGenerator.cpp">
-      <Filter>Programs\Ids\Source</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Programs\Ids\Source\DataBattery.cpp">
       <Filter>Programs\Ids\Source</Filter>
     </ClCompile>
@@ -297,17 +240,68 @@
     <ClCompile Include="..\..\Simulation\MaksPower\Source\MaksPowerBattOptima50Ah12V.cpp">
       <Filter>Simulation\MaksPower\Source</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Programs\Ids\Consume\ConsumerModelData.cpp">
+    <ClCompile Include="..\..\Programs\Ids\IdsPowerControl.cpp">
+      <Filter>Programs\Ids</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Ids\Consume\ModeCommandData.cpp">
       <Filter>Programs\Ids\Consume</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Programs\Ids\Consume\ConsumerData.cpp">
+    <ClCompile Include="..\..\Programs\Ids\Consume\SwitchboardData.cpp">
       <Filter>Programs\Ids\Consume</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Programs\Ids\Source\DataBatteryModel.cpp">
-      <Filter>Programs\Ids\Source</Filter>
+    <ClCompile Include="..\..\Programs\Ids\IdsPowerOperate.cpp">
+      <Filter>Programs\Ids</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Programs\Ids\Isolate\FuseModelData.cpp">
-      <Filter>Programs\Ids\Isolate</Filter>
+    <ClCompile Include="..\..\Programs\Victron\Network\DataCerboGx.cpp">
+      <Filter>Programs\Victron\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Victron\Network\ProgramCerboGx.cpp">
+      <Filter>Programs\Victron\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Simulation\Ops\Consume\ConsumerModel.cpp">
+      <Filter>Simulation\Ops\Consume</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Simulation\Ops\Consume\SwitchBoardModel.cpp">
+      <Filter>Simulation\Ops\Consume</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Ops\Consume\ConsumerModelData.cpp">
+      <Filter>Programs\Ops\Consume</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Ops\Source\DataBatteryModel.cpp">
+      <Filter>Programs\Ops\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Ops\Source\DataGenerator.cpp">
+      <Filter>Programs\Ops\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Simulation\Ops\Convert\ChargeModel.cpp">
+      <Filter>Simulation\Ops\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Simulation\Ops\Convert\DcDcModel.cpp">
+      <Filter>Simulation\Ops\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Simulation\Ops\Isolate\DiodeModel.cpp">
+      <Filter>Simulation\Ops\Isolate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Simulation\Ops\Isolate\FuseModel.cpp">
+      <Filter>Simulation\Ops\Isolate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Simulation\Ops\Isolate\SwitchModel.cpp">
+      <Filter>Simulation\Ops\Isolate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Ops\Isolate\FuseModelData.cpp">
+      <Filter>Programs\Ops\Isolate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Simulation\Ops\Network\PowerNetModel.cpp">
+      <Filter>Simulation\Ops\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Simulation\Ops\Network\ShuntModel.cpp">
+      <Filter>Simulation\Ops\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Simulation\Ops\Source\BatteryModel.cpp">
+      <Filter>Simulation\Ops\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Simulation\Ops\Source\GeneratorModel.cpp">
+      <Filter>Simulation\Ops\Source</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

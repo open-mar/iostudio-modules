@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DeviceClass Name="OpsPowerPanel">
     <Description>Power switches for Open Power and Steering systems</Description>
-    <DeviceItemCollection GlobalID="Ops.Consume.OpsPowerPanel">
+    <DeviceClassObject GlobalID="Ops.Consume.OpsPowerPanel" Category="Operation">
         <PortsCollection>
             <DevicePort LocalID="PowerPanelIo" TypePort="OpsIo" GroupID="2"/>
         </PortsCollection>
-    </DeviceItemCollection>
+    </DeviceClassObject>
 </DeviceClass>

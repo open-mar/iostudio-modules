@@ -3,7 +3,7 @@
 #define __MAKSPOWERBATTLITHIUM2X150AH12V_H
 #include "ioSystem/Simulation/ioModel.h"
 #include "Programs/Ids/Source/DataBattery.h"
-#include "Programs/Ids/Source/DataBatteryModel.h"
+#include "Programs/Ops/Source/DataBatteryModel.h"
 class MaksPowerBattLithium2x150Ah12V : public ioModel
 {
 public:

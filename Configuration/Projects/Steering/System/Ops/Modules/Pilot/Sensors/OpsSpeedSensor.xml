@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DeviceClass Name="OpsSpeedSensor">
     <Description>Water speed sensor for Open Power and Steering systems</Description>
-    <DeviceItemCollection GlobalID="Ops.Pilot.OpsSpeedSensor" />
+    <DeviceClassObject GlobalID="Ops.Pilot.OpsSpeedSensor" Category="Sensor"/>
 </DeviceClass>

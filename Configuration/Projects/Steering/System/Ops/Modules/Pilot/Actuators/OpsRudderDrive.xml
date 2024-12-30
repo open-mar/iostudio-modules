@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DeviceClass Name="OpsRudderDrive">
     <Description>Rudder drive for Open Power and Steering systems</Description>
-    <DeviceItemCollection GlobalID="Ops.Pilot.OpsRudderDrive" />
+    <DeviceClassObject GlobalID="Ops.Pilot.OpsRudderDrive" Category="Actuator"/>
 </DeviceClass>

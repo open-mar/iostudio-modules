@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DeviceClass Name="OpsBatteryFuse">
     <Description>Battery fuse for Open Power and Steering systems</Description>
-    <DeviceItemCollection GlobalID="Ops.Isolate.OpsBatteryFuse">
+    <DeviceClassObject GlobalID="Ops.Isolate.OpsBatteryFuse" Category="IO">
         <Properties>
             <Enumeration LocalID="TypeMaxFuseCurrent">
                 <Type Name="60A" TypeID="0"/>
@@ -22,5 +22,5 @@
         <PortsCollection>
             <DevicePort LocalID="Port1" TypePort="12_24VDC" GroupID="1"/>
         </PortsCollection>
-    </DeviceItemCollection>
+    </DeviceClassObject>
 </DeviceClass>

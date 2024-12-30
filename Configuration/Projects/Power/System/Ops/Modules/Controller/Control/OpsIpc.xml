@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DeviceClass Name="OpsIpc">
     <Description>Control computer for Open Power and Steering systems</Description>
-    <DeviceItemCollection GlobalID="Ops.Controller.OpsIpc">
+    <DeviceClassObject GlobalID="Ops.Controller.OpsIpc" Category="Control">
         <PortsCollection>
             <DevicePort LocalID="Input" TypePort="12_24VDC" GroupID="1"/>
             <DevicePort LocalID="SteeringPanelIo" TypePort="OpsIo" GroupID="2"/>
@@ -16,5 +16,5 @@
                 </Properties>
             </DevicePort>
         </PortsCollection>
-    </DeviceItemCollection>
+    </DeviceClassObject>
 </DeviceClass>
