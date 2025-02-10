@@ -72,8 +72,7 @@
             </ioPanelGrid>
         </Grid>
         <Grid Row="1" Column="2">
-            <ioPanelGrid LocalID="Ind12M" PanelGlobalID="Ids.Consume.PowIndicatorPanel" />
+            <ioPanelGrid LocalID="IndOutPwr" PanelGlobalID="Ids.Consume.PowIndicatorPanel" />
         </Grid>
     </PanelObject>
-
 </PanelClass>
