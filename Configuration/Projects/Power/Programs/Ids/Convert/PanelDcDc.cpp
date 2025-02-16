@@ -12,7 +12,7 @@ PanelDcDc::~PanelDcDc()
 void PanelDcDc::InitializeData(void)
 {
     m_PanelGraphics.SetListData((ioItem**)m_PanelDcDcGraphics, 5);
-    AddGraphics(&SelectDcDc, Puid_Ids_Convert_SelectDcDc);
+//    AddGraphics(&SelectDcDc, Puid_Ids_Convert_SelectDcDc);
     AddGraphics(&LabelHeaderDcDcInput, Puid_Ids_Convert_LabelHeaderDcDcInput);
     LabelHeaderDcDcInput.SetTextForced((ioChars)"DC-DC INPUT [VDC]");
     AddGraphics(&LabelHeaderDcDcOutput, Puid_Ids_Convert_LabelHeaderDcDcOutput);

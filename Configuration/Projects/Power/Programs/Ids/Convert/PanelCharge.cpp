@@ -12,7 +12,7 @@ PanelCharge::~PanelCharge()
 void PanelCharge::InitializeData(void)
 {
     m_PanelGraphics.SetListData((ioItem**)m_PanelChargeGraphics, 6);
-    AddGraphics(&SelectCharger, Puid_Ids_Convert_SelectCharger);
+//    AddGraphics(&SelectCharger, Puid_Ids_Convert_SelectCharger);
     AddGraphics(&InstrVoltOutputDc, Puid_Ids_Convert_InstrVoltOutputDc);
     InstrVoltOutputDc.SetTextForced((ioChars)"14.2");
     InstrVoltOutputDc.SetDecimals(1);
