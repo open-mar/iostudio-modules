@@ -78,6 +78,10 @@ typedef enum
     Puid_Ids_Convert_LabelHeaderDcDcOutput = 71,
     Puid_Ids_Convert_InstrVoltInputDcDc = 72,
     Puid_Ids_Convert_InstrVoltOutputDcDc = 73,
+    Puid_Ids_Source_LabelHeaderVoltBattery = 74,
+    Puid_Ids_Source_InstrVoltBattery = 75,
+    Puid_Ids_Source_LabelHeaderCurrBattery = 76,
+    Puid_Ids_Source_InstrCurrBattery = 77,
 } ioSystemGraphicsType;
 class ioSystemGraphics
 {

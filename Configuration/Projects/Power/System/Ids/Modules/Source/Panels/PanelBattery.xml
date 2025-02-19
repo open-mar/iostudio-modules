@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PanelClass Name="PanelBattery">
+    <Description>Instrument panel for IDS charger</Description>
+    <PanelObject ParentGlobalID="Ids.Source" Background="ContainerBackground">
+        <RowDefinition Size="24" />
+        <RowDefinition />
+        <ColumnDefinition />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1">
+            <ioLabel LocalID="LabelHeaderVoltBattery">
+                <Properties Text="VOLTAGE BATTERY [VDC]" TypeLabel="Small" TypeColor="ElementNeutral" 
+                TextWrapping="NoWrap" />
+            </ioLabel>
+        </Grid>
+        <Grid Row="2" Column="1">
+            <ioTextBlock LocalID="InstrVoltBattery">
+                <Properties Text="12.1" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" 
+                FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+            </ioTextBlock>
+        </Grid>
+        <Grid Row="1" Column="2">
+            <ioLabel LocalID="LabelHeaderCurrBattery">
+                <Properties Text="CURRENT BATTERY [A]" TypeLabel="Small" TypeColor="ElementNeutral" 
+                TextWrapping="NoWrap" />
+            </ioLabel>
+        </Grid>
+        <Grid Row="2" Column="2">
+            <ioTextBlock LocalID="InstrCurrBattery">
+                <Properties Text="1.3" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" 
+                FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+            </ioTextBlock>
+        </Grid>
+    </PanelObject>
+</PanelClass>
