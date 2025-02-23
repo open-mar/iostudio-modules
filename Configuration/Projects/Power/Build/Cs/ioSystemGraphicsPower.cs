@@ -85,7 +85,7 @@ namespace ioSystemNetworkNet
     } // enum
     public class ioSystemGraphicsPower
     {
-        public static string GetGlobalID(NameType puid)
+        public static string GetGlobalID(ioSystemGraphicsPowerType puid)
         {
             switch (puid)
             {
@@ -169,7 +169,7 @@ namespace ioSystemNetworkNet
             } // switch
             return string.Empty;
         }
-        public static NameType GetPuid(string globalID)
+        public static ioSystemGraphicsPowerType GetPuid(string globalID)
         {
             switch (globalID)
             {
