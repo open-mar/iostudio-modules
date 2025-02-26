@@ -18,6 +18,8 @@ ioSystemGraphicsType ioSystemGraphics::GetGraphicsType(Int32 puidValue)
     {
     default: return Puid_NotDefined; 
     case 0: return Puid_NotDefined; 
+    case 65: return Puid_Ids_Consume_GridPanelCommand; 
+    case 84: return Puid_Ids_Consume_GridPanelMode; 
     case 1: return Puid_Ids_Consume_HeaderCommandPanelPow; 
     case 2: return Puid_Ids_Consume_ShapeCommandStatusPow; 
     case 3: return Puid_Ids_Consume_LabelPowerMode; 
@@ -79,8 +81,6 @@ ioSystemGraphicsType ioSystemGraphics::GetGraphicsType(Int32 puidValue)
     case 62: return Puid_Ids_Consume_ButtOffCh8; 
     case 63: return Puid_Ids_Consume_ButtOnCh8; 
     case 64: return Puid_Ids_Consume_IndOutPwr; 
-    case 65: return Puid_Ids_Consume_GridPanelCommand; 
-    case 84: return Puid_Ids_Consume_GridPanelMode; 
     case 81: return Puid_Ids_Convert_LabelHeaderChargerName; 
     case 66: return Puid_Ids_Convert_LabelHeaderChargeInput; 
     case 82: return Puid_Ids_Convert_LabelHeaderChargeInputUnit; 
@@ -96,6 +96,7 @@ ioSystemGraphicsType ioSystemGraphics::GetGraphicsType(Int32 puidValue)
     case 80: return Puid_Ids_Convert_LabelHeaderDcDcOutputUnit; 
     case 73: return Puid_Ids_Convert_InstrVoltOutputDcDc; 
     case 37: return Puid_Ids_Source_LabelHeaderNameBatteryMonitor; 
+    case 92: return Puid_Ids_Source_GridHeader; 
     case 74: return Puid_Ids_Source_LabelHeaderVoltBattery; 
     case 38: return Puid_Ids_Source_LabelHeaderVoltBatteryUnit; 
     case 75: return Puid_Ids_Source_InstrVoltBattery; 

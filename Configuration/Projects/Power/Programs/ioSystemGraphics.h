@@ -5,6 +5,8 @@
 typedef enum
 {
     Puid_NotDefined = 0,
+    Puid_Ids_Consume_GridPanelCommand = 65,
+    Puid_Ids_Consume_GridPanelMode = 84,
     Puid_Ids_Consume_HeaderCommandPanelPow = 1,
     Puid_Ids_Consume_ShapeCommandStatusPow = 2,
     Puid_Ids_Consume_LabelPowerMode = 3,
@@ -66,8 +68,6 @@ typedef enum
     Puid_Ids_Consume_ButtOffCh8 = 62,
     Puid_Ids_Consume_ButtOnCh8 = 63,
     Puid_Ids_Consume_IndOutPwr = 64,
-    Puid_Ids_Consume_GridPanelCommand = 65,
-    Puid_Ids_Consume_GridPanelMode = 84,
     Puid_Ids_Convert_LabelHeaderChargerName = 81,
     Puid_Ids_Convert_LabelHeaderChargeInput = 66,
     Puid_Ids_Convert_LabelHeaderChargeInputUnit = 82,
@@ -83,6 +83,7 @@ typedef enum
     Puid_Ids_Convert_LabelHeaderDcDcOutputUnit = 80,
     Puid_Ids_Convert_InstrVoltOutputDcDc = 73,
     Puid_Ids_Source_LabelHeaderNameBatteryMonitor = 37,
+    Puid_Ids_Source_GridHeader = 92,
     Puid_Ids_Source_LabelHeaderVoltBattery = 74,
     Puid_Ids_Source_LabelHeaderVoltBatteryUnit = 38,
     Puid_Ids_Source_InstrVoltBattery = 75,

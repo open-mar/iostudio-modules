@@ -88,3 +88,4 @@ PUID;Parent;LocalID;TypeGraphics
 87;Ids.Source;InstrSocBattery;ioTextBlock
 88;Ids.Source;LabelHeaderTtDischrgBattery;ioLabel
 89;Ids.Source;InstrTtDischrgBattery;ioTextBlock
+92;Ids.Source;GridHeader;ioPanelGrid
