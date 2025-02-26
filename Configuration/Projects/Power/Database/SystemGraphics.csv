@@ -76,3 +76,6 @@ PUID;Parent;LocalID;TypeGraphics
 75;Ids.Source;InstrVoltBattery;ioTextBlock
 76;Ids.Source;LabelHeaderCurrBattery;ioLabel
 77;Ids.Source;InstrCurrBattery;ioTextBlock
+78;Ids.Convert;LabelNameDcDcConv;ioLabel
+79;Ids.Convert;LabelHeaderDcDcInputUnit;ioLabel
+80;Ids.Convert;LabelHeaderDcDcOutputUnit;ioLabel

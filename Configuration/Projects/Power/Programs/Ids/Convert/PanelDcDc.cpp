@@ -11,15 +11,20 @@ PanelDcDc::~PanelDcDc()
 }
 void PanelDcDc::InitializeData(void)
 {
-    m_PanelGraphics.SetListData((ioItem**)m_PanelDcDcGraphics, 5);
-//    AddGraphics(&SelectDcDc, Puid_Ids_Convert_SelectDcDc);
+    m_PanelGraphics.SetListData((ioItem**)m_PanelDcDcGraphics, 7);
+    AddGraphics(&LabelNameDcDcConv, Puid_Ids_Convert_LabelNameDcDcConv);
+    LabelNameDcDcConv.SetTextForced((ioChars)"NAME DCDC CONVERTER");
     AddGraphics(&LabelHeaderDcDcInput, Puid_Ids_Convert_LabelHeaderDcDcInput);
-    LabelHeaderDcDcInput.SetTextForced((ioChars)"DC-DC INPUT [VDC]");
-    AddGraphics(&LabelHeaderDcDcOutput, Puid_Ids_Convert_LabelHeaderDcDcOutput);
-    LabelHeaderDcDcOutput.SetTextForced((ioChars)"DC-DC OUTPUT [VDC]");
+    LabelHeaderDcDcInput.SetTextForced((ioChars)"VIN");
+    AddGraphics(&LabelHeaderDcDcInputUnit, Puid_Ids_Convert_LabelHeaderDcDcInputUnit);
+    LabelHeaderDcDcInputUnit.SetTextForced((ioChars)"VDC");
     AddGraphics(&InstrVoltInputDcDc, Puid_Ids_Convert_InstrVoltInputDcDc);
     InstrVoltInputDcDc.SetTextForced((ioChars)"12.1");
     InstrVoltInputDcDc.SetDecimals(1);
+    AddGraphics(&LabelHeaderDcDcOutput, Puid_Ids_Convert_LabelHeaderDcDcOutput);
+    LabelHeaderDcDcOutput.SetTextForced((ioChars)"VOUT");
+    AddGraphics(&LabelHeaderDcDcOutputUnit, Puid_Ids_Convert_LabelHeaderDcDcOutputUnit);
+    LabelHeaderDcDcOutputUnit.SetTextForced((ioChars)"VDC");
     AddGraphics(&InstrVoltOutputDcDc, Puid_Ids_Convert_InstrVoltOutputDcDc);
     InstrVoltOutputDcDc.SetTextForced((ioChars)"24.2");
     InstrVoltOutputDcDc.SetDecimals(1);

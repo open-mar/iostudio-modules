@@ -2,7 +2,6 @@
 #if !defined(__PANELDCDC_H)
 #define __PANELDCDC_H
 #include "ioSystem/Panels/ioPanel.h"
-#include "ioSystem/Panels/ioComboBox.h"
 #include "ioSystem/Panels/ioGraphicsText.h"
 class PanelDcDc : public ioPanel
 {
@@ -10,12 +9,14 @@ public:
     PanelDcDc();
     virtual ~PanelDcDc();
     virtual void InitializeData(void);
-    ioComboBox SelectDcDc;
+    ioLabel LabelNameDcDcConv;
     ioLabel LabelHeaderDcDcInput;
-    ioLabel LabelHeaderDcDcOutput;
+    ioLabel LabelHeaderDcDcInputUnit;
     ioTextBlock InstrVoltInputDcDc;
+    ioLabel LabelHeaderDcDcOutput;
+    ioLabel LabelHeaderDcDcOutputUnit;
     ioTextBlock InstrVoltOutputDcDc;
 protected:
-    ioGraphics* m_PanelDcDcGraphics[5];
+    ioGraphics* m_PanelDcDcGraphics[7];
 };
 #endif // __PANELDCDC_H

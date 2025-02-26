@@ -2,26 +2,39 @@
 <PanelClass Name="PanelDcDc">
     <Description>Instrument panel for IDS DC-DC data</Description>
     <PanelObject ParentGlobalID="Ids.Convert" Background="ContainerBackground">
-        <RowDefinition Size="24" />
-        <RowDefinition />
+        <RowDefinition Size="20" />
+        <RowDefinition Size="65" />
+        <RowDefinition Size="65" />
         <ColumnDefinition />
         <ColumnDefinition />
         <Grid Row="1" Column="1">
+            <ioLabel LocalID="LabelNameDcDcConv">
+                <Properties Text="NAME DCDC CONVERTER" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
+        </Grid>
+        <Grid Row="1" Column="2" />
+        <Grid Row="2" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioLabel LocalID="LabelHeaderDcDcInput">
-                <Properties Text="DC-DC INPUT [VDC]" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                <Properties Text="VIN" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
+            <ioLabel LocalID="LabelHeaderDcDcInputUnit">
+                <Properties Text="VDC" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
         </Grid>
-        <Grid Row="1" Column="2">
-            <ioLabel LocalID="LabelHeaderDcDcOutput">
-                <Properties Text="DC-DC OUTPUT [VDC]" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
-            </ioLabel>
-        </Grid>
-        <Grid Row="2" Column="1">
+        <Grid Row="2" Column="2">
             <ioTextBlock LocalID="InstrVoltInputDcDc">
                 <Properties Text="12.1" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
             </ioTextBlock>
         </Grid>
-        <Grid Row="2" Column="2">
+        <Grid Row="3" Column="1" IsStacked="TRUE" Orientation="Vertical">
+            <ioLabel LocalID="LabelHeaderDcDcOutput">
+                <Properties Text="VOUT" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
+            <ioLabel LocalID="LabelHeaderDcDcOutputUnit">
+                <Properties Text="VDC" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
+        </Grid>
+        <Grid Row="3" Column="2">
             <ioTextBlock LocalID="InstrVoltOutputDcDc">
                 <Properties Text="24.2" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
             </ioTextBlock>
