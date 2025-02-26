@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PanelClass Name="PowCommandModePanel">
+    <Description>PowCommandPanel stacked with PowModePanel</Description>
+    <PanelObject ParentGlobalID="Ids.Consume" Background="ContainerBackground">
+        <RowDefinition />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
+            <ioPanelGrid LocalID="GridPanelCommand" VerticalAlignment="Top" Height="148" PanelGlobalID="Ids.Consume.PowCommandPanel" />
+            <ioPanelGrid LocalID="GridPanelMode" Margin="0,20,0,0" PanelGlobalID="Ids.Consume.PowModePanel" />
+        </Grid>
+    </PanelObject>
+</PanelClass>

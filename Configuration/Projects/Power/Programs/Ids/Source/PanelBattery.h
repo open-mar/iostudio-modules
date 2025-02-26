@@ -9,11 +9,19 @@ public:
     PanelBattery();
     virtual ~PanelBattery();
     virtual void InitializeData(void);
+    ioLabel LabelHeaderNameBatteryMonitor;
     ioLabel LabelHeaderVoltBattery;
+    ioLabel LabelHeaderVoltBatteryUnit;
     ioTextBlock InstrVoltBattery;
     ioLabel LabelHeaderCurrBattery;
+    ioLabel LabelHeaderCurrBatteryUnit;
     ioTextBlock InstrCurrBattery;
+    ioLabel LabelHeaderSocBattery;
+    ioLabel LabelHeaderSocBatteryUnit;
+    ioTextBlock InstrSocBattery;
+    ioLabel LabelHeaderTtDischrgBattery;
+    ioTextBlock InstrTtDischrgBattery;
 protected:
-    ioGraphics* m_PanelBatteryGraphics[4];
+    ioGraphics* m_PanelBatteryGraphics[12];
 };
 #endif // __PANELBATTERY_H

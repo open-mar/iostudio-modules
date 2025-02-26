@@ -3,31 +3,65 @@
     <Description>Instrument panel for IDS charger</Description>
     <PanelObject ParentGlobalID="Ids.Source" Background="ContainerBackground">
         <RowDefinition Size="24" />
-        <RowDefinition />
+        <RowDefinition Size="65" />
+        <RowDefinition Size="65" />
+        <RowDefinition Size="65" />
+        <RowDefinition Size="65" />
         <ColumnDefinition />
         <ColumnDefinition />
         <Grid Row="1" Column="1">
-            <ioLabel LocalID="LabelHeaderVoltBattery">
-                <Properties Text="VOLTAGE BATTERY [VDC]" TypeLabel="Small" TypeColor="ElementNeutral" 
-                TextWrapping="NoWrap" />
+            <ioLabel LocalID="LabelHeaderNameBatteryMonitor">
+                <Properties Text="NAME BATTERY" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
         </Grid>
-        <Grid Row="2" Column="1">
-            <ioTextBlock LocalID="InstrVoltBattery">
-                <Properties Text="12.1" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" 
-                FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
-            </ioTextBlock>
-        </Grid>
-        <Grid Row="1" Column="2">
-            <ioLabel LocalID="LabelHeaderCurrBattery">
-                <Properties Text="CURRENT BATTERY [A]" TypeLabel="Small" TypeColor="ElementNeutral" 
-                TextWrapping="NoWrap" />
+        <Grid Row="1" Column="2" />
+        <Grid Row="2" Column="1" IsStacked="TRUE" Orientation="Vertical">
+            <ioLabel LocalID="LabelHeaderVoltBattery">
+                <Properties Text="VOLT" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
+            <ioLabel LocalID="LabelHeaderVoltBatteryUnit">
+                <Properties Text="VDC" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
         </Grid>
         <Grid Row="2" Column="2">
+            <ioTextBlock LocalID="InstrVoltBattery">
+                <Properties Text="12.1" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+            </ioTextBlock>
+        </Grid>
+        <Grid Row="3" Column="1" IsStacked="TRUE" Orientation="Vertical">
+            <ioLabel LocalID="LabelHeaderCurrBattery">
+                <Properties Text="CURR" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
+            <ioLabel LocalID="LabelHeaderCurrBatteryUnit">
+                <Properties Text="A" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
+        </Grid>
+        <Grid Row="3" Column="2">
             <ioTextBlock LocalID="InstrCurrBattery">
-                <Properties Text="1.3" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" 
-                FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                <Properties Text="1.3" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+            </ioTextBlock>
+        </Grid>
+        <Grid Row="4" Column="1" IsStacked="TRUE" Orientation="Vertical">
+            <ioLabel LocalID="LabelHeaderSocBattery">
+                <Properties Text="SOC" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
+            <ioLabel LocalID="LabelHeaderSocBatteryUnit">
+                <Properties Text="%" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
+        </Grid>
+        <Grid Row="4" Column="2">
+            <ioTextBlock LocalID="InstrSocBattery">
+                <Properties Text="100" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+            </ioTextBlock>
+        </Grid>
+        <Grid Row="5" Column="1" IsStacked="TRUE" Orientation="Vertical">
+            <ioLabel LocalID="LabelHeaderTtDischrgBattery">
+                <Properties Text="TIME TO 10%" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
+        </Grid>
+        <Grid Row="5" Column="2">
+            <ioTextBlock LocalID="InstrTtDischrgBattery" VerticalAlignment="Center" Height="45">
+                <Properties Text="00:03:24" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Large" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
             </ioTextBlock>
         </Grid>
     </PanelObject>

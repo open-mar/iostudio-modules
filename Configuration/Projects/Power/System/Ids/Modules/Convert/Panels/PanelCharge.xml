@@ -3,30 +3,38 @@
     <Description>Instrument panel for IDS charger</Description>
     <PanelObject ParentGlobalID="Ids.Convert" Background="ContainerBackground">
         <RowDefinition Size="24" />
-        <RowDefinition />
+        <RowDefinition Size="65" />
+        <RowDefinition Size="65" />
         <ColumnDefinition />
         <ColumnDefinition />
-        <Grid Row="2" Column="2">
-            <ioTextBlock LocalID="InstrVoltOutputDc">
-                <Properties Text="14.2" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
-            </ioTextBlock>
+        <Grid Row="1" Column="1" SpanColumns="2">
+            <ioLabel LocalID="LabelHeaderChargerName">
+                <Properties Text="NAME CHARGER" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
         </Grid>
-        <Grid Row="1" Column="1">
+        <Grid Row="1" Column="2" />
+        <Grid Row="2" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioLabel LocalID="LabelHeaderChargeInput">
-                <Properties Text="CHARGE INPUT [VAC]" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                <Properties Text="VIN" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
+            <ioLabel LocalID="LabelHeaderChargeInputUnit">
+                <Properties Text="VAC" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
         </Grid>
-        <Grid Row="1" Column="2">
-            <ioLabel LocalID="LabelHeaderChargeOutput">
-                <Properties Text="CHARGE OUTPUT [VDC]" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
-            </ioLabel>
-        </Grid>
-        <Grid Row="2" Column="1">
+        <Grid Row="2" Column="2">
             <ioTextBlock LocalID="InstrVoltInputAc">
                 <Properties Text="220.1" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
             </ioTextBlock>
         </Grid>
-        <Grid Row="2" Column="2">
+        <Grid Row="3" Column="1" IsStacked="TRUE" Orientation="Vertical">
+            <ioLabel LocalID="LabelHeaderChargeOutput">
+                <Properties Text="VOUT" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
+            <ioLabel LocalID="LabelHeaderChargeOutputUnit">
+                <Properties Text="VDC" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
+        </Grid>
+        <Grid Row="3" Column="2">
             <ioTextBlock LocalID="InstVoltOutputDc">
                 <Properties Text="14.3" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
             </ioTextBlock>

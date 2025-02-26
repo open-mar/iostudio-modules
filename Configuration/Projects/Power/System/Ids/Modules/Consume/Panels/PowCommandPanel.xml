@@ -2,9 +2,9 @@
 <PanelClass Name="PowCommandPanel">
     <Description>Power command panel</Description>
     <PanelObject ParentGlobalID="Ids.Consume" Background="ContainerBackground">
-        <RowDefinition Size="20" />
+        <RowDefinition Size="24" />
         <RowDefinition Size="80" />
-        <RowDefinition Size="40" />
+        <RowDefinition Size="40"/>
         <ColumnDefinition />
         <ColumnDefinition />
         <Grid Row="1" Column="1" SpanColumns="2">
@@ -27,12 +27,12 @@
             </ioTextBlock>
         </Grid>
         <Grid Row="3" Column="1">
-            <ioButtonShape LocalID="ButtTakeRequestPow">
+            <ioButtonShape LocalID="ButtTakeRequestPow" Height="40">
                 <Properties Text="Take" TypeColor="Normal" TypeShape="Command" ShapeID="TakeCommand" />
             </ioButtonShape>
         </Grid>
         <Grid Row="3" Column="2">
-            <ioButtonShape LocalID="ButtReleasePow">
+            <ioButtonShape LocalID="ButtReleasePow" Height="40">
                 <Properties Text="Release" TypeColor="Flat" TypeShape="Command" ShapeID="NotInCommand" />
             </ioButtonShape>
         </Grid>

@@ -2,12 +2,12 @@
 <PanelClass Name="PanelDcDc">
     <Description>Instrument panel for IDS DC-DC data</Description>
     <PanelObject ParentGlobalID="Ids.Convert" Background="ContainerBackground">
-        <RowDefinition Size="20" />
+        <RowDefinition Size="24" />
         <RowDefinition Size="65" />
         <RowDefinition Size="65" />
         <ColumnDefinition />
         <ColumnDefinition />
-        <Grid Row="1" Column="1">
+        <Grid Row="1" Column="1" SpanColumns="2">
             <ioLabel LocalID="LabelNameDcDcConv">
                 <Properties Text="NAME DCDC CONVERTER" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>

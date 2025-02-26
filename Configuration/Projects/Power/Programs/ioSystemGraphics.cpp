@@ -54,9 +54,6 @@ ioSystemGraphicsType ioSystemGraphics::GetGraphicsType(Int32 puidValue)
     case 34: return Puid_Ids_Consume_ButtInTransit; 
     case 35: return Puid_Ids_Consume_ButtInTransitEngine; 
     case 36: return Puid_Ids_Consume_ButtInTransitSailing; 
-    case 37: return Puid_Pow_CpA_ButtInTransit; 
-    case 38: return Puid_Pow_CpA_ButtInTransitEngine; 
-    case 39: return Puid_Pow_CpA_ButtInTransitSailing; 
     case 40: return Puid_Ids_Consume_GridCh1; 
     case 41: return Puid_Ids_Consume_ButtOffCh1; 
     case 42: return Puid_Ids_Consume_ButtOnCh1; 
@@ -82,10 +79,14 @@ ioSystemGraphicsType ioSystemGraphics::GetGraphicsType(Int32 puidValue)
     case 62: return Puid_Ids_Consume_ButtOffCh8; 
     case 63: return Puid_Ids_Consume_ButtOnCh8; 
     case 64: return Puid_Ids_Consume_IndOutPwr; 
-    case 65: return Puid_Ids_Convert_InstrVoltOutputDc; 
+    case 65: return Puid_Ids_Consume_GridPanelCommand; 
+    case 84: return Puid_Ids_Consume_GridPanelMode; 
+    case 81: return Puid_Ids_Convert_LabelHeaderChargerName; 
     case 66: return Puid_Ids_Convert_LabelHeaderChargeInput; 
-    case 67: return Puid_Ids_Convert_LabelHeaderChargeOutput; 
+    case 82: return Puid_Ids_Convert_LabelHeaderChargeInputUnit; 
     case 68: return Puid_Ids_Convert_InstrVoltInputAc; 
+    case 67: return Puid_Ids_Convert_LabelHeaderChargeOutput; 
+    case 83: return Puid_Ids_Convert_LabelHeaderChargeOutputUnit; 
     case 69: return Puid_Ids_Convert_InstVoltOutputDc; 
     case 78: return Puid_Ids_Convert_LabelNameDcDcConv; 
     case 70: return Puid_Ids_Convert_LabelHeaderDcDcInput; 
@@ -94,9 +95,17 @@ ioSystemGraphicsType ioSystemGraphics::GetGraphicsType(Int32 puidValue)
     case 71: return Puid_Ids_Convert_LabelHeaderDcDcOutput; 
     case 80: return Puid_Ids_Convert_LabelHeaderDcDcOutputUnit; 
     case 73: return Puid_Ids_Convert_InstrVoltOutputDcDc; 
+    case 37: return Puid_Ids_Source_LabelHeaderNameBatteryMonitor; 
     case 74: return Puid_Ids_Source_LabelHeaderVoltBattery; 
+    case 38: return Puid_Ids_Source_LabelHeaderVoltBatteryUnit; 
     case 75: return Puid_Ids_Source_InstrVoltBattery; 
     case 76: return Puid_Ids_Source_LabelHeaderCurrBattery; 
+    case 39: return Puid_Ids_Source_LabelHeaderCurrBatteryUnit; 
     case 77: return Puid_Ids_Source_InstrCurrBattery; 
+    case 85: return Puid_Ids_Source_LabelHeaderSocBattery; 
+    case 86: return Puid_Ids_Source_LabelHeaderSocBatteryUnit; 
+    case 87: return Puid_Ids_Source_InstrSocBattery; 
+    case 88: return Puid_Ids_Source_LabelHeaderTtDischrgBattery; 
+    case 89: return Puid_Ids_Source_InstrTtDischrgBattery; 
     } // switch
 }

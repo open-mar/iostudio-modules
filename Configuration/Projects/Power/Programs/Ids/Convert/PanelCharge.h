@@ -2,7 +2,6 @@
 #if !defined(__PANELCHARGE_H)
 #define __PANELCHARGE_H
 #include "ioSystem/Panels/ioPanel.h"
-#include "ioSystem/Panels/ioComboBox.h"
 #include "ioSystem/Panels/ioGraphicsText.h"
 class PanelCharge : public ioPanel
 {
@@ -10,13 +9,14 @@ public:
     PanelCharge();
     virtual ~PanelCharge();
     virtual void InitializeData(void);
-    ioComboBox SelectCharger;
-    ioTextBlock InstrVoltOutputDc;
+    ioLabel LabelHeaderChargerName;
     ioLabel LabelHeaderChargeInput;
-    ioLabel LabelHeaderChargeOutput;
+    ioLabel LabelHeaderChargeInputUnit;
     ioTextBlock InstrVoltInputAc;
+    ioLabel LabelHeaderChargeOutput;
+    ioLabel LabelHeaderChargeOutputUnit;
     ioTextBlock InstVoltOutputDc;
 protected:
-    ioGraphics* m_PanelChargeGraphics[6];
+    ioGraphics* m_PanelChargeGraphics[7];
 };
 #endif // __PANELCHARGE_H

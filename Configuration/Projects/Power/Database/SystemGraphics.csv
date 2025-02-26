@@ -35,9 +35,6 @@ PUID;Parent;LocalID;TypeGraphics
 34;Ids.Consume;ButtInTransit;ioButtonText
 35;Ids.Consume;ButtInTransitEngine;ioButtonText
 36;Ids.Consume;ButtInTransitSailing;ioButtonText
-37;Pow.CpA;ButtInTransit;ioButtonText
-38;Pow.CpA;ButtInTransitEngine;ioButtonText
-39;Pow.CpA;ButtInTransitSailing;ioButtonText
 40;Ids.Consume;GridCh1;ioPanelGrid
 41;Ids.Consume;ButtOffCh1;ioButtonShape
 42;Ids.Consume;ButtOnCh1;ioButtonShape
@@ -63,7 +60,6 @@ PUID;Parent;LocalID;TypeGraphics
 62;Ids.Consume;ButtOffCh8;ioButtonShape
 63;Ids.Consume;ButtOnCh8;ioButtonShape
 64;Ids.Consume;IndOutPwr;ioPanelGrid
-65;Ids.Convert;InstrVoltOutputDc;ioTextBlock
 66;Ids.Convert;LabelHeaderChargeInput;ioLabel
 67;Ids.Convert;LabelHeaderChargeOutput;ioLabel
 68;Ids.Convert;InstrVoltInputAc;ioTextBlock
@@ -79,3 +75,16 @@ PUID;Parent;LocalID;TypeGraphics
 78;Ids.Convert;LabelNameDcDcConv;ioLabel
 79;Ids.Convert;LabelHeaderDcDcInputUnit;ioLabel
 80;Ids.Convert;LabelHeaderDcDcOutputUnit;ioLabel
+81;Ids.Convert;LabelHeaderChargerName;ioLabel
+82;Ids.Convert;LabelHeaderChargeInputUnit;ioLabel
+83;Ids.Convert;LabelHeaderChargeOutputUnit;ioLabel
+65;Ids.Consume;GridPanelCommand;ioPanelGrid
+84;Ids.Consume;GridPanelMode;ioPanelGrid
+37;Ids.Source;LabelHeaderNameBatteryMonitor;ioLabel
+38;Ids.Source;LabelHeaderVoltBatteryUnit;ioLabel
+39;Ids.Source;LabelHeaderCurrBatteryUnit;ioLabel
+85;Ids.Source;LabelHeaderSocBattery;ioLabel
+86;Ids.Source;LabelHeaderSocBatteryUnit;ioLabel
+87;Ids.Source;InstrSocBattery;ioTextBlock
+88;Ids.Source;LabelHeaderTtDischrgBattery;ioLabel
+89;Ids.Source;InstrTtDischrgBattery;ioTextBlock

@@ -25,19 +25,4 @@
             </ioButtonText>
         </Grid>
     </PanelObject>
-    <PanelObject ParentGlobalID="Pow.CpA" Background="ContainerBackground">
-        <RowDefinition />
-        <ColumnDefinition />
-        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
-            <ioButtonText LocalID="ButtInTransit" VerticalAlignment="Top" Height="40">
-                <Properties Text="In transit daylight (TRANSIT)" TypeColor="Normal" />
-            </ioButtonText>
-            <ioButtonText LocalID="ButtInTransitEngine" VerticalAlignment="Top" Height="40">
-                <Properties Text="In transit night using engine (ENGINE)" TypeColor="Normal" />
-            </ioButtonText>
-            <ioButtonText LocalID="ButtInTransitSailing" VerticalAlignment="Top" Height="40">
-                <Properties Text="In transit night sailing (SAILING)" TypeColor="Normal" />
-            </ioButtonText>
-        </Grid>
-    </PanelObject>
 </PanelClass>

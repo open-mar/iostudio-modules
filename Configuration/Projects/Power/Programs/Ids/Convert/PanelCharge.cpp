@@ -11,18 +11,20 @@ PanelCharge::~PanelCharge()
 }
 void PanelCharge::InitializeData(void)
 {
-    m_PanelGraphics.SetListData((ioItem**)m_PanelChargeGraphics, 6);
-//    AddGraphics(&SelectCharger, Puid_Ids_Convert_SelectCharger);
-    AddGraphics(&InstrVoltOutputDc, Puid_Ids_Convert_InstrVoltOutputDc);
-    InstrVoltOutputDc.SetTextForced((ioChars)"14.2");
-    InstrVoltOutputDc.SetDecimals(1);
+    m_PanelGraphics.SetListData((ioItem**)m_PanelChargeGraphics, 7);
+    AddGraphics(&LabelHeaderChargerName, Puid_Ids_Convert_LabelHeaderChargerName);
+    LabelHeaderChargerName.SetTextForced((ioChars)"NAME CHARGER");
     AddGraphics(&LabelHeaderChargeInput, Puid_Ids_Convert_LabelHeaderChargeInput);
-    LabelHeaderChargeInput.SetTextForced((ioChars)"CHARGE INPUT [VAC]");
-    AddGraphics(&LabelHeaderChargeOutput, Puid_Ids_Convert_LabelHeaderChargeOutput);
-    LabelHeaderChargeOutput.SetTextForced((ioChars)"CHARGE OUTPUT [VDC]");
+    LabelHeaderChargeInput.SetTextForced((ioChars)"VIN");
+    AddGraphics(&LabelHeaderChargeInputUnit, Puid_Ids_Convert_LabelHeaderChargeInputUnit);
+    LabelHeaderChargeInputUnit.SetTextForced((ioChars)"VAC");
     AddGraphics(&InstrVoltInputAc, Puid_Ids_Convert_InstrVoltInputAc);
     InstrVoltInputAc.SetTextForced((ioChars)"220.1");
     InstrVoltInputAc.SetDecimals(1);
+    AddGraphics(&LabelHeaderChargeOutput, Puid_Ids_Convert_LabelHeaderChargeOutput);
+    LabelHeaderChargeOutput.SetTextForced((ioChars)"VOUT");
+    AddGraphics(&LabelHeaderChargeOutputUnit, Puid_Ids_Convert_LabelHeaderChargeOutputUnit);
+    LabelHeaderChargeOutputUnit.SetTextForced((ioChars)"VDC");
     AddGraphics(&InstVoltOutputDc, Puid_Ids_Convert_InstVoltOutputDc);
     InstVoltOutputDc.SetTextForced((ioChars)"14.3");
     InstVoltOutputDc.SetDecimals(1);

@@ -11,15 +11,33 @@ PanelBattery::~PanelBattery()
 }
 void PanelBattery::InitializeData(void)
 {
-    m_PanelGraphics.SetListData((ioItem**)m_PanelBatteryGraphics, 4);
+    m_PanelGraphics.SetListData((ioItem**)m_PanelBatteryGraphics, 12);
+    AddGraphics(&LabelHeaderNameBatteryMonitor, Puid_Ids_Source_LabelHeaderNameBatteryMonitor);
+    LabelHeaderNameBatteryMonitor.SetTextForced((ioChars)"NAME BATTERY");
     AddGraphics(&LabelHeaderVoltBattery, Puid_Ids_Source_LabelHeaderVoltBattery);
-    LabelHeaderVoltBattery.SetTextForced((ioChars)"VOLTAGE BATTERY [VDC]");
+    LabelHeaderVoltBattery.SetTextForced((ioChars)"VOLT");
+    AddGraphics(&LabelHeaderVoltBatteryUnit, Puid_Ids_Source_LabelHeaderVoltBatteryUnit);
+    LabelHeaderVoltBatteryUnit.SetTextForced((ioChars)"VDC");
     AddGraphics(&InstrVoltBattery, Puid_Ids_Source_InstrVoltBattery);
     InstrVoltBattery.SetTextForced((ioChars)"12.1");
     InstrVoltBattery.SetDecimals(1);
     AddGraphics(&LabelHeaderCurrBattery, Puid_Ids_Source_LabelHeaderCurrBattery);
-    LabelHeaderCurrBattery.SetTextForced((ioChars)"CURRENT BATTERY [A]");
+    LabelHeaderCurrBattery.SetTextForced((ioChars)"CURR");
+    AddGraphics(&LabelHeaderCurrBatteryUnit, Puid_Ids_Source_LabelHeaderCurrBatteryUnit);
+    LabelHeaderCurrBatteryUnit.SetTextForced((ioChars)"A");
     AddGraphics(&InstrCurrBattery, Puid_Ids_Source_InstrCurrBattery);
     InstrCurrBattery.SetTextForced((ioChars)"1.3");
     InstrCurrBattery.SetDecimals(1);
+    AddGraphics(&LabelHeaderSocBattery, Puid_Ids_Source_LabelHeaderSocBattery);
+    LabelHeaderSocBattery.SetTextForced((ioChars)"SOC");
+    AddGraphics(&LabelHeaderSocBatteryUnit, Puid_Ids_Source_LabelHeaderSocBatteryUnit);
+    LabelHeaderSocBatteryUnit.SetTextForced((ioChars)"%");
+    AddGraphics(&InstrSocBattery, Puid_Ids_Source_InstrSocBattery);
+    InstrSocBattery.SetTextForced((ioChars)"100");
+    InstrSocBattery.SetDecimals(1);
+    AddGraphics(&LabelHeaderTtDischrgBattery, Puid_Ids_Source_LabelHeaderTtDischrgBattery);
+    LabelHeaderTtDischrgBattery.SetTextForced((ioChars)"TIME TO 10%");
+    AddGraphics(&InstrTtDischrgBattery, Puid_Ids_Source_InstrTtDischrgBattery);
+    InstrTtDischrgBattery.SetTextForced((ioChars)"00:03:24");
+    InstrTtDischrgBattery.SetDecimals(1);
 }
