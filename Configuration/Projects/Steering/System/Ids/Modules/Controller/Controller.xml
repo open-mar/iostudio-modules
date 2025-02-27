@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModuleClass Name="Controller">
+    <Description>Panels, programs and data for controller in steering IDS</Description>
+    <ModuleObject GlobalID="Ids.Controller" />
+</ModuleClass>

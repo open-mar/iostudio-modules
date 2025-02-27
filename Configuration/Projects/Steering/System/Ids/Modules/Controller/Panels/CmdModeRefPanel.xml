@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PanelClass Name="CmdModeRefPanel">
+    <Description>Command mode and reference in one panel</Description>
+    <PanelObject ParentGlobalID="Ids.Controller" Background="ContainerBackground">
+        <RowDefinition />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
+            <ioPanelGrid LocalID="Command" VerticalAlignment="Top" Height="140" PanelGlobalID="Ids.Controller.CmdPanelSteer" />
+            <ioPanelGrid LocalID="Mode" VerticalAlignment="Top" Height="120" PanelGlobalID="Ids.Controller.ModePanel" />
+            <ioPanelGrid LocalID="Reference" VerticalAlignment="Top" Height="140" PanelGlobalID="Ids.Controller.SetRefHdgPanel" />
+        </Grid>
+    </PanelObject>
+</PanelClass>

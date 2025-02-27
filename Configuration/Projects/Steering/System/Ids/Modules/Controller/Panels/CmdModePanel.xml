@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PanelClass Name="CmdModePanel">
+    <Description>Command and mode in one panel</Description>
+    <PanelObject ParentGlobalID="Ids.Controller" Background="ContainerBackground">
+        <RowDefinition />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
+            <ioPanelGrid LocalID="CommandNoRef" VerticalAlignment="Top" Height="140" PanelGlobalID="Ids.Controller.CmdPanelSteer" />
+            <ioPanelGrid LocalID="ModeNoRef" VerticalAlignment="Top" Height="120" PanelGlobalID="Ids.Controller.ModePanel" />
+        </Grid>
+    </PanelObject>
+</PanelClass>

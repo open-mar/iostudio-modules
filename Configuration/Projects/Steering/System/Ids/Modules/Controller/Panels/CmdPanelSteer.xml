@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PanelClass Name="CmdPanelSteer">
     <Description>Command panel for steering module</Description>
-    <PanelObject ParentGlobalID="Ids.Pilot" Background="ContainerBackground">
+    <PanelObject ParentGlobalID="Ids.Controller" Background="ContainerBackground">
         <RowDefinition Size="20" />
         <RowDefinition Size="80" />
         <RowDefinition Size="40" />
