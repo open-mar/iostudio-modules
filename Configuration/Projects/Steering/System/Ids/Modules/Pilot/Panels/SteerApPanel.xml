@@ -10,13 +10,13 @@
                     <Properties Text="AUTOPILOT REFERENCE [°M]" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
                 </ioLabel>
                 <ioTextBlock LocalID="InstrHeadingRef" Margin="8,0,0,0">
-                    <Properties Text="000" TypeColor="InstrumentEnhancedPrimary" FontFamily="OpenSans" FontSize="Huge" FontWeight="Normal" TextWrapping="NoWrap" Decimals="1" TextAlignment="Left" />
+                    <Properties Text="000" TypeColor="InstrumentEnhancedPrimary" FontSize="Huge" FontWeight="Normal" TextWrapping="NoWrap" Decimals="1" TextAlignment="Left" />
                 </ioTextBlock>
                 <ioLabel LocalID="LabelHeading">
                     <Properties Text="HEADING [°M]" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
                 </ioLabel>
                 <ioTextBlock LocalID="InstrHeading" Margin="8,0,0,0">
-                    <Properties Text="000.0" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="Normal" TextWrapping="NoWrap" Decimals="1" TextAlignment="Left" />
+                    <Properties Text="000.0" TypeColor="InstrumentEnhancedSecondary" FontSize="Huge" FontWeight="Normal" TextWrapping="NoWrap" Decimals="1" TextAlignment="Left" />
                 </ioTextBlock>
             </ioPanelGrid>
             <ioShape LocalID="ShapeContourShip" HorizontalAlignment="Left" Width="280" VerticalAlignment="Top" Height="700">
