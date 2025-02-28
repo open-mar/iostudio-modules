@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModuleClass Name="Track">
+    <Description>Track steering panels, programs and data for Integrated Digital System</Description>
+    <ModuleObject GlobalID="Ids.Track" />
+</ModuleClass>

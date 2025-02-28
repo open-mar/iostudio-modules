@@ -121,6 +121,30 @@
                     <Properties Text="kn" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
                 </ioLabel>
             </ioPanelGrid>
+            <ioPanelGrid LocalID="GridWdirHeader" VerticalAlignment="Top" Height="65" Margin="16,0,0,0">
+                <ioLabel LocalID="LabelWdirHeader" Margin="0,20,0,0">
+                    <Properties Text="WDIR" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelWdirHeaderUnit">
+                    <Properties Text="°T" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridDepthHeader" VerticalAlignment="Top" Height="65" Margin="16,0,0,0">
+                <ioLabel LocalID="LabelDepthHeader" Margin="0,20,0,0">
+                    <Properties Text="DPT" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelDepthHeaderUnit">
+                    <Properties Text="m" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridSpeedHeader" VerticalAlignment="Top" Height="65" Margin="16,0,0,0">
+                <ioLabel LocalID="LabelSpeedHeader" Margin="0,20,0,0">
+                    <Properties Text="STW" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelSpeedHeaderUnit">
+                    <Properties Text="kn" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
         </Grid>
         <Grid Row="1" Column="4" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridAwa" VerticalAlignment="Top" Height="65" IsStacked="FALSE">
@@ -147,6 +171,21 @@
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridAws" VerticalAlignment="Top" Height="65">
                 <ioTextBlock LocalID="InstrAws">
+                    <Properties Text="0.0" TypeColor="InstrumentEnhancedPrimary" FontFamily="OpenSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridWdir" VerticalAlignment="Top" Height="65">
+                <ioTextBlock LocalID="InstrWdir">
+                    <Properties Text="000" TypeColor="InstrumentEnhancedPrimary" FontFamily="OpenSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridDepth" VerticalAlignment="Top" Height="65">
+                <ioTextBlock LocalID="InstrDepth">
+                    <Properties Text="0.0" TypeColor="InstrumentEnhancedPrimary" FontFamily="OpenSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridSpeed" VerticalAlignment="Top" Height="65">
+                <ioTextBlock LocalID="InstrSpeed">
                     <Properties Text="0.0" TypeColor="InstrumentEnhancedPrimary" FontFamily="OpenSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
                 </ioTextBlock>
             </ioPanelGrid>

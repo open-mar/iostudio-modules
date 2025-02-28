@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PanelClass Name="RouteInstrPanel">
+    <Description>Route instrument panel used with steering system</Description>
+    <PanelObject ParentGlobalID="Ids.Track" Background="ContainerBackground">
+        <RowDefinition />
+        <ColumnDefinition Size="100" />
+        <ColumnDefinition Size="150" />
+        <ColumnDefinition Size="100" />
+        <ColumnDefinition Size="150" />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical"/>
+        <Grid Row="1" Column="2" IsStacked="TRUE" Orientation="Vertical"/>
+        <Grid Row="1" Column="3" IsStacked="TRUE" Orientation="Vertical"/>
+        <Grid Row="1" Column="4" IsStacked="TRUE" Orientation="Vertical"/>
+        <Grid Row="1" Column="5" />
+    </PanelObject>
+</PanelClass>
