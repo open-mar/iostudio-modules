@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<DeviceClass Name="EngineStartMotor">
-    <Description>Rudder drive for Open Power and Steering systems</Description>
-    <DeviceClassObject GlobalID="Rotate.Consume.EngineStartMotor" Category="Actuator"/>
-</DeviceClass>

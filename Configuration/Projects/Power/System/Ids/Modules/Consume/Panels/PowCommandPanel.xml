@@ -9,7 +9,7 @@
         <ColumnDefinition />
         <Grid Row="1" Column="1" SpanColumns="2">
             <ioLabel LocalID="HeaderCommandPanelPow">
-                <Properties Text="COMMAND POWER MID DECKHOUSE" TypeLabel="OVERLINE" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                <Properties Text="COMMAND POWER MID DECKHOUSE" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
         </Grid>
         <Grid Row="1" Column="2" />
@@ -20,7 +20,7 @@
         </Grid>
         <Grid Row="2" Column="2" IsStacked="TRUE" Orientation="Vertical">
             <ioLabel LocalID="LabelPowerMode">
-                <Properties Text="NO POWER" TypeLabel="Large" TypeColor="ElementActive" TextWrapping="NoWrap" />
+                <Properties Text="NO POWER" FontSize="Large" TypeColor="ElementActive" TextWrapping="NoWrap" />
             </ioLabel>
             <ioTextBlock LocalID="TextCommandStatusPow">
                 <Properties Text="No station in command" TypeColor="AutomationDevicePrimary" FontFamily="NotoSans" FontSize="Small" FontWeight="Normal" TextWrapping="NoWrap" Decimals="1" TextAlignment="Left" />

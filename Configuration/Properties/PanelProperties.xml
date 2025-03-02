@@ -66,14 +66,15 @@
             <Type Name="AlertLimitPrimary" TypeID="19"/>
             <Type Name="AlertLimitSecondary" TypeID="20"/>
         </Enumeration>
-        <Enumeration LocalID="ioLabelType">
-            <Type Name="Small" TypeID="0"/>
-            <Type Name="SmallActive" TypeID="1"/>
-            <Type Name="Medium" TypeID="2"/>
-            <Type Name="Large" TypeID="3"/>
-            <Type Name="Body" TypeID="4"/>
-            <Type Name="BodyActive" TypeID="5"/>
-            <Type Name="OVERLINE" TypeID="6"/>
+        <Enumeration LocalID="ioColorBorder">
+            <Type Name="Divider" TypeID="0"/>
+            <Type Name="Outline" TypeID="1"/>
+            <Type Name="Edge" TypeID="2"/>
+            <Type Name="Solid" TypeID="3"/>
+            <Type Name="IconOutline" TypeID="4"/>
+            <Type Name="NormalActivated" TypeID="5"/>
+            <Type Name="FlatActivated" TypeID="6"/>
+            <Type Name="FlatChecked" TypeID="7"/>
         </Enumeration>
         <Enumeration LocalID="ioTextWrapping">
             <Type Name="NoWrap" TypeID="0"/>
@@ -90,8 +91,8 @@
             <Type Name="DetectFromContent" TypeID="6"/>
         </Enumeration>
         <Enumeration LocalID="ioFontFamily">
-            <Type Name="OpenSans" TypeID="0"/>
-            <Type Name="NotoSans" TypeID="1"/>
+            <Type Name="OpenSans" TypeID="1"/>
+            <Type Name="NotoSans" TypeID="0"/>
             <Type Name="MaterialIcons" TypeID="2"/>
             <Type Name="WindowsIcons" TypeID="3"/>
         </Enumeration>
@@ -125,6 +126,45 @@
                 <Variable LocalID="StyleID" TypeNum="String"></Variable>
                 <Variable LocalID="ValueStyle" TypeNum="String"></Variable>
             </Properties>
+            <Children>
+                <GraphicsType Name="ioShape">
+                    <Properties>
+                        <Variable LocalID="TypeShape" TypeNum="String">Automation</Variable>
+                        <Variable LocalID="ShapeID" TypeNum="String">Off</Variable>
+                        <Variable LocalID="ScaleX" TypeNum="Double" Decimals="3" Min="0.001" Max="999.0">1.0</Variable>
+                        <Variable LocalID="ScaleY" TypeNum="Double" Decimals="3" Min="0.001" Max="999.0">1.0</Variable>
+                        <Variable LocalID="TypeColor" TypeEnumeration="ioColorGeneral">0</Variable>
+                    </Properties>
+                    <Resources>
+                        <Style LocalID="OnOffSwitch" TypeNum="Bool">
+                            <VisualState Value="TRUE">
+                                <Setter Target="TypeColor">14</Setter>
+                                <Setter Target="TypeShape">Automation</Setter>
+                                <Setter Target="ShapeID">On</Setter>
+                            </VisualState>
+                            <VisualState Value="FALSE">
+                                <Setter Target="TypeColor">17</Setter>
+                                <Setter Target="TypeShape">Automation</Setter>
+                                <Setter Target="ShapeID">Off</Setter>
+                            </VisualState>
+                        </Style>
+                        <Style LocalID="InCommandStyle" TypeNum="Bool">
+                            <VisualState Value="TRUE">
+                                <Setter Target="TypeColor">0</Setter>
+                                <Setter Target="TypeShape">Command</Setter>
+                                <Setter Target="ShapeID">InCommand</Setter>
+                            </VisualState>
+                            <VisualState Value="FALSE">
+                                <Setter Target="TypeColor">4</Setter>
+                                <Setter Target="TypeShape">Command</Setter>
+                                <Setter Target="ShapeID">NotInCommand</Setter>
+                            </VisualState>
+                        </Style>
+                    </Resources>
+                </GraphicsType>
+            </Children>
+        </GraphicsType>
+        <GraphicsType Name="ioGraphicsWithNoStyle" IsBaseOnly="TRUE">
             <Children>
                 <GraphicsType Name="ioUiComponent">
                     <Properties>
@@ -179,7 +219,8 @@
                         </GraphicsType>
                         <GraphicsType Name="ioLabel">
                             <Properties>
-                                <Variable LocalID="TypeLabel" TypeEnumeration="ioLabelType">0</Variable>
+                                <Variable LocalID="FontSize" TypeEnumeration="ioFontSize">0</Variable>
+                                <Variable LocalID="FontWeight" TypeEnumeration="ioFontWeights">0</Variable>
                                 <Variable LocalID="TypeColor" TypeEnumeration="ioColorForeground">0</Variable>
                                 <Variable LocalID="TextWrapping" TypeEnumeration="ioTextWrapping">0</Variable>
                             </Properties>
@@ -211,42 +252,10 @@
                         <Variable LocalID="TypeColor" TypeEnumeration="ioColorGeneral">0</Variable>
                     </Properties>
                 </GraphicsType>
-                <GraphicsType Name="ioShape">
+                <GraphicsType Name="ioDivider">
                     <Properties>
-                        <Variable LocalID="TypeShape" TypeNum="String">Automation</Variable>
-                        <Variable LocalID="ShapeID" TypeNum="String">Off</Variable>
-                        <Variable LocalID="ScaleX" TypeNum="Double" Decimals="3" Min="0.001" Max="999.0">1.0</Variable>
-                        <Variable LocalID="ScaleY" TypeNum="Double" Decimals="3" Min="0.001" Max="999.0">1.0</Variable>
-                        <Variable LocalID="TypeColor" TypeEnumeration="ioColorGeneral">0</Variable>
-                        <Variable LocalID="StyleID" TypeNum="String">OnOffSwitch</Variable>
-                        <Variable LocalID="ValueStyle" TypeNum="String">OnOffSwitch</Variable>
+                        <Variable LocalID="TypeDivider" TypeEnumeration="ioColorBorder">0</Variable>
                     </Properties>
-                    <Resources>
-                        <Style LocalID="OnOffSwitch" TypeNum="Bool">
-                            <VisualState Value="TRUE">
-                                <Setter Target="TypeColor">14</Setter>
-                                <Setter Target="TypeShape">Automation</Setter>
-                                <Setter Target="ShapeID">On</Setter>
-                            </VisualState>
-                            <VisualState Value="FALSE">
-                                <Setter Target="TypeColor">17</Setter>
-                                <Setter Target="TypeShape">Automation</Setter>
-                                <Setter Target="ShapeID">Off</Setter>
-                            </VisualState>
-                        </Style>
-                        <Style LocalID="InCommandStyle" TypeNum="Bool">
-                            <VisualState Value="TRUE">
-                                <Setter Target="TypeColor">0</Setter>
-                                <Setter Target="TypeShape">Command</Setter>
-                                <Setter Target="ShapeID">InCommand</Setter>
-                            </VisualState>
-                            <VisualState Value="FALSE">
-                                <Setter Target="TypeColor">4</Setter>
-                                <Setter Target="TypeShape">Command</Setter>
-                                <Setter Target="ShapeID">NotInCommand</Setter>
-                            </VisualState>
-                        </Style>
-                    </Resources>
                 </GraphicsType>
             </Children>
         </GraphicsType>

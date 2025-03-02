@@ -11,7 +11,7 @@ SetDriftInstrPanel::~SetDriftInstrPanel()
 }
 void SetDriftInstrPanel::InitializeData(void)
 {
-    m_PanelGraphics.SetListData((ioItem**)m_SetDriftInstrPanelGraphics, 25);
+    m_PanelGraphics.SetListData((ioItem**)m_SetDriftInstrPanelGraphics, 42);
     AddGraphics(&LabelWindCmdHeader, Puid_Ids_Pilot_LabelWindCmdHeader);
     LabelWindCmdHeader.SetTextForced((ioChars)"WCMD");
     AddGraphics(&LabelWindCmdHeaderUnit, Puid_Ids_Pilot_LabelWindCmdHeaderUnit);
@@ -60,9 +60,46 @@ void SetDriftInstrPanel::InitializeData(void)
     LabelAwaHeader.SetTextForced((ioChars)"AWA");
     AddGraphics(&LabelAwaHeaderUnit, Puid_Ids_Pilot_LabelAwaHeaderUnit);
     LabelAwaHeaderUnit.SetTextForced((ioChars)"°");
+    AddGraphics(&LabelTwaHeader, Puid_Ids_Pilot_LabelTwaHeader);
+    LabelTwaHeader.SetTextForced((ioChars)"TWA");
+    AddGraphics(&LabelTwaHeaderUnit, Puid_Ids_Pilot_LabelTwaHeaderUnit);
+    LabelTwaHeaderUnit.SetTextForced((ioChars)"°");
+    AddGraphics(&LabelAwsHeader, Puid_Ids_Pilot_LabelAwsHeader);
+    LabelAwsHeader.SetTextForced((ioChars)"AWS");
+    AddGraphics(&LabelAwsHeaderUnit, Puid_Ids_Pilot_LabelAwsHeaderUnit);
+    LabelAwsHeaderUnit.SetTextForced((ioChars)"kn");
+    AddGraphics(&LabelWdirHeader, Puid_Ids_Pilot_LabelWdirHeader);
+    LabelWdirHeader.SetTextForced((ioChars)"WDIR");
+    AddGraphics(&LabelWdirHeaderUnit, Puid_Ids_Pilot_LabelWdirHeaderUnit);
+    LabelWdirHeaderUnit.SetTextForced((ioChars)"°T");
+    AddGraphics(&LabelDepthHeader, Puid_Ids_Pilot_LabelDepthHeader);
+    LabelDepthHeader.SetTextForced((ioChars)"DPT");
+    AddGraphics(&LabelDepthHeaderUnit, Puid_Ids_Pilot_LabelDepthHeaderUnit);
+    LabelDepthHeaderUnit.SetTextForced((ioChars)"m");
+    AddGraphics(&LabelSpeedHeader, Puid_Ids_Pilot_LabelSpeedHeader);
+    LabelSpeedHeader.SetTextForced((ioChars)"STW");
+    AddGraphics(&LabelSpeedHeaderUnit, Puid_Ids_Pilot_LabelSpeedHeaderUnit);
+    LabelSpeedHeaderUnit.SetTextForced((ioChars)"kn");
     AddGraphics(&IconAwaLeft, Puid_Ids_Pilot_IconAwaLeft);
     AddGraphics(&InstrAwa, Puid_Ids_Pilot_InstrAwa);
     InstrAwa.SetTextForced((ioChars)"0");
     InstrAwa.SetDecimals(1);
     AddGraphics(&IconAwaRight, Puid_Ids_Pilot_IconAwaRight);
+    AddGraphics(&IconTwaLeft, Puid_Ids_Pilot_IconTwaLeft);
+    AddGraphics(&InstrTwa, Puid_Ids_Pilot_InstrTwa);
+    InstrTwa.SetTextForced((ioChars)"0");
+    InstrTwa.SetDecimals(1);
+    AddGraphics(&IconTwaRight, Puid_Ids_Pilot_IconTwaRight);
+    AddGraphics(&InstrAws, Puid_Ids_Pilot_InstrAws);
+    InstrAws.SetTextForced((ioChars)"0.0");
+    InstrAws.SetDecimals(1);
+    AddGraphics(&InstrWdir, Puid_Ids_Pilot_InstrWdir);
+    InstrWdir.SetTextForced((ioChars)"000");
+    InstrWdir.SetDecimals(1);
+    AddGraphics(&InstrDepth, Puid_Ids_Pilot_InstrDepth);
+    InstrDepth.SetTextForced((ioChars)"0.0");
+    InstrDepth.SetDecimals(1);
+    AddGraphics(&InstrSpeed, Puid_Ids_Pilot_InstrSpeed);
+    InstrSpeed.SetTextForced((ioChars)"0.0");
+    InstrSpeed.SetDecimals(1);
 }

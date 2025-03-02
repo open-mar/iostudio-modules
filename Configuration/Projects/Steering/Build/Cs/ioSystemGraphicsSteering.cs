@@ -66,10 +66,37 @@ namespace ioSystemNetworkNet
         Puid_Ids_Pilot_GridAwaHeader = 78,
         Puid_Ids_Pilot_LabelAwaHeader = 79,
         Puid_Ids_Pilot_LabelAwaHeaderUnit = 80,
+        Puid_Ids_Pilot_GridTwaHeader = 85,
+        Puid_Ids_Pilot_LabelTwaHeader = 86,
+        Puid_Ids_Pilot_LabelTwaHeaderUnit = 87,
+        Puid_Ids_Pilot_GridAwsHeader = 88,
+        Puid_Ids_Pilot_LabelAwsHeader = 89,
+        Puid_Ids_Pilot_LabelAwsHeaderUnit = 90,
+        Puid_Ids_Pilot_GridWdirHeader = 91,
+        Puid_Ids_Pilot_LabelWdirHeader = 92,
+        Puid_Ids_Pilot_LabelWdirHeaderUnit = 93,
+        Puid_Ids_Pilot_GridDepthHeader = 94,
+        Puid_Ids_Pilot_LabelDepthHeader = 95,
+        Puid_Ids_Pilot_LabelDepthHeaderUnit = 96,
+        Puid_Ids_Pilot_GridSpeedHeader = 97,
+        Puid_Ids_Pilot_LabelSpeedHeader = 98,
+        Puid_Ids_Pilot_LabelSpeedHeaderUnit = 99,
         Puid_Ids_Pilot_GridAwa = 81,
         Puid_Ids_Pilot_IconAwaLeft = 82,
         Puid_Ids_Pilot_InstrAwa = 83,
         Puid_Ids_Pilot_IconAwaRight = 84,
+        Puid_Ids_Pilot_GridTwa = 100,
+        Puid_Ids_Pilot_IconTwaLeft = 101,
+        Puid_Ids_Pilot_InstrTwa = 102,
+        Puid_Ids_Pilot_IconTwaRight = 103,
+        Puid_Ids_Pilot_GridAws = 104,
+        Puid_Ids_Pilot_InstrAws = 105,
+        Puid_Ids_Pilot_GridWdir = 106,
+        Puid_Ids_Pilot_InstrWdir = 107,
+        Puid_Ids_Pilot_GridDepth = 108,
+        Puid_Ids_Pilot_InstrDepth = 109,
+        Puid_Ids_Pilot_GridSpeed = 110,
+        Puid_Ids_Pilot_InstrSpeed = 111,
         Puid_Ids_Pilot_GridAutopilot = 26,
         Puid_Ids_Pilot_LabelApSteer = 27,
         Puid_Ids_Pilot_InstrHeadingRef = 28,
@@ -157,10 +184,37 @@ namespace ioSystemNetworkNet
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridAwaHeader: return "Ids.Pilot.GridAwaHeader";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelAwaHeader: return "Ids.Pilot.LabelAwaHeader";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelAwaHeaderUnit: return "Ids.Pilot.LabelAwaHeaderUnit";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridTwaHeader: return "Ids.Pilot.GridTwaHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelTwaHeader: return "Ids.Pilot.LabelTwaHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelTwaHeaderUnit: return "Ids.Pilot.LabelTwaHeaderUnit";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridAwsHeader: return "Ids.Pilot.GridAwsHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelAwsHeader: return "Ids.Pilot.LabelAwsHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelAwsHeaderUnit: return "Ids.Pilot.LabelAwsHeaderUnit";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridWdirHeader: return "Ids.Pilot.GridWdirHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelWdirHeader: return "Ids.Pilot.LabelWdirHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelWdirHeaderUnit: return "Ids.Pilot.LabelWdirHeaderUnit";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridDepthHeader: return "Ids.Pilot.GridDepthHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelDepthHeader: return "Ids.Pilot.LabelDepthHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelDepthHeaderUnit: return "Ids.Pilot.LabelDepthHeaderUnit";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridSpeedHeader: return "Ids.Pilot.GridSpeedHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelSpeedHeader: return "Ids.Pilot.LabelSpeedHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelSpeedHeaderUnit: return "Ids.Pilot.LabelSpeedHeaderUnit";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridAwa: return "Ids.Pilot.GridAwa";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_IconAwaLeft: return "Ids.Pilot.IconAwaLeft";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrAwa: return "Ids.Pilot.InstrAwa";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_IconAwaRight: return "Ids.Pilot.IconAwaRight";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridTwa: return "Ids.Pilot.GridTwa";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_IconTwaLeft: return "Ids.Pilot.IconTwaLeft";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrTwa: return "Ids.Pilot.InstrTwa";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_IconTwaRight: return "Ids.Pilot.IconTwaRight";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridAws: return "Ids.Pilot.GridAws";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrAws: return "Ids.Pilot.InstrAws";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridWdir: return "Ids.Pilot.GridWdir";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrWdir: return "Ids.Pilot.InstrWdir";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridDepth: return "Ids.Pilot.GridDepth";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrDepth: return "Ids.Pilot.InstrDepth";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridSpeed: return "Ids.Pilot.GridSpeed";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrSpeed: return "Ids.Pilot.InstrSpeed";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridAutopilot: return "Ids.Pilot.GridAutopilot";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelApSteer: return "Ids.Pilot.LabelApSteer";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrHeadingRef: return "Ids.Pilot.InstrHeadingRef";
@@ -248,10 +302,37 @@ namespace ioSystemNetworkNet
                 case "Ids.Pilot.GridAwaHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridAwaHeader;
                 case "Ids.Pilot.LabelAwaHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelAwaHeader;
                 case "Ids.Pilot.LabelAwaHeaderUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelAwaHeaderUnit;
+                case "Ids.Pilot.GridTwaHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridTwaHeader;
+                case "Ids.Pilot.LabelTwaHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelTwaHeader;
+                case "Ids.Pilot.LabelTwaHeaderUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelTwaHeaderUnit;
+                case "Ids.Pilot.GridAwsHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridAwsHeader;
+                case "Ids.Pilot.LabelAwsHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelAwsHeader;
+                case "Ids.Pilot.LabelAwsHeaderUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelAwsHeaderUnit;
+                case "Ids.Pilot.GridWdirHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridWdirHeader;
+                case "Ids.Pilot.LabelWdirHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelWdirHeader;
+                case "Ids.Pilot.LabelWdirHeaderUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelWdirHeaderUnit;
+                case "Ids.Pilot.GridDepthHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridDepthHeader;
+                case "Ids.Pilot.LabelDepthHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelDepthHeader;
+                case "Ids.Pilot.LabelDepthHeaderUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelDepthHeaderUnit;
+                case "Ids.Pilot.GridSpeedHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridSpeedHeader;
+                case "Ids.Pilot.LabelSpeedHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelSpeedHeader;
+                case "Ids.Pilot.LabelSpeedHeaderUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelSpeedHeaderUnit;
                 case "Ids.Pilot.GridAwa": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridAwa;
                 case "Ids.Pilot.IconAwaLeft": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_IconAwaLeft;
                 case "Ids.Pilot.InstrAwa": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrAwa;
                 case "Ids.Pilot.IconAwaRight": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_IconAwaRight;
+                case "Ids.Pilot.GridTwa": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridTwa;
+                case "Ids.Pilot.IconTwaLeft": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_IconTwaLeft;
+                case "Ids.Pilot.InstrTwa": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrTwa;
+                case "Ids.Pilot.IconTwaRight": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_IconTwaRight;
+                case "Ids.Pilot.GridAws": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridAws;
+                case "Ids.Pilot.InstrAws": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrAws;
+                case "Ids.Pilot.GridWdir": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridWdir;
+                case "Ids.Pilot.InstrWdir": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrWdir;
+                case "Ids.Pilot.GridDepth": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridDepth;
+                case "Ids.Pilot.InstrDepth": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrDepth;
+                case "Ids.Pilot.GridSpeed": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridSpeed;
+                case "Ids.Pilot.InstrSpeed": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrSpeed;
                 case "Ids.Pilot.GridAutopilot": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridAutopilot;
                 case "Ids.Pilot.LabelApSteer": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelApSteer;
                 case "Ids.Pilot.InstrHeadingRef": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrHeadingRef;
@@ -276,7 +357,7 @@ namespace ioSystemNetworkNet
         }
         public static ioSystemGraphicsSteeringType GetPuid(Int32 puidValue)
         {
-            if ((puidValue >= 0) && (puidValue < 85))
+            if ((puidValue >= 0) && (puidValue < 112))
                 return (ioSystemGraphicsSteeringType)puidValue;
             else
                 return ioSystemGraphicsSteeringType.Puid_NotDefined;

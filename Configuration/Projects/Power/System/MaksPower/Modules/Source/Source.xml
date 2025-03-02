@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ModuleClass Name="Source">
-    <Description>Batteries from MaksPower</Description>
-    <ModuleObject GlobalID="MaksPower.Source" />
-</ModuleClass>

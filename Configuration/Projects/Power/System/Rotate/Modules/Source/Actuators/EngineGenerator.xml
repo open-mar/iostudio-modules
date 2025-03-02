@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<DeviceClass Name="EngineGenerator">
-    <Description>Engine generator</Description>
-    <DeviceClassObject GlobalID="Rotate.Consume.EngineGenerator" Category="Actuator"/>
-</DeviceClass>

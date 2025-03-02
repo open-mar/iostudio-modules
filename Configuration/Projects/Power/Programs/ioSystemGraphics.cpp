@@ -82,6 +82,7 @@ ioSystemGraphicsType ioSystemGraphics::GetGraphicsType(Int32 puidValue)
     case 63: return Puid_Ids_Consume_ButtOnCh8; 
     case 64: return Puid_Ids_Consume_IndOutPwr; 
     case 81: return Puid_Ids_Convert_LabelHeaderChargerName; 
+    case 90: return Puid_Ids_Convert_DividerHeaderChargerName; 
     case 66: return Puid_Ids_Convert_LabelHeaderChargeInput; 
     case 82: return Puid_Ids_Convert_LabelHeaderChargeInputUnit; 
     case 68: return Puid_Ids_Convert_InstrVoltInputAc; 
@@ -96,7 +97,6 @@ ioSystemGraphicsType ioSystemGraphics::GetGraphicsType(Int32 puidValue)
     case 80: return Puid_Ids_Convert_LabelHeaderDcDcOutputUnit; 
     case 73: return Puid_Ids_Convert_InstrVoltOutputDcDc; 
     case 37: return Puid_Ids_Source_LabelHeaderNameBatteryMonitor; 
-    case 92: return Puid_Ids_Source_GridHeader; 
     case 74: return Puid_Ids_Source_LabelHeaderVoltBattery; 
     case 38: return Puid_Ids_Source_LabelHeaderVoltBatteryUnit; 
     case 75: return Puid_Ids_Source_InstrVoltBattery; 

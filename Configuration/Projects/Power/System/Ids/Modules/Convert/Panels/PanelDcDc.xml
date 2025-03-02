@@ -7,18 +7,21 @@
         <RowDefinition Size="65" />
         <ColumnDefinition />
         <ColumnDefinition />
-        <Grid Row="1" Column="1" SpanColumns="2">
+        <Grid Row="1" Column="1" SpanColumns="2" IsStacked="TRUE" Orientation="Vertical">
             <ioLabel LocalID="LabelNameDcDcConv">
-                <Properties Text="NAME DCDC CONVERTER" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                <Properties Text="NAME DCDC CONVERTER" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
+            <ioDivider LocalID="DividerHeaderDcDcConv" Margin="0,4,0,0">
+                <Properties TypeDivider="Outline" />
+            </ioDivider>
         </Grid>
         <Grid Row="1" Column="2" />
         <Grid Row="2" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioLabel LocalID="LabelHeaderDcDcInput">
-                <Properties Text="VIN" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                <Properties Text="VIN" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
             <ioLabel LocalID="LabelHeaderDcDcInputUnit">
-                <Properties Text="VDC" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                <Properties Text="VDC" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
         </Grid>
         <Grid Row="2" Column="2">
@@ -28,10 +31,10 @@
         </Grid>
         <Grid Row="3" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioLabel LocalID="LabelHeaderDcDcOutput">
-                <Properties Text="VOUT" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                <Properties Text="VOUT" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
             <ioLabel LocalID="LabelHeaderDcDcOutputUnit">
-                <Properties Text="VDC" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                <Properties Text="VDC" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
         </Grid>
         <Grid Row="3" Column="2">

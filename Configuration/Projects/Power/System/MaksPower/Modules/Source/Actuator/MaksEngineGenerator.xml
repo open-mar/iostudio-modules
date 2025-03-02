@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<DeviceClass Name="MaksEngineGenerator">
-    <Description>Battery charger for Open Power and Steering systems</Description>
-    <DeviceClassObject GlobalID="MaksPower.Source.MaksEngineGeneratorMp200" Category="Actuator" />
-</DeviceClass>

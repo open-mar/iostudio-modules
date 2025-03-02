@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ModuleClass Name="Cp">
-    <Description>Stations for control of power</Description>
-    <ModuleObject GlobalID="Pow.CpM" />
-    <ModuleObject GlobalID="Pow.CpA" />
-</ModuleClass>

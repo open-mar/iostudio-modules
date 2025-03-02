@@ -9,18 +9,21 @@
         <RowDefinition Size="65" />
         <ColumnDefinition />
         <ColumnDefinition />
-        <Grid Row="1" Column="1">
+        <Grid Row="1" Column="1" SpanColumns="2" IsStacked="TRUE" Orientation="Vertical">
             <ioLabel LocalID="LabelHeaderNameBatteryMonitor">
-                <Properties Text="NAME BATTERY" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                <Properties Text="NAME BATTERY" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
+            <ioDivider LocalID="DividerHeaderBatteryMonitor" Margin="0,4,0,0">
+                <Properties TypeDivider="Outline" />
+            </ioDivider>
         </Grid>
         <Grid Row="1" Column="2" />
         <Grid Row="2" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioLabel LocalID="LabelHeaderVoltBattery" Margin="0,20,0,0">
-                <Properties Text="VOLT" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                <Properties Text="VOLT" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
             <ioLabel LocalID="LabelHeaderVoltBatteryUnit">
-                <Properties Text="VDC" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                <Properties Text="VDC" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
         </Grid>
         <Grid Row="2" Column="2">
@@ -30,10 +33,10 @@
         </Grid>
         <Grid Row="3" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioLabel LocalID="LabelHeaderCurrBattery" Margin="0,20,0,0">
-                <Properties Text="CURR" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                <Properties Text="CURR" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
             <ioLabel LocalID="LabelHeaderCurrBatteryUnit">
-                <Properties Text="A" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                <Properties Text="A" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
         </Grid>
         <Grid Row="3" Column="2">
@@ -43,10 +46,10 @@
         </Grid>
         <Grid Row="4" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioLabel LocalID="LabelHeaderSocBattery" Margin="0,20,0,0">
-                <Properties Text="SOC" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                <Properties Text="SOC" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
             <ioLabel LocalID="LabelHeaderSocBatteryUnit">
-                <Properties Text="%" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                <Properties Text="%" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
         </Grid>
         <Grid Row="4" Column="2">
@@ -56,7 +59,7 @@
         </Grid>
         <Grid Row="5" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioLabel LocalID="LabelHeaderTtDischrgBattery" Margin="0,20,0,0">
-                <Properties Text="TIME TO 10%" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                <Properties Text="TIME TO 10%" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
         </Grid>
         <Grid Row="5" Column="2">

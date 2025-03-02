@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ModuleClass Name="Indicator">
-    <Description>Indicators for power outputs</Description>
-    <ModuleObject GlobalID="Pow.Out12V" />
-    <ModuleObject GlobalID="Pow.Out24V" />
-    <ModuleObject GlobalID="Pow.Out220V" />
-</ModuleClass>

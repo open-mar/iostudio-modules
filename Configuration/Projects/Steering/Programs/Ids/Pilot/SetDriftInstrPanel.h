@@ -32,10 +32,27 @@ public:
     ioTextBlock InstrHdg;
     ioLabel LabelAwaHeader;
     ioLabel LabelAwaHeaderUnit;
+    ioLabel LabelTwaHeader;
+    ioLabel LabelTwaHeaderUnit;
+    ioLabel LabelAwsHeader;
+    ioLabel LabelAwsHeaderUnit;
+    ioLabel LabelWdirHeader;
+    ioLabel LabelWdirHeaderUnit;
+    ioLabel LabelDepthHeader;
+    ioLabel LabelDepthHeaderUnit;
+    ioLabel LabelSpeedHeader;
+    ioLabel LabelSpeedHeaderUnit;
     ioIcon IconAwaLeft;
     ioTextBlock InstrAwa;
     ioIcon IconAwaRight;
+    ioIcon IconTwaLeft;
+    ioTextBlock InstrTwa;
+    ioIcon IconTwaRight;
+    ioTextBlock InstrAws;
+    ioTextBlock InstrWdir;
+    ioTextBlock InstrDepth;
+    ioTextBlock InstrSpeed;
 protected:
-    ioGraphics* m_SetDriftInstrPanelGraphics[25];
+    ioGraphics* m_SetDriftInstrPanelGraphics[42];
 };
 #endif // __SETDRIFTINSTRPANEL_H

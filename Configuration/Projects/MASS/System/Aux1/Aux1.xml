@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ModuleClass Name="Aux1">
-    <Description>Auxiliary equipment</Description>
-    <ModuleObject GlobalID="Aux1" />
-</ModuleClass>

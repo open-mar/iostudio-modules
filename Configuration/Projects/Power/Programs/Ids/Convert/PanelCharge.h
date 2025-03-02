@@ -3,6 +3,7 @@
 #define __PANELCHARGE_H
 #include "ioSystem/Panels/ioPanel.h"
 #include "ioSystem/Panels/ioGraphicsText.h"
+#include "ioSystem/Panels/ioDivider.h"
 class PanelCharge : public ioPanel
 {
 public:
@@ -10,6 +11,7 @@ public:
     virtual ~PanelCharge();
     virtual void InitializeData(void);
     ioLabel LabelHeaderChargerName;
+    ioDivider DividerHeaderChargerName;
     ioLabel LabelHeaderChargeInput;
     ioLabel LabelHeaderChargeInputUnit;
     ioTextBlock InstrVoltInputAc;
@@ -17,6 +19,6 @@ public:
     ioLabel LabelHeaderChargeOutputUnit;
     ioTextBlock InstVoltOutputDc;
 protected:
-    ioGraphics* m_PanelChargeGraphics[7];
+    ioGraphics* m_PanelChargeGraphics[8];
 };
 #endif // __PANELCHARGE_H

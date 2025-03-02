@@ -10,7 +10,7 @@
         <ColumnDefinition />
         <Grid Row="1" Column="1" SpanColumns="3">
             <ioLabel LocalID="HeaderModeControl">
-                <Properties Text="MODE CONTROL MID DECKHOUSE" TypeLabel="OVERLINE" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                <Properties Text="MODE CONTROL MID DECKHOUSE" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
         </Grid>
         <Grid Row="1" Column="2" />

@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ModuleClass Name="SatCom">
-    <Description>Remote connection</Description>
-    <ModuleObject GlobalID="SatCom" />
-</ModuleClass>

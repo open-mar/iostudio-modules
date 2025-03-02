@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ModuleClass Name="RadAis">
-    <Description>Target sensoring</Description>
-    <ModuleObject GlobalID="RadAis" />
-</ModuleClass>

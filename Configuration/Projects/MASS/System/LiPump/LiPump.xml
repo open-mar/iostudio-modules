@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ModuleClass Name="LiPump">
-    <Description>Lights and pumps</Description>
-    <ModuleObject GlobalID="LiPump" />
-</ModuleClass>

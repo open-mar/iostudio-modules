@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<DeviceClass Name="CerboGx">
-    <Description>I/O device for Victron battery systems</Description>
-    <DeviceClassObject GlobalID="Victron.Io.CerboGx" Category="IO"/>
-</DeviceClass>

@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ModuleClass Name="Cc">
-    <Description>Control computer for Integrated Digital System</Description>
-    <ModuleObject GlobalID="Ids.CcF" />
-    <ModuleObject GlobalID="Ids.CcM" />
-    <ModuleObject GlobalID="Ids.CcA" />
-</ModuleClass>

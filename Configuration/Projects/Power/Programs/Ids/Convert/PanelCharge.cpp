@@ -11,9 +11,10 @@ PanelCharge::~PanelCharge()
 }
 void PanelCharge::InitializeData(void)
 {
-    m_PanelGraphics.SetListData((ioItem**)m_PanelChargeGraphics, 7);
+    m_PanelGraphics.SetListData((ioItem**)m_PanelChargeGraphics, 8);
     AddGraphics(&LabelHeaderChargerName, Puid_Ids_Convert_LabelHeaderChargerName);
     LabelHeaderChargerName.SetTextForced((ioChars)"NAME CHARGER");
+    AddGraphics(&DividerHeaderChargerName, Puid_Ids_Convert_DividerHeaderChargerName);
     AddGraphics(&LabelHeaderChargeInput, Puid_Ids_Convert_LabelHeaderChargeInput);
     LabelHeaderChargeInput.SetTextForced((ioChars)"VIN");
     AddGraphics(&LabelHeaderChargeInputUnit, Puid_Ids_Convert_LabelHeaderChargeInputUnit);

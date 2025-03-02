@@ -7,16 +7,16 @@
         <Grid Row="1" Column="1">
             <ioPanelGrid LocalID="GridAutopilot" HorizontalAlignment="Left" Width="160" VerticalAlignment="Top" Height="200" Margin="56,325,0,0">
                 <ioLabel LocalID="LabelApSteer">
-                    <Properties Text="AUTOPILOT REFERENCE [°M]" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                    <Properties Text="AUTOPILOT REFERENCE [°M]" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
                 </ioLabel>
                 <ioTextBlock LocalID="InstrHeadingRef" Margin="8,0,0,0">
-                    <Properties Text="000" TypeColor="InstrumentEnhancedPrimary" FontSize="Huge" FontWeight="Normal" TextWrapping="NoWrap" Decimals="1" TextAlignment="Left" />
+                    <Properties Text="000" TypeColor="InstrumentEnhancedPrimary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="Left" />
                 </ioTextBlock>
                 <ioLabel LocalID="LabelHeading">
-                    <Properties Text="HEADING [°M]" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                    <Properties Text="HEADING [°M]" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
                 </ioLabel>
                 <ioTextBlock LocalID="InstrHeading" Margin="8,0,0,0">
-                    <Properties Text="000.0" TypeColor="InstrumentEnhancedSecondary" FontSize="Huge" FontWeight="Normal" TextWrapping="NoWrap" Decimals="1" TextAlignment="Left" />
+                    <Properties Text="000.0" TypeColor="InstrumentEnhancedSecondary" FontFamily="OpenSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="Left" />
                 </ioTextBlock>
             </ioPanelGrid>
             <ioShape LocalID="ShapeContourShip" HorizontalAlignment="Left" Width="280" VerticalAlignment="Top" Height="700">
@@ -39,7 +39,7 @@
                     <Properties Text="044" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="MediumLarge" FontWeight="Bold" TextWrapping="NoWrap" Decimals="0" TextAlignment="End" />
                 </ioTextBlock>
                 <ioLabel LocalID="LabelRot" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="18" Margin="4,0,0,0">
-                    <Properties Text="°/min" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                    <Properties Text="°/min" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridEngineMeas" HorizontalAlignment="Left" Width="160" VerticalAlignment="Top" Height="24" Margin="265,520,0,0" Orientation="Horizontal">
@@ -47,7 +47,7 @@
                     <Properties Text="1500" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Medium" FontWeight="Bold" TextWrapping="NoWrap" Decimals="0" TextAlignment="End" />
                 </ioTextBlock>
                 <ioLabel LocalID="LabelEngine" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="18" Margin="4,0,0,0">
-                    <Properties Text="RPM" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                    <Properties Text="RPM" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
                 </ioLabel>
             </ioPanelGrid>
             <ioPanelGrid LocalID="GridThrustMeas" HorizontalAlignment="Left" Width="160" VerticalAlignment="Top" Height="24" Margin="174,290,0,0" Orientation="Horizontal">
@@ -55,7 +55,7 @@
                     <Properties Text="-40" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Medium" FontWeight="Bold" TextWrapping="NoWrap" Decimals="0" TextAlignment="End" />
                 </ioTextBlock>
                 <ioLabel LocalID="LabelThrust" HorizontalAlignment="Left" Width="40" VerticalAlignment="Center" Height="18" Margin="4,0,0,0">
-                    <Properties Text="%" TypeLabel="Small" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                    <Properties Text="%" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
                 </ioLabel>
             </ioPanelGrid>
         </Grid>

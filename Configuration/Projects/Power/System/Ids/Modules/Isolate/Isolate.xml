@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ModuleClass Name="Isolate">
-    <Description>Panels and program data for isolating devices</Description>
-    <ModuleObject GlobalID="Ids.Isolate" />
-</ModuleClass>
