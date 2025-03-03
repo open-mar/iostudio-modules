@@ -36,7 +36,11 @@ ioSystemGraphicsType ioSystemGraphics::GetGraphicsType(Int32 puidValue)
     case 16: return Puid_Ids_Controller_ButtWork; 
     case 17: return Puid_Ids_Controller_ButtCourse; 
     case 18: return Puid_Ids_Controller_ButtStandby; 
-    case 19: return Puid_Ids_Controller_LabelHeader; 
+    case 155: return Puid_Ids_Controller_GridHdgCmdHeader; 
+    case 156: return Puid_Ids_Controller_LabelHdgCmdHeader; 
+    case 157: return Puid_Ids_Controller_LabelhdgCmdHeaderUnit; 
+    case 158: return Puid_Ids_Controller_GridHdgCmd; 
+    case 159: return Puid_Ids_Controller_InstrHdgCmd; 
     case 20: return Puid_Ids_Controller_ButtonLeftSmall; 
     case 21: return Puid_Ids_Controller_ButtMidZero; 
     case 22: return Puid_Ids_Controller_ButtRightSmall; 
@@ -157,11 +161,20 @@ ioSystemGraphicsType ioSystemGraphics::GetGraphicsType(Int32 puidValue)
     case 134: return Puid_Ids_Track_GridEtaRteHeader; 
     case 135: return Puid_Ids_Track_LabelEtaRteHeader; 
     case 136: return Puid_Ids_Track_LabelEtaRteHeaderUnit; 
+    case 146: return Puid_Ids_Track_GridTtgWptHeader; 
+    case 147: return Puid_Ids_Track_LabelTtgWpthHeader; 
+    case 148: return Puid_Ids_Track_GridDptHeader; 
+    case 149: return Puid_Ids_Track_LabeDptlDepthHeader; 
+    case 150: return Puid_Ids_Track_LabelDptHeaderUnit; 
     case 142: return Puid_Ids_Track_GridEtaWpt; 
     case 143: return Puid_Ids_Track_InstrEtaWptDate; 
     case 144: return Puid_Ids_Track_InstrEtaWptTime; 
     case 137: return Puid_Ids_Track_GridEtaRte; 
     case 138: return Puid_Ids_Track_InstrEtaRteDate; 
     case 145: return Puid_Ids_Track_InstrEtaRteTime; 
+    case 151: return Puid_Ids_Track_GridTtgWpt; 
+    case 152: return Puid_Ids_Track_InstrTtgWpt; 
+    case 153: return Puid_Ids_Track_GridDpt; 
+    case 154: return Puid_Ids_Track_InstrDpt; 
     } // switch
 }

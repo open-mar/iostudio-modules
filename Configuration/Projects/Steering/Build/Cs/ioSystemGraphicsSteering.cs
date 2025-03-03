@@ -23,7 +23,11 @@ namespace ioSystemNetworkNet
         Puid_Ids_Controller_ButtWork = 16,
         Puid_Ids_Controller_ButtCourse = 17,
         Puid_Ids_Controller_ButtStandby = 18,
-        Puid_Ids_Controller_LabelHeader = 19,
+        Puid_Ids_Controller_GridHdgCmdHeader = 155,
+        Puid_Ids_Controller_LabelHdgCmdHeader = 156,
+        Puid_Ids_Controller_LabelhdgCmdHeaderUnit = 157,
+        Puid_Ids_Controller_GridHdgCmd = 158,
+        Puid_Ids_Controller_InstrHdgCmd = 159,
         Puid_Ids_Controller_ButtonLeftSmall = 20,
         Puid_Ids_Controller_ButtMidZero = 21,
         Puid_Ids_Controller_ButtRightSmall = 22,
@@ -144,12 +148,21 @@ namespace ioSystemNetworkNet
         Puid_Ids_Track_GridEtaRteHeader = 134,
         Puid_Ids_Track_LabelEtaRteHeader = 135,
         Puid_Ids_Track_LabelEtaRteHeaderUnit = 136,
+        Puid_Ids_Track_GridTtgWptHeader = 146,
+        Puid_Ids_Track_LabelTtgWpthHeader = 147,
+        Puid_Ids_Track_GridDptHeader = 148,
+        Puid_Ids_Track_LabeDptlDepthHeader = 149,
+        Puid_Ids_Track_LabelDptHeaderUnit = 150,
         Puid_Ids_Track_GridEtaWpt = 142,
         Puid_Ids_Track_InstrEtaWptDate = 143,
         Puid_Ids_Track_InstrEtaWptTime = 144,
         Puid_Ids_Track_GridEtaRte = 137,
         Puid_Ids_Track_InstrEtaRteDate = 138,
         Puid_Ids_Track_InstrEtaRteTime = 145,
+        Puid_Ids_Track_GridTtgWpt = 151,
+        Puid_Ids_Track_InstrTtgWpt = 152,
+        Puid_Ids_Track_GridDpt = 153,
+        Puid_Ids_Track_InstrDpt = 154,
     } // enum
     public class ioSystemGraphicsSteering
     {
@@ -175,7 +188,11 @@ namespace ioSystemNetworkNet
                 case ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtWork: return "Ids.Controller.ButtWork";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtCourse: return "Ids.Controller.ButtCourse";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtStandby: return "Ids.Controller.ButtStandby";
-                case ioSystemGraphicsSteeringType.Puid_Ids_Controller_LabelHeader: return "Ids.Controller.LabelHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Controller_GridHdgCmdHeader: return "Ids.Controller.GridHdgCmdHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Controller_LabelHdgCmdHeader: return "Ids.Controller.LabelHdgCmdHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Controller_LabelhdgCmdHeaderUnit: return "Ids.Controller.LabelhdgCmdHeaderUnit";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Controller_GridHdgCmd: return "Ids.Controller.GridHdgCmd";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Controller_InstrHdgCmd: return "Ids.Controller.InstrHdgCmd";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtonLeftSmall: return "Ids.Controller.ButtonLeftSmall";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtMidZero: return "Ids.Controller.ButtMidZero";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtRightSmall: return "Ids.Controller.ButtRightSmall";
@@ -296,12 +313,21 @@ namespace ioSystemNetworkNet
                 case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridEtaRteHeader: return "Ids.Track.GridEtaRteHeader";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelEtaRteHeader: return "Ids.Track.LabelEtaRteHeader";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelEtaRteHeaderUnit: return "Ids.Track.LabelEtaRteHeaderUnit";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridTtgWptHeader: return "Ids.Track.GridTtgWptHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelTtgWpthHeader: return "Ids.Track.LabelTtgWpthHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridDptHeader: return "Ids.Track.GridDptHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabeDptlDepthHeader: return "Ids.Track.LabeDptlDepthHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelDptHeaderUnit: return "Ids.Track.LabelDptHeaderUnit";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridEtaWpt: return "Ids.Track.GridEtaWpt";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrEtaWptDate: return "Ids.Track.InstrEtaWptDate";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrEtaWptTime: return "Ids.Track.InstrEtaWptTime";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridEtaRte: return "Ids.Track.GridEtaRte";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrEtaRteDate: return "Ids.Track.InstrEtaRteDate";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrEtaRteTime: return "Ids.Track.InstrEtaRteTime";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridTtgWpt: return "Ids.Track.GridTtgWpt";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrTtgWpt: return "Ids.Track.InstrTtgWpt";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridDpt: return "Ids.Track.GridDpt";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrDpt: return "Ids.Track.InstrDpt";
             } // switch
             return string.Empty;
         }
@@ -327,7 +353,11 @@ namespace ioSystemNetworkNet
                 case "Ids.Controller.ButtWork": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtWork;
                 case "Ids.Controller.ButtCourse": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtCourse;
                 case "Ids.Controller.ButtStandby": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtStandby;
-                case "Ids.Controller.LabelHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_LabelHeader;
+                case "Ids.Controller.GridHdgCmdHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_GridHdgCmdHeader;
+                case "Ids.Controller.LabelHdgCmdHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_LabelHdgCmdHeader;
+                case "Ids.Controller.LabelhdgCmdHeaderUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_LabelhdgCmdHeaderUnit;
+                case "Ids.Controller.GridHdgCmd": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_GridHdgCmd;
+                case "Ids.Controller.InstrHdgCmd": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_InstrHdgCmd;
                 case "Ids.Controller.ButtonLeftSmall": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtonLeftSmall;
                 case "Ids.Controller.ButtMidZero": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtMidZero;
                 case "Ids.Controller.ButtRightSmall": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtRightSmall;
@@ -448,18 +478,27 @@ namespace ioSystemNetworkNet
                 case "Ids.Track.GridEtaRteHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridEtaRteHeader;
                 case "Ids.Track.LabelEtaRteHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelEtaRteHeader;
                 case "Ids.Track.LabelEtaRteHeaderUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelEtaRteHeaderUnit;
+                case "Ids.Track.GridTtgWptHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridTtgWptHeader;
+                case "Ids.Track.LabelTtgWpthHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelTtgWpthHeader;
+                case "Ids.Track.GridDptHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridDptHeader;
+                case "Ids.Track.LabeDptlDepthHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabeDptlDepthHeader;
+                case "Ids.Track.LabelDptHeaderUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelDptHeaderUnit;
                 case "Ids.Track.GridEtaWpt": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridEtaWpt;
                 case "Ids.Track.InstrEtaWptDate": return ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrEtaWptDate;
                 case "Ids.Track.InstrEtaWptTime": return ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrEtaWptTime;
                 case "Ids.Track.GridEtaRte": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridEtaRte;
                 case "Ids.Track.InstrEtaRteDate": return ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrEtaRteDate;
                 case "Ids.Track.InstrEtaRteTime": return ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrEtaRteTime;
+                case "Ids.Track.GridTtgWpt": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridTtgWpt;
+                case "Ids.Track.InstrTtgWpt": return ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrTtgWpt;
+                case "Ids.Track.GridDpt": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridDpt;
+                case "Ids.Track.InstrDpt": return ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrDpt;
             } // switch
             return ioSystemGraphicsSteeringType.Puid_NotDefined;
         }
         public static ioSystemGraphicsSteeringType GetPuid(Int32 puidValue)
         {
-            if ((puidValue >= 0) && (puidValue < 146))
+            if ((puidValue >= 0) && (puidValue < 159))
                 return (ioSystemGraphicsSteeringType)puidValue;
             else
                 return ioSystemGraphicsSteeringType.Puid_NotDefined;

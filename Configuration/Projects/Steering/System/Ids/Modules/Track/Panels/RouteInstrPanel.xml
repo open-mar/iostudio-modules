@@ -87,6 +87,19 @@
                     <Properties Text="LOC" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
                 </ioLabel>
             </ioPanelGrid>
+            <ioPanelGrid LocalID="GridTtgWptHeader" VerticalAlignment="Top" Height="65" Margin="16,0,0,0">
+                <ioLabel LocalID="LabelTtgWpthHeader" VerticalAlignment="Center" Height="20" Margin="0,30,0,0">
+                    <Properties Text="TTG WPT" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridDptHeader" VerticalAlignment="Top" Height="65" Margin="16,0,0,0">
+                <ioLabel LocalID="LabeDptlDepthHeader" Margin="0,20,0,0">
+                    <Properties Text="DPT" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelDptHeaderUnit">
+                    <Properties Text="m" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
         </Grid>
         <Grid Row="1" Column="4" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="GridEtaWpt" VerticalAlignment="Top" Height="65">
@@ -103,6 +116,16 @@
                 </ioTextBlock>
                 <ioTextBlock LocalID="InstrEtaRteTime" VerticalAlignment="Center" Height="42">
                     <Properties Text="00:00:00" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Large" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridTtgWpt" VerticalAlignment="Top" Height="65">
+                <ioTextBlock LocalID="InstrTtgWpt" VerticalAlignment="Center" Height="41" Margin="0,13,0,0">
+                    <Properties Text="00:00:00" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Large" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridDpt" VerticalAlignment="Top" Height="65">
+                <ioTextBlock LocalID="InstrDpt">
+                    <Properties Text="0.0" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
                 </ioTextBlock>
             </ioPanelGrid>
         </Grid>

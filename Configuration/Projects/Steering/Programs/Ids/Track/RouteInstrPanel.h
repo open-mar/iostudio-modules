@@ -28,11 +28,16 @@ public:
     ioLabel LabelEtaWptHeaderUnit;
     ioLabel LabelEtaRteHeader;
     ioLabel LabelEtaRteHeaderUnit;
+    ioLabel LabelTtgWpthHeader;
+    ioLabel LabeDptlDepthHeader;
+    ioLabel LabelDptHeaderUnit;
     ioTextBlock InstrEtaWptDate;
     ioTextBlock InstrEtaWptTime;
     ioTextBlock InstrEtaRteDate;
     ioTextBlock InstrEtaRteTime;
+    ioTextBlock InstrTtgWpt;
+    ioTextBlock InstrDpt;
 protected:
-    ioGraphics* m_RouteInstrPanelGraphics[22];
+    ioGraphics* m_RouteInstrPanelGraphics[27];
 };
 #endif // __ROUTEINSTRPANEL_H

@@ -2,19 +2,29 @@
 <PanelClass Name="SetRefHdgPanel">
     <Description>Panel for setting heading command</Description>
     <PanelObject ParentGlobalID="Ids.Controller" Background="ContainerBackground">
-        <RowDefinition Size="24" />
-        <RowDefinition Size="40" />
+        <RowDefinition Size="65" />
         <RowDefinition Size="40" />
         <RowDefinition Size="40" />
         <ColumnDefinition />
         <ColumnDefinition />
         <ColumnDefinition />
-        <Grid Row="1" Column="1" SpanColumns="3">
-            <ioLabel LocalID="LabelHeader">
-                <Properties Text="SET REFERENCE MID DECKHOUSE" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
-            </ioLabel>
+        <Grid Row="1" Column="1">
+            <ioPanelGrid LocalID="GridHdgCmdHeader" VerticalAlignment="Top" Height="65" Margin="12,0,0,0">
+                <ioLabel LocalID="LabelHdgCmdHeader" Margin="0,20,0,0">
+                    <Properties Text="HDG CMD" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelhdgCmdHeaderUnit">
+                    <Properties Text="°T" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
         </Grid>
-        <Grid Row="1" Column="2" />
+        <Grid Row="1" Column="2">
+            <ioPanelGrid LocalID="GridHdgCmd" VerticalAlignment="Top" Height="65">
+                <ioTextBlock LocalID="InstrHdgCmd" HorizontalAlignment="Center" Width="89">
+                    <Properties Text="000" TypeColor="InstrumentEnhancedPrimary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+        </Grid>
         <Grid Row="1" Column="3" />
         <Grid Row="2" Column="1">
             <ioButtonText LocalID="ButtonLeftSmall">
@@ -22,8 +32,8 @@
             </ioButtonText>
         </Grid>
         <Grid Row="2" Column="2">
-            <ioButtonText LocalID="ButtMidZero">
-                <Properties Text="0" TypeColor="Normal" />
+            <ioButtonText LocalID="ButtMidTrn">
+                <Properties Text="TRN" TypeColor="Normal" />
             </ioButtonText>
         </Grid>
         <Grid Row="2" Column="3">
@@ -31,20 +41,13 @@
                 <Properties Text="+1" TypeColor="Normal" />
             </ioButtonText>
         </Grid>
-        <Grid Row="3" Column="1" SpanColumns="3">
-            <ioTextBoxNumber LocalID="EncoderNumber" Margin="0,4,0,4">
-                <Properties Text="0" TextAlignment="Center" Decimals="0" Min="-9999" Max="9999" />
-            </ioTextBoxNumber>
-        </Grid>
-        <Grid Row="3" Column="2" />
-        <Grid Row="3" Column="3" />
-        <Grid Row="4" Column="1">
+        <Grid Row="3" Column="1">
             <ioButtonText LocalID="ButtLeftBig">
                 <Properties Text="-10" TypeColor="Normal" />
             </ioButtonText>
         </Grid>
-        <Grid Row="4" Column="2" />
-        <Grid Row="4" Column="3">
+        <Grid Row="3" Column="2" />
+        <Grid Row="3" Column="3">
             <ioButtonText LocalID="ButtRightBig">
                 <Properties Text="+10" TypeColor="Normal" />
             </ioButtonText>

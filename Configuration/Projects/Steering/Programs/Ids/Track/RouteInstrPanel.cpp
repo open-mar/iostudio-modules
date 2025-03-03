@@ -11,7 +11,7 @@ RouteInstrPanel::~RouteInstrPanel()
 }
 void RouteInstrPanel::InitializeData(void)
 {
-    m_PanelGraphics.SetListData((ioItem**)m_RouteInstrPanelGraphics, 22);
+    m_PanelGraphics.SetListData((ioItem**)m_RouteInstrPanelGraphics, 27);
     AddGraphics(&LabelBtwHeader, Puid_Ids_Track_LabelBtwHeader);
     LabelBtwHeader.SetTextForced((ioChars)"BTW");
     AddGraphics(&LabelBtwHeaderUnit, Puid_Ids_Track_LabelBtwHeaderUnit);
@@ -50,6 +50,12 @@ void RouteInstrPanel::InitializeData(void)
     LabelEtaRteHeader.SetTextForced((ioChars)"ETA RTE");
     AddGraphics(&LabelEtaRteHeaderUnit, Puid_Ids_Track_LabelEtaRteHeaderUnit);
     LabelEtaRteHeaderUnit.SetTextForced((ioChars)"LOC");
+    AddGraphics(&LabelTtgWpthHeader, Puid_Ids_Track_LabelTtgWpthHeader);
+    LabelTtgWpthHeader.SetTextForced((ioChars)"TTG WPT");
+    AddGraphics(&LabeDptlDepthHeader, Puid_Ids_Track_LabeDptlDepthHeader);
+    LabeDptlDepthHeader.SetTextForced((ioChars)"DPT");
+    AddGraphics(&LabelDptHeaderUnit, Puid_Ids_Track_LabelDptHeaderUnit);
+    LabelDptHeaderUnit.SetTextForced((ioChars)"m");
     AddGraphics(&InstrEtaWptDate, Puid_Ids_Track_InstrEtaWptDate);
     InstrEtaWptDate.SetTextForced((ioChars)"01-Jan");
     InstrEtaWptDate.SetDecimals(1);
@@ -62,4 +68,10 @@ void RouteInstrPanel::InitializeData(void)
     AddGraphics(&InstrEtaRteTime, Puid_Ids_Track_InstrEtaRteTime);
     InstrEtaRteTime.SetTextForced((ioChars)"00:00:00");
     InstrEtaRteTime.SetDecimals(1);
+    AddGraphics(&InstrTtgWpt, Puid_Ids_Track_InstrTtgWpt);
+    InstrTtgWpt.SetTextForced((ioChars)"00:00:00");
+    InstrTtgWpt.SetDecimals(1);
+    AddGraphics(&InstrDpt, Puid_Ids_Track_InstrDpt);
+    InstrDpt.SetTextForced((ioChars)"0.0");
+    InstrDpt.SetDecimals(1);
 }
