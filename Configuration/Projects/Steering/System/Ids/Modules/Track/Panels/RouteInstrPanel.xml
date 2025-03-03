@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <PanelClass Name="RouteInstrPanel">
     <Description>Route instrument panel used with steering system</Description>
     <PanelObject ParentGlobalID="Ids.Track" Background="ContainerBackground">
@@ -8,10 +8,104 @@
         <ColumnDefinition Size="100" />
         <ColumnDefinition Size="150" />
         <ColumnDefinition />
-        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical"/>
-        <Grid Row="1" Column="2" IsStacked="TRUE" Orientation="Vertical"/>
-        <Grid Row="1" Column="3" IsStacked="TRUE" Orientation="Vertical"/>
-        <Grid Row="1" Column="4" IsStacked="TRUE" Orientation="Vertical"/>
+        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
+            <ioPanelGrid LocalID="GridBtwHeader" VerticalAlignment="Top" Height="65">
+                <ioLabel LocalID="LabelBtwHeader" Margin="0,20,0,0">
+                    <Properties Text="BTW" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelBtwHeaderUnit">
+                    <Properties Text="°T" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridXteHeader" VerticalAlignment="Top" Height="65">
+                <ioLabel LocalID="LabelXteHeader" Margin="0,20,0,0">
+                    <Properties Text="XTE" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelXteHeaderUnit">
+                    <Properties Text="m" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridCogHeader" VerticalAlignment="Top" Height="65">
+                <ioLabel LocalID="LabelCogHeader" Margin="0,20,0,0">
+                    <Properties Text="COG" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelCogHeaderUnit">
+                    <Properties Text="°T" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridSogHeader" VerticalAlignment="Top" Height="65">
+                <ioLabel LocalID="LabelSogHeader" Margin="0,20,0,0">
+                    <Properties Text="SOG" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelSogHeaderUnit">
+                    <Properties Text="kn" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="1" Column="2" IsStacked="TRUE" Orientation="Vertical">
+            <ioPanelGrid LocalID="GridBtw" VerticalAlignment="Top" Height="65">
+                <ioTextBlock LocalID="InstrBtw">
+                    <Properties Text="000" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridXte" VerticalAlignment="Top" Height="65" IsStacked="FALSE">
+                <ioIcon LocalID="IconXteLeft" HorizontalAlignment="Left" Width="32">
+                    <Properties TypeFont="MaterialDesign" IconID="arrow_back" TypeColor="InstrumentEnhancedSecondary" />
+                </ioIcon>
+                <ioTextBlock LocalID="InstrXte" HorizontalAlignment="Center" Width="100" VerticalAlignment="Center" Height="50">
+                    <Properties Text="0.0" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="ExtraLarge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="Center" />
+                </ioTextBlock>
+                <ioIcon LocalID="IconXteRight" HorizontalAlignment="Right" Width="32">
+                    <Properties TypeFont="MaterialDesign" IconID="arrow_forward" TypeColor="InstrumentEnhancedSecondary" />
+                </ioIcon>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridCog" VerticalAlignment="Top" Height="65">
+                <ioTextBlock LocalID="InstrCog">
+                    <Properties Text="000" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridSog" VerticalAlignment="Top" Height="65">
+                <ioTextBlock LocalID="InstrSog">
+                    <Properties Text="0.0" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="1" Column="3" IsStacked="TRUE" Orientation="Vertical">
+            <ioPanelGrid LocalID="GridEtaWptHeader" VerticalAlignment="Top" Height="65" Margin="16,0,0,0">
+                <ioLabel LocalID="LabelEtaWptHeader" Margin="0,20,0,0">
+                    <Properties Text="ETA WPT" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelEtaWptHeaderUnit">
+                    <Properties Text="LOC" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridEtaRteHeader" VerticalAlignment="Top" Height="65" Margin="16,0,0,0">
+                <ioLabel LocalID="LabelEtaRteHeader" Margin="0,20,0,0">
+                    <Properties Text="ETA RTE" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelEtaRteHeaderUnit">
+                    <Properties Text="LOC" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="1" Column="4" IsStacked="TRUE" Orientation="Vertical">
+            <ioPanelGrid LocalID="GridEtaWpt" VerticalAlignment="Top" Height="65">
+                <ioTextBlock LocalID="InstrEtaWptDate" VerticalAlignment="Center" Height="25">
+                    <Properties Text="01-Jan" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Medium" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+                <ioTextBlock LocalID="InstrEtaWptTime" VerticalAlignment="Center" Height="42">
+                    <Properties Text="00:00:00" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Large" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridEtaRte" VerticalAlignment="Top" Height="65" Margin="0,4,0,0">
+                <ioTextBlock LocalID="InstrEtaRteDate" VerticalAlignment="Center" Height="25">
+                    <Properties Text="02-Feb" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Medium" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+                <ioTextBlock LocalID="InstrEtaRteTime" VerticalAlignment="Center" Height="42">
+                    <Properties Text="00:00:00" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Large" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+        </Grid>
         <Grid Row="1" Column="5" />
     </PanelObject>
 </PanelClass>
