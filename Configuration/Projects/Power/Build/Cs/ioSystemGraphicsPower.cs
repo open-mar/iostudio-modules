@@ -77,6 +77,7 @@ namespace ioSystemNetworkNet
         Puid_Ids_Convert_LabelHeaderChargeOutputUnit = 83,
         Puid_Ids_Convert_InstVoltOutputDc = 69,
         Puid_Ids_Convert_LabelNameDcDcConv = 78,
+        Puid_Ids_Convert_DividerHeaderDcDcConv = 91,
         Puid_Ids_Convert_LabelHeaderDcDcInput = 70,
         Puid_Ids_Convert_LabelHeaderDcDcInputUnit = 79,
         Puid_Ids_Convert_InstrVoltInputDcDc = 72,
@@ -84,6 +85,7 @@ namespace ioSystemNetworkNet
         Puid_Ids_Convert_LabelHeaderDcDcOutputUnit = 80,
         Puid_Ids_Convert_InstrVoltOutputDcDc = 73,
         Puid_Ids_Source_LabelHeaderNameBatteryMonitor = 37,
+        Puid_Ids_Source_DividerHeaderBatteryMonitor = 92,
         Puid_Ids_Source_LabelHeaderVoltBattery = 74,
         Puid_Ids_Source_LabelHeaderVoltBatteryUnit = 38,
         Puid_Ids_Source_InstrVoltBattery = 75,
@@ -174,6 +176,7 @@ namespace ioSystemNetworkNet
                 case ioSystemGraphicsPowerType.Puid_Ids_Convert_LabelHeaderChargeOutputUnit: return "Ids.Convert.LabelHeaderChargeOutputUnit";
                 case ioSystemGraphicsPowerType.Puid_Ids_Convert_InstVoltOutputDc: return "Ids.Convert.InstVoltOutputDc";
                 case ioSystemGraphicsPowerType.Puid_Ids_Convert_LabelNameDcDcConv: return "Ids.Convert.LabelNameDcDcConv";
+                case ioSystemGraphicsPowerType.Puid_Ids_Convert_DividerHeaderDcDcConv: return "Ids.Convert.DividerHeaderDcDcConv";
                 case ioSystemGraphicsPowerType.Puid_Ids_Convert_LabelHeaderDcDcInput: return "Ids.Convert.LabelHeaderDcDcInput";
                 case ioSystemGraphicsPowerType.Puid_Ids_Convert_LabelHeaderDcDcInputUnit: return "Ids.Convert.LabelHeaderDcDcInputUnit";
                 case ioSystemGraphicsPowerType.Puid_Ids_Convert_InstrVoltInputDcDc: return "Ids.Convert.InstrVoltInputDcDc";
@@ -181,6 +184,7 @@ namespace ioSystemNetworkNet
                 case ioSystemGraphicsPowerType.Puid_Ids_Convert_LabelHeaderDcDcOutputUnit: return "Ids.Convert.LabelHeaderDcDcOutputUnit";
                 case ioSystemGraphicsPowerType.Puid_Ids_Convert_InstrVoltOutputDcDc: return "Ids.Convert.InstrVoltOutputDcDc";
                 case ioSystemGraphicsPowerType.Puid_Ids_Source_LabelHeaderNameBatteryMonitor: return "Ids.Source.LabelHeaderNameBatteryMonitor";
+                case ioSystemGraphicsPowerType.Puid_Ids_Source_DividerHeaderBatteryMonitor: return "Ids.Source.DividerHeaderBatteryMonitor";
                 case ioSystemGraphicsPowerType.Puid_Ids_Source_LabelHeaderVoltBattery: return "Ids.Source.LabelHeaderVoltBattery";
                 case ioSystemGraphicsPowerType.Puid_Ids_Source_LabelHeaderVoltBatteryUnit: return "Ids.Source.LabelHeaderVoltBatteryUnit";
                 case ioSystemGraphicsPowerType.Puid_Ids_Source_InstrVoltBattery: return "Ids.Source.InstrVoltBattery";
@@ -271,6 +275,7 @@ namespace ioSystemNetworkNet
                 case "Ids.Convert.LabelHeaderChargeOutputUnit": return ioSystemGraphicsPowerType.Puid_Ids_Convert_LabelHeaderChargeOutputUnit;
                 case "Ids.Convert.InstVoltOutputDc": return ioSystemGraphicsPowerType.Puid_Ids_Convert_InstVoltOutputDc;
                 case "Ids.Convert.LabelNameDcDcConv": return ioSystemGraphicsPowerType.Puid_Ids_Convert_LabelNameDcDcConv;
+                case "Ids.Convert.DividerHeaderDcDcConv": return ioSystemGraphicsPowerType.Puid_Ids_Convert_DividerHeaderDcDcConv;
                 case "Ids.Convert.LabelHeaderDcDcInput": return ioSystemGraphicsPowerType.Puid_Ids_Convert_LabelHeaderDcDcInput;
                 case "Ids.Convert.LabelHeaderDcDcInputUnit": return ioSystemGraphicsPowerType.Puid_Ids_Convert_LabelHeaderDcDcInputUnit;
                 case "Ids.Convert.InstrVoltInputDcDc": return ioSystemGraphicsPowerType.Puid_Ids_Convert_InstrVoltInputDcDc;
@@ -278,6 +283,7 @@ namespace ioSystemNetworkNet
                 case "Ids.Convert.LabelHeaderDcDcOutputUnit": return ioSystemGraphicsPowerType.Puid_Ids_Convert_LabelHeaderDcDcOutputUnit;
                 case "Ids.Convert.InstrVoltOutputDcDc": return ioSystemGraphicsPowerType.Puid_Ids_Convert_InstrVoltOutputDcDc;
                 case "Ids.Source.LabelHeaderNameBatteryMonitor": return ioSystemGraphicsPowerType.Puid_Ids_Source_LabelHeaderNameBatteryMonitor;
+                case "Ids.Source.DividerHeaderBatteryMonitor": return ioSystemGraphicsPowerType.Puid_Ids_Source_DividerHeaderBatteryMonitor;
                 case "Ids.Source.LabelHeaderVoltBattery": return ioSystemGraphicsPowerType.Puid_Ids_Source_LabelHeaderVoltBattery;
                 case "Ids.Source.LabelHeaderVoltBatteryUnit": return ioSystemGraphicsPowerType.Puid_Ids_Source_LabelHeaderVoltBatteryUnit;
                 case "Ids.Source.InstrVoltBattery": return ioSystemGraphicsPowerType.Puid_Ids_Source_InstrVoltBattery;
@@ -294,7 +300,7 @@ namespace ioSystemNetworkNet
         }
         public static ioSystemGraphicsPowerType GetPuid(Int32 puidValue)
         {
-            if ((puidValue >= 0) && (puidValue < 91))
+            if ((puidValue >= 0) && (puidValue < 93))
                 return (ioSystemGraphicsPowerType)puidValue;
             else
                 return ioSystemGraphicsPowerType.Puid_NotDefined;

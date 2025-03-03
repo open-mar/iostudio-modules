@@ -12,7 +12,7 @@
                 <Properties Text="NAME CHARGER" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
             <ioDivider LocalID="DividerHeaderChargerName" Margin="0,4,0,0">
-                <Properties TypeDivider="Outline" />
+                <Properties TypeDivider="Divider" />
             </ioDivider>
         </Grid>
         <Grid Row="1" Column="2" />

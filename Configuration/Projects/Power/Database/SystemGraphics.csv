@@ -89,3 +89,5 @@ PUID;Parent;LocalID;TypeGraphics
 88;Ids.Source;LabelHeaderTtDischrgBattery;ioLabel
 89;Ids.Source;InstrTtDischrgBattery;ioTextBlock
 90;Ids.Convert;DividerHeaderChargerName;ioDivider
+91;Ids.Convert;DividerHeaderDcDcConv;ioDivider
+92;Ids.Source;DividerHeaderBatteryMonitor;ioDivider
