@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ModuleClass Name="Test">
-    <Description>Test descr</Description>
-    <ModuleObject GlobalID="Ids.Ids" />
-</ModuleClass>

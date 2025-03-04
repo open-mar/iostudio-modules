@@ -7,7 +7,8 @@
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
             <ioPanelGrid LocalID="Command" VerticalAlignment="Top" Height="140" PanelGlobalID="Ids.Controller.CmdPanelSteer" />
             <ioPanelGrid LocalID="Mode" VerticalAlignment="Top" Height="120" PanelGlobalID="Ids.Controller.ModePanel" />
-            <ioPanelGrid LocalID="Reference" VerticalAlignment="Top" Height="140" PanelGlobalID="Ids.Controller.SetRefHdgPanel" />
+            <ioPanelGrid LocalID="RefDrive" VerticalAlignment="Top" Height="140" PanelGlobalID="Ids.Controller.SetRefDrivePanel" />
+            <ioPanelGrid LocalID="RefAuto" VerticalAlignment="Top" Height="140" PanelGlobalID="Ids.Controller.SetRefHdgPanel" />
         </Grid>
     </PanelObject>
 </PanelClass>

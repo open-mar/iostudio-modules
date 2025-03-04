@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PanelClass Name="SetRefDrivePanel">
+    <Description>Panel for setting commands in drive steering mode</Description>
+    <PanelObject ParentGlobalID="Ids.Controller" Background="ContainerBackground">
+        <RowDefinition Size="65" />
+        <RowDefinition Size="65" />
+        <ColumnDefinition />
+        <ColumnDefinition />
+        <ColumnDefinition />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1">
+            <ioButtonIcon LocalID="ButtonLeftThrust">
+                <Properties TypeColor="Normal" TypeFontIcon="MaterialDesign" IconID="arrow_back" />
+            </ioButtonIcon>
+        </Grid>
+        <Grid Row="1" Column="2">
+            <ioPanelGrid LocalID="GridThrustCmdHeader" VerticalAlignment="Top" Height="65" Margin="12,0,0,0">
+                <ioLabel LocalID="LabelThrustCmdHeader" Margin="0,20,0,0">
+                    <Properties Text="THRUST" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelThrustCmdHeaderUnit">
+                    <Properties Text="%" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="1" Column="3">
+            <ioPanelGrid LocalID="GridThrustCmd" VerticalAlignment="Top" Height="65">
+                <ioTextBlock LocalID="InstrThrustCmd" HorizontalAlignment="Center" Width="89">
+                    <Properties Text="0" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="1" Column="4">
+            <ioButtonIcon LocalID="ButtonRightThrust">
+                <Properties TypeColor="Normal" TypeFontIcon="MaterialDesign" IconID="arrow_forward" />
+            </ioButtonIcon>
+        </Grid>
+        <Grid Row="2" Column="1" >
+            <ioButtonIcon LocalID="ButtonLeftRudder">
+                <Properties TypeColor="Normal" TypeFontIcon="MaterialDesign" IconID="arrow_back" />
+            </ioButtonIcon>
+        </Grid>
+        <Grid Row="2" Column="2">
+            <ioPanelGrid LocalID="GridRudderCmdHeader" VerticalAlignment="Top" Height="65" Margin="12,0,0,0">
+                <ioLabel LocalID="LabelRudderCmdHeader" Margin="0,20,0,0">
+                    <Properties Text="RUDDER" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelRudderCmdHeaderUnit">
+                    <Properties Text="%" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="2" Column="3" >
+            <ioPanelGrid LocalID="GridRudderCmd" VerticalAlignment="Top" Height="65">
+                <ioTextBlock LocalID="InstrRudderCmd" HorizontalAlignment="Center" Width="89">
+                    <Properties Text="0" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="2" Column="4" >
+            <ioButtonIcon LocalID="ButtonRightRudder">
+                <Properties TypeColor="Normal" TypeFontIcon="MaterialDesign" IconID="arrow_forward" />
+            </ioButtonIcon>
+        </Grid>
+    </PanelObject>
+</PanelClass>

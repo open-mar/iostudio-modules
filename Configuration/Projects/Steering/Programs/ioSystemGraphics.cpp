@@ -42,11 +42,14 @@ ioSystemGraphicsType ioSystemGraphics::GetGraphicsType(Int32 puidValue)
     case 158: return Puid_Ids_Controller_GridHdgCmd; 
     case 159: return Puid_Ids_Controller_InstrHdgCmd; 
     case 20: return Puid_Ids_Controller_ButtonLeftSmall; 
-    case 21: return Puid_Ids_Controller_ButtMidZero; 
+    case 19: return Puid_Ids_Controller_ButtMidTrn; 
     case 22: return Puid_Ids_Controller_ButtRightSmall; 
-    case 23: return Puid_Ids_Controller_EncoderNumber; 
     case 24: return Puid_Ids_Controller_ButtLeftBig; 
     case 25: return Puid_Ids_Controller_ButtRightBig; 
+    case 160: return Puid_Ids_Controller_ButtonLeftThrust; 
+    case 161: return Puid_Ids_Controller_GridThrustmd; 
+    case 162: return Puid_Ids_Controller_InstrThrustCmd; 
+    case 163: return Puid_Ids_Controller_ButtonRightThrust; 
     case 45: return Puid_Ids_Pilot_GridSteerApPanel; 
     case 46: return Puid_Ids_Pilot_GridWindCmdHeader; 
     case 47: return Puid_Ids_Pilot_LabelWindCmdHeader; 

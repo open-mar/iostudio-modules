@@ -18,9 +18,7 @@ PUID;Parent;LocalID;TypeGraphics
 17;Ids.Controller;ButtCourse;ioButtonShape
 18;Ids.Controller;ButtStandby;ioButtonShape
 20;Ids.Controller;ButtonLeftSmall;ioButtonText
-21;Ids.Controller;ButtMidZero;ioButtonText
 22;Ids.Controller;ButtRightSmall;ioButtonText
-23;Ids.Controller;EncoderNumber;ioTextBoxNumber
 24;Ids.Controller;ButtLeftBig;ioButtonText
 25;Ids.Controller;ButtRightBig;ioButtonText
 26;Ids.Pilot;GridAutopilot;ioPanelGrid
@@ -157,3 +155,8 @@ PUID;Parent;LocalID;TypeGraphics
 157;Ids.Controller;LabelhdgCmdHeaderUnit;ioLabel
 158;Ids.Controller;GridHdgCmd;ioPanelGrid
 159;Ids.Controller;InstrHdgCmd;ioTextBlock
+19;Ids.Controller;ButtMidTrn;ioButtonText
+160;Ids.Controller;ButtonLeftThrust;ioButtonIcon
+161;Ids.Controller;GridThrustmd;ioPanelGrid
+162;Ids.Controller;InstrThrustCmd;ioTextBlock
+163;Ids.Controller;ButtonRightThrust;ioButtonText
