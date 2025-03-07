@@ -11,9 +11,16 @@ public:
     virtual ~SetRefDrivePanel();
     virtual void InitializeData(void);
     ioButtonIcon ButtonLeftThrust;
+    ioLabel LabelThrustCmdHeader;
+    ioLabel LabelThrustCmdHeaderUnit;
     ioTextBlock InstrThrustCmd;
-    ioButtonText ButtonRightThrust;
+    ioButtonIcon ButtonRightThrust;
+    ioButtonIcon ButtonLeftRudder;
+    ioLabel LabelRudderCmdHeader;
+    ioLabel LabelRudderCmdHeaderUnit;
+    ioTextBlock InstrRudderCmd;
+    ioButtonIcon ButtonRightRudder;
 protected:
-    ioGraphics* m_SetRefDrivePanelGraphics[3];
+    ioGraphics* m_SetRefDrivePanelGraphics[10];
 };
 #endif // __SETREFDRIVEPANEL_H

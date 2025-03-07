@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PanelClass Name="SetRefWindPanel">
+    <Description>Panel for setting commands in wind steering mode</Description>
+    <PanelObject ParentGlobalID="Ids.Controller" Background="ContainerBackground">
+        <RowDefinition Size="65" />
+        <RowDefinition Size="65" />
+        <ColumnDefinition Size="64" />
+        <ColumnDefinition />
+        <ColumnDefinition Size="64" />
+        <Grid Row="1" Column="1">
+            <ioButtonText LocalID="ButtonWindLeftSmall">
+                <Properties Text="-1" TypeColor="Normal" />
+            </ioButtonText>
+        </Grid>
+        <Grid Row="1" Column="2">
+            <ioPanelGrid LocalID="GridWindCmdHeader" HorizontalAlignment="Left" Width="64" VerticalAlignment="Top" Height="65" Margin="12,0,0,0">
+                <ioLabel LocalID="LabelWindCmdHeader" Margin="0,20,0,0">
+                    <Properties Text="WIND CMD" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelWindCmdHeaderUnit">
+                    <Properties Text="°" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridWindCmd" HorizontalAlignment="Right" Width="168" VerticalAlignment="Top" Height="65" IsStacked="FALSE">
+                <ioIcon LocalID="IconWindPort" HorizontalAlignment="Left" Width="40">
+                    <Properties TypeFont="MaterialDesign" IconID="arrow_forward" TypeColor="InstrumentEnhancedPrimary" />
+                </ioIcon>
+                <ioTextBlock LocalID="InstrWindCmd" HorizontalAlignment="Center" Width="92" Margin="40,0,40,0">
+                    <Properties Text="0" TypeColor="InstrumentEnhancedPrimary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+                <ioIcon LocalID="IconWindStarb" HorizontalAlignment="Right" Width="40">
+                    <Properties TypeFont="MaterialDesign" IconID="arrow_back" TypeColor="InstrumentEnhancedPrimary" />
+                </ioIcon>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="1" Column="3">
+            <ioButtonText LocalID="ButtWindRightSmall">
+                <Properties Text="+1" TypeColor="Normal" />
+            </ioButtonText>
+        </Grid>
+        <Grid Row="2" Column="1">
+            <ioButtonText LocalID="ButtWindLeftBig">
+                <Properties Text="-10" TypeColor="Normal" />
+            </ioButtonText>
+        </Grid>
+        <Grid Row="2" Column="2">
+            <ioButtonText LocalID="ButtWindMidTack" HorizontalAlignment="Center" Width="64">
+                <Properties Text="TCK" TypeColor="Normal" />
+            </ioButtonText>
+        </Grid>
+        <Grid Row="2" Column="3">
+            <ioButtonText LocalID="ButtWindRightBig">
+                <Properties Text="+10" TypeColor="Normal" />
+            </ioButtonText>
+        </Grid>
+    </PanelObject>
+</PanelClass>

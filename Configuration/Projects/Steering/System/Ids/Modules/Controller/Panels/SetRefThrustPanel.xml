@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PanelClass Name="SetRefThrustPanel">
+    <Description>Pane for setting commands in thrust steering mode</Description>
+    <PanelObject ParentGlobalID="Ids.Controller" Background="ContainerBackground">
+        <RowDefinition Size="65" />
+        <RowDefinition Size="65" />
+        <ColumnDefinition Size="64" />
+        <ColumnDefinition />
+        <ColumnDefinition Size="64" />
+        <Grid Row="1" Column="1">
+            <ioButtonText LocalID="ButtonThrustLeftSmall">
+                <Properties Text="-1" TypeColor="Normal" />
+            </ioButtonText>
+        </Grid>
+        <Grid Row="1" Column="2">
+            <ioPanelGrid LocalID="GridThrustCmdHeader" HorizontalAlignment="Left" Width="84" VerticalAlignment="Top" Height="65" Margin="12,0,0,0">
+                <ioLabel LocalID="LabelThrustCmdHeader" Margin="0,20,0,0">
+                    <Properties Text="THRUST CMD" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelThrustCmdHeaderUnit">
+                    <Properties Text="%" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridThrustCmd" HorizontalAlignment="Right" Width="120" VerticalAlignment="Top" Height="65">
+                <ioTextBlock LocalID="InstrThrustCmd" HorizontalAlignment="Right" Width="102" Margin="0,0,8,0">
+                    <Properties Text="0" TypeColor="InstrumentEnhancedPrimary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="1" Column="3">
+            <ioButtonText LocalID="ButtThrustRightSmall">
+                <Properties Text="+1" TypeColor="Normal" />
+            </ioButtonText>
+        </Grid>
+        <Grid Row="2" Column="1">
+            <ioButtonText LocalID="ButtThrustLeftBig">
+                <Properties Text="-10" TypeColor="Normal" />
+            </ioButtonText>
+        </Grid>
+        <Grid Row="2" Column="2">
+            <ioButtonText LocalID="ButtThrustMidZero" HorizontalAlignment="Center" Width="64">
+                <Properties Text="0" TypeColor="Normal" />
+            </ioButtonText>
+        </Grid>
+        <Grid Row="2" Column="3">
+            <ioButtonText LocalID="ButtRThrustightBig">
+                <Properties Text="+10" TypeColor="Normal" />
+            </ioButtonText>
+        </Grid>
+    </PanelObject>
+</PanelClass>

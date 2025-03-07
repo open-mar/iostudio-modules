@@ -49,6 +49,10 @@
     <tr><td>import_export</td><td class="materialicon">&#xE0C3;</td></tr>
     <tr><td>insert_link</td><td class="materialicon">&#xE250;</td></tr>
     <tr><td>info</td><td class="materialicon">&#xE88E;</td></tr>
+    <tr><td>keyboard_arrow_left</td><td class="materialicon">&#xE314;</td></tr>
+    <tr><td>keyboard_arrow_right</td><td class="materialicon">&#xE315;</td></tr>
+    <tr><td>keyboard_double_arrow_left</td><td class="materialicon">&#xEAC3;</td></tr>
+    <tr><td>keyboard_double_arrow_right</td><td class="materialicon">&#xEAC9;</td></tr>
     <tr><td>language</td><td class="materialicon">&#xE894;</td></tr>
     <tr><td>last_page</td><td class="materialicon">&#xE5DD;</td></tr>
     <tr><td>library_books</td><td class="materialicon">&#xE02F;</td></tr>

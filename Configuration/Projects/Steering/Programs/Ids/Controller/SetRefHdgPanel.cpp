@@ -11,7 +11,9 @@ SetRefHdgPanel::~SetRefHdgPanel()
 }
 void SetRefHdgPanel::InitializeData(void)
 {
-    m_PanelGraphics.SetListData((ioItem**)m_SetRefHdgPanelGraphics, 9);
+    m_PanelGraphics.SetListData((ioItem**)m_SetRefHdgPanelGraphics, 8);
+    AddGraphics(&ButtonLeftSmall, Puid_Ids_Controller_ButtonLeftSmall);
+    ButtonLeftSmall.SetTextForced((ioChars)"-1");
     AddGraphics(&LabelHdgCmdHeader, Puid_Ids_Controller_LabelHdgCmdHeader);
     LabelHdgCmdHeader.SetTextForced((ioChars)"HDG CMD");
     AddGraphics(&LabelhdgCmdHeaderUnit, Puid_Ids_Controller_LabelhdgCmdHeaderUnit);
@@ -19,16 +21,12 @@ void SetRefHdgPanel::InitializeData(void)
     AddGraphics(&InstrHdgCmd, Puid_Ids_Controller_InstrHdgCmd);
     InstrHdgCmd.SetTextForced((ioChars)"000");
     InstrHdgCmd.SetDecimals(1);
-    AddGraphics(&ButtonLeftSmall, Puid_Ids_Controller_ButtonLeftSmall);
-    ButtonLeftSmall.SetTextForced((ioChars)"-1");
-    AddGraphics(&ButtMidZero, Puid_Ids_Controller_ButtMidZero);
-    ButtMidZero.SetTextForced((ioChars)"0");
     AddGraphics(&ButtRightSmall, Puid_Ids_Controller_ButtRightSmall);
     ButtRightSmall.SetTextForced((ioChars)"+1");
-    AddGraphics(&EncoderNumber, Puid_Ids_Controller_EncoderNumber);
-    EncoderNumber.SetTextForced((ioChars)"0");
     AddGraphics(&ButtLeftBig, Puid_Ids_Controller_ButtLeftBig);
     ButtLeftBig.SetTextForced((ioChars)"-10");
+    AddGraphics(&ButtMidTrn, Puid_Ids_Controller_ButtMidTrn);
+    ButtMidTrn.SetTextForced((ioChars)"TRN");
     AddGraphics(&ButtRightBig, Puid_Ids_Controller_ButtRightBig);
     ButtRightBig.SetTextForced((ioChars)"+10");
 }

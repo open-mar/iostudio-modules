@@ -11,12 +11,27 @@ SetRefDrivePanel::~SetRefDrivePanel()
 }
 void SetRefDrivePanel::InitializeData(void)
 {
-    m_PanelGraphics.SetListData((ioItem**)m_SetRefDrivePanelGraphics, 3);
+    m_PanelGraphics.SetListData((ioItem**)m_SetRefDrivePanelGraphics, 10);
     AddGraphics(&ButtonLeftThrust, Puid_Ids_Controller_ButtonLeftThrust);
     ButtonLeftThrust.SetTextForced((ioChars)"");
+    AddGraphics(&LabelThrustCmdHeader, Puid_Ids_Controller_LabelThrustCmdHeader);
+    LabelThrustCmdHeader.SetTextForced((ioChars)"THRUST");
+    AddGraphics(&LabelThrustCmdHeaderUnit, Puid_Ids_Controller_LabelThrustCmdHeaderUnit);
+    LabelThrustCmdHeaderUnit.SetTextForced((ioChars)"%");
     AddGraphics(&InstrThrustCmd, Puid_Ids_Controller_InstrThrustCmd);
-    InstrThrustCmd.SetTextForced((ioChars)"000");
+    InstrThrustCmd.SetTextForced((ioChars)"0");
     InstrThrustCmd.SetDecimals(1);
     AddGraphics(&ButtonRightThrust, Puid_Ids_Controller_ButtonRightThrust);
-    ButtonRightThrust.SetTextForced((ioChars)"-1");
+    ButtonRightThrust.SetTextForced((ioChars)"");
+    AddGraphics(&ButtonLeftRudder, Puid_Ids_Controller_ButtonLeftRudder);
+    ButtonLeftRudder.SetTextForced((ioChars)"");
+    AddGraphics(&LabelRudderCmdHeader, Puid_Ids_Controller_LabelRudderCmdHeader);
+    LabelRudderCmdHeader.SetTextForced((ioChars)"RUDDER");
+    AddGraphics(&LabelRudderCmdHeaderUnit, Puid_Ids_Controller_LabelRudderCmdHeaderUnit);
+    LabelRudderCmdHeaderUnit.SetTextForced((ioChars)"%");
+    AddGraphics(&InstrRudderCmd, Puid_Ids_Controller_InstrRudderCmd);
+    InstrRudderCmd.SetTextForced((ioChars)"0");
+    InstrRudderCmd.SetDecimals(1);
+    AddGraphics(&ButtonRightRudder, Puid_Ids_Controller_ButtonRightRudder);
+    ButtonRightRudder.SetTextForced((ioChars)"");
 }

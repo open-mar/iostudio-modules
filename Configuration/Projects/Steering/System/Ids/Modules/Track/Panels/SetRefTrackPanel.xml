@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PanelClass Name="SetRefTrackPanel">
+    <Description>Panel for selection of active waypoint while track steering</Description>
+    <PanelObject ParentGlobalID="Ids.Track" Background="ContainerBackground">
+        <RowDefinition Size="148" />
+        <RowDefinition Size="48" />
+        <RowDefinition />
+        <ColumnDefinition />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical" SpanColumns="2">
+            <ioButtonText LocalID="ButtSelectRoute" VerticalAlignment="Top" Height="48">
+                <Properties Text="Select RTE ..." TypeColor="Normal" />
+            </ioButtonText>
+            <ioPanelGrid LocalID="GridSelectedRte" Margin="0,4,0,0" IsStacked="FALSE">
+                <ioLabel LocalID="LabelSelectedRteHeader" HorizontalAlignment="Left" Width="44" VerticalAlignment="Center" Height="20" Margin="12,0,0,0">
+                    <Properties Text="RTE" FontSize="Small" FontWeight="Normal" TypeColor="ElementActive" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioTextBlock LocalID="TextSelectedRte" Margin="56,0,0,0">
+                    <Properties Text="Name of route" TypeColor="InstrumentEnhancedPrimary" FontFamily="NotoSans" FontSize="MediumLarge" FontWeight="Normal" TextWrapping="NoWrap" Decimals="1" TextAlignment="Left" />
+                </ioTextBlock>
+            </ioPanelGrid>
+            <ioButtonText LocalID="ButtSelectWaypoint" VerticalAlignment="Top" Height="48" Margin="0,12,0,0">
+                <Properties Text="Select WPT ..." TypeColor="Normal" />
+            </ioButtonText>
+        </Grid>
+        <Grid Row="1" Column="2" IsStacked="TRUE" Orientation="Vertical" />
+        <Grid Row="2" Column="1">
+            <ioButtonText LocalID="ButtSelectWptPrev" VerticalAlignment="Top" Height="48">
+                <Properties Text="Previous WPT" TypeColor="Normal" />
+            </ioButtonText>
+        </Grid>
+        <Grid Row="2" Column="2">
+            <ioButtonText LocalID="ButtSelectWptNext" VerticalAlignment="Top" Height="48">
+                <Properties Text="Next WPT" TypeColor="Normal" />
+            </ioButtonText>
+        </Grid>
+        <Grid Row="3" Column="1" IsStacked="TRUE" Orientation="Vertical" SpanColumns="2">
+            <ioPanelGrid LocalID="GridSelectedWpt" Margin="0,4,0,0" IsStacked="FALSE">
+                <ioLabel LocalID="LabelSelectedWptHeader" HorizontalAlignment="Left" Width="44" VerticalAlignment="Center" Height="20" Margin="12,0,0,0">
+                    <Properties Text="WPT" FontSize="Small" FontWeight="Normal" TypeColor="ElementActive" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioTextBlock LocalID="TextSelectedWpt" Margin="56,0,0,0">
+                    <Properties Text="Name of waypoint" TypeColor="InstrumentEnhancedPrimary" FontFamily="NotoSans" FontSize="MediumLarge" FontWeight="Normal" TextWrapping="NoWrap" Decimals="1" TextAlignment="Left" />
+                </ioTextBlock>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="3" Column="2" />
+    </PanelObject>
+</PanelClass>

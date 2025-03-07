@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PanelClass Name="SetRefTrackPanelMode">
+    <Description>Modes for track steering</Description>
+    <PanelObject ParentGlobalID="Ids.Track" Background="ContainerBackground">
+        <RowDefinition />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1" />
+    </PanelObject>
+</PanelClass>

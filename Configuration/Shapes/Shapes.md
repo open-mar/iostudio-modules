@@ -87,14 +87,19 @@ The use of the files is limited by the [terms of the OpenBridge project](https:/
 |AutoTrack|![ioShape](Maneuvering/AutoTrack.svg)|
 |Joystick|![ioShape](Maneuvering/Joystick.svg)|
 |Rotate|![ioShape](Maneuvering/Rotate.svg)|
+|Rudder|![ioShape](Maneuvering/Rudder.svg)|
 |StationKeeping|![ioShape](Maneuvering/StationKeeping.svg)|
 |TrackKeeping|![ioShape](Maneuvering/TrackKeeping.svg)|
+|Turn |![ioShape](Maneuvering/Turn.svg)|
 
-## TypeShape: MotionMeasurements
+## TypeShape: Motion
 
 |ShapeID|ioShape|
 |-----|---|
-|ROT|![ioShape](MotionMeasurements/ROT.svg)|
+|COG|![ioShape](Motion/COG.svg)|
+|HDG|![ioShape](Motion/HDG.svg)|
+|ROT|![ioShape](Motion/ROT.svg)|
+|STW|![ioShape](Motion/STW.svg)|
 
 ## TypeShape: NavigationInstruments
 

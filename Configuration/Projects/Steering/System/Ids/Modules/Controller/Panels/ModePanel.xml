@@ -2,9 +2,10 @@
 <PanelClass Name="ModePanel">
     <Description>Mode control panel for CP1+2</Description>
     <PanelObject ParentGlobalID="Ids.Controller" Background="ContainerBackground">
-        <RowDefinition Size="20" />
-        <RowDefinition Size="40" />
-        <RowDefinition Size="40" />
+        <RowDefinition Size="24" />
+        <RowDefinition Size="48" />
+        <RowDefinition Size="48" />
+        <RowDefinition Size="48" />
         <ColumnDefinition />
         <ColumnDefinition />
         <ColumnDefinition />
@@ -26,8 +27,8 @@
             </ioButtonShape>
         </Grid>
         <Grid Row="2" Column="3">
-            <ioButtonShape LocalID="ButtRiver">
-                <Properties Text="RIVER" TypeColor="Flat" TypeShape="Maneuvering" ShapeID="Rotate" />
+            <ioButtonShape LocalID="ButtWind">
+                <Properties Text="WIND" TypeColor="Flat" TypeShape="SensorsNetwork" ShapeID="WindSensor" />
             </ioButtonShape>
         </Grid>
         <Grid Row="3" Column="1">
@@ -41,6 +42,21 @@
             </ioButtonShape>
         </Grid>
         <Grid Row="3" Column="3">
+            <ioButtonShape LocalID="ButtRiver">
+                <Properties Text="RIVER" TypeColor="Flat" TypeShape="Maneuvering" ShapeID="Rotate" />
+            </ioButtonShape>
+        </Grid>
+        <Grid Row="4" Column="1">
+            <ioButtonShape LocalID="ButtThrust">
+                <Properties Text="FU" TypeColor="Flat" TypeShape="Maneuvering" ShapeID="Turn" />
+            </ioButtonShape>
+        </Grid>
+        <Grid Row="4" Column="2">
+            <ioButtonShape LocalID="ButtDrive">
+                <Properties Text="NFU" TypeColor="Flat" TypeShape="Maneuvering" ShapeID="Rudder" />
+            </ioButtonShape>
+        </Grid>
+        <Grid Row="4" Column="3">
             <ioButtonShape LocalID="ButtStandby">
                 <Properties Text="STANDBY" TypeColor="Raised" TypeShape="Action" ShapeID="Off" />
             </ioButtonShape>
