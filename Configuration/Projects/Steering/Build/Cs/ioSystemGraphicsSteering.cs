@@ -42,16 +42,6 @@ namespace ioSystemNetworkNet
         Puid_Ids_Controller_GridRudderCmd = 172,
         Puid_Ids_Controller_InstrRudderCmd = 173,
         Puid_Ids_Controller_ButtonRightRudder = 174,
-        Puid_Ids_Controller_ButtonLeftSmall = 20,
-        Puid_Ids_Controller_GridHdgCmdHeader = 155,
-        Puid_Ids_Controller_LabelHdgCmdHeader = 156,
-        Puid_Ids_Controller_LabelhdgCmdHeaderUnit = 157,
-        Puid_Ids_Controller_GridHdgCmd = 158,
-        Puid_Ids_Controller_InstrHdgCmd = 159,
-        Puid_Ids_Controller_ButtRightSmall = 22,
-        Puid_Ids_Controller_ButtLeftBig = 24,
-        Puid_Ids_Controller_ButtMidTrn = 19,
-        Puid_Ids_Controller_ButtRightBig = 25,
         Puid_Ids_Controller_ButtonRiverefRivertSmall = 182,
         Puid_Ids_Controller_GridRiverCmdRot = 183,
         Puid_Ids_Controller_LabelRiverCmdRot = 184,
@@ -72,18 +62,6 @@ namespace ioSystemNetworkNet
         Puid_Ids_Controller_ButtThrustLeftBig = 175,
         Puid_Ids_Controller_ButtThrustMidZero = 176,
         Puid_Ids_Controller_ButtRThrustightBig = 177,
-        Puid_Ids_Controller_ButtonWindLeftSmall = 192,
-        Puid_Ids_Controller_GridWindCmdHeader = 193,
-        Puid_Ids_Controller_LabelWindCmdHeader = 194,
-        Puid_Ids_Controller_LabelWindCmdHeaderUnit = 195,
-        Puid_Ids_Controller_GridWindCmd = 196,
-        Puid_Ids_Controller_IconWindPort = 202,
-        Puid_Ids_Controller_InstrWindCmd = 197,
-        Puid_Ids_Controller_IconWindStarb = 203,
-        Puid_Ids_Controller_ButtWindRightSmall = 198,
-        Puid_Ids_Controller_ButtWindLeftBig = 199,
-        Puid_Ids_Controller_ButtWindMidTack = 204,
-        Puid_Ids_Controller_ButtWindRightBig = 201,
         Puid_Ids_Pilot_GridSteerApPanel = 45,
         Puid_Ids_Pilot_GridWindCmdHeader = 46,
         Puid_Ids_Pilot_LabelWindCmdHeader = 47,
@@ -151,6 +129,28 @@ namespace ioSystemNetworkNet
         Puid_Ids_Pilot_InstrDepth = 109,
         Puid_Ids_Pilot_GridSpeed = 110,
         Puid_Ids_Pilot_InstrSpeed = 111,
+        Puid_Ids_Pilot_ButtonLeftSmall = 222,
+        Puid_Ids_Pilot_GridHdgCmdHeader = 223,
+        Puid_Ids_Pilot_LabelHdgCmdHeader = 224,
+        Puid_Ids_Pilot_LabelhdgCmdHeaderUnit = 225,
+        Puid_Ids_Pilot_GridHdgCmd = 226,
+        Puid_Ids_Pilot_InstrHdgCmd = 227,
+        Puid_Ids_Pilot_ButtRightSmall = 228,
+        Puid_Ids_Pilot_ButtLeftBig = 229,
+        Puid_Ids_Pilot_ButtMidTrn = 230,
+        Puid_Ids_Pilot_ButtRightBig = 231,
+        Puid_Ids_Pilot_ButtonWindLeftSmall = 232,
+        Puid_Ids_Pilot_GridWindCmdHeader = 46,
+        Puid_Ids_Pilot_LabelWindCmdHeader = 47,
+        Puid_Ids_Pilot_LabelWindCmdHeaderUnit = 48,
+        Puid_Ids_Pilot_GridWindCmd = 49,
+        Puid_Ids_Pilot_IconWindPort = 233,
+        Puid_Ids_Pilot_InstrWindCmd = 50,
+        Puid_Ids_Pilot_IconWindStarb = 234,
+        Puid_Ids_Pilot_ButtWindRightSmall = 235,
+        Puid_Ids_Pilot_ButtWindLeftBig = 236,
+        Puid_Ids_Pilot_ButtWindMidTack = 237,
+        Puid_Ids_Pilot_ButtWindRightBig = 238,
         Puid_Ids_Pilot_GridAutopilot = 26,
         Puid_Ids_Pilot_LabelApSteer = 27,
         Puid_Ids_Pilot_InstrHeadingRef = 28,
@@ -213,6 +213,15 @@ namespace ioSystemNetworkNet
         Puid_Ids_Track_InstrTtgWpt = 152,
         Puid_Ids_Track_GridDpt = 153,
         Puid_Ids_Track_InstrDpt = 154,
+        Puid_Ids_Track_LabelRteFolderHeader = 217,
+        Puid_Ids_Track_GridRteFolder = 214,
+        Puid_Ids_Track_RadioRteFolder = 215,
+        Puid_Ids_Track_CmbRteFolder = 216,
+        Puid_Ids_Track_LabelRteSourceHeader = 218,
+        Puid_Ids_Track_GridRteSource = 219,
+        Puid_Ids_Track_RadioRteSource = 220,
+        Puid_Ids_Track_CmbRteSource = 221,
+        Puid_Ids_Track_ButtonCancelRteSelect = 19,
         Puid_Ids_Track_ButtSelectRoute = 205,
         Puid_Ids_Track_GridSelectedRte = 200,
         Puid_Ids_Track_LabelSelectedRteHeader = 206,
@@ -267,16 +276,6 @@ namespace ioSystemNetworkNet
                 case ioSystemGraphicsSteeringType.Puid_Ids_Controller_GridRudderCmd: return "Ids.Controller.GridRudderCmd";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Controller_InstrRudderCmd: return "Ids.Controller.InstrRudderCmd";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtonRightRudder: return "Ids.Controller.ButtonRightRudder";
-                case ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtonLeftSmall: return "Ids.Controller.ButtonLeftSmall";
-                case ioSystemGraphicsSteeringType.Puid_Ids_Controller_GridHdgCmdHeader: return "Ids.Controller.GridHdgCmdHeader";
-                case ioSystemGraphicsSteeringType.Puid_Ids_Controller_LabelHdgCmdHeader: return "Ids.Controller.LabelHdgCmdHeader";
-                case ioSystemGraphicsSteeringType.Puid_Ids_Controller_LabelhdgCmdHeaderUnit: return "Ids.Controller.LabelhdgCmdHeaderUnit";
-                case ioSystemGraphicsSteeringType.Puid_Ids_Controller_GridHdgCmd: return "Ids.Controller.GridHdgCmd";
-                case ioSystemGraphicsSteeringType.Puid_Ids_Controller_InstrHdgCmd: return "Ids.Controller.InstrHdgCmd";
-                case ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtRightSmall: return "Ids.Controller.ButtRightSmall";
-                case ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtLeftBig: return "Ids.Controller.ButtLeftBig";
-                case ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtMidTrn: return "Ids.Controller.ButtMidTrn";
-                case ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtRightBig: return "Ids.Controller.ButtRightBig";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtonRiverefRivertSmall: return "Ids.Controller.ButtonRiverefRivertSmall";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Controller_GridRiverCmdRot: return "Ids.Controller.GridRiverCmdRot";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Controller_LabelRiverCmdRot: return "Ids.Controller.LabelRiverCmdRot";
@@ -297,18 +296,6 @@ namespace ioSystemNetworkNet
                 case ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtThrustLeftBig: return "Ids.Controller.ButtThrustLeftBig";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtThrustMidZero: return "Ids.Controller.ButtThrustMidZero";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtRThrustightBig: return "Ids.Controller.ButtRThrustightBig";
-                case ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtonWindLeftSmall: return "Ids.Controller.ButtonWindLeftSmall";
-                case ioSystemGraphicsSteeringType.Puid_Ids_Controller_GridWindCmdHeader: return "Ids.Controller.GridWindCmdHeader";
-                case ioSystemGraphicsSteeringType.Puid_Ids_Controller_LabelWindCmdHeader: return "Ids.Controller.LabelWindCmdHeader";
-                case ioSystemGraphicsSteeringType.Puid_Ids_Controller_LabelWindCmdHeaderUnit: return "Ids.Controller.LabelWindCmdHeaderUnit";
-                case ioSystemGraphicsSteeringType.Puid_Ids_Controller_GridWindCmd: return "Ids.Controller.GridWindCmd";
-                case ioSystemGraphicsSteeringType.Puid_Ids_Controller_IconWindPort: return "Ids.Controller.IconWindPort";
-                case ioSystemGraphicsSteeringType.Puid_Ids_Controller_InstrWindCmd: return "Ids.Controller.InstrWindCmd";
-                case ioSystemGraphicsSteeringType.Puid_Ids_Controller_IconWindStarb: return "Ids.Controller.IconWindStarb";
-                case ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtWindRightSmall: return "Ids.Controller.ButtWindRightSmall";
-                case ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtWindLeftBig: return "Ids.Controller.ButtWindLeftBig";
-                case ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtWindMidTack: return "Ids.Controller.ButtWindMidTack";
-                case ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtWindRightBig: return "Ids.Controller.ButtWindRightBig";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridSteerApPanel: return "Ids.Pilot.GridSteerApPanel";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridWindCmdHeader: return "Ids.Pilot.GridWindCmdHeader";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelWindCmdHeader: return "Ids.Pilot.LabelWindCmdHeader";
@@ -376,6 +363,28 @@ namespace ioSystemNetworkNet
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrDepth: return "Ids.Pilot.InstrDepth";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridSpeed: return "Ids.Pilot.GridSpeed";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrSpeed: return "Ids.Pilot.InstrSpeed";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_ButtonLeftSmall: return "Ids.Pilot.ButtonLeftSmall";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridHdgCmdHeader: return "Ids.Pilot.GridHdgCmdHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelHdgCmdHeader: return "Ids.Pilot.LabelHdgCmdHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelhdgCmdHeaderUnit: return "Ids.Pilot.LabelhdgCmdHeaderUnit";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridHdgCmd: return "Ids.Pilot.GridHdgCmd";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrHdgCmd: return "Ids.Pilot.InstrHdgCmd";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_ButtRightSmall: return "Ids.Pilot.ButtRightSmall";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_ButtLeftBig: return "Ids.Pilot.ButtLeftBig";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_ButtMidTrn: return "Ids.Pilot.ButtMidTrn";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_ButtRightBig: return "Ids.Pilot.ButtRightBig";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_ButtonWindLeftSmall: return "Ids.Pilot.ButtonWindLeftSmall";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridWindCmdHeader: return "Ids.Pilot.GridWindCmdHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelWindCmdHeader: return "Ids.Pilot.LabelWindCmdHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelWindCmdHeaderUnit: return "Ids.Pilot.LabelWindCmdHeaderUnit";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridWindCmd: return "Ids.Pilot.GridWindCmd";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_IconWindPort: return "Ids.Pilot.IconWindPort";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrWindCmd: return "Ids.Pilot.InstrWindCmd";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_IconWindStarb: return "Ids.Pilot.IconWindStarb";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_ButtWindRightSmall: return "Ids.Pilot.ButtWindRightSmall";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_ButtWindLeftBig: return "Ids.Pilot.ButtWindLeftBig";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_ButtWindMidTack: return "Ids.Pilot.ButtWindMidTack";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_ButtWindRightBig: return "Ids.Pilot.ButtWindRightBig";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridAutopilot: return "Ids.Pilot.GridAutopilot";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelApSteer: return "Ids.Pilot.LabelApSteer";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrHeadingRef: return "Ids.Pilot.InstrHeadingRef";
@@ -438,6 +447,15 @@ namespace ioSystemNetworkNet
                 case ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrTtgWpt: return "Ids.Track.InstrTtgWpt";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridDpt: return "Ids.Track.GridDpt";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrDpt: return "Ids.Track.InstrDpt";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelRteFolderHeader: return "Ids.Track.LabelRteFolderHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridRteFolder: return "Ids.Track.GridRteFolder";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_RadioRteFolder: return "Ids.Track.RadioRteFolder";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_CmbRteFolder: return "Ids.Track.CmbRteFolder";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelRteSourceHeader: return "Ids.Track.LabelRteSourceHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridRteSource: return "Ids.Track.GridRteSource";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_RadioRteSource: return "Ids.Track.RadioRteSource";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_CmbRteSource: return "Ids.Track.CmbRteSource";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_ButtonCancelRteSelect: return "Ids.Track.ButtonCancelRteSelect";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Track_ButtSelectRoute: return "Ids.Track.ButtSelectRoute";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridSelectedRte: return "Ids.Track.GridSelectedRte";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelSelectedRteHeader: return "Ids.Track.LabelSelectedRteHeader";
@@ -492,16 +510,6 @@ namespace ioSystemNetworkNet
                 case "Ids.Controller.GridRudderCmd": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_GridRudderCmd;
                 case "Ids.Controller.InstrRudderCmd": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_InstrRudderCmd;
                 case "Ids.Controller.ButtonRightRudder": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtonRightRudder;
-                case "Ids.Controller.ButtonLeftSmall": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtonLeftSmall;
-                case "Ids.Controller.GridHdgCmdHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_GridHdgCmdHeader;
-                case "Ids.Controller.LabelHdgCmdHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_LabelHdgCmdHeader;
-                case "Ids.Controller.LabelhdgCmdHeaderUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_LabelhdgCmdHeaderUnit;
-                case "Ids.Controller.GridHdgCmd": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_GridHdgCmd;
-                case "Ids.Controller.InstrHdgCmd": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_InstrHdgCmd;
-                case "Ids.Controller.ButtRightSmall": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtRightSmall;
-                case "Ids.Controller.ButtLeftBig": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtLeftBig;
-                case "Ids.Controller.ButtMidTrn": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtMidTrn;
-                case "Ids.Controller.ButtRightBig": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtRightBig;
                 case "Ids.Controller.ButtonRiverefRivertSmall": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtonRiverefRivertSmall;
                 case "Ids.Controller.GridRiverCmdRot": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_GridRiverCmdRot;
                 case "Ids.Controller.LabelRiverCmdRot": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_LabelRiverCmdRot;
@@ -522,18 +530,6 @@ namespace ioSystemNetworkNet
                 case "Ids.Controller.ButtThrustLeftBig": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtThrustLeftBig;
                 case "Ids.Controller.ButtThrustMidZero": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtThrustMidZero;
                 case "Ids.Controller.ButtRThrustightBig": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtRThrustightBig;
-                case "Ids.Controller.ButtonWindLeftSmall": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtonWindLeftSmall;
-                case "Ids.Controller.GridWindCmdHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_GridWindCmdHeader;
-                case "Ids.Controller.LabelWindCmdHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_LabelWindCmdHeader;
-                case "Ids.Controller.LabelWindCmdHeaderUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_LabelWindCmdHeaderUnit;
-                case "Ids.Controller.GridWindCmd": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_GridWindCmd;
-                case "Ids.Controller.IconWindPort": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_IconWindPort;
-                case "Ids.Controller.InstrWindCmd": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_InstrWindCmd;
-                case "Ids.Controller.IconWindStarb": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_IconWindStarb;
-                case "Ids.Controller.ButtWindRightSmall": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtWindRightSmall;
-                case "Ids.Controller.ButtWindLeftBig": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtWindLeftBig;
-                case "Ids.Controller.ButtWindMidTack": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtWindMidTack;
-                case "Ids.Controller.ButtWindRightBig": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtWindRightBig;
                 case "Ids.Pilot.GridSteerApPanel": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridSteerApPanel;
                 case "Ids.Pilot.GridWindCmdHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridWindCmdHeader;
                 case "Ids.Pilot.LabelWindCmdHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelWindCmdHeader;
@@ -601,6 +597,28 @@ namespace ioSystemNetworkNet
                 case "Ids.Pilot.InstrDepth": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrDepth;
                 case "Ids.Pilot.GridSpeed": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridSpeed;
                 case "Ids.Pilot.InstrSpeed": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrSpeed;
+                case "Ids.Pilot.ButtonLeftSmall": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_ButtonLeftSmall;
+                case "Ids.Pilot.GridHdgCmdHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridHdgCmdHeader;
+                case "Ids.Pilot.LabelHdgCmdHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelHdgCmdHeader;
+                case "Ids.Pilot.LabelhdgCmdHeaderUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelhdgCmdHeaderUnit;
+                case "Ids.Pilot.GridHdgCmd": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridHdgCmd;
+                case "Ids.Pilot.InstrHdgCmd": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrHdgCmd;
+                case "Ids.Pilot.ButtRightSmall": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_ButtRightSmall;
+                case "Ids.Pilot.ButtLeftBig": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_ButtLeftBig;
+                case "Ids.Pilot.ButtMidTrn": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_ButtMidTrn;
+                case "Ids.Pilot.ButtRightBig": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_ButtRightBig;
+                case "Ids.Pilot.ButtonWindLeftSmall": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_ButtonWindLeftSmall;
+                case "Ids.Pilot.GridWindCmdHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridWindCmdHeader;
+                case "Ids.Pilot.LabelWindCmdHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelWindCmdHeader;
+                case "Ids.Pilot.LabelWindCmdHeaderUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelWindCmdHeaderUnit;
+                case "Ids.Pilot.GridWindCmd": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridWindCmd;
+                case "Ids.Pilot.IconWindPort": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_IconWindPort;
+                case "Ids.Pilot.InstrWindCmd": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrWindCmd;
+                case "Ids.Pilot.IconWindStarb": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_IconWindStarb;
+                case "Ids.Pilot.ButtWindRightSmall": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_ButtWindRightSmall;
+                case "Ids.Pilot.ButtWindLeftBig": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_ButtWindLeftBig;
+                case "Ids.Pilot.ButtWindMidTack": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_ButtWindMidTack;
+                case "Ids.Pilot.ButtWindRightBig": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_ButtWindRightBig;
                 case "Ids.Pilot.GridAutopilot": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridAutopilot;
                 case "Ids.Pilot.LabelApSteer": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelApSteer;
                 case "Ids.Pilot.InstrHeadingRef": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrHeadingRef;
@@ -663,6 +681,15 @@ namespace ioSystemNetworkNet
                 case "Ids.Track.InstrTtgWpt": return ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrTtgWpt;
                 case "Ids.Track.GridDpt": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridDpt;
                 case "Ids.Track.InstrDpt": return ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrDpt;
+                case "Ids.Track.LabelRteFolderHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelRteFolderHeader;
+                case "Ids.Track.GridRteFolder": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridRteFolder;
+                case "Ids.Track.RadioRteFolder": return ioSystemGraphicsSteeringType.Puid_Ids_Track_RadioRteFolder;
+                case "Ids.Track.CmbRteFolder": return ioSystemGraphicsSteeringType.Puid_Ids_Track_CmbRteFolder;
+                case "Ids.Track.LabelRteSourceHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelRteSourceHeader;
+                case "Ids.Track.GridRteSource": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridRteSource;
+                case "Ids.Track.RadioRteSource": return ioSystemGraphicsSteeringType.Puid_Ids_Track_RadioRteSource;
+                case "Ids.Track.CmbRteSource": return ioSystemGraphicsSteeringType.Puid_Ids_Track_CmbRteSource;
+                case "Ids.Track.ButtonCancelRteSelect": return ioSystemGraphicsSteeringType.Puid_Ids_Track_ButtonCancelRteSelect;
                 case "Ids.Track.ButtSelectRoute": return ioSystemGraphicsSteeringType.Puid_Ids_Track_ButtSelectRoute;
                 case "Ids.Track.GridSelectedRte": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridSelectedRte;
                 case "Ids.Track.LabelSelectedRteHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelSelectedRteHeader;
@@ -678,7 +705,7 @@ namespace ioSystemNetworkNet
         }
         public static ioSystemGraphicsSteeringType GetPuid(Int32 puidValue)
         {
-            if ((puidValue >= 0) && (puidValue < 219))
+            if ((puidValue >= 0) && (puidValue < 228))
                 return (ioSystemGraphicsSteeringType)puidValue;
             else
                 return ioSystemGraphicsSteeringType.Puid_NotDefined;

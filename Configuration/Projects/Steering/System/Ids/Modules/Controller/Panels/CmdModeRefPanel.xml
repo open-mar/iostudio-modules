@@ -5,11 +5,11 @@
         <RowDefinition />
         <ColumnDefinition />
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
-            <ioPanelGrid LocalID="Command" VerticalAlignment="Top" Height="140" PanelGlobalID="Ids.Controller.CmdPanelSteer" />
+            <ioPanelGrid LocalID="Command" VerticalAlignment="Top" Height="154" PanelGlobalID="Ids.Controller.CmdPanelSteer" />
             <ioPanelGrid LocalID="Mode" VerticalAlignment="Top" Height="172" PanelGlobalID="Ids.Controller.ModePanel" />
             <ioPanelGrid LocalID="RefDrive" VerticalAlignment="Top" Height="136" PanelGlobalID="Ids.Controller.SetRefDrivePanel" />
             <ioPanelGrid LocalID="RefThrust" VerticalAlignment="Top" Height="136" PanelGlobalID="Ids.Controller.SetRefThrustPanel" />
-            <ioPanelGrid LocalID="RefAuto" VerticalAlignment="Top" Height="136" PanelGlobalID="Ids.Controller.SetRefHdgPanel" />
+            <ioPanelGrid LocalID="RefAuto" VerticalAlignment="Top" Height="136" PanelGlobalID="Ids.Controller.SetRefRiverPanel" />
         </Grid>
     </PanelObject>
 </PanelClass>

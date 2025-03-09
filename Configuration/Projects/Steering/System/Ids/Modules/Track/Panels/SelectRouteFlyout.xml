@@ -4,6 +4,24 @@
     <PanelObject ParentGlobalID="Ids.Track" Background="ContainerBackground">
         <RowDefinition />
         <ColumnDefinition />
-        <Grid Row="1" Column="1" />
+        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
+            <ioLabel LocalID="LabelRteFolderHeader" Margin="4,0,4,0">
+                <Properties Text="RTE folder" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
+            <ioPanelGrid LocalID="GridRteFolder" Margin="4,0,4,0" IsStacked="FALSE">
+                <ioRadioButton LocalID="RadioRteFolder" HorizontalAlignment="Left" Width="24" VerticalAlignment="Center" Height="24" />
+                <ioComboBox LocalID="CmbRteFolder" Margin="40,0,0,0" />
+            </ioPanelGrid>
+            <ioLabel LocalID="LabelRteSourceHeader" Margin="4,0,4,0">
+                <Properties Text="RTE source" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
+            <ioPanelGrid LocalID="GridRteSource" Margin="4,0,4,0" IsStacked="FALSE">
+                <ioRadioButton LocalID="RadioRteSource" HorizontalAlignment="Left" Width="24" VerticalAlignment="Center" Height="24" />
+                <ioComboBox LocalID="CmbRteSource" Margin="40,0,0,0" />
+            </ioPanelGrid>
+            <ioButtonIcon LocalID="ButtonCancelRteSelect" VerticalAlignment="Top" Height="40" Margin="0,4,0,0">
+                <Properties Text="Cancel" TypeColor="Normal" TypeFontIcon="Windows" IconID="Cancel" />
+            </ioButtonIcon>
+        </Grid>
     </PanelObject>
 </PanelClass>

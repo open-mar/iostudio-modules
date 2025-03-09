@@ -8,9 +8,9 @@
         <ColumnDefinition />
         <ColumnDefinition />
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical" SpanColumns="2">
-            <ioButtonText LocalID="ButtSelectRoute" VerticalAlignment="Top" Height="48">
+            <ioButtonTextFlyout LocalID="ButtSelectRoute" VerticalAlignment="Top" Height="48" PanelGlobalID="Ids.Track.SelectRouteFlyout">
                 <Properties Text="Select RTE ..." TypeColor="Normal" />
-            </ioButtonText>
+            </ioButtonTextFlyout>
             <ioPanelGrid LocalID="GridSelectedRte" Margin="0,4,0,0" IsStacked="FALSE">
                 <ioLabel LocalID="LabelSelectedRteHeader" HorizontalAlignment="Left" Width="44" VerticalAlignment="Center" Height="20" Margin="12,0,0,0">
                     <Properties Text="RTE" FontSize="Small" FontWeight="Normal" TypeColor="ElementActive" TextWrapping="NoWrap" />

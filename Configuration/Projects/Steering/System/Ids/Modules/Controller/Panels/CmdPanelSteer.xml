@@ -4,7 +4,7 @@
     <PanelObject ParentGlobalID="Ids.Controller" Background="ContainerBackground">
         <RowDefinition Size="20" />
         <RowDefinition Size="80" />
-        <RowDefinition Size="40" />
+        <RowDefinition Size="48" />
         <ColumnDefinition />
         <ColumnDefinition />
         <Grid Row="1" Column="1" SpanColumns="2">

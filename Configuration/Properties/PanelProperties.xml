@@ -183,6 +183,7 @@
                                 <Variable LocalID="TypeColor" TypeEnumeration="ioColorType">0</Variable>
                             </Properties>
                             <Children>
+                                <GraphicsType Name="ioButtonTextFlyout"/>
                                 <GraphicsType Name="ioButtonIcon">
                                     <Properties>
                                         <Variable LocalID="TypeFontIcon" TypeNum="String">Windows</Variable>

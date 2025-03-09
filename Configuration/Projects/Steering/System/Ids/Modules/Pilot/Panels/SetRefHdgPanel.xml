@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PanelClass Name="SetRefHdgPanel">
     <Description>Panel for setting heading command</Description>
-    <PanelObject ParentGlobalID="Ids.Controller" Background="ContainerBackground">
+    <PanelObject ParentGlobalID="Ids.Pilot" Background="ContainerBackground">
         <RowDefinition Size="65" />
         <RowDefinition Size="65" />
         <ColumnDefinition Size="64" />
