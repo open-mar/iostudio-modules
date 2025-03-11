@@ -11,7 +11,7 @@ SelectRouteFlyout::~SelectRouteFlyout()
 }
 void SelectRouteFlyout::InitializeData(void)
 {
-    m_PanelGraphics.SetListData((ioItem**)m_SelectRouteFlyoutGraphics, 7);
+    m_PanelGraphics.SetListData((ioItem**)m_SelectRouteFlyoutGraphics, 20);
     AddGraphics(&LabelRteFolderHeader, Puid_Ids_Track_LabelRteFolderHeader);
     LabelRteFolderHeader.SetTextForced((ioChars)"RTE folder");
     AddGraphics(&RadioRteFolder, Puid_Ids_Track_RadioRteFolder);
@@ -20,6 +20,34 @@ void SelectRouteFlyout::InitializeData(void)
     LabelRteSourceHeader.SetTextForced((ioChars)"RTE source");
     AddGraphics(&RadioRteSource, Puid_Ids_Track_RadioRteSource);
     AddGraphics(&CmbRteSource, Puid_Ids_Track_CmbRteSource);
+    AddGraphics(&LabelRteListHeader, Puid_Ids_Track_LabelRteListHeader);
+    LabelRteListHeader.SetTextForced((ioChars)"RTE");
+    AddGraphics(&CmbRteList, Puid_Ids_Track_CmbRteList);
+    AddGraphics(&ButtonPrevRte, Puid_Ids_Track_ButtonPrevRte);
+    ButtonPrevRte.SetTextForced((ioChars)"Prev RTE");
+    AddGraphics(&ButtonNextRte, Puid_Ids_Track_ButtonNextRte);
+    ButtonNextRte.SetTextForced((ioChars)"Next RTE");
+    AddGraphics(&LabelNearestWptHeader, Puid_Ids_Track_LabelNearestWptHeader);
+    LabelNearestWptHeader.SetTextForced((ioChars)"Nearest WPT");
+    AddGraphics(&InstrNearestWpt, Puid_Ids_Track_InstrNearestWpt);
+    InstrNearestWpt.SetTextForced((ioChars)"WPT Name");
+    InstrNearestWpt.SetDecimals(1);
+    AddGraphics(&LabelBtwSelectRteHeader, Puid_Ids_Track_LabelBtwSelectRteHeader);
+    LabelBtwSelectRteHeader.SetTextForced((ioChars)"BTW");
+    AddGraphics(&LabelBtwSelectRteHeaderUnit, Puid_Ids_Track_LabelBtwSelectRteHeaderUnit);
+    LabelBtwSelectRteHeaderUnit.SetTextForced((ioChars)"°T");
+    AddGraphics(&LabelDtwSelectRteHeader, Puid_Ids_Track_LabelDtwSelectRteHeader);
+    LabelDtwSelectRteHeader.SetTextForced((ioChars)"DTW");
+    AddGraphics(&LabelDtwSelectRteHeaderUnit, Puid_Ids_Track_LabelDtwSelectRteHeaderUnit);
+    LabelDtwSelectRteHeaderUnit.SetTextForced((ioChars)"m");
     AddGraphics(&ButtonCancelRteSelect, Puid_Ids_Track_ButtonCancelRteSelect);
     ButtonCancelRteSelect.SetTextForced((ioChars)"Cancel");
+    AddGraphics(&InstrBtwSelectRte, Puid_Ids_Track_InstrBtwSelectRte);
+    InstrBtwSelectRte.SetTextForced((ioChars)"000");
+    InstrBtwSelectRte.SetDecimals(1);
+    AddGraphics(&InstrDtwSelectRte, Puid_Ids_Track_InstrDtwSelectRte);
+    InstrDtwSelectRte.SetTextForced((ioChars)"0.0");
+    InstrDtwSelectRte.SetDecimals(1);
+    AddGraphics(&ButtonStartTrackSteer, Puid_Ids_Track_ButtonStartTrackSteer);
+    ButtonStartTrackSteer.SetTextForced((ioChars)"Start track steering");
 }

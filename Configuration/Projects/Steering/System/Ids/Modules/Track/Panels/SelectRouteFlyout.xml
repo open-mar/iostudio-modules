@@ -2,26 +2,89 @@
 <PanelClass Name="SelectRouteFlyout">
     <Description>Flyout selection of active route for track steering</Description>
     <PanelObject ParentGlobalID="Ids.Track" Background="ContainerBackground">
+        <RowDefinition Size="212" />
+        <RowDefinition Size="40" />
+        <RowDefinition Size="32" />
         <RowDefinition />
         <ColumnDefinition />
-        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
+        <ColumnDefinition />
+        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical" SpanColumns="2">
             <ioLabel LocalID="LabelRteFolderHeader" Margin="4,0,4,0">
                 <Properties Text="RTE folder" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
-            <ioPanelGrid LocalID="GridRteFolder" Margin="4,0,4,0" IsStacked="FALSE">
+            <ioPanelGrid LocalID="GridRteFolder" VerticalAlignment="Top" Height="40" Margin="4,0,4,0" IsStacked="FALSE">
                 <ioRadioButton LocalID="RadioRteFolder" HorizontalAlignment="Left" Width="24" VerticalAlignment="Center" Height="24" />
-                <ioComboBox LocalID="CmbRteFolder" Margin="40,0,0,0" />
+                <ioComboBox LocalID="CmbRteFolder" VerticalAlignment="Center" Height="40" Margin="40,0,0,0" />
             </ioPanelGrid>
             <ioLabel LocalID="LabelRteSourceHeader" Margin="4,0,4,0">
                 <Properties Text="RTE source" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
             </ioLabel>
-            <ioPanelGrid LocalID="GridRteSource" Margin="4,0,4,0" IsStacked="FALSE">
+            <ioPanelGrid LocalID="GridRteSource" VerticalAlignment="Top" Height="40" Margin="4,0,4,0" IsStacked="FALSE">
                 <ioRadioButton LocalID="RadioRteSource" HorizontalAlignment="Left" Width="24" VerticalAlignment="Center" Height="24" />
-                <ioComboBox LocalID="CmbRteSource" Margin="40,0,0,0" />
+                <ioComboBox LocalID="CmbRteSource" VerticalAlignment="Top" Height="40" Margin="40,0,0,0" />
+            </ioPanelGrid>
+            <ioLabel LocalID="LabelRteListHeader" Margin="4,0,4,0">
+                <Properties Text="RTE" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
+            <ioComboBox LocalID="CmbRteList" VerticalAlignment="Top" Height="40" Margin="4,0,4,0" />
+        </Grid>
+        <Grid Row="1" Column="2" />
+        <Grid Row="2" Column="1">
+            <ioButtonIcon LocalID="ButtonPrevRte" VerticalAlignment="Top" Height="40" Margin="0,4,0,0">
+                <Properties Text="Prev RTE" TypeColor="Normal" TypeFontIcon="MaterialDesign" IconID="arrow_back" />
+            </ioButtonIcon>
+        </Grid>
+        <Grid Row="2" Column="2">
+            <ioButtonIcon LocalID="ButtonNextRte" VerticalAlignment="Top" Height="40" Margin="0,4,0,0">
+                <Properties Text="Next RTE" TypeColor="Normal" TypeFontIcon="MaterialDesign" IconID="arrow_forward" />
+            </ioButtonIcon>
+        </Grid>
+        <Grid Row="3" Column="1" SpanColumns="2">
+            <ioPanelGrid LocalID="GridNearestWptHeader" VerticalAlignment="Top" Height="40" Margin="4,0,4,0" IsStacked="FALSE">
+                <ioLabel LocalID="LabelNearestWptHeader" HorizontalAlignment="Left" Width="88" VerticalAlignment="Top" Height="32" Margin="0,12,0,0">
+                    <Properties Text="Nearest WPT" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioTextBlock LocalID="InstrNearestWpt" VerticalAlignment="Top" Height="32" Margin="92,4,0,0">
+                    <Properties Text="WPT Name" TypeColor="InstrumentEnhancedPrimary" FontFamily="NotoSans" FontSize="MediumLarge" FontWeight="Normal" TextWrapping="NoWrap" Decimals="1" TextAlignment="Left" />
+                </ioTextBlock>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="3" Column="2" />
+        <Grid Row="4" Column="1" IsStacked="TRUE" Orientation="Vertical">
+            <ioPanelGrid LocalID="GridBtwSelectRteHeader" VerticalAlignment="Top" Height="48" Margin="4,0,4,0">
+                <ioLabel LocalID="LabelBtwSelectRteHeader" Margin="0,12,0,0">
+                    <Properties Text="BTW" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelBtwSelectRteHeaderUnit">
+                    <Properties Text="°T" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridDtwSelectRteHeader" VerticalAlignment="Top" Height="48" Margin="4,0,4,0">
+                <ioLabel LocalID="LabelDtwSelectRteHeader" Margin="0,12,0,0">
+                    <Properties Text="DTW" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelDtwSelectRteHeaderUnit">
+                    <Properties Text="m" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
             </ioPanelGrid>
             <ioButtonIcon LocalID="ButtonCancelRteSelect" VerticalAlignment="Top" Height="40" Margin="0,4,0,0">
                 <Properties Text="Cancel" TypeColor="Normal" TypeFontIcon="Windows" IconID="Cancel" />
             </ioButtonIcon>
+        </Grid>
+        <Grid Row="4" Column="2" IsStacked="TRUE" Orientation="Vertical">
+            <ioPanelGrid LocalID="GridBtwSelectRte" VerticalAlignment="Top" Height="48" Margin="0,0,4,0">
+                <ioTextBlock LocalID="InstrBtwSelectRte">
+                    <Properties Text="000" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Large" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridDtwSelectRte" VerticalAlignment="Top" Height="48" Margin="0,0,4,0">
+                <ioTextBlock LocalID="InstrDtwSelectRte">
+                    <Properties Text="0.0" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Large" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+            <ioButtonShape LocalID="ButtonStartTrackSteer" VerticalAlignment="Top" Height="40" Margin="0,4,0,0">
+                <Properties Text="Start track steering" TypeColor="Normal" TypeShape="Maneuvering" ShapeID="TrackKeeping" />
+            </ioButtonShape>
         </Grid>
     </PanelObject>
 </PanelClass>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PanelClass Name="SelectWaypointFlyout">
+    <Description>Flyout selection of waypoint for active route</Description>
+    <PanelObject ParentGlobalID="Ids.Track" Background="ContainerBackground">
+        <RowDefinition Size="52" />
+        <RowDefinition />
+        <ColumnDefinition />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical" SpanColumns="2">
+            <ioLabel LocalID="LabelWptSelectHeader" Margin="4,0,0,0">
+                <Properties Text="WPT" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+            </ioLabel>
+            <ioComboBox LocalID="CmbWptSelect" VerticalAlignment="Top" Height="40" Margin="4,0,4,0" />
+        </Grid>
+        <Grid Row="1" Column="2" IsStacked="TRUE" Orientation="Vertical" />
+        <Grid Row="2" Column="1" IsStacked="TRUE" Orientation="Vertical">
+            <ioButtonIcon LocalID="ButtonPrevWpt" VerticalAlignment="Top" Height="40" Margin="0,4,0,0">
+                <Properties Text="Prev WPT" TypeColor="Normal" TypeFontIcon="MaterialDesign" IconID="arrow_back" />
+            </ioButtonIcon>
+            <ioPanelGrid LocalID="GridBtwSelectWptHeader" VerticalAlignment="Top" Height="48" Margin="4,0,4,0">
+                <ioLabel LocalID="LabelBtwSelectWptHeader" Margin="0,12,0,0">
+                    <Properties Text="BTW" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelBtwSelectWptHeaderUnit">
+                    <Properties Text="°T" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridDtwSelectWptHeader" VerticalAlignment="Top" Height="48" Margin="4,0,4,0">
+                <ioLabel LocalID="LabelDtwSelectWptHeader" Margin="0,12,0,0">
+                    <Properties Text="DTW" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelDtwSelectWptHeaderUnit">
+                    <Properties Text="m" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioButtonIcon LocalID="ButtonCancelWptSelect" VerticalAlignment="Top" Height="40" Margin="0,4,0,0">
+                <Properties Text="Cancel" TypeColor="Normal" TypeFontIcon="Windows" IconID="Cancel" />
+            </ioButtonIcon>
+        </Grid>
+        <Grid Row="2" Column="2" IsStacked="TRUE" Orientation="Vertical">
+            <ioButtonIcon LocalID="ButtonNextWpt" VerticalAlignment="Top" Height="40" Margin="0,4,0,0">
+                <Properties Text="Next WPT" TypeColor="Normal" TypeFontIcon="MaterialDesign" IconID="arrow_forward" />
+            </ioButtonIcon>
+            <ioPanelGrid LocalID="GridBtwSelectWpt" VerticalAlignment="Top" Height="48" Margin="0,0,4,0">
+                <ioTextBlock LocalID="InstrBtwSelectWpt">
+                    <Properties Text="000" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Large" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridDtwSelectWpt" VerticalAlignment="Top" Height="48" Margin="0,0,4,0">
+                <ioTextBlock LocalID="InstrDtwSelectWpt">
+                    <Properties Text="0.0" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Large" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+            <ioButtonShape LocalID="ButtonSetActiveWpt" VerticalAlignment="Top" Height="40" Margin="0,4,0,0">
+                <Properties Text="Set active WPT" TypeColor="Normal" TypeShape="Maneuvering" ShapeID="AutoTrack" />
+            </ioButtonShape>
+
+        </Grid>
+    </PanelObject>
+</PanelClass>

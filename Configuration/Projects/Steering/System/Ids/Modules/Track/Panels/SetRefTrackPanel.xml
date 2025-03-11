@@ -19,9 +19,9 @@
                     <Properties Text="Name of route" TypeColor="InstrumentEnhancedPrimary" FontFamily="NotoSans" FontSize="MediumLarge" FontWeight="Normal" TextWrapping="NoWrap" Decimals="1" TextAlignment="Left" />
                 </ioTextBlock>
             </ioPanelGrid>
-            <ioButtonText LocalID="ButtSelectWaypoint" VerticalAlignment="Top" Height="48" Margin="0,12,0,0">
+            <ioButtonTextFlyout LocalID="ButtSelectWaypoint" VerticalAlignment="Top" Height="48" Margin="0,12,0,0" PanelGlobalID="Ids.Track.SelectWaypointFlyout">
                 <Properties Text="Select WPT ..." TypeColor="Normal" />
-            </ioButtonText>
+            </ioButtonTextFlyout>
         </Grid>
         <Grid Row="1" Column="2" IsStacked="TRUE" Orientation="Vertical" />
         <Grid Row="2" Column="1">

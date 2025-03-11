@@ -221,7 +221,41 @@ namespace ioSystemNetworkNet
         Puid_Ids_Track_GridRteSource = 219,
         Puid_Ids_Track_RadioRteSource = 220,
         Puid_Ids_Track_CmbRteSource = 221,
+        Puid_Ids_Track_LabelRteListHeader = 20,
+        Puid_Ids_Track_CmbRteList = 22,
+        Puid_Ids_Track_ButtonPrevRte = 24,
+        Puid_Ids_Track_ButtonNextRte = 25,
+        Puid_Ids_Track_GridNearestWptHeader = 155,
+        Puid_Ids_Track_LabelNearestWptHeader = 156,
+        Puid_Ids_Track_InstrNearestWpt = 158,
+        Puid_Ids_Track_GridBtwSelectRteHeader = 157,
+        Puid_Ids_Track_LabelBtwSelectRteHeader = 159,
+        Puid_Ids_Track_LabelBtwSelectRteHeaderUnit = 192,
+        Puid_Ids_Track_GridDtwSelectRteHeader = 195,
+        Puid_Ids_Track_LabelDtwSelectRteHeader = 196,
+        Puid_Ids_Track_LabelDtwSelectRteHeaderUnit = 197,
         Puid_Ids_Track_ButtonCancelRteSelect = 19,
+        Puid_Ids_Track_GridBtwSelectRte = 193,
+        Puid_Ids_Track_InstrBtwSelectRte = 194,
+        Puid_Ids_Track_GridDtwSelectRte = 198,
+        Puid_Ids_Track_InstrDtwSelectRte = 199,
+        Puid_Ids_Track_ButtonStartTrackSteer = 201,
+        Puid_Ids_Track_LabelWptSelectHeader = 202,
+        Puid_Ids_Track_CmbWptSelect = 203,
+        Puid_Ids_Track_ButtonPrevWpt = 204,
+        Puid_Ids_Track_GridBtwSelectWptHeader = 240,
+        Puid_Ids_Track_LabelBtwSelectWptHeader = 241,
+        Puid_Ids_Track_LabelBtwSelectWptHeaderUnit = 242,
+        Puid_Ids_Track_GridDtwSelectWptHeader = 243,
+        Puid_Ids_Track_LabelDtwSelectWptHeader = 244,
+        Puid_Ids_Track_LabelDtwSelectWptHeaderUnit = 245,
+        Puid_Ids_Track_ButtonCancelWptSelect = 246,
+        Puid_Ids_Track_ButtonNextWpt = 239,
+        Puid_Ids_Track_GridBtwSelectWpt = 247,
+        Puid_Ids_Track_InstrBtwSelectWpt = 248,
+        Puid_Ids_Track_GridDtwSelectWpt = 249,
+        Puid_Ids_Track_InstrDtwSelectWpt = 250,
+        Puid_Ids_Track_ButtonSetActiveWpt = 251,
         Puid_Ids_Track_ButtSelectRoute = 205,
         Puid_Ids_Track_GridSelectedRte = 200,
         Puid_Ids_Track_LabelSelectedRteHeader = 206,
@@ -235,7 +269,7 @@ namespace ioSystemNetworkNet
     } // enum
     public class ioSystemGraphicsSteering
     {
-        public static string GetGlobalID(ioSystemGraphicsSteeringType puid)
+        public static string GetGlobalID(NameType puid)
         {
             switch (puid)
             {
@@ -455,7 +489,41 @@ namespace ioSystemNetworkNet
                 case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridRteSource: return "Ids.Track.GridRteSource";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Track_RadioRteSource: return "Ids.Track.RadioRteSource";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Track_CmbRteSource: return "Ids.Track.CmbRteSource";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelRteListHeader: return "Ids.Track.LabelRteListHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_CmbRteList: return "Ids.Track.CmbRteList";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_ButtonPrevRte: return "Ids.Track.ButtonPrevRte";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_ButtonNextRte: return "Ids.Track.ButtonNextRte";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridNearestWptHeader: return "Ids.Track.GridNearestWptHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelNearestWptHeader: return "Ids.Track.LabelNearestWptHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrNearestWpt: return "Ids.Track.InstrNearestWpt";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridBtwSelectRteHeader: return "Ids.Track.GridBtwSelectRteHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelBtwSelectRteHeader: return "Ids.Track.LabelBtwSelectRteHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelBtwSelectRteHeaderUnit: return "Ids.Track.LabelBtwSelectRteHeaderUnit";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridDtwSelectRteHeader: return "Ids.Track.GridDtwSelectRteHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelDtwSelectRteHeader: return "Ids.Track.LabelDtwSelectRteHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelDtwSelectRteHeaderUnit: return "Ids.Track.LabelDtwSelectRteHeaderUnit";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Track_ButtonCancelRteSelect: return "Ids.Track.ButtonCancelRteSelect";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridBtwSelectRte: return "Ids.Track.GridBtwSelectRte";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrBtwSelectRte: return "Ids.Track.InstrBtwSelectRte";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridDtwSelectRte: return "Ids.Track.GridDtwSelectRte";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrDtwSelectRte: return "Ids.Track.InstrDtwSelectRte";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_ButtonStartTrackSteer: return "Ids.Track.ButtonStartTrackSteer";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelWptSelectHeader: return "Ids.Track.LabelWptSelectHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_CmbWptSelect: return "Ids.Track.CmbWptSelect";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_ButtonPrevWpt: return "Ids.Track.ButtonPrevWpt";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridBtwSelectWptHeader: return "Ids.Track.GridBtwSelectWptHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelBtwSelectWptHeader: return "Ids.Track.LabelBtwSelectWptHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelBtwSelectWptHeaderUnit: return "Ids.Track.LabelBtwSelectWptHeaderUnit";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridDtwSelectWptHeader: return "Ids.Track.GridDtwSelectWptHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelDtwSelectWptHeader: return "Ids.Track.LabelDtwSelectWptHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelDtwSelectWptHeaderUnit: return "Ids.Track.LabelDtwSelectWptHeaderUnit";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_ButtonCancelWptSelect: return "Ids.Track.ButtonCancelWptSelect";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_ButtonNextWpt: return "Ids.Track.ButtonNextWpt";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridBtwSelectWpt: return "Ids.Track.GridBtwSelectWpt";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrBtwSelectWpt: return "Ids.Track.InstrBtwSelectWpt";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridDtwSelectWpt: return "Ids.Track.GridDtwSelectWpt";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrDtwSelectWpt: return "Ids.Track.InstrDtwSelectWpt";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_ButtonSetActiveWpt: return "Ids.Track.ButtonSetActiveWpt";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Track_ButtSelectRoute: return "Ids.Track.ButtSelectRoute";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridSelectedRte: return "Ids.Track.GridSelectedRte";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelSelectedRteHeader: return "Ids.Track.LabelSelectedRteHeader";
@@ -469,7 +537,7 @@ namespace ioSystemNetworkNet
             } // switch
             return string.Empty;
         }
-        public static ioSystemGraphicsSteeringType GetPuid(string globalID)
+        public static NameType GetPuid(string globalID)
         {
             switch (globalID)
             {
@@ -689,7 +757,41 @@ namespace ioSystemNetworkNet
                 case "Ids.Track.GridRteSource": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridRteSource;
                 case "Ids.Track.RadioRteSource": return ioSystemGraphicsSteeringType.Puid_Ids_Track_RadioRteSource;
                 case "Ids.Track.CmbRteSource": return ioSystemGraphicsSteeringType.Puid_Ids_Track_CmbRteSource;
+                case "Ids.Track.LabelRteListHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelRteListHeader;
+                case "Ids.Track.CmbRteList": return ioSystemGraphicsSteeringType.Puid_Ids_Track_CmbRteList;
+                case "Ids.Track.ButtonPrevRte": return ioSystemGraphicsSteeringType.Puid_Ids_Track_ButtonPrevRte;
+                case "Ids.Track.ButtonNextRte": return ioSystemGraphicsSteeringType.Puid_Ids_Track_ButtonNextRte;
+                case "Ids.Track.GridNearestWptHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridNearestWptHeader;
+                case "Ids.Track.LabelNearestWptHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelNearestWptHeader;
+                case "Ids.Track.InstrNearestWpt": return ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrNearestWpt;
+                case "Ids.Track.GridBtwSelectRteHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridBtwSelectRteHeader;
+                case "Ids.Track.LabelBtwSelectRteHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelBtwSelectRteHeader;
+                case "Ids.Track.LabelBtwSelectRteHeaderUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelBtwSelectRteHeaderUnit;
+                case "Ids.Track.GridDtwSelectRteHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridDtwSelectRteHeader;
+                case "Ids.Track.LabelDtwSelectRteHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelDtwSelectRteHeader;
+                case "Ids.Track.LabelDtwSelectRteHeaderUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelDtwSelectRteHeaderUnit;
                 case "Ids.Track.ButtonCancelRteSelect": return ioSystemGraphicsSteeringType.Puid_Ids_Track_ButtonCancelRteSelect;
+                case "Ids.Track.GridBtwSelectRte": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridBtwSelectRte;
+                case "Ids.Track.InstrBtwSelectRte": return ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrBtwSelectRte;
+                case "Ids.Track.GridDtwSelectRte": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridDtwSelectRte;
+                case "Ids.Track.InstrDtwSelectRte": return ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrDtwSelectRte;
+                case "Ids.Track.ButtonStartTrackSteer": return ioSystemGraphicsSteeringType.Puid_Ids_Track_ButtonStartTrackSteer;
+                case "Ids.Track.LabelWptSelectHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelWptSelectHeader;
+                case "Ids.Track.CmbWptSelect": return ioSystemGraphicsSteeringType.Puid_Ids_Track_CmbWptSelect;
+                case "Ids.Track.ButtonPrevWpt": return ioSystemGraphicsSteeringType.Puid_Ids_Track_ButtonPrevWpt;
+                case "Ids.Track.GridBtwSelectWptHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridBtwSelectWptHeader;
+                case "Ids.Track.LabelBtwSelectWptHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelBtwSelectWptHeader;
+                case "Ids.Track.LabelBtwSelectWptHeaderUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelBtwSelectWptHeaderUnit;
+                case "Ids.Track.GridDtwSelectWptHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridDtwSelectWptHeader;
+                case "Ids.Track.LabelDtwSelectWptHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelDtwSelectWptHeader;
+                case "Ids.Track.LabelDtwSelectWptHeaderUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelDtwSelectWptHeaderUnit;
+                case "Ids.Track.ButtonCancelWptSelect": return ioSystemGraphicsSteeringType.Puid_Ids_Track_ButtonCancelWptSelect;
+                case "Ids.Track.ButtonNextWpt": return ioSystemGraphicsSteeringType.Puid_Ids_Track_ButtonNextWpt;
+                case "Ids.Track.GridBtwSelectWpt": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridBtwSelectWpt;
+                case "Ids.Track.InstrBtwSelectWpt": return ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrBtwSelectWpt;
+                case "Ids.Track.GridDtwSelectWpt": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridDtwSelectWpt;
+                case "Ids.Track.InstrDtwSelectWpt": return ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrDtwSelectWpt;
+                case "Ids.Track.ButtonSetActiveWpt": return ioSystemGraphicsSteeringType.Puid_Ids_Track_ButtonSetActiveWpt;
                 case "Ids.Track.ButtSelectRoute": return ioSystemGraphicsSteeringType.Puid_Ids_Track_ButtSelectRoute;
                 case "Ids.Track.GridSelectedRte": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridSelectedRte;
                 case "Ids.Track.LabelSelectedRteHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelSelectedRteHeader;
@@ -705,7 +807,7 @@ namespace ioSystemNetworkNet
         }
         public static ioSystemGraphicsSteeringType GetPuid(Int32 puidValue)
         {
-            if ((puidValue >= 0) && (puidValue < 228))
+            if ((puidValue >= 0) && (puidValue < 262))
                 return (ioSystemGraphicsSteeringType)puidValue;
             else
                 return ioSystemGraphicsSteeringType.Puid_NotDefined;

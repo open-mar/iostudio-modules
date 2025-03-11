@@ -18,8 +18,21 @@ public:
     ioLabel LabelRteSourceHeader;
     ioRadioButton RadioRteSource;
     ioComboBox CmbRteSource;
+    ioLabel LabelRteListHeader;
+    ioComboBox CmbRteList;
+    ioButtonIcon ButtonPrevRte;
+    ioButtonIcon ButtonNextRte;
+    ioLabel LabelNearestWptHeader;
+    ioTextBlock InstrNearestWpt;
+    ioLabel LabelBtwSelectRteHeader;
+    ioLabel LabelBtwSelectRteHeaderUnit;
+    ioLabel LabelDtwSelectRteHeader;
+    ioLabel LabelDtwSelectRteHeaderUnit;
     ioButtonIcon ButtonCancelRteSelect;
+    ioTextBlock InstrBtwSelectRte;
+    ioTextBlock InstrDtwSelectRte;
+    ioButtonShape ButtonStartTrackSteer;
 protected:
-    ioGraphics* m_SelectRouteFlyoutGraphics[7];
+    ioGraphics* m_SelectRouteFlyoutGraphics[20];
 };
 #endif // __SELECTROUTEFLYOUT_H
