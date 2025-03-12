@@ -13,12 +13,12 @@ void SteerApPanel::InitializeData(void)
 {
     m_PanelGraphics.SetListData((ioItem**)m_SteerApPanelGraphics, 15);
     AddGraphics(&LabelApSteer, Puid_Ids_Pilot_LabelApSteer);
-    LabelApSteer.SetTextForced((ioChars)"AUTOPILOT REFERENCE [°M]");
+    LabelApSteer.SetTextForced((ioChars)"HDG CMD [°M]");
     AddGraphics(&InstrHeadingRef, Puid_Ids_Pilot_InstrHeadingRef);
     InstrHeadingRef.SetTextForced((ioChars)"000");
     InstrHeadingRef.SetDecimals(1);
     AddGraphics(&LabelHeading, Puid_Ids_Pilot_LabelHeading);
-    LabelHeading.SetTextForced((ioChars)"HEADING [°M]");
+    LabelHeading.SetTextForced((ioChars)"HDG [°M]");
     AddGraphics(&InstrHeading, Puid_Ids_Pilot_InstrHeading);
     InstrHeading.SetTextForced((ioChars)"000.0");
     InstrHeading.SetDecimals(1);

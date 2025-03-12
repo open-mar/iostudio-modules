@@ -5,18 +5,20 @@
         <RowDefinition />
         <ColumnDefinition />
         <Grid Row="1" Column="1">
-            <ioPanelGrid LocalID="GridAutopilot" HorizontalAlignment="Left" Width="160" VerticalAlignment="Top" Height="200" Margin="56,325,0,0">
+            <ioPanelGrid LocalID="GridHdgCmdAp" HorizontalAlignment="Left" Width="160" VerticalAlignment="Top" Height="85" Margin="56,325,0,0">
                 <ioLabel LocalID="LabelApSteer">
-                    <Properties Text="AUTOPILOT REFERENCE [°M]" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                    <Properties Text="HDG CMD [°M]" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
                 </ioLabel>
-                <ioTextBlock LocalID="InstrHeadingRef" Margin="8,0,0,0">
+                <ioTextBlock LocalID="InstrHeadingRef">
                     <Properties Text="000" TypeColor="InstrumentEnhancedPrimary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="Left" />
                 </ioTextBlock>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridHdgAp" HorizontalAlignment="Left" Width="160" VerticalAlignment="Top" Height="85" Margin="56,425,0,0">
                 <ioLabel LocalID="LabelHeading">
-                    <Properties Text="HEADING [°M]" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                    <Properties Text="HDG [°M]" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
                 </ioLabel>
-                <ioTextBlock LocalID="InstrHeading" Margin="8,0,0,0">
-                    <Properties Text="000.0" TypeColor="InstrumentEnhancedSecondary" FontFamily="OpenSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="Left" />
+                <ioTextBlock LocalID="InstrHeading">
+                    <Properties Text="000.0" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="Left" />
                 </ioTextBlock>
             </ioPanelGrid>
             <ioShape LocalID="ShapeContourShip" HorizontalAlignment="Left" Width="280" VerticalAlignment="Top" Height="700">

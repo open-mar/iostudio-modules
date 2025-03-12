@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PanelClass Name="TrackPlotPanel">
+    <Description>Plot view for track steering</Description>
+    <PanelObject ParentGlobalID="Ids.Track" Background="ContainerBackground">
+        <RowDefinition Size="64" />
+        <RowDefinition />
+        <RowDefinition Size="64" />
+        <ColumnDefinition />
+        <ColumnDefinition />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1">
+            <ioPanelGrid LocalID="GridBtwPlotHeader" VerticalAlignment="Top" Height="64" Margin="4,0,0,0">
+                <ioLabel LocalID="LabelBtwPlotHeader" Margin="0,20,0,0">
+                    <Properties Text="BTW" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelBtwPlotHeaderUnit">
+                    <Properties Text="°T" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridBtwPlot" VerticalAlignment="Top" Height="64" Margin="0,0,4,0">
+                <ioTextBlock LocalID="InstrBtwPlot">
+                    <Properties Text="000" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="1" Column="2">
+            <ioPanelGrid LocalID="GridTtwPlotHeader" VerticalAlignment="Top" Height="64" Margin="8,0,0,0">
+                <ioLabel LocalID="LabelTtwPlotHeader" Margin="0,20,0,0">
+                    <Properties Text="TTW" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelTtwPlotHeaderUnit">
+                    <Properties Text="UTC" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridTtwPlot" VerticalAlignment="Top" Height="64" Margin="0,0,4,0">
+                <ioTextBlock LocalID="InstrTtwPlot">
+                    <Properties Text="00:00:00" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="1" Column="3">
+            <ioPanelGrid LocalID="GridCogPlotHeader" VerticalAlignment="Top" Height="64" Margin="8,0,0,0">
+                <ioLabel LocalID="LabelCogPlotHeader" Margin="0,20,0,0">
+                    <Properties Text="COG" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelCogPlotHeaderUnit">
+                    <Properties Text="°T" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridCogPlot" VerticalAlignment="Top" Height="64" Margin="0,0,4,0">
+                <ioTextBlock LocalID="InstrCogPlot">
+                    <Properties Text="000.0" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="2" Column="1" />
+        <Grid Row="2" Column="2" />
+        <Grid Row="2" Column="3" />
+        <Grid Row="3" Column="1">
+            <ioPanelGrid LocalID="GridDptPlotHeader" VerticalAlignment="Top" Height="64" Margin="4,0,0,0">
+                <ioLabel LocalID="LabelDptPlotHeader" Margin="0,20,0,0">
+                    <Properties Text="DPT" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelDptPlotHeaderUnit">
+                    <Properties Text="m" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridDptPlot" VerticalAlignment="Top" Height="64" Margin="0,0,4,0">
+                <ioTextBlock LocalID="InstrDptPlot">
+                    <Properties Text="0.0" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="3" Column="2">
+            <ioPanelGrid LocalID="GridXtePlotHeader" VerticalAlignment="Top" Height="64" Margin="8,0,0,0">
+                <ioLabel LocalID="LabelXtePlotHeader" Margin="0,20,0,0">
+                    <Properties Text="XTE" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelXtePlotHeaderUnit">
+                    <Properties Text="m" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridXtePlot" VerticalAlignment="Top" Height="64" Margin="0,0,4,0">
+                <ioTextBlock LocalID="InstrXtePlot">
+                    <Properties Text="0.0" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="3" Column="3">
+            <ioPanelGrid LocalID="GridSogPlotHeader" VerticalAlignment="Top" Height="64" Margin="8,0,0,0">
+                <ioLabel LocalID="LabelSogPlotHeader" Margin="0,20,0,0">
+                    <Properties Text="SOG" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelSogPlotHeaderUnit">
+                    <Properties Text="kn" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridSogPlot" VerticalAlignment="Top" Height="64" Margin="0,0,4,0">
+                <ioTextBlock LocalID="InstrSogPlot">
+                    <Properties Text="0.0" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+        </Grid>
+    </PanelObject>
+</PanelClass>

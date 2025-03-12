@@ -2,15 +2,14 @@
 <PanelClass Name="ConningInstrPanel">
     <Description>Conning instrument panel used with steering system</Description>
     <PanelObject ParentGlobalID="Ids.Pilot" Background="ContainerBackground">
-        <RowDefinition Size="80" />
         <RowDefinition />
         <ColumnDefinition />
         <ColumnDefinition />
-        <Grid Row="1" Column="1" SpanColumns="2" />
-        <Grid Row="1" Column="2" />
-        <Grid Row="2" Column="1">
+        <Grid Row="1" Column="1">
             <ioPanelGrid LocalID="GridSteerApPanel" PanelGlobalID="Ids.Pilot.SteerApPanel" />
         </Grid>
-        <Grid Row="2" Column="2" />
+        <Grid Row="1" Column="2">
+            <ioPanelGrid LocalID="PanelSpeedAngles" PanelGlobalID="Ids.Pilot.SpeedAnglesPanel" />
+        </Grid>
     </PanelObject>
 </PanelClass>

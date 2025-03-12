@@ -63,6 +63,7 @@ namespace ioSystemNetworkNet
         Puid_Ids_Controller_ButtThrustMidZero = 176,
         Puid_Ids_Controller_ButtRThrustightBig = 177,
         Puid_Ids_Pilot_GridSteerApPanel = 45,
+        Puid_Ids_Pilot_PanelSpeedAngles = 252,
         Puid_Ids_Pilot_GridWindCmdHeader = 46,
         Puid_Ids_Pilot_LabelWindCmdHeader = 47,
         Puid_Ids_Pilot_LabelWindCmdHeaderUnit = 48,
@@ -151,9 +152,30 @@ namespace ioSystemNetworkNet
         Puid_Ids_Pilot_ButtWindLeftBig = 236,
         Puid_Ids_Pilot_ButtWindMidTack = 237,
         Puid_Ids_Pilot_ButtWindRightBig = 238,
-        Puid_Ids_Pilot_GridAutopilot = 26,
+        Puid_Ids_Pilot_GridBtwHeader = 253,
+        Puid_Ids_Pilot_LabelBtwHeader = 254,
+        Puid_Ids_Pilot_LabelBtwHeaderUnit = 255,
+        Puid_Ids_Pilot_GridBtw = 256,
+        Puid_Ids_Pilot_InstrBtw = 257,
+        Puid_Ids_Pilot_GridDtwHeader = 260,
+        Puid_Ids_Pilot_LabelDtwHeader = 261,
+        Puid_Ids_Pilot_LabelDtwHeaderUnit = 262,
+        Puid_Ids_Pilot_GridDtw = 263,
+        Puid_Ids_Pilot_InstrDtw = 264,
+        Puid_Ids_Pilot_GridRollHeader = 26,
+        Puid_Ids_Pilot_LabelRollHeader = 265,
+        Puid_Ids_Pilot_LabelRollHeaderUnit = 266,
+        Puid_Ids_Pilot_GridRoll = 267,
+        Puid_Ids_Pilot_InstrRoll = 268,
+        Puid_Ids_Pilot_GridPitchHeader = 269,
+        Puid_Ids_Pilot_LabelPitchHeader = 270,
+        Puid_Ids_Pilot_LabelPitchHeaderUnit = 271,
+        Puid_Ids_Pilot_GridPitch = 272,
+        Puid_Ids_Pilot_InstPitch = 273,
+        Puid_Ids_Pilot_GridHdgCmdAp = 258,
         Puid_Ids_Pilot_LabelApSteer = 27,
         Puid_Ids_Pilot_InstrHeadingRef = 28,
+        Puid_Ids_Pilot_GridHdgAp = 259,
         Puid_Ids_Pilot_LabelHeading = 29,
         Puid_Ids_Pilot_InstrHeading = 30,
         Puid_Ids_Pilot_ShapeContourShip = 31,
@@ -266,10 +288,40 @@ namespace ioSystemNetworkNet
         Puid_Ids_Track_GridSelectedWpt = 209,
         Puid_Ids_Track_LabelSelectedWptHeader = 210,
         Puid_Ids_Track_TextSelectedWpt = 211,
+        Puid_Ids_Track_GridBtwPlotHeader = 274,
+        Puid_Ids_Track_LabelBtwPlotHeader = 275,
+        Puid_Ids_Track_LabelBtwPlotHeaderUnit = 276,
+        Puid_Ids_Track_GridBtwPlot = 277,
+        Puid_Ids_Track_InstrBtwPlot = 278,
+        Puid_Ids_Track_GridTtwPlotHeader = 279,
+        Puid_Ids_Track_LabelTtwPlotHeader = 280,
+        Puid_Ids_Track_LabelTtwPlotHeaderUnit = 281,
+        Puid_Ids_Track_GridTtwPlot = 282,
+        Puid_Ids_Track_InstrTtwPlot = 283,
+        Puid_Ids_Track_GridCogPlotHeader = 284,
+        Puid_Ids_Track_LabelCogPlotHeader = 285,
+        Puid_Ids_Track_LabelCogPlotHeaderUnit = 286,
+        Puid_Ids_Track_GridCogPlot = 287,
+        Puid_Ids_Track_InstrCogPlot = 288,
+        Puid_Ids_Track_GridDptPlotHeader = 289,
+        Puid_Ids_Track_LabelDptPlotHeader = 290,
+        Puid_Ids_Track_LabelDptPlotHeaderUnit = 291,
+        Puid_Ids_Track_GridDptPlot = 292,
+        Puid_Ids_Track_InstrDptPlot = 293,
+        Puid_Ids_Track_GridXtePlotHeader = 294,
+        Puid_Ids_Track_LabelXtePlotHeader = 295,
+        Puid_Ids_Track_LabelXtePlotHeaderUnit = 296,
+        Puid_Ids_Track_GridXtePlot = 297,
+        Puid_Ids_Track_InstrXtePlot = 298,
+        Puid_Ids_Track_GridSogPlotHeader = 299,
+        Puid_Ids_Track_LabelSogPlotHeader = 300,
+        Puid_Ids_Track_LabelSogPlotHeaderUnit = 301,
+        Puid_Ids_Track_GridSogPlot = 302,
+        Puid_Ids_Track_InstrSogPlot = 303,
     } // enum
     public class ioSystemGraphicsSteering
     {
-        public static string GetGlobalID(NameType puid)
+        public static string GetGlobalID(ioSystemGraphicsSteeringType puid)
         {
             switch (puid)
             {
@@ -331,6 +383,7 @@ namespace ioSystemNetworkNet
                 case ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtThrustMidZero: return "Ids.Controller.ButtThrustMidZero";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtRThrustightBig: return "Ids.Controller.ButtRThrustightBig";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridSteerApPanel: return "Ids.Pilot.GridSteerApPanel";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_PanelSpeedAngles: return "Ids.Pilot.PanelSpeedAngles";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridWindCmdHeader: return "Ids.Pilot.GridWindCmdHeader";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelWindCmdHeader: return "Ids.Pilot.LabelWindCmdHeader";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelWindCmdHeaderUnit: return "Ids.Pilot.LabelWindCmdHeaderUnit";
@@ -419,9 +472,30 @@ namespace ioSystemNetworkNet
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_ButtWindLeftBig: return "Ids.Pilot.ButtWindLeftBig";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_ButtWindMidTack: return "Ids.Pilot.ButtWindMidTack";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_ButtWindRightBig: return "Ids.Pilot.ButtWindRightBig";
-                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridAutopilot: return "Ids.Pilot.GridAutopilot";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridBtwHeader: return "Ids.Pilot.GridBtwHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelBtwHeader: return "Ids.Pilot.LabelBtwHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelBtwHeaderUnit: return "Ids.Pilot.LabelBtwHeaderUnit";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridBtw: return "Ids.Pilot.GridBtw";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrBtw: return "Ids.Pilot.InstrBtw";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridDtwHeader: return "Ids.Pilot.GridDtwHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelDtwHeader: return "Ids.Pilot.LabelDtwHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelDtwHeaderUnit: return "Ids.Pilot.LabelDtwHeaderUnit";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridDtw: return "Ids.Pilot.GridDtw";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrDtw: return "Ids.Pilot.InstrDtw";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridRollHeader: return "Ids.Pilot.GridRollHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelRollHeader: return "Ids.Pilot.LabelRollHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelRollHeaderUnit: return "Ids.Pilot.LabelRollHeaderUnit";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridRoll: return "Ids.Pilot.GridRoll";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrRoll: return "Ids.Pilot.InstrRoll";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridPitchHeader: return "Ids.Pilot.GridPitchHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelPitchHeader: return "Ids.Pilot.LabelPitchHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelPitchHeaderUnit: return "Ids.Pilot.LabelPitchHeaderUnit";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridPitch: return "Ids.Pilot.GridPitch";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstPitch: return "Ids.Pilot.InstPitch";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridHdgCmdAp: return "Ids.Pilot.GridHdgCmdAp";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelApSteer: return "Ids.Pilot.LabelApSteer";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrHeadingRef: return "Ids.Pilot.InstrHeadingRef";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridHdgAp: return "Ids.Pilot.GridHdgAp";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelHeading: return "Ids.Pilot.LabelHeading";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrHeading: return "Ids.Pilot.InstrHeading";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_ShapeContourShip: return "Ids.Pilot.ShapeContourShip";
@@ -534,10 +608,40 @@ namespace ioSystemNetworkNet
                 case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridSelectedWpt: return "Ids.Track.GridSelectedWpt";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelSelectedWptHeader: return "Ids.Track.LabelSelectedWptHeader";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Track_TextSelectedWpt: return "Ids.Track.TextSelectedWpt";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridBtwPlotHeader: return "Ids.Track.GridBtwPlotHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelBtwPlotHeader: return "Ids.Track.LabelBtwPlotHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelBtwPlotHeaderUnit: return "Ids.Track.LabelBtwPlotHeaderUnit";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridBtwPlot: return "Ids.Track.GridBtwPlot";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrBtwPlot: return "Ids.Track.InstrBtwPlot";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridTtwPlotHeader: return "Ids.Track.GridTtwPlotHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelTtwPlotHeader: return "Ids.Track.LabelTtwPlotHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelTtwPlotHeaderUnit: return "Ids.Track.LabelTtwPlotHeaderUnit";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridTtwPlot: return "Ids.Track.GridTtwPlot";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrTtwPlot: return "Ids.Track.InstrTtwPlot";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridCogPlotHeader: return "Ids.Track.GridCogPlotHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelCogPlotHeader: return "Ids.Track.LabelCogPlotHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelCogPlotHeaderUnit: return "Ids.Track.LabelCogPlotHeaderUnit";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridCogPlot: return "Ids.Track.GridCogPlot";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrCogPlot: return "Ids.Track.InstrCogPlot";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridDptPlotHeader: return "Ids.Track.GridDptPlotHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelDptPlotHeader: return "Ids.Track.LabelDptPlotHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelDptPlotHeaderUnit: return "Ids.Track.LabelDptPlotHeaderUnit";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridDptPlot: return "Ids.Track.GridDptPlot";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrDptPlot: return "Ids.Track.InstrDptPlot";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridXtePlotHeader: return "Ids.Track.GridXtePlotHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelXtePlotHeader: return "Ids.Track.LabelXtePlotHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelXtePlotHeaderUnit: return "Ids.Track.LabelXtePlotHeaderUnit";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridXtePlot: return "Ids.Track.GridXtePlot";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrXtePlot: return "Ids.Track.InstrXtePlot";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridSogPlotHeader: return "Ids.Track.GridSogPlotHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelSogPlotHeader: return "Ids.Track.LabelSogPlotHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelSogPlotHeaderUnit: return "Ids.Track.LabelSogPlotHeaderUnit";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridSogPlot: return "Ids.Track.GridSogPlot";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrSogPlot: return "Ids.Track.InstrSogPlot";
             } // switch
             return string.Empty;
         }
-        public static NameType GetPuid(string globalID)
+        public static ioSystemGraphicsSteeringType GetPuid(string globalID)
         {
             switch (globalID)
             {
@@ -599,6 +703,7 @@ namespace ioSystemNetworkNet
                 case "Ids.Controller.ButtThrustMidZero": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtThrustMidZero;
                 case "Ids.Controller.ButtRThrustightBig": return ioSystemGraphicsSteeringType.Puid_Ids_Controller_ButtRThrustightBig;
                 case "Ids.Pilot.GridSteerApPanel": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridSteerApPanel;
+                case "Ids.Pilot.PanelSpeedAngles": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_PanelSpeedAngles;
                 case "Ids.Pilot.GridWindCmdHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridWindCmdHeader;
                 case "Ids.Pilot.LabelWindCmdHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelWindCmdHeader;
                 case "Ids.Pilot.LabelWindCmdHeaderUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelWindCmdHeaderUnit;
@@ -687,9 +792,30 @@ namespace ioSystemNetworkNet
                 case "Ids.Pilot.ButtWindLeftBig": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_ButtWindLeftBig;
                 case "Ids.Pilot.ButtWindMidTack": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_ButtWindMidTack;
                 case "Ids.Pilot.ButtWindRightBig": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_ButtWindRightBig;
-                case "Ids.Pilot.GridAutopilot": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridAutopilot;
+                case "Ids.Pilot.GridBtwHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridBtwHeader;
+                case "Ids.Pilot.LabelBtwHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelBtwHeader;
+                case "Ids.Pilot.LabelBtwHeaderUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelBtwHeaderUnit;
+                case "Ids.Pilot.GridBtw": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridBtw;
+                case "Ids.Pilot.InstrBtw": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrBtw;
+                case "Ids.Pilot.GridDtwHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridDtwHeader;
+                case "Ids.Pilot.LabelDtwHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelDtwHeader;
+                case "Ids.Pilot.LabelDtwHeaderUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelDtwHeaderUnit;
+                case "Ids.Pilot.GridDtw": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridDtw;
+                case "Ids.Pilot.InstrDtw": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrDtw;
+                case "Ids.Pilot.GridRollHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridRollHeader;
+                case "Ids.Pilot.LabelRollHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelRollHeader;
+                case "Ids.Pilot.LabelRollHeaderUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelRollHeaderUnit;
+                case "Ids.Pilot.GridRoll": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridRoll;
+                case "Ids.Pilot.InstrRoll": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrRoll;
+                case "Ids.Pilot.GridPitchHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridPitchHeader;
+                case "Ids.Pilot.LabelPitchHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelPitchHeader;
+                case "Ids.Pilot.LabelPitchHeaderUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelPitchHeaderUnit;
+                case "Ids.Pilot.GridPitch": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridPitch;
+                case "Ids.Pilot.InstPitch": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstPitch;
+                case "Ids.Pilot.GridHdgCmdAp": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridHdgCmdAp;
                 case "Ids.Pilot.LabelApSteer": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelApSteer;
                 case "Ids.Pilot.InstrHeadingRef": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrHeadingRef;
+                case "Ids.Pilot.GridHdgAp": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridHdgAp;
                 case "Ids.Pilot.LabelHeading": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelHeading;
                 case "Ids.Pilot.InstrHeading": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrHeading;
                 case "Ids.Pilot.ShapeContourShip": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_ShapeContourShip;
@@ -802,12 +928,42 @@ namespace ioSystemNetworkNet
                 case "Ids.Track.GridSelectedWpt": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridSelectedWpt;
                 case "Ids.Track.LabelSelectedWptHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelSelectedWptHeader;
                 case "Ids.Track.TextSelectedWpt": return ioSystemGraphicsSteeringType.Puid_Ids_Track_TextSelectedWpt;
+                case "Ids.Track.GridBtwPlotHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridBtwPlotHeader;
+                case "Ids.Track.LabelBtwPlotHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelBtwPlotHeader;
+                case "Ids.Track.LabelBtwPlotHeaderUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelBtwPlotHeaderUnit;
+                case "Ids.Track.GridBtwPlot": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridBtwPlot;
+                case "Ids.Track.InstrBtwPlot": return ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrBtwPlot;
+                case "Ids.Track.GridTtwPlotHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridTtwPlotHeader;
+                case "Ids.Track.LabelTtwPlotHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelTtwPlotHeader;
+                case "Ids.Track.LabelTtwPlotHeaderUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelTtwPlotHeaderUnit;
+                case "Ids.Track.GridTtwPlot": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridTtwPlot;
+                case "Ids.Track.InstrTtwPlot": return ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrTtwPlot;
+                case "Ids.Track.GridCogPlotHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridCogPlotHeader;
+                case "Ids.Track.LabelCogPlotHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelCogPlotHeader;
+                case "Ids.Track.LabelCogPlotHeaderUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelCogPlotHeaderUnit;
+                case "Ids.Track.GridCogPlot": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridCogPlot;
+                case "Ids.Track.InstrCogPlot": return ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrCogPlot;
+                case "Ids.Track.GridDptPlotHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridDptPlotHeader;
+                case "Ids.Track.LabelDptPlotHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelDptPlotHeader;
+                case "Ids.Track.LabelDptPlotHeaderUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelDptPlotHeaderUnit;
+                case "Ids.Track.GridDptPlot": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridDptPlot;
+                case "Ids.Track.InstrDptPlot": return ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrDptPlot;
+                case "Ids.Track.GridXtePlotHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridXtePlotHeader;
+                case "Ids.Track.LabelXtePlotHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelXtePlotHeader;
+                case "Ids.Track.LabelXtePlotHeaderUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelXtePlotHeaderUnit;
+                case "Ids.Track.GridXtePlot": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridXtePlot;
+                case "Ids.Track.InstrXtePlot": return ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrXtePlot;
+                case "Ids.Track.GridSogPlotHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridSogPlotHeader;
+                case "Ids.Track.LabelSogPlotHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelSogPlotHeader;
+                case "Ids.Track.LabelSogPlotHeaderUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelSogPlotHeaderUnit;
+                case "Ids.Track.GridSogPlot": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridSogPlot;
+                case "Ids.Track.InstrSogPlot": return ioSystemGraphicsSteeringType.Puid_Ids_Track_InstrSogPlot;
             } // switch
             return ioSystemGraphicsSteeringType.Puid_NotDefined;
         }
         public static ioSystemGraphicsSteeringType GetPuid(Int32 puidValue)
         {
-            if ((puidValue >= 0) && (puidValue < 262))
+            if ((puidValue >= 0) && (puidValue < 314))
                 return (ioSystemGraphicsSteeringType)puidValue;
             else
                 return ioSystemGraphicsSteeringType.Puid_NotDefined;

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PanelClass Name="SpeedAnglesPanel">
+    <Description>Panel for speed and angles instruments</Description>
+    <PanelObject ParentGlobalID="Ids.Pilot" Background="ContainerBackground">
+        <RowDefinition Size="64" />
+        <RowDefinition />
+        <RowDefinition Size="64"/>
+        <ColumnDefinition />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1">
+            <ioPanelGrid LocalID="GridBtwHeader" VerticalAlignment="Top" Height="64" Margin="4,0,0,0">
+                <ioLabel LocalID="LabelBtwHeader" Margin="0,20,0,0">
+                    <Properties Text="BTW" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelBtwHeaderUnit">
+                    <Properties Text="°T" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridBtw" VerticalAlignment="Top" Height="64" Margin="0,0,4,0">
+                <ioTextBlock LocalID="InstrBtw">
+                    <Properties Text="000" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="1" Column="2" >
+            <ioPanelGrid LocalID="GridDtwHeader" VerticalAlignment="Top" Height="64" Margin="4,0,0,0">
+                <ioLabel LocalID="LabelDtwHeader" Margin="0,20,0,0">
+                    <Properties Text="DTW" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelDtwHeaderUnit">
+                    <Properties Text="m" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridDtw" VerticalAlignment="Top" Height="64" Margin="0,0,4,0">
+                <ioTextBlock LocalID="InstrDtw">
+                    <Properties Text="0.0" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="2" Column="1">
+        </Grid>
+        <Grid Row="2" Column="2">
+        </Grid>
+        <Grid Row="3" Column="1">
+            <ioPanelGrid LocalID="GridRollHeader" VerticalAlignment="Top" Height="64" Margin="4,0,0,0">
+                <ioLabel LocalID="LabelRollHeader" Margin="0,20,0,0">
+                    <Properties Text="ROLL" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelRollHeaderUnit">
+                    <Properties Text="°" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridRoll" VerticalAlignment="Top" Height="64" Margin="0,0,4,0">
+                <ioTextBlock LocalID="InstrRoll">
+                    <Properties Text="0.0" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="3" Column="2">
+            <ioPanelGrid LocalID="GridPitchHeader" VerticalAlignment="Top" Height="64" Margin="4,0,0,0">
+                <ioLabel LocalID="LabelPitchHeader" Margin="0,20,0,0">
+                    <Properties Text="PITCH" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelPitchHeaderUnit">
+                    <Properties Text="°" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridPitch" VerticalAlignment="Top" Height="64" Margin="0,0,4,0">
+                <ioTextBlock LocalID="InstPitch">
+                    <Properties Text="0.0" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+        </Grid>
+    </PanelObject>
+</PanelClass>
