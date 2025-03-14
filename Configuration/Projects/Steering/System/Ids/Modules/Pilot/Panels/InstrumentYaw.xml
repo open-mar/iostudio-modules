@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PanelClass Name="InstrumentYaw">
+    <Description>Instrument panel for yaw type of data</Description>
+    <PanelObject ParentGlobalID="Ids.Pilot" Background="ContainerBackground">
+        <RowDefinition />
+        <ColumnDefinition />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
+            <ioPanelGrid LocalID="GridHdgCmdInstrHeader" VerticalAlignment="Top" Height="64" Margin="12,0,0,0">
+                <ioLabel LocalID="LabelHdgCmdInstrHeader" Margin="0,20,0,0">
+                    <Properties Text="HDG CMD" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelHdgCmdInstrHeaderUnit">
+                    <Properties Text="°T" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridHdgInstrHeader" VerticalAlignment="Top" Height="64" Margin="12,0,0,0">
+                <ioLabel LocalID="LabelHdgInstrHeader" Margin="0,20,0,0">
+                    <Properties Text="HDG" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelHdgInstrHeaderUnit">
+                    <Properties Text="°T" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridCogInstrHeader" VerticalAlignment="Top" Height="64" Margin="12,0,0,0">
+                <ioLabel LocalID="LabelCogInstrHeader" Margin="0,20,0,0">
+                    <Properties Text="COG" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelCogInstrHeaderUnit">
+                    <Properties Text="°T" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridCoRotInstrHeader" VerticalAlignment="Top" Height="64" Margin="12,0,0,0">
+                <ioLabel LocalID="LabelRotInstrHeader" Margin="0,20,0,0">
+                    <Properties Text="ROT" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelRoTInstrHeaderUnit">
+                    <Properties Text="°/min" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="1" Column="2" IsStacked="TRUE" Orientation="Vertical">
+            <ioPanelGrid LocalID="GridHdgCmdInstr" VerticalAlignment="Top" Height="64" IsStacked="FALSE">
+                <ioTextBlock LocalID="InstrHdgCmdInstr">
+                    <Properties Text="000" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridHdgInstr" VerticalAlignment="Top" Height="64">
+                <ioTextBlock LocalID="InstrHdgInstr">
+                    <Properties Text="000.0" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridCogInstr" VerticalAlignment="Top" Height="64">
+                <ioTextBlock LocalID="InstrCogInstr">
+                    <Properties Text="000" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridRotInstr" VerticalAlignment="Top" Height="64">
+                <ioTextBlock LocalID="InstrRotInstr">
+                    <Properties Text="0.0" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+        </Grid>
+    </PanelObject>
+</PanelClass>
