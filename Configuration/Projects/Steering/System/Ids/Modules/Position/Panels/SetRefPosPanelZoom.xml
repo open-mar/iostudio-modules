@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PanelClass Name="SetRefPosPanelZoom">
+    <Description>Panel for zooming position or track plot views</Description>
+    <PanelObject ParentGlobalID="Ids.Position" Background="ContainerBackground">
+        <RowDefinition />
+        <ColumnDefinition />
+        <ColumnDefinition />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
+            <ioButtonIcon LocalID="ButtonZoomOutPosRef" VerticalAlignment="Top" Height="48">
+                <Properties Text="" TypeColor="Normal" TypeFontIcon="MaterialDesign" IconID="remove" />
+            </ioButtonIcon>
+        </Grid>
+        <Grid Row="1" Column="2" IsStacked="TRUE" Orientation="Vertical">
+            <ioTextBlock LocalID="TextZoomInOutPosRef" VerticalAlignment="Top" Height="48" Margin="0,0,8,0">
+                <Properties Text="1.0" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="ExtraLarge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+            </ioTextBlock>
+        </Grid>
+        <Grid Row="1" Column="3" IsStacked="TRUE" Orientation="Vertical">
+            <ioButtonIcon LocalID="ButtonZoomInPosRef" VerticalAlignment="Top" Height="48">
+                <Properties Text="" TypeColor="Normal" TypeFontIcon="MaterialDesign" IconID="add" />
+            </ioButtonIcon>
+        </Grid>
+    </PanelObject>
+</PanelClass>

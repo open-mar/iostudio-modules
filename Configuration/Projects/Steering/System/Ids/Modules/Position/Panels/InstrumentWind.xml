@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PanelClass Name="InstrumentWind">
     <Description>Instrument panel for wind type of data</Description>
-    <PanelObject ParentGlobalID="Ids.Pilot" Background="ContainerBackground">
+    <PanelObject ParentGlobalID="Ids.Position" Background="ContainerBackground">
         <RowDefinition />
         <ColumnDefinition />
         <ColumnDefinition />

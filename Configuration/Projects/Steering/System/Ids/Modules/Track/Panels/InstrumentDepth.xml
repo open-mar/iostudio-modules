@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PanelClass Name="InstrumentDepth">
+    <Description>Panel with depth instrument data</Description>
+    <PanelObject ParentGlobalID="Ids.Track" Background="ContainerBackground">
+        <RowDefinition Size="64" />
+        <RowDefinition />
+        <ColumnDefinition />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
+            <ioPanelGrid LocalID="GridDptInstrHeader" VerticalAlignment="Top" Height="64" Margin="16,0,0,0">
+                <ioLabel LocalID="LabeDptInstrHeader" Margin="0,20,0,0">
+                    <Properties Text="DPT" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelDptInstrHeaderUnit">
+                    <Properties Text="m" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="1" Column="2" IsStacked="TRUE" Orientation="Vertical">
+            <ioPanelGrid LocalID="GridDptInstr" VerticalAlignment="Top" Height="64">
+                <ioTextBlock LocalID="InstrDptInstr">
+                    <Properties Text="0.0" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="2" Column="1" SpanColumns="2">
+            <ioPanelGrid LocalID="GridDptInstrPanel">
+                <ioUiComponent LocalID="CompDepth">
+                    <Properties TypeUiComponent="Navigation" UiComponentID="ioTunnelThrusterTicksCmd" Radius="150.0" />
+                </ioUiComponent>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="2" Column="2" />
+    </PanelObject>
+</PanelClass>
