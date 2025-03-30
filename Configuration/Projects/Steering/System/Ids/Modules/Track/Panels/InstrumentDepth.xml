@@ -26,7 +26,7 @@
         <Grid Row="2" Column="1" SpanColumns="2">
             <ioPanelGrid LocalID="GridDptInstrPanel">
                 <ioUiComponent LocalID="CompDepth">
-                    <Properties TypeUiComponent="Navigation" UiComponentID="ioTunnelThrusterTicksCmd" Radius="150.0" />
+                    <Properties TypeUiComponent="Environment" UiComponentID="ioDepthPlot" Radius="150.0" />
                 </ioUiComponent>
             </ioPanelGrid>
         </Grid>

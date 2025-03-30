@@ -3,7 +3,7 @@
     <Description>Flyout selection of active route for track steering</Description>
     <PanelObject ParentGlobalID="Ids.Track" Background="ContainerBackground">
         <RowDefinition Size="212" />
-        <RowDefinition Size="40" />
+        <RowDefinition Size="48" />
         <RowDefinition Size="32" />
         <RowDefinition />
         <ColumnDefinition />

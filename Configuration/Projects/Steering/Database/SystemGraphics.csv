@@ -363,8 +363,8 @@ PUID;Parent;LocalID;TypeGraphics
 384;Ids.Position;InstrResultSpeed;ioTextBlock
 385;Ids.Position;GridResultForce;ioPanelGrid
 386;Ids.Position;CompResultForce;ioUiComponent
-325;Ids.Position;ButtonZoomInPosRef;ioButtonText
-326;Ids.Position;ButtonZoomOutPosRef;ioButtonText
+325;Ids.Position;ButtonZoomInPosRef;ioButtonIcon
+326;Ids.Position;ButtonZoomOutPosRef;ioButtonIcon
 328;Ids.Position;TextZoomInOutPosRef;ioTextBlock
 329;Ids.Position;GridRefPosPanelZoom;ioPanelGrid
 330;Ids.Position;ButtonWestPort;ioButtonIcon
