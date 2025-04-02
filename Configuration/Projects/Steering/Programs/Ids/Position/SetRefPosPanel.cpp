@@ -11,7 +11,7 @@ SetRefPosPanel::~SetRefPosPanel()
 }
 void SetRefPosPanel::InitializeData(void)
 {
-    m_PanelGraphics.SetListData((ioItem**)m_SetRefPosPanelGraphics, 4);
+    m_PanelGraphics.SetListData((ioItem**)m_SetRefPosPanelGraphics, 27);
     AddGraphics(&ButtonWestPort, Puid_Ids_Position_ButtonWestPort);
     ButtonWestPort.SetTextForced((ioChars)"Port");
     AddGraphics(&ButtonNorthFwd, Puid_Ids_Position_ButtonNorthFwd);
@@ -20,4 +20,49 @@ void SetRefPosPanel::InitializeData(void)
     ButtonSouthBack.SetTextForced((ioChars)"Back");
     AddGraphics(&ButtonEastStarb, Puid_Ids_Position_ButtonEastStarb);
     ButtonEastStarb.SetTextForced((ioChars)"Starboard");
+    AddGraphics(&LabelVesselPosRef, Puid_Ids_Position_LabelVesselPosRef);
+    LabelVesselPosRef.SetTextForced((ioChars)"VESSEL POSITION REFERENCE");
+    AddGraphics(&DividerVesselPosRef, Puid_Ids_Position_DividerVesselPosRef);
+    AddGraphics(&LabelSurgePosRefHeader, Puid_Ids_Position_LabelSurgePosRefHeader);
+    LabelSurgePosRefHeader.SetTextForced((ioChars)"SURGE");
+    AddGraphics(&LabelSurgePosRefUnit, Puid_Ids_Position_LabelSurgePosRefUnit);
+    LabelSurgePosRefUnit.SetTextForced((ioChars)"m");
+    AddGraphics(&LabelSwayPosRefHeader, Puid_Ids_Position_LabelSwayPosRefHeader);
+    LabelSwayPosRefHeader.SetTextForced((ioChars)"SWAY");
+    AddGraphics(&LabelSwayPosRefUnit, Puid_Ids_Position_LabelSwayPosRefUnit);
+    LabelSwayPosRefUnit.SetTextForced((ioChars)"m");
+    AddGraphics(&InstrSurgePosRef, Puid_Ids_Position_InstrSurgePosRef);
+    InstrSurgePosRef.SetTextForced((ioChars)"0.0");
+    InstrSurgePosRef.SetDecimals(1);
+    AddGraphics(&InstrSwayPosRef, Puid_Ids_Position_InstrSwayPosRef);
+    InstrSwayPosRef.SetTextForced((ioChars)"0.0");
+    InstrSwayPosRef.SetDecimals(1);
+    AddGraphics(&RadioVesselPosRef, Puid_Ids_Position_RadioVesselPosRef);
+    AddGraphics(&LabelGroundPosRef, Puid_Ids_Position_LabelGroundPosRef);
+    LabelGroundPosRef.SetTextForced((ioChars)"GROUND POSITION REFERENCE");
+    AddGraphics(&DividerGroundPosRef, Puid_Ids_Position_DividerGroundPosRef);
+    AddGraphics(&LabelNorthPosRefHeader, Puid_Ids_Position_LabelNorthPosRefHeader);
+    LabelNorthPosRefHeader.SetTextForced((ioChars)"NORTH");
+    AddGraphics(&LabelNorthPosRefUnit, Puid_Ids_Position_LabelNorthPosRefUnit);
+    LabelNorthPosRefUnit.SetTextForced((ioChars)"m");
+    AddGraphics(&LabelEastPosRefHeader, Puid_Ids_Position_LabelEastPosRefHeader);
+    LabelEastPosRefHeader.SetTextForced((ioChars)"EAST");
+    AddGraphics(&LabelEastPosRefUnit, Puid_Ids_Position_LabelEastPosRefUnit);
+    LabelEastPosRefUnit.SetTextForced((ioChars)"m");
+    AddGraphics(&InstrNorthPosRef, Puid_Ids_Position_InstrNorthPosRef);
+    InstrNorthPosRef.SetTextForced((ioChars)"0.0");
+    InstrNorthPosRef.SetDecimals(1);
+    AddGraphics(&InstrEastPosRef, Puid_Ids_Position_InstrEastPosRef);
+    InstrEastPosRef.SetTextForced((ioChars)"0.0");
+    InstrEastPosRef.SetDecimals(1);
+    AddGraphics(&RadioGroundPosRef, Puid_Ids_Position_RadioGroundPosRef);
+    AddGraphics(&LabelYawSteeringPosRef, Puid_Ids_Position_LabelYawSteeringPosRef);
+    LabelYawSteeringPosRef.SetTextForced((ioChars)"YAW STEERING");
+    AddGraphics(&DividerYawSteeringPosRef, Puid_Ids_Position_DividerYawSteeringPosRef);
+    AddGraphics(&ButtonHeadingSteerPosRef, Puid_Ids_Position_ButtonHeadingSteerPosRef);
+    ButtonHeadingSteerPosRef.SetTextForced((ioChars)"Heading");
+    AddGraphics(&ButtonWindSteerPosRef, Puid_Ids_Position_ButtonWindSteerPosRef);
+    ButtonWindSteerPosRef.SetTextForced((ioChars)"Wind");
+    AddGraphics(&ButtonRateOfturnSteerPosRef, Puid_Ids_Position_ButtonRateOfturnSteerPosRef);
+    ButtonRateOfturnSteerPosRef.SetTextForced((ioChars)"ROT");
 }

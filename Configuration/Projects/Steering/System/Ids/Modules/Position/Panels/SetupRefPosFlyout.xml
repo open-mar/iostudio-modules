@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PanelClass Name="SetupRefPosFlyout">
+    <Description>Flyout panel for position reference setup</Description>
+    <PanelObject ParentGlobalID="Ids.Position" Background="ContainerBackground">
+        <RowDefinition Size="28" />
+        <RowDefinition />
+        <ColumnDefinition />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical" SpanColumns="2">
+            <ioLabel LocalID="LabelEnableSteeringPosRef" HorizontalAlignment="Left" Width="300">
+                <Properties Text="ENABLE STEERING AXIS" FontSize="Small" FontWeight="Normal" TypeColor="ElementActive" TextWrapping="NoWrap" />
+            </ioLabel>
+            <ioDivider LocalID="DividerEnableSteeringPosRef" Margin="0,0,0,8">
+                <Properties TypeDivider="Divider" />
+            </ioDivider>
+        </Grid>
+        <Grid Row="1" Column="2" />
+        <Grid Row="2" Column="1" IsStacked="TRUE" Orientation="Vertical">
+            <ioButtonIcon LocalID="ButtonEnableSurgeSteer" VerticalAlignment="Top" Height="48">
+                <Properties Text="Surge" TypeColor="Normal" TypeFontIcon="MaterialDesign" IconID="north" />
+            </ioButtonIcon>
+        </Grid>
+        <Grid Row="2" Column="2" IsStacked="TRUE" Orientation="Vertical">
+            <ioButtonIcon LocalID="ButtonEnableSwaySteer" VerticalAlignment="Top" Height="48">
+                <Properties Text="Sway" TypeColor="Normal" TypeFontIcon="MaterialDesign" IconID="arrow_back" />
+            </ioButtonIcon>
+        </Grid>
+    </PanelObject>
+</PanelClass>

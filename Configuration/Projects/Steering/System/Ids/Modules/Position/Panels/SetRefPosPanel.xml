@@ -3,6 +3,12 @@
     <Description>Panel setting reference for the position steering</Description>
     <PanelObject ParentGlobalID="Ids.Position" Background="ContainerBackground">
         <RowDefinition Size="48" />
+        <RowDefinition Size="96" />
+        <RowDefinition Size="28" />
+        <RowDefinition Size="136" />
+        <RowDefinition Size="28" />
+        <RowDefinition Size="132" />
+        <RowDefinition Size="28" />
         <RowDefinition />
         <ColumnDefinition />
         <ColumnDefinition />
@@ -25,9 +31,127 @@
                 <Properties Text="Back" TypeColor="Normal" TypeFontIcon="MaterialDesign" IconID="south" />
             </ioButtonIcon>
         </Grid>
-        <Grid Row="2" Column="3">
+        <Grid Row="2" Column="3" IsStacked="TRUE" Orientation="Vertical">
             <ioButtonIcon LocalID="ButtonEastStarb" VerticalAlignment="Top" Height="48">
                 <Properties Text="Starboard" TypeColor="Normal" TypeFontIcon="MaterialDesign" IconID="arrow_forward" />
+            </ioButtonIcon>
+            <ioButtonTextFlyout LocalID="ButtSetupPosRef" VerticalAlignment="Top" Height="48" PanelGlobalID="Ids.Position.SetupRefPosFlyout">
+                <Properties Text="Setup ..." TypeColor="Normal" />
+            </ioButtonTextFlyout>
+        </Grid>
+        <Grid Row="3" Column="1" IsStacked="TRUE" Orientation="Vertical" SpanColumns="3">
+            <ioLabel LocalID="LabelVesselPosRef" Margin="0,8,0,0">
+                <Properties Text="VESSEL POSITION REFERENCE" FontSize="Small" FontWeight="Normal" TypeColor="ElementActive" TextWrapping="NoWrap" />
+            </ioLabel>
+            <ioDivider LocalID="DividerVesselPosRef">
+                <Properties TypeDivider="Divider" />
+            </ioDivider>
+        </Grid>
+        <Grid Row="3" Column="2" />
+        <Grid Row="3" Column="3" />
+        <Grid Row="4" Column="1" IsStacked="TRUE" Orientation="Vertical">
+            <ioPanelGrid LocalID="GridSurgePosRefHeader" VerticalAlignment="Top" Height="64">
+                <ioLabel LocalID="LabelSurgePosRefHeader" Margin="0,20,0,0">
+                    <Properties Text="SURGE" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelSurgePosRefUnit">
+                    <Properties Text="m" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridSwayPosRefHeader" VerticalAlignment="Top" Height="64">
+                <ioLabel LocalID="LabelSwayPosRefHeader" Margin="0,20,0,0">
+                    <Properties Text="SWAY" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelSwayPosRefUnit">
+                    <Properties Text="m" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="4" Column="2" IsStacked="TRUE" Orientation="Vertical">
+            <ioPanelGrid LocalID="GridSurgePosRef" VerticalAlignment="Top" Height="64">
+                <ioTextBlock LocalID="InstrSurgePosRef">
+                    <Properties Text="0.0" TypeColor="InstrumentEnhancedPrimary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridSwayPosRef" VerticalAlignment="Top" Height="64">
+                <ioTextBlock LocalID="InstrSwayPosRef">
+                    <Properties Text="0.0" TypeColor="InstrumentEnhancedPrimary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="4" Column="3" IsStacked="TRUE" Orientation="Vertical">
+            <ioPanelGrid LocalID="GridVesselPosRef" VerticalAlignment="Top" Height="64">
+                <ioRadioButton LocalID="RadioVesselPosRef" HorizontalAlignment="Center" Width="36" VerticalAlignment="Top" Height="36" Margin="0,20,0,0" />
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="5" Column="1" IsStacked="TRUE" Orientation="Vertical" SpanColumns="3">
+            <ioLabel LocalID="LabelGroundPosRef" Margin="0,8,0,0">
+                <Properties Text="GROUND POSITION REFERENCE" FontSize="Small" FontWeight="Normal" TypeColor="ElementActive" TextWrapping="NoWrap" />
+            </ioLabel>
+            <ioDivider LocalID="DividerGroundPosRef">
+                <Properties TypeDivider="Divider" />
+            </ioDivider>
+        </Grid>
+        <Grid Row="5" Column="2" />
+        <Grid Row="5" Column="3" />
+        <Grid Row="6" Column="1" IsStacked="TRUE" Orientation="Vertical">
+            <ioPanelGrid LocalID="GridNorthPosRefHeader" VerticalAlignment="Top" Height="64">
+                <ioLabel LocalID="LabelNorthPosRefHeader" Margin="0,20,0,0">
+                    <Properties Text="NORTH" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelNorthPosRefUnit">
+                    <Properties Text="m" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridEastPosRefHeader" VerticalAlignment="Top" Height="64">
+                <ioLabel LocalID="LabelEastPosRefHeader" Margin="0,20,0,0">
+                    <Properties Text="EAST" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelEastPosRefUnit">
+                    <Properties Text="m" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="6" Column="2" IsStacked="TRUE" Orientation="Vertical">
+            <ioPanelGrid LocalID="GridNorthPosRef" VerticalAlignment="Top" Height="64">
+                <ioTextBlock LocalID="InstrNorthPosRef">
+                    <Properties Text="0.0" TypeColor="InstrumentEnhancedPrimary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridEastPosRef" VerticalAlignment="Top" Height="64">
+                <ioTextBlock LocalID="InstrEastPosRef">
+                    <Properties Text="0.0" TypeColor="InstrumentEnhancedPrimary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="6" Column="3" IsStacked="TRUE" Orientation="Vertical">
+            <ioPanelGrid LocalID="GridGroundPosRef" VerticalAlignment="Top" Height="64">
+                <ioRadioButton LocalID="RadioGroundPosRef" HorizontalAlignment="Center" Width="36" VerticalAlignment="Top" Height="36" Margin="0,20,0,0" />
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="7" Column="1" IsStacked="TRUE" Orientation="Vertical" SpanColumns="3">
+            <ioLabel LocalID="LabelYawSteeringPosRef" Margin="0,8,0,0">
+                <Properties Text="YAW STEERING" FontSize="Small" FontWeight="Normal" TypeColor="ElementActive" TextWrapping="NoWrap" />
+            </ioLabel>
+            <ioDivider LocalID="DividerYawSteeringPosRef">
+                <Properties TypeDivider="Divider" />
+            </ioDivider>
+        </Grid>
+        <Grid Row="7" Column="2" />
+        <Grid Row="7" Column="3" />
+        <Grid Row="8" Column="1" IsStacked="TRUE" Orientation="Vertical">
+            <ioButtonIcon LocalID="ButtonHeadingSteerPosRef" VerticalAlignment="Top" Height="48">
+                <Properties Text="Heading" TypeColor="Normal" TypeFontIcon="MaterialDesign" IconID="north" />
+            </ioButtonIcon>
+        </Grid>
+        <Grid Row="8" Column="2">
+            <ioButtonIcon LocalID="ButtonWindSteerPosRef" VerticalAlignment="Top" Height="48">
+                <Properties Text="Wind" TypeColor="Normal" TypeFontIcon="MaterialDesign" IconID="north" />
+            </ioButtonIcon>
+        </Grid>
+        <Grid Row="8" Column="3">
+            <ioButtonIcon LocalID="ButtonRateOfturnSteerPosRef" VerticalAlignment="Top" Height="48">
+                <Properties Text="ROT" TypeColor="Normal" TypeFontIcon="MaterialDesign" IconID="arrow_back" />
             </ioButtonIcon>
         </Grid>
     </PanelObject>

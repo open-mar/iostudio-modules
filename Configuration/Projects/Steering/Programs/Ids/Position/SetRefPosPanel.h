@@ -3,6 +3,9 @@
 #define __SETREFPOSPANEL_H
 #include "ioSystem/Panels/ioPanel.h"
 #include "ioSystem/Panels/ioButtonText.h"
+#include "ioSystem/Panels/ioGraphicsText.h"
+#include "ioSystem/Panels/ioDivider.h"
+#include "ioSystem/Panels/ioRadioButton.h"
 class SetRefPosPanel : public ioPanel
 {
 public:
@@ -13,7 +16,30 @@ public:
     ioButtonIcon ButtonNorthFwd;
     ioButtonIcon ButtonSouthBack;
     ioButtonIcon ButtonEastStarb;
+    ioLabel LabelVesselPosRef;
+    ioDivider DividerVesselPosRef;
+    ioLabel LabelSurgePosRefHeader;
+    ioLabel LabelSurgePosRefUnit;
+    ioLabel LabelSwayPosRefHeader;
+    ioLabel LabelSwayPosRefUnit;
+    ioTextBlock InstrSurgePosRef;
+    ioTextBlock InstrSwayPosRef;
+    ioRadioButton RadioVesselPosRef;
+    ioLabel LabelGroundPosRef;
+    ioDivider DividerGroundPosRef;
+    ioLabel LabelNorthPosRefHeader;
+    ioLabel LabelNorthPosRefUnit;
+    ioLabel LabelEastPosRefHeader;
+    ioLabel LabelEastPosRefUnit;
+    ioTextBlock InstrNorthPosRef;
+    ioTextBlock InstrEastPosRef;
+    ioRadioButton RadioGroundPosRef;
+    ioLabel LabelYawSteeringPosRef;
+    ioDivider DividerYawSteeringPosRef;
+    ioButtonIcon ButtonHeadingSteerPosRef;
+    ioButtonIcon ButtonWindSteerPosRef;
+    ioButtonIcon ButtonRateOfturnSteerPosRef;
 protected:
-    ioGraphics* m_SetRefPosPanelGraphics[4];
+    ioGraphics* m_SetRefPosPanelGraphics[27];
 };
 #endif // __SETREFPOSPANEL_H

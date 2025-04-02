@@ -251,9 +251,47 @@ namespace ioSystemNetworkNet
         Puid_Ids_Position_ButtonNorthFwd = 331,
         Puid_Ids_Position_ButtonSouthBack = 332,
         Puid_Ids_Position_ButtonEastStarb = 333,
+        Puid_Ids_Position_ButtSetupPosRef = 410,
+        Puid_Ids_Position_LabelVesselPosRef = 337,
+        Puid_Ids_Position_DividerVesselPosRef = 335,
+        Puid_Ids_Position_GridSurgePosRefHeader = 338,
+        Puid_Ids_Position_LabelSurgePosRefHeader = 339,
+        Puid_Ids_Position_LabelSurgePosRefUnit = 340,
+        Puid_Ids_Position_GridSwayPosRefHeader = 343,
+        Puid_Ids_Position_LabelSwayPosRefHeader = 344,
+        Puid_Ids_Position_LabelSwayPosRefUnit = 345,
+        Puid_Ids_Position_GridSurgePosRef = 341,
+        Puid_Ids_Position_InstrSurgePosRef = 342,
+        Puid_Ids_Position_GridSwayPosRef = 346,
+        Puid_Ids_Position_InstrSwayPosRef = 347,
+        Puid_Ids_Position_GridVesselPosRef = 336,
+        Puid_Ids_Position_RadioVesselPosRef = 334,
+        Puid_Ids_Position_LabelGroundPosRef = 387,
+        Puid_Ids_Position_DividerGroundPosRef = 388,
+        Puid_Ids_Position_GridNorthPosRefHeader = 389,
+        Puid_Ids_Position_LabelNorthPosRefHeader = 390,
+        Puid_Ids_Position_LabelNorthPosRefUnit = 391,
+        Puid_Ids_Position_GridEastPosRefHeader = 392,
+        Puid_Ids_Position_LabelEastPosRefHeader = 393,
+        Puid_Ids_Position_LabelEastPosRefUnit = 394,
+        Puid_Ids_Position_GridNorthPosRef = 395,
+        Puid_Ids_Position_InstrNorthPosRef = 396,
+        Puid_Ids_Position_GridEastPosRef = 397,
+        Puid_Ids_Position_InstrEastPosRef = 398,
+        Puid_Ids_Position_GridGroundPosRef = 399,
+        Puid_Ids_Position_RadioGroundPosRef = 400,
+        Puid_Ids_Position_LabelYawSteeringPosRef = 405,
+        Puid_Ids_Position_DividerYawSteeringPosRef = 406,
+        Puid_Ids_Position_ButtonHeadingSteerPosRef = 407,
+        Puid_Ids_Position_ButtonWindSteerPosRef = 408,
+        Puid_Ids_Position_ButtonRateOfturnSteerPosRef = 409,
         Puid_Ids_Position_ButtonZoomOutPosRef = 326,
         Puid_Ids_Position_TextZoomInOutPosRef = 328,
         Puid_Ids_Position_ButtonZoomInPosRef = 325,
+        Puid_Ids_Position_LabelEnableSteeringPosRef = 401,
+        Puid_Ids_Position_DividerEnableSteeringPosRef = 402,
+        Puid_Ids_Position_ButtonEnableSurgeSteer = 403,
+        Puid_Ids_Position_ButtonEnableSwaySteer = 404,
         Puid_Ids_Track_GridDptInstrHeader = 324,
         Puid_Ids_Track_LabeDptInstrHeader = 327,
         Puid_Ids_Track_LabelDptInstrHeaderUnit = 348,
@@ -640,9 +678,47 @@ namespace ioSystemNetworkNet
                 case ioSystemGraphicsSteeringType.Puid_Ids_Position_ButtonNorthFwd: return "Ids.Position.ButtonNorthFwd";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Position_ButtonSouthBack: return "Ids.Position.ButtonSouthBack";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Position_ButtonEastStarb: return "Ids.Position.ButtonEastStarb";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_ButtSetupPosRef: return "Ids.Position.ButtSetupPosRef";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_LabelVesselPosRef: return "Ids.Position.LabelVesselPosRef";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_DividerVesselPosRef: return "Ids.Position.DividerVesselPosRef";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_GridSurgePosRefHeader: return "Ids.Position.GridSurgePosRefHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_LabelSurgePosRefHeader: return "Ids.Position.LabelSurgePosRefHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_LabelSurgePosRefUnit: return "Ids.Position.LabelSurgePosRefUnit";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_GridSwayPosRefHeader: return "Ids.Position.GridSwayPosRefHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_LabelSwayPosRefHeader: return "Ids.Position.LabelSwayPosRefHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_LabelSwayPosRefUnit: return "Ids.Position.LabelSwayPosRefUnit";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_GridSurgePosRef: return "Ids.Position.GridSurgePosRef";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_InstrSurgePosRef: return "Ids.Position.InstrSurgePosRef";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_GridSwayPosRef: return "Ids.Position.GridSwayPosRef";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_InstrSwayPosRef: return "Ids.Position.InstrSwayPosRef";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_GridVesselPosRef: return "Ids.Position.GridVesselPosRef";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_RadioVesselPosRef: return "Ids.Position.RadioVesselPosRef";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_LabelGroundPosRef: return "Ids.Position.LabelGroundPosRef";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_DividerGroundPosRef: return "Ids.Position.DividerGroundPosRef";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_GridNorthPosRefHeader: return "Ids.Position.GridNorthPosRefHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_LabelNorthPosRefHeader: return "Ids.Position.LabelNorthPosRefHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_LabelNorthPosRefUnit: return "Ids.Position.LabelNorthPosRefUnit";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_GridEastPosRefHeader: return "Ids.Position.GridEastPosRefHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_LabelEastPosRefHeader: return "Ids.Position.LabelEastPosRefHeader";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_LabelEastPosRefUnit: return "Ids.Position.LabelEastPosRefUnit";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_GridNorthPosRef: return "Ids.Position.GridNorthPosRef";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_InstrNorthPosRef: return "Ids.Position.InstrNorthPosRef";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_GridEastPosRef: return "Ids.Position.GridEastPosRef";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_InstrEastPosRef: return "Ids.Position.InstrEastPosRef";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_GridGroundPosRef: return "Ids.Position.GridGroundPosRef";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_RadioGroundPosRef: return "Ids.Position.RadioGroundPosRef";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_LabelYawSteeringPosRef: return "Ids.Position.LabelYawSteeringPosRef";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_DividerYawSteeringPosRef: return "Ids.Position.DividerYawSteeringPosRef";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_ButtonHeadingSteerPosRef: return "Ids.Position.ButtonHeadingSteerPosRef";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_ButtonWindSteerPosRef: return "Ids.Position.ButtonWindSteerPosRef";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_ButtonRateOfturnSteerPosRef: return "Ids.Position.ButtonRateOfturnSteerPosRef";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Position_ButtonZoomOutPosRef: return "Ids.Position.ButtonZoomOutPosRef";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Position_TextZoomInOutPosRef: return "Ids.Position.TextZoomInOutPosRef";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Position_ButtonZoomInPosRef: return "Ids.Position.ButtonZoomInPosRef";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_LabelEnableSteeringPosRef: return "Ids.Position.LabelEnableSteeringPosRef";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_DividerEnableSteeringPosRef: return "Ids.Position.DividerEnableSteeringPosRef";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_ButtonEnableSurgeSteer: return "Ids.Position.ButtonEnableSurgeSteer";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Position_ButtonEnableSwaySteer: return "Ids.Position.ButtonEnableSwaySteer";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridDptInstrHeader: return "Ids.Track.GridDptInstrHeader";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabeDptInstrHeader: return "Ids.Track.LabeDptInstrHeader";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelDptInstrHeaderUnit: return "Ids.Track.LabelDptInstrHeaderUnit";
@@ -1029,9 +1105,47 @@ namespace ioSystemNetworkNet
                 case "Ids.Position.ButtonNorthFwd": return ioSystemGraphicsSteeringType.Puid_Ids_Position_ButtonNorthFwd;
                 case "Ids.Position.ButtonSouthBack": return ioSystemGraphicsSteeringType.Puid_Ids_Position_ButtonSouthBack;
                 case "Ids.Position.ButtonEastStarb": return ioSystemGraphicsSteeringType.Puid_Ids_Position_ButtonEastStarb;
+                case "Ids.Position.ButtSetupPosRef": return ioSystemGraphicsSteeringType.Puid_Ids_Position_ButtSetupPosRef;
+                case "Ids.Position.LabelVesselPosRef": return ioSystemGraphicsSteeringType.Puid_Ids_Position_LabelVesselPosRef;
+                case "Ids.Position.DividerVesselPosRef": return ioSystemGraphicsSteeringType.Puid_Ids_Position_DividerVesselPosRef;
+                case "Ids.Position.GridSurgePosRefHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Position_GridSurgePosRefHeader;
+                case "Ids.Position.LabelSurgePosRefHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Position_LabelSurgePosRefHeader;
+                case "Ids.Position.LabelSurgePosRefUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Position_LabelSurgePosRefUnit;
+                case "Ids.Position.GridSwayPosRefHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Position_GridSwayPosRefHeader;
+                case "Ids.Position.LabelSwayPosRefHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Position_LabelSwayPosRefHeader;
+                case "Ids.Position.LabelSwayPosRefUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Position_LabelSwayPosRefUnit;
+                case "Ids.Position.GridSurgePosRef": return ioSystemGraphicsSteeringType.Puid_Ids_Position_GridSurgePosRef;
+                case "Ids.Position.InstrSurgePosRef": return ioSystemGraphicsSteeringType.Puid_Ids_Position_InstrSurgePosRef;
+                case "Ids.Position.GridSwayPosRef": return ioSystemGraphicsSteeringType.Puid_Ids_Position_GridSwayPosRef;
+                case "Ids.Position.InstrSwayPosRef": return ioSystemGraphicsSteeringType.Puid_Ids_Position_InstrSwayPosRef;
+                case "Ids.Position.GridVesselPosRef": return ioSystemGraphicsSteeringType.Puid_Ids_Position_GridVesselPosRef;
+                case "Ids.Position.RadioVesselPosRef": return ioSystemGraphicsSteeringType.Puid_Ids_Position_RadioVesselPosRef;
+                case "Ids.Position.LabelGroundPosRef": return ioSystemGraphicsSteeringType.Puid_Ids_Position_LabelGroundPosRef;
+                case "Ids.Position.DividerGroundPosRef": return ioSystemGraphicsSteeringType.Puid_Ids_Position_DividerGroundPosRef;
+                case "Ids.Position.GridNorthPosRefHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Position_GridNorthPosRefHeader;
+                case "Ids.Position.LabelNorthPosRefHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Position_LabelNorthPosRefHeader;
+                case "Ids.Position.LabelNorthPosRefUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Position_LabelNorthPosRefUnit;
+                case "Ids.Position.GridEastPosRefHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Position_GridEastPosRefHeader;
+                case "Ids.Position.LabelEastPosRefHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Position_LabelEastPosRefHeader;
+                case "Ids.Position.LabelEastPosRefUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Position_LabelEastPosRefUnit;
+                case "Ids.Position.GridNorthPosRef": return ioSystemGraphicsSteeringType.Puid_Ids_Position_GridNorthPosRef;
+                case "Ids.Position.InstrNorthPosRef": return ioSystemGraphicsSteeringType.Puid_Ids_Position_InstrNorthPosRef;
+                case "Ids.Position.GridEastPosRef": return ioSystemGraphicsSteeringType.Puid_Ids_Position_GridEastPosRef;
+                case "Ids.Position.InstrEastPosRef": return ioSystemGraphicsSteeringType.Puid_Ids_Position_InstrEastPosRef;
+                case "Ids.Position.GridGroundPosRef": return ioSystemGraphicsSteeringType.Puid_Ids_Position_GridGroundPosRef;
+                case "Ids.Position.RadioGroundPosRef": return ioSystemGraphicsSteeringType.Puid_Ids_Position_RadioGroundPosRef;
+                case "Ids.Position.LabelYawSteeringPosRef": return ioSystemGraphicsSteeringType.Puid_Ids_Position_LabelYawSteeringPosRef;
+                case "Ids.Position.DividerYawSteeringPosRef": return ioSystemGraphicsSteeringType.Puid_Ids_Position_DividerYawSteeringPosRef;
+                case "Ids.Position.ButtonHeadingSteerPosRef": return ioSystemGraphicsSteeringType.Puid_Ids_Position_ButtonHeadingSteerPosRef;
+                case "Ids.Position.ButtonWindSteerPosRef": return ioSystemGraphicsSteeringType.Puid_Ids_Position_ButtonWindSteerPosRef;
+                case "Ids.Position.ButtonRateOfturnSteerPosRef": return ioSystemGraphicsSteeringType.Puid_Ids_Position_ButtonRateOfturnSteerPosRef;
                 case "Ids.Position.ButtonZoomOutPosRef": return ioSystemGraphicsSteeringType.Puid_Ids_Position_ButtonZoomOutPosRef;
                 case "Ids.Position.TextZoomInOutPosRef": return ioSystemGraphicsSteeringType.Puid_Ids_Position_TextZoomInOutPosRef;
                 case "Ids.Position.ButtonZoomInPosRef": return ioSystemGraphicsSteeringType.Puid_Ids_Position_ButtonZoomInPosRef;
+                case "Ids.Position.LabelEnableSteeringPosRef": return ioSystemGraphicsSteeringType.Puid_Ids_Position_LabelEnableSteeringPosRef;
+                case "Ids.Position.DividerEnableSteeringPosRef": return ioSystemGraphicsSteeringType.Puid_Ids_Position_DividerEnableSteeringPosRef;
+                case "Ids.Position.ButtonEnableSurgeSteer": return ioSystemGraphicsSteeringType.Puid_Ids_Position_ButtonEnableSurgeSteer;
+                case "Ids.Position.ButtonEnableSwaySteer": return ioSystemGraphicsSteeringType.Puid_Ids_Position_ButtonEnableSwaySteer;
                 case "Ids.Track.GridDptInstrHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridDptInstrHeader;
                 case "Ids.Track.LabeDptInstrHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabeDptInstrHeader;
                 case "Ids.Track.LabelDptInstrHeaderUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelDptInstrHeaderUnit;
@@ -1170,7 +1284,7 @@ namespace ioSystemNetworkNet
         }
         public static ioSystemGraphicsSteeringType GetPuid(Int32 puidValue)
         {
-            if ((puidValue >= 0) && (puidValue < 383))
+            if ((puidValue >= 0) && (puidValue < 421))
                 return (ioSystemGraphicsSteeringType)puidValue;
             else
                 return ioSystemGraphicsSteeringType.Puid_NotDefined;
