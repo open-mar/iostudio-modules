@@ -2,8 +2,104 @@
 <PanelClass Name="PositionInstrPanel">
     <Description>Main instrument panel for position steering</Description>
     <PanelObject ParentGlobalID="Ids.Position" Background="ContainerBackground">
+        <RowDefinition Size="64" />
         <RowDefinition />
+        <RowDefinition Size="64" />
         <ColumnDefinition />
-        <Grid Row="1" Column="1" />
+        <ColumnDefinition />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1">
+            <ioPanelGrid LocalID="GridBtwPosIndHeader" VerticalAlignment="Top" Height="64">
+                <ioLabel LocalID="LabelBtwPosIndHeader" Margin="0,20,0,0">
+                    <Properties Text="BTW" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelBtwPosIndHeaderUnit">
+                    <Properties Text="°T" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridBtwPosIndInstr" VerticalAlignment="Top" Height="64" Margin="0,0,8,0">
+                <ioTextBlock LocalID="InstrBtwPosInstInstr">
+                    <Properties Text="000" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="1" Column="2">
+            <ioPanelGrid LocalID="GridHdgPosIndHeader" VerticalAlignment="Top" Height="64" Margin="8,0,0,0">
+                <ioLabel LocalID="LabelHdgPosIndHeader" Margin="0,20,0,0">
+                    <Properties Text="HDG" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelBtwPosIndHeaderUnit">
+                    <Properties Text="°T" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridHdgPosIndInstr" VerticalAlignment="Top" Height="64" Margin="0,0,8,0">
+                <ioTextBlock LocalID="InstrHdgPosInstInstr">
+                    <Properties Text="000.0" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="1" Column="3">
+            <ioPanelGrid LocalID="GridCogPosIndHeader" VerticalAlignment="Top" Height="64" Margin="8,0,0,0">
+                <ioLabel LocalID="LabelCogPosIndHeader" Margin="0,20,0,0">
+                    <Properties Text="COG" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelCogPosIndHeaderUnit">
+                    <Properties Text="°T" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridCogPosIndInstr" VerticalAlignment="Top" Height="64">
+                <ioTextBlock LocalID="InstrCogPosInstInstr">
+                    <Properties Text="000.0" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="2" Column="1" />
+        <Grid Row="2" Column="2" />
+        <Grid Row="2" Column="3" />
+        <Grid Row="3" Column="1">
+            <ioPanelGrid LocalID="GridFwdNorthPosIndHeader" VerticalAlignment="Top" Height="64" Margin="8,0,0,0">
+                <ioLabel LocalID="LabelFwdNorthPosIndHeader" Margin="0,20,0,0">
+                    <Properties Text="FWD" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelFwdNorthPosIndHeaderUnit">
+                    <Properties Text="m" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridFwdNorthPosIndInstr" VerticalAlignment="Top" Height="64" Margin="0,0,8,0">
+                <ioTextBlock LocalID="InstrFwdNorthPosInstInstr">
+                    <Properties Text="0.0" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="3" Column="2">
+            <ioPanelGrid LocalID="GridDriftPosIndHeader" VerticalAlignment="Top" Height="64" Margin="8,0,0,0">
+                <ioLabel LocalID="LabelDriftPosIndHeader" Margin="0,20,0,0">
+                    <Properties Text="DRIFT" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelDriftPosIndHeaderUnit">
+                    <Properties Text="m/s" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridDriftPosIndInstr" VerticalAlignment="Top" Height="64" Margin="0,0,8,0">
+                <ioTextBlock LocalID="InstrDriftPosInstInstr">
+                    <Properties Text="0.0" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="3" Column="3">
+            <ioPanelGrid LocalID="GridStbdPEastosIndHeader" VerticalAlignment="Top" Height="64">
+                <ioLabel LocalID="LabelStbdEastPosIndHeader" Margin="0,20,0,0">
+                    <Properties Text="STBD" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelStbdEastPosIndHeaderUnit">
+                    <Properties Text="m" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridStbdEastPosIndInstr" VerticalAlignment="Top" Height="64" Margin="0,0,8,0">
+                <ioTextBlock LocalID="InstrStbdPosInstInstr">
+                    <Properties Text="0.0" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+        </Grid>
     </PanelObject>
 </PanelClass>

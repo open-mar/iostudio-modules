@@ -35,7 +35,7 @@
             <ioButtonIcon LocalID="ButtonEastStarb" VerticalAlignment="Top" Height="48">
                 <Properties Text="Starboard" TypeColor="Normal" TypeFontIcon="MaterialDesign" IconID="arrow_forward" />
             </ioButtonIcon>
-            <ioButtonTextFlyout LocalID="ButtSetupPosRef" VerticalAlignment="Top" Height="48" PanelGlobalID="Ids.Position.SetupRefPosFlyout">
+            <ioButtonTextFlyout LocalID="ButtSetupPosRef" HorizontalAlignment="Right" Width="64" VerticalAlignment="Top" Height="48" PanelGlobalID="Ids.Position.SetupRefPosFlyout">
                 <Properties Text="Setup ..." TypeColor="Normal" />
             </ioButtonTextFlyout>
         </Grid>

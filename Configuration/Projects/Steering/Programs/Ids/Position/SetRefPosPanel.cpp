@@ -11,7 +11,7 @@ SetRefPosPanel::~SetRefPosPanel()
 }
 void SetRefPosPanel::InitializeData(void)
 {
-    m_PanelGraphics.SetListData((ioItem**)m_SetRefPosPanelGraphics, 27);
+    m_PanelGraphics.SetListData((ioItem**)m_SetRefPosPanelGraphics, 28);
     AddGraphics(&ButtonWestPort, Puid_Ids_Position_ButtonWestPort);
     ButtonWestPort.SetTextForced((ioChars)"Port");
     AddGraphics(&ButtonNorthFwd, Puid_Ids_Position_ButtonNorthFwd);
@@ -20,6 +20,7 @@ void SetRefPosPanel::InitializeData(void)
     ButtonSouthBack.SetTextForced((ioChars)"Back");
     AddGraphics(&ButtonEastStarb, Puid_Ids_Position_ButtonEastStarb);
     ButtonEastStarb.SetTextForced((ioChars)"Starboard");
+    AddGraphics(&ButtSetupPosRef, Puid_Ids_Position_ButtSetupPosRef);
     AddGraphics(&LabelVesselPosRef, Puid_Ids_Position_LabelVesselPosRef);
     LabelVesselPosRef.SetTextForced((ioChars)"VESSEL POSITION REFERENCE");
     AddGraphics(&DividerVesselPosRef, Puid_Ids_Position_DividerVesselPosRef);
