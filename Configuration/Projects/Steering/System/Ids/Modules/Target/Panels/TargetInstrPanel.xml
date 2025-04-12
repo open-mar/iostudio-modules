@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PanelClass Name="TargetInstrPanel">
+    <Description>Main instrument panel for targets</Description>
+    <PanelObject ParentGlobalID="Ids.Target" Background="ContainerBackground">
+        <RowDefinition Size="64" />
+        <RowDefinition />
+        <RowDefinition Size="64"/>
+        <ColumnDefinition />
+        <ColumnDefinition />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1" />
+    </PanelObject>
+</PanelClass>

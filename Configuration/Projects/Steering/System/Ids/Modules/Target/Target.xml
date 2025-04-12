@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModuleClass Name="Target">
+    <Description>Target instrument panels and data</Description>
+    <ModuleObject GlobalID="Ids.Target" />
+</ModuleClass>

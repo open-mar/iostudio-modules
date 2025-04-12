@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PanelClass Name="InstrTargetsList">
+    <Description>Instrument with list of targets</Description>
+    <PanelObject ParentGlobalID="Ids.Target" Background="ContainerBackground">
+        <RowDefinition />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1" />
+    </PanelObject>
+</PanelClass>
