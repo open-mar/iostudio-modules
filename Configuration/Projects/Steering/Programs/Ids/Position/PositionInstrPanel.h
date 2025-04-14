@@ -3,6 +3,7 @@
 #define __POSITIONINSTRPANEL_H
 #include "ioSystem/Panels/ioPanel.h"
 #include "ioSystem/Panels/ioGraphicsText.h"
+#include "ioSystem/Panels/ioUiComponent.h"
 class PositionInstrPanel : public ioPanel
 {
 public:
@@ -18,6 +19,7 @@ public:
     ioLabel LabelCogPosIndHeader;
     ioLabel LabelCogPosIndHeaderUnit;
     ioTextBlock InstrCogPosInstInstr;
+    ioUiComponent UiPosSteerPanel;
     ioLabel LabelFwdNorthPosIndHeader;
     ioLabel LabelFwdNorthPosIndHeaderUnit;
     ioTextBlock InstrFwdNorthPosInstInstr;
@@ -28,6 +30,6 @@ public:
     ioLabel LabelStbdEastPosIndHeaderUnit;
     ioTextBlock InstrStbdPosInstInstr;
 protected:
-    ioGraphics* m_PositionInstrPanelGraphics[18];
+    ioGraphics* m_PositionInstrPanelGraphics[19];
 };
 #endif // __POSITIONINSTRPANEL_H

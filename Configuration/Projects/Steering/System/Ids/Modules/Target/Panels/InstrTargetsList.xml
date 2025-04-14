@@ -4,6 +4,10 @@
     <PanelObject ParentGlobalID="Ids.Target" Background="ContainerBackground">
         <RowDefinition />
         <ColumnDefinition />
-        <Grid Row="1" Column="1" />
+        <Grid Row="1" Column="1">
+            <ioUiComponent LocalID="UiTargetsList">
+                <Properties TypeUiComponent="Navigation" UiComponentID="ioTunnelThrusterSimple" Radius="150.0" />
+            </ioUiComponent>
+        </Grid>
     </PanelObject>
 </PanelClass>

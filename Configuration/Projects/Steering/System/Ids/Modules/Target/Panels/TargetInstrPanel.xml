@@ -4,10 +4,103 @@
     <PanelObject ParentGlobalID="Ids.Target" Background="ContainerBackground">
         <RowDefinition Size="64" />
         <RowDefinition />
-        <RowDefinition Size="64"/>
+        <RowDefinition Size="64" />
         <ColumnDefinition />
         <ColumnDefinition />
         <ColumnDefinition />
-        <Grid Row="1" Column="1" />
+        <Grid Row="1" Column="1">
+            <ioPanelGrid LocalID="GridBtwTargIndHeader" VerticalAlignment="Top" Height="64">
+                <ioLabel LocalID="LabelBtwTargIndHeader" Margin="0,20,0,0">
+                    <Properties Text="BTW" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelBtwTargIndHeaderUnit">
+                    <Properties Text="°T" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridBtwTargIndInstr" VerticalAlignment="Top" Height="64" Margin="0,0,8,0">
+                <ioTextBlock LocalID="InstrBtwTargInstInstr">
+                    <Properties Text="000" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="1" Column="2">
+            <ioPanelGrid LocalID="GridCpaTargIndHeader" VerticalAlignment="Top" Height="64" Margin="8,0,0,0">
+                <ioLabel LocalID="LabelCpaTargIndHeader" Margin="0,20,0,0">
+                    <Properties Text="CPA" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelCpaTargIndHeaderUnit">
+                    <Properties Text="m" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridCpaTargIndInstr" VerticalAlignment="Top" Height="64" Margin="0,0,8,0">
+                <ioTextBlock LocalID="InstrCpaTargInstInstr">
+                    <Properties Text="0.0" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="1" Column="3">
+            <ioPanelGrid LocalID="GridTcpaTargIndHeader" VerticalAlignment="Top" Height="64" Margin="8,0,0,0">
+                <ioLabel LocalID="LabelTcpaTargIndHeader" Margin="0,20,0,0">
+                    <Properties Text="TCPA" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridTcpaTargIndInstr" VerticalAlignment="Top" Height="64">
+                <ioTextBlock LocalID="InstrTcpaTargInstInstr">
+                    <Properties Text="00:00:00" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="2" Column="1" SpanColumns="3">
+            <ioUiComponent LocalID="UiTargetsPlot">
+                <Properties TypeUiComponent="Navigation" UiComponentID="ioTunnelThrusterSimple" Radius="150.0" />
+            </ioUiComponent>
+        </Grid>
+        <Grid Row="2" Column="2" />
+        <Grid Row="2" Column="3" />
+        <Grid Row="3" Column="1">
+            <ioPanelGrid LocalID="GridDptTargHeader" VerticalAlignment="Top" Height="64" Margin="4,0,0,0">
+                <ioLabel LocalID="LabelDptTargHeader" Margin="0,20,0,0">
+                    <Properties Text="DPT" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelDptTargHeaderUnit">
+                    <Properties Text="m" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridDptTarg" VerticalAlignment="Top" Height="64" Margin="0,0,4,0">
+                <ioTextBlock LocalID="InstrDptTarg">
+                    <Properties Text="0.0" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="3" Column="2">
+            <ioPanelGrid LocalID="GridCogTargHeader" VerticalAlignment="Top" Height="64" Margin="8,0,0,0">
+                <ioLabel LocalID="LabelCogTargHeader" Margin="0,20,0,0">
+                    <Properties Text="COG" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelCogTargHeaderUnit">
+                    <Properties Text="°T" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridCogTarg" VerticalAlignment="Top" Height="64" Margin="0,0,4,0">
+                <ioTextBlock LocalID="InstrCogTarg">
+                    <Properties Text="000.0" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+        </Grid>
+        <Grid Row="3" Column="3">
+            <ioPanelGrid LocalID="GridSogTargHeader" VerticalAlignment="Top" Height="64" Margin="8,0,0,0">
+                <ioLabel LocalID="LabelSogTargHeader" Margin="0,20,0,0">
+                    <Properties Text="SOG" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+                <ioLabel LocalID="LabelSogTargHeaderUnit">
+                    <Properties Text="kn" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
+                </ioLabel>
+            </ioPanelGrid>
+            <ioPanelGrid LocalID="GridSogTarg" VerticalAlignment="Top" Height="64" Margin="0,0,4,0">
+                <ioTextBlock LocalID="InstrSogTarg">
+                    <Properties Text="0.0" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
+                </ioTextBlock>
+            </ioPanelGrid>
+        </Grid>
     </PanelObject>
 </PanelClass>

@@ -3,6 +3,7 @@
 #define __TRACKPLOTPANEL_H
 #include "ioSystem/Panels/ioPanel.h"
 #include "ioSystem/Panels/ioGraphicsText.h"
+#include "ioSystem/Panels/ioUiComponent.h"
 class TrackPlotPanel : public ioPanel
 {
 public:
@@ -18,6 +19,7 @@ public:
     ioLabel LabelCogPlotHeader;
     ioLabel LabelCogPlotHeaderUnit;
     ioTextBlock InstrCogPlot;
+    ioUiComponent UiTrackPlot;
     ioLabel LabelDptPlotHeader;
     ioLabel LabelDptPlotHeaderUnit;
     ioTextBlock InstrDptPlot;
@@ -28,6 +30,6 @@ public:
     ioLabel LabelSogPlotHeaderUnit;
     ioTextBlock InstrSogPlot;
 protected:
-    ioGraphics* m_TrackPlotPanelGraphics[18];
+    ioGraphics* m_TrackPlotPanelGraphics[19];
 };
 #endif // __TRACKPLOTPANEL_H

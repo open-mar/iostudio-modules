@@ -53,7 +53,11 @@
                 </ioTextBlock>
             </ioPanelGrid>
         </Grid>
-        <Grid Row="2" Column="1" />
+        <Grid Row="2" Column="1" SpanColumns="3">
+            <ioUiComponent LocalID="UiPosSteerPanel">
+                <Properties TypeUiComponent="Navigation" UiComponentID="ioTunnelThrusterSimple" Radius="150.0" />
+            </ioUiComponent>
+        </Grid>
         <Grid Row="2" Column="2" />
         <Grid Row="2" Column="3" />
         <Grid Row="3" Column="1">

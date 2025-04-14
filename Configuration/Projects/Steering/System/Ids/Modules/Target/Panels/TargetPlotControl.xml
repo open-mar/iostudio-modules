@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PanelClass Name="TargetPlotControl">
+    <Description>Operation panel for handling instrument panel for targets </Description>
+    <PanelObject ParentGlobalID="Ids.Target" Background="ContainerBackground">
+        <RowDefinition />
+        <ColumnDefinition />
+        <ColumnDefinition />
+        <ColumnDefinition />
+        <Grid Row="1" Column="1" SpanColumns="3">
+            <ioPanelGrid LocalID="GridRefTargPanelZoom" PanelGlobalID="Ids.Position.SetRefPosPanelZoom" />
+        </Grid>
+        <Grid Row="1" Column="2" />
+        <Grid Row="1" Column="3" />
+    </PanelObject>
+</PanelClass>

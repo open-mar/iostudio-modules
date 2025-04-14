@@ -37,11 +37,9 @@
             </ioPanelGrid>
         </Grid>
         <Grid Row="2" Column="1" SpanColumns="2">
-            <ioPanelGrid LocalID="GridResultForce">
-                <ioUiComponent LocalID="CompResultForce">
-                    <Properties TypeUiComponent="Navigation" UiComponentID="ioTunnelThrusterTicksCmd" Radius="150.0" />
-                </ioUiComponent>
-            </ioPanelGrid>
+            <ioUiComponent LocalID="CompResultForce">
+                <Properties TypeUiComponent="Navigation" UiComponentID="ioTunnelThrusterTicksCmd" Radius="150.0" />
+            </ioUiComponent>
         </Grid>
         <Grid Row="2" Column="2" />
     </PanelObject>

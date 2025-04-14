@@ -11,7 +11,7 @@ TrackPlotPanel::~TrackPlotPanel()
 }
 void TrackPlotPanel::InitializeData(void)
 {
-    m_PanelGraphics.SetListData((ioItem**)m_TrackPlotPanelGraphics, 18);
+    m_PanelGraphics.SetListData((ioItem**)m_TrackPlotPanelGraphics, 19);
     AddGraphics(&LabelBtwPlotHeader, Puid_Ids_Track_LabelBtwPlotHeader);
     LabelBtwPlotHeader.SetTextForced((ioChars)"BTW");
     AddGraphics(&LabelBtwPlotHeaderUnit, Puid_Ids_Track_LabelBtwPlotHeaderUnit);
@@ -33,6 +33,7 @@ void TrackPlotPanel::InitializeData(void)
     AddGraphics(&InstrCogPlot, Puid_Ids_Track_InstrCogPlot);
     InstrCogPlot.SetTextForced((ioChars)"000.0");
     InstrCogPlot.SetDecimals(1);
+    AddGraphics(&UiTrackPlot, Puid_Ids_Track_TrackPlotPanel_UiTrackPlot);
     AddGraphics(&LabelDptPlotHeader, Puid_Ids_Track_LabelDptPlotHeader);
     LabelDptPlotHeader.SetTextForced((ioChars)"DPT");
     AddGraphics(&LabelDptPlotHeaderUnit, Puid_Ids_Track_LabelDptPlotHeaderUnit);
