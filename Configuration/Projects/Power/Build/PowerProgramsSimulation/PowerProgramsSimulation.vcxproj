@@ -144,7 +144,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Programs\Ids\Consume\ModeCommandData.h" />
+    <ClInclude Include="..\..\Programs\Ids\Consume\PowCommandModePanel.h" />
+    <ClInclude Include="..\..\Programs\Ids\Consume\PowCommandPanel.h" />
+    <ClInclude Include="..\..\Programs\Ids\Consume\PowIndicatorPanel.h" />
+    <ClInclude Include="..\..\Programs\Ids\Consume\PowModePanel.h" />
     <ClInclude Include="..\..\Programs\Ids\Consume\SwitchboardData.h" />
+    <ClInclude Include="..\..\Programs\Ids\Consume\SwitchboardPanel.h" />
     <ClInclude Include="..\..\Programs\Ids\Convert\DataCharge.h" />
     <ClInclude Include="..\..\Programs\Ids\Convert\DataDcDc.h" />
     <ClInclude Include="..\..\Programs\Ids\Convert\PanelCharge.h" />
@@ -152,6 +157,7 @@
     <ClInclude Include="..\..\Programs\Ids\IdsPowerControl.h" />
     <ClInclude Include="..\..\Programs\Ids\IdsPowerOperate.h" />
     <ClInclude Include="..\..\Programs\Ids\Source\DataBattery.h" />
+    <ClInclude Include="..\..\Programs\Ids\Source\PanelBattery.h" />
     <ClInclude Include="..\..\Programs\ioSystemData.h" />
     <ClInclude Include="..\..\Programs\ioSystemGraphics.h" />
     <ClInclude Include="..\..\Programs\ioSystemPorts.h" />
@@ -183,7 +189,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Programs\Ids\Consume\ModeCommandData.cpp" />
+    <ClCompile Include="..\..\Programs\Ids\Consume\PowCommandModePanel.cpp" />
+    <ClCompile Include="..\..\Programs\Ids\Consume\PowCommandPanel.cpp" />
+    <ClCompile Include="..\..\Programs\Ids\Consume\PowIndicatorPanel.cpp" />
+    <ClCompile Include="..\..\Programs\Ids\Consume\PowModePanel.cpp" />
     <ClCompile Include="..\..\Programs\Ids\Consume\SwitchboardData.cpp" />
+    <ClCompile Include="..\..\Programs\Ids\Consume\SwitchboardPanel.cpp" />
     <ClCompile Include="..\..\Programs\Ids\Convert\DataCharge.cpp" />
     <ClCompile Include="..\..\Programs\Ids\Convert\DataDcDc.cpp" />
     <ClCompile Include="..\..\Programs\Ids\Convert\PanelCharge.cpp" />
@@ -191,6 +202,7 @@
     <ClCompile Include="..\..\Programs\Ids\IdsPowerControl.cpp" />
     <ClCompile Include="..\..\Programs\Ids\IdsPowerOperate.cpp" />
     <ClCompile Include="..\..\Programs\Ids\Source\DataBattery.cpp" />
+    <ClCompile Include="..\..\Programs\Ids\Source\PanelBattery.cpp" />
     <ClCompile Include="..\..\Programs\ioSystemData.cpp" />
     <ClCompile Include="..\..\Programs\ioSystemGraphics.cpp" />
     <ClCompile Include="..\..\Programs\ioSystemPorts.cpp" />

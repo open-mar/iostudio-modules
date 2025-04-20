@@ -190,6 +190,24 @@
     <ClInclude Include="..\..\Simulation\Ops\Source\GeneratorModel.h">
       <Filter>Simulation\Ops\Source</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Programs\Ids\Consume\PowCommandModePanel.h">
+      <Filter>Programs\Ids\Consume</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Ids\Consume\PowCommandPanel.h">
+      <Filter>Programs\Ids\Consume</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Ids\Consume\PowIndicatorPanel.h">
+      <Filter>Programs\Ids\Consume</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Ids\Consume\PowModePanel.h">
+      <Filter>Programs\Ids\Consume</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Ids\Consume\SwitchboardPanel.h">
+      <Filter>Programs\Ids\Consume</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Ids\Source\PanelBattery.h">
+      <Filter>Programs\Ids\Source</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -302,6 +320,24 @@
     </ClCompile>
     <ClCompile Include="..\..\Simulation\Ops\Source\GeneratorModel.cpp">
       <Filter>Simulation\Ops\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Ids\Consume\PowCommandModePanel.cpp">
+      <Filter>Programs\Ids\Consume</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Ids\Consume\PowCommandPanel.cpp">
+      <Filter>Programs\Ids\Consume</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Ids\Consume\PowIndicatorPanel.cpp">
+      <Filter>Programs\Ids\Consume</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Ids\Consume\PowModePanel.cpp">
+      <Filter>Programs\Ids\Consume</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Ids\Consume\SwitchboardPanel.cpp">
+      <Filter>Programs\Ids\Consume</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Ids\Source\PanelBattery.cpp">
+      <Filter>Programs\Ids\Source</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
