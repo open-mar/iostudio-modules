@@ -3,10 +3,10 @@
     <Description>Conning instrument panel used with steering system</Description>
     <PanelObject ParentGlobalID="Ids.Pilot" Background="ContainerBackground">
         <RowDefinition />
-        <ColumnDefinition />
+        <ColumnDefinition Size="428" />
         <ColumnDefinition />
         <Grid Row="1" Column="1">
-            <ioPanelGrid LocalID="GridSteerApPanel" PanelGlobalID="Ids.Pilot.SteerApPanel" />
+            <ioPanelGrid LocalID="GridSteerApPanel" HorizontalAlignment="Center" Width="440" VerticalAlignment="Center" Height="720" PanelGlobalID="Ids.Pilot.SteerApPanel" />
         </Grid>
         <Grid Row="1" Column="2">
             <ioPanelGrid LocalID="PanelSpeedAngles" PanelGlobalID="Ids.Pilot.SpeedAnglesPanel" />

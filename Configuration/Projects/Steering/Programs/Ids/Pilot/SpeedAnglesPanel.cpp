@@ -11,7 +11,7 @@ SpeedAnglesPanel::~SpeedAnglesPanel()
 }
 void SpeedAnglesPanel::InitializeData(void)
 {
-    m_PanelGraphics.SetListData((ioItem**)m_SpeedAnglesPanelGraphics, 12);
+    m_PanelGraphics.SetListData((ioItem**)m_SpeedAnglesPanelGraphics, 13);
     AddGraphics(&LabelBtwHeader, Puid_Ids_Pilot_LabelBtwHeader);
     LabelBtwHeader.SetTextForced((ioChars)"BTW");
     AddGraphics(&LabelBtwHeaderUnit, Puid_Ids_Pilot_LabelBtwHeaderUnit);
@@ -26,6 +26,7 @@ void SpeedAnglesPanel::InitializeData(void)
     AddGraphics(&InstrDtw, Puid_Ids_Pilot_InstrDtw);
     InstrDtw.SetTextForced((ioChars)"0.0");
     InstrDtw.SetDecimals(1);
+    AddGraphics(&UiShipConning, Puid_Ids_Pilot_UiShipConning);
     AddGraphics(&LabelRollHeader, Puid_Ids_Pilot_LabelRollHeader);
     LabelRollHeader.SetTextForced((ioChars)"ROLL");
     AddGraphics(&LabelRollHeaderUnit, Puid_Ids_Pilot_LabelRollHeaderUnit);

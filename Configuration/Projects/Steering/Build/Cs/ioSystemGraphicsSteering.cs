@@ -182,6 +182,7 @@ namespace ioSystemNetworkNet
         Puid_Ids_Pilot_LabelDtwHeaderUnit = 262,
         Puid_Ids_Pilot_GridDtw = 263,
         Puid_Ids_Pilot_InstrDtw = 264,
+        Puid_Ids_Pilot_UiShipConning = 474,
         Puid_Ids_Pilot_GridRollHeader = 26,
         Puid_Ids_Pilot_LabelRollHeader = 265,
         Puid_Ids_Pilot_LabelRollHeaderUnit = 266,
@@ -322,7 +323,7 @@ namespace ioSystemNetworkNet
         Puid_Ids_Position_DividerEnableSteeringPosRef = 402,
         Puid_Ids_Position_ButtonEnableSurgeSteer = 403,
         Puid_Ids_Position_ButtonEnableSwaySteer = 404,
-        Puid_Ids_Target_InstrTargetsList_UiTargetsList = 474,
+        Puid_Ids_Target_UiTargetsList = 385,
         Puid_Ids_Target_GridBtwTargIndHeader = 426,
         Puid_Ids_Target_LabelBtwTargIndHeader = 427,
         Puid_Ids_Target_LabelBtwTargIndHeaderUnit = 428,
@@ -353,6 +354,7 @@ namespace ioSystemNetworkNet
         Puid_Ids_Target_LabelSogTargHeaderUnit = 467,
         Puid_Ids_Target_GridSogTarg = 468,
         Puid_Ids_Target_InstrSogTarg = 469,
+        Puid_Ids_Target_GridRefTargPanelZoom = 471,
         Puid_Ids_Track_GridDptInstrHeader = 324,
         Puid_Ids_Track_LabeDptInstrHeader = 327,
         Puid_Ids_Track_LabelDptInstrHeaderUnit = 348,
@@ -671,6 +673,7 @@ namespace ioSystemNetworkNet
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelDtwHeaderUnit: return "Ids.Pilot.LabelDtwHeaderUnit";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridDtw: return "Ids.Pilot.GridDtw";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrDtw: return "Ids.Pilot.InstrDtw";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_UiShipConning: return "Ids.Pilot.UiShipConning";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridRollHeader: return "Ids.Pilot.GridRollHeader";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelRollHeader: return "Ids.Pilot.LabelRollHeader";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelRollHeaderUnit: return "Ids.Pilot.LabelRollHeaderUnit";
@@ -811,7 +814,7 @@ namespace ioSystemNetworkNet
                 case ioSystemGraphicsSteeringType.Puid_Ids_Position_DividerEnableSteeringPosRef: return "Ids.Position.DividerEnableSteeringPosRef";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Position_ButtonEnableSurgeSteer: return "Ids.Position.ButtonEnableSurgeSteer";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Position_ButtonEnableSwaySteer: return "Ids.Position.ButtonEnableSwaySteer";
-                case ioSystemGraphicsSteeringType.Puid_Ids_Target_InstrTargetsList_UiTargetsList: return "Ids.Target.InstrTargetsList.UiTargetsList";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Target_UiTargetsList: return "Ids.Target.UiTargetsList";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Target_GridBtwTargIndHeader: return "Ids.Target.GridBtwTargIndHeader";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Target_LabelBtwTargIndHeader: return "Ids.Target.LabelBtwTargIndHeader";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Target_LabelBtwTargIndHeaderUnit: return "Ids.Target.LabelBtwTargIndHeaderUnit";
@@ -842,6 +845,7 @@ namespace ioSystemNetworkNet
                 case ioSystemGraphicsSteeringType.Puid_Ids_Target_LabelSogTargHeaderUnit: return "Ids.Target.LabelSogTargHeaderUnit";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Target_GridSogTarg: return "Ids.Target.GridSogTarg";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Target_InstrSogTarg: return "Ids.Target.InstrSogTarg";
+                case ioSystemGraphicsSteeringType.Puid_Ids_Target_GridRefTargPanelZoom: return "Ids.Target.GridRefTargPanelZoom";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Track_GridDptInstrHeader: return "Ids.Track.GridDptInstrHeader";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabeDptInstrHeader: return "Ids.Track.LabeDptInstrHeader";
                 case ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelDptInstrHeaderUnit: return "Ids.Track.LabelDptInstrHeaderUnit";
@@ -1160,6 +1164,7 @@ namespace ioSystemNetworkNet
                 case "Ids.Pilot.LabelDtwHeaderUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelDtwHeaderUnit;
                 case "Ids.Pilot.GridDtw": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridDtw;
                 case "Ids.Pilot.InstrDtw": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_InstrDtw;
+                case "Ids.Pilot.UiShipConning": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_UiShipConning;
                 case "Ids.Pilot.GridRollHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_GridRollHeader;
                 case "Ids.Pilot.LabelRollHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelRollHeader;
                 case "Ids.Pilot.LabelRollHeaderUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Pilot_LabelRollHeaderUnit;
@@ -1300,7 +1305,7 @@ namespace ioSystemNetworkNet
                 case "Ids.Position.DividerEnableSteeringPosRef": return ioSystemGraphicsSteeringType.Puid_Ids_Position_DividerEnableSteeringPosRef;
                 case "Ids.Position.ButtonEnableSurgeSteer": return ioSystemGraphicsSteeringType.Puid_Ids_Position_ButtonEnableSurgeSteer;
                 case "Ids.Position.ButtonEnableSwaySteer": return ioSystemGraphicsSteeringType.Puid_Ids_Position_ButtonEnableSwaySteer;
-                case "Ids.Target.InstrTargetsList.UiTargetsList": return ioSystemGraphicsSteeringType.Puid_Ids_Target_InstrTargetsList_UiTargetsList;
+                case "Ids.Target.UiTargetsList": return ioSystemGraphicsSteeringType.Puid_Ids_Target_UiTargetsList;
                 case "Ids.Target.GridBtwTargIndHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Target_GridBtwTargIndHeader;
                 case "Ids.Target.LabelBtwTargIndHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Target_LabelBtwTargIndHeader;
                 case "Ids.Target.LabelBtwTargIndHeaderUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Target_LabelBtwTargIndHeaderUnit;
@@ -1331,6 +1336,7 @@ namespace ioSystemNetworkNet
                 case "Ids.Target.LabelSogTargHeaderUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Target_LabelSogTargHeaderUnit;
                 case "Ids.Target.GridSogTarg": return ioSystemGraphicsSteeringType.Puid_Ids_Target_GridSogTarg;
                 case "Ids.Target.InstrSogTarg": return ioSystemGraphicsSteeringType.Puid_Ids_Target_InstrSogTarg;
+                case "Ids.Target.GridRefTargPanelZoom": return ioSystemGraphicsSteeringType.Puid_Ids_Target_GridRefTargPanelZoom;
                 case "Ids.Track.GridDptInstrHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_GridDptInstrHeader;
                 case "Ids.Track.LabeDptInstrHeader": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabeDptInstrHeader;
                 case "Ids.Track.LabelDptInstrHeaderUnit": return ioSystemGraphicsSteeringType.Puid_Ids_Track_LabelDptInstrHeaderUnit;
@@ -1470,7 +1476,7 @@ namespace ioSystemNetworkNet
         }
         public static ioSystemGraphicsSteeringType GetPuid(Int32 puidValue)
         {
-            if ((puidValue >= 0) && (puidValue < 483))
+            if ((puidValue >= 0) && (puidValue < 485))
                 return (ioSystemGraphicsSteeringType)puidValue;
             else
                 return ioSystemGraphicsSteeringType.Puid_NotDefined;

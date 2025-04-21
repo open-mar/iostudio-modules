@@ -3,6 +3,7 @@
 #define __SPEEDANGLESPANEL_H
 #include "ioSystem/Panels/ioPanel.h"
 #include "ioSystem/Panels/ioGraphicsText.h"
+#include "ioSystem/Panels/ioUiComponent.h"
 class SpeedAnglesPanel : public ioPanel
 {
 public:
@@ -15,6 +16,7 @@ public:
     ioLabel LabelDtwHeader;
     ioLabel LabelDtwHeaderUnit;
     ioTextBlock InstrDtw;
+    ioUiComponent UiShipConning;
     ioLabel LabelRollHeader;
     ioLabel LabelRollHeaderUnit;
     ioTextBlock InstrRoll;
@@ -22,6 +24,6 @@ public:
     ioLabel LabelPitchHeaderUnit;
     ioTextBlock InstPitch;
 protected:
-    ioGraphics* m_SpeedAnglesPanelGraphics[12];
+    ioGraphics* m_SpeedAnglesPanelGraphics[13];
 };
 #endif // __SPEEDANGLESPANEL_H

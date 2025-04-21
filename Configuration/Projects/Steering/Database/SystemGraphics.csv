@@ -470,4 +470,6 @@ PUID;Parent;LocalID;TypeGraphics
 470;Ids.Target;UiTargetsPlot;ioUiComponent
 472;Ids.Track;UiTrackPlot;ioUiComponent
 473;Ids.Position;UiPosSteerPanel;ioUiComponent
-474;Ids.Target.InstrTargetsList;UiTargetsList;ioUiComponent
+385;Ids.Target;UiTargetsList;ioUiComponent
+471;Ids.Target;GridRefTargPanelZoom;ioPanelGrid
+474;Ids.Pilot;UiShipConning;ioUiComponent

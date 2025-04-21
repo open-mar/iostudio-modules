@@ -21,8 +21,8 @@
                     <Properties Text="000.0" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="Left" />
                 </ioTextBlock>
             </ioPanelGrid>
-            <ioShape LocalID="ShapeContourShip" HorizontalAlignment="Left" Width="280" VerticalAlignment="Top" Height="700">
-                <Properties TypeShape="NavigationInstruments" ShapeID="ContourShip" ScaleX="1.7" ScaleY="1" TypeColor="AutomationPipeDisabled" />
+            <ioShape LocalID="ShapeContourShip" HorizontalAlignment="Left" Width="82" VerticalAlignment="Top" Height="212">
+                <Properties TypeShape="NavigationInstruments" ShapeID="ContourShip" ScaleX="10" ScaleY="3.6" TypeColor="AutomationPipeDisabled" />
             </ioShape>
             <ioUiComponent LocalID="CompThruster" HorizontalAlignment="Left" Width="320" VerticalAlignment="Top" Height="94" Margin="56,190,0,0">
                 <Properties TypeUiComponent="Navigation" UiComponentID="ioTunnelThrusterTicksCmd" Radius="150.0" />
@@ -30,10 +30,10 @@
             <ioUiComponent LocalID="CompRudder" HorizontalAlignment="Left" Width="320" VerticalAlignment="Top" Height="200" Margin="60,500,0,0">
                 <Properties TypeUiComponent="Navigation" UiComponentID="ioRudderTicksLabels" Radius="160" />
             </ioUiComponent>
-            <ioUiComponent LocalID="CompRateOfTurn" VerticalAlignment="Top" Height="120" Margin="68,68,0,0">
+            <ioUiComponent LocalID="CompRateOfTurn" HorizontalAlignment="Left" Width="320" VerticalAlignment="Top" Height="120" Margin="68,68,0,0">
                 <Properties TypeUiComponent="Navigation" UiComponentID="ioRateOfTurnTicksLabels" Radius="150.0" />
             </ioUiComponent>
-            <ioUiComponent LocalID="CompEngine" HorizontalAlignment="Left" Width="96" VerticalAlignment="Top" Height="230" Margin="280,290,64,0">
+            <ioUiComponent LocalID="CompEngine" HorizontalAlignment="Left" Width="96" VerticalAlignment="Top" Height="230" Margin="280,290,0,0">
                 <Properties TypeUiComponent="Navigation" UiComponentID="ioEngineSimpleCmd" Radius="150.0" />
             </ioUiComponent>
             <ioPanelGrid LocalID="GridRotMeas" HorizontalAlignment="Left" Width="160" VerticalAlignment="Top" Height="36" Margin="176,140,0,0" Orientation="Horizontal">

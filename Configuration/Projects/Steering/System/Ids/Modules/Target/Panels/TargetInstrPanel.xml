@@ -51,8 +51,8 @@
             </ioPanelGrid>
         </Grid>
         <Grid Row="2" Column="1" SpanColumns="3">
-            <ioUiComponent LocalID="UiTargetsPlot">
-                <Properties TypeUiComponent="Navigation" UiComponentID="ioTunnelThrusterSimple" Radius="150.0" />
+            <ioUiComponent LocalID="UiTargetsPlot" HorizontalAlignment="Center" Width="50" VerticalAlignment="Center" Height="250">
+                <Properties TypeUiComponent="Navigation" UiComponentID="ioShipConning" Radius="25" />
             </ioUiComponent>
         </Grid>
         <Grid Row="2" Column="2" />

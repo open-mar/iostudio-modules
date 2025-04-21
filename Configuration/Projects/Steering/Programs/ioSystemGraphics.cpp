@@ -195,6 +195,7 @@ ioSystemGraphicsType ioSystemGraphics::GetGraphicsType(Int32 puidValue)
     case 262: return Puid_Ids_Pilot_LabelDtwHeaderUnit; 
     case 263: return Puid_Ids_Pilot_GridDtw; 
     case 264: return Puid_Ids_Pilot_InstrDtw; 
+    case 474: return Puid_Ids_Pilot_UiShipConning; 
     case 26: return Puid_Ids_Pilot_GridRollHeader; 
     case 265: return Puid_Ids_Pilot_LabelRollHeader; 
     case 266: return Puid_Ids_Pilot_LabelRollHeaderUnit; 
@@ -335,7 +336,7 @@ ioSystemGraphicsType ioSystemGraphics::GetGraphicsType(Int32 puidValue)
     case 402: return Puid_Ids_Position_DividerEnableSteeringPosRef; 
     case 403: return Puid_Ids_Position_ButtonEnableSurgeSteer; 
     case 404: return Puid_Ids_Position_ButtonEnableSwaySteer; 
-    case 474: return Puid_Ids_Target_InstrTargetsList_UiTargetsList; 
+    case 385: return Puid_Ids_Target_UiTargetsList; 
     case 426: return Puid_Ids_Target_GridBtwTargIndHeader; 
     case 427: return Puid_Ids_Target_LabelBtwTargIndHeader; 
     case 428: return Puid_Ids_Target_LabelBtwTargIndHeaderUnit; 
@@ -366,6 +367,7 @@ ioSystemGraphicsType ioSystemGraphics::GetGraphicsType(Int32 puidValue)
     case 467: return Puid_Ids_Target_LabelSogTargHeaderUnit; 
     case 468: return Puid_Ids_Target_GridSogTarg; 
     case 469: return Puid_Ids_Target_InstrSogTarg; 
+    case 471: return Puid_Ids_Target_GridRefTargPanelZoom; 
     case 324: return Puid_Ids_Track_GridDptInstrHeader; 
     case 327: return Puid_Ids_Track_LabeDptInstrHeader; 
     case 348: return Puid_Ids_Track_LabelDptInstrHeaderUnit; 
