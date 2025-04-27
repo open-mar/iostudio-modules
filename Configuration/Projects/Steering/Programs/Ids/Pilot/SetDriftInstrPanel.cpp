@@ -12,10 +12,10 @@ SetDriftInstrPanel::~SetDriftInstrPanel()
 void SetDriftInstrPanel::InitializeData(void)
 {
     m_PanelGraphics.SetListData((ioItem**)m_SetDriftInstrPanelGraphics, 42);
-    AddGraphics(&LabelWindCmdHeader, Puid_Ids_Pilot_LabelWindCmdHeader);
-    LabelWindCmdHeader.SetTextForced((ioChars)"WCMD");
-    AddGraphics(&LabelWindCmdHeaderUnit, Puid_Ids_Pilot_LabelWindCmdHeaderUnit);
-    LabelWindCmdHeaderUnit.SetTextForced((ioChars)"°");
+    AddGraphics(&LabelWindCmdHeaderDrf, Puid_Ids_Pilot_LabelWindCmdHeaderDrf);
+    LabelWindCmdHeaderDrf.SetTextForced((ioChars)"WCMD");
+    AddGraphics(&LabelWindCmdHeaderUnitDrf, Puid_Ids_Pilot_LabelWindCmdHeaderUnitDrf);
+    LabelWindCmdHeaderUnitDrf.SetTextForced((ioChars)"°");
     AddGraphics(&LabelSetAngleHeader, Puid_Ids_Pilot_LabelSetAngleHeader);
     LabelSetAngleHeader.SetTextForced((ioChars)"SET");
     AddGraphics(&LabelSetAngleHeaderUnit, Puid_Ids_Pilot_LabelSetAngleHeaderUnit);
@@ -37,9 +37,9 @@ void SetDriftInstrPanel::InitializeData(void)
     AddGraphics(&LabelHdgHeaderUnit, Puid_Ids_Pilot_LabelHdgHeaderUnit);
     LabelHdgHeaderUnit.SetTextForced((ioChars)"°T");
     AddGraphics(&IconWcmdLeft, Puid_Ids_Pilot_IconWcmdLeft);
-    AddGraphics(&InstrWindCmd, Puid_Ids_Pilot_InstrWindCmd);
-    InstrWindCmd.SetTextForced((ioChars)"0");
-    InstrWindCmd.SetDecimals(1);
+    AddGraphics(&InstrWindCmdDrf, Puid_Ids_Pilot_InstrWindCmdDrf);
+    InstrWindCmdDrf.SetTextForced((ioChars)"0");
+    InstrWindCmdDrf.SetDecimals(1);
     AddGraphics(&IconWcmdRight, Puid_Ids_Pilot_IconWcmdRight);
     AddGraphics(&InstrSetAngle, Puid_Ids_Pilot_InstrSetAngle);
     InstrSetAngle.SetTextForced((ioChars)"000");

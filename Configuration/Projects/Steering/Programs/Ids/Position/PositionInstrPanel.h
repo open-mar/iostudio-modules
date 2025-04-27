@@ -14,7 +14,7 @@ public:
     ioLabel LabelBtwPosIndHeaderUnit;
     ioTextBlock InstrBtwPosInstInstr;
     ioLabel LabelHdgPosIndHeader;
-    ioLabel LabelBtwPosIndHeaderUnit;
+    ioLabel LabelHdgPosIndHeaderUnit;
     ioTextBlock InstrHdgPosInstInstr;
     ioLabel LabelCogPosIndHeader;
     ioLabel LabelCogPosIndHeaderUnit;

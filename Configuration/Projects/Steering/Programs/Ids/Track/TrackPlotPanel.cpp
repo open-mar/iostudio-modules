@@ -33,7 +33,7 @@ void TrackPlotPanel::InitializeData(void)
     AddGraphics(&InstrCogPlot, Puid_Ids_Track_InstrCogPlot);
     InstrCogPlot.SetTextForced((ioChars)"000.0");
     InstrCogPlot.SetDecimals(1);
-    AddGraphics(&UiTrackPlot, Puid_Ids_Track_TrackPlotPanel_UiTrackPlot);
+    AddGraphics(&UiTrackPlot, Puid_Ids_Track_UiTrackPlot);
     AddGraphics(&LabelDptPlotHeader, Puid_Ids_Track_LabelDptPlotHeader);
     LabelDptPlotHeader.SetTextForced((ioChars)"DPT");
     AddGraphics(&LabelDptPlotHeaderUnit, Puid_Ids_Track_LabelDptPlotHeaderUnit);

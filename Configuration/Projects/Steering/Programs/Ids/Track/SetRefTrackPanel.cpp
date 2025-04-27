@@ -13,14 +13,12 @@ void SetRefTrackPanel::InitializeData(void)
 {
     m_PanelGraphics.SetListData((ioItem**)m_SetRefTrackPanelGraphics, 8);
     AddGraphics(&ButtSelectRoute, Puid_Ids_Track_ButtSelectRoute);
-    ButtSelectRoute.SetTextForced((ioChars)"Select RTE ...");
     AddGraphics(&LabelSelectedRteHeader, Puid_Ids_Track_LabelSelectedRteHeader);
     LabelSelectedRteHeader.SetTextForced((ioChars)"RTE");
     AddGraphics(&TextSelectedRte, Puid_Ids_Track_TextSelectedRte);
     TextSelectedRte.SetTextForced((ioChars)"Name of route");
     TextSelectedRte.SetDecimals(1);
     AddGraphics(&ButtSelectWaypoint, Puid_Ids_Track_ButtSelectWaypoint);
-    ButtSelectWaypoint.SetTextForced((ioChars)"Select WPT ...");
     AddGraphics(&ButtSelectWptPrev, Puid_Ids_Track_ButtSelectWptPrev);
     ButtSelectWptPrev.SetTextForced((ioChars)"Previous WPT");
     AddGraphics(&ButtSelectWptNext, Puid_Ids_Track_ButtSelectWptNext);

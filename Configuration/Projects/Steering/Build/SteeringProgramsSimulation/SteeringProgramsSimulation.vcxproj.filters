@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SteeringProgramsSimulation">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Programs">
+      <UniqueIdentifier>{6b893f8e-09c0-42b7-89e2-3644c65d90be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation">
+      <UniqueIdentifier>{97eeb5df-ea87-4a77-9d9a-677540863d1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programs\Ids">
+      <UniqueIdentifier>{1c46c807-bb0f-4a6b-8928-364df5490318}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>SteeringProgramsSimulation</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>SteeringProgramsSimulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\ioSystemGraphics.h">
+      <Filter>Programs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>SteeringProgramsSimulation</Filter>
+    </ClCompile>
+    <ClCompile Include="SteeringProgramsSimulation.cpp">
+      <Filter>SteeringProgramsSimulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\ioSystemGraphics.cpp">
+      <Filter>Programs</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -11,9 +11,9 @@ public:
     virtual ~SetRefDrivePanel();
     virtual void InitializeData(void);
     ioButtonIcon ButtonLeftThrust;
-    ioLabel LabelThrustCmdHeader;
-    ioLabel LabelThrustCmdHeaderUnit;
-    ioTextBlock InstrThrustCmd;
+    ioLabel LabelThrustCmdHeaderDrv;
+    ioLabel LabelThrustCmdHeaderUnitDrv;
+    ioTextBlock InstrThrustCmdDrv;
     ioButtonIcon ButtonRightThrust;
     ioButtonIcon ButtonLeftRudder;
     ioLabel LabelRudderCmdHeader;

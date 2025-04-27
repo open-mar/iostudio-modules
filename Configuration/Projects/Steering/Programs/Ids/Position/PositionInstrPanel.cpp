@@ -21,8 +21,8 @@ void PositionInstrPanel::InitializeData(void)
     InstrBtwPosInstInstr.SetDecimals(1);
     AddGraphics(&LabelHdgPosIndHeader, Puid_Ids_Position_LabelHdgPosIndHeader);
     LabelHdgPosIndHeader.SetTextForced((ioChars)"HDG");
-    AddGraphics(&LabelBtwPosIndHeaderUnit, Puid_Ids_Position_LabelBtwPosIndHeaderUnit);
-    LabelBtwPosIndHeaderUnit.SetTextForced((ioChars)"°T");
+    AddGraphics(&LabelHdgPosIndHeaderUnit, Puid_Ids_Position_LabelHdgPosIndHeaderUnit);
+    LabelHdgPosIndHeaderUnit.SetTextForced((ioChars)"°T");
     AddGraphics(&InstrHdgPosInstInstr, Puid_Ids_Position_InstrHdgPosInstInstr);
     InstrHdgPosInstInstr.SetTextForced((ioChars)"000.0");
     InstrHdgPosInstInstr.SetDecimals(1);
@@ -33,7 +33,7 @@ void PositionInstrPanel::InitializeData(void)
     AddGraphics(&InstrCogPosInstInstr, Puid_Ids_Position_InstrCogPosInstInstr);
     InstrCogPosInstInstr.SetTextForced((ioChars)"000.0");
     InstrCogPosInstInstr.SetDecimals(1);
-    AddGraphics(&UiPosSteerPanel, Puid_Ids_Position_PositionInstrPanel_UiPosSteerPanel);
+    AddGraphics(&UiPosSteerPanel, Puid_Ids_Position_UiPosSteerPanel);
     AddGraphics(&LabelFwdNorthPosIndHeader, Puid_Ids_Position_LabelFwdNorthPosIndHeader);
     LabelFwdNorthPosIndHeader.SetTextForced((ioChars)"FWD");
     AddGraphics(&LabelFwdNorthPosIndHeaderUnit, Puid_Ids_Position_LabelFwdNorthPosIndHeaderUnit);

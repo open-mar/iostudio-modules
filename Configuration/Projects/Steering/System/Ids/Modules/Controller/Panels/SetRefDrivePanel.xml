@@ -13,16 +13,16 @@
             </ioButtonIcon>
         </Grid>
         <Grid Row="1" Column="2">
-            <ioPanelGrid LocalID="GridThrustCmdHeader" HorizontalAlignment="Left" Width="55" VerticalAlignment="Top" Height="65" Margin="12,0,0,0">
-                <ioLabel LocalID="LabelThrustCmdHeader" Margin="0,20,0,0">
+            <ioPanelGrid LocalID="GridThrustCmdHeaderDrv" HorizontalAlignment="Left" Width="55" VerticalAlignment="Top" Height="65" Margin="12,0,0,0">
+                <ioLabel LocalID="LabelThrustCmdHeaderDrv" Margin="0,20,0,0">
                     <Properties Text="THRUST" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
                 </ioLabel>
-                <ioLabel LocalID="LabelThrustCmdHeaderUnit">
+                <ioLabel LocalID="LabelThrustCmdHeaderUnitDrv">
                     <Properties Text="%" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
                 </ioLabel>
             </ioPanelGrid>
-            <ioPanelGrid LocalID="GridThrustCmd" HorizontalAlignment="Right" Width="132" VerticalAlignment="Top" Height="65">
-                <ioTextBlock LocalID="InstrThrustCmd" HorizontalAlignment="Right" Width="102" Margin="0,0,12,0">
+            <ioPanelGrid LocalID="GridThrustCmdDrv" HorizontalAlignment="Right" Width="132" VerticalAlignment="Top" Height="65">
+                <ioTextBlock LocalID="InstrThrustCmdDrv" HorizontalAlignment="Right" Width="102" Margin="0,0,12,0">
                     <Properties Text="0" TypeColor="InstrumentEnhancedSecondary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="End" />
                 </ioTextBlock>
             </ioPanelGrid>

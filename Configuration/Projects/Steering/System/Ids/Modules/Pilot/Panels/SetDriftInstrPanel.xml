@@ -9,11 +9,11 @@
         <ColumnDefinition Size="150" />
         <ColumnDefinition />
         <Grid Row="1" Column="1" IsStacked="TRUE" Orientation="Vertical">
-            <ioPanelGrid LocalID="GridWindCmdHeader" VerticalAlignment="Top" Height="65">
-                <ioLabel LocalID="LabelWindCmdHeader" Margin="0,20,0,0">
+            <ioPanelGrid LocalID="GridWindCmdHeaderDrf" VerticalAlignment="Top" Height="65">
+                <ioLabel LocalID="LabelWindCmdHeaderDrf" Margin="0,20,0,0">
                     <Properties Text="WCMD" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
                 </ioLabel>
-                <ioLabel LocalID="LabelWindCmdHeaderUnit">
+                <ioLabel LocalID="LabelWindCmdHeaderUnitDrf">
                     <Properties Text="°" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
                 </ioLabel>
             </ioPanelGrid>
@@ -59,11 +59,11 @@
             </ioPanelGrid>
         </Grid>
         <Grid Row="1" Column="2" IsStacked="TRUE" Orientation="Vertical">
-            <ioPanelGrid LocalID="GridWindCmd" VerticalAlignment="Top" Height="65" IsStacked="FALSE">
+            <ioPanelGrid LocalID="GridWindCmdDrf" VerticalAlignment="Top" Height="65" IsStacked="FALSE">
                 <ioIcon LocalID="IconWcmdLeft" HorizontalAlignment="Left" Width="32">
                     <Properties TypeFont="MaterialDesign" IconID="arrow_forward" TypeColor="InstrumentEnhancedPrimary" />
                 </ioIcon>
-                <ioTextBlock LocalID="InstrWindCmd" HorizontalAlignment="Center" Width="100">
+                <ioTextBlock LocalID="InstrWindCmdDrf" HorizontalAlignment="Center" Width="100">
                     <Properties Text="0" TypeColor="InstrumentEnhancedPrimary" FontFamily="NotoSans" FontSize="Huge" FontWeight="SemiBold" TextWrapping="NoWrap" Decimals="1" TextAlignment="Center" />
                 </ioTextBlock>
                 <ioIcon LocalID="IconWcmdRight" HorizontalAlignment="Right" Width="32">

@@ -2,18 +2,19 @@
 #if !defined(__SETREFTRACKPANEL_H)
 #define __SETREFTRACKPANEL_H
 #include "ioSystem/Panels/ioPanel.h"
-#include "ioSystem/Panels/ioButtonText.h"
+#include "ioSystem/Panels/ioButtonTextFlyout.h"
 #include "ioSystem/Panels/ioGraphicsText.h"
+#include "ioSystem/Panels/ioButtonText.h"
 class SetRefTrackPanel : public ioPanel
 {
 public:
     SetRefTrackPanel();
     virtual ~SetRefTrackPanel();
     virtual void InitializeData(void);
-    ioButtonText ButtSelectRoute;
+    ioButtonTextFlyout ButtSelectRoute;
     ioLabel LabelSelectedRteHeader;
     ioTextBlock TextSelectedRte;
-    ioButtonText ButtSelectWaypoint;
+    ioButtonTextFlyout ButtSelectWaypoint;
     ioButtonText ButtSelectWptPrev;
     ioButtonText ButtSelectWptNext;
     ioLabel LabelSelectedWptHeader;

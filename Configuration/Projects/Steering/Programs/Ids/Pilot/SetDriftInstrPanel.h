@@ -10,8 +10,8 @@ public:
     SetDriftInstrPanel();
     virtual ~SetDriftInstrPanel();
     virtual void InitializeData(void);
-    ioLabel LabelWindCmdHeader;
-    ioLabel LabelWindCmdHeaderUnit;
+    ioLabel LabelWindCmdHeaderDrf;
+    ioLabel LabelWindCmdHeaderUnitDrf;
     ioLabel LabelSetAngleHeader;
     ioLabel LabelSetAngleHeaderUnit;
     ioLabel LabelDriftHeader;
@@ -23,7 +23,7 @@ public:
     ioLabel LabelHdgHeader;
     ioLabel LabelHdgHeaderUnit;
     ioIcon IconWcmdLeft;
-    ioTextBlock InstrWindCmd;
+    ioTextBlock InstrWindCmdDrf;
     ioIcon IconWcmdRight;
     ioTextBlock InstrSetAngle;
     ioTextBlock InstrDrift;

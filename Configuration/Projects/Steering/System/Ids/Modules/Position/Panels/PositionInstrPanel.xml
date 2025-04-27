@@ -28,7 +28,7 @@
                 <ioLabel LocalID="LabelHdgPosIndHeader" Margin="0,20,0,0">
                     <Properties Text="HDG" FontSize="Small" FontWeight="SemiBold" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
                 </ioLabel>
-                <ioLabel LocalID="LabelBtwPosIndHeaderUnit">
+                <ioLabel LocalID="LabelHdgPosIndHeaderUnit">
                     <Properties Text="°T" FontSize="Small" FontWeight="Normal" TypeColor="ElementNeutral" TextWrapping="NoWrap" />
                 </ioLabel>
             </ioPanelGrid>

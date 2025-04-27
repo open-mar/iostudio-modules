@@ -12,5 +12,5 @@ InstrTargetsList::~InstrTargetsList()
 void InstrTargetsList::InitializeData(void)
 {
     m_PanelGraphics.SetListData((ioItem**)m_InstrTargetsListGraphics, 1);
-    AddGraphics(&UiTargetsList, Puid_Ids_Target_InstrTargetsList_UiTargetsList);
+    AddGraphics(&UiTargetsList, Puid_Ids_Target_UiTargetsList);
 }
