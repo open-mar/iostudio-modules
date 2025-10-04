@@ -1,4 +1,4 @@
-Welcome to the open repository for ioStudio Modules!
+Welcome to the open repository for ioStudio Modules and ioStudio Designer!
 
 This GitHub repository contains [Configuration](https://github.com/omi-iost/iostudio-modules/tree/main/Configuration) and [Schematics](https://github.com/omi-iost/iostudio-modules/tree/main/Schematics) files for Maritime Autonomous Suface Ships (MASS)
 
@@ -12,4 +12,5 @@ The front-end applications operating the system is configured in the [Applicatio
 - [Shapes](../Configuration/Shapes/Shapes.md) that are used in the applications are in the [Shapes](https://github.com/omi-iost/iostudio-modules/tree/main/Configuration/Shapes) folder
 - [Icons](../Configuration/Icons/Icons.md) that are used in the applications are in the  [Icons](https://github.com/omi-iost/iostudio-modules/tree/main/Configuration/Icons) folder
 
-The styles, shapes and icons used in the applications are developed by the [OpenBridge](https://www.openbridge.no/) project.
+These files are used by ioStudio Designer. The styles, shapes and icons used in the applications are developed by the [OpenBridge](https://www.openbridge.no/) project.
+
