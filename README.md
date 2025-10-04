@@ -1,5 +1,5 @@
 # iostudio-modules
-Welcome to the open repository for ioStudio Modules and ioStudio Designer! These applications can be received by contacting [ioStudioTech](https://www.iostudiotech.com/contact).
+Welcome to the open repository for ioStudio Modules and ioStudio Designer! You an get information about these applications by contacting [ioStudioTech](https://www.iostudiotech.com/contact).
 
 This [GitHub](https://docs.github.com/en) repository contains [Configuration](https://github.com/open-mar/iostudio-modules/tree/main/Configuration) and [Schematics](https://github.com/open-mar/iostudio-modules/tree/main/Schematics) files for Maritime Autonomous Suface Ships (MASS)
 
