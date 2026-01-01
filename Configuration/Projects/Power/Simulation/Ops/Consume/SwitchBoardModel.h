@@ -2,16 +2,16 @@
 #if !defined(__SWITCHBOARDMODEL_H)
 #define __SWITCHBOARDMODEL_H
 #include "ioSystem/Simulation/ioModel.h"
-#include "Programs/Ids/Consume/ModeCommandData.h"
-class SwitchBoardModel : public ioModel
+#include "Programs/Ops/Consume/SwitchboardData.h"
+class SwitchboardModel : public ioModel
 {
 public:
-    SwitchBoardModel();
-    virtual ~SwitchBoardModel();
+    SwitchboardModel();
+    virtual ~SwitchboardModel();
     // Initialize simulation model
     virtual void InitializeItem(void);
     // Do simulation every 100ms (slotCounter_100ms: Slot ID for simulation task)
     virtual void DoSimulation_100ms(Int32 slotCounter_100ms);
-    ModeCommandData DataProgram;
+    SwitchboardData DataModel;
 };
 #endif // __SWITCHBOARDMODEL_H

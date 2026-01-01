@@ -11,9 +11,10 @@ PanelDcDc::~PanelDcDc()
 }
 void PanelDcDc::InitializeData(void)
 {
-    m_PanelGraphics.SetListData((ioItem**)m_PanelDcDcGraphics, 7);
+    m_PanelGraphics.SetListData((ioItem**)m_PanelDcDcGraphics, 8);
     AddGraphics(&LabelNameDcDcConv, Puid_Ids_Convert_LabelNameDcDcConv);
     LabelNameDcDcConv.SetTextForced((ioChars)"NAME DCDC CONVERTER");
+    AddGraphics(&DividerHeaderDcDcConv, Puid_Ids_Convert_DividerHeaderDcDcConv);
     AddGraphics(&LabelHeaderDcDcInput, Puid_Ids_Convert_LabelHeaderDcDcInput);
     LabelHeaderDcDcInput.SetTextForced((ioChars)"VIN");
     AddGraphics(&LabelHeaderDcDcInputUnit, Puid_Ids_Convert_LabelHeaderDcDcInputUnit);

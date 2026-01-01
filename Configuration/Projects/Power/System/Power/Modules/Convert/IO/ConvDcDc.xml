@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DeviceClass Name="ConvDcDc">
+    <Description>DC/DC battery charger for power systems</Description>
+    <DeviceClassObject GlobalID="Power.Convert.ConvDcDc" Category="IO">
+        <Properties>
+            <Variable LocalID="InputVoltage" TypeNum="Float" Unit="VDC"  Min="8.0" Max="17.0">12.8</Variable>
+            <Variable LocalID="NominalOutputVoltage" TypeNum="Float" Unit="VDC">24.2</Variable>
+            <Variable LocalID="NominalOutputCurrent" TypeNum="Float" Unit="A">15.0</Variable>
+        </Properties>
+        <PortsCollection>
+            <DevicePort LocalID="PI1" TypePort="12_24VDC" GroupID="1"/>
+            <DevicePort LocalID="PO1" TypePort="12_24VDC" GroupID="1"/>
+            <DevicePort LocalID="Com1" TypePort="OpsIo" GroupID="2"/>
+        </PortsCollection>
+    </DeviceClassObject>
+</DeviceClass>

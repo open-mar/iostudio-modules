@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataList Name="SwitchAcData">
+    <Description>Data list for for power AC switch</Description>
+    <DataListObject ParentGlobalID="Power.Isolate">
+    </DataListObject>
+</DataList>

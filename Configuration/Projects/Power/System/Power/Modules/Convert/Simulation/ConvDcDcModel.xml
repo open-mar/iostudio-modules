@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModelClass Name="ConvDcDcModel">
+    <Description>Simulation of DC/DC device for power system</Description>
+    <ModelClassObject ParentGlobalID="Power.Convert">
+        <DataItemsCollection>
+            <DataListClasses Name="Power::Convert::ConvDcDcData" NameObject="Data">
+                <Item NameClass="ConvDcDcData" NameObject="ModelData" />
+            </DataListClasses>
+        </DataItemsCollection>
+        <Sequence />
+    </ModelClassObject>
+</ModelClass>

@@ -3,6 +3,7 @@
 #define __PANELDCDC_H
 #include "ioSystem/Panels/ioPanel.h"
 #include "ioSystem/Panels/ioGraphicsText.h"
+#include "ioSystem/Panels/ioDivider.h"
 class PanelDcDc : public ioPanel
 {
 public:
@@ -10,6 +11,7 @@ public:
     virtual ~PanelDcDc();
     virtual void InitializeData(void);
     ioLabel LabelNameDcDcConv;
+    ioDivider DividerHeaderDcDcConv;
     ioLabel LabelHeaderDcDcInput;
     ioLabel LabelHeaderDcDcInputUnit;
     ioTextBlock InstrVoltInputDcDc;
@@ -17,6 +19,6 @@ public:
     ioLabel LabelHeaderDcDcOutputUnit;
     ioTextBlock InstrVoltOutputDcDc;
 protected:
-    ioGraphics* m_PanelDcDcGraphics[7];
+    ioGraphics* m_PanelDcDcGraphics[8];
 };
 #endif // __PANELDCDC_H

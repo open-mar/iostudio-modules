@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModelClass Name="JunctionModel">
+    <Description>Simulation model for consumer connected to a power junction</Description>
+    <ModelClassObject ParentGlobalID="Ops.Consume">
+        <DataItemsCollection>
+            <DataListClasses Name="Ops::Consume::ConsumeModelData" NameObject="Data">
+                <Item NameClass="ConsumeModelData" NameObject="DataModel" />
+            </DataListClasses>
+            <DataListClasses Name="Ops::Consume::JunctionData" NameObject="Data">
+                <Item NameClass="JunctionData" NameObject="DataDevice" />
+            </DataListClasses>
+            <DataListClasses Name="Ops::Consume::SwitchboardData" NameObject="Data">
+                <Item NameClass="SwitchboardData" NameObject="DataOperation" />
+            </DataListClasses>
+        </DataItemsCollection>
+        <Sequence />
+    </ModelClassObject>
+</ModelClass>

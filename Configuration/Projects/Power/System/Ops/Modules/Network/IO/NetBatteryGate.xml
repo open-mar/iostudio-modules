@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DeviceClass Name="NetBatteryGate">
+    <Description>Network gate device for a battery system</Description>
+    <DeviceClassObject GlobalID="Ops.Network.NetBatteryGate" Category="IO">
+        <PortsCollection>
+            <DevicePort LocalID="PI1" TypePort="12_24VDC" GroupID="1"/>
+            <DevicePort LocalID="Com1" TypePort="OpsIo" GroupID="2"/>
+            <DevicePort LocalID="Com2" TypePort="OpsIo" GroupID="2"/>
+            <DevicePort LocalID="Com3" TypePort="OpsIo" GroupID="2"/>
+            <DevicePort LocalID="ComToUsbA" TypePort="OpsIo" GroupID="3"/>
+            <DevicePort LocalID="ComToUsbB" TypePort="OpsIo" GroupID="3"/>
+            <DevicePort LocalID="9" TypePort="Nic" GroupID="4">
+                <Properties>
+                    <Variable LocalID="NodeID" TypeNum="Int32" Min="1" Max="255">9</Variable>
+                </Properties>
+            </DevicePort>
+        </PortsCollection>
+    </DeviceClassObject>
+</DeviceClass>

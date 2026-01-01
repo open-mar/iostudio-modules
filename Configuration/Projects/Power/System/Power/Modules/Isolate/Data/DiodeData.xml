@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataList Name="DiodeData">
+    <Description>Data list for for isolating power diode</Description>
+    <DataListObject ParentGlobalID="Power.Isolate">
+    </DataListObject>
+</DataList>

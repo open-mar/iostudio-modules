@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModelClass Name="ShuntModel">
+    <Description>Simulation model of a shunt device for power systems</Description>
+    <ModelClassObject ParentGlobalID="Power.Network">
+        <Sequence />
+    </ModelClassObject>
+</ModelClass>

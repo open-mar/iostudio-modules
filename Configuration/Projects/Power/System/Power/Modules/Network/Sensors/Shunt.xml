@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DeviceClass Name="Shunt">
+    <Description>Smart shunt for batteries in power systems</Description>
+    <DeviceClassObject GlobalID="Power.Network.Shunt" Category="Sensor">
+        <PortsCollection>
+            <DevicePort LocalID="PI1" TypePort="12_24VDC" GroupID="1"/>
+            <DevicePort LocalID="PO1" TypePort="12_24VDC" GroupID="1"/>
+            <DevicePort LocalID="VeDirect" TypePort="OpsIo" GroupID="2"/>
+        </PortsCollection>
+    </DeviceClassObject>
+</DeviceClass>

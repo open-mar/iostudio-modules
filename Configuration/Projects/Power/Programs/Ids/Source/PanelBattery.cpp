@@ -11,9 +11,10 @@ PanelBattery::~PanelBattery()
 }
 void PanelBattery::InitializeData(void)
 {
-    m_PanelGraphics.SetListData((ioItem**)m_PanelBatteryGraphics, 12);
+    m_PanelGraphics.SetListData((ioItem**)m_PanelBatteryGraphics, 13);
     AddGraphics(&LabelHeaderNameBatteryMonitor, Puid_Ids_Source_LabelHeaderNameBatteryMonitor);
     LabelHeaderNameBatteryMonitor.SetTextForced((ioChars)"NAME BATTERY");
+    AddGraphics(&DividerHeaderBatteryMonitor, Puid_Ids_Source_DividerHeaderBatteryMonitor);
     AddGraphics(&LabelHeaderVoltBattery, Puid_Ids_Source_LabelHeaderVoltBattery);
     LabelHeaderVoltBattery.SetTextForced((ioChars)"VOLT");
     AddGraphics(&LabelHeaderVoltBatteryUnit, Puid_Ids_Source_LabelHeaderVoltBatteryUnit);

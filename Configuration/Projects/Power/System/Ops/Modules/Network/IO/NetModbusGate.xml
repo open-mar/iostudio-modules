@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DeviceClass Name="NetModbusGate">
+    <Description>Modbus I/O for power systems</Description>
+    <DeviceClassObject GlobalID="Ops.Network.NetModbusGate" Category="IO">
+        <PortsCollection>
+            <DevicePort LocalID="ComPort" TypePort="RS485" GroupID="2"/>
+        </PortsCollection>
+    </DeviceClassObject>
+</DeviceClass>

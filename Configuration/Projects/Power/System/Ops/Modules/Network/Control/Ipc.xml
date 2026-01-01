@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DeviceClass Name="Ipc">
+    <Description>Control computer for Open Power and Steering systems</Description>
+    <DeviceClassObject GlobalID="Ops.Network.Ipc" Category="Control">
+        <PortsCollection>
+            <DevicePort LocalID="PI1" TypePort="12_24VDC" GroupID="1"/>
+            <DevicePort LocalID="SteeringPanel1" TypePort="OpsIo" GroupID="2"/>
+            <DevicePort LocalID="PowerNet" TypePort="OpsNet" GroupID="2">
+                <Properties>
+                    <Variable LocalID="NodeID" TypeNum="String"/>
+                </Properties>
+            </DevicePort>
+            <DevicePort LocalID="11" TypePort="Nic" GroupID="3">
+                <Properties>
+                    <Variable LocalID="NodeID" TypeNum="Int32" Min="1" Max="255">11</Variable>
+                </Properties>
+            </DevicePort>
+        </PortsCollection>
+    </DeviceClassObject>
+</DeviceClass>

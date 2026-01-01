@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModuleClass Name="Rotate">
+    <Description>Module for electrical motors in a power system</Description>
+    <ModuleObject GlobalID="Power.Rotate" />
+</ModuleClass>

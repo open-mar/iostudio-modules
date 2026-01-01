@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<DataList Name="DataBattery">
-    <Description>Data for IDS batteries</Description>
-    <DataListObject ParentGlobalID="Ids.Source">
-        <Variable LocalID="VoltageBattery" TypeNum="Float" Unit="VDC" Decimals="2" Min="0.00" Max="99.00">12.00</Variable>
-        <Variable LocalID="CurrentBattery" TypeNum="Float" Unit="A" Decimals="2" Min="-999.00" Max="999.00">0.00</Variable>
-        <Variable LocalID="StatusOfCharge" TypeNum="Float" Unit="%" Decimals="1" Min="0.0" Max="100.0">0.0</Variable>
-    </DataListObject>
-</DataList>

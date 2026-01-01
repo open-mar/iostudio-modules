@@ -8,16 +8,13 @@
                     <Variable LocalID="NetAddr" TypeNum="String">192.168.10</Variable>
                 </Properties>
                 <PortNetCollection>
-                    <PortNetDevice ParentGlobalID="Ops.Network" DevID="OpsBatteryGate" PortID="9">
+                    <PortNetDevice ParentGlobalID="Ops.Network" DevID="NetBatteryGate" PortID="10">
                         <PortNetProgram PortID="502" Protocol="Modbus" />
                     </PortNetDevice>
-                    <PortNetDevice ParentGlobalID="Victron.Network" DevID="CerboGx" PortID="10">
-                        <PortNetProgram PortID="502" Protocol="Modbus" />
-                    </PortNetDevice>
-                    <PortNetDevice ParentGlobalID="Ops.Controller" DevID="OpsIpc" PortID="11">
+                    <PortNetDevice ParentGlobalID="Ops.Network" DevID="Ipc" PortID="11">
                         <PortNetProgram PortID="54374" Protocol="System" />
                     </PortNetDevice>
-                    <PortNetDevice ParentGlobalID="Ops.Instrument" DevID="OpsDisplay" PortID="12">
+                    <PortNetDevice ParentGlobalID="Ops.Instrument" DevID="InstrumentDisplay" PortID="12">
                         <PortNetProgram PortID="54374" Protocol="System" />
                     </PortNetDevice>
                 </PortNetCollection>
@@ -30,48 +27,44 @@
                     <Variable LocalID="NetAddr" TypeNum="String">192.168.11</Variable>
                 </Properties>
                 <PortNetCollection>
-                    <PortNetDevice ParentGlobalID="Ops.Network" DevID="OpsBatteryGate" PortID="9">
+                    <PortNetDevice ParentGlobalID="Ops.Network" DevID="NetBatteryGate" PortID="10">
                         <PortNetProgram PortID="502" Protocol="Modbus" />
                     </PortNetDevice>
-                    <PortNetDevice ParentGlobalID="Victron.Network" DevID="CerboGx" PortID="10">
-                        <PortNetProgram PortID="502" Protocol="Modbus" />
-                    </PortNetDevice>
-                    <PortNetDevice ParentGlobalID="Ops.Controller" DevID="OpsIpc" PortID="11">
+                    <PortNetDevice ParentGlobalID="Ops.Network" DevID="Ipc" PortID="11">
                         <PortNetProgram PortID="54374" Protocol="System" />
                     </PortNetDevice>
-                    <PortNetDevice ParentGlobalID="Ops.Instrument" DevID="OpsDisplay" PortID="12">
+                    <PortNetDevice ParentGlobalID="Ops.Instrument" DevID="InstrumentDisplay" PortID="12">
                         <PortNetProgram PortID="54374" Protocol="System" />
                     </PortNetDevice>
                 </PortNetCollection>
             </NetworkData>
         </Network>
-        <Network NetID="NetVeDirect" TypeNetwork="PowerData">
+        <Network NetID="NetBattery" TypeNetwork="PowerData">
             <Description>Power data network for Victron devices</Description>
-            <NetworkData SubID="Victron">
+            <NetworkData SubID="Power">
                 <PortNetCollection>
-                    <PortNetDevice ParentGlobalID="Victron.Network" DevID="VeDirectToUsbA" PortID="VeDirect" />
-                    <PortNetDevice ParentGlobalID="Victron.Network" DevID="VeDirectToUsbB" PortID="VeDirect" />
-                    <PortNetDevice ParentGlobalID="Victron.Network" DevID="CerboGx" PortID="VeDirect1" />
-                    <PortNetDevice ParentGlobalID="Victron.Network" DevID="CerboGx" PortID="VeDirect2" />
-                    <PortNetDevice ParentGlobalID="Victron.Network" DevID="CerboGx" PortID="VeDirect3" />
-                    <PortNetDevice ParentGlobalID="Ops.Convert" DevID="OpsAcDcCharger" PortID="VeDirect" />
-                    <PortNetDevice ParentGlobalID="Ops.Convert" DevID="OpsDcDcConverter" PortID="VeDirect" />
-                    <PortNetDevice ParentGlobalID="Ops.Network" DevID="OpsSmartShunt" PortID="VeDirect" />
-                    <PortNetDevice ParentGlobalID="Ops.Network" DevID="OpsBatteryGate" PortID="VeDirect" />
+                    <PortNetDevice ParentGlobalID="Ops.Network" DevID="NetBatteryGate" PortID="ComToUsbA" />
+                    <PortNetDevice ParentGlobalID="Ops.Network" DevID="NetBatteryGate" PortID="ComToUsbB" />
+                    <PortNetDevice ParentGlobalID="Ops.Network" DevID="NetBatteryGate" PortID="Com1" />
+                    <PortNetDevice ParentGlobalID="Ops.Network" DevID="NetBatteryGate" PortID="Com2" />
+                    <PortNetDevice ParentGlobalID="Ops.Network" DevID="NetBatteryGate" PortID="Com3" />
+                    <PortNetDevice ParentGlobalID="Power.Convert" DevID="Charger" PortID="Com1" />
+                    <PortNetDevice ParentGlobalID="Power.Convert" DevID="ConvDcDc" PortID="Com1" />
+                    <PortNetDevice ParentGlobalID="Ops.Network" DevID="Shunt" PortID="Com1" />
                 </PortNetCollection>
             </NetworkData>
         </Network>
         <Network NetID="NetOps" TypeNetwork="PowerData">
             <NetworkData SubID="Power">
                 <PortNetCollection>
-                    <PortNetDevice ParentGlobalID="Ops.Consume" DevID="OpsPowerJunction" PortID="PowerNet" />
-                    <PortNetDevice ParentGlobalID="Ops.Controller" DevID="OpsIpc" PortID="PowerNet" />
+                    <PortNetDevice ParentGlobalID="Ops.Consume" DevID="Junction" PortID="PowerNet" />
+                    <PortNetDevice ParentGlobalID="Ops.Network" DevID="Ipc" PortID="PowerNet" />
                 </PortNetCollection>
             </NetworkData>
             <NetworkData SubID="Panels">
                 <PortNetCollection>
-                    <PortNetDevice ParentGlobalID="Ops.Consume" DevID="OpsPowerPanel" PortID="PowerPanelIo" />
-                    <PortNetDevice ParentGlobalID="Ops.Consume" DevID="OpsPowerJunction" PortID="PowerPanelIo" />
+                    <PortNetDevice ParentGlobalID="Ops.Consume" DevID="Switchboard" PortID="PowerPanelIo" />
+                    <PortNetDevice ParentGlobalID="Ops.Consume" DevID="Junction" PortID="PowerPanelIo" />
                 </PortNetCollection>
             </NetworkData>
         </Network>
@@ -79,8 +72,8 @@
             <Description>220VAC dock power network</Description>
             <NetworkData SubID="Dock">
                 <PortNetCollection>
-                    <PortNetDevice ParentGlobalID="Ops.Isolate" DevID="OpsPowerSwitch" PortID="Input" />
-                    <PortNetDevice ParentGlobalID="Ops.Convert" DevID="OpsAcDcCharger" PortID="Input" />
+                    <PortNetDevice ParentGlobalID="Power.Convert" DevID="Charger" PortID="PI1" />
+                    <PortNetDevice ParentGlobalID="Power.Isolate" DevID="SwitchAc" PortID="PO1" />
                 </PortNetCollection>
             </NetworkData>
         </Network>
@@ -88,40 +81,40 @@
             <Description>Power network for 12VDC Lithium</Description>
             <NetworkData SubID="Generator">
                 <PortNetCollection>
-                    <PortNetDevice ParentGlobalID="Ops.Isolate" DevID="OpsDiodeIsolator" PortID="Input" />
-                    <PortNetDevice ParentGlobalID="Rotate.Source" DevID="EngineGenerator" PortID="Output" />
+                    <PortNetDevice ParentGlobalID="Power.Isolate" DevID="Diode" PortID="PI1" />
+                    <PortNetDevice ParentGlobalID="Power.Source" DevID="Generator" PortID="PO1" />
                 </PortNetCollection>
             </NetworkData>
             <NetworkData SubID="Aux">
                 <PortNetCollection>
-                    <PortNetDevice ParentGlobalID="Ops.Source" DevID="OpsLithiumBattery" PortID="Pos" />
-                    <PortNetDevice ParentGlobalID="Ops.Isolate" DevID="OpsDiodeIsolator" PortID="Output1" />
-                    <PortNetDevice ParentGlobalID="Ops.Isolate" DevID="OpsBatteryFuse" PortID="Port1" />
-                    <PortNetDevice ParentGlobalID="Ops.Isolate" DevID="OpsPowerSwitch" PortID="Input" />
-                    <PortNetDevice ParentGlobalID="Ops.Convert" DevID="OpsBatteryCharger" PortID="Battery" />
-                    <PortNetDevice ParentGlobalID="Ops.Network" DevID="OpsSmartShunt" PortID="Output1" />
-                    <PortNetDevice ParentGlobalID="Ops.Network" DevID="OpsBatteryGate" PortID="Input" />
-                    <PortNetDevice ParentGlobalID="Ops.Consume" DevID="OpsPowerJunction" PortID="Input" />
-                    <PortNetDevice ParentGlobalID="Ops.Controller" DevID="OpsIpc" PortID="Input" />
-                    <PortNetDevice ParentGlobalID="Ops.Instrument" DevID="OpsDisplay" PortID="Input" />
+                    <PortNetDevice ParentGlobalID="Power.Source" DevID="Battery" PortID="PO1" />
+                    <PortNetDevice ParentGlobalID="Power.Convert" DevID="Charger" PortID="PO1" />
+                    <PortNetDevice ParentGlobalID="Power.Isolate" DevID="SwitchDc" PortID="PO1" />
+                    <PortNetDevice ParentGlobalID="Power.Isolate" DevID="Diode" PortID="PO1" />
+                    <PortNetDevice ParentGlobalID="Power.Network" DevID="Shunt" PortID="PI1" />
+                    <PortNetDevice ParentGlobalID="Ops.Consume" DevID="Junction" PortID="PI1" />
+                    <PortNetDevice ParentGlobalID="Ops.Network" DevID="NetBatteryGate" PortID="PI1" />
+                    <PortNetDevice ParentGlobalID="Ops.Network" DevID="Ipc" PortID="PI1" />
+                    <PortNetDevice ParentGlobalID="Ops.Instrument" DevID="InstrumentDisplay" PortID="PI1" />
                 </PortNetCollection>
             </NetworkData>
             <NetworkData SubID="Motor">
                 <PortNetCollection>
-                    <PortNetDevice ParentGlobalID="Ops.Source" DevID="OpsMotorBattery" PortID="Pos" />
-                    <PortNetDevice ParentGlobalID="Ops.Isolate" DevID="OpsDiodeIsolator" PortID="Output2" />
-                    <PortNetDevice ParentGlobalID="Ops.Isolate" DevID="OpsBatteryFuse" PortID="Port1" />
-                    <PortNetDevice ParentGlobalID="Ops.Convert" DevID="OpsBatteryCharger" PortID="Motor" />
-                    <PortNetDevice ParentGlobalID="Ops.Network" DevID="OpsSmartShunt" PortID="Output2" />
-                    <PortNetDevice ParentGlobalID="Rotate.Consume" DevID="EngineStartMotor" PortID="Input" />
+                    <PortNetDevice ParentGlobalID="Power.Source" DevID="Battery" PortID="PO1" />
+                    <PortNetDevice ParentGlobalID="Power.Convert" DevID="Charger" PortID="PO2" />
+                    <PortNetDevice ParentGlobalID="Power.Isolate" DevID="Diode" PortID="PO2" />
+                    <PortNetDevice ParentGlobalID="Power.Isolate" DevID="SwitchDc" PortID="PO1" />
+                    <PortNetDevice ParentGlobalID="Power.Rotate" DevID="StartMotor" PortID="PI1" />
                 </PortNetCollection>
             </NetworkData>
             <NetworkData SubID="Level">
                 <PortNetCollection>
-                    <PortNetDevice ParentGlobalID="Ops.Isolate" DevID="OpsDiodeIsolator" PortID="Output3" />
-                    <PortNetDevice ParentGlobalID="Ops.Convert" DevID="OpsDcDcConverter" PortID="Output" />
-                    <PortNetDevice ParentGlobalID="Ops.Isolate" DevID="OpsBatteryFuse" PortID="Port1" />
-                    <PortNetDevice ParentGlobalID="Ops.Source" DevID="OpsLithiumBattery" PortID="Pos" />
+                    <PortNetDevice ParentGlobalID="Power.Source" DevID="Battery" PortID="PO1" />
+                    <PortNetDevice ParentGlobalID="Power.Convert" DevID="Charger" PortID="PO1" />
+                    <PortNetDevice ParentGlobalID="Power.Convert" DevID="ConvDcDc" PortID="PO1" />
+                    <PortNetDevice ParentGlobalID="Power.Isolate" DevID="SwitchDc" PortID="PO1" />
+                    <PortNetDevice ParentGlobalID="Power.Isolate" DevID="Diode" PortID="PO3" />
+                    <PortNetDevice ParentGlobalID="Power.Network" DevID="Shunt" PortID="PO2" />
                 </PortNetCollection>
             </NetworkData>
         </Network>

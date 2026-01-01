@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ModuleClass Name="Source">
-    <Description>Simulation of power source Open Power and Steering devices</Description>
-    <ModuleObject GlobalID="Ops.Source" />
-</ModuleClass>

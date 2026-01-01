@@ -37,7 +37,7 @@
             <Description>Power network for 24VDC Lithium</Description>
             <NetworkData SubID="Aux">
                 <PortNetCollection>
-                    <PortNetDevice ParentGlobalID="Ops.Source" DevID="OpsBattery24" PortID="Pos" />
+                    <PortNetDevice ParentGlobalID="Power.Source" DevID="BatteryAux" PortID="Pos" />
                     <PortNetDevice ParentGlobalID="Ops" DevID="OpsController" PortID="24V" />
                     <PortNetDevice ParentGlobalID="Ops" DevID="OpsInstrumentDisplay12" PortID="24V" />
                 </PortNetCollection>

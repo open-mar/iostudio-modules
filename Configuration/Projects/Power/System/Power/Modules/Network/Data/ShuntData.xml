@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataList Name="ShuntData">
+    <Description>Data list for shunt in power systems</Description>
+    <DataListObject ParentGlobalID="Power.Network">
+    </DataListObject>
+</DataList>

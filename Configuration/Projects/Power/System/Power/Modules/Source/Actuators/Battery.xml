@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DeviceClass Name="Battery">
+    <Description>Lithium battery for power systems</Description>
+    <DeviceClassObject GlobalID="Power.Source.Battery" Category="Actuator">
+        <Properties>
+            <Variable LocalID="NominalVoltage" TypeNum="Float" Decimals="1">12.8</Variable>
+            <Variable LocalID="DischargedVoltage" TypeNum="Float" Decimals="1">10.0</Variable>
+        </Properties>
+        <PortsCollection>
+            <DevicePort LocalID="PO1" TypePort="12_24VDC" GroupID="1"/>
+        </PortsCollection>
+    </DeviceClassObject>
+</DeviceClass>

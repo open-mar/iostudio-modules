@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ModuleClass Name="Controller">
-    <Description>Control computer module for Open Power and Steering</Description>
-    <ModuleObject GlobalID="Ops.Controller" />
-</ModuleClass>

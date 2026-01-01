@@ -3,6 +3,7 @@
 #define __PANELBATTERY_H
 #include "ioSystem/Panels/ioPanel.h"
 #include "ioSystem/Panels/ioGraphicsText.h"
+#include "ioSystem/Panels/ioDivider.h"
 class PanelBattery : public ioPanel
 {
 public:
@@ -10,6 +11,7 @@ public:
     virtual ~PanelBattery();
     virtual void InitializeData(void);
     ioLabel LabelHeaderNameBatteryMonitor;
+    ioDivider DividerHeaderBatteryMonitor;
     ioLabel LabelHeaderVoltBattery;
     ioLabel LabelHeaderVoltBatteryUnit;
     ioTextBlock InstrVoltBattery;
@@ -22,6 +24,6 @@ public:
     ioLabel LabelHeaderTtDischrgBattery;
     ioTextBlock InstrTtDischrgBattery;
 protected:
-    ioGraphics* m_PanelBatteryGraphics[12];
+    ioGraphics* m_PanelBatteryGraphics[13];
 };
 #endif // __PANELBATTERY_H

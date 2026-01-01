@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DeviceClass Name="Anchor">
+    <Description>Anchor winch</Description>
+    <DeviceClassObject GlobalID="Power.Rotate.Anchor" Category="Actuator">
+        <Properties>
+            <Variable LocalID="NominalVoltage" TypeNum="Float" Decimals="1">12.0</Variable>
+            <Variable LocalID="NominalPower" TypeNum="Float" Decimals="1">50</Variable>
+        </Properties>
+        <PortsCollection>
+            <DevicePort LocalID="PI1" TypePort="12_24VDC" GroupID="1"/>
+        </PortsCollection>
+    </DeviceClassObject>
+</DeviceClass>

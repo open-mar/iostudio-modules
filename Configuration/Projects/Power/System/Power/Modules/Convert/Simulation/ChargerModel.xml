@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModelClass Name="ChargerModel">
+    <Description>Simulation of charging device for power system</Description>
+    <InternalFunctions>
+        <Function Name="SimulateVoltOutput">
+            <Inputs>
+                <Argument Name="voltInputAc" TypeNum="Float" />
+                <Argument Name="isOutputActive" TypeNum="Bool" />
+            </Inputs>
+            <Outputs>
+                <Argument Name="voltOutputDc" TypeNum="Float" />
+            </Outputs>
+        </Function>
+    </InternalFunctions>
+    <ModelClassObject ParentGlobalID="Power.Convert">
+        <DataItemsCollection>
+            <DataListClasses Name="Power::Convert::ChargerData" NameObject="Data">
+                <Item NameClass="ChargerData" NameObject="ModelData" />
+            </DataListClasses>
+        </DataItemsCollection>
+        <Sequence />
+    </ModelClassObject>
+</ModelClass>

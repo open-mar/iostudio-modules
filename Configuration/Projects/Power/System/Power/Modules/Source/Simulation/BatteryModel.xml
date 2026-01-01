@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModelClass Name="BatteryModel">
+    <Description>Simulation model for a battery connected to a power network</Description>
+    <ModelClassObject ParentGlobalID="Power.Source">
+        <DataItemsCollection>
+            <DataListClasses Name="Power::Source::BatteryData" NameObject="Data">
+                <Item NameClass="BatteryData" NameObject="DataModel" />
+            </DataListClasses>
+        </DataItemsCollection>
+        <Sequence />
+    </ModelClassObject>
+</ModelClass>

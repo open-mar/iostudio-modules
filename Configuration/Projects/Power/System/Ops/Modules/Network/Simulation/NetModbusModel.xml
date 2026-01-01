@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelClass Name="NetModbusModel">
+    <Description>Simulation model of a Modbus sub-network in a power system</Description>
+    <ModelClassObject ParentGlobalID="Ops.Network">
+        <Sequence />
+    </ModelClassObject>
+</ModelClass>

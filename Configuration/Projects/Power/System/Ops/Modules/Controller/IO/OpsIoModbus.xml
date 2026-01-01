@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<DeviceClass Name="OpsIoModbus">
-    <Description>Modbus I/O for Open Power and Steering systems</Description>
-    <DeviceClassObject GlobalID="Ops.Controller.OpsIoModbus" Category="IO">
-        <PortsCollection>
-            <DevicePort LocalID="ComPort" TypePort="RS485"/>
-        </PortsCollection>
-    </DeviceClassObject>
-</DeviceClass>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModuleClass Name="Network">
-    <Description>Simulation of Open Power and Steering networked devices</Description>
+    <Description>Module for Open Power and Steering networked devices</Description>
     <ModuleObject GlobalID="Ops.Network" />
 </ModuleClass>

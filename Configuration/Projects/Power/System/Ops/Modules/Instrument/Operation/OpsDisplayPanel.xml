@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<DeviceClass Name="OpsDisplayPanel">
-    <Description>Instrument operation panel for Open Power and Steering systems</Description>
-    <DeviceClassObject GlobalID="Ops.Instrument.OpsDisplayPanel" Category="Operation">
-        <PortsCollection>
-            <DevicePort LocalID="DisplayPanelIo" TypePort="OpsIo" GroupID="2"/>
-        </PortsCollection>
-    </DeviceClassObject>
-</DeviceClass>

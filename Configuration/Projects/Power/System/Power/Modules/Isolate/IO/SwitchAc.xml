@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DeviceClass Name="SwitchAc">
+    <Description>Switch for AC voltage in power systems</Description>
+    <DeviceClassObject GlobalID="Power.Isolate.SwitchAc" Category="IO">
+        <Properties>
+        </Properties>
+        <PortsCollection>
+            <DevicePort LocalID="PI1" TypePort="230VAC" GroupID="1"/>
+            <DevicePort LocalID="PO1" TypePort="230VAC" GroupID="1"/>
+        </PortsCollection>
+    </DeviceClassObject>
+</DeviceClass>

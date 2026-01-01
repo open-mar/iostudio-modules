@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelClass Name="MotorsModel">
+    <Description>Simulation model for motors in a system</Description>
+    <ModelClassObject ParentGlobalID="Power.Rotate">
+        <DataItemsCollection>
+            <DataListClasses Name="Power::Rotate::MotorsData" NameObject="Data">
+                <Item NameClass="MotorsData" NameObject="DataModel" />
+            </DataListClasses>
+        </DataItemsCollection>
+        <Sequence />
+    </ModelClassObject>
+</ModelClass>

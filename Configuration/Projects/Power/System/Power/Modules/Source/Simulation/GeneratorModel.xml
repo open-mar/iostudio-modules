@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModelClass Name="GeneratorModel">
+    <Description>Simulation model of an engine generator connected to a power network</Description>
+    <ModelClassObject ParentGlobalID="Ops.Source">
+        <DataItemsCollection>
+            <DataListClasses Name="Power::Source::GeneratorData" NameObject="Data">
+                <Item NameClass="GeneratorData" NameObject="ModelData" />
+            </DataListClasses>
+        </DataItemsCollection>
+        <Sequence />
+    </ModelClassObject>
+</ModelClass>

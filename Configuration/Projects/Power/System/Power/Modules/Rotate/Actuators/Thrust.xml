@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DeviceClass Name="Thrust">
+    <Description>Thruster for maneuvering</Description>
+    <DeviceClassObject GlobalID="Power.Rotate.Thrust" Category="Actuator">
+        <Properties>
+            <Variable LocalID="NominalVoltage" TypeNum="Float" Decimals="1">24.0</Variable>
+            <Variable LocalID="NominalPower" TypeNum="Float" Decimals="1">50</Variable>
+        </Properties>
+        <PortsCollection>
+            <DevicePort LocalID="PI1" TypePort="12_24VDC" GroupID="1"/>
+            <DevicePort LocalID="Thrust" TypePort="OpsIo" GroupID="2"/>
+        </PortsCollection>
+    </DeviceClassObject>
+</DeviceClass>

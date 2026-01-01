@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModelClass Name="SwitchModel">
+    <Description>Simulation model of a switch connecting a consumer to a AC power network</Description>
+    <ModelClassObject ParentGlobalID="Power.Isolate">
+        <Sequence />
+    </ModelClassObject>
+</ModelClass>
