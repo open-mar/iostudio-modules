@@ -47,6 +47,7 @@ typedef enum
     Nuid_NetDc_Level_Power_Isolate_SwitchDc_PO1 = 40,
     Nuid_NetDc_Level_Power_Isolate_Diode_PO3 = 41,
     Nuid_NetDc_Level_Power_Network_Shunt_PO2 = 42,
+    Nuid_NetDc_Level_Ops_Consume_Junction_PI1 = 43,
 } ioSystemPortsType;
 class ioSystemPorts
 {

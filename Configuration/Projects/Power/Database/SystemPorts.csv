@@ -41,3 +41,4 @@ NUID;Parent;LocalID;TypePort
 40;NetDc.Level.Power.Isolate.SwitchDc;PO1;
 41;NetDc.Level.Power.Isolate.Diode;PO3;
 42;NetDc.Level.Power.Network.Shunt;PO2;
+43;NetDc.Level.Ops.Consume.Junction;PI1;

@@ -3,7 +3,6 @@
 #define __SWITCHDCMODEL_H
 #include "ioSystem/Simulation/ioModel.h"
 #include "Programs/Ops/Consume/JunctionData.h"
-
 class SwitchDcModel : public ioModel
 {
 public:
@@ -13,7 +12,6 @@ public:
     virtual void InitializeItem(void);
     // Do simulation every 100ms (slotCounter_100ms: Slot ID for simulation task)
     virtual void DoSimulation_100ms(Int32 slotCounter_100ms);
-
     JunctionData DataModel;
 };
 #endif // __SWITCHDCMODEL_H

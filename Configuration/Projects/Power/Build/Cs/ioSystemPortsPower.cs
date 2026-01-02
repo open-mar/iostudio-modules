@@ -47,6 +47,7 @@ namespace ioSystemNetworkNet
         Nuid_NetDc_Level_Power_Isolate_SwitchDc_PO1 = 40,
         Nuid_NetDc_Level_Power_Isolate_Diode_PO3 = 41,
         Nuid_NetDc_Level_Power_Network_Shunt_PO2 = 42,
+        Nuid_NetDc_Level_Ops_Consume_Junction_PI1 = 43,
     } // enum
     public class ioSystemPortsPower
     {
@@ -96,6 +97,7 @@ namespace ioSystemNetworkNet
                 case ioSystemPortsPowerType.Nuid_NetDc_Level_Power_Isolate_SwitchDc_PO1: return "NetDc.Level.Power.Isolate.SwitchDc.PO1";
                 case ioSystemPortsPowerType.Nuid_NetDc_Level_Power_Isolate_Diode_PO3: return "NetDc.Level.Power.Isolate.Diode.PO3";
                 case ioSystemPortsPowerType.Nuid_NetDc_Level_Power_Network_Shunt_PO2: return "NetDc.Level.Power.Network.Shunt.PO2";
+                case ioSystemPortsPowerType.Nuid_NetDc_Level_Ops_Consume_Junction_PI1: return "NetDc.Level.Ops.Consume.Junction.PI1";
             } // switch
             return string.Empty;
         }
@@ -145,6 +147,7 @@ namespace ioSystemNetworkNet
                 case "NetDc.Level.Power.Isolate.SwitchDc.PO1": return ioSystemPortsPowerType.Nuid_NetDc_Level_Power_Isolate_SwitchDc_PO1;
                 case "NetDc.Level.Power.Isolate.Diode.PO3": return ioSystemPortsPowerType.Nuid_NetDc_Level_Power_Isolate_Diode_PO3;
                 case "NetDc.Level.Power.Network.Shunt.PO2": return ioSystemPortsPowerType.Nuid_NetDc_Level_Power_Network_Shunt_PO2;
+                case "NetDc.Level.Ops.Consume.Junction.PI1": return ioSystemPortsPowerType.Nuid_NetDc_Level_Ops_Consume_Junction_PI1;
             } // switch
             return ioSystemPortsPowerType.Nuid_NotDefined;
         }

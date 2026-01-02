@@ -60,5 +60,6 @@ ioSystemPortsType ioSystemPorts::GetPortType(Int32 nuidValue)
     case 40: return Nuid_NetDc_Level_Power_Isolate_SwitchDc_PO1; 
     case 41: return Nuid_NetDc_Level_Power_Isolate_Diode_PO3; 
     case 42: return Nuid_NetDc_Level_Power_Network_Shunt_PO2; 
+    case 43: return Nuid_NetDc_Level_Ops_Consume_Junction_PI1; 
     } // switch
 }

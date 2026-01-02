@@ -115,6 +115,7 @@
                     <PortNetDevice ParentGlobalID="Power.Isolate" DevID="SwitchDc" PortID="PO1" />
                     <PortNetDevice ParentGlobalID="Power.Isolate" DevID="Diode" PortID="PO3" />
                     <PortNetDevice ParentGlobalID="Power.Network" DevID="Shunt" PortID="PO2" />
+                    <PortNetDevice ParentGlobalID="Ops.Consume" DevID="Junction" PortID="PI1" />
                 </PortNetCollection>
             </NetworkData>
         </Network>
