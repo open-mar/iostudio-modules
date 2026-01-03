@@ -1,7 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModelClass Name="SwitchDcModel">
     <Description>Simulation model of a switch and fuse protecting a DC power source</Description>
-    <ModelClassObject ParentGlobalID="Power.Isolate">
+    <ModelClassObject ParentGlobalID="Power.Isolate.Battery">
+        <DataItemsCollection>
+            <DataListClasses Name="Ops::Consume::JunctionData" NameObject="Data">
+                <Item NameClass="JunctionData" NameObject="DataModel" />
+            </DataListClasses>
+        </DataItemsCollection>
+        <Sequence />
+    </ModelClassObject>
+    <ModelClassObject ParentGlobalID="Power.Isolate.Inverter">
         <DataItemsCollection>
             <DataListClasses Name="Ops::Consume::JunctionData" NameObject="Data">
                 <Item NameClass="JunctionData" NameObject="DataModel" />

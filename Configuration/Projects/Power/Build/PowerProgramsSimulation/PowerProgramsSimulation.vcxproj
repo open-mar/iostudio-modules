@@ -162,9 +162,11 @@
     <ClInclude Include="..\..\Programs\Ops\Consume\SwitchboardData.h" />
     <ClInclude Include="..\..\Programs\Power\Convert\ChargerData.h" />
     <ClInclude Include="..\..\Programs\Power\Convert\ConvDcDcData.h" />
+    <ClInclude Include="..\..\Programs\Power\Isolate\Dc\SwitchDcData.h" />
+    <ClInclude Include="..\..\Programs\Power\Isolate\Dc\SwitchDcDataBattery.h" />
+    <ClInclude Include="..\..\Programs\Power\Isolate\Dc\SwitchDcDataInverter.h" />
     <ClInclude Include="..\..\Programs\Power\Isolate\DiodeData.h" />
     <ClInclude Include="..\..\Programs\Power\Isolate\SwitchAcData.h" />
-    <ClInclude Include="..\..\Programs\Power\Isolate\SwitchDcData.h" />
     <ClInclude Include="..\..\Programs\Power\Network\ShuntData.h" />
     <ClInclude Include="..\..\Programs\Power\Rotate\MotorsData.h" />
     <ClInclude Include="..\..\Programs\Power\Source\BatteryData.h" />
@@ -175,8 +177,8 @@
     <ClInclude Include="..\..\Simulation\Ops\Network\NetModbusModel.h" />
     <ClInclude Include="..\..\Simulation\Power\Convert\ChargerModel.h" />
     <ClInclude Include="..\..\Simulation\Power\Convert\ConvDcDcModel.h" />
+    <ClInclude Include="..\..\Simulation\Power\Isolate\Dc\SwitchDcModel.h" />
     <ClInclude Include="..\..\Simulation\Power\Isolate\DiodeModel.h" />
-    <ClInclude Include="..\..\Simulation\Power\Isolate\SwitchDcModel.h" />
     <ClInclude Include="..\..\Simulation\Power\Isolate\SwitchModel.h" />
     <ClInclude Include="..\..\Simulation\Power\Network\ShuntModel.h" />
     <ClInclude Include="..\..\Simulation\Power\Rotate\MotorsModel.h" />
@@ -205,9 +207,11 @@
     <ClCompile Include="..\..\Programs\Ops\Consume\SwitchboardData.cpp" />
     <ClCompile Include="..\..\Programs\Power\Convert\ChargerData.cpp" />
     <ClCompile Include="..\..\Programs\Power\Convert\ConvDcDcData.cpp" />
+    <ClCompile Include="..\..\Programs\Power\Isolate\Dc\SwitchDcData.cpp" />
+    <ClCompile Include="..\..\Programs\Power\Isolate\Dc\SwitchDcDataBattery.cpp" />
+    <ClCompile Include="..\..\Programs\Power\Isolate\Dc\SwitchDcDataInverter.cpp" />
     <ClCompile Include="..\..\Programs\Power\Isolate\DiodeData.cpp" />
     <ClCompile Include="..\..\Programs\Power\Isolate\SwitchAcData.cpp" />
-    <ClCompile Include="..\..\Programs\Power\Isolate\SwitchDcData.cpp" />
     <ClCompile Include="..\..\Programs\Power\Network\ShuntData.cpp" />
     <ClCompile Include="..\..\Programs\Power\Rotate\MotorsData.cpp" />
     <ClCompile Include="..\..\Programs\Power\Source\BatteryData.cpp" />
@@ -218,8 +222,8 @@
     <ClCompile Include="..\..\Simulation\Ops\Network\NetModbusModel.cpp" />
     <ClCompile Include="..\..\Simulation\Power\Convert\ChargerModel.cpp" />
     <ClCompile Include="..\..\Simulation\Power\Convert\ConvDcDcModel.cpp" />
+    <ClCompile Include="..\..\Simulation\Power\Isolate\Dc\SwitchDcModel.cpp" />
     <ClCompile Include="..\..\Simulation\Power\Isolate\DiodeModel.cpp" />
-    <ClCompile Include="..\..\Simulation\Power\Isolate\SwitchDcModel.cpp" />
     <ClCompile Include="..\..\Simulation\Power\Isolate\SwitchModel.cpp" />
     <ClCompile Include="..\..\Simulation\Power\Network\ShuntModel.cpp" />
     <ClCompile Include="..\..\Simulation\Power\Rotate\MotorsModel.cpp" />

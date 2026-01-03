@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModuleClass Name="Dc">
+    <Description>Isolate DC power networks</Description>
+    <ModuleObject GlobalID="Power.Isolate.Battery" />
+    <ModuleObject GlobalID="Power.Isolate.Inverter" />
+</ModuleClass>

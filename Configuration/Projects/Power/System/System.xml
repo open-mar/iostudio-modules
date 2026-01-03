@@ -55,6 +55,7 @@
             </NetworkData>
         </Network>
         <Network NetID="NetOps" TypeNetwork="PowerData">
+            <Description></Description>
             <NetworkData SubID="Power">
                 <PortNetCollection>
                     <PortNetDevice ParentGlobalID="Ops.Consume" DevID="Junction" PortID="PowerNet" />
@@ -76,6 +77,12 @@
                     <PortNetDevice ParentGlobalID="Power.Isolate" DevID="SwitchAc" PortID="PO1" />
                 </PortNetCollection>
             </NetworkData>
+            <NetworkData SubID="Aux">
+                <PortNetCollection>
+                    <PortNetDevice ParentGlobalID="Power.Convert" DevID="Inverter" PortID="PO1" />
+                    <PortNetDevice ParentGlobalID="Power.Isolate" DevID="SwitchAc" PortID="PI1" />
+                </PortNetCollection>
+            </NetworkData>
         </Network>
         <Network NetID="NetDc" TypeNetwork="Power">
             <Description>Power network for 12VDC Lithium</Description>
@@ -89,7 +96,8 @@
                 <PortNetCollection>
                     <PortNetDevice ParentGlobalID="Power.Source" DevID="Battery" PortID="PO1" />
                     <PortNetDevice ParentGlobalID="Power.Convert" DevID="Charger" PortID="PO1" />
-                    <PortNetDevice ParentGlobalID="Power.Isolate" DevID="SwitchDc" PortID="PO1" />
+                    <PortNetDevice ParentGlobalID="Power.Isolate.Battery" DevID="SwitchDc" PortID="PO1" />
+                    <PortNetDevice ParentGlobalID="Power.Isolate.Inverter" DevID="SwitchDc" PortID="PO1" />
                     <PortNetDevice ParentGlobalID="Power.Isolate" DevID="Diode" PortID="PO1" />
                     <PortNetDevice ParentGlobalID="Power.Network" DevID="Shunt" PortID="PI1" />
                     <PortNetDevice ParentGlobalID="Ops.Consume" DevID="Junction" PortID="PI1" />
@@ -103,7 +111,7 @@
                     <PortNetDevice ParentGlobalID="Power.Source" DevID="Battery" PortID="PO1" />
                     <PortNetDevice ParentGlobalID="Power.Convert" DevID="Charger" PortID="PO2" />
                     <PortNetDevice ParentGlobalID="Power.Isolate" DevID="Diode" PortID="PO2" />
-                    <PortNetDevice ParentGlobalID="Power.Isolate" DevID="SwitchDc" PortID="PO1" />
+                    <PortNetDevice ParentGlobalID="Power.Isolate.Battery" DevID="SwitchDc" PortID="PO1" />
                     <PortNetDevice ParentGlobalID="Power.Rotate" DevID="StartMotor" PortID="PI1" />
                 </PortNetCollection>
             </NetworkData>
@@ -112,7 +120,7 @@
                     <PortNetDevice ParentGlobalID="Power.Source" DevID="Battery" PortID="PO1" />
                     <PortNetDevice ParentGlobalID="Power.Convert" DevID="Charger" PortID="PO1" />
                     <PortNetDevice ParentGlobalID="Power.Convert" DevID="ConvDcDc" PortID="PO1" />
-                    <PortNetDevice ParentGlobalID="Power.Isolate" DevID="SwitchDc" PortID="PO1" />
+                    <PortNetDevice ParentGlobalID="Power.Isolate.Battery" DevID="SwitchDc" PortID="PO1" />
                     <PortNetDevice ParentGlobalID="Power.Isolate" DevID="Diode" PortID="PO3" />
                     <PortNetDevice ParentGlobalID="Power.Network" DevID="Shunt" PortID="PO2" />
                     <PortNetDevice ParentGlobalID="Ops.Consume" DevID="Junction" PortID="PI1" />

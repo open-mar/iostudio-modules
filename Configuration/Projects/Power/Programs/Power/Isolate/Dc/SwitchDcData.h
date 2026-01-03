@@ -10,7 +10,7 @@ class SwitchDcData : public ioDataCollection
 public:
     SwitchDcData();
     virtual ~SwitchDcData();
-    void InitializeData(void);
+    virtual void InitializeData(void);
     ioVarFloat MaxFuseCurrent;
     ioVarBool IsFuseBlown;
     ioMethod ResetFuse;

@@ -42,18 +42,21 @@ namespace ioSystemNetworkNet
         Duid_Power_Convert_MaxOutCurrentDcDc = 35,
         Duid_Power_Convert_CurrentInputDcDc = 36,
         Duid_Power_Convert_CurrentOutputDcDc = 37,
-        Duid_Power_Isolate_MaxFuseCurrent = 38,
-        Duid_Power_Isolate_IsFuseBlown = 39,
-        Duid_Power_Isolate_ResetFuse = 40,
-        Duid_Power_Source_BatteryChargeResistance = 41,
-        Duid_Power_Source_BatteryEnergy = 42,
-        Duid_Power_Source_VoltageBattery = 43,
-        Duid_Power_Source_CurrentBattery = 44,
-        Duid_Power_Source_StatusOfCharge = 45,
-        Duid_Power_Source_VoltOutputGenerator = 46,
-        Duid_Power_Source_IsGeneratorOutputActive = 47,
-        Duid_Power_Source_MaxOutCurrentGenerator = 48,
-        Duid_Power_Source_CurrentGenerator = 49,
+        Duid_Power_Isolate_Battery_MaxFuseCurrent = 38,
+        Duid_Power_Isolate_Battery_IsFuseBlown = 39,
+        Duid_Power_Isolate_Battery_ResetFuse = 40,
+        Duid_Power_Isolate_Inverter_MaxFuseCurrent = 41,
+        Duid_Power_Isolate_Inverter_IsFuseBlown = 42,
+        Duid_Power_Isolate_Inverter_ResetFuse = 43,
+        Duid_Power_Source_BatteryChargeResistance = 44,
+        Duid_Power_Source_BatteryEnergy = 45,
+        Duid_Power_Source_VoltageBattery = 46,
+        Duid_Power_Source_CurrentBattery = 47,
+        Duid_Power_Source_StatusOfCharge = 48,
+        Duid_Power_Source_VoltOutputGenerator = 49,
+        Duid_Power_Source_IsGeneratorOutputActive = 50,
+        Duid_Power_Source_MaxOutCurrentGenerator = 51,
+        Duid_Power_Source_CurrentGenerator = 52,
     } // enum
     public class ioSystemDataPower
     {
@@ -98,9 +101,12 @@ namespace ioSystemNetworkNet
                 case ioSystemDataPowerType.Duid_Power_Convert_MaxOutCurrentDcDc: return "Power.Convert.MaxOutCurrentDcDc";
                 case ioSystemDataPowerType.Duid_Power_Convert_CurrentInputDcDc: return "Power.Convert.CurrentInputDcDc";
                 case ioSystemDataPowerType.Duid_Power_Convert_CurrentOutputDcDc: return "Power.Convert.CurrentOutputDcDc";
-                case ioSystemDataPowerType.Duid_Power_Isolate_MaxFuseCurrent: return "Power.Isolate.MaxFuseCurrent";
-                case ioSystemDataPowerType.Duid_Power_Isolate_IsFuseBlown: return "Power.Isolate.IsFuseBlown";
-                case ioSystemDataPowerType.Duid_Power_Isolate_ResetFuse: return "Power.Isolate.ResetFuse";
+                case ioSystemDataPowerType.Duid_Power_Isolate_Battery_MaxFuseCurrent: return "Power.Isolate.Battery.MaxFuseCurrent";
+                case ioSystemDataPowerType.Duid_Power_Isolate_Battery_IsFuseBlown: return "Power.Isolate.Battery.IsFuseBlown";
+                case ioSystemDataPowerType.Duid_Power_Isolate_Battery_ResetFuse: return "Power.Isolate.Battery.ResetFuse";
+                case ioSystemDataPowerType.Duid_Power_Isolate_Inverter_MaxFuseCurrent: return "Power.Isolate.Inverter.MaxFuseCurrent";
+                case ioSystemDataPowerType.Duid_Power_Isolate_Inverter_IsFuseBlown: return "Power.Isolate.Inverter.IsFuseBlown";
+                case ioSystemDataPowerType.Duid_Power_Isolate_Inverter_ResetFuse: return "Power.Isolate.Inverter.ResetFuse";
                 case ioSystemDataPowerType.Duid_Power_Source_BatteryChargeResistance: return "Power.Source.BatteryChargeResistance";
                 case ioSystemDataPowerType.Duid_Power_Source_BatteryEnergy: return "Power.Source.BatteryEnergy";
                 case ioSystemDataPowerType.Duid_Power_Source_VoltageBattery: return "Power.Source.VoltageBattery";
@@ -154,9 +160,12 @@ namespace ioSystemNetworkNet
                 case "Power.Convert.MaxOutCurrentDcDc": return ioSystemDataPowerType.Duid_Power_Convert_MaxOutCurrentDcDc;
                 case "Power.Convert.CurrentInputDcDc": return ioSystemDataPowerType.Duid_Power_Convert_CurrentInputDcDc;
                 case "Power.Convert.CurrentOutputDcDc": return ioSystemDataPowerType.Duid_Power_Convert_CurrentOutputDcDc;
-                case "Power.Isolate.MaxFuseCurrent": return ioSystemDataPowerType.Duid_Power_Isolate_MaxFuseCurrent;
-                case "Power.Isolate.IsFuseBlown": return ioSystemDataPowerType.Duid_Power_Isolate_IsFuseBlown;
-                case "Power.Isolate.ResetFuse": return ioSystemDataPowerType.Duid_Power_Isolate_ResetFuse;
+                case "Power.Isolate.Battery.MaxFuseCurrent": return ioSystemDataPowerType.Duid_Power_Isolate_Battery_MaxFuseCurrent;
+                case "Power.Isolate.Battery.IsFuseBlown": return ioSystemDataPowerType.Duid_Power_Isolate_Battery_IsFuseBlown;
+                case "Power.Isolate.Battery.ResetFuse": return ioSystemDataPowerType.Duid_Power_Isolate_Battery_ResetFuse;
+                case "Power.Isolate.Inverter.MaxFuseCurrent": return ioSystemDataPowerType.Duid_Power_Isolate_Inverter_MaxFuseCurrent;
+                case "Power.Isolate.Inverter.IsFuseBlown": return ioSystemDataPowerType.Duid_Power_Isolate_Inverter_IsFuseBlown;
+                case "Power.Isolate.Inverter.ResetFuse": return ioSystemDataPowerType.Duid_Power_Isolate_Inverter_ResetFuse;
                 case "Power.Source.BatteryChargeResistance": return ioSystemDataPowerType.Duid_Power_Source_BatteryChargeResistance;
                 case "Power.Source.BatteryEnergy": return ioSystemDataPowerType.Duid_Power_Source_BatteryEnergy;
                 case "Power.Source.VoltageBattery": return ioSystemDataPowerType.Duid_Power_Source_VoltageBattery;

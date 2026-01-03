@@ -74,6 +74,12 @@
     <Filter Include="Simulation\Ops\Network">
       <UniqueIdentifier>{0aa61134-b5ae-47a4-8052-77a9c4f881cf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Programs\Power\Isolate\Dc">
+      <UniqueIdentifier>{64834336-34ab-44e1-a0d6-bd11b7aa02c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation\Power\Isolate\Dc">
+      <UniqueIdentifier>{a88c9cf2-42cf-4e8c-ba39-b2c0ea6e7b75}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Programs\ioSystemData.h">
@@ -148,9 +154,6 @@
     <ClInclude Include="..\..\Programs\Power\Isolate\SwitchAcData.h">
       <Filter>Programs\Power\Isolate</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Programs\Power\Isolate\SwitchDcData.h">
-      <Filter>Programs\Power\Isolate</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\Programs\Power\Rotate\MotorsData.h">
       <Filter>Programs\Power\Rotate</Filter>
     </ClInclude>
@@ -167,9 +170,6 @@
       <Filter>Simulation\Ops\Consume</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Simulation\Power\Isolate\DiodeModel.h">
-      <Filter>Simulation\Power\Isolate</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Simulation\Power\Isolate\SwitchDcModel.h">
       <Filter>Simulation\Power\Isolate</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Simulation\Power\Isolate\SwitchModel.h">
@@ -198,6 +198,18 @@
     </ClInclude>
     <ClInclude Include="..\..\Simulation\Power\Rotate\MotorsModel.h">
       <Filter>Simulation\Power\Rotate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Power\Isolate\Dc\SwitchDcData.h">
+      <Filter>Programs\Power\Isolate\Dc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Power\Isolate\Dc\SwitchDcDataBattery.h">
+      <Filter>Programs\Power\Isolate\Dc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Programs\Power\Isolate\Dc\SwitchDcDataInverter.h">
+      <Filter>Programs\Power\Isolate\Dc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Simulation\Power\Isolate\Dc\SwitchDcModel.h">
+      <Filter>Simulation\Power\Isolate\Dc</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -273,9 +285,6 @@
     <ClCompile Include="..\..\Programs\Power\Isolate\SwitchAcData.cpp">
       <Filter>Programs\Power\Isolate</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Programs\Power\Isolate\SwitchDcData.cpp">
-      <Filter>Programs\Power\Isolate</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Programs\Power\Rotate\MotorsData.cpp">
       <Filter>Programs\Power\Rotate</Filter>
     </ClCompile>
@@ -292,9 +301,6 @@
       <Filter>Simulation\Ops\Consume</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Simulation\Power\Isolate\DiodeModel.cpp">
-      <Filter>Simulation\Power\Isolate</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Simulation\Power\Isolate\SwitchDcModel.cpp">
       <Filter>Simulation\Power\Isolate</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Simulation\Power\Isolate\SwitchModel.cpp">
@@ -323,6 +329,18 @@
     </ClCompile>
     <ClCompile Include="..\..\Simulation\Power\Rotate\MotorsModel.cpp">
       <Filter>Simulation\Power\Rotate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Power\Isolate\Dc\SwitchDcData.cpp">
+      <Filter>Programs\Power\Isolate\Dc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Power\Isolate\Dc\SwitchDcDataBattery.cpp">
+      <Filter>Programs\Power\Isolate\Dc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Programs\Power\Isolate\Dc\SwitchDcDataInverter.cpp">
+      <Filter>Programs\Power\Isolate\Dc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Simulation\Power\Isolate\Dc\SwitchDcModel.cpp">
+      <Filter>Simulation\Power\Isolate\Dc</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

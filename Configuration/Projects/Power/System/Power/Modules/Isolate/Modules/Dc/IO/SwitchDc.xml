@@ -1,7 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DeviceClass Name="SwitchDc">
     <Description>Battery switch and fuse for power DC systems</Description>
-    <DeviceClassObject GlobalID="Ops.Isolate.SwitchDc" Category="IO">
+    <DeviceClassObject GlobalID="Power.Isolate.Battery.SwitchDc" Category="IO">
+        <PortsCollection>
+            <DevicePort LocalID="PI1" TypePort="12_24VDC" GroupID="1"/>
+            <DevicePort LocalID="PO1" TypePort="12_24VDC" GroupID="1"/>
+        </PortsCollection>
+    </DeviceClassObject>
+    <DeviceClassObject GlobalID="Power.Isolate.Inverter.SwitchDc" Category="IO">
         <PortsCollection>
             <DevicePort LocalID="PI1" TypePort="12_24VDC" GroupID="1"/>
             <DevicePort LocalID="PO1" TypePort="12_24VDC" GroupID="1"/>

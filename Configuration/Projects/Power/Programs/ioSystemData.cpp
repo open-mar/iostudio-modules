@@ -96,17 +96,20 @@ ioSystemDataType ioSystemData::GetDataType(Int32 duidValue)
     case 35: return Duid_Power_Convert_MaxOutCurrentDcDc; 
     case 36: return Duid_Power_Convert_CurrentInputDcDc; 
     case 37: return Duid_Power_Convert_CurrentOutputDcDc; 
-    case 38: return Duid_Power_Isolate_MaxFuseCurrent; 
-    case 39: return Duid_Power_Isolate_IsFuseBlown; 
-    case 40: return Duid_Power_Isolate_ResetFuse; 
-    case 41: return Duid_Power_Source_BatteryChargeResistance; 
-    case 42: return Duid_Power_Source_BatteryEnergy; 
-    case 43: return Duid_Power_Source_VoltageBattery; 
-    case 44: return Duid_Power_Source_CurrentBattery; 
-    case 45: return Duid_Power_Source_StatusOfCharge; 
-    case 46: return Duid_Power_Source_VoltOutputGenerator; 
-    case 47: return Duid_Power_Source_IsGeneratorOutputActive; 
-    case 48: return Duid_Power_Source_MaxOutCurrentGenerator; 
-    case 49: return Duid_Power_Source_CurrentGenerator; 
+    case 38: return Duid_Power_Isolate_Battery_MaxFuseCurrent; 
+    case 39: return Duid_Power_Isolate_Battery_IsFuseBlown; 
+    case 40: return Duid_Power_Isolate_Battery_ResetFuse; 
+    case 41: return Duid_Power_Isolate_Inverter_MaxFuseCurrent; 
+    case 42: return Duid_Power_Isolate_Inverter_IsFuseBlown; 
+    case 43: return Duid_Power_Isolate_Inverter_ResetFuse; 
+    case 44: return Duid_Power_Source_BatteryChargeResistance; 
+    case 45: return Duid_Power_Source_BatteryEnergy; 
+    case 46: return Duid_Power_Source_VoltageBattery; 
+    case 47: return Duid_Power_Source_CurrentBattery; 
+    case 48: return Duid_Power_Source_StatusOfCharge; 
+    case 49: return Duid_Power_Source_VoltOutputGenerator; 
+    case 50: return Duid_Power_Source_IsGeneratorOutputActive; 
+    case 51: return Duid_Power_Source_MaxOutCurrentGenerator; 
+    case 52: return Duid_Power_Source_CurrentGenerator; 
     } // switch
 }

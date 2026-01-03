@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DeviceClass Name="Diode">
     <Description>Battery diode isolator for power systems</Description>
-    <DeviceClassObject GlobalID="Ops.Isolate.Diode" Category="IO">
+    <DeviceClassObject GlobalID="Power.Isolate.Diode" Category="IO">
         <PortsCollection>
             <DevicePort LocalID="PI1" TypePort="12_24VDC" GroupID="1"/>
             <DevicePort LocalID="PO1" TypePort="12_24VDC" GroupID="1"/>

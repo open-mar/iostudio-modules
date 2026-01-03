@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DataList Name="SwitchDcData">
     <Description>Data list for for power DC switch</Description>
-    <DataListObject ParentGlobalID="Power.Isolate">
+    <DataListObject ParentGlobalID="Power.Isolate.Battery">
+        <Variable LocalID="MaxFuseCurrent" TypeNum="Float" Decimals="3" Min="0.000" Max="99.999">20</Variable>
+        <Variable LocalID="IsFuseBlown" TypeNum="Bool">FALSE</Variable>
+        <Method LocalID="ResetFuse" />
+    </DataListObject>
+    <DataListObject ParentGlobalID="Power.Isolate.Inverter">
         <Variable LocalID="MaxFuseCurrent" TypeNum="Float" Decimals="3" Min="0.000" Max="99.999">20</Variable>
         <Variable LocalID="IsFuseBlown" TypeNum="Bool">FALSE</Variable>
         <Method LocalID="ResetFuse" />

@@ -25,29 +25,32 @@ namespace ioSystemNetworkNet
         Nuid_NetOps_Panels_Ops_Consume_Junction_PowerPanelIo = 18,
         Nuid_NetAc_Dock_Power_Convert_Charger_PI1 = 19,
         Nuid_NetAc_Dock_Power_Isolate_SwitchAc_PO1 = 20,
-        Nuid_NetDc_Generator_Power_Isolate_Diode_PI1 = 21,
-        Nuid_NetDc_Generator_Power_Source_Generator_PO1 = 22,
-        Nuid_NetDc_Aux_Power_Source_Battery_PO1 = 23,
-        Nuid_NetDc_Aux_Power_Convert_Charger_PO1 = 24,
-        Nuid_NetDc_Aux_Power_Isolate_SwitchDc_PO1 = 25,
-        Nuid_NetDc_Aux_Power_Isolate_Diode_PO1 = 26,
-        Nuid_NetDc_Aux_Power_Network_Shunt_PI1 = 27,
-        Nuid_NetDc_Aux_Ops_Consume_Junction_PI1 = 28,
-        Nuid_NetDc_Aux_Ops_Network_NetBatteryGate_PI1 = 29,
-        Nuid_NetDc_Aux_Ops_Network_Ipc_PI1 = 30,
-        Nuid_NetDc_Aux_Ops_Instrument_InstrumentDisplay_PI1 = 31,
-        Nuid_NetDc_Motor_Power_Source_Battery_PO1 = 32,
-        Nuid_NetDc_Motor_Power_Convert_Charger_PO2 = 33,
-        Nuid_NetDc_Motor_Power_Isolate_Diode_PO2 = 34,
-        Nuid_NetDc_Motor_Power_Isolate_SwitchDc_PO1 = 35,
-        Nuid_NetDc_Motor_Power_Rotate_StartMotor_PI1 = 36,
-        Nuid_NetDc_Level_Power_Source_Battery_PO1 = 37,
-        Nuid_NetDc_Level_Power_Convert_Charger_PO1 = 38,
-        Nuid_NetDc_Level_Power_Convert_ConvDcDc_PO1 = 39,
-        Nuid_NetDc_Level_Power_Isolate_SwitchDc_PO1 = 40,
-        Nuid_NetDc_Level_Power_Isolate_Diode_PO3 = 41,
-        Nuid_NetDc_Level_Power_Network_Shunt_PO2 = 42,
-        Nuid_NetDc_Level_Ops_Consume_Junction_PI1 = 43,
+        Nuid_NetAc_Aux_Power_Convert_Inverter_PO1 = 21,
+        Nuid_NetAc_Aux_Power_Isolate_SwitchAc_PI1 = 22,
+        Nuid_NetDc_Generator_Power_Isolate_Diode_PI1 = 23,
+        Nuid_NetDc_Generator_Power_Source_Generator_PO1 = 24,
+        Nuid_NetDc_Aux_Power_Source_Battery_PO1 = 25,
+        Nuid_NetDc_Aux_Power_Convert_Charger_PO1 = 26,
+        Nuid_NetDc_Aux_Power_Isolate_Battery_SwitchDc_PO1 = 27,
+        Nuid_NetDc_Aux_Power_Isolate_Inverter_SwitchDc_PO1 = 28,
+        Nuid_NetDc_Aux_Power_Isolate_Diode_PO1 = 29,
+        Nuid_NetDc_Aux_Power_Network_Shunt_PI1 = 30,
+        Nuid_NetDc_Aux_Ops_Consume_Junction_PI1 = 31,
+        Nuid_NetDc_Aux_Ops_Network_NetBatteryGate_PI1 = 32,
+        Nuid_NetDc_Aux_Ops_Network_Ipc_PI1 = 33,
+        Nuid_NetDc_Aux_Ops_Instrument_InstrumentDisplay_PI1 = 34,
+        Nuid_NetDc_Motor_Power_Source_Battery_PO1 = 35,
+        Nuid_NetDc_Motor_Power_Convert_Charger_PO2 = 36,
+        Nuid_NetDc_Motor_Power_Isolate_Diode_PO2 = 37,
+        Nuid_NetDc_Motor_Power_Isolate_Battery_SwitchDc_PO1 = 38,
+        Nuid_NetDc_Motor_Power_Rotate_StartMotor_PI1 = 39,
+        Nuid_NetDc_Level_Power_Source_Battery_PO1 = 40,
+        Nuid_NetDc_Level_Power_Convert_Charger_PO1 = 41,
+        Nuid_NetDc_Level_Power_Convert_ConvDcDc_PO1 = 42,
+        Nuid_NetDc_Level_Power_Isolate_Battery_SwitchDc_PO1 = 43,
+        Nuid_NetDc_Level_Power_Isolate_Diode_PO3 = 44,
+        Nuid_NetDc_Level_Power_Network_Shunt_PO2 = 45,
+        Nuid_NetDc_Level_Ops_Consume_Junction_PI1 = 46,
     } // enum
     public class ioSystemPortsPower
     {
@@ -75,11 +78,14 @@ namespace ioSystemNetworkNet
                 case ioSystemPortsPowerType.Nuid_NetOps_Panels_Ops_Consume_Junction_PowerPanelIo: return "NetOps.Panels.Ops.Consume.Junction.PowerPanelIo";
                 case ioSystemPortsPowerType.Nuid_NetAc_Dock_Power_Convert_Charger_PI1: return "NetAc.Dock.Power.Convert.Charger.PI1";
                 case ioSystemPortsPowerType.Nuid_NetAc_Dock_Power_Isolate_SwitchAc_PO1: return "NetAc.Dock.Power.Isolate.SwitchAc.PO1";
+                case ioSystemPortsPowerType.Nuid_NetAc_Aux_Power_Convert_Inverter_PO1: return "NetAc.Aux.Power.Convert.Inverter.PO1";
+                case ioSystemPortsPowerType.Nuid_NetAc_Aux_Power_Isolate_SwitchAc_PI1: return "NetAc.Aux.Power.Isolate.SwitchAc.PI1";
                 case ioSystemPortsPowerType.Nuid_NetDc_Generator_Power_Isolate_Diode_PI1: return "NetDc.Generator.Power.Isolate.Diode.PI1";
                 case ioSystemPortsPowerType.Nuid_NetDc_Generator_Power_Source_Generator_PO1: return "NetDc.Generator.Power.Source.Generator.PO1";
                 case ioSystemPortsPowerType.Nuid_NetDc_Aux_Power_Source_Battery_PO1: return "NetDc.Aux.Power.Source.Battery.PO1";
                 case ioSystemPortsPowerType.Nuid_NetDc_Aux_Power_Convert_Charger_PO1: return "NetDc.Aux.Power.Convert.Charger.PO1";
-                case ioSystemPortsPowerType.Nuid_NetDc_Aux_Power_Isolate_SwitchDc_PO1: return "NetDc.Aux.Power.Isolate.SwitchDc.PO1";
+                case ioSystemPortsPowerType.Nuid_NetDc_Aux_Power_Isolate_Battery_SwitchDc_PO1: return "NetDc.Aux.Power.Isolate.Battery.SwitchDc.PO1";
+                case ioSystemPortsPowerType.Nuid_NetDc_Aux_Power_Isolate_Inverter_SwitchDc_PO1: return "NetDc.Aux.Power.Isolate.Inverter.SwitchDc.PO1";
                 case ioSystemPortsPowerType.Nuid_NetDc_Aux_Power_Isolate_Diode_PO1: return "NetDc.Aux.Power.Isolate.Diode.PO1";
                 case ioSystemPortsPowerType.Nuid_NetDc_Aux_Power_Network_Shunt_PI1: return "NetDc.Aux.Power.Network.Shunt.PI1";
                 case ioSystemPortsPowerType.Nuid_NetDc_Aux_Ops_Consume_Junction_PI1: return "NetDc.Aux.Ops.Consume.Junction.PI1";
@@ -89,12 +95,12 @@ namespace ioSystemNetworkNet
                 case ioSystemPortsPowerType.Nuid_NetDc_Motor_Power_Source_Battery_PO1: return "NetDc.Motor.Power.Source.Battery.PO1";
                 case ioSystemPortsPowerType.Nuid_NetDc_Motor_Power_Convert_Charger_PO2: return "NetDc.Motor.Power.Convert.Charger.PO2";
                 case ioSystemPortsPowerType.Nuid_NetDc_Motor_Power_Isolate_Diode_PO2: return "NetDc.Motor.Power.Isolate.Diode.PO2";
-                case ioSystemPortsPowerType.Nuid_NetDc_Motor_Power_Isolate_SwitchDc_PO1: return "NetDc.Motor.Power.Isolate.SwitchDc.PO1";
+                case ioSystemPortsPowerType.Nuid_NetDc_Motor_Power_Isolate_Battery_SwitchDc_PO1: return "NetDc.Motor.Power.Isolate.Battery.SwitchDc.PO1";
                 case ioSystemPortsPowerType.Nuid_NetDc_Motor_Power_Rotate_StartMotor_PI1: return "NetDc.Motor.Power.Rotate.StartMotor.PI1";
                 case ioSystemPortsPowerType.Nuid_NetDc_Level_Power_Source_Battery_PO1: return "NetDc.Level.Power.Source.Battery.PO1";
                 case ioSystemPortsPowerType.Nuid_NetDc_Level_Power_Convert_Charger_PO1: return "NetDc.Level.Power.Convert.Charger.PO1";
                 case ioSystemPortsPowerType.Nuid_NetDc_Level_Power_Convert_ConvDcDc_PO1: return "NetDc.Level.Power.Convert.ConvDcDc.PO1";
-                case ioSystemPortsPowerType.Nuid_NetDc_Level_Power_Isolate_SwitchDc_PO1: return "NetDc.Level.Power.Isolate.SwitchDc.PO1";
+                case ioSystemPortsPowerType.Nuid_NetDc_Level_Power_Isolate_Battery_SwitchDc_PO1: return "NetDc.Level.Power.Isolate.Battery.SwitchDc.PO1";
                 case ioSystemPortsPowerType.Nuid_NetDc_Level_Power_Isolate_Diode_PO3: return "NetDc.Level.Power.Isolate.Diode.PO3";
                 case ioSystemPortsPowerType.Nuid_NetDc_Level_Power_Network_Shunt_PO2: return "NetDc.Level.Power.Network.Shunt.PO2";
                 case ioSystemPortsPowerType.Nuid_NetDc_Level_Ops_Consume_Junction_PI1: return "NetDc.Level.Ops.Consume.Junction.PI1";
@@ -125,11 +131,14 @@ namespace ioSystemNetworkNet
                 case "NetOps.Panels.Ops.Consume.Junction.PowerPanelIo": return ioSystemPortsPowerType.Nuid_NetOps_Panels_Ops_Consume_Junction_PowerPanelIo;
                 case "NetAc.Dock.Power.Convert.Charger.PI1": return ioSystemPortsPowerType.Nuid_NetAc_Dock_Power_Convert_Charger_PI1;
                 case "NetAc.Dock.Power.Isolate.SwitchAc.PO1": return ioSystemPortsPowerType.Nuid_NetAc_Dock_Power_Isolate_SwitchAc_PO1;
+                case "NetAc.Aux.Power.Convert.Inverter.PO1": return ioSystemPortsPowerType.Nuid_NetAc_Aux_Power_Convert_Inverter_PO1;
+                case "NetAc.Aux.Power.Isolate.SwitchAc.PI1": return ioSystemPortsPowerType.Nuid_NetAc_Aux_Power_Isolate_SwitchAc_PI1;
                 case "NetDc.Generator.Power.Isolate.Diode.PI1": return ioSystemPortsPowerType.Nuid_NetDc_Generator_Power_Isolate_Diode_PI1;
                 case "NetDc.Generator.Power.Source.Generator.PO1": return ioSystemPortsPowerType.Nuid_NetDc_Generator_Power_Source_Generator_PO1;
                 case "NetDc.Aux.Power.Source.Battery.PO1": return ioSystemPortsPowerType.Nuid_NetDc_Aux_Power_Source_Battery_PO1;
                 case "NetDc.Aux.Power.Convert.Charger.PO1": return ioSystemPortsPowerType.Nuid_NetDc_Aux_Power_Convert_Charger_PO1;
-                case "NetDc.Aux.Power.Isolate.SwitchDc.PO1": return ioSystemPortsPowerType.Nuid_NetDc_Aux_Power_Isolate_SwitchDc_PO1;
+                case "NetDc.Aux.Power.Isolate.Battery.SwitchDc.PO1": return ioSystemPortsPowerType.Nuid_NetDc_Aux_Power_Isolate_Battery_SwitchDc_PO1;
+                case "NetDc.Aux.Power.Isolate.Inverter.SwitchDc.PO1": return ioSystemPortsPowerType.Nuid_NetDc_Aux_Power_Isolate_Inverter_SwitchDc_PO1;
                 case "NetDc.Aux.Power.Isolate.Diode.PO1": return ioSystemPortsPowerType.Nuid_NetDc_Aux_Power_Isolate_Diode_PO1;
                 case "NetDc.Aux.Power.Network.Shunt.PI1": return ioSystemPortsPowerType.Nuid_NetDc_Aux_Power_Network_Shunt_PI1;
                 case "NetDc.Aux.Ops.Consume.Junction.PI1": return ioSystemPortsPowerType.Nuid_NetDc_Aux_Ops_Consume_Junction_PI1;
@@ -139,12 +148,12 @@ namespace ioSystemNetworkNet
                 case "NetDc.Motor.Power.Source.Battery.PO1": return ioSystemPortsPowerType.Nuid_NetDc_Motor_Power_Source_Battery_PO1;
                 case "NetDc.Motor.Power.Convert.Charger.PO2": return ioSystemPortsPowerType.Nuid_NetDc_Motor_Power_Convert_Charger_PO2;
                 case "NetDc.Motor.Power.Isolate.Diode.PO2": return ioSystemPortsPowerType.Nuid_NetDc_Motor_Power_Isolate_Diode_PO2;
-                case "NetDc.Motor.Power.Isolate.SwitchDc.PO1": return ioSystemPortsPowerType.Nuid_NetDc_Motor_Power_Isolate_SwitchDc_PO1;
+                case "NetDc.Motor.Power.Isolate.Battery.SwitchDc.PO1": return ioSystemPortsPowerType.Nuid_NetDc_Motor_Power_Isolate_Battery_SwitchDc_PO1;
                 case "NetDc.Motor.Power.Rotate.StartMotor.PI1": return ioSystemPortsPowerType.Nuid_NetDc_Motor_Power_Rotate_StartMotor_PI1;
                 case "NetDc.Level.Power.Source.Battery.PO1": return ioSystemPortsPowerType.Nuid_NetDc_Level_Power_Source_Battery_PO1;
                 case "NetDc.Level.Power.Convert.Charger.PO1": return ioSystemPortsPowerType.Nuid_NetDc_Level_Power_Convert_Charger_PO1;
                 case "NetDc.Level.Power.Convert.ConvDcDc.PO1": return ioSystemPortsPowerType.Nuid_NetDc_Level_Power_Convert_ConvDcDc_PO1;
-                case "NetDc.Level.Power.Isolate.SwitchDc.PO1": return ioSystemPortsPowerType.Nuid_NetDc_Level_Power_Isolate_SwitchDc_PO1;
+                case "NetDc.Level.Power.Isolate.Battery.SwitchDc.PO1": return ioSystemPortsPowerType.Nuid_NetDc_Level_Power_Isolate_Battery_SwitchDc_PO1;
                 case "NetDc.Level.Power.Isolate.Diode.PO3": return ioSystemPortsPowerType.Nuid_NetDc_Level_Power_Isolate_Diode_PO3;
                 case "NetDc.Level.Power.Network.Shunt.PO2": return ioSystemPortsPowerType.Nuid_NetDc_Level_Power_Network_Shunt_PO2;
                 case "NetDc.Level.Ops.Consume.Junction.PI1": return ioSystemPortsPowerType.Nuid_NetDc_Level_Ops_Consume_Junction_PI1;
